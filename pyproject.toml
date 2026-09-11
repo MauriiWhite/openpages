@@ -1,0 +1,17 @@
+[project]
+name = "openpages"
+version = "0.1.0"
+description = "Extrae la documentación de IBM OpenPages 9.0.0 en español a Markdown verificable."
+readme = "README.md"
+authors = [
+    { name = "Maurii White", email = "mauriblanco.s@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+openpages = "openpages.__main__:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"

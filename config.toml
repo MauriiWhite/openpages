@@ -1,0 +1,89 @@
+# Configuración de la extracción de IBM Documentation para OpenPages 9.0.0 en español.
+# Solo va acá lo que de verdad se ajusta.
+
+[source]
+# La clave de producto de IBM Docs. Es la única identidad estable del corpus: el número de
+# versión del título cambia entre fixpacks, `SSFUEU_9.0.0` no.
+product = "SSFUEU_9.0.0"
+lang = "es"
+host = "www.ibm.com"
+# La URL que ve una persona. Va en cada documento como procedencia, y no es la que se
+# descarga: el sitio es una SPA y la página HTML no trae el texto.
+site_url = "https://www.ibm.com/docs/es/openpages/9.0.0"
+
+[transport]
+# MEDIDO: el WAF de IBM responde 403 a HTTP/1.1 y 200 a HTTP/2 con las mismas cabeceras.
+# `curl` es el único cliente del sistema que habla h2, así que el transporte es curl.
+# 6 transferencias en paralelo multiplexadas sobre una conexión: 40 temas en 3,9 s.
+parallel = 6
+retries = 3
+timeout = 40
+
+# Los 12 nodos de primer nivel del índice de IBM. El `slug` es el directorio con que IBM
+# nombra la guía dentro del producto (`op_grc_admin`), no su título: el título está
+# traducido y cambia con la versión, el directorio no.
+#
+# `min_topics` es una cota inferior MEDIDA sobre el corpus (2026-09-11) con ~10% de holgura.
+# Cuenta los temas del índice MÁS los que solo están enlazados desde el texto: la guía del
+# administrador tiene 1.099 listados y 45 que IBM no lista. Caer por debajo significa que la
+# extracción de ESA guía se rompió.
+[[guides]]
+slug = "op_grc_admin"
+min_topics = 1029
+
+[[guides]]
+slug = "op_grc_installation"
+min_topics = 458
+
+[[guides]]
+slug = "op_grc_report_authors"
+min_topics = 226
+
+[[guides]]
+slug = "op_grc_user"
+min_topics = 225
+
+[[guides]]
+slug = "op_grc_solutions"
+min_topics = 104
+
+[[guides]]
+slug = "op_grc_new_features"
+min_topics = 82
+
+[[guides]]
+slug = "op_grc_upgrade_db2"
+min_topics = 60
+
+[[guides]]
+slug = "op_grc_upgrade_ora"
+min_topics = 58
+
+[[guides]]
+slug = "op_grc_dev"
+min_topics = 12
+
+[[guides]]
+slug = "op_grc_release_notes"
+min_topics = 1
+
+[[guides]]
+slug = "main"
+min_topics = 1
+
+[export]
+# Presupuesto de bytes por archivo. Cada guía va en UN archivo; solo se parte en partes
+# cuando se pasa de este tamaño, y nunca por la mitad de un capítulo.
+#
+# Un capítulo por archivo daba 158 archivos: imposible de administrar y sin ninguna ganancia
+# para el modelo, porque todo canal de ingesta trocea igual. Lo que sí decide el
+# rendimiento es que cada trozo diga dónde está, y de eso se encarga la línea de ubicación
+# bajo cada encabezado, no el número de archivos.
+#
+# 700 KB deja 17 archivos y entra cómodo en el límite por archivo de cualquier canal.
+# Bájalo si el tuyo es más estricto: reexportar cuesta menos de un segundo.
+max_bytes = 700000
+
+[paths]
+data = "data"
+output = "output"
