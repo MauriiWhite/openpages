@@ -1,34 +1,34 @@
 ---
-product: IBM OpenPages 9.0.0
-product_key: SSFUEU_9.0.0
+product: IBM OpenPages 9.1.3
+product_key: SSFUEU_9.1
 file: 8
 guide: Guía de soluciones
 covers: Guía de soluciones — Avisos
-chapters: 14
-topics: 116
-words: 66366
+chapters: 13
+topics: 105
+words: 62179
 tasks: 0
-concepts: 116
+concepts: 105
 references: 0
-tables: 48
+tables: 39
 code_blocks: 0
-figures: 44
+figures: 47
 applies_to: sin declarar
-updated: 2025-02-13
+updated: 2025-06-27
 lang: es
-source: https://www.ibm.com/docs/es/openpages/9.0.0?topic=solutions-guide
-extracted: 2026-09-11
+source: https://www.ibm.com/docs/es/openpages/9.1.x?topic=solutions-guide
+extracted: 2026-11-16
 ---
 
 # 8 · Guía de soluciones
 
-> **Qué hay en este archivo.** «Guía de soluciones» de IBM OpenPages 9.0.0, completa: 14 capítulos. 116 temas, 48 tablas, 44 figuras y 66.366 palabras.
+> **Qué hay en este archivo.** «Guía de soluciones» de IBM OpenPages 9.1.3, completa: 13 capítulos. 105 temas, 39 tablas, 47 figuras y 62.179 palabras.
 >
-> **Capítulos:** Guía de soluciones · IBM OpenPages GRC Solutions · Novedades · Tipos de objeto · Asistentes · Notificaciones · Informes · Activadores · Perfiles · Plantillas de funciones · Cálculos de GRC · GRC Workflow · y 2 más.
+> **Capítulos:** Guía de soluciones · IBM OpenPages GRC Solutions · Tipos de objeto · Asistentes · Notificaciones · Informes · Activadores · Perfiles · Plantillas de funciones · Cálculos de GRC · GRC Workflow · Características heredadas · y 1 más.
 >
-> **Si lo que buscas no está acá.** El índice de los 2.511 temas del producto, con su archivo y su ancla, está en `index.md`.
+> **Si lo que buscas no está acá.** El índice de los 2.417 temas del producto, con su archivo y su ancla, está en `index.md`.
 
-**Términos propios de este archivo:** vulneración, regulador, continuidad, tolerancia, conformidad, ciclo, rcsa, master, reguladora, métrica, maestro, activador, first, cerrado.
+**Términos propios de este archivo:** vulneración, regulador, continuidad, tolerancia, conformidad, ciclo, rcsa, reguladora, activador, métrica, first, cerrado, certificación, maestro.
 
 ## Índice de este archivo
 
@@ -48,15 +48,6 @@ extracted: 2026-09-11
   - [Utilización de OpenPages Business Continuity Management](#utilización-de-openpages-business-continuity-management)
   - [OpenPages Data Privacy Management](#openpages-data-privacy-management)
   - [OpenPages Gestión de riesgos para ESG](#openpages-gestión-de-riesgos-para-esg)
-- [Novedades](#novedades)
-  - [Características nuevas de la versión 9.0.0.0](#características-nuevas-de-la-versión-9000)
-  - [Características nuevas de la versión 8.3.0.2](#características-nuevas-de-la-versión-8302)
-  - [Características nuevas de la versión 8.3.0.1](#características-nuevas-de-la-versión-8301)
-  - [Nuevas características en la versión 8.3.0](#nuevas-características-en-la-versión-830)
-  - [Nuevas características en la versión 8.2.0.3](#nuevas-características-en-la-versión-8203)
-  - [Nuevas características en la versión 8.2.0.2](#nuevas-características-en-la-versión-8202)
-  - [Nuevas características en la versión 8.2.0.1](#nuevas-características-en-la-versión-8201)
-  - [Características nuevas de la versión 8.2.0](#características-nuevas-de-la-versión-820)
 - [Tipos de objeto](#tipos-de-objeto)
   - [Correlación de nombres de objeto](#correlación-de-nombres-de-objeto)
   - [Descripciones de tipo de objeto](#descripciones-de-tipo-de-objeto)
@@ -78,8 +69,6 @@ extracted: 2026-09-11
   - [Asistente Cerrar auditoría](#asistente-cerrar-auditoría)
   - [Asistente para añadir o modificar planificaciones](#asistente-para-añadir-o-modificar-planificaciones)
   - [Asistentes de hoja de registro horario](#asistentes-de-hoja-de-registro-horario)
-    - [Asistente de entrada de hoja de registro horario](#asistente-de-entrada-de-hoja-de-registro-horario)
-    - [Asistente de aprobación de hoja de registro horario](#asistente-de-aprobación-de-hoja-de-registro-horario)
 - [Notificaciones](#notificaciones)
   - [Notificación a través del boletín de problemas y acciones](#notificación-a-través-del-boletín-de-problemas-y-acciones)
   - [Notificación de incidente](#notificación-de-incidente)
@@ -152,7 +141,7 @@ extracted: 2026-09-11
 
 # Guía de soluciones
 
-`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=solutions-guide)
+`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=solutions-guide)
 
 La publicación *IBM OpenPages Guía de soluciones* está pensada para los usuarios que necesitan utilizar las soluciones que se proporcionan con OpenPages®. El contenido describe los tipos de objeto para cada solución. Identifica también los subcomponentes, campos calculados, asistentes, notificaciones, informes, activadores, perfiles, plantillas de funciones, vistas y flujos de trabajo compatibles con cada solución.
 
@@ -176,27 +165,27 @@ Para obtener una lista completa de los tipos de objeto proporcionados con cada s
 
 En esta guía se utilizan los siguientes acrónimos de soluciones:
 
-- BCM = IBM OpenPages Business Continuity Management
+- BCM = IBM OpenPages Gestión de la Continuidad del Negocio
 - DPM = IBM OpenPages Data Privacy privacidad de datos
-- ESG = IBM OpenPages Risk Management for ESG
+- ESG = IBM OpenPages Gestión de riesgos para ESG
 - FCM = IBM OpenPages Financial Controls Management
 - ITG = IBM OpenPages IT Governance
 - IAM = IBM OpenPages Internal Audit Management
 - MRG = IBM OpenPages Model Risk Governance
 - ORM = IBM OpenPages Operational Risk Management
 - PCM = IBM OpenPages Gestión de políticas
-- RCM = IBM OpenPages Regulatory Compliance Management
+- MCR = IBM OpenPages Regulatory Compliance Management
 - TPRM = IBM OpenPages Gestión de riesgos de terceros
 
 ## IBM OpenPages GRC Solutions
 
-`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-openpages-grc-solutions)
+`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-openpages-grc-solutions)
 
 IBM OpenPages® contiene las soluciones siguientes.
 
 ### OpenPages Financial Controls Management
 
-`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=solutions-openpages-financial-controls-management)
+`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=solutions-openpages-financial-controls-management)
 
 IBM OpenPages® Financial Controls Management (FCM) reduce el tiempo y los costes de recursos asociados con la conformidad continua de las normativas de informes financieros.
 
@@ -221,7 +210,7 @@ Este vídeo proporciona una descripción general de FCM:
 
 ### OpenPages Model Risk Governance
 
-`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=solutions-openpages-model-risk-governance)
+`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=solutions-openpages-model-risk-governance)
 
 IBM OpenPages® Model Risk Governance (MRG) da soporte a las organizaciones para organizar y centralizar su inventario de modelos.
 
@@ -281,7 +270,7 @@ Los perfiles MRG incluyen los campos que dan soporte a la integración.
 
 ### OpenPages Operational Risk Management
 
-`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=solutions-openpages-operational-risk-management)
+`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=solutions-openpages-operational-risk-management)
 
 IBM OpenPages® Operational Risk Management (ORM) combina la gestión de documentos y procesos con un sistema de supervisión y soporte de decisiones. IBM OpenPages Operational Risk Management permite a las organizaciones analizar, gestionar y mitigar el riesgo de una forma sencilla y eficiente.
 
@@ -299,7 +288,7 @@ IBM OpenPages Operational Risk Management incluye las siguientes característica
 
 #### IBM FIRST Risk Case Studies
 
-`Guía de soluciones › IBM OpenPages GRC Solutions › OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=management-first-risk-case-studies)
+`Guía de soluciones › IBM OpenPages GRC Solutions › OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=management-first-risk-case-studies)
 
 La base de datos IBM FIRST Risk Case Studies es una colección de eventos de pérdida de riesgo operativo públicos externos en forma de estudios de caso de riesgo.
 
@@ -307,7 +296,7 @@ Los sucesos de IBM FIRST Risk Case Studies están dirigidos al sector financiero
 
 La mayoría de los sucesos de IBM FIRST Risk Case Studies capturan información cuantitativa, así como un análisis cualitativo detallado. Esta información cuantitativa toma la forma de importes de pérdida que se capturan en el momento del evento.
 
-IBM FIRST Risk Case Studies ofrece una suscripción a un complemento de datos renovado diariamente con la base de datos IBM FIRST Risk Case Studies en un formato compatible con la característica FastMap .Los clientes de IBM OpenPages® pueden utilizar el complemento de datos IBM FIRST Risk Case Studies FastMap para proporcionar a los usuarios finales acceso a los estudios de caso de IBM FIRST Risk Case Studies dentro de la aplicación OpenPages . Una vez cargados los datos en OpenPages, los usuarios finales pueden examinar y asociar los estudios de caso de IBM FIRST Risk Case Studies a objetos como Análisis de escenario, Riesgos y Eventos de pérdida. Póngase en contacto con el representante de la cuenta de IBM para obtener detalles sobre cómo obtener el complemento de datos IBM FIRST Risk Case Studies para OpenPages.
+IBM FIRST Risk Case Studies ofrece una suscripción a un complemento de datos renovado diariamente con la base de datos IBM FIRST Risk Case Studies en un formato compatible con la característica FastMap . Los clientes de IBM OpenPages® pueden utilizar el complemento de datos IBM FIRST Risk Case Studies FastMap para proporcionar a los usuarios finales acceso a los estudios de caso de IBM FIRST Risk Case Studies dentro de la aplicación OpenPages . Una vez cargados los datos en OpenPages, los usuarios finales pueden examinar y asociar los estudios de caso de IBM FIRST Risk Case Studies a objetos como Análisis de escenario, Riesgos y Eventos de pérdida. Póngase en contacto con el representante de la cuenta de IBM para obtener detalles sobre cómo obtener el complemento de datos IBM FIRST Risk Case Studies para OpenPages.
 
 Si se suscribe al servicio de base de datos IBM FIRST Risk Case Studies , IBM FIRST Risk Case Studies proporciona un archivo FastMap compatible para una carga sin fisuras de datos de IBM FIRST Risk Case Studies a IBM OpenPages Operational Risk Management.
 
@@ -315,7 +304,7 @@ De forma predeterminada, IBM OpenPages Operational Risk Management incluye el pe
 
 ### OpenPages Policy Management
 
-`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=solutions-openpages-policy-management)
+`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=solutions-openpages-policy-management)
 
 IBM OpenPages® Policy Management (PCM) es una solución de software de gestión de conformidad empresarial que reduce el coste, la complejidad y la naturaleza engorrosa de la conformidad con varios mandatos normativos y políticas corporativas.
 
@@ -348,7 +337,7 @@ Una vez cargados los datos de la política, un flujo de trabajo preconstruido pe
 
 ### OpenPages IT Governance
 
-`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=solutions-openpages-it-governance)
+`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=solutions-openpages-it-governance)
 
 IBM OpenPages® IT Governance (ITG) alinea los servicios de TI, los riesgos y las políticas con las iniciativas empresariales corporativas, la estrategia y los estándares operativos.
 
@@ -365,17 +354,9 @@ Sus principales características son:
 - Indicadores clave de rendimiento y de riesgo
 - Informes, supervisión y análisis
 
-#### RiskLens Conector
-
-IBM OpenPages IT Governance incluye una integración con la plataforma de análisis de cuantificación de riesgos cibernéticos RiskLens.
-
-En la plataforma RiskLens , los usuarios registran los activos y amenazas incluidos en los escenarios y rellenan estos objetos de acuerdo con el método FAIR utilizando los ayudantes de datos proporcionados en RiskLens para obtener orientación. La integración con OpenPages permite a un usuario de OpenPages enviar un registro para su inclusión en una evaluación de riesgo en RiskLens. El objeto se puede asociar a uno o más escenarios dentro de RiskLens y se realizan simulaciones de Monte Carlo. Después de completar la simulación, y de acuerdo con el trabajo planificado en OpenPages, las métricas de exposición a pérdidas generadas por las simulaciones de Monte Carlo se incorporan a OpenPages para su uso en toda la aplicación. El trabajo planificado en OpenPages también extrae datos actualizados de RiskLens cuando se modifican las evaluaciones de riesgos.
-
-Para obtener información sobre cómo configurar el conector RiskLens , consulte la publicación  [*IBM OpenPages Guía del administrador*](3.5-guia-del-administrador.md#ibm-openpages-it-governance-con-risklens) .
-
 ### OpenPages Internal Audit Management
 
-`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=solutions-openpages-internal-audit-management)
+`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=solutions-openpages-internal-audit-management)
 
 IBM OpenPages® Internal Audit Management (IAM) proporciona a los auditores internos una vista configurada de forma exclusiva del gobierno organizativo, el riesgo y la conformidad (GRC), lo que permite a la auditoría complementar y coexistir con actividades más amplias de gestión del riesgo y la conformidad.
 
@@ -398,7 +379,7 @@ Sus principales características son:
 
 ### Gestión de problemas y corrección
 
-`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=solutions-issue-management-remediation)
+`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=solutions-issue-management-remediation)
 
 El proceso de Gestión de problemas y corrección (IMR) es un componente esencial de cualquier programa de gestión de riesgos. Una infraestructura IMR sólida ofrece reconocimiento, validación y transparencia al programa de gestión de riesgos al que da soporte.
 
@@ -458,7 +439,7 @@ Existen varios informes de problemas y de acciones a disposición de todos los u
 
 ### Indicadores clave de riesgo e Indicadores clave de rendimiento (KRI y KPI)
 
-`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ogs-key-risk-indicators-key-performance-indicators-kris-kpis)
+`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ogs-key-risk-indicators-key-performance-indicators-kris-kpis)
 
 Los indicadores clave de riesgo (KRI) y los indicadores clave de rendimiento (KPis) están disponibles para las soluciones siguientes: IBM OpenPages Operational Risk Management, IBM OpenPages IT Governancey IBM OpenPages Business Continuity Management.
 
@@ -482,7 +463,7 @@ Las principales fases dentro del ciclo de vida de los indicadores clave son la d
 
 ### OpenPages Gestión de riesgos de terceros
 
-`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=solutions-openpages-third-party-risk-management)
+`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=solutions-openpages-third-party-risk-management)
 
 IBM OpenPages® Third Party Risk Management (TPRM) da soporte a las empresas en la evaluación y el análisis de riesgos asociados a los proveedores con los que hacen negocios.
 
@@ -510,8 +491,6 @@ OpenPages Third Party Risk Management incluye un conector para RapidRatings.
 
 El conector RapidRatings le permite importar detalles de proveedor y evaluaciones financieras de RapidRatings a objetos de proveedor en OpenPages. A continuación, puede ver las evaluaciones en OpenPages.
 
-Para obtener información sobre cómo configurar el conector Supply Wisdom , consulte la publicación  [*IBM OpenPages Guía del administrador*](3.6-guia-del-administrador.md#conector-de-rapidratings-para-ibm-openpages-third-party-risk-management) .
-
 #### RiskRecon Conector
 
 OpenPages Third Party Risk Management incluye un conector para RiskRecon.
@@ -528,17 +507,9 @@ El conector SecurityScorecard le permite importar valoraciones de seguridad de S
 
 Para obtener información sobre cómo configurar el conector SecurityScorecard , consulte la publicación  [*IBM OpenPages Guía del administrador*](3.6-guia-del-administrador.md#conector-de-securityscorecard-para-ibm-openpages-third-party-risk-management) .
 
-#### Supply Wisdom Conector
-
-OpenPages Third Party Risk Management incluye un conector para Supply Wisdom.
-
-El conector Supply Wisdom le permite importar detalles de proveedor, evaluaciones, alertas y ubicaciones de Supply Wisdom en objetos Proveedor en OpenPages. A continuación, puede ver las evaluaciones en OpenPages.
-
-Para obtener información sobre cómo configurar el conector Supply Wisdom , consulte la publicación  [*IBM OpenPages Guía del administrador*](3.6-guia-del-administrador.md#supply-wisdom-conector) .
-
 ### OpenPages Regulatory Compliance Management
 
-`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=solutions-openpages-regulatory-compliance-management)
+`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=solutions-openpages-regulatory-compliance-management)
 
 IBM OpenPages® Regulatory Compliance Management (RCM) da soporte a las organizaciones para desglosar las normativas en un catálogo de requisitos, evaluar su impacto en la empresa y crear tareas accionables.
 
@@ -558,7 +529,7 @@ IBM OpenPages Regulatory Compliance Management incluye un conector para Ascent R
 
 El conector Ascent permite la ingestión directa de canales de información normativos desde Ascent Reg Tech en RCM.
 
-IBM OpenPages habilita la ingestión directa de nuevas reglas, cambios de reglas y obligaciones de Ascent Reg Tech en los objetos Mandato, Submandato y Requisito en OpenPages. Para los requisitos, están disponibles las versiones pasadas y futuras del texto regulador.
+OpenPages permite la incorporación directa de nuevas normas, cambios de normas y obligaciones desde Ascent Reg Tech a los objetos Mandato, Submandato y Requisito en OpenPages. Para los requisitos, están disponibles las versiones pasadas y futuras del texto regulador.
 
 Para obtener información sobre cómo configurar el conector Ascent , consulte la publicación *IBM OpenPages Guía del administrador*.
 
@@ -572,23 +543,23 @@ El objeto de evento regulador de Reg-Track permite la ingesta directa de canales
 
   Los usuarios pueden asociar su propia taxonomía a la taxonomía Reg-Track que se utiliza para eventos reguladores.
 
-  Los usuarios pueden rellenar campos en un registro de evento regulador que sean más coherentes con otros valores que se utilizan en IBM OpenPages. Los puntos de datos convertidos están disponibles para su uso de la misma forma que los puntos de datos existentes en el registro de evento regulador como, por ejemplo, para establecer condiciones dentro del motor de reglas o en un flujo de trabajo.
+  Los usuarios pueden rellenar campos en un registro de evento regulador que sean más coherentes con otros valores que se utilizan en OpenPages. Los puntos de datos convertidos están disponibles para su uso de la misma forma que los puntos de datos existentes en el registro de evento regulador como, por ejemplo, para establecer condiciones dentro del motor de reglas o en un flujo de trabajo.
 
-- **Reg-Track Motor de reglas**
+- **Motor de reglas**
 
-  El motor de reglas de IBM OpenPages ayuda a los usuarios a manejar la afluencia diaria de sucesos normativos, a direccionarlos automáticamente a los usuarios adecuados de su organización e iniciar los flujos de trabajo necesarios.
+  El motor de reglas de OpenPages ayuda a los usuarios a manejar la afluencia diaria de sucesos normativos, a direccionarlos automáticamente a los usuarios adecuados de su organización e iniciar los flujos de trabajo necesarios.
 
   Los datos de los canales de información de Reg-Track se cargan en OpenPagesy, a continuación, pasan a través del motor de reglas. Un evento regulador puede activar varias reglas si se cumple más de una de las condiciones de una regla.
 
-  Los usuarios pueden acceder al motor de reglas a través de un enlace en la página **Eventos reguladores Reg-Track**.
+  Para acceder al motor de reglas, haga clic en el **menú de administración abierto ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Reglas de eventos normativos**.
 
 - **Flujos de trabajo de ejemplo**
 
-  IBM OpenPages incluye flujos de trabajo de ejemplo para procesar eventos reguladores Reg-Track. Para obtener más información, consulte [Flujos de trabajo de ejemplo](#flujos-de-trabajo-de-ejemplo).
+  OpenPages incluye flujos de trabajo de ejemplo para procesar eventos reguladores Reg-Track. Para más información, consulte [Flujos de trabajo de ejemplo](#flujos-de-trabajo-de-ejemplo).
 
 - **Reglas listas para usar para el proceso de eventos reguladores de Reg-Track**
 
-  IBM OpenPages incluye reglas de ejemplo para los eventos reguladores de Reg-Track entrantes. Estas reglas se pueden modificar para que coincidan con la metodología de una organización para procesar las alertas publicadas por agencias reguladoras.
+  OpenPages incluye reglas de ejemplo para los eventos reguladores de Reg-Track entrantes. Estas reglas se pueden modificar para que coincidan con la metodología de una organización para procesar las alertas publicadas por agencias reguladoras.
 
 Para obtener información sobre cómo configurar el conector Reg-Track , consulte la publicación *IBM OpenPages Guía del administrador*.
 
@@ -602,23 +573,23 @@ El objeto Evento regulador TRRI permite la ingestión directa de canales de info
 
   Los usuarios pueden asociar su propia taxonomía a la taxonomía de Thomson Reuters que se utiliza para los eventos reguladores.
 
-  Los usuarios pueden rellenar campos en un registro de evento regulador que sean más coherentes con otros valores que se utilizan en IBM OpenPages. Los puntos de datos convertidos están disponibles para su uso de la misma forma que los puntos de datos existentes en el registro de evento regulador como, por ejemplo, para establecer condiciones dentro del motor de reglas o en un flujo de trabajo.
+  Los usuarios pueden rellenar campos en un registro de evento regulador que sean más coherentes con otros valores que se utilizan en OpenPages. Los puntos de datos convertidos están disponibles para su uso de la misma forma que los puntos de datos existentes en el registro de evento regulador como, por ejemplo, para establecer condiciones dentro del motor de reglas o en un flujo de trabajo.
 
-- **Motor de reglas TRRI**
+- **Motor de reglas**
 
-  El motor de reglas de IBM OpenPages ayuda a los usuarios a manejar la afluencia diaria de sucesos normativos, a direccionarlos automáticamente a los usuarios adecuados de su organización e iniciar los flujos de trabajo necesarios.
+  El motor de reglas de OpenPages ayuda a los usuarios a manejar la afluencia diaria de sucesos normativos, a direccionarlos automáticamente a los usuarios adecuados de su organización e iniciar los flujos de trabajo necesarios.
 
   Los datos del canal de información de Thomson Reuters Regulatory Intelligence (TRRI) se cargan en OpenPagesy, a continuación, pasan a través del motor de reglas. Un evento regulador puede activar varias reglas si se cumple más de una de las condiciones de una regla.
 
-  Los usuarios pueden acceder al motor de reglas a través de un enlace en la página **Eventos reguladores TRRI**.
+  Para acceder al motor de reglas, haga clic en el **menú de administración abierto ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Reglas de eventos normativos**.
 
 - **Flujos de trabajo de ejemplo**
 
-  IBM OpenPages incluye flujos de trabajo de ejemplo para procesar eventos reguladores TRRI. Para obtener más información, consulte [Flujos de trabajo de ejemplo](#flujos-de-trabajo-de-ejemplo).
+  OpenPages incluye flujos de trabajo de ejemplo para procesar eventos reguladores TRRI. Para más información, consulte [Flujos de trabajo de ejemplo](#flujos-de-trabajo-de-ejemplo).
 
 - **Reglas predefinidas para el proceso de eventos reguladores TRRI**
 
-  IBM OpenPages incluye reglas de ejemplo para los eventos reguladores TRRI entrantes. Estas reglas se pueden modificar para que coincidan con la metodología de una organización para procesar las alertas publicadas por agencias reguladoras.
+  OpenPages incluye reglas de ejemplo para los eventos reguladores TRRI entrantes. Estas reglas se pueden modificar para que coincidan con la metodología de una organización para procesar las alertas publicadas por agencias reguladoras.
 
 - **Biblioteca regulatoria**
 
@@ -636,33 +607,33 @@ El objeto de evento regulador WK permite la ingestión directa de canales de inf
 
   Los usuarios pueden asociar su propia taxonomía a la taxonomía Wolters Kluwer que se utiliza para eventos reguladores.
 
-  Los usuarios pueden rellenar campos en un registro de evento regulador que sean más coherentes con otros valores que se utilizan en IBM OpenPages. Los puntos de datos convertidos están disponibles para su uso de la misma forma que los puntos de datos existentes en el registro de evento regulador como, por ejemplo, para establecer condiciones dentro del motor de reglas o en un flujo de trabajo.
+  Los usuarios pueden rellenar campos en un registro de evento regulador que sean más coherentes con otros valores que se utilizan en OpenPages. Los puntos de datos convertidos están disponibles para su uso de la misma forma que los puntos de datos existentes en el registro de evento regulador como, por ejemplo, para establecer condiciones dentro del motor de reglas o en un flujo de trabajo.
 
-- **Motor de reglas WK**
+- **Motor de reglas**
 
   El motor de reglas ayuda a los usuarios a manejar el flujo diario de eventos reguladores, direccionarlos automáticamente a los usuarios correctos en su organización e iniciar los flujos de trabajo necesarios.
 
   Los datos de Wolters Kluwer se cargan en OpenPagesy, a continuación, pasan a través del motor de reglas. Un evento regulador puede activar varias reglas si se cumple más de una de las condiciones de una regla.
 
-  Los usuarios pueden acceder al motor de reglas a través de un enlace en la página **Eventos reguladores WK**.
+  Para acceder al motor de reglas, haga clic en el **menú de administración abierto ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Reglas de eventos normativos**.
 
 - **Flujos de trabajo de ejemplo**
 
-  IBM OpenPages incluye flujos de trabajo de ejemplo para procesar eventos reguladores de WK. Para obtener más información, consulte la publicación *IBM OpenPages Guía de soluciones*.
+  OpenPages incluye flujos de trabajo de ejemplo para procesar eventos reguladores de WK. Para obtener más información, consulte la publicación *IBM OpenPages Guía de soluciones*.
 
 - **Reglas predefinidas para el proceso de eventos reguladores WK**
 
-  IBM OpenPages incluye reglas de ejemplo para los eventos reguladores WK entrantes. Estas reglas se pueden modificar para que coincidan con la metodología de una organización para procesar las alertas publicadas por agencias reguladoras.
+  OpenPages incluye reglas de ejemplo para los eventos reguladores WK entrantes. Estas reglas se pueden modificar para que coincidan con la metodología de una organización para procesar las alertas publicadas por agencias reguladoras.
 
 - **Biblioteca regulatoria**
 
-  IBM OpenPages habilita la ingestión directa de un canal de información de biblioteca reguladora desde Wolters Kluwer en los objetos Mandato y Submandato de RCM. En los casos en los que Wolters Kluwer identifica las normativas afectadas por un evento regulador, los mandatos y submandatos afectados se asocian automáticamente tras la ingestión.
+  OpenPages habilita la ingestión directa de un canal de información de biblioteca reguladora desde Wolters Kluwer en los objetos Mandato y Submandato de RCM. En los casos en los que Wolters Kluwer identifica las normativas afectadas por un evento regulador, los mandatos y submandatos afectados se asocian automáticamente tras la ingestión.
 
 Para obtener información sobre cómo configurar el conector Wolters Kluwer , consulte la publicación *IBM OpenPages Guía del administrador*.
 
 ### Utilización de OpenPages Business Continuity Management
 
-`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=solutions-using-openpages-business-continuity-management)
+`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=solutions-using-openpages-business-continuity-management)
 
 IBM OpenPages® Business Continuity Management (BCM) es utilizado por una organización, o grupo, para mantener o reanudar un nivel predeterminado de operaciones durante o después de un suceso disruptivo. Se identifican todos los riesgos que pueden afectar potencialmente al negocio durante o después de un suceso.
 
@@ -712,7 +683,7 @@ Para obtener una descripción general del objeto Plan de prueba de continuidad d
 
 ### OpenPages Data Privacy Management
 
-`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=solutions-openpages-data-privacy-management)
+`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=solutions-openpages-data-privacy-management)
 
 La solución IBM OpenPages® Data Privacy Management (DPM) es utilizada por una organización para ayudar a cumplir con las normativas de privacidad de datos.
 
@@ -744,7 +715,7 @@ El panel de control de maestro de DPM proporciona a los profesionales de privaci
 
 *Figura 1. Panel de control de DPM*
 
-![Se visualiza un panel de control. El panel de control incluye un panel denominado Mis tareas con una barra codificada por colores que muestra el estado de las tareas. Otro panel muestra un gráfico circular colorido de Recursos por ubicación física y Recursos por jurisdicción.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/dpm_dashboard.png)
+![Se visualiza un panel de control. El panel de control incluye un panel denominado Mis tareas con una barra codificada por colores que muestra el estado de las tareas. Otro panel muestra un gráfico circular colorido de Recursos por ubicación física y Recursos por jurisdicción.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/dpm_dashboard.png)
 
 #### Flujos de trabajo de ejemplo
 
@@ -752,7 +723,7 @@ DPM incluye dos flujos de trabajo de ejemplo: Evaluación de impacto de privacid
 
 ### OpenPages Gestión de riesgos para ESG
 
-`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=solutions-openpages-risk-management-esg)
+`Guía de soluciones › IBM OpenPages GRC Solutions` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=solutions-openpages-risk-management-esg)
 
 IBM OpenPages® Risk Management for ESG ayuda a las organizaciones a gobernar y gestionar sus programas ESG (medioambientales, sociales y de gobierno corporativo).
 
@@ -765,191 +736,10 @@ IBM OpenPages Risk Management for ESG da soporte a los siguientes casos de uso:
 - Almacenar una biblioteca de requisitos normativos y divulgaciones de ESG
 - Conformidad de pruebas con los requisitos de informes externos
 - Exploración de horizonte de ESG
-- Puntuaciones de ESG de superficie en proveedores (Supply Wisdom)
-
-#### OpenPages Third Party Risk Management y el conector Supply Wisdom
-
-Puede utilizar OpenPages Third Party Risk Management y Supply Wisdom junto con IBM OpenPages Risk Management for ESG.
-
-El conector Supply Wisdom le permite importar detalles de proveedor, evaluaciones, alertas y ubicaciones de Supply Wisdom en objetos Proveedor en OpenPages. A continuación, puede ver las valoraciones de ESG de sus proveedores en OpenPages.
-
-Para utilizar estas prestaciones, necesita los componentes siguientes:
-
-- IBM OpenPages Gestión de riesgos para ESG
-- OpenPages Gestión de riesgos de terceros
-- El conector de Supply Wisdom
-
-Para obtener información sobre cómo configurar el conector Supply Wisdom , consulte la publicación  [*IBM OpenPages Guía del administrador*](3.6-guia-del-administrador.md#supply-wisdom-conector).
-
-## Novedades
-
-`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=sg-whats-new)
-
-Hay nuevas características disponibles para este release de soluciones de IBM OpenPages® .
-
-Para obtener información sobre todas las características nuevas de este release, consulte la publicación *IBM OpenPages New Features Guide*.
-
-### Características nuevas de la versión 9.0.0.0
-
-`Guía de soluciones › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=wn-version-9000)
-
-Las nuevas características de IBM OpenPages® versión 9.0.0.0 se describen en las secciones siguientes.
-
-#### Mejoras en las soluciones
-
-**Tabla 1. Mejoras en las soluciones**
-
-| Para obtener información sobre... | Consulte el tema... |
-| --- | --- |
-| Las mejoras en IBM OpenPages Policy Management incluyen:<br>• Un nuevo flujo de trabajo: Retirar flujo de trabajo de política<br>• Una nueva guía sobre la solución | [IBM OpenPages Flujos de trabajo de gestión de políticas (PCM)](#ibm-openpages-policy-management-pcm) [OpenPages Documento de solución de gestión de políticas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/pdf/OpenPages_PCM_Solution_v9.pdf) |
-| Las mejoras de IBM OpenPages Data Privacy Management incluyen:<br>• Nuevos perfiles: **encargado de datos de DPM** y **responsable de privacidad de DPM**<br>• Nuevos paneles de control y actualizaciones en el panel de control maestro<br>• Campos nuevos en el tipo de objeto Activo | [Perfiles](#perfiles) |
-| Las mejoras en IBM OpenPages Financial Controls Management incluyen:<br>• Nuevos cálculos<br>• Informes nuevos<br>• Un panel de control actualizado | [Cálculos de ejemplo](#cálculos-de-ejemplo) [Informes de Gestión de controles financieros](#informes-de-gestión-de-controles-financieros) |
-| Las mejoras en IBM OpenPages IT Governance incluyen:<br>Un nuevo tipo de objeto: amenaza<br>Nuevos cálculos:<br>• Activo-Calificación de vulnerabilidad<br>• Sistema-Calificación de vulnerabilidad<br>• Vulnerabilidad-Evaluación de amenazas<br>Nuevos flujos de trabajo:<br>• Revisión de vulnerabilidad<br>• Evaluación de amenazas<br>• Exención de TI<br>• Revisión de caducidad de exención de TI | [Tipos de objeto](#tipos-de-objeto) [Cálculos de ejemplo](#cálculos-de-ejemplo) [IBM OpenPages IT Governance (ITG)](#flujos-de-trabajo-de-ibm-openpages-it-governance-itg) |
-| Las mejoras de IBM OpenPages Internal Audit Management incluyen:<br>• El nuevo tipo de objeto: **SummaryAuditPlan**<br>• El nuevo cálculo: Resumen de presupuesto y planes de plan de auditoría<br>• Un panel de control actualizado | [Descripciones de tipos de objeto](#descripciones-de-tipo-de-objeto) [Cálculos de ejemplo](#cálculos-de-ejemplo) |
-| Las mejoras de IBM OpenPages Regulatory Compliance Management incluyen:<br>• El nuevo tipo de objeto: **RegulatoryEvent**<br>• El nuevo flujo de trabajo: **Activar cambio-Regulador** | [Descripciones de tipos de objeto](#descripciones-de-tipo-de-objeto) [IBM OpenPages Regulatory Compliance Management (RCM)](#ibm-openpages-regulatory-compliance-management-rcm) |
-| Las mejoras en IBM OpenPages Model Risk Governance incluyen:<br>• Nuevos campos y grupos de campos en los tipos de objeto Caso de uso de modelo (Registro), Modelo y Despliegue de modelo (Uso)<br>• Nuevos flujos de trabajo: **Despliegue de modelo**,**Solicitud de caso de uso de modelo**y **Ciclo de vida de modelo**<br>• Vistas actualizadas<br>• Paneles de instrumentos actualizados | [Flujos de trabajo deIBM OpenPages Model Risk Governance (MRG)](#flujos-de-trabajo-de-ibm-openpages-model-risk-governance-mrg) |
-| Los nuevos tipos de objeto **Subcontractor** y **VendorSubsidiary**, que pueden utilizarse con OpenPages Third Party Risk Management | [Descripciones de tipo de objeto](#descripciones-de-tipo-de-objeto) |
-| Las etiquetas de los objetos siguientes han cambiado:<br>• `Register` -la etiqueta es ahora Caso de uso de modelo<br>• `RiskEntity` -la etiqueta es ahora Sistema<br>• `Resource` -la etiqueta es ahora Activo<br>• `ResourceLink` -la etiqueta es ahora Enlace de activo<br>Los nombres de objeto no han cambiado. | [Correlación de nombres de objeto](#correlación-de-nombres-de-objeto) |
-| El superadministrador (`OpenPagesAdministrator`) tiene acceso a los perfiles maestros de soluciones de forma predeterminada. | [Perfiles](#perfiles) |
-| Los siguientes tipos de objeto ya no se incluyen en instalaciones nuevas:<br>• Modelo de capital<br>• Resultado del modelo de capital | [Tipos de objetos existentes](#tipos-de-objetos-existentes) |
-| Los siguientes campos computados son ahora campos URL :<br>• OPSS-RA:RCSA Completion Helper<br>• OPSS-RA:RCSA Process Alignment Helper |  |
-| Cuando realiza una instalación nueva de soluciones, los usuarios de ejemplo para las soluciones ya no se crean. |  |
-
-### Características nuevas de la versión 8.3.0.2
-
-`Guía de soluciones › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=wn-version-8302)
-
-Las características nuevas de IBM OpenPages® versión 8.3.0.2 se describen en las secciones siguientes.
-
-#### Mejoras en las soluciones
-
-**Tabla 1. Mejoras en las soluciones**
-
-| Para obtener información sobre... | Consulte el tema... |
-| --- | --- |
-| Se ha introducido la nueva solución, IBM OpenPages Risk Management for ESG.<br>Se han añadido los elementos siguientes:<br>• Tipos de objeto: Disclosure Statement, Product, Strategic Objective<br>• Vistas<br>• Informes<br>• Paneles de control<br>• Perfiles<br>• Plantillas de funciones<br>• Cálculos<br>• Flujos de trabajo | [Descripciones de tipo de objeto](#descripciones-de-tipo-de-objeto)<br>[Gestión de riesgos para informes ESG](#informes-de-gestión-de-riesgos-para-esg)<br>[Perfiles](#perfiles)<br>[Lista de plantillas de funciones](#lista-de-plantillas-de-funciones)<br>[Cálculos de ejemplo](#cálculos-de-ejemplo)<br>[IBM OpenPages Gestión de riesgos para flujos de trabajo ESG](#flujos-de-trabajo-de-ibm-openpages-risk-management-for-esg) |
-| El nuevo tipo de objeto, **Versión de requisito**, que se puede utilizar con IBM OpenPages Regulatory Compliance Management | [Descripciones de tipo de objeto](#descripciones-de-tipo-de-objeto) |
-
-### Características nuevas de la versión 8.3.0.1
-
-`Guía de soluciones › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=wn-version-8301)
-
-Las características nuevas de IBM OpenPages® versión 8.3.0.1 se describen en las secciones siguientes.
-
-#### Mejoras en las soluciones
-
-**Tabla 1. Mejoras en las soluciones**
-
-| Para obtener información sobre... | Consulte el tema... |
-| --- | --- |
-| Los cambios en IBM OpenPages Regulatory Compliance Management incluyen:<br>• El nuevo tipo de objeto: Ascent Información de soporte | [Tipos de objeto](#tipos-de-objeto) |
-| Los cambios en OpenPages Third Party Risk Management incluyen:<br>• Integración con RiskRecon para importar proveedores, puntuaciones y valoraciones<br>• Integración con RapidRatings para importar proveedores, puntuaciones y valoraciones<br>• Los nuevos tipos de objeto: RiskRecon Ratings y RapidRatings Ratings<br>• Nuevos paneles de instrumentos que incluyen paneles para RapidRatings y RiskRecon<br>• Nuevos perfiles: VRM RiskRecon Master y OpenPages RapidRatings  Master<br>• Nuevas plantillas de funciones: TPRM RapidRatings -Todos los permisos y TPRM RapidRatings -Todos los datos-Administración limitada | [OpenPages Gestión de riesgos de terceros](#openpages-gestión-de-riesgos-de-terceros) [Tipos de objeto](#tipos-de-objeto) [Perfiles](#perfiles) [Plantillas de roles](#plantillas-de-funciones) |
-
-### Nuevas características en la versión 8.3.0
-
-`Guía de soluciones › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=wn-version-8300)
-
-Las nuevas características de IBM OpenPages® versión 8.3.0 se describen en las secciones siguientes.
-
-#### Mejoras en las soluciones
-
-**Tabla 1. Mejoras en las soluciones**
-
-| Para obtener información sobre... | Consulte el tema... |
-| --- | --- |
-| Los cambios en IBM OpenPages Regulatory Compliance Management incluyen:<br>• Los nuevos tipos de objeto: Evaluación de temas de conformidad, Evaluación del plan de conformidad, Obligación, Evaluación de la obligación y Valor de evaluación de la obligación<br>• Nuevos cálculos<br>• Nuevos flujos de trabajo<br>• Soporte para una nueva asociación de tipo de objeto: los tipos de objeto de política y procedimiento ahora pueden tener un objeto de evaluación de requisitos como padre.<br>• Soporte para la integración con RiskLens, incluyendo un nuevo perfil y un nuevo trabajo en el Programador | [Tipos de objeto](#tipos-de-objeto) [Cálculos de GRC](#cálculos-de-grc) [IBM OpenPages Regulatory Compliance Management (RCM)](#ibm-openpages-regulatory-compliance-management-rcm) [Perfiles](#perfiles) |
-| Los cambios en IBM OpenPages Model Risk Governance incluyen:<br>• Los nuevos tipos de objeto: Versión de modelo, Obligación<br>• Cambios en las etiquetas de objeto: la tarjeta de puntuación de modelo es ahora la tarjeta de puntuación de riesgo de modelo, el registro es ahora la entrada de modelo y el uso es ahora el despliegue del modelo<br>• El nuevo cálculo, Actualización del valor de la métrica, sustituye al flujo de trabajo de Información del último valor de la métrica de actualización de OpenScale<br>• El nuevo cálculo, Tarjeta de puntuación de riesgo, sustituye al desencadenante de la tarjeta de puntuación de riesgo de modelo<br>• Dos cálculos adicionales: Siguiente fecha de recopilación de métricas y Valor de métrica - Actualización de la métrica padre<br>• Nuevos flujos de trabajo<br>• Las etiquetas de los campos, grupos de campos y filtros utilizan ahora el nuevo nombre de OpenScale,, que es IBM Watson® OpenScale | [Tipos de objeto](#tipos-de-objeto) [Cálculos de GRC](#cálculos-de-grc) [IBM OpenPages Model Risk Governance (MRG)](#flujos-de-trabajo-de-ibm-openpages-model-risk-governance-mrg) |
-| Los cambios en IBM OpenPages Business Continuity Management incluyen:<br>• Los nuevos tipos de objeto: Servicio empresarial y Evaluación de servicios empresariales<br>• Tipos de objeto adicionales que ahora están disponibles para la solución: KPI, Valor de KPI, KRI, Valor de KRI, Análisis de escenario, Resultado de escenario<br>• Soporte para nuevas asociaciones de tipo de objeto<br>• Nuevos cálculos<br>• Nuevos flujos de trabajo<br>• Panel de control nuevo<br>• Integración con Supply Wisdom para proporcionar alertas en el objeto Suceso de continuidad de negocio y datos de riesgo dentro del objeto Ubicación<br>• Un nuevo perfil, BCM Supply Wisdom Master | [Tipos de objeto](#tipos-de-objeto) [Cálculos de ejemplo](#cálculos-de-ejemplo) [IBM OpenPages Flujos de trabajo de Business Continuity Management (BCM)](#flujos-de-trabajo-de-ibm-openpages-business-continuity-management-bcm) [Perfiles](#perfiles) |
-| Los cambios en IBM OpenPages Gestión de riesgos de terceros incluyen:<br>• El nuevo tipo de objeto, Supply Wisdom Alerta padre<br>• Nuevos flujos de trabajo<br>• Un nuevo perfil, VRM Supply Wisdom Master | [Tipos de objeto](#tipos-de-objeto) [IBM OpenPages Flujos de trabajo de gestión de riesgos de terceros (TPRM)](#flujos-de-trabajo-de-ibm-openpages-third-party-risk-management-tprm) [Perfiles](#perfiles) |
-| Los cambios en IBM OpenPages Policy Management incluyen:<br>• El nuevo tipo de objeto: Obligación<br>• El nuevo flujo de trabajo Revisión y aprobación de políticas<br>• El nuevo cálculo de comentario de revisión de política<br>• El nuevo panel de control del propietario de PCM<br>• Los valores predeterminados de algunos valores en `Solutions/PCM` se han actualizado para dar soporte al nuevo flujo de trabajo Revisión y aprobación de políticas | [Tipos de objeto](#tipos-de-objeto) [IBM OpenPages Policy Management (PCM)](#ibm-openpages-policy-management-pcm) [Cálculos de ejemplo](#cálculos-de-ejemplo) |
-| Los cambios en IBM OpenPages IT Governance incluyen:<br>• El nuevo tipo de objeto: Obligación<br>• Integración con RiskLens<br>• El nuevo perfil ITG RiskLens Master | [Tipos de objeto](#tipos-de-objeto) [Perfiles](#perfiles) |
-| Los cambios en IBM OpenPages Data Privacy Management incluyen:<br>• Nuevo panel de control<br>• Nuevos flujos de trabajo<br>• Las nuevas plantillas de rol | [IBM OpenPages Data Privacy Management (DPM)](#flujos-de-trabajo-de-ibm-openpages-data-privacy-management-dpm) [Lista de plantillas de funciones](#lista-de-plantillas-de-funciones) |
-| Los cambios en IBM OpenPages Operational Risk Management incluyen:<br>• Nuevo panel de control<br>• Flujos de trabajo, cálculos, vistas y modificaciones de campos nuevos y actualizados para ayudar a los usuarios a utilizar la solución ORM de forma inmediata<br>• Sustitución del programa de utilidad de desencadenante KRI y KPI con el uso de cálculos, flujos de trabajo y el planificador. | [Flujo de trabajo de GRC](#grc-workflow) [Cálculos de GRC](#cálculos-de-grc) |
-| El nombre de la carpeta en IBM® Cognos® Analytics donde se almacenan los informes de solución ha cambiado. Los informes y las páginas de informe se encuentran en **Contenido de equipo** > **OpenPages Informes de soluciones**.<br>Si ha actualizado o migrado, los informes existentes siguen estando disponibles en **Team Content** > **OpenPages Solutions Reports V6**. |  |
-| Los informes de solución se han actualizado:<br>• Los informes ahora utilizan los nuevos modelos de infraestructura de la modalidad de consulta dinámica (DQM).<br>• Los informes ahora utilizan una hoja de estilo nueva para alinearse más estrechamente con la interfaz de usuario de OpenPages .<br>• Los informes utilizan JavaScript actualizado para enlaces CrossTrack . | [Informes](#informes)Consulte también la publicación *IBM OpenPages Report Author's Guide* |
-| Ahora se dispone de nuevos informes en instalaciones nuevas:<br>• Pruebas de rendimiento y resultados<br>• Detalles de prueba<br>• Panel de control de eventos de pérdida consolidados<br>• Detalles del panel de control de eventos de pérdida - Entidad<br>• Panel de control de eventos de pérdida - Categoría | [Informes de prueba](#informes-de-prueba) [Informes de eventos de pérdida](#informes-de-eventos-de-pérdida) |
-| Los siguientes tipos de objeto ya no se incluyen en instalaciones nuevas:<br>• Objetivo (SOXMilestone)<br>• Elemento de acción de objetivo (ProjectActionItem)<br>• Cuestionario (cuestionario)<br>• Sección (QSection)<br>• Pregunta (Quest) | [Tipos de objetos existentes](#tipos-de-objetos-existentes) |
-| En instalaciones nuevas, los campos siguientes ya no son campos calculados:<br>• `Audit: OPSS-Aud: Close Audit` -Convertir en un campo de enlace<br>• `Audit: OPSS-Aud: Plans` -Convertir en un campo de enlace<br>• `Audit: OPSS-AudEnt:Weighted Risk Score` -Convertido en un campo de texto que muestra el resultado de un cálculo<br>• `Control Plan: OPSS-RiskEnt: Baselines` -Convertir en un campo de enlace<br>• `Resource: OPSS-Res: Resource Links` -Convertir en un campo de enlace<br>• `Plan: OPSS-Plan:Actual Hours` -Convertido en un campo de texto que muestra el resultado de un cálculo<br>• `Plan: OPSS-Plan:Actual TE` -Convertido en un campo de texto que muestra el resultado de un cálculo<br>• `Audit: OPSS-Aud:Actual Hours` -Convertido en un campo de texto que muestra el resultado de un cálculo<br>• `Audit: OPSS-Aud:Actual TE` -Convertido en un campo de texto que muestra el resultado de un cálculo | [Campos calculados](#campos-calculados) [Cálculos de GRC](#cálculos-de-grc) |
-| El ayudante de finalización de escenario ya no se incluye en instalaciones nuevas. |  |
-| Para los ayudantes del informe de creación de certificación, `/OpenPages/Solutions/PCM/Attestation/Email Sender Name` se ha sustituido por `/Applications/Common/Email/Mail From Address` y `/OpenPages/Solutions/PCM/Attestation/Email Sender Address` se ha sustituido por `/Applications/Common/Email/Mail From Name`. |  |
-| Para los desencadenantes que utilizan el atributo `from.address`, si `from.address` está vacío o tiene un valor de `donotreply@openpages.com`, el valor se sustituye por el valor del valor de registro `/Applications/Common/Email/Mail From Address`. |  |
-| Los desencadenantes de ciclo de vida de KRI y KPI y las notificaciones ya no se incluyen en instalaciones nuevas. Estos desencadenantes se han sustituido por flujos de trabajo y cálculos. | [flujos de trabajo de ejemplo](#flujos-de-trabajo-de-ejemplo) |
-
-### Nuevas características en la versión 8.2.0.3
-
-`Guía de soluciones › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=wn-version-8203)
-
-Las nuevas características de IBM OpenPages® versión 8.2.0.3 se describen en las secciones siguientes.
-
-#### Mejoras en las soluciones
-
-**Tabla 1. Mejoras en las soluciones**
-
-| Para obtener información sobre... | Consulte el tema... |
-| --- | --- |
-| La posibilidad de importar datos de Supply Wisdom a IBM OpenPages Third Party Risk Management. Los cambios incluyen:<br>• Se ha añadido un nuevo tipo de objeto, Supply Wisdom, como hijo del tipo de objeto Proveedor<br>• Se ha actualizado el tipo de objeto Ubicación para que sea un padre del tipo de objeto Proveedor<br>• Se han añadido nuevos campos al tipo de objeto Proveedor<br>• Se han añadido nuevos paneles de control<br>• Se han añadido nuevas vistas del sistema para el tipo de objeto Proveedor<br>• Se ha añadido un nuevo trabajo al Planificador<br>• Se ha añadido un nuevo cálculo<br>• Se ha añadido un nuevo permiso de aplicación<br>• Se han actualizado los perfiles VRM Master y VRM Vendor Manager | [OpenPages Gestión de riesgos de terceros](#openpages-gestión-de-riesgos-de-terceros) |
-| Los siguientes perfiles de IBM OpenPages Financial Controls Management ahora incluyen el tipo de objeto Elemento de acción:<br>• FCM Master V2<br>• Certificación FCM V2 | [OpenPages Financial Controls Management](#openpages-financial-controls-management) |
-
-### Nuevas características en la versión 8.2.0.2
-
-`Guía de soluciones › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=wn-version-8202)
-
-Las características nuevas de IBM OpenPages® versión 8.2.0.2 se describen en las secciones siguientes.
-
-#### Mejoras en las soluciones
-
-**Tabla 1. Mejoras en las soluciones**
-
-| Para obtener información sobre... | Consulte el tema... |
-| --- | --- |
-| Se ha introducido la nueva solución, IBM OpenPages Data Privacy Management.<br>Se ha añadido el siguiente perfil:<br>• Perfil maestro de DPM<br>Se añade el flujo de trabajo siguiente:<br>• Evaluación de privacidad de datos<br>Se ha añadido el panel siguiente:<br>• Panel de control maestro de DPM | [OpenPages Data Privacy Gestión](#openpages-data-privacy-management)<br>[Perfiles](#perfiles)<br>[flujos de trabajo de ejemplo](#flujos-de-trabajo-de-ejemplo) |
-| Los cambios en IBM OpenPages Financial Controls Management incluyen nuevos:<br>• Perfiles de usuario<br>• Plantilla de funciones<br>• Grupo de campos<br>• Filtros<br>• Paneles de control<br>• Flujos de trabajo de ejemplo<br>• Cálculos de ejemplo<br>• Informes | [OpenPages Financial Controls Management](#openpages-financial-controls-management)<br>[Lista de plantillas de funciones](#lista-de-plantillas-de-funciones)<br>[flujos de trabajo de ejemplo](#flujos-de-trabajo-de-ejemplo)<br>[Cálculos de ejemplo](#cálculos-de-ejemplo)<br>[Informes de gestión de controles financieros](#informes-de-gestión-de-controles-financieros) |
-
-### Nuevas características en la versión 8.2.0.1
-
-`Guía de soluciones › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=wn-version-8201)
-
-Las nuevas características de IBM OpenPages® versión 8.2.0.1 se describen en las secciones siguientes.
-
-#### Mejoras en las soluciones
-
-**Tabla 1. Mejoras en las soluciones**
-
-| Para obtener información sobre... | Consulte el tema... |
-| --- | --- |
-| Los cambios en IBM OpenPages Regulatory Compliance Management incluyen:<br>• Ingesta de eventos reguladores de los canales de información de Reg-Track<br>• Tipos de objeto añadidos, Reg-Track Evento regulador y Reg-Track Serie de eventos reguladores, para Reg-Track<br>• Se han añadido flujos de trabajo de ejemplo para Reg-Track<br>• Se han añadido reglas listas para usar para Reg-Track<br>• Notificaciones añadidas para Reg-Track | [OpenPages Regulatory Compliance Management](#openpages-regulatory-compliance-management), [Descripciones de tipo de objeto](#descripciones-de-tipo-de-objeto)y [Subcomponentes](#subcomponentes) |
-| La posibilidad de importar datos de SecurityScorecard a IBM OpenPages Third Party Risk Management. Los cambios incluyen:<br>• Se han añadido nuevos campos al tipo de objeto Proveedor<br>• Se ha añadido un nuevo panel de control, Proveedor de TPRM con SecurityScorecard<br>• Se ha añadido una nueva vista de cuadrícula y una nueva vista de tareas<br>• Se ha añadido un nuevo trabajo al Planificador<br>• Se ha añadido un nuevo permiso de aplicación<br>• Se han actualizado los perfiles VRM Master y VRM Vendor Manager | [OpenPages Gestión de riesgos de terceros](#openpages-gestión-de-riesgos-de-terceros) |
-| Se han actualizado los informes JSP para IBM OpenPages Operational Risk Management . |  |
-| Se ha actualizado la JSP de informe de política de publicación para IBM OpenPages Gestión de políticas . |  |
-
-### Características nuevas de la versión 8.2.0
-
-`Guía de soluciones › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=wn-version-8200)
-
-Las nuevas características de IBM OpenPages® versión 8.2.0 se describen en las secciones siguientes.
-
-#### Mejoras en las soluciones
-
-**Tabla 1. Mejoras en las soluciones**
-
-| Para obtener información sobre... | Consulte el tema... |
-| --- | --- |
-| Los cálculos de ejemplo se incluyen con la nueva característica GRC Calculations . | [Cálculos de ejemplo](#cálculos-de-ejemplo) |
-| Se ha introducido la nueva solución, IBM OpenPages Business Continuity Management.<br>Se han añadido los siguientes tipos de objetos:<br>• BCBusinessImpactAnalysis<br>• BCEvent<br>• BCPlan<br>• BCTest<br>• BCTestResult<br>• Ubicación<br>• Equipo<br>Se han añadido los siguientes perfiles:<br>• Perfil de OpenPages BCM Master<br>• BCM End User<br>Se han añadido los paneles de instrumentos siguientes a la IU centrada en tareas:<br>• Panel de control OpenPages BCM Master<br>• Panel de control Usuario final de BCM OpenPages<br>Se han añadido las siguientes plantillas de funciones:<br>• Assignee<br>• BC End User<br>• BC Manager<br>• BC Owner<br>• BCP Approver<br>• BCP Author<br>• BCP Focal<br>• BCP Reviewer<br>Se han añadido los siguientes flujos de trabajo:<br>• Flujo de trabajo 1: Proceso de revisión y aprobación del plan de continuidad de negocio<br>• Flujo de trabajo 2: Análisis del impacto empresarial para determinar procesos críticos<br>• Flujo de trabajo 3: Elaboración de informes de resultados de pruebas BC<br>Se ha añadido un informe de Cognos® en el objeto Planes de continuidad de negocio. El enlace al mismo se denomina `Print BC Plan Details`. El enlace genera un informe de Cognos con los detalles del objeto Plan de continuidad de negocio en formato PDF. | [Utilización de OpenPages Business Continuity Management](#utilización-de-openpages-business-continuity-management)<br>[Descripciones de tipo de objeto](#descripciones-de-tipo-de-objeto)<br>[Perfiles](#perfiles)<br>[Lista de plantillas de funciones](#lista-de-plantillas-de-funciones)<br>[flujos de trabajo de ejemplo](#flujos-de-trabajo-de-ejemplo) |
-| IBM OpenPages Model Risk Governance (MRG) incluye una integración lista para usar con IBM Watson® OpenScale. | [OpenPages Model Risk Governance](#openpages-model-risk-governance)<br>[flujos de trabajo de ejemplo](#flujos-de-trabajo-de-ejemplo) |
-| Se han realizado las mejoras siguientes en IBM OpenPages Gestión de políticas:<br>Se ha añadido el siguiente perfil:<br>• PCM End User<br>Se han añadido los paneles de instrumentos siguientes a la IU centrada en tareas:<br>• Panel de control de OpenPages PCM Master<br>• Panel de control de OpenPages Usuario final de PCM<br>Se ha añadido el flujo de trabajo Revisión de política.<br>RegTask tiene los siguientes padres nuevos: Interacción reguladora, Componente RI y Subcomponente RI. | [OpenPages Policy Management](#openpages-policy-management)<br>[Perfiles](#perfiles)<br>[flujos de trabajo de ejemplo](#flujos-de-trabajo-de-ejemplo) |
-| Los cambios en IBM OpenPages Regulatory Compliance Management incluyen:<br>• Ingestión de obligaciones de canales de información Ascent Reg Tech<br>• Un nuevo objeto Comentario de revisión de conformidad, que tiene los padres siguientes: Interacción con la autoridad reguladora, Componente RI, Subcomponente RI, RegTask y RegChange<br>• Categoría de RI tiene una nueva etiqueta: Componente RI<br>• Solicitud de RI tiene una etiqueta nueva: Subcomponente RI<br>• RegTask tiene los padres nuevos siguientes: Interacción con la autoridad reguladora, Componente RI y Subcomponente RI.<br>• Interacción con la autoridad reguladora, Componente RI y subcomponente RI tiene cada uno los nuevos padres siguientes: Mandato, Submandato, Requisito, Política, Procedimiento y Control | [Descripciones de tipos de objeto](#descripciones-de-tipo-de-objeto) y [Subcomponentes](#subcomponentes) |
-| IBM OpenPages Vendor Risk Management se ha renombrado como IBM OpenPages Third Party Risk Management. | [OpenPages Gestión de riesgos de terceros](#openpages-gestión-de-riesgos-de-terceros) |
-| Los asistentes de entrada de hoja de registro horario ahora están disponibles en un panel de informes en el panel de control en la IU centrada en tareas. La información de hoja de registro horario se puede ver con el nuevo elemento de menú, **Gestión de auditoría** > **Hoja de registro horario**. | [Asistentes de hoja de registro horario](#asistentes-de-hoja-de-registro-horario) |
-| IBM OpenPages Internal Audit Management incluye un nuevo panel de control maestro. |  |
-| Se han añadido flujos de trabajo de ejemplo para:<br>• Incidencias<br>• Evaluaciones de cuestionario | [flujos de trabajo de ejemplo](#flujos-de-trabajo-de-ejemplo) |
-| Los cálculos de ejemplo se incluyen con la nueva característica GRC Calculations . | [Cálculos de ejemplo](#cálculos-de-ejemplo) |
-| Varios activadores ya no están habilitados en las instalaciones nuevas. | [Activadores heredados](#activadores-heredados) |
-| Ya no se da soporte a las visualizaciones que representaron procesos de negocio en un formato gráfico. | [Visualizaciones de procesos empresariales (existentes)](#visualizaciones-de-procesos-empresariales-existentes) |
 
 ## Tipos de objeto
 
-`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=sg-object-types)
+`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=sg-object-types)
 
 Las soluciones de IBM OpenPages® constan de varios tipos de objeto.
 
@@ -957,7 +747,7 @@ El documento *OpenPages Detalles de modelo de objeto* proporciona información s
 
 ### Correlación de nombres de objeto
 
-`Guía de soluciones › Tipos de objeto` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=types-object-name-mapping)
+`Guía de soluciones › Tipos de objeto` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=types-object-name-mapping)
 
 Se correlacionan las etiquetas de tipo de objeto predeterminadas con nombres de objeto.
 
@@ -1083,8 +873,6 @@ Se correlacionan las etiquetas de tipo de objeto predeterminadas con nombres de 
 | Submandate | Submandato | SM |
 | SubSectionTemplate | Plantilla de subsección | SS |
 | SummaryAuditPlan | Plan de auditoría de resumen | SA |
-| SupplyWisdom | Supply Wisdom |  |
-| SupplyWisdomParentAlert | Alerta padre de Supply Wisdom |  |
 | Team | Equipo | TM |
 | Threat | Amenaza | TH |
 | Timesheet | Hoja de registro horario | TI |
@@ -1100,7 +888,7 @@ Se correlacionan las etiquetas de tipo de objeto predeterminadas con nombres de 
 
 ### Descripciones de tipo de objeto
 
-`Guía de soluciones › Tipos de objeto` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=types-object-type-descriptions)
+`Guía de soluciones › Tipos de objeto` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=types-object-type-descriptions)
 
 Las soluciones de IBM OpenPages® constan de varios tipos de objeto.
 
@@ -1312,7 +1100,7 @@ Las soluciones de IBM OpenPages® constan de varios tipos de objeto.
 
 - **Incidente**
 
-  Un incidente es un suceso que tiene un efecto potencialmente adverso en la empresa. Cree un objeto Incidente para registrar información, como la persona responsable de la investigación del incidente y otros datos relacionados. El objeto Incidencia lo utiliza un flujo de trabajo para facilitar el análisis de incidencias. Las categorías que se aplican a los incidentes incluyen la Conformidad con la normativa, Conformidad legal, Seguridad de la información y TI. Las incidencias se almacenan bajo la entidad de negocios o activo donde se ha producido el suceso y se asocian de forma secundaria a un mandato o política afectados.
+  Un incidente es un suceso que tiene un efecto potencialmente adverso en la empresa. Cree un objeto Incidente para registrar información, como la persona responsable de la investigación del incidente y otros datos relacionados. El objeto Incidencia lo utiliza un flujo de trabajo para facilitar el análisis de incidencias. Las categorías que se aplican a los incidentes incluyen la Conformidad con la normativa, Conformidad legal, Seguridad de la información y TI. Los incidentes a menudo se almacenan en la Entidad de Negocio, Activo o Modelo de Despliegue donde ocurrió el evento y se asocian secundariamente a un Mandato o Política impactada.
 
 - **Problema, Elemento de acción**
 
@@ -1360,7 +1148,7 @@ Las soluciones de IBM OpenPages® constan de varios tipos de objeto.
 
 - **Métrica, Valor de métrica**
 
-  El objeto Métrica registra la definición de una medida de rendimiento que la organización decide rastrear. Un usuario establece el Tipo de métrica, los Umbrales amarillo y rojo y otra información de la recopilación. Una métrica es hijo de objetos de modelo y de despliegue de modelo.
+  El objeto Métrica registra la definición de una medida de rendimiento que la organización decide rastrear. Un usuario establece el Tipo de métrica, los Umbrales amarillo y rojo y otra información de la recopilación. Una Métrica es hija de los objetos Activo, Despliegue de Modelo y Modelo.
 
   El objeto Valor de métrica registra el resultado de la medida de rendimiento de la métrica. Está diseñado para permitir a la organización almacenar los resultados de medida de las series temporales.
 
@@ -1474,7 +1262,7 @@ Las soluciones de IBM OpenPages® constan de varios tipos de objeto.
 
 - **Program**
 
-  Los objetos Programa se utilizan con Plantillas de cuestionario para implementar las Evaluaciones de cuestionario. Cuando un administrador empresarial inicia un programa, se crean las evaluaciones de cuestionario. Un programa se asocia a activos subyacentes, las evaluaciones de cuestionario que ha creado y la Plantilla de cuestionario en la que se basa. El Programa proporciona entrada para el flujo de trabajo.
+  Los objetos Programa se utilizan con Plantillas de cuestionario para implementar las Evaluaciones de cuestionario. Cuando un administrador de empresa lanza un Programa, se crean Evaluaciones del Cuestionario. Un programa se asocia a activos subyacentes, las evaluaciones de cuestionario que ha creado y la Plantilla de cuestionario en la que se basa. El Programa proporciona entrada para el flujo de trabajo.
 
 - **Proyecto**
 
@@ -1484,7 +1272,7 @@ Las soluciones de IBM OpenPages® constan de varios tipos de objeto.
 
   Los objetos Evaluación de cuestionario son un medio de recopilar información de usuarios empresariales en la organización. Las evaluaciones de cuestionario se crean cuando se inicia un programa. Las evaluaciones de cuestionario se asocian con activos subyacentes, el programa que lo ha lanzado y la Plantilla de cuestionario en la que se basa. Las evaluaciones de cuestionario son utilizadas por un flujo de trabajo para facilitar un proceso de revisión.
 
-  Las evaluaciones de cuestionarios no están relacionadas con cuestionarios. La información que describen las evaluaciones de cuestionario, las plantillas de cuestionario y los programas no se aplican a los cuestionarios. Consulte [Tipos de objeto heredados](#tipos-de-objetos-existentes).
+  Las evaluaciones del cuestionario no están relacionadas con los cuestionarios. La información que describen las evaluaciones de cuestionario, las plantillas de cuestionario y los programas no se aplican a los cuestionarios. Consulte [Tipos de objeto heredados](#tipos-de-objetos-existentes).
 
 - **Plantilla de cuestionario, Plantilla de sección, Plantilla de subsección y Plantilla de preguntas**
 
@@ -1642,14 +1430,6 @@ Las soluciones de IBM OpenPages® constan de varios tipos de objeto.
 
   El objeto Plan de auditoría de resumen es un hijo de Entidad de negocios. Los hijos del plan de auditoría de resumen incluyen: Auditoría y Entidad auditable.
 
-- **Supply Wisdom**
-
-  El objeto Supply Wisdom almacena evaluaciones de riesgo de proveedores que se importan de Supply Wisdom. El tipo de objeto Supply Wisdom tiene un padre, Vendor.
-
-- **Alerta padre de Supply Wisdom**
-
-  El objeto Alerta padre Supply Wisdom almacena datos de alerta que se importan de Supply Wisdom. La importación crea objetos de suceso de continuidad de negocio para los datos de alerta entrantes y asocia las alertas a los objetos de proveedor y ubicación correspondientes en OpenPages.
-
 - **Sistema**
 
   El sistema es un tipo de objeto autocontenido, lo que significa que se crean carpetas para cada objeto del sistema. El objeto Sistema agrupa varias líneas base para representar elementos en el entorno operativo que se pueden evaluar para el riesgo. Actúa como contenedor para una colección de objetos de activos y los riesgos, controles y requisitos relacionados que realizan conjuntamente una función o forman parte de un servicio de TI. Por ejemplo, un objeto del sistema puede representar los servidores, sistemas operativos, aplicaciones, bases de datos, personal de soporte y recursos que proporcionan el correo electrónico corporativo.
@@ -1686,9 +1466,7 @@ Las soluciones de IBM OpenPages® constan de varios tipos de objeto.
 
   Un proveedor es una empresa externa a la que una empresa adquiere bienes o servicios. Los proveedores pueden tener cuatro tipos de objetos hijo: Vendedor Filial, SubContractors, Encargos y Contratos. Los proveedores pueden estar sujetos a evaluaciones de cuestionario, evaluaciones de riesgo u organización en niveles. Puede resumir y analizar los riesgos asociados a los distintos Proveedores. Puede añadir una asociación padre al proceso o al subproceso al que da soporte el Proveedor.
 
-  Si utiliza Supply Wisdom, el objeto Proveedor también tiene el objeto Supply Wisdom como objeto hijo.
-
-  Las calificaciones de proveedor se pueden importar de SecurityScorecard o Supply Wisdom utilizando conectores.
+  Las valoraciones de los proveedores pueden importarse desde SecurityScorecard mediante el uso de conectores.
 
 - **Filial del proveedor**
 
@@ -1714,7 +1492,7 @@ Las soluciones de IBM OpenPages® constan de varios tipos de objeto.
 
 ### Subcomponentes
 
-`Guía de soluciones › Tipos de objeto` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=types-subcomponents)
+`Guía de soluciones › Tipos de objeto` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=types-subcomponents)
 
 Las soluciones de IBM OpenPages® constan de varios subcomponentes.
 
@@ -1762,11 +1540,11 @@ En la tabla siguiente se listan los subcomponentes que se incluyen de forma pred
 | Proyecto de conformidad | Proyecto, Plan de cumplimiento, Evaluación de plan de cumplimiento, Tema de cumplimiento, Evaluación de tema de cumplimiento, Obligación |  |  |  |  | X |  |  |  |  |  |  |
 | Evaluación de requisitos | Evaluación de requisitos, Valor de evaluación de requisitos, Evaluación de obligaciones, Valor de evaluación de obligaciones | X |  |  |  | X |  |  |  |  |  |  |
 | Autoridad reguladora | Autoridad reguladora, Iniciativa reguladora | X |  |  |  | X |  |  |  |  |  |  |
-| Supervisión de modelo | Métrica, Valor de métrica |  |  |  |  |  | X |  |  |  |  |  |
+| Supervisión | Métrica, Valor de métrica |  |  |  |  |  | X |  |  |  | X |  |
 | Estructura de comité | Comité, Empleado |  |  |  |  |  | X |  |  |  |  |  |
 | Desencadenantes de inventario de modelos y MRG | Caso de uso de modelo, Despliegue de modelo, Modelo, Versión de modelo, Solicitud de cambio, Entrada de modelo, Salida de modelo, Enlace de modelo, Atestación de modelo, Tabla de puntuación de riesgo de modelo |  |  |  |  |  | X |  |  |  |  |  |
 | Revisión y Desafío de MRG | Revisión, Desafío |  |  |  |  |  | X |  |  |  |  |  |
-| Proveedor | Ubicación, Evento de continuidad de negocio, Proveedor, Compromiso, Contrato<br>Supply Wisdom, Supply Wisdom Alerta padre (sólo si se utiliza el canal de información Supply Wisdom .)<br>RiskRecon Ratings (sólo TPRM)<br>RapidRatings (sólo TPRM)<br>Subsidiaria de proveedor (sólo TPRM)<br>Subcontratista (solo TPRM) | X |  | X | X |  |  |  |  |  |  |  |
+| Proveedor | Ubicación, Evento de continuidad de negocio, Proveedor, Compromiso, Contrato<br>RiskRecon Ratings (sólo TPRM)<br>RapidRatings (sólo TPRM)<br>Subsidiaria de proveedor (sólo TPRM)<br>Subcontratista (solo TPRM) | X |  | X | X |  |  |  |  |  |  |  |
 | Gestión de la continuidad de negocio | Servicio de negocio, Evaluación de servicios de negocio, Análisis de impacto de negocio, Evento de continuidad de negocio, Plan de continuidad de negocio, Plan de prueba de continuidad de negocio, Resultado de prueba de continuidad de negocio, Ubicación, Equipo, Modelo |  |  | X |  |  |  |  |  |  |  |  |
 | Objetivo estratégico para ESG | Objetivo estratégico, producto | X |  |  |  |  |  |  |  |  |  |  |
 | Vulnerabilidad | Vulnerabilidad, amenaza |  |  |  |  |  |  |  |  |  | X |  |
@@ -1779,7 +1557,7 @@ Además de los subcomponentes incluidos en la tabla, se incluyen los siguientes 
 
 ## Asistentes
 
-`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-helpers)
+`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-helpers)
 
 Las soluciones de IBM OpenPages® incluyen varios ayudantes.
 
@@ -1820,13 +1598,13 @@ En la tabla siguiente se muestran los asistentes incluidos para cada solución d
 | [Asistente Crear enlaces de recursos](#asistente-crear-enlaces-de-recursos) |  |  |  |  |  |  | X |  |
 | [Asistente Cerrar auditoría](#asistente-cerrar-auditoría) |  |  |  |  |  |  |  | X |
 | [Asistente para añadir o modificar planificaciones](#asistente-para-añadir-o-modificar-planificaciones) |  |  |  |  |  |  |  | X |
-| [Asistente de entrada de hoja de registro horario](#asistente-de-entrada-de-hoja-de-registro-horario) |  |  |  |  |  |  |  | X |
-| [Asistente de aprobación de hoja de registro horario](#asistente-de-aprobación-de-hoja-de-registro-horario) |  |  |  |  |  |  |  | X |
+| [Asistente de entrada de hoja de registro horario](#asistentes-de-hoja-de-registro-horario) |  |  |  |  |  |  |  | X |
+| [Asistente de aprobación de hoja de registro horario](#asistentes-de-hoja-de-registro-horario) |  |  |  |  |  |  |  | X |
 | Iniciar asistente del programa | X | X | X | X | X | X | X | X |
 
 ### Asistente de relleno de RCSA
 
-`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=helpers-rcsa-completion-helper)
+`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=helpers-rcsa-completion-helper)
 
 El Asistente de relleno de RCSA permite al coordinador de RCSA finalizar la evaluación de riesgos y crear un árbol de evaluación para las referencias históricas.
 
@@ -1841,13 +1619,11 @@ El coordinador de RCSA recibe un mensaje que pregunta si se debe continuar. Cuan
    - Evaluación de control
 3. Copia los datos clave a los nuevos registros de evaluación y realiza asociaciones secundarias.
 
-   Debe especificar qué campos deben copiarse (menú **Configuración**).
-
 Para utilizar el ayudante, los usuarios necesitan un modelo de rol que incluya acceso de **Escritura** y **Asociado** a los tipos de objeto **Evaluación de riesgos** y **Evaluaciones de control**.
 
 ### Asistente de alineación de procesos RCSA
 
-`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=helpers-rcsa-process-alignment-helper)
+`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=helpers-rcsa-process-alignment-helper)
 
 El Asistente de alineación de procesos RCSA permite al coordinador de RCSA revisar los procesos, riesgos y controles asociados y crear más asociaciones. El asistente también configura los procesos, riesgos y controles con el estado de **En espera de evaluación**.
 
@@ -1869,7 +1645,7 @@ El asistente basado en tareas realiza las siguientes acciones cuando se inicia:
 
 ### Asistente del programa de utilidad de inicio de RCSA
 
-`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=helpers-rcsa-launch-utility-helper)
+`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=helpers-rcsa-launch-utility-helper)
 
 El Asistente del programa de utilidad de inicio de RCSA genera objetos de evaluación de riesgos para las entidades dentro del ámbito.
 
@@ -1889,7 +1665,7 @@ El Asistente del programa de utilidad de inicio de RCSA ayuda al administrador a
 
 ### Asistente de sincronización de sitios de RCSA
 
-`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=helpers-rcsa-site-sync-helper)
+`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=helpers-rcsa-site-sync-helper)
 
 El Asistente de sincronización de sitios de RCSA sincroniza instancias de datos de objetos con valores de una estructura de datos de biblioteca.
 
@@ -1899,7 +1675,7 @@ El ayudante de sincronización del sitio RCSA está disponible en **Reporting** 
 
 ### Configuración de asistentes de RCSA
 
-`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=helpers-rcsa-configuration)
+`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=helpers-rcsa-configuration)
 
 Si utiliza el proceso de negocio RCSA, el administrador debe configurar RCSA después de instalar los módulos de IBM OpenPages .
 
@@ -1936,7 +1712,7 @@ Las áreas de biblioteca y de transferencia tienen ajustes correspondientes que 
 Para configurar estos valores:
 
 1. Inicie sesión como administrador.
-2. Haga clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/settings_menu_icon_task_focused_ui.jpg)** > **Configuración del sistema** > **Configuración**.
+2. Haga clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/settings_menu_icon_task_focused_ui.jpg)** > **Configuración del sistema** > **Configuración**.
 3. Expanda las opciones de las siguientes entradas y configure los valores de la jerarquía de transferencia que ha creado.
 
    - COMMON
@@ -1974,7 +1750,7 @@ Esta tabla identifica los valores utilizados en el Asistente de sincronización 
 
 ### Visores de políticas
 
-`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=helpers-policy-viewers)
+`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=helpers-policy-viewers)
 
 Una serie de visores de políticas facilitan el proceso de creación, modificación, revisión y aprobación de políticas y procedimientos. Agrega varias secciones de una política y los procedimientos asociados a una única vista narrativa para editar, revisar y aprobar, en tanto que permite a los clientes mantener la estandarización de una plantilla **Política**.
 
@@ -1988,7 +1764,7 @@ Utilice los ajustes y los ajustes de texto de la aplicación para configurar est
 
 ### Asistente Vista de comparación de políticas
 
-`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=helpers-compare-policy-view-helper)
+`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=helpers-compare-policy-view-helper)
 
 El asistente Vista de comparación de políticas permite a los usuarios ver diferencias marcadas en color rojo de una versión de política a otra. Por ejemplo, un usuario puede observar a simple vista las diferencias entre un borrador actual de una política y la política publicada, o de las versiones anteriores ya caducadas.
 
@@ -1998,7 +1774,7 @@ Utilice los ajustes de texto de la aplicación y del registro para configurar es
 
 ### Asistente Desbloquear política
 
-`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=helpers-policy-unlock-helper)
+`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=helpers-policy-unlock-helper)
 
 El asistente Desbloquear política se abre desde el objeto Política después de que la política pasa a la fase de revisión y aprobación. El asistente Desbloquear política desbloquea el objeto Política y sus componentes (**Procedimientos**, **Adjuntos**, **Comentarios de revisiones de políticas**) para su revisión.
 
@@ -2024,7 +1800,7 @@ Puede configurar este componente para que cumpla sus requisitos utilizando valor
 
 ### Asistente Publicar notificación por lotes
 
-`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=helpers-publishing-batch-notification-helper)
+`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=helpers-publishing-batch-notification-helper)
 
 El asistente Publicar notificación por lotes hace más sencillo el proceso de promocionar una política de borrador aprobada a la biblioteca de publicados y de mover la versión publicada actual a la biblioteca de caducados. También retira una política moviendo la política publicada a la biblioteca de publicados y eliminando el borrador. Puede utilizar el asistente Publicar notificación por lotes con los enfoques de política **Centrado en datos**, **Centrado en documentos**, e **Híbrido**.
 
@@ -2051,7 +1827,7 @@ Utilice los ajustes y los ajustes de texto de la aplicación para configurar est
 
 ### Asistente Vista de conocimiento de política
 
-`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=helpers-policy-awareness-view-helper)
+`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=helpers-policy-awareness-view-helper)
 
 El asistente Vista de conocimiento de política es una vista intuitiva que permite a los empleados leer de forma fácil una política y sus procedimientos y sus procedimientos en un formato narrativo. El empleado testifica que ha leído y comprendido la política.
 
@@ -2065,7 +1841,7 @@ Utilice los ajustes de texto de la aplicación y del registro para configurar es
 
 ### Asistente Informe de creación de atestación
 
-`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=helpers-attestation-creation-report-helper)
+`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=helpers-attestation-creation-report-helper)
 
 El asistente Informe de creación de atestación es una notificación planificada.
 
@@ -2079,24 +1855,24 @@ Este informe proporciona soporte a la función de conocimiento de políticas. Es
 
 ### Asistente Obtener líneas base
 
-`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=helpers-get-baselines-helper)
+`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=helpers-get-baselines-helper)
 
 Iniciado desde un campo de enlace en el objeto del sistema, este ayudante copia la línea base seleccionada de la biblioteca en el entorno operativo de TI, y copia, o crea y rellena previamente, riesgos, controles y planes de prueba descendientes. El asistente crea asociaciones desde los nuevos elementos a los elementos de biblioteca y graba la información de estado en el campo de descripción adicional de la línea base creada.
 
 ### Asistente Crear enlaces de recursos
 
-`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=helpers-create-resource-links-helper)
+`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=helpers-create-resource-links-helper)
 
 Este ayudante crea un enlace de activo como un nivel inferior del activo inicial y como un nivel inferior del activo seleccionado. El ayudante rellena previamente los campos en el objeto Enlace de activo creado.
 
 El ayudante se puede iniciar de las siguientes maneras:
 
-- Pulsando **Crear enlace de recurso** en la pestaña **Admin** de la vista de tarea Activo.
+- Haciendo clic en **Crear enlace de activo** en **la pestaña Admin** de la vista de tareas de Activo.
 - Añadiendo el campo Enlace de activo a las vistas de tarea o cuadrícula para el objeto Activo. A continuación, puede iniciar el ayudante desde la vista.
 
 ### Asistente Cerrar auditoría
 
-`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=helpers-close-audit-helper)
+`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=helpers-close-audit-helper)
 
 Lanzado desde un campo de enlace en el objeto de auditoría, el ayudante de cierre de auditoría facilita la automatización del proceso de cierre de auditoría.
 
@@ -2106,7 +1882,7 @@ Configure este componente para que se comporte según sea apropiado para su meto
 
 ### Asistente para añadir o modificar planificaciones
 
-`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=helpers-add-modify-plans-helper)
+`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=helpers-add-modify-plans-helper)
 
 El ayudante para añadir o modificar planes, que se ejecuta desde un enlace de campo calculado en el objeto de auditoría y que solo está disponible para el propietario de la auditoría, facilita la creación y edición de planes de auditoría. Localiza auditores y los rellena en los campos para asignarlos a las planificaciones.
 
@@ -2116,13 +1892,15 @@ Utilice los ajustes de texto de la aplicación y del registro para configurar es
 
 ### Asistentes de hoja de registro horario
 
-`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=helpers-timesheet)
+`Guía de soluciones › Asistentes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=helpers-timesheet)
 
-IBM OpenPages® Internal Audit Management incluye asistentes de hoja de registro horario.
+IBM OpenPages® Internal Audit Management incluye ayudantes de hojas de horas para auditores y aprobadores.
+
+> **Nota:**
+
+> Todas las Auditorías deben tener una Entidad Auditable como padre para poder utilizar los ayudantes de Hoja de horas.
 
 #### Asistente de entrada de hoja de registro horario
-
-`Guía de soluciones › Asistentes › Asistentes de hoja de registro horario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=helpers-timesheet-entry-helper)
 
 Los auditores utilizan el Asistente de entrada de hoja de registro horario para anotar el tiempo y los gastos.
 
@@ -2131,17 +1909,15 @@ El Asistente de entrada de hoja de registro horario tiene las prestaciones sigui
 - El asistente incluye validaciones de entrada de datos y permite a los auditores suprimir las entradas de registro horario existentes por filas individuales.
 - Puede configurar el asistente de modo que permita a los miembros de un grupo de usuarios entrar las horas de parte de otro auditor.
 - Los auditores pueden ver todos los comentarios de rechazo a la vez, y pueden saltar fácilmente a las hojas de registro horario que necesiten actualizar.
-- Los auditores pueden buscar y filtrar a partir de la auditoría y plan que necesiten al añadir una fila nueva de hoja de registro horario. Para ayudar al usuario, puede configurar qué campos de auditoría y plan desea que se muestren.
+- Los auditores pueden buscar y filtrar la auditoría y el plan que deseen al añadir una nueva línea de hoja de horas. Para ayudar al usuario, puede configurar qué campos de auditoría y plan desea que se muestren.
 
-Pulse **Ayudante de entrada de hoja de registro horario** en el panel Informes del panel de control para abrir el Ayudante de entrada de la hoja de registro horario. También puede ver información de hoja de registro horario utilizando el elemento de menú **Gestión de auditoría** > **Hojas de registro horario** .
+Pulse **Ayudante de entrada de hoja de registro horario** en el panel Informes del panel de control para abrir el Ayudante de entrada de la hoja de registro horario. También puede ver la información de la hoja de horas utilizando el elemento de menú **Gestión de auditoría** > **Hojas de horas**.
 
 Cuando un auditor crea y guarda entradas de hojas de registro horario, se crean los objetos de hoja de registro horario, se rellenan las filas nuevas, y los valores se guardan en las hojas de registro horario existentes. Los gastos y las horas son una única entrada por fila a la semana y no se desglosan en categorías de gastos. El tiempo y los gastos se introducen y se muestran siempre en la moneda base.
 
-Puede configurar el ayudante. Haga clic en **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/settings_menu_icon_task_focused_ui.jpg)** > **Configuración del sistema** > **Ajustes** y, a continuación, utilice la configuración de **Soluciones** > **IAM** > **Registro de horas** > **Ayudante de entrada de horas**.
+Puede configurar el ayudante. Haga clic **en Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/settings_menu_icon_task_focused_ui.jpg)** > **Configuración del sistema** > **Configuración** y, a continuación, utilice la configuración en **Soluciones** > **IAM** > **Entrada de hoja de horas** > **Asistente de entrada de hoja de horas**.
 
 #### Asistente de aprobación de hoja de registro horario
-
-`Guía de soluciones › Asistentes › Asistentes de hoja de registro horario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=helpers-timesheet-approval-helper)
 
 Los aprobadores del tiempo de los auditores, como propietarios de auditorías o propietarios de planes, utilizan el Asistente de aprobación de hoja de registro horario para revisar y aprobar o rechazar los registros horarios y de gastos.
 
@@ -2151,13 +1927,13 @@ Los aprobadores pueden gestionar todas las aprobaciones a la vez, en auditorías
 
 Cuando un aprobador rechaza una hoja de registro horario, el auditor recibe una notificación por correo electrónico. Esta característica de notificación es opcional.
 
-Pulse **Ayudante de aprobación de hoja de registro horario** en el panel Informes del panel de control para abrir el Ayudante de aprobación de la hoja de registro horario. También puede ver información de hoja de registro horario utilizando el elemento de menú **Gestión de auditoría** > **Hojas de registro horario** .
+Pulse **Ayudante de aprobación de hoja de registro horario** en el panel Informes del panel de control para abrir el Ayudante de aprobación de la hoja de registro horario. También puede ver la información de la hoja de horas utilizando el elemento de menú **Gestión de auditoría** > **Hojas de horas**.
 
-Puede configurar el ayudante de aprobación de la hoja de registro horario. Haga clic en **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/settings_menu_icon_task_focused_ui.jpg)** > **Configuración del sistema** > **Ajustes** y, a continuación, utilice la configuración de **Soluciones** > **IAM** > **Registro de horas** > **Ayudante de aprobación de hojas de horas**.
+Puede configurar el ayudante de aprobación de la hoja de registro horario. Haga clic en el **menú Abrir administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/settings_menu_icon_task_focused_ui.jpg)** > **Configuración del sistema** > **Ajustes** y, a continuación, utilice los ajustes de **Soluciones** > **IAM** > **Entrada de hojas de horas** > **Ayuda para aprobación de hojas de horas**.
 
 ## Notificaciones
 
-`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-notifications)
+`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-notifications)
 
 Las notificaciones son correos electrónicos que se envían a los propietarios de un proceso como un recordatorio para actuar. Estas notificaciones se pueden producir en diferentes etapas de un proceso o como el paso final de un activador.
 
@@ -2192,7 +1968,7 @@ Los flujos de trabajo definidos en GRC Workflow también pueden realizar notific
 
 ### Notificación a través del boletín de problemas y acciones
 
-`Guía de soluciones › Notificaciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=notifications-issue-action-bulletin-notification)
+`Guía de soluciones › Notificaciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=notifications-issue-action-bulletin-notification)
 
 Durante la fase de cierre del proceso de gestión de problemas y solución (IMR), se envía un boletín de problemas y acciones como una notificación de correo electrónico a los usuarios. El boletín resalta áreas importantes, como los problemas vencidos y las acciones que están pendientes de cierre. El administrador puede establecer la frecuencia de esta notificación utilizando el boletín de gestión de problemas y solución (IMR).
 
@@ -2224,7 +2000,7 @@ Los usuarios reciben notificaciones por correo electrónico a través de los bol
 
 ### Notificación de incidente
 
-`Guía de soluciones › Notificaciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=notifications-incident-notification)
+`Guía de soluciones › Notificaciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=notifications-incident-notification)
 
 La notificación de incidencias envía un correo electrónico a un responsable cuando se crea una incidencia y para cada transición del flujo de trabajo de incidencias.
 
@@ -2232,7 +2008,7 @@ La notificación de incidencias se inicia mediante el flujo de trabajo de incide
 
 ### Notificación de evaluación de cuestionario
 
-`Guía de soluciones › Notificaciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=notifications-questionnaire-assessment-notification)
+`Guía de soluciones › Notificaciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=notifications-questionnaire-assessment-notification)
 
 La notificación de evaluación de cuestionario envía un correo electrónico a un destinatario cuando se crea una evaluación de cuestionario y para cada transición del flujo de trabajo.
 
@@ -2240,31 +2016,31 @@ El flujo de trabajo del cuestionario inicia la notificación de evaluación de c
 
 ### Notificación de error de ingesta de Reg-Track
 
-`Guía de soluciones › Notificaciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=notifications-reg-track-ingestion-error-notification)
+`Guía de soluciones › Notificaciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=notifications-reg-track-ingestion-error-notification)
 
 La notificación de error de ingesta de Reg-Track envía un correo electrónico a los administradores de Reg-Track si la importación de un canal de información de Reg-Trackfalla. Los administradores de Reg-Track se configuran al configurar el canal de información Reg-Track en IBM OpenPages®.
 
 ### Notificación de Error de ingesta TRRI
 
-`Guía de soluciones › Notificaciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=notifications-trri-ingestion-error-notification)
+`Guía de soluciones › Notificaciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=notifications-trri-ingestion-error-notification)
 
 La notificación de error de ingestión de TRRI envía un correo electrónico a los administradores de TRRI si falla la importación de un canal de información de Thomson Reuters Regulatory Intelligence (TRRI). Los administradores de TRRI se configuran al configurar el canal de información de TRRI en IBM OpenPages®.
 
 ### Notificación de Error de ingesta WK
 
-`Guía de soluciones › Notificaciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=notifications-wk-ingestion-error-notification)
+`Guía de soluciones › Notificaciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=notifications-wk-ingestion-error-notification)
 
 La notificación de error de ingestión de WK envía un correo electrónico a los administradores de WK si la importación de un canal de información de Wolters Kluwer falla. Los administradores de WK se configuran al configurar el canal de información WK en IBM OpenPages®.
 
 ### Notificación de objetos de biblioteca reguladora nuevos/corregidos
 
-`Guía de soluciones › Notificaciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=notifications-newamended-regulatory-library-object-notification)
+`Guía de soluciones › Notificaciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=notifications-newamended-regulatory-library-object-notification)
 
 La notificación Objeto de biblioteca reguladora nuevo/modificado envía un correo electrónico si un mandato, submandato o requisito cambia como resultado de una importación de Ascent Reg Tech, Thomson Reuters Regulatory Intelligence o Wolters Kluwer . El correo electrónico se envía al propietario del objeto.
 
 ## Informes
 
-`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-reports)
+`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-reports)
 
 Las soluciones de IBM OpenPages® incluyen varios informes.
 
@@ -2331,8 +2107,7 @@ En la tabla siguiente se muestran los informes incluidos para cada solución de 
 |  | Informe de evaluación único | X | X | X | X | X | X |
 | Informes de FCM |  |  |  |  |  |  |  |
 |  | Ámbito de cuenta por entidad y clasificación | X |  |  |  |  |  |
-|  | Certificación de control - Informe de resumen de proceso | X |  |  |  |  |  |
-|  | Informe Resumen de estado de certificación de control | X |  |  |  |  |  |
+|  | Informe resumido de certificación de control | X |  |  |  |  |  |
 |  | Informe de problemas y acciones de FCM | X |  |  |  |  |  |
 |  | Correlación de cuentas y procesos de FCM | X |  |  |  |  |  |
 |  | Informe de resumen de SOX (FCM - Informe de certificación de control de proceso) | X |  |  |  |  |  |
@@ -2344,14 +2119,10 @@ En la tabla siguiente se muestran los informes incluidos para cada solución de 
 |  | Panel de control de conformidad de ESG |  |  |  |  |  | X |
 |  | Conformidad por acceso a detalles de mandato |  |  |  |  |  | X |
 |  | Detalles de cumplimiento normativo y estándar de ESG |  |  |  |  |  | X |
-|  | Lista de proveedores-Clasificaciones ESG<br>Requiere TPRM y Supply Wisdom |  |  |  |  |  | X |
-|  | Obtención de detalles de proveedor de ESG<br>Requiere TPRM y Supply Wisdom |  |  |  |  |  | X |
-|  | Comparación de proveedores-ESG<br>Requiere TPRM y Supply Wisdom |  |  |  |  |  | X |
-|  | Postura de proveedor-Calificaciones de ESG<br>Requiere TPRM y Supply Wisdom |  |  |  |  |  | X |
 
 ### Informes de evaluación de riesgos
 
-`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-risk-assessment)
+`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-risk-assessment)
 
 Los informes de evaluación de riesgos proporcionan soporte al equipo directivo para tomar mejores decisiones que conducen a la acción. Estos informes forman parte de la fase de acción del proceso de evaluación de riesgos y autocontrol (RCSA).
 
@@ -2368,7 +2139,7 @@ En la tabla siguiente se describen los informes de evaluación de riesgo disponi
 
 ### Informes de riesgos
 
-`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-risk)
+`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-risk)
 
 Los informes de riesgo están disponibles en las soluciones de IBM OpenPages® . Los usuarios pueden profundizar en algunos informes para obtener más detalles.
 
@@ -2384,7 +2155,7 @@ Los informes de riesgo están disponibles en las soluciones de IBM OpenPages® .
 
 ### Informes de control
 
-`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-control)
+`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-control)
 
 Los informes de control de están disponibles en las soluciones de IBM OpenPages® . Los usuarios pueden profundizar en algunos informes para obtener más detalles.
 
@@ -2397,7 +2168,7 @@ Los informes de control de están disponibles en las soluciones de IBM OpenPages
 
 ### Informes de prueba
 
-`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-testing)
+`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-testing)
 
 Los informes de prueba están disponibles en las soluciones de IBM OpenPages® . Los usuarios pueden profundizar en ellos para obtener más detalles.
 
@@ -2409,7 +2180,7 @@ Los informes de prueba están disponibles en las soluciones de IBM OpenPages® .
 
 ### Informes de indicador
 
-`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-indicator)
+`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-indicator)
 
 La elaboración de informes es la fase final del ciclo de indicadores clave de riesgo (KRI) o de indicadores clave de rendimiento (KPI). Después de que el propietario define los KRI o los KPI, y captura sus valores, se suministran los informes de indicador estándar para ofrecer información de resumen de las entidades de negocios seleccionadas.
 
@@ -2424,7 +2195,7 @@ En la tabla siguiente se describen los informes de Indicador disponibles en las 
 
 ### Informes de eventos de pérdida
 
-`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-loss-event)
+`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-loss-event)
 
 Los informes de eventos de pérdida garantizan que la información sobre eventos de pérdida se recopilará de forma coherente en la totalidad de la organización.
 
@@ -2439,7 +2210,7 @@ En la tabla siguiente se describen los informes de eventos de pérdida disponibl
 
 ### Informes de gestión de problemas y corrección
 
-`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-issue-management-remediation)
+`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-issue-management-remediation)
 
 Los problemas son elementos que se identifican en relación con la infraestructura documentada. Se considera que afectan de forma negativa a la gestión y notificación de los riesgos de forma precisa.
 
@@ -2454,7 +2225,7 @@ En la tabla siguiente se describen los informes de gestión y remediación de pr
 
 ### Informes de análisis de escenarios
 
-`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-scenario-analysis)
+`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-scenario-analysis)
 
 Los escenarios implican la cuantificación de sucesos significativos (impactos y frecuencias de eventos potenciales) que se pueden producir en una organización. El análisis captura los escenarios hipotéticos de pérdidas. Los informes de análisis de escenarios son la base de las revisiones de los escenarios existentes para cada unidad de negocio.
 
@@ -2468,7 +2239,7 @@ La tabla siguiente describe los informes de análisis de escenario disponibles e
 
 ### Informes de conformidad reguladora
 
-`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-regulatory-compliance)
+`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-regulatory-compliance)
 
 En la tabla siguiente se describen los informes de conformidad normativa disponibles en IBM OpenPages® Policy Management. Los usuarios pueden profundizar en algunos informes para obtener más detalles.
 
@@ -2481,7 +2252,7 @@ En la tabla siguiente se describen los informes de conformidad normativa disponi
 
 ### Informes de activos de TI
 
-`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-it-asset)
+`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-it-asset)
 
 La tabla siguiente describe los informes de activos de TI disponibles en IBM OpenPages® IT Governance.
 
@@ -2494,7 +2265,7 @@ La tabla siguiente describe los informes de activos de TI disponibles en IBM Ope
 
 ### Informes de conformidad de TI
 
-`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-it-compliance)
+`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-it-compliance)
 
 La tabla siguiente describe los informes de conformidad de TI disponibles en IBM OpenPages® IT Governance. Los usuarios pueden profundizar en algunos informes para obtener más detalles.
 
@@ -2508,7 +2279,7 @@ La tabla siguiente describe los informes de conformidad de TI disponibles en IBM
 
 ### Informes de administración de auditoría
 
-`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-audit-management)
+`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-audit-management)
 
 La tabla siguiente describe los informes de gestión de auditoría disponibles en IBM OpenPages® Internal Audit Management. Los usuarios pueden profundizar en algunos informes para obtener más detalles.
 
@@ -2526,12 +2297,12 @@ La tabla siguiente describe los informes de gestión de auditoría disponibles e
 | Panel de hojas de registros horarios de auditor |  | Para los auditores seleccionados, consulte el estado de sus hojas de registro horario durante un número de semanas anteriores a la fecha seleccionada.<br>El Auditor líder y los Gestores de auditoría pueden utilizar este panel para monitorizar a los auditores que no envían las horas y para saber si las métricas de recursos están actualizadas. Pueden entrar y ver los detalles de una semana sobre un auditor determinado. |
 | Panel de utilización de auditor |  | Para los auditores seleccionados y un año seleccionado, puede ver la utilización del auditor.<br>Los Gestores de auditoría pueden utilizar este panel para asegurarse de que están utilizando de forma óptima los recursos de auditor, y también para garantizar que los auditores no estén sobrecargados de trabajo. |
 | Panel de aprobaciones de hoja de registro horario pendientes |  | Para los auditores seleccionados, consulte las hojas de registro horario pendientes de aprobación durante un número seleccionado de semanas anteriores a la fecha seleccionada.<br>El Responsable de la aprobación de la hoja de registro horario, el Auditor líder y el Gestor de auditorías pueden utilizar este panel para supervisar las entradas de registro horario pendientes. Pueden acceder a niveles más internos para obtener más información. |
-| Asistente de entrada de hoja de registro horario |  | Consulte [Ayudante de entrada de hoja de registro horario](#asistente-de-entrada-de-hoja-de-registro-horario). |
-| Asistente de aprobación de hoja de registro horario |  | Consulte [Ayudante de aprobación de hoja de registro horario](#asistente-de-aprobación-de-hoja-de-registro-horario). |
+| Asistente de entrada de hoja de registro horario |  | Véase [Ayudante de entrada de hojas de horas](#asistentes-de-hoja-de-registro-horario). |
+| Asistente de aprobación de hoja de registro horario |  | Véase [Ayuda para la aprobación de hojas de horas](#asistentes-de-hoja-de-registro-horario). |
 
 ### Informes de cuestionario
 
-`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-questionnaire)
+`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-questionnaire)
 
 En la tabla siguiente se describen los informes de cuestionario.
 
@@ -2544,7 +2315,7 @@ En la tabla siguiente se describen los informes de cuestionario.
 
 ### Informes de gestión de controles financieros
 
-`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-financial-controls-management)
+`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-financial-controls-management)
 
 La tabla siguiente describe los informes de FCM.
 
@@ -2561,7 +2332,7 @@ La tabla siguiente describe los informes de FCM.
 
 ### Informes de gestión de riesgos para ESG
 
-`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-risk-management-esg)
+`Guía de soluciones › Informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-risk-management-esg)
 
 La tabla siguiente describe los informes disponibles en IBM OpenPages® Risk Management for ESG. Los usuarios pueden profundizar en algunos informes para obtener más detalles.
 
@@ -2575,19 +2346,9 @@ La tabla siguiente describe los informes disponibles en IBM OpenPages® Risk Man
 | Panel de control de conformidad de ESG | Conformidad por acceso a detalles de mandato | Este informe es un panel de control interactivo de varias pestañas IBM Cognos Analytics que permite a una organización ver su estado de conformidad ESG. |
 | Detalles de cumplimiento normativo y estándar de ESG |  | Este informe muestra detalles sobre submandatos y requisitos para un mandato seleccionado. |
 
-Si utiliza IBM OpenPages Risk Management for ESG y la integración de Supply Wisdom junto con IBM OpenPages Risk Management for ESG, están disponibles los siguientes informes adicionales:
-
-**Tabla 2. Gestión de riesgos para ESG con Supply Wisdom informes**
-
-| Nombre | Informe de acceso a detalles | Descripción |
-| --- | --- | --- |
-| Lista de proveedores-Clasificaciones ESG | Obtención de detalles de proveedor de ESG | Este informe de lista detallada muestra las valoraciones de ESG para los proveedores seleccionados, que se filtran por nombre de proveedor.<br>El informe de acceso a detalles muestra datos clave de evaluaciones de Supply Wisdom ESG e incluye enlaces de seguimiento cruzado con el proveedor. |
-| Comparación de proveedores-ESG |  | Este informe muestra las valoraciones de ESG de Supply Wisdom para dos proveedores. El informe incluye un filtro para seleccionar los proveedores para la comparación. |
-| Postura de proveedor-Calificaciones de ESG |  | Este informe se filtra por proveedor y muestra los riesgos de Supply Wisdom ESG asociados del proveedor en varios formatos (Radar, Cross Tab y Trend Line chart). |
-
 ## Activadores
 
-`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-triggers)
+`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-triggers)
 
 Las soluciones de IBM OpenPages® incluyen varios desencadenantes.
 
@@ -2623,7 +2384,7 @@ La tabla siguiente lista los activadores incluidos y habilitados con cada soluci
 
 ### Tipos de objeto que contienen activadores
 
-`Guía de soluciones › Activadores` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=triggers-object-types-that-contain)
+`Guía de soluciones › Desencadenantes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=triggers-object-types-that-contain)
 
 Para poder utilizar la herramienta ObjectManager para cargar los datos de instancias XML, inhabilite los activadores en cualquier tipo de objeto para el que desee cargar datos.
 
@@ -2648,7 +2409,7 @@ En la tabla siguiente se listan los tipos de objeto para los que se han incluido
 
 ### Autoevaluaciones de riesgo y control (desencadenantes y cálculos)
 
-`Guía de soluciones › Activadores` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=triggers-risk-control-self-assessments-calculations)
+`Guía de soluciones › Desencadenantes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=triggers-risk-control-self-assessments-calculations)
 
 El proceso de evaluaciones de riesgos se utiliza para identificar, evaluar y cuantificar el perfil de riesgo de una empresa. Cada riesgo se evalúa sobre una base cuantitativa o cualitativa.
 
@@ -2680,7 +2441,7 @@ El desencadenante RCSA cuantitativa y el desencadenante RCSA cualitativa ya no e
 
 ### Activadores de ciclo de vida de control
 
-`Guía de soluciones › Activadores` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=triggers-control-lifecycle)
+`Guía de soluciones › Desencadenantes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=triggers-control-lifecycle)
 
 Los activadores proporcionan las transiciones que mueven controles durante un ciclo de vida de atestación. Los ciclos de vida definen las fases que puede seguir un objeto. En cada fase, el sistema:
 
@@ -2718,7 +2479,7 @@ El activador de ciclo de vida de control inicia la notificación de control. La 
 
 ### Activador de importación de políticas
 
-`Guía de soluciones › Activadores` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=triggers-policy-import-trigger)
+`Guía de soluciones › Desencadenantes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=triggers-policy-import-trigger)
 
 El desencadenante de importación de políticas importa contenido de políticas y procedimientos de un documento estructurado de Microsoft Word a los campos de políticas y procedimientos de IBM OpenPages® analizando las distintas secciones del documento. Se inicia al comprobar un archivo adjunto del objeto Política.
 
@@ -2758,7 +2519,7 @@ El desencadenante de importación de políticas IBM OpenPages Gestión de polít
 
 ### Activador de bloqueo de políticas
 
-`Guía de soluciones › Activadores` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=triggers-policy-lock-trigger)
+`Guía de soluciones › Desencadenantes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=triggers-policy-lock-trigger)
 
 El activador de bloqueo de políticas bloquea la política o la política y sus componentes (procedimientos, archivos adjuntos, comentarios de revisiones de políticas) en distintos puntos del proceso de revisión y aprobación. Este activador admite los tres enfoques de la gestión de política: centrado en datos, híbrido y centrado en documentos.
 
@@ -2771,7 +2532,7 @@ El cliente puede configurar este componente para que se comporte según su metod
 
 ### Activador de cálculos de clasificación de riesgos de la auditoría
 
-`Guía de soluciones › Activadores` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=triggers-audit-risk-rating-computations-trigger)
+`Guía de soluciones › Desencadenantes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=triggers-audit-risk-rating-computations-trigger)
 
 El activador de cálculos de clasificación de riesgos de la auditoría calcula y mantiene los valores del campo de clasificación de riesgos residuales e inherentes de la auditoría en el objeto de riesgo.
 
@@ -2779,7 +2540,7 @@ El activador RCSA cuantitativas y RCSA cualitativas se aplican al activador de c
 
 ### Activador de automatización de cierre de auditoría
 
-`Guía de soluciones › Activadores` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=triggers-audit-close-automation-trigger)
+`Guía de soluciones › Desencadenantes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=triggers-audit-close-automation-trigger)
 
 El activador de automatización de cierre de auditoría evalúa la preparación para el cierre de cada componente configurado de una auditoría. El activador está configurado, de forma predeterminada, para los siguientes tipos de objeto: Auditoría, Sección de auditoría, Informe de trabajo, Conclusión, Comentario de revisión de auditoría, Planificación y Hoja de registro horario.
 
@@ -2789,7 +2550,7 @@ Las categorías de criterios de listo para el cierre configuradas incluyen campo
 
 ### Desencadenante de tarjeta de puntuación de riesgo de modelo
 
-`Guía de soluciones › Activadores` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=triggers-model-risk-scorecard-trigger)
+`Guía de soluciones › Desencadenantes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=triggers-model-risk-scorecard-trigger)
 
 El desencadenante del objeto de tarjeta de puntuación de riesgo de modelo calcula las puntuaciones que se utilizan para asignar un nivel a un modelo. Las tablas de puntuación de riesgo de modelo forman parte de IBM OpenPages® Model Risk Governance.
 
@@ -2799,7 +2560,7 @@ El desencadenante del objeto de tarjeta de puntuación de riesgo de modelo se ev
 
 ### Activador Tipo de cambio
 
-`Guía de soluciones › Activadores` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=triggers-exchange-rate-trigger)
+`Guía de soluciones › Desencadenantes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=triggers-exchange-rate-trigger)
 
 El activador de tipo de cambio vuelve a calcular el valor de campo de moneda especificado utilizando el tipo de cambio más cercano basado en el campo de fecha configurado, en lugar del último tipo de cambio cargado en el sistema.
 
@@ -2811,11 +2572,11 @@ Para Recuperación de pérdidas, los valores de Importe de recuperación estimad
 
 El campo `Trigger Run` sobre impactos de pérdidas y recuperaciones de pérdidas no es tenido en cuenta por el desencadenante de tipo de cambio. Si está establecido en No, el activador Tipo de cambio se sigue ejecutando.
 
-Puede habilitar e inhabilitar el desencadenante de tipo de cambio. Haga clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/settings_menu_icon_task_focused_ui.jpg)** > **Configuración del sistema** > **Configuración**, y luego edite el **Soluciones** > **ORM** > **Disparadores** > **Eventos de pérdida** > **Ajustador de tipos de cambio**. El valor predeterminado es true (habilitado).
+Puede habilitar e inhabilitar el desencadenante de tipo de cambio. Haga clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/settings_menu_icon_task_focused_ui.jpg)** > **Configuración del sistema** > **Configuración**, y luego edite el **Soluciones** > **ORM** > **Disparadores** > **Eventos de pérdida** > **Ajustador de tipos de cambio**. El valor predeterminado es true (habilitado).
 
 ## Perfiles
 
-`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=sg-profiles)
+`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=sg-profiles)
 
 Las soluciones de IBM OpenPages® incluyen uno o más perfiles.
 
@@ -2835,16 +2596,16 @@ Algunas soluciones incluyen más perfiles, que son subconjuntos del perfil maest
 | Solución | Perfiles |
 | --- | --- |
 | IBM OpenPages Data Privacy Management | • **OpenPages DPM Master**<br>• **encargado de datos de DPM**: este perfil es para los usuarios técnicos de Data Privacy Management, incluidos los encargados de datos e ingenieros de datos.<br>• **Oficial de privacidad de DPM**: este perfil es para los usuarios de Data Privacy Management en roles relacionados con la conformidad y el riesgo de la privacidad. |
-| IBM OpenPages Business Continuity Management | • **OpenPages BCM Master**<br>• **Usuario final de BCM**: este perfil proporciona acceso de sólo lectura a los empleados que necesitan ver los planes de continuidad de negocio dentro de la solución Business Continuity Management.<br>• **BCM Supply Wisdom Master*** |
-| IBM OpenPages Third Party Risk Management | • **OpenPages VRM Master**<br>• **VRM Vendor Manager**: este perfil está pensado para usuarios que son responsables de gestionar proveedores.<br>• **Proveedor de VRM**: este perfil está pensado para proveedores. El perfil les da acceso a un conjunto limitado de tipos de objeto como, por ejemplo, Cuestionario.<br>• **OpenPages RapidRatings Maestro***<br>• **VRM RiskRecon Maestro***<br>• **VRM Security Scorecard Master***<br>• **VRM Supply Wisdom Master***<br>Durante el proyecto de implementación se pueden crear más perfiles, por ejemplo, para un propietario de proceso, un comprobador de control y otros usuarios. |
+| IBM OpenPages Business Continuity Management | • **OpenPages BCM Master**<br>• **Usuario final de BCM**: este perfil proporciona acceso de sólo lectura a los empleados que necesitan ver los planes de continuidad de negocio dentro de la solución Business Continuity Management. |
+| IBM OpenPages Third Party Risk Management | • **OpenPages VRM Master**<br>• **VRM Vendor Manager**: este perfil está pensado para usuarios que son responsables de gestionar proveedores.<br>• **Proveedor de VRM**: este perfil está pensado para proveedores. El perfil les da acceso a un conjunto limitado de tipos de objeto como, por ejemplo, Cuestionario.<br>• **OpenPages RapidRatings Maestro***<br>• **VRM RiskRecon Maestro***<br>• **VRM Security Scorecard Master***<br>Durante el proyecto de implementación se pueden crear más perfiles, por ejemplo, para un propietario de proceso, un comprobador de control y otros usuarios. |
 | IBM OpenPages Regulatory Compliance Management | • **OpenPages RCM Master**<br>• **RCM Ascent Master***<br>• **RCM Reg-Track Master***<br>• **RCM TRRI Master***<br>• **RCM WK Master*** |
 | IBM OpenPages Model Risk Governance | • **OpenPages MRG Master**<br>• **MRG Model Owner**: este perfil está pensado para desarrolladores de modelos y propietarios de modelos. Los usuarios asignados a este perfil tienen acceso a las vistas de tareas específicas de MRG en los tipos de objeto compartido Entidad empresarial y Preferencia.<br>• **MRG Model Validation**: este perfil está pensado para validadores y revisores de modelos. Los usuarios asignados a este perfil tienen acceso a las vistas de tareas específicas de MRG en los tipos de objeto compartido Entidad empresarial y Preferencia. |
 | IBM OpenPages Financial Controls Management | • **OpenPages FCM Master**<br>• **FCM Certification V2**: este perfil está diseñado para usuarios que participan activamente en el proceso de revisión y subcertificación.<br>• **FCM Master V2**: este perfil está diseñado para usuarios que están involucrados en la subcertificación o tienen un rol de supervisión en el proceso de subcertificación. |
 | IBM OpenPages Operational Risk Management | • **OpenPages ORM Master**<br>• **ORM Operational Risk Team**: este perfil está pensado para un usuario avanzado que utiliza la mayoría de las funciones de OpenPages pero que no necesita acceso de lectura a los ID de biblioteca y a los campos de estado de objeto.<br>Un usuario de este perfil puede:<br>• Mantener procesos<br>• Gestionar bibliotecas de riesgo y control<br>• Determinar el ámbito de RCSA<br>• Ejecutar y supervisar el proceso de RCSA<br>• Administrar, revisar y supervisar eventos de pérdida<br>• Definir y capturar indicadores de riesgo clave (KRI)<br>• Gestionar el cierre de problemas y acciones<br>• Coordinar análisis de escenarios<br>• **ORM Business User**: este perfil incluye los campos y las configuraciones que un gestor de riesgos necesita para utilizar en las operaciones del negocio. Este usuario es un participante activo en la mayoría de las actividades de gestión de riesgos operativos.<br>Un usuario con este perfil puede:<br>• Registrar un evento de pérdida<br>• Determinar el ámbito de RCSA<br>• Aprobar evaluaciones de riesgos<br>• Capturar KRI<br>• Gestionar el cierre de problemas y acciones<br>• Participar en talleres de escenario<br>• **ORM Simplified User**: este perfil permite a un usuario centrarse en eventos de pérdida, captura de valor de KRI y gestión de problemas.<br>• **OpenPages FIRST Loss**: este perfil está diseñado para facilitar la carga de los datos de pérdida FIRST en OpenPages utilizando FastMap.<br>Los usuarios con este perfil pueden editar todos los campos de los objetos FIRST Loss para que dichos datos se puedan cargar. Asigne este perfil a los usuarios responsables de cargar los datos de pérdida FIRST a través de FastMap. Otorgue a todos los demás usuarios acceso de solo lectura a los objetos de pérdida FIRST.<br>Tenga en cuenta que no es necesario asignar este perfil a un usuario. En su lugar, puede configurar la hoja de cálculo de importación de FastMap para utilizar el perfil de **OpenPages FIRST Loss**. |
 | IBM OpenPages Gestión de políticas | • **OpenPages PCM Master**<br>• **PCM End User**: este perfil tiene acceso de solo lectura y está pensado para los empleados que necesitan ver políticas y procedimientos.<br>Se pueden crear más perfiles, por ejemplo para un gestor de programas de conformidad, el responsable de privacidad y otros usuarios durante el proyecto de implementación. |
-| IBM OpenPages IT Governance | • **OpenPages ITG Master**<br>Los subconjuntos de este perfil que son adecuados para un administrador de bibliotecas de TI, director de TI y otros usuarios se pueden crear durante el proyecto de implementación.<br>• **ITG RiskLens Maestro*** |
+| IBM OpenPages IT Governance | • **OpenPages ITG Master**<br>Los subconjuntos de este perfil que son adecuados para un administrador de bibliotecas de TI, director de TI y otros usuarios se pueden crear durante el proyecto de implementación. |
 | IBM OpenPages Internal Audit Management | **OpenPages IAM Master**<br>Los subconjuntos de este perfil que son adecuados para un auditor principal, director de auditoría y otros usuarios se pueden crear durante el proyecto de implementación. |
-| IBM OpenPages Gestión de riesgos para ESG | • **OpenPages ESG Master**<br>• **OpenPages ESG Supply Wisdom Master*** |
+| IBM OpenPages Gestión de riesgos para ESG | • **OpenPages ESG Master** |
 
 \* Estos perfiles solo están disponibles si el entorno incluye la configuración para el canal de información de datos relacionado.
 
@@ -2865,7 +2626,7 @@ El superadministrador (`OpenPagesAdministrator`) tiene acceso a los perfiles sig
 
 ## Plantillas de funciones
 
-`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-role-templates)
+`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-role-templates)
 
 Una plantilla de rol define los privilegios que se otorga a un usuario. Las soluciones de IBM OpenPages® incluyen varias plantillas de funciones. Las plantillas de roles dan permisos a la aplicación y conceden acceso a características y funciones. También proporcionan ACL de objeto (RWDA).
 
@@ -2877,7 +2638,7 @@ Para obtener más información sobre los permisos proporcionados con plantillas 
 
 ### Lista de plantillas de funciones
 
-`Guía de soluciones › Plantillas de funciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=templates-list-role)
+`Guía de soluciones › Plantillas de funciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=templates-list-role)
 
 Las soluciones de IBM OpenPages® incluyen varias plantillas de funciones.
 
@@ -2933,7 +2694,7 @@ Se suministran las siguientes plantillas de funciones con las soluciones:
 
 ### Permisos de plantillas de funciones
 
-`Guía de soluciones › Plantillas de funciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=templates-role-template-permissions)
+`Guía de soluciones › Plantillas de funciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=templates-role-template-permissions)
 
 Cada plantilla de funciones define permisos de acceso que se habilitan para cada tipo de objeto.
 
@@ -2943,7 +2704,7 @@ Además, cada solución incluye una plantilla de rol denominada Todos los datos 
 
 ### Permisos de tipo de objeto asignados por plantilla de funciones
 
-`Guía de soluciones › Plantillas de funciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=templates-object-type-permissions-assigned-by-role)
+`Guía de soluciones › Plantillas de funciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=templates-object-type-permissions-assigned-by-role)
 
 Una plantilla de funciones define el acceso de lectura, escritura, supresión y asociación a los tipos de objeto habilitados en cada solución.
 
@@ -2962,13 +2723,13 @@ Los permisos siguientes describen los derechos asignados a los tipos de objeto e
 
 ## Cálculos de GRC
 
-`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-grc-calculations)
+`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-grc-calculations)
 
 Los cálculos de ejemplo se proporcionan con OpenPages® para empezar a utilizar la característica GRC Calculations .
 
 ### Cálculos de ejemplo
 
-`Guía de soluciones › Cálculos de GRC` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=calculations-sample)
+`Guía de soluciones › Cálculos de GRC` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=calculations-sample)
 
 Puede utilizar los cálculos de ejemplo como se han proporcionado, o bien modificarlos para que cumplan sus requisitos. También se pueden utilizar como plantillas y herramientas de aprendizaje para sus propios cálculos.
 
@@ -2994,9 +2755,6 @@ Los cálculos de ejemplo siguientes se incluyen en OpenPages®:
 - CIA de recursos
 
   Calcula el nivel de importancia de los recursos basándose en la marca límite superior para CIA.
-- Tendencia de TPRM Supply Wisdom
-
-  Calcula la valoración de riesgo global de un proveedor, basándose en las puntuaciones trimestrales de Supply Wisdom. Compara la valoración de riesgo global actual con las calificaciones de trimestres anteriores para determinar la tendencia.
 
 #### Cálculos de KRI y KPI
 
@@ -3260,13 +3018,13 @@ Las salidas de estos cálculos se almacenan dentro de los registros correspondie
 
 ## GRC Workflow
 
-`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-grc-workflow)
+`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-grc-workflow)
 
 Se proporcionan flujos de trabajo de ejemplo con OpenPages® para empezar a utilizar la característica GRC Workflow .
 
 ### Flujos de trabajo de ejemplo
 
-`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=workflow-sample-workflows)
+`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=workflow-sample-workflows)
 
 Puede utilizar los flujos de trabajo de ejemplo como se han proporcionado, o bien modificarlos para que cumplan sus requisitos. También se pueden utilizar como plantillas y herramientas de aprendizaje para sus propios flujos de trabajo.
 
@@ -3313,7 +3071,7 @@ Si el propietario del problema selecciona **Acciones** > **Rechazar**, la tarea 
 
 *Figura 1. El flujo de trabajo de ejemplo Elemento de acción*
 
-![El Editor de flujos de trabajo muestra un diagrama esquemático de las etapas del flujo de trabajo: Inicio, En revisión, En curso y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/action_item_appr_workflow.png)
+![El Editor de flujos de trabajo muestra un diagrama esquemático de las etapas del flujo de trabajo: Inicio, En revisión, En curso y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/action_item_appr_workflow.png)
 
 #### Flujo de trabajo Conclusión
 
@@ -3330,11 +3088,11 @@ En este flujo de trabajo, observe los siguientes elementos clave:
 
 *Figura 2. Flujo de trabajo Conclusión*
 
-![El Editor de flujos de trabajo muestra un diagrama esquemático de las etapas del flujo de trabajo: Inicio, Búsqueda de preparación, revisiones y etapas de respuesta y, a continuación, una etapa Completa.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/finding_workflow.png)
+![El Editor de flujos de trabajo muestra un diagrama esquemático de las etapas del flujo de trabajo: Inicio, Búsqueda de preparación, revisiones y etapas de respuesta y, a continuación, una etapa Completa.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/finding_workflow.png)
 
 *Figura 3. La especificación para el flujo de trabajo Conclusión*
 
-![Un diagrama de flujo del flujo de trabajo de búsqueda, desde la preparación de la búsqueda hasta el cierre.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/example_wflow_finding1.jpg)
+![Un diagrama de flujo del flujo de trabajo de búsqueda, desde la preparación de la búsqueda hasta el cierre.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/example_wflow_finding1.jpg)
 
 #### Flujo de trabajo de incidente
 
@@ -3344,7 +3102,7 @@ Cuando se crea un incidente, el flujo de trabajo de incidente se inicia automát
 
 *Figura 4. Flujo de trabajo de incidente*
 
-![El Editor de flujos de trabajo muestra un diagrama esquemático de las etapas del flujo de trabajo: Inicio, En curso, Revisión, Aprobación y Cerrado.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/incident_workflow.png)
+![El Editor de flujos de trabajo muestra un diagrama esquemático de las etapas del flujo de trabajo: Inicio, En curso, Revisión, Aprobación y Cerrado.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/incident_workflow.png)
 
 #### Flujo de trabajo Revisión de problema
 
@@ -3358,7 +3116,7 @@ Para resolver el problema, el propietario del problema establece y registra las 
 
 *Figura 5. Flujo de trabajo Revisión de problema*
 
-![El Editor de flujos de trabajo muestra un diagrama esquemático de las etapas del flujo de trabajo: Inicio, En curso, Solicitud de ampliación de fecha de vencimiento, En revisión y Cerrado.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/issue_rev_workflow.png)
+![El Editor de flujos de trabajo muestra un diagrama esquemático de las etapas del flujo de trabajo: Inicio, En curso, Solicitud de ampliación de fecha de vencimiento, En revisión y Cerrado.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/issue_rev_workflow.png)
 
 El propietario del problema puede solicitar una ampliación de fecha de vencimiento en cualquier momento durante el ciclo de vida del problema estableciendo la fecha de vencimiento solicitada y seleccionando **Acciones** > **Solicitar cambio de fecha de vencimiento**. El aprobador del problema es informado de esta solicitud a través del correo electrónico. El aprobador puede aprobar o rechazar la solicitud. Si la aprueba, la fecha de vencimiento del problema se establece en la fecha de vencimiento solicitada.
 
@@ -3386,7 +3144,7 @@ El problema puede volver a abrirse iniciando el flujo de trabajo Revisión del p
 
   *Figura 6. Flujo de trabajo de creación de valor de KRI*
 
-  ![El Editor de flujos de trabajo muestra las etapas en el flujo de trabajo: Inicio y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/kri_value_create_workflow.png)
+  ![El Editor de flujos de trabajo muestra las etapas en el flujo de trabajo: Inicio y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/kri_value_create_workflow.png)
 
 - **Entrada de valor de KRI**
 
@@ -3396,7 +3154,7 @@ El problema puede volver a abrirse iniciando el flujo de trabajo Revisión del p
 
   *Figura 7. Flujo de trabajo de entrada de valor de KRI*
 
-  ![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, Especificar valor KRI, Aprobación y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/kri_value_entry_workflow.png)
+  ![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, Especificar valor KRI, Aprobación y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/kri_value_entry_workflow.png)
 
 - **Flujo de trabajo de creación de valor de KPI y flujo de trabajo de entrada de valor de KPI**
 
@@ -3437,13 +3195,13 @@ En este flujo de trabajo, tenga en cuenta los siguientes elementos:
 
 *Figura 8. Flujo de trabajo Revisión de evento de pérdida*
 
-![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, En curso, En revisión, dos etapas Aprobación y Cerrado.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/lossevent_rev_workflow.png)
+![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, En curso, En revisión, dos etapas Aprobación y Cerrado.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/lossevent_rev_workflow.png)
 
 #### Flujo de trabajo Evaluación de cuestionario
 
 El flujo de trabajo Evaluación de cuestionario traslada una evaluación de cuestionario a través de las etapas de recopilación de información, revisión y aprobación.
 
-![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, Recopilación de información, Revisión, Aprobación y Cerrado.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/questionnaire_workflow.png)
+![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, Recopilación de información, Revisión, Aprobación y Cerrado.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/questionnaire_workflow.png)
 
 #### Flujo de trabajo Informe de trabajo
 
@@ -3459,15 +3217,15 @@ En este flujo de trabajo, tenga en cuenta los siguientes elementos:
 
 *Figura 9. Flujo de trabajo Informe de trabajo*
 
-![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, Planificación de informe de trabajo y Plan de recursos, Preparación de informe de trabajo, Ejecución de informe de trabajo, Revisión de informe de trabajo y Informe de trabajo completado.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/workpaper_workflow.png)
+![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, Planificación de informe de trabajo y Plan de recursos, Preparación de informe de trabajo, Ejecución de informe de trabajo, Revisión de informe de trabajo y Informe de trabajo completado.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/workpaper_workflow.png)
 
 *Figura 10. La especificación para el flujo de trabajo de Informe*
 
-![Un diagrama de flujo del flujo de trabajo Informe de trabajo, desde la planificación hasta la finalización del informe de trabajo.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/example_wflow_workpaper1.jpg)
+![Un diagrama de flujo del flujo de trabajo Informe de trabajo, desde la planificación hasta la finalización del informe de trabajo.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/example_wflow_workpaper1.jpg)
 
 ### Flujos de trabajo de IBM OpenPages Business Continuity Management (BCM)
 
-`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=workflow-business-continuity-management-workflows)
+`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=workflow-business-continuity-management-workflows)
 
 IBM OpenPages® Business Continuity Management incluye flujos de trabajo de ejemplo. Puede utilizarlos tal cual o modificarlos para que se ajusten a sus necesidades. Los flujos de trabajo de ejemplo también se pueden utilizar como plantillas y herramientas de aprendizaje para sus propios flujos de trabajo.
 
@@ -3494,7 +3252,7 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
   *Figura 1. Flujo de trabajo Proceso de revisión y aprobación del plan de continuidad de negocio*
 
-  ![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo. El flujo de trabajo tiene dos ramas: 1) Renovar o reescribir, Aprobación y Fin; o 2) En curso, En revisión, Aprobación y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/bcm_bc_plan_appr_workflow.png)
+  ![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo. El flujo de trabajo tiene dos ramas: 1) Renovar o reescribir, Aprobación y Fin; o 2) En curso, En revisión, Aprobación y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/bcm_bc_plan_appr_workflow.png)
 
 - **Evaluación de impacto empresarial inicial**
 
@@ -3504,7 +3262,7 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
   *Figura 2. Flujo de trabajo Evaluación de impacto empresarial inicial*
 
-  ![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, Actualizar correlación de dependencias, Evaluación de impacto, Identificación y corrección de deficiencias, Aprobación final, Respuesta de rechazo de aprobación y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/bcm_initial_bia_workflow.png)
+  ![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, Actualizar correlación de dependencias, Evaluación de impacto, Identificación y corrección de deficiencias, Aprobación final, Respuesta de rechazo de aprobación y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/bcm_initial_bia_workflow.png)
 
 - **Revisión de BIA recurrente**
 
@@ -3514,7 +3272,7 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
   *Figura 3. Flujo de trabajo Revisión de BIA recurrente*
 
-  ![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, Revisión de evaluación, Aprobación y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/bcm_recur_bia_workflow.png)
+  ![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, Revisión de evaluación, Aprobación y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/bcm_recur_bia_workflow.png)
 
 - **Creación del plan de prueba de BC**
 
@@ -3524,7 +3282,7 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
   *Figura 4. Creación del plan de prueba de BC*
 
-  ![El Editor de flujos de trabajo muestra las etapas en el flujo de trabajo: Inicio, Creación de escenario de prueba, Aprobación, Respuesta a rechazo de aprobación y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/bcm_bc_crt_testplan_workflow.png)
+  ![El Editor de flujos de trabajo muestra las etapas en el flujo de trabajo: Inicio, Creación de escenario de prueba, Aprobación, Respuesta a rechazo de aprobación y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/bcm_bc_crt_testplan_workflow.png)
 
 - **Ejecución del plan de prueba de BC**
 
@@ -3534,7 +3292,7 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
   *Figura 5. Ejecución del plan de prueba de BC*
 
-  ![El Editor de flujos de trabajo muestra las etapas en el flujo de trabajo: Inicio, Confirmación de inicio, Prueba y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/bcm_bc_ex_testplan_workflow.png)
+  ![El Editor de flujos de trabajo muestra las etapas en el flujo de trabajo: Inicio, Confirmación de inicio, Prueba y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/bcm_bc_ex_testplan_workflow.png)
 
 - **Documentación del resultado de pruebas de BC**
 
@@ -3542,7 +3300,7 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
   *Figura 6. Flujo de trabajo Documentación del resultado de pruebas de BC*
 
-  ![El Editor de flujos de trabajo muestra las etapas en el flujo de trabajo: Inicio, Resultados de documento, Aprobación y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/bcm_bc_test_result_workflow.png)
+  ![El Editor de flujos de trabajo muestra las etapas en el flujo de trabajo: Inicio, Resultados de documento, Aprobación y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/bcm_bc_test_result_workflow.png)
 
 - **Flujo de trabajo de revisión de dependencias**
 
@@ -3552,7 +3310,7 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
   *Figura 7. Flujo de trabajo de revisión de dependencias*
 
-  ![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, Revisión de correlación de dependencias y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/bcm_dependency_rev_workflow.png)
+  ![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, Revisión de correlación de dependencias y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/bcm_dependency_rev_workflow.png)
 
 - **Evaluación inicial del servicio empresarial**
 
@@ -3562,7 +3320,7 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
   *Figura 8. Evaluación inicial del servicio empresarial*
 
-  ![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo. El flujo de trabajo comienza con una evaluación de servicio empresarial y una revisión de evaluación de servicio empresarial. A continuación, el flujo de trabajo se ramifica a la etapa final o a una serie de etapas para un ejercicio de correlación.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/bcm_bserv_initial_workflow.png)
+  ![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo. El flujo de trabajo comienza con una evaluación de servicio empresarial y una revisión de evaluación de servicio empresarial. A continuación, el flujo de trabajo se ramifica a la etapa final o a una serie de etapas para un ejercicio de correlación.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/bcm_bserv_initial_workflow.png)
 
 - **Evaluación periódica de servicio empresarial**
 
@@ -3572,7 +3330,7 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
   *Figura 9. Evaluación periódica de servicio empresarial*
 
-  ![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo. El flujo de trabajo es complejo. Comienza con dos ramas: una para servicios empresariales importantes y otra para todos los demás servicios empresariales. Cada rama contiene varias etapas.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/bcm_bserv_per_workflow.png)
+  ![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo. El flujo de trabajo es complejo. Comienza con dos ramas: una para servicios empresariales importantes y otra para todos los demás servicios empresariales. Cada rama contiene varias etapas.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/bcm_bserv_per_workflow.png)
 
 - **Correlación de escenarios de servicios empresariales**
 
@@ -3582,7 +3340,7 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
   *Figura 10. Correlación de escenarios de servicios empresariales*
 
-  ![El Editor de flujos de trabajo muestra las etapas en el flujo de trabajo: Inicio, Selección de análisis de escenario y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/bcm_bserv_scen_workflow.png)
+  ![El Editor de flujos de trabajo muestra las etapas en el flujo de trabajo: Inicio, Selección de análisis de escenario y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/bcm_bserv_scen_workflow.png)
 
 - **Desarrollo y pruebas de escenarios**
 
@@ -3592,7 +3350,7 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
   *Figura 11. Desarrollo y pruebas de escenarios*
 
-  ![El Editor de flujos de trabajo muestra las etapas en el flujo de trabajo: Inicio, Desarrollo de escenario, Prueba y resultados de escenario, Aprobación de prueba y corrección y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/bcm_scen_dev_workflow.png)
+  ![El Editor de flujos de trabajo muestra las etapas en el flujo de trabajo: Inicio, Desarrollo de escenario, Prueba y resultados de escenario, Aprobación de prueba y corrección y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/bcm_scen_dev_workflow.png)
 
 - **Prueba de escenario de servicios empresariales**
 
@@ -3602,7 +3360,7 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
   *Figura 12. Correlación de escenarios de servicios empresariales*
 
-  ![El Editor de flujos de trabajo muestra las etapas en el flujo de trabajo: Inicio, Revisión de escenario, Prueba y resultados de escenario, Aprobación de prueba y corrección y Finalización.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/bcm_bserv_scen_test_workflow.png)
+  ![El Editor de flujos de trabajo muestra las etapas en el flujo de trabajo: Inicio, Revisión de escenario, Prueba y resultados de escenario, Aprobación de prueba y corrección y Finalización.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/bcm_bserv_scen_test_workflow.png)
 
 - **Imp Bus Service - Remediación de infracción**
 
@@ -3612,11 +3370,11 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
   *Figura 13. Imp Bus Service - Remediación de infracción*
 
-  ![El Editor de flujos de trabajo muestra las etapas en el flujo de trabajo: Inicio, Revisión de infracciones y, a continuación, No es necesaria ninguna corrección o Se ha creado un problema.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/bcm_bserv_breach_workflow.png)
+  ![El Editor de flujos de trabajo muestra las etapas en el flujo de trabajo: Inicio, Revisión de infracciones y, a continuación, No es necesaria ninguna corrección o Se ha creado un problema.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/bcm_bserv_breach_workflow.png)
 
 ### Flujos de trabajo de IBM OpenPages Data Privacy Management (DPM)
 
-`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=workflow-data-privacy-management-workflows)
+`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=workflow-data-privacy-management-workflows)
 
 IBM OpenPages® Data Privacy Management incluye dos flujos de trabajo de ejemplo. Puede utilizarlos tal cual o modificarlos para que se ajusten a sus necesidades. Los flujos de trabajo de ejemplo también se pueden utilizar como una plantilla y herramientas de aprendizaje para sus propios flujos de trabajo.
 
@@ -3636,7 +3394,7 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
   *Figura 1. Flujo de trabajo de evaluación de impacto de privacidad*
 
-  ![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, Revisión de activos de datos, Evaluación de privacidad no necesaria, Información adicional necesaria, Evaluación de privacidad en curso, Evaluación de privacidad en espera de aprobación y Evaluación de privacidad completa.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/dpm_pia_workflow.png)
+  ![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, Revisión de activos de datos, Evaluación de privacidad no necesaria, Información adicional necesaria, Evaluación de privacidad en curso, Evaluación de privacidad en espera de aprobación y Evaluación de privacidad completa.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/dpm_pia_workflow.png)
 
 - **Evaluación del impacto de la protección de datos**
 
@@ -3650,11 +3408,11 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
   *Figura 2. Flujo de trabajo de evaluación del impacto de protección de datos*
 
-  ![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, DPIA iniciado, DPIA no necesario, DPIA en espera de aprobación y DPIA completado.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/dpm_dpia_workflow.png)
+  ![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, DPIA iniciado, DPIA no necesario, DPIA en espera de aprobación y DPIA completado.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/dpm_dpia_workflow.png)
 
 ### IBM OpenPages Financial Controls Management (FCM)
 
-`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=workflow-financial-controls-management-workflows)
+`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=workflow-financial-controls-management-workflows)
 
 IBM OpenPages® Financial Controls Management incluye flujos de trabajo de ejemplo. Puede utilizarlos tal cual o modificarlos para que se ajusten a sus necesidades. Los flujos de trabajo de ejemplo también se pueden utilizar como plantillas y herramientas de aprendizaje para sus propios flujos de trabajo.
 
@@ -3711,7 +3469,7 @@ En función de la infraestructura de subcertificación interna de la organizaci�
 
   *Figura 1. Certificación FCM - Evaluación de control*
 
-  ![Vía de acceso de flujo de trabajo para la evaluación de control](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/fcm_cert_controleval_workflow.png)
+  ![Vía de acceso de flujo de trabajo para la evaluación de control](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/fcm_cert_controleval_workflow.png)
 
 - **Vía de acceso de flujo de trabajo a nivel de proceso**
 
@@ -3736,11 +3494,11 @@ En función de la infraestructura de subcertificación interna de la organizaci�
 
   *Figura 2. Certificación FCM - Evaluación de proceso*
 
-  ![Vía de acceso de flujo de trabajo para la evaluación de proceso](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/fcm_cert_processeval_workflow.png)
+  ![Vía de acceso de flujo de trabajo para la evaluación de proceso](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/fcm_cert_processeval_workflow.png)
 
 ### Flujos de trabajo de IBM OpenPages IT Governance (ITG)
 
-`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=workflow-it-governance-workflows)
+`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=workflow-it-governance-workflows)
 
 IBM OpenPages® IT Governance incluye flujos de trabajo de ejemplo. Puede utilizarlos tal cual o modificarlos para que se ajusten a sus necesidades. Los flujos de trabajo de ejemplo también se pueden utilizar como una plantilla y herramientas de aprendizaje para sus propios flujos de trabajo.
 
@@ -3758,7 +3516,7 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
 - **Exención de TI**
 
-  Este flujo de trabajo automático realiza un seguimiento de la solicitud y respuesta para obtener una renuncia siempre que la renuncia se clasifique como InfoSec Política, política de TI, requisito de TI o control de TI en el campo Tipo. Si la solicitud se aprueba, el responsable debe proporcionar una fecha de caducidad para la cancelación. De lo contrario, se asigna una fecha de caducidad de un año a partir de la fecha de aprobación.
+  Este flujo de trabajo automático realiza un seguimiento de la solicitud y respuesta para obtener una renuncia siempre que la renuncia se clasifique como InfoSec Política, política de TI, requisito de TI o control de TI en el campo Tipo. Si la solicitud se aprueba, el responsable debe proporcionar una fecha de caducidad para la cancelación. En caso contrario, se asigna una fecha de expiración de un año a partir de la fecha de aprobación.
 
 - **Revisión de caducidad de exención de TI**
 
@@ -3766,7 +3524,7 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
 ### Flujos de trabajo de IBM OpenPages Model Risk Governance (MRG)
 
-`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=workflow-model-risk-governance-workflows)
+`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=workflow-model-risk-governance-workflows)
 
 IBM OpenPages® Model Risk Governance incluye flujos de trabajo de ejemplo. Puede utilizarlos tal cual o modificarlos para que se ajusten a sus necesidades. Los flujos de trabajo de ejemplo también se pueden utilizar como plantillas y herramientas de aprendizaje para sus propios flujos de trabajo.
 
@@ -3774,9 +3532,9 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
 - **Flujo de trabajo Candidato modelo**
 
-  Este flujo de trabajo permite a un usuario añadir un objeto de modelo al inventario como candidato. El candidato del modelo se envía para aprobación como Modelo o No modelo. El aprobador puede alterar temporalmente la propuesta candidata. Una vez que un candidato de modelo se confirma como modelo, puede comenzar el proceso de desarrollo y documentación del modelo.
+  Este flujo de trabajo permite a un usuario añadir un objeto de modelo al inventario como candidato. El candidato del modelo se envía para aprobación como Modelo o No modelo. El aprobador puede alterar temporalmente la propuesta candidata. Una vez que un candidato a modelo se confirma como tal, puede comenzar el proceso del ciclo de vida del modelo.
 
-- **Flujo de trabajo Evaluación de riesgos de modelo**
+- **Flujo de trabajo del modelo de cuadro de mando**
 
   Este flujo de trabajo realiza una evaluación de riesgos de modelo en el modelo, cuyos resultados se utilizan para asignar un nivel al modelo. El cálculo de la tarjeta de puntuación de riesgo del modelo utiliza entonces los valores de los registros de preferencia para calcular las puntuaciones de riesgo y el nivel. Al final del flujo de trabajo, las puntuaciones y el nivel se copian en el modelo padre.
 
@@ -3814,17 +3572,13 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
   Este flujo de trabajo toma un modelo de IA desde la finalización del proceso candidato hasta la aprobación para el despliegue. Incluye varias etapas y subflujos de trabajo que implican a varias partes interesadas.
 
-- **Solicitud de caso de uso de modelo**
-
-  El flujo de trabajo Solicitud de caso de uso de modelo se utiliza para evaluar el riesgo y obtener la aprobación empresarial para un caso de uso de modelo. Una vez que se ha aprobado un caso de uso de modelo, puede empezar el desarrollo del modelo.
-
 - **Despliegue de modelos**
 
   El flujo de trabajo Despliegue del modelo se utiliza para controlar el proceso de despliegue del modelo una vez que se ha completado el desarrollo. Si el modelo se está desplegando en producción, hay un paso adicional para producir el modelo antes de que se complete el despliegue.
 
 ### IBM OpenPages Policy Management (PCM)
 
-`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=workflow-policy-management-workflows)
+`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=workflow-policy-management-workflows)
 
 IBM OpenPages® Policy Management incluye un flujo de trabajo de ejemplo. Puede utilizarlo tal cual o modificarlo para que se ajuste a sus necesidades. El flujo de trabajo de ejemplo también se puede utilizar como una plantilla y herramientas de aprendizaje para sus propios flujos de trabajo.
 
@@ -3868,7 +3622,7 @@ El flujo de trabajo de ejemplo está habilitado en instalaciones nuevas.
 
   *Figura 1. Flujo de trabajo Revisión y aprobación de políticas*
 
-  ![El Editor de flujos de trabajo muestra un diagrama esquemático de las etapas del flujo de trabajo. El flujo de trabajo comienza con una etapa Revisión / Triaje. Si no hay cambios, la política pasa por una etapa de revisión/aprobación y luego una etapa Reenviar política. Si hay cambios, la política pasa por uno o más ciclos de revisión y, a continuación, pasa a la etapa Publicar.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/pcm_review_workflow.png)
+  ![El Editor de flujos de trabajo muestra un diagrama esquemático de las etapas del flujo de trabajo. El flujo de trabajo comienza con una etapa Revisión / Triaje. Si no hay cambios, la política pasa por una etapa de revisión/aprobación y luego una etapa Reenviar política. Si hay cambios, la política pasa por uno o más ciclos de revisión y, a continuación, pasa a la etapa Publicar.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/pcm_review_workflow.png)
 
 - **Retirar flujo de trabajo de política**
 
@@ -3880,11 +3634,11 @@ El flujo de trabajo de ejemplo está habilitado en instalaciones nuevas.
 
   *Figura 2. Retirar flujo de trabajo de política*
 
-  ![El Editor de flujos de trabajo muestra un diagrama esquemático de las etapas del flujo de trabajo. El flujo de trabajo empieza con una etapa Retire Policy. Si la política está lista para ser retirada, pasa por una etapa de aprobación de SME. También se proporciona una etapa de aprobación ejecutiva. Si se aprueba, la política se retira.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/nfg9000-pcm_wf-retire_policy.png)
+  ![El Editor de flujos de trabajo muestra un diagrama esquemático de las etapas del flujo de trabajo. El flujo de trabajo empieza con una etapa Retire Policy. Si la política está lista para ser retirada, pasa por una etapa de aprobación de SME. También se proporciona una etapa de aprobación ejecutiva. Si se aprueba, la política se retira.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/nfg9000-pcm_wf-retire_policy.png)
 
 ### IBM OpenPages Regulatory Compliance Management (RCM)
 
-`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=workflow-regulatory-compliance-management-workflows)
+`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=workflow-regulatory-compliance-management-workflows)
 
 IBM OpenPages® Regulatory Compliance Management incluye flujos de trabajo de ejemplo. Puede utilizarlos tal cual o modificarlos para que se ajusten a sus necesidades. Los flujos de trabajo de ejemplo también se pueden utilizar como plantillas y herramientas de aprendizaje para sus propios flujos de trabajo.
 
@@ -3962,7 +3716,7 @@ OpenPages incluye flujos de trabajo de ejemplo para procesar eventos reguladores
 
 - **Restablecimiento de evaluación de conformidad**
 
-  El flujo de trabajo se invoca desde el objeto Plan de conformidad. El flujo de trabajo inicia una cascada de otros flujos de trabajo de dos etapas para restablecer los valores cuando es necesario un nuevo ciclo de evaluación de conformidad. Ejecute este flujo de trabajo desde **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Flujos de trabajo** para asegurarse de que se restablecen todos los Planes de Cumplimiento.
+  El flujo de trabajo se invoca desde el objeto Plan de conformidad. El flujo de trabajo inicia una cascada de otros flujos de trabajo de dos etapas para restablecer los valores cuando es necesario un nuevo ciclo de evaluación de conformidad. Ejecute este flujo de trabajo desde **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Flujos de trabajo** para asegurarse de que se restablecen todos los Planes de Cumplimiento.
 
 - **Tema de conformidad - Restablecimiento de biblioteca**
 
@@ -4042,7 +3796,7 @@ Los siguientes flujos de trabajo están disponibles con el conector Wolters Kluw
 
 ### Flujos de trabajo de IBM OpenPages Risk Management for ESG
 
-`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=workflow-risk-management-esg-workflows)
+`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=workflow-risk-management-esg-workflows)
 
 IBM OpenPages® Risk Management for ESG incluye flujos de trabajo de ejemplo. Puede utilizarlos tal cual o modificarlos para que se ajusten a sus necesidades. Los flujos de trabajo de ejemplo también se pueden utilizar como plantillas y herramientas de aprendizaje para sus propios flujos de trabajo.
 
@@ -4060,7 +3814,7 @@ Los flujos de trabajo para la gestión de objetivos son:
 
   *Figura 1. Flujo de trabajo de creación de objetivos*
 
-  ![Este flujo de trabajo tiene tres etapas: Inicio, Objetivo de documento y Objetivo final en directo.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/nfg8302-esg_obj-cr.png)
+  ![Este flujo de trabajo tiene tres etapas: Inicio, Objetivo de documento y Objetivo final en directo.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/nfg8302-esg_obj-cr.png)
 
 - **Flujo de trabajo de actualización de objetivo**
 
@@ -4068,7 +3822,7 @@ Los flujos de trabajo para la gestión de objetivos son:
 
   *Figura 2. Flujo de trabajo de actualización de objetivo*
 
-  ![Este flujo de trabajo tiene cuatro etapas: Inicio, Progreso de actualización, Objetivo de finalización completado y Objetivo de finalización en curso.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/nfg8302-esg_obj-upd.png)
+  ![Este flujo de trabajo tiene cuatro etapas: Inicio, Progreso de actualización, Objetivo de finalización completado y Objetivo de finalización en curso.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/nfg8302-esg_obj-upd.png)
 
 Los flujos de trabajo para la aplicabilidad de conformidad son:
 
@@ -4078,15 +3832,15 @@ Los flujos de trabajo para la aplicabilidad de conformidad son:
 
   *Figura 3. Aplicabilidad ESG-Flujo de trabajo de mandato*
 
-  ![Este flujo de trabajo tiene dos etapas: Inicio y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/nfg8302-esg_app-m.png)
+  ![Este flujo de trabajo tiene dos etapas: Inicio y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/nfg8302-esg_app-m.png)
 
 - **Aplicabilidad ESG-Flujo de trabajo SubMandate**
 
-  Este flujo de trabajo se inicia desde el mandato padre. Los flujos de trabajo solicitan al propietario del mandato que evalúe la aplicabilidad de ESG en cada SubMandate. Tras el envío, el flujo de trabajo inicia el flujo de trabajo «“Aplicabilidad ESG-Requisito”» para los requisitos asociados.
+  Este flujo de trabajo se inicia desde el mandato padre. El flujo de trabajo pide al propietario del mandato que evalúe la aplicabilidad de ESG en cada SubMandate. Tras el envío, el flujo de trabajo inicia el flujo de trabajo «“Aplicabilidad ESG-Requisito”» para los requisitos asociados.
 
   *Figura 4. Aplicabilidad ESG-Flujo de trabajo SubMandate*
 
-  ![Este flujo de trabajo tiene tres etapas: Iniciar, Determinar aplicabilidad y Finalizar.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/nfg8302-esg_app-subm.png)
+  ![Este flujo de trabajo tiene tres etapas: Iniciar, Determinar aplicabilidad y Finalizar.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/nfg8302-esg_app-subm.png)
 
 - **Aplicabilidad ESG-Requisito**
 
@@ -4094,7 +3848,7 @@ Los flujos de trabajo para la aplicabilidad de conformidad son:
 
   *Figura 5. Aplicabilidad ESG-Flujo de trabajo de requisito*
 
-  ![Este flujo de trabajo tiene tres etapas: Iniciar, Determinar aplicabilidad y Finalizar.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/nfg8302-esg_app-req.png)
+  ![Este flujo de trabajo tiene tres etapas: Iniciar, Determinar aplicabilidad y Finalizar.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/nfg8302-esg_app-req.png)
 
 Los flujos de trabajo para la evaluación de conformidad son:
 
@@ -4104,7 +3858,7 @@ Los flujos de trabajo para la evaluación de conformidad son:
 
   *Figura 6. Evaluación de conformidad de ESG-Iniciar flujo de trabajo*
 
-  ![Este flujo de trabajo tiene dos etapas: Inicio y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/nfg8302-esg_ca-launch.png)
+  ![Este flujo de trabajo tiene dos etapas: Inicio y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/nfg8302-esg_ca-launch.png)
 
 - **Evaluación de conformidad de ESG-Flujo de trabajo de requisito**
 
@@ -4112,7 +3866,7 @@ Los flujos de trabajo para la evaluación de conformidad son:
 
   *Figura 7. Evaluación de conformidad de ESG-Flujo de trabajo de requisito*
 
-  ![Este flujo de trabajo tiene cinco etapas: Inicio, Evaluación-Declaración de divulgación, Evaluación-Medida, Revisión de evaluación y Evaluación y Revisión completadas.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/nfg8302-esg_ca-req.png)
+  ![Este flujo de trabajo tiene cinco etapas: Inicio, Evaluación-Declaración de divulgación, Evaluación-Medida, Revisión de evaluación y Evaluación y Revisión completadas.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/nfg8302-esg_ca-req.png)
 
 - **Flujo de trabajo Declaración de divulgación y revisión**
 
@@ -4120,11 +3874,11 @@ Los flujos de trabajo para la evaluación de conformidad son:
 
   *Figura 8. Flujo de trabajo Declaración de divulgación y revisión*
 
-  ![Este flujo de trabajo tiene cinco etapas: Inicio, Declaración de divulgación completa, Revisión de divulgación, Finalización de intención cumplida y Finalización de intención no cumplida.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_solutions/nfg8302-esg_wf-ds.png)
+  ![Este flujo de trabajo tiene cinco etapas: Inicio, Declaración de divulgación completa, Revisión de divulgación, Finalización de intención cumplida y Finalización de intención no cumplida.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_solutions/nfg8302-esg_wf-ds.png)
 
 ### Flujos de trabajo de IBM OpenPages Third Party Risk Management (TPRM)
 
-`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=workflow-third-party-risk-management-workflows)
+`Guía de soluciones › GRC Workflow` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=workflow-third-party-risk-management-workflows)
 
 IBM OpenPages® Third Party Risk Management incluye flujos de trabajo de ejemplo. Puede utilizarlos tal cual o modificarlos para que se ajusten a sus necesidades. Los flujos de trabajo de ejemplo también se pueden utilizar como plantillas y herramientas de aprendizaje para sus propios flujos de trabajo.
 
@@ -4164,13 +3918,13 @@ Los flujos de trabajo de ejemplo están habilitados en instalaciones nuevas.
 
 ## Características heredadas
 
-`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=sg-legacy-features)
+`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=sg-legacy-features)
 
 Las características siguientes han quedado en desuso o se han eliminado de IBM OpenPages®.
 
 ### Visualizaciones de procesos empresariales (existentes)
 
-`Guía de soluciones › Características heredadas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-business-process-visualizations-legacy)
+`Guía de soluciones › Características heredadas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-business-process-visualizations-legacy)
 
 Las visualizaciones que representaban procesos de negocio en un formato gráfico ya no están soportadas en IBM OpenPages®.
 
@@ -4220,7 +3974,7 @@ Los usuarios han accedido a las visualizaciones utilizando las tareas siguientes
 
 ### Campos calculados
 
-`Guía de soluciones › Características heredadas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-computed-fields)
+`Guía de soluciones › Características heredadas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-computed-fields)
 
 La tabla siguiente lista los campos calculados heredados. Estos campos se sustituyen por campos URL. Un campo calculado es un campo de solo lectura cuyo valor se obtiene de los valores de otros campos. Los campos calculados pueden incluir tipos de datos, como booleano, fecha, decimal, entero y cadenas simples.
 
@@ -4233,7 +3987,7 @@ La tabla siguiente lista los campos calculados heredados. Estos campos se sustit
 
 ### Activadores heredados
 
-`Guía de soluciones › Características heredadas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-legacy-triggers)
+`Guía de soluciones › Características heredadas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-legacy-triggers)
 
 Las soluciones de IBM OpenPages® incluyen varios desencadenantes que no están habilitados en instalaciones nuevas.
 
@@ -4256,7 +4010,7 @@ La tabla siguiente lista los activadores que ya no están habilitados.
 
 #### Desencadenantes de ciclo de vida de eventos de pérdida (versión 7.2.0.1 y posterior) (existentes)
 
-`Guía de soluciones › Características heredadas › Activadores heredados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=lt-loss-event-lifecycle-triggers-version-7201-later-legacy)
+`Guía de soluciones › Características heredadas › Activadores heredados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=lt-loss-event-lifecycle-triggers-version-7201-later-legacy)
 
 Los activadores proporcionan las transiciones que mueven eventos de pérdida durante un ciclo de vida de investigación. Los ciclos de vida definen las etapas que puede seguir un tipo de objeto
 
@@ -4318,7 +4072,7 @@ Un activador de ciclo de vida de evento de pérdida inicia la notificación de e
 
 ##### Eventos de pérdida y GRC Workflow
 
-Puede utilizar tanto los ciclos de vida configurables como los flujos de trabajo para Eventos de pérdida, pero debe tener en cuenta cómo interactúan y dónde entran en conflicto. Para obtener más información, consulte *Configuración de GRC Workflow* en la publicación *IBM OpenPages Guía del administrador*.
+Puede utilizar tanto ciclos de vida configurables como flujos de trabajo para Eventos de Pérdida, pero debe tener en cuenta cómo interactúan y dónde entran en conflicto. Para obtener más información, consulte *Configuración de GRC Workflow* en la publicación *IBM OpenPages Guía del administrador*.
 
 ##### Condiciones que controlan el botón Ciclo de vida
 
@@ -4340,7 +4094,7 @@ Si un tipo de objeto tiene un flujo de trabajo y un ciclo de vida configurable, 
 
 #### Desencadenantes del ciclo de vida de eventos de pérdida (existentes)
 
-`Guía de soluciones › Características heredadas › Activadores heredados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=triggers-loss-event-lifecycle-legacy)
+`Guía de soluciones › Características heredadas › Activadores heredados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=triggers-loss-event-lifecycle-legacy)
 
 Los activadores del ciclo de vida de evento de pérdida calculan y mantienen tres campos en el objeto de evento de pérdida, cuando se crean o modifican los campos relacionados en cualquier objeto descendiente de impacto de pérdida o de recuperación de pérdidas.
 
@@ -4370,11 +4124,11 @@ El activador aparece cuando el usuario realiza la transición del ciclo de vida 
 
 #### Desencadenantes de ciclo de vida de evaluación de cuestionario (existentes)
 
-`Guía de soluciones › Características heredadas › Activadores heredados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=triggers-questionnaire-assessment-lifecycle-legacy)
+`Guía de soluciones › Características heredadas › Activadores heredados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=triggers-questionnaire-assessment-lifecycle-legacy)
 
 Estos desencadenantes no están habilitados en instalaciones nuevas.
 
-Las evaluaciones de cuestionario son medios de recopilar información de los usuarios empresariales de la organización. Los activadores proporcionan las transiciones que mueven las evaluaciones de cuestionario durante un ciclo de vida. Los ciclos de vida definen las fases que puede seguir un objeto. En cada fase, el sistema:
+Las evaluaciones por cuestionario son un medio para recabar información de los usuarios de la empresa en la organización. Los activadores proporcionan las transiciones que mueven las evaluaciones de cuestionario durante un ciclo de vida. Los ciclos de vida definen las fases que puede seguir un objeto. En cada fase, el sistema:
 
 - Identifica un responsable del ciclo de vida
 - Define las acciones disponibles para moverse a una fase diferente
@@ -4423,7 +4177,7 @@ Para las evaluaciones de cuestionario, los activos subyacentes determinan el mod
 
 #### Desencadenantes de ciclo de vida de incidencias (existentes)
 
-`Guía de soluciones › Características heredadas › Activadores heredados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=triggers-incident-lifecycle-legacy)
+`Guía de soluciones › Características heredadas › Activadores heredados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=triggers-incident-lifecycle-legacy)
 
 Estos desencadenantes no están habilitados en instalaciones nuevas.
 
@@ -4464,7 +4218,7 @@ La tabla siguiente resume cómo el sistema maneja los incidentes y establece el 
 
 #### Desencadenantes de ciclo de vida añadidos en la versión 7.2.0.1 (existentes)
 
-`Guía de soluciones › Características heredadas › Activadores heredados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=triggers-lifecycle-added-in-version-7201-legacy)
+`Guía de soluciones › Características heredadas › Activadores heredados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=triggers-lifecycle-added-in-version-7201-legacy)
 
 Tras la habilitación de la característica de ciclo de vida 7.2 en OpenPages®, cualquier objeto que utilice el nuevo ciclo de vida y tenga un ciclo de vida preexistente debe modificarse para utilizar los nuevos campos y grupos de campos de ciclo de vida.
 
@@ -4472,7 +4226,7 @@ Estos desencadenantes no están habilitados en instalaciones nuevas.
 
 Los activadores proporcionan las transiciones que mueven problemas durante un ciclo de vida de investigación. Los ciclos de vida definen las fases que puede seguir un objeto.
 
-OpenPages Versión 7.2.0.1 presenta tres nuevos ciclos de vida; controles, problemas y sucesos de pérdida. En 8.1.0 los desencadenantes de problemas han quedado en desuso y la funcionalidad se ha movido a GRC Workflow.
+OpenPages La versión 7.2.0.1 introdujo tres nuevos ciclos de vida: controles, problemas y eventos de pérdida. En 8.1.0 los desencadenantes de problemas han quedado en desuso y la funcionalidad se ha movido a GRC Workflow.
 
 Para obtener más información sobre los desencadenantes de control, consulte [Desencadenantes de ciclo de vida de control](#activadores-de-ciclo-de-vida-de-control).
 
@@ -4488,7 +4242,7 @@ Las soluciones de cliente personalizadas existentes que cuentan con activadores,
 
 #### Configuración del ciclo de vida (existente)
 
-`Guía de soluciones › Características heredadas › Activadores heredados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=triggers-lifecycle-configuration-legacy)
+`Guía de soluciones › Características heredadas › Activadores heredados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=triggers-lifecycle-configuration-legacy)
 
 En IBM OpenPages®, los ciclos de vida se pueden configurar para reducir la necesidad de implementar la lógica empresarial a través de desencadenantes personalizados.
 
@@ -4500,13 +4254,13 @@ El ciclo de vida puede configurarse para establecer valores de campo durante una
 
 Por ejemplo, esto podría utilizarse para copiar el valor del campo Estado de ciclo de vida en el campo de estado "normal", de modo que las vistas existentes, informes y asistentes puedan seguir utilizando ese valor de campo de estado.
 
-El ciclo de vida también puede configurarse con lógica condicional para regular transiciones. Se puede utilizar la lógica booleana utilizando valores de campo en el objeto y en los objetos hijo y padre inmediatos. La lógica puede incluir valores de tipos de campo enumerados de forma simple o múltiple, booleanos, enteros, decimales y de fecha. Por ejemplo, esto se podría utilizar para prohibir el envío de un evento de pérdida para su aprobación si no tiene un valor de Fecha de Reconocimiento. Si no se cumplen las condiciones, el proceso de transición se detendrá y se visualizará un error en la interfaz de usuario y se registrará en el registro.
+Los ciclos de vida también pueden configurarse con lógica condicional para las transiciones de puerta. Se puede utilizar la lógica booleana utilizando valores de campo en el objeto y en los objetos hijo y padre inmediatos. La lógica puede incluir valores de tipos de campo enumerados de forma simple o múltiple, booleanos, enteros, decimales y de fecha. Por ejemplo, esto se podría utilizar para prohibir el envío de un evento de pérdida para su aprobación si no tiene un valor de Fecha de Reconocimiento. Si no se cumplen las condiciones, se detiene el proceso de transición. Se muestra un error en la interfaz de usuario y se registra en el registro.
 
 Para obtener más información sobre cómo configurar ciclos de vida, consulte *Trigger Developer Guide*.
 
 #### Desencadenantes de RCSA cuantitativas y RCSA cualitativas (existente)
 
-`Guía de soluciones › Características heredadas › Activadores heredados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=triggers-rcsa-quantitative-rcsa-qualitative-legacy)
+`Guía de soluciones › Características heredadas › Activadores heredados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=triggers-rcsa-quantitative-rcsa-qualitative-legacy)
 
 El proceso de evaluaciones de riesgos se utiliza para identificar, evaluar y cuantificar el perfil de riesgo de una empresa. Cada riesgo se evalúa sobre una base cuantitativa o cualitativa.
 
@@ -4628,7 +4382,7 @@ Cuando un objeto **Riesgo** se actualiza, asocia o desasocia, el desencadenante 
 
 #### Desencadenantes de ciclo de vida de KRI y KPI (existentes)
 
-`Guía de soluciones › Características heredadas › Activadores heredados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=triggers-kri-kpi-lifecycle-legacy)
+`Guía de soluciones › Características heredadas › Activadores heredados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=triggers-kri-kpi-lifecycle-legacy)
 
 Los activadores del ciclo de vida de KRI y KPI calculan y mantienen valores de campo en los tipos de objeto KRI/KPI y Valor de KRI/KPI.
 
@@ -4655,7 +4409,7 @@ Cuando un objeto Valor de KRI o KPI se actualiza, se asocia o disocia, el activa
 
 ### Tipos de objetos existentes
 
-`Guía de soluciones › Características heredadas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-legacy-object-types)
+`Guía de soluciones › Características heredadas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-legacy-object-types)
 
 Las soluciones de IBM OpenPages® incluyen varios tipos de objeto que no están habilitados en instalaciones nuevas.
 
@@ -4681,63 +4435,37 @@ Las soluciones de IBM OpenPages® incluyen varios tipos de objeto que no están 
 
 ### Informes y ayudantes ya existentes
 
-`Guía de soluciones › Características heredadas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-legacy-reports-helpers)
+`Guía de soluciones › Características heredadas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-legacy-reports-helpers)
 
 Los informes disponibles en las soluciones de IBM OpenPages® han cambiado.
 
-- **Programa de utilidad Creación de valor de KRI**
+Se han eliminado los siguientes informes:
 
-  Este ayudante se ha sustituido por cálculos y flujos de trabajo. Consulte el flujo de trabajo [Creación de valor KRI](#flujos-de-trabajo-de-ejemplo) .
-
-- **Programa de utilidad Creación de valor de KPI**
-
-  Este ayudante se ha sustituido por cálculos y flujos de trabajo. Consulte [Flujo de trabajo de creación de valor de KPI y flujo de trabajo de entrada de valor de KPI](#flujos-de-trabajo-de-ejemplo).
-
-- **Notificación pendiente de KRI**
-
-  Este ayudante se ha sustituido por cálculos y flujos de trabajo. Véase [entrada de valor KRI](#flujos-de-trabajo-de-ejemplo).
-
-- **Notificación pendiente de KPI**
-
-  Este ayudante se ha sustituido por cálculos y flujos de trabajo. Consulte [Flujo de trabajo de creación de valor de KPI y flujo de trabajo de entrada de valor de KPI](#flujos-de-trabajo-de-ejemplo).
-
-- **Asistente de finalización de escenario**
-
-  Este ayudante se ha sustituido por cálculos y flujos de trabajo. Consulte los flujos de trabajo [Desarrollo y pruebas de escenario](#flujos-de-trabajo-de-ibm-openpages-business-continuity-management-bcm) y [Prueba de escenario de servicio empresarial](#flujos-de-trabajo-de-ibm-openpages-business-continuity-management-bcm) .
-
-  Elimine el campo Asistente de análisis de escenario de las vistas.
-
-- **Informes de prueba**
-
-  - El informe de panel de control de pruebas se ha sustituido por el informe de rendimiento y resultados de pruebas
-  - El informe Detalles del panel de instrumentos de prueba se ha sustituido por el informe Detalles de prueba
-
-  Para obtener más información, consulte [Prueba de informes](#informes-de-prueba).
-
-- **Informes de eventos de pérdida**
-
-  Los informes siguientes se han sustituido por el Panel de control de eventos de pérdida consolidado y sus informes de detalle:
-
-  - Panel de evento de pérdida
-  - Detalle del panel de evento de pérdida
-  - Resumen de sucesos de pérdida
-  - Detalle del evento de pérdida
-  - Tendencia de eventos de pérdidas
-  - Detalle de tendencia del evento de pérdida
-
-  Para obtener más información, consulte [Informes de eventos de pérdida](#informes-de-eventos-de-pérdida).
-
-- **Informes de modelado de capital**
-
-  Se han eliminado los siguientes informes:
-
-  - Aportaciones de capital por entidad empresarial
-  - Aportaciones de capital por categoría de riesgo
-  - Fragmento de resultados del modelo
+- Lista de proveedores: calificaciones ESG
+- Análisis detallado de proveedores ESG
+- Comparación de proveedores - ESG
+- Postura del proveedor: calificaciones ESG
+- Importación de FastMap
+- Programa de utilidad Creación de valor de KRI
+- Programa de utilidad Creación de valor de KPI
+- Notificación pendiente de KRI
+- Notificación pendiente de KPI
+- Asistente de finalización de escenario
+- Panel de pruebas
+- Detalles del panel de pruebas
+- Panel de evento de pérdida
+- Detalle del panel de evento de pérdida
+- Resumen de sucesos de pérdida
+- Detalle del evento de pérdida
+- Tendencia de eventos de pérdidas
+- Detalle de tendencia del evento de pérdida
+- Aportaciones de capital por entidad empresarial
+- Aportaciones de capital por categoría de riesgo
+- Fragmento de resultados del modelo
 
 ### Flujos de trabajo y cálculos existentes
 
-`Guía de soluciones › Características heredadas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-legacy-workflows-calculations)
+`Guía de soluciones › Características heredadas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-legacy-workflows-calculations)
 
 Las soluciones de IBM OpenPages® incluyen varios flujos de trabajo y cálculos que no están habilitados en instalaciones nuevas.
 
@@ -4775,9 +4503,21 @@ Las soluciones de IBM OpenPages® incluyen varios flujos de trabajo y cálculos 
 
   Este flujo de trabajo se sustituye por el flujo de trabajo Ciclo de vida de modelo.
 
+- **Solicitud de caso de uso de modelo**
+
+  El flujo de trabajo de solicitud de caso de uso de modelo se utiliza para evaluar el riesgo y obtener la aprobación empresarial para un caso de uso de modelo. Una vez aprobado el caso de uso de un modelo, puede comenzar su desarrollo.
+
+  Este flujo de trabajo ya no se utiliza.
+
+- **Cálculos heredados**
+
+  - Supply Wisdom a de TPRM Tendencia
+
+    Calcula la valoración de riesgo global de un proveedor, basándose en las puntuaciones trimestrales de Supply Wisdom. Compara la valoración de riesgo global actual con las calificaciones de trimestres anteriores para determinar la tendencia.
+
 ## Avisos
 
-`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=sg-notices)
+`Guía de soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=sg-notices)
 
 Esta información se ha desarrollado para productos y servicios que se ofrecen en Estados Unidos.
 

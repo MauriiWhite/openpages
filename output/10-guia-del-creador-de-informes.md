@@ -1,12 +1,12 @@
 ---
-product: IBM OpenPages 9.0.0
-product_key: SSFUEU_9.0.0
+product: IBM OpenPages 9.1.3
+product_key: SSFUEU_9.1
 file: 10
 guide: Guía del creador de informes
 covers: Guía del creador de informes — Avisos
 chapters: 22
 topics: 252
-words: 63238
+words: 63211
 tasks: 72
 concepts: 173
 references: 1
@@ -14,21 +14,21 @@ tables: 65
 code_blocks: 173
 figures: 170
 applies_to: sin declarar
-updated: 2025-09-26
+updated: 2025-03-31
 lang: es
-source: https://www.ibm.com/docs/es/openpages/9.0.0?topic=report-authors-guide
-extracted: 2026-09-11
+source: https://www.ibm.com/docs/es/openpages/9.1.x?topic=report-authors-guide
+extracted: 2026-11-16
 ---
 
 # 10 · Guía del creador de informes
 
-> **Qué hay en este archivo.** «Guía del creador de informes» de IBM OpenPages 9.0.0, completa: 22 capítulos. 252 temas, 72 de ellos procedimientos paso a paso, 65 tablas, 173 bloques de código, 170 figuras y 63.238 palabras.
+> **Qué hay en este archivo.** «Guía del creador de informes» de IBM OpenPages 9.1.3, completa: 22 capítulos. 252 temas, 72 de ellos procedimientos paso a paso, 65 tablas, 173 bloques de código, 170 figuras y 63.211 palabras.
 >
 > **Capítulos:** Guía del creador de informes · Modelos de bases de datos · Modelos de datos del entorno · Modelo de objeto · Entorno de elaboración de informes · Optimización del rendimiento · Idioma de diseño de informe · Trabajar con datos relacionales · Trabajar con entidades de negocios · Trabajar con objetos compartidos · Trabajar con objetos recursivos · Internacionalización y localización · y 10 más.
 >
-> **Si lo que buscas no está acá.** El índice de los 2.511 temas del producto, con su archivo y su ancla, está en `index.md`.
+> **Si lo que buscas no está acá.** El índice de los 2.417 temas del producto, con su archivo y su ancla, está en `index.md`.
 
-**Términos propios de este archivo:** listmain, cruzadas, arrastre, caja, suelte, unión, explorador, filtro, insertables, asunto, expresión, numérico, regional, febrero.
+**Términos propios de este archivo:** listmain, caja, suelte, arrastre, cruzadas, explorador, insertables, asunto, unión, expresión, devolverá, regional, febrero, uniones.
 
 ## Índice de este archivo
 
@@ -288,11 +288,11 @@ extracted: 2026-09-11
 
 # Guía del creador de informes
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=report-authors-guide)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=report-authors-guide)
 
 La publicación *IBM OpenPages Report Author's Guide* está pensada para los autores de informes que deseen utilizar las herramientas de creación de informes en OpenPages® para desarrollar informes. Necesitan tener conocimientos de Cognos® Analytics. Deben asistir a la formación para creadores de informes de IBM OpenPages y deben tener experiencia con IBM® Cognos Analytics - Reporting.
 
-CommandCenter debe estar instalado y configurado con OpenPages.
+Reporting debe estar instalado y configurado con OpenPages.
 
 ## Ámbito
 
@@ -325,13 +325,13 @@ La tabla siguiente lista los iconos que se utilizan en el modelo de entorno de e
 
 | Convención | Definición |
 | --- | --- |
-| ![Icono Espacio de nombres](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-namespace.jpg) | Representa un espacio de nombres raíz o cualquier otro espacio de nombres de un proyecto. |
-| ![Icono de asunto de consulta](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-query_subject.jpg) | Representa un asunto de consulta. |
-| ![Icono de elemento de consulta](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-query_item.jpg) | Representa un elemento de consulta. |
-| ![Icono de medida](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-measure.jpg) | Representa una medida. |
-| ![Icono de carpeta](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-folder-closed.jpg) | Representa una carpeta. |
-| ![Icono de cálculo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-calculation.jpg) | Representa un cálculo. |
-| ![Icono de filtro](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-filter.jpg) | Representa un filtro. |
+| ![Icono Espacio de nombres](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-namespace.jpg) | Representa un espacio de nombres raíz o cualquier otro espacio de nombres de un proyecto. |
+| ![Icono de asunto de consulta](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-query_subject.jpg) | Representa un asunto de consulta. |
+| ![Icono de elemento de consulta](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-query_item.jpg) | Representa un elemento de consulta. |
+| ![Icono de medida](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-measure.jpg) | Representa una medida. |
+| ![Icono de carpeta](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-folder-closed.jpg) | Representa una carpeta. |
+| ![Icono de cálculo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-calculation.jpg) | Representa un cálculo. |
+| ![Icono de filtro](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-filter.jpg) | Representa un filtro. |
 
 ## IBM Cognos Analytics e información de soporte
 
@@ -347,13 +347,13 @@ Para obtener más información sobre IBM Cognos Analytics, consulte la [document
 
 ## Modelos de bases de datos
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-database-models)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-database-models)
 
 Los temas de modelo de base de datos proporcionan al autor de informes la información básica necesaria para comprender el proceso de creación de informes utilizando IBM® Cognos® Analytics -Reporting. Esto incluye información sobre la estructura del modelo de datos de aplicación del software de IBM OpenPages® y las tablas de base de datos de informes correspondientes.
 
 ### Modelo de datos de aplicación
 
-`Guía del creador de informes › Modelos de bases de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=models-application-data-model)
+`Guía del creador de informes › Modelos de bases de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=models-application-data-model)
 
 El modelo de datos de aplicación de IBM OpenPages® se ha diseñado utilizando técnicas orientadas a objetos con fines de mantenimiento, coste y extensibilidad.
 
@@ -391,7 +391,7 @@ El núcleo del diseño de base de datos consta de las tablas siguientes:
 
 *Figura 1. Diagrama ER de base de datos principal*
 
-![Diagrama ER de base de datos principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Core_db.jpg)
+![Diagrama ER de base de datos principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Core_db.jpg)
 
 A través de estas tablas definidas genéricas, se puede crear cualquier tipo de objeto en la base de datos de OpenPages . Esto proporciona a nuestros clientes la capacidad de ampliar los objetos del sistema existentes o añadir nuevos objetos con sus propias definiciones.
 
@@ -407,7 +407,7 @@ Las ventajas de este diseño de base de datos se pueden ver en que un pequeño c
 
 ### Diseño de tabla de informes
 
-`Guía del creador de informes › Modelos de bases de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=models-reporting-table-design)
+`Guía del creador de informes › Modelos de bases de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=models-reporting-table-design)
 
 Para facilitar la elaboración de informes desde la base de datos de aplicación, se crea un conjunto de vistas secundario que combina las distintas tablas individuales desde el diseño de datos de la aplicación a un formato más adecuado para generar informes.
 
@@ -438,7 +438,7 @@ Estas tablas se generan automáticamente según los valores de OpenPages. Para o
 
 #### Tablas de objetos
 
-`Guía del creador de informes › Modelos de bases de datos › Diseño de tabla de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=design-object-tables)
+`Guía del creador de informes › Modelos de bases de datos › Diseño de tabla de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=design-object-tables)
 
 Los objetos de tablas pueden incluir muchos campos de sistema.
 
@@ -480,7 +480,7 @@ La Cuadro 2 lista los índices que se encuentran en todas las tablas de objetos:
 
 #### Vistas de objeto
 
-`Guía del creador de informes › Modelos de bases de datos › Diseño de tabla de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=design-object-views)
+`Guía del creador de informes › Modelos de bases de datos › Diseño de tabla de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=design-object-views)
 
 Hay una vista correspondiente para cada objeto definido en el sistema. Las vistas difieren de las tablas de objeto en que tienen la seguridad de datos compilada en la definición.
 
@@ -496,7 +496,7 @@ Cuadro 1 lista campos adicionales incluidos con cada vista:
 
 #### Tablas de enumeración
 
-`Guía del creador de informes › Modelos de bases de datos › Diseño de tabla de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=design-enumeration-tables)
+`Guía del creador de informes › Modelos de bases de datos › Diseño de tabla de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=design-enumeration-tables)
 
 Esta clase de tablas contiene listas de variables enumeradas, que se aplican a un tipo de objeto particular, donde los valores enumerados de selección múltiple se almacenan como registros independientes.
 
@@ -522,7 +522,7 @@ Cuadro 2 lista los índices que se encuentran en todas las tablas de enumeració
 
 #### Tabla de relaciones
 
-`Guía del creador de informes › Modelos de bases de datos › Diseño de tabla de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=design-relationship-table)
+`Guía del creador de informes › Modelos de bases de datos › Diseño de tabla de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=design-relationship-table)
 
 Las tablas de relaciones representan las relaciones de muchos a muchos entre objetos IBM OpenPages® .
 
@@ -551,13 +551,13 @@ La Cuadro 2 lista los índices que se encuentran en todas las tablas de relacion
 
 ## Modelos de datos del entorno
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-framework-data-models)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-framework-data-models)
 
 El modelo de datos de entorno tiene una rama de espacio de nombres relacional.
 
 ### Modelo de datos relacional
 
-`Guía del creador de informes › Modelos de datos del entorno` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=models-relational-data-model)
+`Guía del creador de informes › Modelos de datos del entorno` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=models-relational-data-model)
 
 El modelo de datos relacional que proporciona IBM OpenPages® está diseñado para permitir al usuario informar sobre objetos basándose en sus relaciones definidas en el sistema.
 
@@ -574,13 +574,13 @@ La siguiente lista describe las características clave del modelo de datos relac
 
 *Figura 1. Diagrama Entidad-Relación*
 
-![Diagrama Entidad-Relación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/relational_Model.jpg)
+![Diagrama Entidad-Relación](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/relational_Model.jpg)
 
 El diagrama anterior muestra el diagrama típico de relación de entidad de cuatro de los objetos principales en OpenPages.
 
 #### Terminología de modelado relacional
 
-`Guía del creador de informes › Modelos de datos del entorno › Modelo de datos relacional` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=model-relational-modeling-terminology)
+`Guía del creador de informes › Modelos de datos del entorno › Modelo de datos relacional` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=model-relational-modeling-terminology)
 
 Es útil para conocer la terminología del modelado relacional.
 
@@ -588,12 +588,12 @@ Es útil para conocer la terminología del modelado relacional.
 
 | Icono | Nombre | Descripción |
 | --- | --- | --- |
-| ![Icono de asunto de consulta](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-query_subject.jpg) | Asunto de consulta | Consulta SQL que se ha diseñado para exponer un determinado conjunto de datos al usuario con fines de elaboración de informes. |
-| ![Icono de elemento de consulta](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-query_item.jpg) | Elemento de consulta | Campo de base de datos. |
+| ![Icono de asunto de consulta](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-query_subject.jpg) | Asunto de consulta | Consulta SQL que se ha diseñado para exponer un determinado conjunto de datos al usuario con fines de elaboración de informes. |
+| ![Icono de elemento de consulta](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-query_item.jpg) | Elemento de consulta | Campo de base de datos. |
 
 #### Vista de carpetas de un modelo de datos relacional
 
-`Guía del creador de informes › Modelos de datos del entorno › Modelo de datos relacional` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=model-folder-view-relational-data)
+`Guía del creador de informes › Modelos de datos del entorno › Modelo de datos relacional` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=model-folder-view-relational-data)
 
 Un modelo de datos relacional contiene una determinada estructura de carpetas.
 
@@ -601,13 +601,13 @@ Figura 1 muestra el asunto de consulta SOXRisk y algunos de sus elementos de con
 
 *Figura 1. Vista de carpetas relacional*
 
-![Jerarquía del modelo relacional](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/cognos_8_relational_folder_view.jpg)
+![Jerarquía del modelo relacional](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/cognos_8_relational_folder_view.jpg)
 
 Habrá un asunto de consulta para cada tipo de objeto definido en el sistema. Cada uno de estos objetos estará relacionado por uniones externas a la izquierda una a otra en base a las relaciones padre-hijo definidas en el sistema. Consulte la publicación *IBM OpenPages Guía del administrador* para obtener más información sobre la configuración del sistema.
 
 ## Modelo de objeto
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-object-model)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-object-model)
 
 El modelo de objeto al que se hace referencia en este documento es el modelo estándar (el que viene de fábrica) que está instalado para todas las instalaciones en una primera instalación.
 
@@ -617,7 +617,7 @@ Solo se incluyen objetos dentro del modelo de objeto predeterminado que son comu
 
 ### Terminología del modelo de objeto
 
-`Guía del creador de informes › Modelo de objeto` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=model-object-terminology)
+`Guía del creador de informes › Modelo de objeto` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=model-object-terminology)
 
 Es útil conocer los términos básicos necesarios para comprender el modelo de objeto de IBM OpenPages® .
 
@@ -634,7 +634,7 @@ Es útil conocer los términos básicos necesarios para comprender el modelo de 
 
 ### Características del modelo de objeto
 
-`Guía del creador de informes › Modelo de objeto` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=model-object-characteristics)
+`Guía del creador de informes › Modelo de objeto` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=model-object-characteristics)
 
 El modelo de objetos estándar (predefinido) consta de determinadas características.
 
@@ -663,7 +663,7 @@ La Cuadro 1 lista los tipos de objetos primarios que se comparten entre todas la
 
 *Figura 1. Relaciones de objetos primarios*
 
-![Relaciones de objetos primarios](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/6.0_Object_Model.jpg)
+![Relaciones de objetos primarios](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/6.0_Object_Model.jpg)
 
 La Cuadro 2 lista los tipos de objeto secundarios que se comparten entre todas las soluciones. La lista va seguida de Figura 2 que muestra los objetos secundarios sin enlaces a los objetos primarios porque las uniones se forman en la herramienta de informes.
 
@@ -679,13 +679,13 @@ La Cuadro 2 lista los tipos de objeto secundarios que se comparten entre todas l
 
 *Figura 2. Objetos secundarios*
 
-![Objetos secundarios](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/6.0_Object_Model-2.jpg)
+![Objetos secundarios](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/6.0_Object_Model-2.jpg)
 
-Este modelo representa la relación básica de objetos dentro de IBM OpenPages®. Para conocer las relaciones exactas de su propio sistema, obtenga el diagrama del modelo de objetos que se creó durante el proceso de instalación del sistema o examine las relaciones entre objetos mediante **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Soluciones**.
+Este modelo representa la relación básica de objetos dentro de IBM OpenPages®. Para conocer las relaciones exactas de su propio sistema, obtenga el diagrama del modelo de objetos que se creó durante el proceso de instalación del sistema o examine las relaciones entre objetos mediante **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Soluciones**.
 
 ## Entorno de elaboración de informes
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-reporting-framework)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-reporting-framework)
 
 El entorno de elaboración de informes consta de modelos de entorno de Cognos® configurados y generados en OpenPages®. Dan soporte a los datos relacionales utilizados para crear informes en IBM® Cognos Analytics.
 
@@ -695,7 +695,7 @@ Para obtener información sobre la configuración del entorno de elaboración de
 
 ### Modelos de entorno
 
-`Guía del creador de informes › Entorno de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=rf-framework-models)
+`Guía del creador de informes › Entorno de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=rf-framework-models)
 
 Los modelos de entorno se basan en el modelo de objeto OpenPages® y definen subconjuntos de objetos y relaciones necesarios para los requisitos de creación de informes.
 
@@ -747,7 +747,7 @@ Los modelos de entorno básicos tienen las siguientes características:
 
 ### Paquetes de entorno
 
-`Guía del creador de informes › Entorno de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=framework-packages)
+`Guía del creador de informes › Entorno de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=framework-packages)
 
 Cuando se genera el entorno de elaboración de informes, los paquetes para modelos de entorno seleccionados se publican en el servidor Cognos.
 
@@ -757,7 +757,7 @@ Los modelos generado para los modelos de entorno que se crean se publican bajo e
 
 ### Espacios de nombres
 
-`Guía del creador de informes › Entorno de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=rf-namespaces)
+`Guía del creador de informes › Entorno de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=rf-namespaces)
 
 Un espacio de nombres identifica exclusivamente una recopilación de asuntos de consulta, sus relaciones y otros objetos (como cálculos) que puede utilizar para la elaboración de informes.
 
@@ -781,7 +781,7 @@ Para obtener información sobre cómo crear o modificar espacios de nombres, con
 
 #### Espacio de nombres predeterminado
 
-`Guía del creador de informes › Entorno de elaboración de informes › Espacios de nombres` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=namespaces-default-namespace)
+`Guía del creador de informes › Entorno de elaboración de informes › Espacios de nombres` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=namespaces-default-namespace)
 
 Cada modelo de entorno predefinido tiene un espacio de nombres `DEFAULT` que contiene asuntos de consulta, cálculos y elementos de consulta predefinidos. No cambie los espacios de nombres predeterminados. Cada espacio de nombres predeterminado contiene una mayoría de objetos y asociaciones presentes para la jerarquía de objetos predefinida de cada solución. Los espacios de nombres predeterminados se han diseñado para cumplir los requisitos de creación de informes más comunes.
 
@@ -791,7 +791,7 @@ Además de los espacios de nombres DEFAULT, están disponibles otros espacios de
 
 #### Convenciones de denominación para espacios de nombres
 
-`Guía del creador de informes › Entorno de elaboración de informes › Espacios de nombres` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=namespaces-naming-conventions)
+`Guía del creador de informes › Entorno de elaboración de informes › Espacios de nombres` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=namespaces-naming-conventions)
 
 Cuando necesite crear un nombre para un espacio de nombres, debe seguir ciertas convenciones de denominación.
 
@@ -801,7 +801,7 @@ Cuando necesite crear un nombre para un espacio de nombres, debe seguir ciertas 
 
 ### Adición de códigos de configuración regional y definición de una configuración regional de orden de clasificación
 
-`Guía del creador de informes › Entorno de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=framework-adding-locale-codes-defining-sort-order-locale)
+`Guía del creador de informes › Entorno de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=framework-adding-locale-codes-defining-sort-order-locale)
 
 Puede añadir códigos de entorno local al entorno de elaboración de informes. También puede controlar el idioma en el que se clasifican los asuntos de consulta y los elementos de datos.
 
@@ -809,7 +809,7 @@ Para obtener información, consulte la publicación *IBM OpenPages Guía del adm
 
 ### Las carpetas de nivel superior del modelo relacional
 
-`Guía del creador de informes › Entorno de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=framework-relational-model-top-level-folders)
+`Guía del creador de informes › Entorno de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=framework-relational-model-top-level-folders)
 
 Las carpetas utilizadas mucho para organizar asuntos de consulta para que los autores de informe puedan encontrar elementos fácilmente de forma intuitiva.
 
@@ -819,7 +819,7 @@ Figura 1 muestra el diseño de carpeta de nivel superior para el subespacio de n
 
 *Figura 1. Diseño de la carpeta del modelo relacional*
 
-![Jerarquía del subespacio de nombres de datos relacionales DEFAULT_REL](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/cognos_frmwrk_default-rel.png)
+![Jerarquía del subespacio de nombres de datos relacionales DEFAULT_REL](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/cognos_frmwrk_default-rel.png)
 
 Las carpetas de nivel superior pueden contener otras carpetas, asuntos de consulta y elementos de consulta, tal como se indica en Cuadro 1.
 
@@ -837,13 +837,13 @@ Las carpetas de nivel superior pueden contener otras carpetas, asuntos de consul
 
 #### La carpeta Seguimiento de auditoría (Modelo relacional)
 
-`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=folders-audit-trail-folder-relational-model)
+`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=folders-audit-trail-folder-relational-model)
 
 Figura 1 muestra la carpeta Seguimiento de auditoría con todos sus asuntos de consulta.
 
 *Figura 1. Carpeta Seguimiento de auditoría (entorno local de Report Design Language)*
 
-![Jerarquía de la carpeta Seguimiento de auditoría](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/cognos_frmwrk_audit_trail.png)
+![Jerarquía de la carpeta Seguimiento de auditoría](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/cognos_frmwrk_audit_trail.png)
 
 Cuadro 1 lista los asuntos de consulta en esta carpeta.
 
@@ -871,13 +871,13 @@ Cuadro 1 lista los asuntos de consulta en esta carpeta.
 
 #### La carpeta Campos calculados (modelo relacional)
 
-`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=folders-computed-fields-folder-relational-model)
+`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=folders-computed-fields-folder-relational-model)
 
 La Figura 1 muestra un ejemplo de la carpeta de un campo calculado y sus subcarpetas. Esta carpeta solo se crea si tiene un campo calculado definido en el espacio de nombres.
 
 *Figura 1. Carpeta Campos calculados*
 
-![Jerarquía de la carpeta de campos calculados](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_framework_27.jpg)
+![Jerarquía de la carpeta de campos calculados](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_framework_27.jpg)
 
 La Tabla 1 describe las carpetas de la carpeta Campos calculados.
 
@@ -890,13 +890,13 @@ La Tabla 1 describe las carpetas de la carpeta Campos calculados.
 
 #### La carpeta Enumeraciones (Modelo relacional)
 
-`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=folders-enumerations-folder-relational-model)
+`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=folders-enumerations-folder-relational-model)
 
 La Figura 1 muestra un ejemplo de la carpeta Enumeraciones y sus subcarpetas. Esta carpeta contiene asuntos de consulta que solo se pueden utilizar para crear solicitudes en informes. Habrá una carpeta para cada tipo de objeto. Los objetos mostrados serán diferentes para cada instalación del usuario.
 
 *Figura 1. Carpeta Enumeraciones*
 
-![Jerarquía de la carpeta de enumeraciones](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_framework_22.jpg)
+![Jerarquía de la carpeta de enumeraciones](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_framework_22.jpg)
 
 La Tabla 1 describe las carpetas de la carpeta Enumeraciones.
 
@@ -908,13 +908,13 @@ La Tabla 1 describe las carpetas de la carpeta Enumeraciones.
 
 ##### Series enumeradas (modelo relacional)
 
-`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional › La carpeta Enumeraciones (Modelo relacional)` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=model-enumerated-strings-relational)
+`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional › La carpeta Enumeraciones (Modelo relacional)` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=model-enumerated-strings-relational)
 
 Figura 1 muestra un ejemplo de una carpeta ENUMERATIONS abierta:
 
 *Figura 1. Carpeta ENUMERACIONES*
 
-![Jerarquía que incluye la carpeta de enumeraciones](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_framework_28.jpg)
+![Jerarquía que incluye la carpeta de enumeraciones](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_framework_28.jpg)
 
 Cada asunto de consulta representa una serie enumerada que se ha definido para ese objeto. Estas series enumeradas pueden ser únicas o multivalor.
 
@@ -922,7 +922,7 @@ Figura 2 muestra un ejemplo de un asunto de consulta abierto:
 
 *Figura 2. Elementos de consulta de serie enumerada*
 
-![Jerarquía que incluye los elementos de consulta de serie enumerada](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_framework_29.jpg)
+![Jerarquía que incluye los elementos de consulta de serie enumerada](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_framework_29.jpg)
 
 La tabla siguiente lista los elementos de consulta encontrados en una serie enumerada:
 
@@ -943,13 +943,13 @@ Estos asuntos de consulta solo se pueden utilizar para crear solicitudes. Debe u
 
 #### La carpeta Objetos GRC (modelo relacional)
 
-`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=folders-grc-objects-folder-relational-model)
+`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=folders-grc-objects-folder-relational-model)
 
 La Figura 1 muestra un ejemplo de la carpeta Objetos GRC con todas sus subcarpetas. Los objetos mostrados serán diferentes para cada instalación del usuario.
 
 *Figura 1. Carpeta de objetos GRC (entorno local de idioma de diseño de informe)*
 
-![Jerarquía de la carpeta Objetos GRC](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_framework_4.jpg)
+![Jerarquía de la carpeta Objetos GRC](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_framework_4.jpg)
 
 La Tabla 1 lista las carpetas de la carpeta GRC.
 
@@ -962,13 +962,13 @@ La Tabla 1 lista las carpetas de la carpeta GRC.
 
 ##### La carpeta SOXBusEntity (Modelo relacional)
 
-`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional › La carpeta Objetos GRC (modelo relacional)` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=model-soxbusentity-folder-relational)
+`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional › La carpeta Objetos GRC (modelo relacional)` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=model-soxbusentity-folder-relational)
 
 La Figura 1 muestra un ejemplo de una carpeta de objeto SOXBusEntity con todos sus elementos.
 
 *Figura 1. Carpeta de objeto de entidad de negocios SOX*
 
-![Jerarquía de una carpeta de objetos SOXBusEntity](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_framework_5.jpg)
+![Jerarquía de una carpeta de objetos SOXBusEntity](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_framework_5.jpg)
 
 La Tabla 1 lista los elementos de la carpeta SOXBusEntity .
 
@@ -987,13 +987,13 @@ La Tabla 1 lista los elementos de la carpeta SOXBusEntity .
 
 ##### Los asuntos de consulta GPC (modelo relacional)
 
-`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional › La carpeta Objetos GRC (modelo relacional)` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=model-gpc-query-subjects-relational)
+`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional › La carpeta Objetos GRC (modelo relacional)` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=model-gpc-query-subjects-relational)
 
 La Figura 1 muestra la estructura de carpetas Abuelo-Padre-Hijo bajo la carpeta Entidad.
 
 *Figura 1. Elementos de carpeta GPC (entorno local de idioma de definición de informe)*
 
-![Jerarquía de la carpeta GPC](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/cognos_frmwrk_be-gpc.png)
+![Jerarquía de la carpeta GPC](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/cognos_frmwrk_be-gpc.png)
 
 La Tabla 1 lista los elementos de la carpeta GPC.
 
@@ -1018,13 +1018,13 @@ El asunto de consulta SOXBUSENTITY_GPC contiene tres niveles de jerarquía para 
 
 ##### La carpeta Objeto (modelo relacional)
 
-`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional › La carpeta Objetos GRC (modelo relacional)` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=model-object-folder-relational)
+`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional › La carpeta Objetos GRC (modelo relacional)` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=model-object-folder-relational)
 
 La Figura 1 muestra un ejemplo de una carpeta de objetos con todos sus elementos.
 
 *Figura 1. Carpeta Objeto*
 
-![Jerarquía de una carpeta de objetos](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_framework_9.jpg)
+![Jerarquía de una carpeta de objetos](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_framework_9.jpg)
 
 La Tabla 1 lista los elementos de una carpeta de objetos.
 
@@ -1043,7 +1043,7 @@ Por ejemplo, si el campo **Título** del sistema está habilitado para `SOXProce
 
 ##### Elementos de consulta de campos de enumeración (modelo relacional)
 
-`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional › La carpeta Objetos GRC (modelo relacional)` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=model-enumeration-fields-query-items-relational)
+`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional › La carpeta Objetos GRC (modelo relacional)` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=model-enumeration-fields-query-items-relational)
 
 La tabla siguiente lista los elementos de consulta encontrados en una serie enumerada de valor único:
 
@@ -1073,13 +1073,13 @@ Para obtener una lista separada por comas de los valores traducidos de la serie,
 
 #### La carpeta Objetos GRC autónomos (modelo relacional)
 
-`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=folders-grc-objects-standalone-folder-relational-model)
+`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=folders-grc-objects-standalone-folder-relational-model)
 
 La Figura 1 muestra la carpeta Objetos autónomos con todos sus elementos.
 
 *Figura 1. Carpeta de objetos autónomos (entorno local del idioma de diseño de informes)*
 
-![Jerarquía de la carpeta Objetos autónomos](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/cognos_frmwrk_standalone.png)
+![Jerarquía de la carpeta Objetos autónomos](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/cognos_frmwrk_standalone.png)
 
 La Tabla 1 es una explicación de los elementos de la carpeta Objetos autónomos.
 
@@ -1093,13 +1093,13 @@ La Tabla 1 es una explicación de los elementos de la carpeta Objetos autónomos
 
 ##### Las carpetas Objeto secundario (modelo relacional)
 
-`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional › La carpeta Objetos GRC autónomos (modelo relacional)` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=model-secondary-object-folders-relational)
+`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional › La carpeta Objetos GRC autónomos (modelo relacional)` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=model-secondary-object-folders-relational)
 
 La Figura 1 muestra un ejemplo de una carpeta de objetos secundaria con todos sus elementos.
 
 *Figura 1. Carpeta de objeto secundario (entorno local de idioma de diseño de informe)*
 
-![Jerarquía de una carpeta de objetos secundaria](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/cognos_frmwrk_soxissue.png)
+![Jerarquía de una carpeta de objetos secundaria](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/cognos_frmwrk_soxissue.png)
 
 La Tabla 1 lista los elementos de una carpeta de objetos secundaria.
 
@@ -1118,13 +1118,13 @@ Por ejemplo, si el campo **Título** del sistema está habilitado para `SOXIssue
 
 #### La carpeta Varios (modelo relacional)
 
-`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=folders-miscellaneous-folder-relational-model)
+`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=folders-miscellaneous-folder-relational-model)
 
 Figura 1 muestra la carpeta Varios.
 
 *Figura 1. Carpeta Varios (entorno local de idioma de diseño de informe)*
 
-![Jerarquía de la carpeta Varios](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/cognos_frmwrk_misc.png)
+![Jerarquía de la carpeta Varios](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/cognos_frmwrk_misc.png)
 
 Cuadro 1 lista los elementos de la carpeta Varios.
 
@@ -1147,13 +1147,13 @@ Cuadro 1 lista los elementos de la carpeta Varios.
 
 ##### La carpeta Divisas (modelo relacional)
 
-`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional › La carpeta Varios (modelo relacional)` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=model-currencies-folder-relational)
+`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional › La carpeta Varios (modelo relacional)` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=model-currencies-folder-relational)
 
 Figura 1 muestra la carpeta Monedas con todos sus asuntos de consulta.
 
 *Figura 1. Carpeta de monedas (entorno local del idioma de diseño de informes)*
 
-![Jerarquía de la carpeta de monedas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/cognos_frmwrk_currencies.png)
+![Jerarquía de la carpeta de monedas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/cognos_frmwrk_currencies.png)
 
 Cuadro 1 lista los elementos de la carpeta Monedas.
 
@@ -1166,13 +1166,13 @@ Cuadro 1 lista los elementos de la carpeta Monedas.
 
 ##### Carpeta Periodo de elaboración de informes (modelo relacional)
 
-`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional › La carpeta Varios (modelo relacional)` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=model-reporting-period-folder-relational)
+`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional › La carpeta Varios (modelo relacional)` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=model-reporting-period-folder-relational)
 
 Figura 1 muestra la carpeta Periodos de creación de informes con todos sus asuntos de consulta.
 
 *Figura 1. Carpeta de periodo de elaboración de informes (entorno local de idioma de diseño de informes)*
 
-![Jerarquía de la carpeta Periodos de elaboración de informes](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/cognos_frmwrk_rprt_periods.png)
+![Jerarquía de la carpeta Periodos de elaboración de informes](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/cognos_frmwrk_rprt_periods.png)
 
 Cuadro 1 lista los elementos de la carpeta Periodos de creación de informes.
 
@@ -1184,13 +1184,13 @@ Cuadro 1 lista los elementos de la carpeta Periodos de creación de informes.
 
 ##### La carpeta Avanzado (modelo relacional)
 
-`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional › La carpeta Varios (modelo relacional)` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=model-advanced-folder-relational)
+`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional › La carpeta Varios (modelo relacional)` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=model-advanced-folder-relational)
 
 La Figura 1 muestra la carpeta Avanzado con todas sus subcarpetas.
 
 *Figura 1. Carpeta avanzada (entorno local de lenguaje de diseño de informes)*
 
-![Jerarquía de la carpeta Avanzado](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/cognos_frmwrk_advanced.png)
+![Jerarquía de la carpeta Avanzado](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/cognos_frmwrk_advanced.png)
 
 La Tabla 1 lista los elementos de la carpeta Avanzado.
 
@@ -1204,13 +1204,13 @@ La Tabla 1 lista los elementos de la carpeta Avanzado.
 
 #### La carpeta Seguridad (modelo relacional)
 
-`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=folders-security-folder-relational-model)
+`Guía del creador de informes › Entorno de elaboración de informes › Las carpetas de nivel superior del modelo relacional` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=folders-security-folder-relational-model)
 
 Figura 1 muestra la carpeta Seguridad con todos sus asuntos de consulta.
 
 *Figura 1. Carpeta de seguridad (entorno local del idioma de diseño de informes)*
 
-![Jerarquía de la carpeta Seguridad](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/cognos_frmwrk_security.png)
+![Jerarquía de la carpeta Seguridad](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/cognos_frmwrk_security.png)
 
 Cuadro 1 lista los elementos de la carpeta Seguridad.
 
@@ -1228,13 +1228,13 @@ Cuadro 1 lista los elementos de la carpeta Seguridad.
 
 ## Optimización del rendimiento
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-optimizing-performance)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-optimizing-performance)
 
 Este capítulo lista técnicas que pueden utilizar los autores de informe para mejorar el rendimiento del informe.
 
 ### Filtrado de entidades de negocios de nivel superior
 
-`Guía del creador de informes › Optimización del rendimiento` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=performance-filtering-top-level-business-entities)
+`Guía del creador de informes › Optimización del rendimiento` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=performance-filtering-top-level-business-entities)
 
 Para mejorar el rendimiento de un informe, todos los informes deben tener una solicitud que filtre una entidad de negocios específica o un filtro que examina el informe por entidades o entidad de negocios de alto nivel. Si los informes se ejecutan sin estar enfocados a una única entidad, la consulta realiza varias búsquedas a través de la jerarquía. Esto ralentiza mucho el tiempo de respuesta y puede introducir resultados no deseados para el informe o la página de consulta de la solicitud de entidad.
 
@@ -1249,7 +1249,7 @@ Si no se necesita una solicitud porque el informe siempre se ejecutará desde la
 
 ### Filtrado de periodos de elaboración de informes
 
-`Guía del creador de informes › Optimización del rendimiento` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=performance-filtering-reporting-periods)
+`Guía del creador de informes › Optimización del rendimiento` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=performance-filtering-reporting-periods)
 
 Todos los informes deben incluir un filtro en el periodo de elaboración de informes. Un periodo de elaboración de informes es una instantánea de todos los datos de la base de datos como una función de tiempo. Esto crea un conjunto de datos muy grande cada vez que se realiza esta operación.
 
@@ -1263,7 +1263,7 @@ El valor `-1` significa el periodo de elaboración de informes actual.
 
 ### Ignorar el índice
 
-`Guía del creador de informes › Optimización del rendimiento` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=performance-bypassing-index)
+`Guía del creador de informes › Optimización del rendimiento` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=performance-bypassing-index)
 
 En las tablas de base de datos, los índices se definen en todos los ID de valor de serie enumerada. Si utiliza los ID de valor de serie enumerada como filtros, es posible que quiera ignorar el índice específico en el campo para un mejor rendimiento general.
 
@@ -1284,7 +1284,7 @@ A menudo es difícil ver la mejora de rendimiento como resultado de este cambio.
 
 ### Rendimiento de dirección de la consulta
 
-`Guía del creador de informes › Optimización del rendimiento` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=performance-query-direction)
+`Guía del creador de informes › Optimización del rendimiento` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=performance-query-direction)
 
 Al explorar todas las posibilidades de cálculo, hay una gran diferencia entre lo que se puede y lo que se debe hacer.
 
@@ -1292,7 +1292,7 @@ Al escribir un informe, es posible consulta el árbol de relación (es decir, lo
 
 ### Adición de nuevos índices
 
-`Guía del creador de informes › Optimización del rendimiento` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=performance-adding-new-indexes)
+`Guía del creador de informes › Optimización del rendimiento` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=performance-adding-new-indexes)
 
 Si descubre que un modelo de sus informes implica la unión de dos campos que no están indexados, vale la pena investigar si añadir el índice mejoraría el rendimiento del informe.
 
@@ -1300,7 +1300,7 @@ Si es así, puede añadir el índice de forma permanente a través de IBM OpenPa
 
 ### El valor Uso para la información de parámetro
 
-`Guía del creador de informes › Optimización del rendimiento` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=performance-use-parameter-info-setting)
+`Guía del creador de informes › Optimización del rendimiento` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=performance-use-parameter-info-setting)
 
 Puede establecer la propiedad **Utilizar para información de parámetro** en todos los asuntos de consulta.
 
@@ -1308,7 +1308,7 @@ Este valor determina qué consultas obtienen prioridad al determinar la informac
 
 ## Idioma de diseño de informe
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-report-design-language)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-report-design-language)
 
 El Idioma del diseño de informe (RDL) es el idioma que no se visualiza en el que están almacenados todos los informes. El resultado es que un informe se puede definir completamente en XML y su contenido de origen se puede visualizar en cualquier editor XML.
 
@@ -1326,7 +1326,7 @@ El RDL para OpenPages utiliza inglés (Canadá) (en_CA).
 
 ### Establecimiento del entorno local en OpenPages
 
-`Guía del creador de informes › Idioma de diseño de informe` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=language-setting-your-locale-in-openpages)
+`Guía del creador de informes › Idioma de diseño de informe` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=language-setting-your-locale-in-openpages)
 
 Todos los usuarios deben tener un entorno local predeterminado en IBM OpenPages®. El entorno local determina el idioma en el que se visualiza la aplicación, junto con el idioma que se ve cuando se ejecuta un informe.
 
@@ -1334,7 +1334,7 @@ Para obtener más información sobre la configuración del entorno local, consul
 
 #### Soporte de configuración regional e idioma
 
-`Guía del creador de informes › Idioma de diseño de informe › Establecimiento del entorno local en OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=openpages-language-locale-support)
+`Guía del creador de informes › Idioma de diseño de informe › Establecimiento del entorno local en OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=openpages-language-locale-support)
 
 Si utiliza IBM OpenPages® en un idioma distinto del inglés, esta información le ayudará a comprender los valores de idioma y entorno local.
 
@@ -1355,7 +1355,7 @@ Si la preferencia de idioma del navegador web se establece en un idioma que no s
 
 ##### Valor de cambio de entorno local en OpenPages
 
-Pulse **![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/user_menu_icon_task_focused_ui.jpg)** > **Cambiar entorno local** para ver una lista de idiomas del producto. Esta configuración de idioma controla el idioma del producto excepto para la página de inicio de sesión.
+Pulse **![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/user_menu_icon_task_focused_ui.jpg)** > **Cambiar entorno local** para ver una lista de idiomas del producto. Esta configuración de idioma controla el idioma del producto excepto para la página de inicio de sesión.
 
 El formato de datos y los idiomas de informes están disponibles en las siguientes culturas en la lista **Cambiar entorno local**:
 
@@ -1386,7 +1386,7 @@ El formato de fecha también puede ser poco convencional.
 
 ### Configuración del entorno local en IBM Cognos Analytics
 
-`Guía del creador de informes › Idioma de diseño de informe` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=language-setting-your-locale-in-cognos-analytics)
+`Guía del creador de informes › Idioma de diseño de informe` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=language-setting-your-locale-in-cognos-analytics)
 
 Establezca el entorno local en IBM® Cognos® Analytics en el lenguaje de diseño de informes (RDL) para OpenPages®, que es inglés (Canadá) (`en_CA`).
 
@@ -1401,13 +1401,13 @@ El valor **Idioma del contenido** no cambia el entorno local que se utiliza cuan
 #### Procedimiento
 
 1. Inicie sesión en IBM Cognos Analytics.
-2. Pulse ![Icono Menú personal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/cognos_user_menu.png) y pulse **Perfil y valores**.
+2. Pulse ![Icono Menú personal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/cognos_user_menu.png) y pulse **Perfil y valores**.
 3. Pulse la pestaña **Valores** .
 4. Establezca **Idioma del contenido** en **Inglés (Canadá)**.
 
 ## Trabajar con datos relacionales
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-working-relational-data)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-working-relational-data)
 
 Este capítulo explica cómo utilizar el entorno de elaboración de informes al trabajar con datos relacionales.
 
@@ -1417,7 +1417,7 @@ Este capítulo explica cómo utilizar el entorno de elaboración de informes al 
 
 ### Convenios de sintaxis
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-syntax-conventions)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-syntax-conventions)
 
 #### Sintaxis de expresión de campo
 
@@ -1449,7 +1449,7 @@ REPORTING_PERIODS|[LABELS]|[NAME]
 
 ### Trabajar con contenedores de datos
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-working-containers)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-working-containers)
 
 Las siguientes secciones describen cómo crear y dar formato a informes de lista, referencias cruzadas y gráficos.
 
@@ -1457,7 +1457,7 @@ Para obtener más información sobre cómo modificar listas, tablas de referenci
 
 #### Trabajar con listas
 
-`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con contenedores de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=containers-working-lists)
+`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con contenedores de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=containers-working-lists)
 
 Un objeto de lista se utiliza para crear un informe que mostrará datos en filas y columnas. Cuando decide por primera vez utilizar un objeto de lista, ésta aparecerá vacía.
 
@@ -1497,7 +1497,7 @@ Cada uno de los elementos anteriores tiene un conjunto de propiedades que se pue
 
 ##### Selección de columnas de datos
 
-`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con contenedores de datos › Trabajar con listas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=lists-selecting-data-columns)
+`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con contenedores de datos › Trabajar con listas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=lists-selecting-data-columns)
 
 Puede seleccionar columnas de datos para el informe de lista.
 
@@ -1517,7 +1517,7 @@ Si no le gusta el orden de las columnas, puede seleccionar una columna y moverla
 
 #### Trabajar con tablas de referencias cruzadas
 
-`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con contenedores de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=containers-working-crosstabs)
+`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con contenedores de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=containers-working-crosstabs)
 
 Las tablas de referencias cruzadas son un tipo de contenedor de datos que opera en datos agregados. Los campos de fila y de columna de una tabla de referencias cruzadas son normalmente campos de serie o enumeraciones mientras que la intersección de la tabla de referencias cruzadas debe ser siempre un dato resumido, normalmente un valor numérico.
 
@@ -1537,7 +1537,7 @@ Puede ver tres áreas en un objeto de tabla de referencias cruzadas:
 
 ##### Selección de elementos de datos
 
-`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con contenedores de datos › Trabajar con tablas de referencias cruzadas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=crosstabs-selecting-data-items)
+`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con contenedores de datos › Trabajar con tablas de referencias cruzadas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=crosstabs-selecting-data-items)
 
 Puede seleccionar los elementos de datos que desea incluir como filas y columnas en el informe de tabla de referencias cruzadas y cómo desea formatearlos.
 
@@ -1558,13 +1558,13 @@ Puede seleccionar los elementos de datos que desea incluir como filas y columnas
    2. Establezca **Función de agregación de resumen** en **Automático**.
 7. Ejecute el informe.
 
-   > **Sugerencia:** Para ordenar las filas en orden ascendente, pulse la columna de filas y, a continuación, pulse el icono **Ordenar** ![Icono de ordenación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-sort.jpg). Para añadir resúmenes a las filas y columnas, pulse el icono **Totalización** ![Icono de totalización](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-summation.jpg) y seleccione **Total**.
+   > **Sugerencia:** Para ordenar las filas en orden ascendente, pulse la columna de filas y, a continuación, pulse el icono **Ordenar** ![Icono de ordenación](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-sort.jpg). Para añadir resúmenes a las filas y columnas, pulse el icono **Totalización** ![Icono de totalización](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-summation.jpg) y seleccione **Total**.
 
 #### Trabajar con gráficos
 
-`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con contenedores de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=containers-working-graphs)
+`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con contenedores de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=containers-working-graphs)
 
-Los gráficos se utilizan para visualizar datos en un formato visual. Hay una variedad de formatos de gráficos incorporados en CommandCenter con los que el autor de informes debe familiarizarse para mostrar mejor los datos a los usuarios finales.
+Los gráficos se utilizan para visualizar datos en un formato visual. Hay una variedad de formatos de gráficos integrados en Reporting con los que el autor del informe debe familiarizarse para mostrar mejor los datos a los usuarios finales.
 
 Un gráfico consta de los siguientes componentes:
 
@@ -1582,7 +1582,7 @@ Un gráfico consta de los siguientes componentes:
 
 ##### Creación de un gráfico
 
-`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con contenedores de datos › Trabajar con gráficos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=graphs-creating-graph)
+`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con contenedores de datos › Trabajar con gráficos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=graphs-creating-graph)
 
 Puede crear un gráfico con datos relacionales.
 
@@ -1626,13 +1626,13 @@ Puede crear un gráfico con datos relacionales.
 
 ### Trabajar con campos enumerados
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-working-enumerated-fields)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-working-enumerated-fields)
 
 Puede incluir campos enumerados en los informes.
 
 #### La estructura de la carpeta Campos enumerados
 
-`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con campos enumerados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=fields-enumerated-folder-structure)
+`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con campos enumerados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=fields-enumerated-folder-structure)
 
 Cada objeto tiene una carpeta que contiene todos los campos enumerados definidos para ese objeto. Figura 1 muestra el asunto de consulta SOXControl con su subcarpeta de campos enumerados. Esta carpeta contiene los valores específicos del objeto de los campos enumerados.
 
@@ -1642,7 +1642,7 @@ En Figura 1 estamos eligiendo la carpeta que contiene los valores de enumeració
 
 *Figura 1. Campos enumerados de SOXControl*
 
-![Campos enumerados en el asunto de consulta SOXControl](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_enumerated_folders.jpg)
+![Campos enumerados en el asunto de consulta SOXControl](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_enumerated_folders.jpg)
 
 Hay dos tipos de campos enumerados: de valor único o multivalor.
 
@@ -1688,18 +1688,18 @@ Para obtener una lista separada por comas de los valores traducidos de la serie,
 
 #### Uso de campos enumerados en un informe
 
-`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con campos enumerados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=fields-using-enumerated-in-report)
+`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con campos enumerados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=fields-using-enumerated-in-report)
 
 Puede utilizar un campo enumerado en un informe.
 
 ##### Procedimiento
 
-1. Pulse la pestaña ![Icono de origen](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-model.jpg) **Fuente** en el panel **Objetos insertables** y seleccione el elemento de consulta que desea utilizar en el informe.
+1. Pulse la pestaña ![Icono de origen](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-model.jpg) **Fuente** en el panel **Objetos insertables** y seleccione el elemento de consulta que desea utilizar en el informe.
 2. Arrastre y suelte el elemento de consulta en el informe.
 
 ### Trabajar con campos de fecha
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-working-date-fields)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-working-date-fields)
 
 Los campos de fecha se listan como elementos de consulta adjuntos al objeto.
 
@@ -1707,11 +1707,11 @@ En la figura siguiente, puede ver el `[PR_CREATION_DATE]` listado como un elemen
 
 *Figura 1. Asunto de consulta SOXProcess*
 
-![Jerarquía del asunto de consulta SOXPROCESS](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_process_query_subject.jpg)
+![Jerarquía del asunto de consulta SOXPROCESS](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_process_query_subject.jpg)
 
 #### Procedimiento
 
-1. Pulse la pestaña **Origen** ![Icono de origen](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-model.jpg) en el panel **Objetos insertables** y seleccione el elemento de consulta que desea utilizar en el informe.
+1. Pulse la pestaña **Origen** ![Icono de origen](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-model.jpg) en el panel **Objetos insertables** y seleccione el elemento de consulta que desea utilizar en el informe.
 2. Arrastre el elemento de consulta al informe.
 3. Seleccione el elemento de consulta que acaba de arrastrar al informe.
 4. En el panel **Propiedades** , bajo **Datos** seleccione **Formato de datos**.
@@ -1732,19 +1732,19 @@ Además del formateo manual de fechas, hay formatos incorporados que están ubic
 
 ### Trabajar con campos de moneda
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-working-currency-fields)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-working-currency-fields)
 
 Puede añadir campos de moneda a los informes.
 
 #### Asuntos de consulta de la divisa del sistema
 
-`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con campos de moneda` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=fields-system-currency-query-subjects)
+`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con campos de moneda` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=fields-system-currency-query-subjects)
 
 Los objetos de consulta de moneda del sistema se encuentran bajo la carpeta `MISCELLANEOUS|CURRENCIES` en un espacio de nombres y se clasifican en tipos de cambio o moneda base, tal como se muestra en la Figura 1.
 
 *Figura 1. Carpeta Divisa del sistema*
 
-![Jerarquía de la carpeta de moneda del sistema](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_system_currency_folders.jpg)
+![Jerarquía de la carpeta de moneda del sistema](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_system_currency_folders.jpg)
 
 El objeto de consulta de las tasa de cambio incluyen un registro para cada tasa de cambio que se ha establecido en el sistema. El asunto de consulta de la divisa base solo devuelve un único registro con la información de divisa base.
 
@@ -1756,13 +1756,13 @@ En esta lista se ofrecen algunos ejemplos de utilización de los objetos de mone
 
 #### Estructura de carpetas de los campos de moneda
 
-`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con campos de moneda` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=fields-currency-folder-structure)
+`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con campos de moneda` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=fields-currency-folder-structure)
 
 Además de los asuntos de consulta, cada objeto tiene una carpeta que contiene todos los campos de moneda definidos para ese objeto. Figura 1 muestra el asunto de consulta SOXRisk con su subcarpeta de campos de moneda.
 
 *Figura 1. Campos de moneda de la cuenta SOX*
 
-![Asunto de consulta SOXRisk con subcampos](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_currency_fields_folder.jpg)
+![Asunto de consulta SOXRisk con subcampos](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_currency_fields_folder.jpg)
 
 Cada campo de moneda se ubicará en su propia carpeta con cinco valores:
 
@@ -1790,13 +1790,13 @@ En función del requisito, seleccione el campo adecuado para el informe.
 
 #### Configuración del uso de los campos de divisa en un informe
 
-`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con campos de moneda` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=fields-configuring-use-currency-in-report)
+`Guía del creador de informes › Trabajar con datos relacionales › Trabajar con campos de moneda` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=fields-configuring-use-currency-in-report)
 
 Puede utilizar un campo de divisa en un informe. Configure la aplicación para permitir el uso de los campos de divisa.
 
 ##### Procedimiento
 
-1. Pulse la **Fuente** pestaña ![Icono de origen](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-model.jpg) en el panel **Objetos insertables** . Seleccione el elemento de consulta que se utilizará en el informe.
+1. Pulse la **Fuente** pestaña ![Icono de origen](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-model.jpg) en el panel **Objetos insertables** . Seleccione el elemento de consulta que se utilizará en el informe.
 2. Arrastre y suelte el elemento de consulta en el informe.
 3. Seleccione el elemento de consulta que acaba de soltar en el informe.
 4. En el panel **Propiedades** , bajo **Datos** seleccione **Formato de datos**.
@@ -1812,13 +1812,13 @@ Además del formateo manual de las monedas, se incluyen formatos compilados que 
 
 ### Adición de solicitudes
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-adding-prompts)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-adding-prompts)
 
 La página de solicitudes añade interactividad para usuarios y actúa como un mecanismo de control de informes para filtrar y limitar los datos recuperados.
 
 #### Creación de una página de solicitudes
 
-`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=prompts-creating-prompt-page)
+`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=prompts-creating-prompt-page)
 
 Puede crear una página de solicitud en el informe.
 
@@ -1835,7 +1835,7 @@ Puede crear una página de solicitud en el informe.
    1. Elimine los botones que no crea que necesitará seleccionando el botón y pulsando el icono **Suprimir** .
    2. Pulse el pie de página y, a continuación, el icono **Centro** para centrar los botones en la página.
    3. Pulse los botones restantes y establezca la propiedad **Color de fondo** en **Plata** en el panel **Propiedades** .
-4. Pulse la **Caja de herramientas** pestaña ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg) en el panel **Objetos insertables** .
+4. Pulse la **Caja de herramientas** pestaña ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg) en el panel **Objetos insertables** .
 5. Arrastre un objeto **Cuadro** al cuerpo de la página de solicitud. Seleccione dos columnas, sin embargo, necesitará muchas filas. Incluya una fila en blanco después de cada solicitud.
 6. Cuando tiene una fila en blanco entre los controles, establezca la altura de celda predeterminada en 15 pt y complete los siguientes pasos.
 
@@ -1846,7 +1846,7 @@ Puede crear una página de solicitud en el informe.
 
 #### Adición de una solicitud de periodo de elaboración de informes
 
-`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=prompts-adding-reporting-period-prompt)
+`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=prompts-adding-reporting-period-prompt)
 
 Puede añadir una solicitud de periodo de elaboración de informes al informe.
 
@@ -1903,7 +1903,7 @@ Puede añadir una solicitud de periodo de elaboración de informes al informe.
 ##### Pasar el parámetro de periodo de elaboración de informes de OpenPages
 
 `Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes › Adición de una solicitud de periodo de elaboración de
-informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=prompt-passing-openpages-reporting-period-parameter)
+informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=prompt-passing-openpages-reporting-period-parameter)
 
 El selector **Periodo de elaboración de informes** en IBM OpenPages® del usuario se puede utilizar para establecer el periodo de elaboración de informes en un informe. Cuando el informe está instalado en la aplicación, se lleva a cabo una configuración adicional para pasar los valores del periodo de elaboración de informes al informe.
 
@@ -1931,7 +1931,7 @@ A continuación, se utiliza el periodo de elaboración de informes de la aplicac
 
 #### Adición de una solicitud de entidad de negocios
 
-`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=prompts-adding-business-entity-prompt)
+`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=prompts-adding-business-entity-prompt)
 
 Puede añadir una solicitud de entidad de negocios al informe.
 
@@ -1984,7 +1984,7 @@ Puede añadir una solicitud de entidad de negocios al informe.
 
 #### Adición de una solicitud de valor enumerado de selección única
 
-`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=prompts-adding-single-select-enumerated-value-prompt)
+`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=prompts-adding-single-select-enumerated-value-prompt)
 
 Si el informe se ha filtrado interactivamente en un valor de serie enumerado, puede utilizar una Solicitud de valor para llevar a cabo esta acción. Siga este procedimiento para añadir una solicitud de valor enumerado al informe.
 
@@ -2061,7 +2061,7 @@ Para obtener detalles y más explicaciones, consulte la sección sobre [Optimiza
 
 #### Adición de una solicitud de valor enumerado de selección múltiple
 
-`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=prompts-adding-multi-select-enumerated-value-prompt)
+`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=prompts-adding-multi-select-enumerated-value-prompt)
 
 Puede añadir una solicitud de valor enumerado de selección múltiple al informe.
 
@@ -2081,7 +2081,7 @@ Ahora puede seleccionar dos valores de la solicitud además de tener los enlaces
 ##### Adición de un valor estático Todo a una solicitud de valor enumerado de selección múltiple
 
 `Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes › Adición de una solicitud de valor enumerado de selección
-múltiple` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=amsevp-adding-all-static-value-multi-select-enumerated-value-prompt)
+múltiple` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=amsevp-adding-all-static-value-multi-select-enumerated-value-prompt)
 
 Hay instancias en las que el cliente ha ocultado los enlaces Seleccionar todo y Deseleccionar todo pero aún quiere que sus usuarios tengan la capacidad de Seleccionar todo como opción estática. Puede añadir una opción estática Seleccionar todo al informe.
 
@@ -2090,14 +2090,14 @@ Hay instancias en las que el cliente ha ocultado los enlaces Seleccionar todo y 
 1. En la página de solicitudes, seleccione la solicitud de valor que acaba de crear.
 2. En **Panel de propiedades** bajo la categoría **Datos** , pulse la propiedad **Opciones estáticas** y realice los pasos siguientes.
 
-   1. Pulse el icono ![Icono Añadir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-add_new.jpg)Añadir.
+   1. Pulse el icono ![Icono Añadir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-add_new.jpg)Añadir.
    2. En el cuadro de diálogo **Editar**, establezca el valor **Utilizar** en -1 y el valor **Mostrar** en **Todos**.
    3. Pulse **Aceptar**.
    4. Pulse **Aceptar**.
 3. Para establecer el valor Todo como valor predeterminado cuando aparezca la página de solicitudes, realice los siguientes pasos.
 
    1. En el panel **Propiedades** bajo la categoría **General** , pulse **Selecciones predeterminadas**.
-   2. Pulse el icono ![Icono Añadir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-add_new.jpg)Añadir.
+   2. Pulse el icono ![Icono Añadir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-add_new.jpg)Añadir.
    3. Escriba `-1` para el valor.
    4. Pulse **Correcto** dos veces.
 4. En el panel Propiedades, en **Posición**, seleccione **Tamaño y desbordamiento**y, en el recuadro de diálogo, establezca la altura en **56 pt**.
@@ -2117,7 +2117,7 @@ Esto ignora el filtro en la base de datos y anula el uso el filtro por lo que se
 
 #### Adición de una solicitud de fecha
 
-`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=prompts-adding-date-prompt)
+`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=prompts-adding-date-prompt)
 
 Puede añadir una solicitud de fecha al informe.
 
@@ -2154,7 +2154,7 @@ Puede añadir una solicitud de fecha al informe.
 
 #### Adición de una solicitud de rango de fechas
 
-`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=prompts-adding-date-range-prompt)
+`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=prompts-adding-date-range-prompt)
 
 El proceso para crear una solicitud de rango de fechas requiere que añada dos objetos Solicitud de fecha a la página de solicitudes (uno para la fecha de inicio y el otro para la fecha de finalización) del informe, y modifique un filtro para la fecha de finalización.
 
@@ -2176,7 +2176,7 @@ Por ejemplo, `[OPENPAGES_REL].[ACTOR_AUDIT_TRAIL].[CREATED_ON] <= _add_days(?End
 
 #### Adición de una solicitud de opciones estáticas
 
-`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=prompts-adding-static-choices-prompt)
+`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=prompts-adding-static-choices-prompt)
 
 En algunos casos, una solicitud no se puede llenar con valores basándose en un elemento de consulta. Si, por ejemplo, un informe contiene dos columnas: Estado del problema y Fecha del problema, y desea que el informe ordene por la columna Estado del problema o Fecha del problema dependiendo de la selección del usuario, debe crear una solicitud de valor que utilice opciones estáticas (como una cabecera de columna).
 
@@ -2202,7 +2202,7 @@ En algunos casos, una solicitud no se puede llenar con valores basándose en un 
    2. En el recuadro **Propiedades** bajo **Datos**, pulse el botón **Opciones estáticas** para abrir el recuadro **Opciones estáticas** .
 5. En el recuadro **Opciones estáticas** , realice los pasos siguientes.
 
-   1. Pulse el botón ![Icono Añadir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-add_new.jpg) **Añadir** para abrir el recuadro **Editar** .
+   1. Pulse el botón ![Icono Añadir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-add_new.jpg) **Añadir** para abrir el recuadro **Editar** .
    2. En el campo **Utilizar** , especifique el valor que desea utilizar en el filtro. Por ejemplo, 1.
    3. En el campo **Mostrar** , especifique el valor que se va a visualizar en la solicitud. Por ejemplo, Estado del problema.
    4. Para añadir más valores, repita los pasos a-c.
@@ -2213,7 +2213,7 @@ Puede utilizar el parámetro recién creado, por ejemplo, Orden de clasificació
 
 #### Adición de una solicitud en cascada
 
-`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=prompts-adding-cascading-prompt)
+`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=prompts-adding-cascading-prompt)
 
 Las solicitudes en cascada son solicitudes que se llenan dinámicamente basándose en una elección realizada en la solicitud anterior. Por ejemplo, si elige un periodo de creación de informes de una solicitud, la segunda solicitud se puede llenar con Entidades de negocios que existen en ese periodo de elaboración de informes.
 
@@ -2242,7 +2242,7 @@ La solicitud de entidad de negocios no se llena porque está esperando por el va
 
 #### Adición de solicitudes para asuntos de consulta
 
-`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=prompts-adding-query-subjects)
+`Guía del creador de informes › Trabajar con datos relacionales › Adición de solicitudes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=prompts-adding-query-subjects)
 
 En el modelo de entorno de IBM OpenPages® , algunos asuntos de consulta contienen macros de solicitud.
 
@@ -2256,7 +2256,7 @@ Los métodos para crear estas solicitudes es idéntica a las ya descritas en est
 
 ### Adición de campos de texto enriquecido
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-adding-rich-text-fields)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-adding-rich-text-fields)
 
 Si el texto no es HTML o texto enriquecido, se visualizará como texto sin formato en el informe. Los campos de texto en IBM OpenPages® se pueden establecer para visualizar texto enriquecido. Debe realizarse un formateo especial en los informes para visualizar estos campos correctamente.
 
@@ -2269,7 +2269,7 @@ Si el texto no es HTML o texto enriquecido, se visualizará como texto sin forma
    - `DEFAULT|[DEFAULT_REL]|GRC_OBJECTS|[SOXPROCESS]|[PR_NAME00]`
    - `DEFAULT|[DEFAULT_REL]|GRC_OBJECTS|[SOXPROCESS]|[PR_DESCRIPTION]`
    - `DEFAULT|[DEFAULT_REL]|GRC_OBJECTS|[SOXPROCESS]| [PR_ADDITIONAL_DESCRIPTION] (This is defined as a Rich Text field)`
-3. Pulse la pestaña ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg) **Caja de herramientas** en el panel **Objetos insertables** y, a continuación, arrastre y suelte un objeto **Elemento HTML** en la lista.
+3. Pulse la pestaña ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg) **Caja de herramientas** en el panel **Objetos insertables** y, a continuación, arrastre y suelte un objeto **Elemento HTML** en la lista.
 4. Para seleccionar el elemento HTML en la lista, realice los siguientes pasos.
 
    1. En el panel **Propiedades** en **Origen HTML**, establezca la propiedad **Tipo de origen** en **Valor de elemento de datos**.
@@ -2299,7 +2299,7 @@ Si el texto no es HTML o texto enriquecido, se visualizará como texto sin forma
         ```
         trim(regexp_replace([DEFAULT_REL].[SOXPROCESS].[PR_ADDITIONAL_DESCRIPTION], '<[^>]+>'))
         ```
-   3. ![Icono Validar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-validate_expression.jpg) **Val** **ide la expresión** y, a continuación, haga clic en Aceptar.
+   3. ![Icono Validar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-validate_expression.jpg) **Val** **ide la expresión** y, a continuación, haga clic en Aceptar.
 9. En el panel **Propiedades** del elemento de datos que acaba de añadir, realice los pasos siguientes.
 
    1. En el grupo **Datos** , establezca la propiedad **Nombre** en **Descripción adicional**.
@@ -2316,7 +2316,7 @@ Si el texto no es HTML o texto enriquecido, se visualizará como texto sin forma
     1. En el **Explorador de condiciones** , pulse **Variables**.
     2. Arrastre y suelte una **Variable de cadena** en el panel **Variables** .
     3. En el panel **Definición de expresión** , especifique `ReportOutput ()` y pulse **Aceptar**.
-    4. Usando **el icono Añadir** de ![Icono Añadir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-add_new.jpg), introduce **HTML** como variable.
+    4. Usando **el icono Añadir** de ![Icono Añadir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-add_new.jpg), introduce **HTML** como variable.
     5. En el panel **Propiedades** , en **Varios**, en la propiedad **Nombre** , especifique **Salida de informe**.
 14. Vuelva a la página de informe principal y complete los siguientes pasos:
 
@@ -2346,7 +2346,7 @@ En este ejemplo, hemos utilizado un objeto HTML para visualizar el texto enrique
 
 ### Adición de imágenes e iconos
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-adding-images-icons)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-adding-images-icons)
 
 Puede mejorar el aspecto de los informes añadiendo iconos o el logotipo de la compañía a los informes.
 
@@ -2370,8 +2370,8 @@ Los archivos de imagen para informes de versiones anteriores pueden localizarse 
 #### Procedimiento
 
 1. Cree un nuevo informe de lista.
-2. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg)y, a continuación, arrastre un objeto **Imagen** a la primera columna del informe de lista.
-3. En la barra de herramientas, pulse el icono **Bloquear** ![Icono de bloqueo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-padlock.jpg) para desbloquear la plantilla (el icono cambia a desbloqueado).
+2. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg)y, a continuación, arrastre un objeto **Imagen** a la primera columna del informe de lista.
+3. En la barra de herramientas, pulse el icono **Bloquear** ![Icono de bloqueo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-padlock.jpg) para desbloquear la plantilla (el icono cambia a desbloqueado).
 4. Seleccione el objeto **Imagen** .
 5. En el panel **Propiedades** del objeto **Imagen** , realice los pasos siguientes.
 
@@ -2387,7 +2387,7 @@ Todas las imágenes se pueden utilizar como enlace CrossTrack de la misma forma 
 
 ### Adición de cálculos
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-adding-calculations)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-adding-calculations)
 
 Existen dos métodos para la creación de cálculos en el entorno.
 
@@ -2400,13 +2400,13 @@ Los cálculos se pueden incorporar un informe igual que cualquier otro elemento 
 
 ### Ordenación de datos
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-sorting)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-sorting)
 
 Puede organizar datos en una columna de informes especificando un orden de clasificación. Los datos se pueden organizar en orden ascendente o descendente basándose en los valores de cualquier columna.
 
 #### Uso de la ordenación simple
 
-`Guía del creador de informes › Trabajar con datos relacionales › Ordenación de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-using-simple-sorting)
+`Guía del creador de informes › Trabajar con datos relacionales › Ordenación de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-using-simple-sorting)
 
 Puede ordenar una columna utilizando la función de ordenación integrada.
 
@@ -2414,19 +2414,19 @@ Puede ordenar una columna utilizando la función de ordenación integrada.
 
 1. Abra un informe.
 2. Pulse la columna en la que desea ordenar.
-3. Pulse el **Ordenación** icono ![Icono de ordenación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-sort.jpg) en la barra de herramientas y, a continuación, pulse **Orden ascendente** o **Ordenar en orden descendente**.
+3. Pulse el **Ordenación** icono ![Icono de ordenación](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-sort.jpg) en la barra de herramientas y, a continuación, pulse **Orden ascendente** o **Ordenar en orden descendente**.
 4. Ejecute el informe.
 
 #### Uso de la ordenación avanzada
 
-`Guía del creador de informes › Trabajar con datos relacionales › Ordenación de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-using-advanced-sorting)
+`Guía del creador de informes › Trabajar con datos relacionales › Ordenación de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-using-advanced-sorting)
 
 La función de ordenación avanzada se utiliza para aplicar ordenaciones en varias columnas de un informe. Permite al autor del informe especificar el orden de columna y la dirección de ordenación por los que desea que esté ordenado el informe.
 
 ##### Procedimiento
 
 1. Abra un informe.
-2. Pulse el **Ordenación** icono ![Icono de ordenación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-sort.jpg) en la barra de herramientas y, a continuación, pulse **Ordenación avanzada**.
+2. Pulse el **Ordenación** icono ![Icono de ordenación](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-sort.jpg) en la barra de herramientas y, a continuación, pulse **Ordenación avanzada**.
 3. En el diálogo **Ordenación avanzada** , determine por qué columnas desea ordenar y arrástrelas y suéltelas bajo la carpeta **Lista de clasificación de detalles** .
 4. Puede cambiar el orden con las flechas arriba y abajo o cambiar la dirección de ordenación.
 
@@ -2436,7 +2436,7 @@ Si había grupos creados en esta lista, debe verlos en la carpeta de grupos. La 
 
 #### Uso de la ordenación personalizada
 
-`Guía del creador de informes › Trabajar con datos relacionales › Ordenación de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-using-custom-sorting)
+`Guía del creador de informes › Trabajar con datos relacionales › Ordenación de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-using-custom-sorting)
 
 Puede haber situaciones en las que los datos ordenados en orden ascendente o descendente no cumplen los requisitos.
 
@@ -2467,7 +2467,7 @@ El ejemplo siguiente muestra cómo crear un orden de clasificación personalizad
      ```
 2. Ejecute el informe y observe el orden de los controles.
 3. Utilizando **Explorador de consultas** , seleccione la consulta que va a ordenar de forma personalizada.
-4. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg) en el panel **Objetos insertables** . y, a continuación, arrastre y suelte un objeto **Elemento de datos** en el recuadro **Elementos de datos** de la consulta.
+4. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg) en el panel **Objetos insertables** . y, a continuación, arrastre y suelte un objeto **Elemento de datos** en el recuadro **Elementos de datos** de la consulta.
 5. En el panel **Definición de expresión** , especifique la expresión siguiente:
 
    ```
@@ -2481,7 +2481,7 @@ El ejemplo siguiente muestra cómo crear un orden de clasificación personalizad
    else 4
    end
    ```
-6. Pulse el icono **Validar** ![Icono Validar expresión](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-validate_expression.jpg) para validar la expresión y, a continuación, pulse **Aceptar**.
+6. Pulse el icono **Validar** ![Icono Validar expresión](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-validate_expression.jpg) para validar la expresión y, a continuación, pulse **Aceptar**.
 7. En el panel **Propiedades** del elemento de datos, realice los pasos siguientes.
 
    1. En **Datos**, establezca la propiedad **Nombre** escribiendo un nombre para el elemento de datos. Por ejemplo, **Orden de clasificación**.
@@ -2492,7 +2492,7 @@ El ejemplo siguiente muestra cómo crear un orden de clasificación personalizad
 
 #### Uso de la ordenación solicitada
 
-`Guía del creador de informes › Trabajar con datos relacionales › Ordenación de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-using-prompted-sorting)
+`Guía del creador de informes › Trabajar con datos relacionales › Ordenación de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-using-prompted-sorting)
 
 Puede ordenar un informe en la columna seleccionada por el usuario desde la página de solicitud del informe.
 
@@ -2529,7 +2529,7 @@ Puede ordenar un informe en la columna seleccionada por el usuario desde la pág
 5. Utilizando **Explorador de consultas** , seleccione la consulta que va a editar.
 6. En el modelo tabular, realice los siguientes pasos.
 
-   1. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg) y arrastre un objeto **Elemento de datos** al panel **Elementos de datos** .
+   1. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg) y arrastre un objeto **Elemento de datos** al panel **Elementos de datos** .
    2. En el panel **Definición de expresión** , especifique las expresiones siguientes:
 
       caso?¿Orden de clasificación?
@@ -2555,13 +2555,13 @@ Puede ordenar un informe en la columna seleccionada por el usuario desde la pág
 
 ### Filtrado de datos
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-filtering)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-filtering)
 
 Puede utilizar un filtro de informes para centrarse en un informe y minimizar el tipo de proceso excluyendo los datos no deseados.
 
 #### Uso de mapas de parámetros para filtrado
 
-`Guía del creador de informes › Trabajar con datos relacionales › Filtrado de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-using-parameter-maps-filtering)
+`Guía del creador de informes › Trabajar con datos relacionales › Filtrado de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-using-parameter-maps-filtering)
 
 Para visualizar, por ejemplo, en un informe sólo los objetos de control que tienen un valor de efectividad operativa de `Effective`, aplicaría un filtro en el campo de serie enumerada `Operating Effectiveness` .
 
@@ -2610,7 +2610,7 @@ Donde `<Object Name>` es el nombre del objeto y `<Field Name>` es el nombre del 
 
 #### Filtrado del ID de periodo de elaboración de informes
 
-`Guía del creador de informes › Trabajar con datos relacionales › Filtrado de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-filtering-reporting-period-id)
+`Guía del creador de informes › Trabajar con datos relacionales › Filtrado de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-filtering-reporting-period-id)
 
 Todos los informes deben filtrarse por el ID de periodo de elaboración de informes (a través del uso de una solicitud o un filtro) a menos que el usuario desee informar a través de todos los periodos de elaboración de informes.
 
@@ -2620,7 +2620,7 @@ Puede, por ejemplo, solicitar al usuario explícitamente un periodo de elaboraci
 
 #### Filtrado de una enumeración
 
-`Guía del creador de informes › Trabajar con datos relacionales › Filtrado de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-filtering-enumeration)
+`Guía del creador de informes › Trabajar con datos relacionales › Filtrado de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-filtering-enumeration)
 
 Hay dos tipos de variables enumeradas, de valor único o multivalor. Para filtrar utilizando enumeraciones, el operador del filtro debe cambiar para dar cabida al tipo de solicitud que se está utilizando.
 
@@ -2645,13 +2645,13 @@ Además, debe asegurarse de que la propiedad **Agrupación automática y resumen
 
 ### Agrupación de datos
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-grouping)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-grouping)
 
 Puede eliminar valores duplicados en un informe agrupando elementos de consulta. Por ejemplo, si un informe contiene varios controles para una entidad de negocios y riesgo concretos, puede agrupar las columnas de la entidad de negocios y riesgo así solo una instancia de la entidad de negocios y el riesgo se visualiza en la lista para cada control.
 
 #### Agrupación de datos en un informe de lista
 
-`Guía del creador de informes › Trabajar con datos relacionales › Agrupación de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-grouping-in-list-report)
+`Guía del creador de informes › Trabajar con datos relacionales › Agrupación de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-grouping-in-list-report)
 
 Puede agrupar datos en un informe de lista. El informe de ejemplo utiliza los elementos de consulta de control, entidad de negocios y riesgo y, después, agrupa las columnas de entidad de negocios y riesgo para eliminar datos duplicados.
 
@@ -2686,7 +2686,7 @@ Puede agrupar datos en un informe de lista. El informe de ejemplo utiliza los el
 2. Agrupe los datos para las siguientes columnas:
 
    1. Seleccione la columna `[CEN_ENTITY_ID]` .
-   2. Pulse el icono Grupo ![Icono de grupo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-group_rag.jpg). El icono de grupo se visualizará en la columna que acaba de seleccionar.
+   2. Pulse el icono Grupo ![Icono de grupo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-group_rag.jpg). El icono de grupo se visualizará en la columna que acaba de seleccionar.
    3. Seleccione la columna `[RI_RISK_ID]` y `[CN_CONTROL_ID]` y repita el paso b.
 3. Corte los siguientes elementos de consulta de la lista para ocultar el identificador de objeto y que no aparezca en la página de informe:
 
@@ -2705,7 +2705,7 @@ Puede agrupar datos en un informe de lista. El informe de ejemplo utiliza los el
 
 #### Creación de una cabecera de grupo de lista
 
-`Guía del creador de informes › Trabajar con datos relacionales › Agrupación de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-creating-list-group-header)
+`Guía del creador de informes › Trabajar con datos relacionales › Agrupación de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-creating-list-group-header)
 
 Puede utilizar el nombre de un objeto (como el nombre de una entidad) como cabecera de grupo de un informe de lista nuevo.
 
@@ -2725,7 +2725,7 @@ El informe de ejemplo utiliza los elementos de consulta de control, riesgo y ent
 
 #### Establecimiento de la extensión de nivel para una columna
 
-`Guía del creador de informes › Trabajar con datos relacionales › Agrupación de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-setting-level-span-column)
+`Guía del creador de informes › Trabajar con datos relacionales › Agrupación de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-setting-level-span-column)
 
 Cuando las columnas están agrupadas, puede elegir con qué frecuencia mostrar los valores de columna utilizando la expansión de nivel. A diferencia de la agrupación, la expansión de nivel no cambiará la consulta subyacente.
 
@@ -2784,9 +2784,9 @@ Los campos de riesgo adicionales ahora expanden el campo de nombre de riesgo.
 
 ### Agregación de datos
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-aggregating)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-aggregating)
 
-Las agregaciones se utilizan para agrupar y resumir datos numéricos. Las técnicas descritas aquí se utilizan no sólo para generar los resultados deseados, sino también para hacer que CommandCentergenere SQL eficiente.
+Las agregaciones se utilizan para agrupar y resumir datos numéricos. Las técnicas descritas aquí se utilizan no solo para producir los resultados deseados, sino también para que Reporting genere SQL eficiente.
 
 #### Acerca de esta tarea
 
@@ -2800,7 +2800,7 @@ Siga este procedimiento para contar el número de controles `Effective`, `Ineffe
    1. En **Explorador de consultas**, abra la consulta.
    2. En el panel **Propiedades** en **Varios**, establezca el nombre en **listMain**.
    3. Vuelva a **Explorador de consultas** y seleccione la carpeta de nivel superior **Consultas**.
-   4. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg).
+   4. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg).
    5. Arrastre un objeto **Query** junto a la consulta **listMain** .
    6. Seleccione el nuevo objeto de consulta.
    7. En el panel **Propiedades** bajo **Varios**, establezca **Nombre** en **listMain1**.
@@ -2812,7 +2812,7 @@ Siga este procedimiento para contar el número de controles `Effective`, `Ineffe
 4. Para añadir elementos de consulta a la consulta **listMain2** que ha creado en el paso anterior, realice los pasos siguientes.
 
    1. Seleccione la consulta **listMain2** para abrirla.
-   2. Pulse la **Fuente** pestaña ![Icono de origen](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-model.jpg) en el panel **Objetos insertables** .
+   2. Pulse la **Fuente** pestaña ![Icono de origen](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-model.jpg) en el panel **Objetos insertables** .
    3. Arrastre los siguientes elementos de consulta al recuadro **Elementos de datos** :
 
       - ```
@@ -2833,7 +2833,7 @@ Siga este procedimiento para contar el número de controles `Effective`, `Ineffe
         ```
 5. Para añadir un elemento de datos al objeto de consulta, complete los pasos siguientes.
 
-   1. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg).
+   1. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg).
    2. Arrastre un objeto **Elemento de datos** al recuadro **Elementos de datos** de la consulta.
    3. En el panel **Definición de expresión** del elemento de datos, especifique la expresión siguiente:
 
@@ -2842,7 +2842,7 @@ Siga este procedimiento para contar el número de controles `Effective`, `Ineffe
         then(1)
         else (0)
       ```
-   4. Pulse el icono **Validar** ![Icono Validar expresión](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-validate_expression.jpg) para validar la expresión y, a continuación, pulse **Aceptar**.
+   4. Pulse el icono **Validar** ![Icono Validar expresión](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-validate_expression.jpg) para validar la expresión y, a continuación, pulse **Aceptar**.
 6. En el panel **Propiedades** del elemento de datos, realice los pasos siguientes.
 
    1. Cambie la propiedad **Nombre** del elemento de datos a `Effective`.
@@ -2856,7 +2856,7 @@ Siga este procedimiento para contar el número de controles `Effective`, `Ineffe
    1. En **Explorador de consultas**, pulse la consulta **listMain1** .
    2. Pulse la pestaña **Origen** y arrastre y suelte los elementos de consulta `[CEN_ENTITY_ID]` y `[CEN_NAME00]` en el recuadro **Elementos de datos** de **listMain2**.
    3. Cambie la propiedad **Función de agregación** para cada elemento de datos a **Ninguno**.
-   4. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg) y, a continuación, arrastre un objeto **Elemento de datos** al recuadro **Elementos de datos** del modelo tabular.
+   4. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg) y, a continuación, arrastre un objeto **Elemento de datos** al recuadro **Elementos de datos** del modelo tabular.
    5. En el panel **Definición de expresión** , especifique la expresión siguiente:
 
       ```
@@ -2869,7 +2869,7 @@ Siga este procedimiento para contar el número de controles `Effective`, `Ineffe
 11. Repita los pasos 9 y 10 para crear dos elementos de datos más para los controles de recuento: uno para `Ineffective` y otro para `Not Determined`.
 12. Para calcular el porcentaje de controles no efectivos, realice los siguientes pasos.
 
-    1. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg).
+    1. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg).
     2. Arrastre un **Elemento de datos** al recuadro **Elementos de datos** .
 13. En el panel **Propiedades** del elemento de datos recién creado, realice los pasos siguientes.
 
@@ -2886,7 +2886,7 @@ Siga este procedimiento para contar el número de controles `Effective`, `Ineffe
 15. Para rellenar la consulta **listMain** , realice los pasos siguientes.
 
     1. En **Explorador de consultas** , seleccione la consulta **listMain** .
-    2. Desde la pestaña **Origen** ![Icono de origen](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-model.jpg), arrastre los siguientes elementos de consulta al panel **Elementos de datos** de la consulta:
+    2. Desde la pestaña **Origen** ![Icono de origen](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-model.jpg), arrastre los siguientes elementos de consulta al panel **Elementos de datos** de la consulta:
 
        - `[CEN_NAME00]`
        - `[CEN_ENTITY_ID]`
@@ -2898,7 +2898,7 @@ Siga este procedimiento para contar el número de controles `Effective`, `Ineffe
 17. Para rellenar la página de informe con los elementos de datos, realice los siguientes pasos.
 
     1. En **Explorador de páginas**, pulse la página de informe para abrirla.
-    2. En el panel **Objetos insertables**, seleccione la pestaña **Elementos de consulta** ![Icono de elemento de consulta](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-query_items_tab.jpg) y, a continuación, arrastre y suelte los siguientes elementos de consulta en el objeto de lista de **listMain** :
+    2. En el panel **Objetos insertables**, seleccione la pestaña **Elementos de consulta** ![Icono de elemento de consulta](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-query_items_tab.jpg) y, a continuación, arrastre y suelte los siguientes elementos de consulta en el objeto de lista de **listMain** :
 
        - [CEN_NAME00]
        - [CEN_ENTITY_ID]
@@ -2921,13 +2921,13 @@ Una forma mejor de visualizar el nombre de la fila sería utilizar la variable v
 
 ### Uso del formateo condicional
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-using-conditional-formatting)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-using-conditional-formatting)
 
 Las secciones siguientes describen cómo utilizar el formateo condicional.
 
 #### Uso del formateo condicional para entradas de sangría
 
-`Guía del creador de informes › Trabajar con datos relacionales › Uso del formateo condicional` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=formatting-using-conditional-indent-entries)
+`Guía del creador de informes › Trabajar con datos relacionales › Uso del formateo condicional` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=formatting-using-conditional-indent-entries)
 
 Siga este procedimiento para sangrar nombres de entidad dependiendo del nivel.
 
@@ -2957,11 +2957,11 @@ Siga este procedimiento para sangrar nombres de entidad dependiendo del nivel.
 6. Para establecer el orden de clasificación en el elemento de datos `[CEN_FULL_PATH]` , realice los pasos siguientes.
 
    1. Seleccione cualquier elemento del objeto de lista.
-   2. Pulse el icono de ordenación ![Icono de ordenación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-sort.jpg)en la barra de herramientas y, a continuación, pulse **Clasificación avanzada**.
+   2. Pulse el icono de ordenación ![Icono de ordenación](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-sort.jpg)en la barra de herramientas y, a continuación, pulse **Clasificación avanzada**.
    3. En el diálogo **Agrupación y ordenación** , arrastre y suelte `[CEN_FULL_PATH]` bajo la carpeta **Lista de clasificación de detalles** .
    4. Pulse **Aceptar**.
 7. Seleccione la consulta **listMain** en el **Explorador de consultas**.
-8. Pulse la pestaña ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg) **Caja de herramientas** y arrastre un **Elemento de datos** al panel **Elementos de datos** .
+8. Pulse la pestaña ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg) **Caja de herramientas** y arrastre un **Elemento de datos** al panel **Elementos de datos** .
 
    > **Nota:** Si tiene una base de datos IBM® Db2® , debe sustituir la función Oracle `INSTR` en la siguiente expresión de ejemplo por la función Db2 correspondiente.
 
@@ -3012,7 +3012,7 @@ Siga este procedimiento para sangrar nombres de entidad dependiendo del nivel.
 13. En el panel **Propiedades** bajo **Varios**, establezca la propiedad **Nombre** en **Sangrar variable**.
 14. En la **Panel de valores**, realice los pasos siguientes.
 
-    1. Pulse el icono ![Icono Añadir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-add_new.jpg) **Añadir** y especifique **1** en el recuadro de diálogo.
+    1. Pulse el icono ![Icono Añadir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-add_new.jpg) **Añadir** y especifique **1** en el recuadro de diálogo.
     2. Repita el paso a para todos los niveles 2-7.
 15. Seleccione la página de informe principal en **Explorador de páginas**.
 16. En la página del informe, seleccione `[CEN_NAME00]` y, en el recuadro **Propiedades** , realice los pasos siguientes.
@@ -3031,7 +3031,7 @@ Siga este procedimiento para sangrar nombres de entidad dependiendo del nivel.
 
 #### Resaltar datos condicionalmente
 
-`Guía del creador de informes › Trabajar con datos relacionales › Uso del formateo condicional` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=formatting-highlighting-data-conditionally)
+`Guía del creador de informes › Trabajar con datos relacionales › Uso del formateo condicional` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=formatting-highlighting-data-conditionally)
 
 Puede resaltar condicionalmente algunas filas de datos cuando esos datos cumplen ciertos criterios.
 
@@ -3061,7 +3061,7 @@ En este ejemplo, el color de fondo de una celda cambia en base al porcentaje de 
       ```
    3. Pulse **Aceptar**.
 4. En el panel **Propiedades** bajo **Varios**, establezca la propiedad **Nombre** en **Resaltar variable**.
-5. En el panel **Valores**, pulse el icono ![Icono Añadir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-add_new.jpg) **Añadir** y especifique **3** en el recuadro de diálogo. Repita los pasos para **2**, **1**y **0**.
+5. En el panel **Valores**, pulse el icono ![Icono Añadir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-add_new.jpg) **Añadir** y especifique **3** en el recuadro de diálogo. Repita los pasos para **2**, **1**y **0**.
 6. Seleccione la página de informe principal en **Explorador de páginas**.
 7. En la página del informe, seleccione `[Percent Ineffective]` y, en el recuadro **Propiedades** , realice los pasos siguientes.
 
@@ -3083,7 +3083,7 @@ En el informe, los valores menores del 20% están resaltados en verde y los valo
 
 ### Colores del gráfico de barras
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-bar-chart-colors)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-bar-chart-colors)
 
 Cuando los datos se representan en gráficos de barras, los autores de informe deben intentar controlar los colores para la consistencia para que los colores particulares signifiquen lo mismo en un informe determinado cada vez que los usuarios ejecuten ese informe.
 
@@ -3135,7 +3135,7 @@ Para obtener más información, consulte [Visualización de la coherencia de col
 
 #### Visualización de la variación de color de barra con valores visualizados automáticamente
 
-`Guía del creador de informes › Trabajar con datos relacionales › Colores del gráfico de barras` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=colors-displaying-bar-color-variation-automatically-displayed-values)
+`Guía del creador de informes › Trabajar con datos relacionales › Colores del gráfico de barras` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=colors-displaying-bar-color-variation-automatically-displayed-values)
 
 Cuando se muestran valores automáticamente, puede visualizar las variaciones de color de la barra.
 
@@ -3187,7 +3187,7 @@ Cuando se muestran valores automáticamente, puede visualizar las variaciones de
 
 #### Visualización de la consistencia del color de barra con modificación de informe para los nuevos valores
 
-`Guía del creador de informes › Trabajar con datos relacionales › Colores del gráfico de barras` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=bcc-displaying-bar-color-consistency-report-modification-new-values)
+`Guía del creador de informes › Trabajar con datos relacionales › Colores del gráfico de barras` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=bcc-displaying-bar-color-consistency-report-modification-new-values)
 
 Cuando se modifica un informe con valores nuevos, puede mostrar el color de barra de manera consistente.
 
@@ -3201,14 +3201,14 @@ Cuando se modifica un informe con valores nuevos, puede mostrar el color de barr
 
    1. En **Explorador de consultas**, seleccione consultas.
    2. Seleccione **Query1** y en el panel **Propiedades** bajo **Varios**, establezca el nombre en **listMain**.
-   3. Pulse la pestaña ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg) **Caja de herramientas** .
+   3. Pulse la pestaña ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg) **Caja de herramientas** .
    4. Arrastre un objeto **Query** a la consulta **graphMain** .
    5. Seleccione el nuevo objeto de consulta.
    6. En el panel **Propiedades** bajo **Varios**, establezca **Nombre** en **graphMain1**.
 3. Para añadir elementos de consulta a la consulta **graphMain1** que ha creado en el paso anterior, realice los pasos siguientes.
 
    1. Seleccione la consulta **graphMain1** para abrirla.
-   2. Pulse la pestaña ![Icono de origen](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-model.jpg) **Origen** en el panel **Objetos insertables** .
+   2. Pulse la pestaña ![Icono de origen](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-model.jpg) **Origen** en el panel **Objetos insertables** .
    3. Arrastre los siguientes elementos de consulta al recuadro **Elementos de datos** :
 
       - ```
@@ -3229,7 +3229,7 @@ Cuando se modifica un informe con valores nuevos, puede mostrar el color de barr
         ```
 4. Complete los pasos siguientes.
 
-   1. Pulse la pestaña ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg) **Caja de herramientas** .
+   1. Pulse la pestaña ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg) **Caja de herramientas** .
    2. Arrastre un objeto **Elemento de datos** al recuadro **Elementos de datos** de la consulta.
    3. En el panel **Definición de expresión** del elemento de datos, especifique la expresión siguiente:
 
@@ -3238,7 +3238,7 @@ Cuando se modifica un informe con valores nuevos, puede mostrar el color de barr
          then(1)
          else (0)
       ```
-   4. ![Icono Validar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-validate_expression.jpg)Valide la expresión y, a continuación, pulse **Aceptar**.
+   4. ![Icono Validar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-validate_expression.jpg)Valide la expresión y, a continuación, pulse **Aceptar**.
 5. En el panel **Propiedades** del elemento de datos, realice los pasos siguientes.
 
    1. Cambie la propiedad **Nombre** del elemento de datos a `Effective`.
@@ -3284,7 +3284,7 @@ Cuando se modifica un informe con valores nuevos, puede mostrar el color de barr
 
 #### Edición de colores de barra
 
-`Guía del creador de informes › Trabajar con datos relacionales › Colores del gráfico de barras` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=colors-editing-bar)
+`Guía del creador de informes › Trabajar con datos relacionales › Colores del gráfico de barras` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=colors-editing-bar)
 
 Siga este procedimiento para establecer los colores que utilizará el gráfico.
 
@@ -3298,13 +3298,13 @@ Siga este procedimiento para establecer los colores que utilizará el gráfico.
 
 ### Creación de uniones
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-creating-joins)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-creating-joins)
 
 La sección describirá cómo crear los dos tipos de uniones comunes cuando se crean informes: uniones directas donde solo obtenemos objetos secundarios que se relacionan directamente al objeto primario y uniones indirectas donde vemos todos los objetos secundarios que pueden agruparse bajo el objeto primario.
 
 #### Creación de uniones directa
 
-`Guía del creador de informes › Trabajar con datos relacionales › Creación de uniones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=joins-creating-direct)
+`Guía del creador de informes › Trabajar con datos relacionales › Creación de uniones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=joins-creating-direct)
 
 Para crear una unión directa, debe crear un informe de entidad para los problemas.
 
@@ -3382,7 +3382,7 @@ Podrá ver los siguientes elementos en el informe:
 
 #### Creación de uniones indirectas
 
-`Guía del creador de informes › Trabajar con datos relacionales › Creación de uniones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=joins-creating-indirect)
+`Guía del creador de informes › Trabajar con datos relacionales › Creación de uniones` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=joins-creating-indirect)
 
 Las uniones indirectas se utilizan para obtener todos los objetos secundarios que están relacionados directa o indirectamente al tipo de objeto primario.
 
@@ -3460,7 +3460,7 @@ Hay muchos más problemas conectados a la entidad Servicios financieros globales
 
 ### Creación de informes de acceso a detalles
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-creating-drill-through-reports)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-creating-drill-through-reports)
 
 Siga este procedimiento para crear informes de acceso a detalles.
 
@@ -3470,7 +3470,7 @@ Puede adjuntar diferentes subinformes a distintos sitios en un informe como la l
 
 #### Creación de un informe padre
 
-`Guía del creador de informes › Trabajar con datos relacionales › Creación de informes de acceso a detalles` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-creating-parent-report)
+`Guía del creador de informes › Trabajar con datos relacionales › Creación de informes de acceso a detalles` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-creating-parent-report)
 
 Siga este procedimiento para crear un informe padre.
 
@@ -3528,7 +3528,7 @@ Siga este procedimiento para crear un informe padre.
 
 #### Adición de un informe de acceso a detalles al padre
 
-`Guía del creador de informes › Trabajar con datos relacionales › Creación de informes de acceso a detalles` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-adding-drill-through-report-parent)
+`Guía del creador de informes › Trabajar con datos relacionales › Creación de informes de acceso a detalles` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-adding-drill-through-report-parent)
 
 Siga este procedimiento para añadir un informe de acceso a detalles a un informe así el usuario puede obtener información más detallada sobre los controles detrás de los números de la tabla de referencias cruzadas.
 
@@ -3548,8 +3548,8 @@ Siga este procedimiento para añadir un informe de acceso a detalles a un inform
    3. Pulse **Aceptar.**
 5. Seleccione la medida en la tabla de referencias cruzadas.
 6. En el panel **Propiedades** , en **Datos**, seleccione **Definiciones de acceso a detalles**.
-7. Para añadir una nueva definición de acceso a detalles, pulse el icono ![Icono Añadir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-add_new.jpg) **Añadir** .
-8. Para establecer el nombre del acceso a detalles en **Detalle de control**, pulse el icono ![Icono Renombrar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-rename.jpg) **Renombrar** .
+7. Para añadir una nueva definición de acceso a detalles, pulse el icono ![Icono Añadir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-add_new.jpg) **Añadir** .
+8. Para establecer el nombre del acceso a detalles en **Detalle de control**, pulse el icono ![Icono Renombrar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-rename.jpg) **Renombrar** .
 9. Seleccione el informe **Acceso a detalles hijo**.
 10. Compruebe si se abre el informe en una nueva ventana.
 11. Pulse el icono **Editar** para editar los parámetros pasados al subinforme y complete los pasos siguientes.
@@ -3571,13 +3571,13 @@ Puede añadir enlaces CrossTrack a informes padre y de acceso a detalles (opcion
 
 ### Adición de enlaces CrossTrack
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-adding-crosstrack-links)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-adding-crosstrack-links)
 
 Un enlace CrossTrack es un hiperenlace en un informe que, cuando se pulsa, le lleva a una vista de tarea en IBM OpenPages®. Por ejemplo, puede crear enlaces CrossTrack en un informe desde un objeto de control a la vista de tarea correspondiente.
 
 #### Adición de enlaces CrossTrack a informes autónomos y padres
 
-`Guía del creador de informes › Trabajar con datos relacionales › Adición de enlaces CrossTrack` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=links-adding-crosstrack-standalone-parent-reports)
+`Guía del creador de informes › Trabajar con datos relacionales › Adición de enlaces CrossTrack` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=links-adding-crosstrack-standalone-parent-reports)
 
 Siga este procedimiento para añadir un enlace CrossTrack a un informe autónomo o padre.
 
@@ -3588,7 +3588,7 @@ Siga este procedimiento para añadir un enlace CrossTrack a un informe autónomo
 3. En el panel **Propiedades** en **Varios**, establezca el nombre en **listMain**.
 4. En el **Explorador de páginas**, seleccione la página de informe principal y realice los pasos siguientes.
 
-   1. Pulse la pestaña **Origen** ![Icono de origen](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-model.jpg) en el panel **Objetos insertables** .
+   1. Pulse la pestaña **Origen** ![Icono de origen](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-model.jpg) en el panel **Objetos insertables** .
    2. Arrastre los siguientes elementos de consulta al cuadro del objeto Lista:
 
       - ```
@@ -3631,12 +3631,12 @@ Siga este procedimiento para añadir un enlace CrossTrack a un informe autónomo
    - **Si **Ejecutar con interactividad completa** no está habilitado:**
 
      1. En el **Explorador de páginas**, seleccione la página principal del informe,
-     2. Pulse **Objetos insertables**, pulse ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg)y expanda **Avanzado**.
+     2. Pulse **Objetos insertables**, pulse ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg)y expanda **Avanzado**.
      3. Arrastre **Referencia del componente de diseño** a la página. Se visualiza la página **Referencia del componente**.
      4. Pulse **Otro informe**y, a continuación, elija el informe **Contenido de equipo** > **OpenPages Informes de plataforma** > **Código común** > **Código común** .
      5. En **Componentes disponibles para referencia**, seleccione **Platform Common Javascript** y, a continuación, pulse **Aceptar**.
-8. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg)y, a continuación, arrastre un objeto **Botón de hiperenlace** a la primera columna del informe de lista.
-9. En la barra de navegación, pulse el icono **Bloquear** ![Icono Bloquear objetos de página](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-padlock.jpg) para desbloquear la plantilla (el icono cambia a desbloqueado).
+8. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg)y, a continuación, arrastre un objeto **Botón de hiperenlace** a la primera columna del informe de lista.
+9. En la barra de navegación, pulse el icono **Bloquear** ![Icono Bloquear objetos de página](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-padlock.jpg) para desbloquear la plantilla (el icono cambia a desbloqueado).
 10. Para convertir el elemento de datos de hiperenlace en una propiedad de la lista, realice los siguientes pasos.
 
     1. Seleccione el objeto **Lista** en la página principal del informe.
@@ -3673,7 +3673,7 @@ Cuando un usuario pulsa el enlace CrossTrack desde un informe autónomo o padre,
 
 #### Adición de enlaces CrossTrack a informes de acceso a detalles
 
-`Guía del creador de informes › Trabajar con datos relacionales › Adición de enlaces CrossTrack` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=links-adding-crosstrack-drill-through-reports)
+`Guía del creador de informes › Trabajar con datos relacionales › Adición de enlaces CrossTrack` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=links-adding-crosstrack-drill-through-reports)
 
 Siga este procedimiento para añadir un enlace CrossTrack a un informe de acceso a detalles.
 
@@ -3714,7 +3714,7 @@ Siga este procedimiento para añadir un enlace CrossTrack a un informe de acceso
    - **Si **Ejecutar con interactividad completa** no está habilitado:**
 
      1. En el **Explorador de páginas**, seleccione la página principal del informe,
-     2. Pulse **Objetos insertables**, pulse ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg)y expanda **Avanzado**.
+     2. Pulse **Objetos insertables**, pulse ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg)y expanda **Avanzado**.
      3. Arrastre **Referencia del componente de diseño** a la página. Se visualiza la página **Referencia del componente**.
      4. Pulse **Otro informe**y, a continuación, elija el informe **Contenido de equipo** > **OpenPages Informes de plataforma** > **Código común** > **Código común** .
      5. En **Componentes disponibles para referencia**, seleccione **Platform Common Javascript** y, a continuación, pulse **Aceptar**.
@@ -3732,7 +3732,7 @@ Cuando un usuario pulsa el enlace CrossTrack en el informe, la vista de tarea pa
 
 ### Creación de un informe maestro-detalle
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-creating-master-detail-report)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-creating-master-detail-report)
 
 Un informe maestro-detalle contiene normalmente una segunda lista incorporada en la lista de informe principal. Esto crea una situación en la que tiene una consulta externa para la lista de informe principal y una subconsulta para la lista integrada. Lo que significa en términos de rendimiento es que para cada registro retirado de la base de datos, se ejecutará otra consulta. Solo debe utilizar esta construcción si es su única opción debido a la estructura de los datos.
 
@@ -3770,7 +3770,7 @@ Un informe maestro-detalle contiene normalmente una segunda lista incorporada en
 7. Vaya a la página de informe principal y complete los siguientes pasos:
 
    1. Ordene CN_NAME00 de forma ascendente.
-   2. En la pestaña Caja de herramientas **Objetos insertables** del panel ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg), seleccione una **Lista** y suéltela en la última columna de la lista existente. La lista debe estar bloqueada.
+   2. En la pestaña Caja de herramientas **Objetos insertables** del panel ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg), seleccione una **Lista** y suéltela en la última columna de la lista existente. La lista debe estar bloqueada.
 8. En la nueva lista, arrastre y suelte los siguientes elementos de datos:
 
    - ```
@@ -3788,7 +3788,7 @@ Un informe maestro-detalle contiene normalmente una segunda lista incorporada en
 
 #### Creación de relaciones entre listas maestras e incorporadas
 
-`Guía del creador de informes › Trabajar con datos relacionales › Creación de un informe maestro-detalle` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=report-creating-relationships-between-master-embedded-lists)
+`Guía del creador de informes › Trabajar con datos relacionales › Creación de un informe maestro-detalle` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=report-creating-relationships-between-master-embedded-lists)
 
 El informe es obviamente incorrecto porque los valores de `CN_CONTROL_ID` no coinciden. Esto se debe a que no ha creado la relación entre la lista maestra y la lista incorporada.
 
@@ -3810,7 +3810,7 @@ Ahora hay menos filas en la lista incorporada y los valores de ID de control coi
 
 #### Formateo de listas integradas
 
-`Guía del creador de informes › Trabajar con datos relacionales › Creación de un informe maestro-detalle` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=report-formatting-embedded-lists)
+`Guía del creador de informes › Trabajar con datos relacionales › Creación de un informe maestro-detalle` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=report-formatting-embedded-lists)
 
 Puede realizar algunas actividades de limpieza para hacer que las listas integradas sean menos obvias.
 
@@ -3826,7 +3826,7 @@ Puede realizar algunas actividades de limpieza para hacer que las listas integra
 
 ### Adición de micrográficos
 
-`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-adding-microcharts)
+`Guía del creador de informes › Trabajar con datos relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-adding-microcharts)
 
 Un micrográfico es una versión en miniatura de un gráfico que se puede insertar en una tabla de referencias cruzadas o una lista. Operan de la misma manera que una función de informe maestro-detalle en la que el micrográfico es una vista detallada de los datos maestros.
 
@@ -3854,7 +3854,7 @@ Un micrográfico es una versión en miniatura de un gráfico que se puede insert
 
    1. Ordene PEN_NAME00 de forma ascendente.
    2. Establezca la etiqueta para PEN_NAME00 en **Entidad de negocios**.
-   3. En la pestaña Caja de herramientas del panel **Objetos insertables** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg), seleccione un **Gráfico** y suéltelo en la última columna de la lista existente. La lista debe estar bloqueada.
+   3. En la pestaña Caja de herramientas del panel **Objetos insertables** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg), seleccione un **Gráfico** y suéltelo en la última columna de la lista existente. La lista debe estar bloqueada.
    4. Seleccione **Micrográfico** y un diagrama de barras **Columna** .
 9. En el nuevo gráfico, arrastre y suelte los siguientes elementos de datos:
 
@@ -3908,7 +3908,7 @@ No hay comparación del control Eficacia operativa entre las diferentes entidade
 
 ## Trabajar con entidades de negocios
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-working-business-entities)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-working-business-entities)
 
 Una entidad de negocios es un objeto jerárquico. Las entidades de negocios pueden tener padres e hijo que son a su vez entidades de negocios. Cualquier nivel de la estructura de entidad de negocios puede tener otros objetos vinculados a ellas como procesos o evaluaciones de riesgo.
 
@@ -3927,7 +3927,7 @@ El modelo definido por el usuario se puede crear en IBM OpenPages®. Para obtene
 
 ### El asunto de consulta SOXBUSENTITY_GPC
 
-`Guía del creador de informes › Trabajar con entidades de negocios` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=entities-soxbusentity-gpc-query-subject)
+`Guía del creador de informes › Trabajar con entidades de negocios` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=entities-soxbusentity-gpc-query-subject)
 
 El asunto de consulta SOXBUSENTITY_GPC es el objeto de entidad más básico. Es parecido al objeto Componente GPC excepto que todos los valores son parte del mismo objeto de consulta.
 
@@ -3943,7 +3943,7 @@ Este es el asunto de consulta primario que utilizará al trabajar con entidades 
 
 ### Jerarquía de entidad definida por el usuario
 
-`Guía del creador de informes › Trabajar con entidades de negocios` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=entities-user-defined-entity-hierarchy)
+`Guía del creador de informes › Trabajar con entidades de negocios` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=entities-user-defined-entity-hierarchy)
 
 En el modelo definido por el usuario, éste define los niveles de objeto recursivo y los nombres de los niveles. Haciendo esto, una vez se regenera el entorno, tendrá objetos en el modelo con los nombres que ha seleccionado en la IU.
 
@@ -3960,7 +3960,7 @@ Cuando se crea una jerarquía definida por el usuario, se crea un asunto de cons
 
 ### Objetos Componente GPC
 
-`Guía del creador de informes › Trabajar con entidades de negocios` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=entities-gpc-component-objects)
+`Guía del creador de informes › Trabajar con entidades de negocios` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=entities-gpc-component-objects)
 
 Los objetos Componente GPC se incluyen de forma predeterminada en el modelo.
 
@@ -3975,7 +3975,7 @@ Se recomienda que los informes se escriban con el asunto de consulta SOXBUSENTIT
 
 ### El modelo de datos GPC
 
-`Guía del creador de informes › Trabajar con entidades de negocios` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=entities-gpc-data-model)
+`Guía del creador de informes › Trabajar con entidades de negocios` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=entities-gpc-data-model)
 
 Hay tres niveles de entidades en el modelo de objeto GPC: abuelo, padre e hijo. Esto forma una abstracción de los datos. Aunque tenga más de tres niveles en la jerarquía de entidad, se puede utilizar este modelo.
 
@@ -3997,7 +3997,7 @@ Las columnas numéricas del informe representan la distancia entre entidades de 
 
 ### Filtrado de entidades de negocios relacionales
 
-`Guía del creador de informes › Trabajar con entidades de negocios` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=entities-filtering-relational-business)
+`Guía del creador de informes › Trabajar con entidades de negocios` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=entities-filtering-relational-business)
 
 Puede filtrar entidades de negocios relacionales en los informes.
 
@@ -4010,7 +4010,7 @@ Los temas siguientes describen cómo configurar el filtrado en informes.
 
 #### Filtrado utilizando la vía de acceso completa
 
-`Guía del creador de informes › Trabajar con entidades de negocios › Filtrado de entidades de negocios relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=entities-filtering-using-full-path)
+`Guía del creador de informes › Trabajar con entidades de negocios › Filtrado de entidades de negocios relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=entities-filtering-using-full-path)
 
 La variable de vía de acceso completa que existe en todos los objetos de entidad de negocios se utiliza habitualmente para permitir al usuario filtrar el contexto del informe.
 
@@ -4022,13 +4022,13 @@ Lo que está haciendo este filtro es permitir al usuario ver la entidad exacta q
 
 *Figura 1. Filtrado de entidad de negocios - G2P = 0*
 
-![Tabla de referencias cruzadas filtrada para mostrar las entidades con una distancia de cero de la entidad seleccionada](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_business_entity_filtering_1.jpg)
+![Tabla de referencias cruzadas filtrada para mostrar las entidades con una distancia de cero de la entidad seleccionada](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_business_entity_filtering_1.jpg)
 
 Si elimino el segundo filtro, obtengo lo siguiente, tal como se muestra en la Figura 2:
 
 *Figura 2. Filtrado de entidad de negocios - Sin filtrado G2P*
 
-![Tabla de referencias cruzadas sin filtros aplicados](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_business_entity_filtering_2.jpg)
+![Tabla de referencias cruzadas sin filtros aplicados](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_business_entity_filtering_2.jpg)
 
 Esto muestra la entidad seleccionada en la solicitud y los hijos directos debajo de esa entidad.
 
@@ -4036,7 +4036,7 @@ Si cambio el filtro G2P a 1 (mostrar los padres que están a una unión del abue
 
 *Figura 3. Filtrado de entidad de negocios - G2P = 1*
 
-![Tabla de referencias cruzadas filtrada para mostrar las entidades con una distancia de 1 de la entidad seleccionada](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_business_entity_filtering_4.jpg)
+![Tabla de referencias cruzadas filtrada para mostrar las entidades con una distancia de 1 de la entidad seleccionada](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_business_entity_filtering_4.jpg)
 
 Esto solo muestra los hijos de la entidad seleccionada.
 
@@ -4044,7 +4044,7 @@ Ahora, si cambio la variable de visualización a la entidad hijo y elimino el fi
 
 *Figura 4. Filtrado de entidad de negocios - Todos los niveles*
 
-![Tabla de referencias cruzadas filtrada para mostrar la entidad seleccionada y las entidades hijo de la entidad seleccionada](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_business_entity_filtering_3.jpg)
+![Tabla de referencias cruzadas filtrada para mostrar la entidad seleccionada y las entidades hijo de la entidad seleccionada](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_business_entity_filtering_3.jpg)
 
 Lo ve ahora (solo se muestran parte de los datos) es la entidad seleccionada y todas las entidades debajo de lo que estaba seleccionado. Esto es útil cuando desea hacer un resumen de toda la información debajo de una entidad seleccionada.
 
@@ -4052,7 +4052,7 @@ Lo que muestran estos ejemplos es la flexibilidad que tiene al filtrar un objeto
 
 ##### Campos de contexto de entidad relacional
 
-`Guía del creador de informes › Trabajar con entidades de negocios › Filtrado de entidades de negocios relacionales › Filtrado utilizando la vía de acceso completa` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=path-relational-entity-context-fields)
+`Guía del creador de informes › Trabajar con entidades de negocios › Filtrado de entidades de negocios relacionales › Filtrado utilizando la vía de acceso completa` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=path-relational-entity-context-fields)
 
 Puede utilizar campos de contexto de entidad relacional para filtrar entidades en el modelo relacional.
 
@@ -4069,7 +4069,7 @@ Cuadro 1 explica los campos de contexto utilizados para filtrar entidades en el 
 
 #### Filtrado de la extensión de jerarquía
 
-`Guía del creador de informes › Trabajar con entidades de negocios › Filtrado de entidades de negocios relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=entities-filtering-hierarchy-depth)
+`Guía del creador de informes › Trabajar con entidades de negocios › Filtrado de entidades de negocios relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=entities-filtering-hierarchy-depth)
 
 Puede crear una solicitud basada en la profundidad de una entidad en la jerarquía.
 
@@ -4091,7 +4091,7 @@ Todos los elementos tienen tres barras inclinadas que es lo que se ha diseñado 
 
 #### Filtrado utilizando solicitudes en cascada
 
-`Guía del creador de informes › Trabajar con entidades de negocios › Filtrado de entidades de negocios relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=entities-filtering-using-cascaded-prompts)
+`Guía del creador de informes › Trabajar con entidades de negocios › Filtrado de entidades de negocios relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=entities-filtering-using-cascaded-prompts)
 
 Las solicitudes en cascada se utilizan cuando el usuario desea ver únicamente valores de solicitud basados en una selección de una solicitud anterior.
 
@@ -4162,7 +4162,7 @@ Este ejemplo le muestra cómo utilizar los objetos en las carpetas GPC para crea
     6. En el panel **Propiedades** bajo **Posición**, establezca la propiedad **Tamaño y desbordamiento** en **40 px**.
 11. En **Explorador de consultas**, seleccione el asunto de consulta **Solicitud de entidad global** y realice los pasos siguientes.
 
-    1. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg) en el panel **Objetos insertables** .
+    1. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg) en el panel **Objetos insertables** .
     2. Arrastre y suelte un objeto **Filtro** en el panel **Filtro** de la consulta.
     3. En el panel **Definición de expresión** , especifique la expresión siguiente:
 
@@ -4229,7 +4229,7 @@ Este ejemplo le muestra cómo utilizar los objetos en las carpetas GPC para crea
     3. En el cuadro de diálogo, establezca la altura en **14 pt** veces el número de filas de la solicitud.
 19. En **Explorador de consultas**, seleccione el asunto de consulta **Solicitud de entidad global** y realice los pasos siguientes.
 
-    1. Pulse la pestaña ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg) **Caja de herramientas** en el panel **Objetos insertables** .
+    1. Pulse la pestaña ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg) **Caja de herramientas** en el panel **Objetos insertables** .
     2. Arrastre y suelte un objeto **Filtro** en el panel **Filtro** de la consulta.
     3. En el panel **Definición de expresión** , especifique lo siguiente:
 
@@ -4264,7 +4264,7 @@ De nuevo, cuando selecciona **Norteamérica** y pulsa **Actualizar Entidad de de
 
 #### Referencia rápida para visualización y filtrado de datos
 
-`Guía del creador de informes › Trabajar con entidades de negocios › Filtrado de entidades de negocios relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=entities-quick-reference-displaying-filtering-data)
+`Guía del creador de informes › Trabajar con entidades de negocios › Filtrado de entidades de negocios relacionales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=entities-quick-reference-displaying-filtering-data)
 
 Puede utilizar la información de consulta rápida para crear solicitudes.
 
@@ -4292,13 +4292,13 @@ Para cada opción de visualización, seleccione los siguientes valores de entida
 
 ## Trabajar con objetos compartidos
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-working-shared-objects)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-working-shared-objects)
 
 Los objetos compartidos son objetos que pueden ser hijo de varios tipos de objeto padre. Por ejemplo, varios objetos de riesgo padre pueden hacer referencia a un único objeto de control compartido o un objeto de control puede tener varios padres.
 
 ### Agregación de datos para objetos compartidos
 
-`Guía del creador de informes › Trabajar con objetos compartidos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-aggregating-data-shared)
+`Guía del creador de informes › Trabajar con objetos compartidos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-aggregating-data-shared)
 
 Si un objeto hijo compartido tiene varios padres del mismo tipo de objeto, el objeto compartido se puede contar varias veces dando como resultado un recuento impreciso.
 
@@ -4306,7 +4306,7 @@ Por ejemplo, supongamos que se produce una pérdida de 1.000 dólares y esa pér
 
 *Figura 1. Asociación de objetos Evento de pérdida padre-hijo*
 
-![La figura muestra un objeto padre que tiene dos objetos hijo de evento de pérdida. Están asociados a un objeto de impacto de pérdida por 1000 $.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_shared_objects_7.jpg)
+![La figura muestra un objeto padre que tiene dos objetos hijo de evento de pérdida. Están asociados a un objeto de impacto de pérdida por 1000 $.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_shared_objects_7.jpg)
 
 Si intenta agregar valores para el Impacto de pérdida a nivel Riesgo utilizando la siguiente función:
 
@@ -4335,7 +4335,7 @@ Así, si está intentando totalizar los impactos de pérdida para un riesgo como
 
 ### Creación de un informe de agregación para objetos compartidos
 
-`Guía del creador de informes › Trabajar con objetos compartidos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-creating-aggregation-report-shared)
+`Guía del creador de informes › Trabajar con objetos compartidos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-creating-aggregation-report-shared)
 
 Este procedimiento crea un informe de ejemplo que cuenta el número de controles **Ineficaz** y **Efectivo** exclusivos bajo una entidad empresarial.
 
@@ -4345,7 +4345,7 @@ Figura 1 muestra la asociación entre objetos Entity, Process, Risk y Control en
 
 *Figura 1. Asociaciones de control padre-hijo*
 
-![Diagrama de flujo que muestra la relación entre entidades, procesos, riesgos y controles](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_shared_objects_6.jpg)
+![Diagrama de flujo que muestra la relación entre entidades, procesos, riesgos y controles](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_shared_objects_6.jpg)
 
 #### Procedimiento
 
@@ -4355,7 +4355,7 @@ Figura 1 muestra la asociación entre objetos Entity, Process, Risk y Control en
    1. En **Explorador de consultas**, abra la consulta.
    2. En el panel **Propiedades** en **Varios**, establezca el nombre en **listMain**.
    3. Vuelva a **Explorador de consultas** y seleccione la carpeta de nivel superior **Consultas**.
-   4. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg).
+   4. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg).
    5. Arrastre un objeto **Query** junto a la consulta **listMain** .
    6. Seleccione el nuevo objeto de consulta.
    7. En el panel **Propiedades** bajo **Varios**, establezca **Nombre** en **listMain1**.
@@ -4367,7 +4367,7 @@ Figura 1 muestra la asociación entre objetos Entity, Process, Risk y Control en
 4. Para añadir elementos de consulta a la consulta **listMain2** que ha creado en el paso anterior, realice los pasos siguientes.
 
    1. Seleccione la consulta **listMain2** para abrirla.
-   2. Pulse la pestaña ![Icono de origen](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-model.jpg) **Origen** en el panel **Objetos insertables** .
+   2. Pulse la pestaña ![Icono de origen](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-model.jpg) **Origen** en el panel **Objetos insertables** .
    3. Arrastre los siguientes elementos de consulta al recuadro **Elementos de datos** :
 
       - `DEFAULT|DEFAULT_REL|GRC_OBJECTS|SOXBUSENTITY_FOLDER| [SOXBUSENTITY_GPC]| [SOXBUSENTITY_GPC]|[PEN_NAME00]`
@@ -4390,10 +4390,10 @@ Figura 1 muestra la asociación entre objetos Entity, Process, Risk y Control en
       ```
       [CN_CONTROL_ID] is not null
       ```
-   6. Pulse el icono **Validar** ![Icono Validar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-validate_expression.jpg) para validar la expresión y, a continuación, pulse **Aceptar**.
+   6. Pulse el icono **Validar** ![Icono Validar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-validate_expression.jpg) para validar la expresión y, a continuación, pulse **Aceptar**.
 6. Para añadir un elemento de datos al objeto de consulta, complete los pasos siguientes.
 
-   1. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg).
+   1. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg).
    2. Arrastre un objeto **Elemento de datos** al recuadro **Elementos de datos** de la consulta.
    3. En el panel **Definición de expresión** del elemento de datos, especifique la expresión siguiente:
 
@@ -4402,7 +4402,7 @@ Figura 1 muestra la asociación entre objetos Entity, Process, Risk y Control en
          #$SOXCONTROL_OPERATING_EFFECTIVENES_DEFINITION_MAP
             {"Ineffective"}#)THEN ([CN_CONTROL_ID])ELSE (NULL)
       ```
-   4. Pulse el icono **Validar** ![Icono Validar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-validate_expression.jpg) para validar la expresión y, a continuación, pulse **Aceptar**.
+   4. Pulse el icono **Validar** ![Icono Validar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-validate_expression.jpg) para validar la expresión y, a continuación, pulse **Aceptar**.
 7. En el panel **Propiedades** del elemento de datos, realice los pasos siguientes.
 
    1. Cambie la propiedad **Nombre** del elemento de datos a `Ineffective Control`.
@@ -4410,15 +4410,15 @@ Figura 1 muestra la asociación entre objetos Entity, Process, Risk y Control en
 8. Para ver los datos tabulares, pulse **Ejecutar** > **Ver datos tabulares**.
 9. Abra el asunto de consulta **listMain1** en **Explorador de consultas**. Para hacer un recuento del número de controles distintos de cada entidad, realice los siguientes pasos.
 
-   1. Pulse la pestaña **Origen** ![Icono de origen](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-model.jpg) y arrastre y suelte el elemento de consulta [`PEN_NAME00]` en el panel **Elementos de datos** .
+   1. Pulse la pestaña **Origen** ![Icono de origen](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-model.jpg) y arrastre y suelte el elemento de consulta [`PEN_NAME00]` en el panel **Elementos de datos** .
    2. En el panel **Propiedades** bajo **Elemento de datos**, establezca **Función de agregación** en **Ninguno**.
-   3. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg)y arrastre un objeto **Elemento de datos** al panel **Elementos de datos** .
+   3. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg)y arrastre un objeto **Elemento de datos** al panel **Elementos de datos** .
    4. En el recuadro **Definición de expresión** , especifique la expresión siguiente para contar el número total de controles distintos:
 
       ```
       count(distinct [listMain2].[CN_CONTROL_ID] for [listMain2].[PEN_NAME00])
       ```
-   5. Pulse el icono **Validar** ![Icono Validar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-validate_expression.jpg) para validar la expresión y, a continuación, pulse **Aceptar**.
+   5. Pulse el icono **Validar** ![Icono Validar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-validate_expression.jpg) para validar la expresión y, a continuación, pulse **Aceptar**.
 10. En el panel **Propiedades** para el elemento de datos, realice los pasos siguientes.
 
     1. En **Elemento de datos** , establezca la propiedad **Nombre** en **Recuento de controles**.
@@ -4426,14 +4426,14 @@ Figura 1 muestra la asociación entre objetos Entity, Process, Risk y Control en
     3. Establezca la propiedad **Función de agregación de resumen** en **Ninguno**.
 11. Para hacer un recuento del número de controles no efectivos de cada entidad, realice los siguientes pasos.
 
-    1. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg) y arrastre un objeto **Elemento de datos** al panel **Elementos de datos** .
+    1. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg) y arrastre un objeto **Elemento de datos** al panel **Elementos de datos** .
     2. En el recuadro **Definición de expresión** , especifique la expresión siguiente para contar el número total de controles distintos:
 
        ```
        count(distinct [listMain2].[Ineffective Control] for 
         [listMain2].[PEN_NAME00])
        ```
-    3. Pulse el icono **Validar** ![Icono Validar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-validate_expression.jpg) para validar la expresión y, a continuación, pulse **Aceptar**.
+    3. Pulse el icono **Validar** ![Icono Validar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-validate_expression.jpg) para validar la expresión y, a continuación, pulse **Aceptar**.
 12. En el panel **Propiedades** para el elemento de datos, realice los pasos siguientes.
 
     1. En **Elemento de datos** establezca la propiedad **Nombre** en `Count of Ineffective Controls`.
@@ -4465,7 +4465,7 @@ En este ejemplo, existían cuatro riesgos que compartían dos controles. Si no s
 
 ### Recuento de objetos compartidos en informes de gráfico
 
-`Guía del creador de informes › Trabajar con objetos compartidos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-counting-shared-in-chart-reports)
+`Guía del creador de informes › Trabajar con objetos compartidos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-counting-shared-in-chart-reports)
 
 Tendrá que llevar a cabo algunas tareas adicionales al contar el número de objetos bajo una entidad en un gráfico cuando se comparten algunos objetos. Por ejemplo, es posible que desee crear informes sobre los controles totales bajo una entidad de negocios cuando algunos controles tengan varios riesgos padre.
 
@@ -4520,7 +4520,7 @@ El informe muestra los resultados del recuento de control que ha filtrado la ent
 
 ### Listado de objetos compartidos en los informes de lista
 
-`Guía del creador de informes › Trabajar con objetos compartidos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-listing-shared-in-list-reports)
+`Guía del creador de informes › Trabajar con objetos compartidos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-listing-shared-in-list-reports)
 
 Puede listar objetos compartidos en informes de lista.
 
@@ -4538,7 +4538,7 @@ Dependiendo de cómo haya escrito el informe y si su objetivo es mostrar los obj
 
 ## Trabajar con objetos recursivos
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-working-recursive-objects)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-working-recursive-objects)
 
 Para ver todos los elementos conectados a los distintos niveles de jerarquía recursiva del informe, hay una construcción denominada, triángulo de elaboración de informes.
 
@@ -4560,15 +4560,15 @@ Para solucionar este problema, hemos creado una construcción llamada triángulo
 
 *Figura 1. Proceso, Subproceso, Triángulo de riesgo*
 
-![Diagrama de flujo que muestra cómo una entidad empresarial se relaciona con un proceso, subproceso y riesgo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_triangle_1.jpg)
+![Diagrama de flujo que muestra cómo una entidad empresarial se relaciona con un proceso, subproceso y riesgo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_triangle_1.jpg)
 
 *Figura 2. Mandato, Submandato, Triángulo de requisito*
 
-![Diagrama de flujo que muestra cómo se relaciona una entidad empresarial con un mandato, submandato y requisito](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_triangle_3.jpg)
+![Diagrama de flujo que muestra cómo se relaciona una entidad empresarial con un mandato, submandato y requisito](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_triangle_3.jpg)
 
 *Figura 3. Cuenta, Subcuenta, Triángulo de declaración*
 
-![Diagrama de flujo que muestra cómo se relaciona una entidad empresarial con una cuenta, subcuenta y aserción](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_triangle_2.jpg)
+![Diagrama de flujo que muestra cómo se relaciona una entidad empresarial con una cuenta, subcuenta y aserción](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_triangle_2.jpg)
 
 El factor común aquí es que el objeto recursivo es el centro del triángulo. Por lo tanto, creando un triángulo cada vez que trata con un objeto recursivo, el autor de informe no tiene que escribir un código aparte para gestionar el caso donde los datos están adjuntos al objeto principal y el caso donde los datos están adjuntos al subobjeto.
 
@@ -4578,13 +4578,13 @@ La publicación *IBM OpenPages Guía del administrador* describe cómo crear un 
 
 ## Internacionalización y localización
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-internationalization-localization)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-internationalization-localization)
 
 La aplicación IBM OpenPages® está totalmente internacionalizada y localizada.
 
 ### Conversión de datos
 
-`Guía del creador de informes › Internacionalización y localización` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=localization-data-translation)
+`Guía del creador de informes › Internacionalización y localización` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=localization-data-translation)
 
 IBM OpenPages® contiene datos estáticos y de aplicación (instancia).
 
@@ -4596,7 +4596,7 @@ Es posible establecer el entorno local del usuario en IBM® Cognos® Analytics, 
 
 #### Datos estáticos
 
-`Guía del creador de informes › Internacionalización y localización › Conversión de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=translation-static-data)
+`Guía del creador de informes › Internacionalización y localización › Conversión de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=translation-static-data)
 
 Existen cuatro categorías de datos estáticos: etiquetas dinámicas, campos de texto fijos, texto de botón y texto en solicitudes.
 
@@ -4618,7 +4618,7 @@ Existen cuatro categorías de datos estáticos: etiquetas dinámicas, campos de 
 
 ##### Traducción de datos de etiqueta dinámicos
 
-`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos estáticos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-translating-dynamic-label)
+`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos estáticos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-translating-dynamic-label)
 
 Al crear un informe utilizando el lenguaje de diseño de informes, tanto el panel **Objetos insertables** como la ventana de diseño de informe muestran los nombres de objeto y campo utilizando el nombre interno del sistema.
 
@@ -4634,7 +4634,7 @@ Los datos de aplicación entrados por el usuario no se traducen. Si un usuario e
 
 ##### Uso de una variable de condición para traducir datos de campo de texto fijo
 
-`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos estáticos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=sd-using-condition-variable-translate-fixed-text-field-data)
+`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos estáticos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=sd-using-condition-variable-translate-fixed-text-field-data)
 
 Los objetos de texto (títulos de informe, subtítulos y etiquetas) que añade a un informe tendrán que localizarse. Puede utilizar variables de condición para realizar esta traducción a texto estático. Para hacer esto, primero se debe crear una variable de condición.
 
@@ -4679,7 +4679,7 @@ Se puede seguir esta metodología con cualquier etiqueta de texto del informe. L
 
 ##### Traducción de un texto de botón
 
-`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos estáticos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-translating-button-text)
+`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos estáticos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-translating-button-text)
 
 Generalmente, los botones de texto en la página de solicitudes no requieren localización porque la gestiona la herramienta de elaboración de informes. Por otro lado, si crea su propio botón de solicitud y necesita localizar su texto, siga este procedimiento.
 
@@ -4703,7 +4703,7 @@ Generalmente, los botones de texto en la página de solicitudes no requieren loc
 
 ##### Conversión de texto estático en solicitudes
 
-`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos estáticos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-translating-static-text-in-prompts)
+`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos estáticos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-translating-static-text-in-prompts)
 
 Es posible que tenga que convertir texto estático en solicitudes para la configuración regional del usuario.
 
@@ -4731,7 +4731,7 @@ Cuando la configuración regional se configura en **Inglés (Estados Unidos)**, 
 
 #### Datos de aplicación
 
-`Guía del creador de informes › Internacionalización y localización › Conversión de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=translation-application-data)
+`Guía del creador de informes › Internacionalización y localización › Conversión de datos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=translation-application-data)
 
 Hay cuatro categorías de datos de aplicación: datos entrados por el usuario, series enumeradas, campos de moneda y campos de fecha.
 
@@ -4753,7 +4753,7 @@ Hay cuatro categorías de datos de aplicación: datos entrados por el usuario, s
 
 ##### Traducción de series enumeradas de valor único
 
-`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-translating-single-valued-enumerated-strings)
+`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-translating-single-valued-enumerated-strings)
 
 Un campo de serie enumerada de valor único permite a un usuario seleccionar un solo valor de una lista. Por ejemplo, el tipo de objeto de riesgo tiene un campo de serie enumerada denominado impacto inherente desde el que solo se puede seleccionar un valor de la lista.
 
@@ -4765,7 +4765,7 @@ Cuando la serie enumerada de impacto inherente se ha definido a través de la ap
 
 ###### Estructura de carpetas del entorno para enumeraciones de valor único
 
-`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación › Traducción de series enumeradas de valor único` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=strings-framework-folder-structure-single-value-enumerations)
+`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación › Traducción de series enumeradas de valor único` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=strings-framework-folder-structure-single-value-enumerations)
 
 Cada asunto de consulta para un objeto contiene una carpeta llamada ENUMERATION_FIELDS con las series enumeradas para ese objeto particular.
 
@@ -4773,11 +4773,11 @@ El ejemplo de Figura 1 muestra el objeto SOXRisk y la enumeración INHERENT_IMPA
 
 *Figura 1. Estructura de carpetas SOXRisk*
 
-![Jerarquía de carpetas en la carpeta SOXRisk](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_risk_inherent_inpact.jpg)
+![Jerarquía de carpetas en la carpeta SOXRisk](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_risk_inherent_inpact.jpg)
 
 ###### Definiciones de campo para enumeraciones de valor único
 
-`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación › Traducción de series enumeradas de valor único` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=strings-field-definitions-single-value-enumerations)
+`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación › Traducción de series enumeradas de valor único` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=strings-field-definitions-single-value-enumerations)
 
 Cada enumeración de valor único tiene los siguientes elementos de consulta: `<field_name>_SYSTEM_NAME`, `<field_name>`y `<field_name>_ID`.
 
@@ -4799,17 +4799,17 @@ La Figura 1 muestra las enumeraciones de impacto inherente en el entorno local i
 
 *Figura 1. Impacto inherente en inglés de EE.UU*
 
-![Impacto inherente en inglés de EE.UU](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Single_Value_Enumeration_US-English.jpg)
+![Impacto inherente en inglés de EE.UU](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Single_Value_Enumeration_US-English.jpg)
 
 La Figura 2 muestra las enumeraciones de impacto inherente en el entorno local español. El nombre del sistema permanece en RDL mientras el nombre de configuración regional se traduce a español.
 
 *Figura 2. Impacto inherente en español*
 
-![Impacto inherente en español](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Single_Value_Enumeration_spanish.jpg)
+![Impacto inherente en español](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Single_Value_Enumeration_spanish.jpg)
 
 ##### Traducción de series enumeradas multivalor
 
-`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-translating-multivalued-enumerated-strings)
+`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-translating-multivalued-enumerated-strings)
 
 Un campo de serie enumerada multivalor permite a un usuario seleccionar varios valores de serie de una lista.
 
@@ -4819,7 +4819,7 @@ Cuando la serie enumerada de dominio se ha definido a través de la aplicación 
 
 ###### Estructura de carpetas del entorno para enumeraciones multivalor
 
-`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación › Traducción de series enumeradas multivalor` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=strings-framework-folder-structure-multivalued-enumerations)
+`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación › Traducción de series enumeradas multivalor` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=strings-framework-folder-structure-multivalued-enumerations)
 
 La estructura de carpetas para enumeraciones contiene enumeraciones de un único valor o multi valor.
 
@@ -4827,11 +4827,11 @@ Figura 1 muestra la carpeta de enumeraciones para el objeto SOXProcess expandido
 
 *Figura 1. Estructura de carpetas*
 
-![Jerarquía de carpetas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_multivalued_folder_structure.jpg)
+![Jerarquía de carpetas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_multivalued_folder_structure.jpg)
 
 ###### Definiciones de campo para enumeraciones multivalor
 
-`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación › Traducción de series enumeradas multivalor` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=strings-field-definitions-multivalued-enumerations)
+`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación › Traducción de series enumeradas multivalor` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=strings-field-definitions-multivalued-enumerations)
 
 Cada enumeración multivalor tiene los siguientes elementos de consulta: `<field_name>_SYSTEM_NAME`, `<field_name>`, `<field_name>_ID`, `<field_name>_SYSTEM_LIST`y `<field_name>_LIST`.
 
@@ -4861,13 +4861,13 @@ La Figura 1 muestra los campos de dominio, en el entorno local inglés de Estado
 
 *Figura 1. Campos multivalor de dominio en inglés*
 
-![Campos multivalor de dominio en inglés](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_multi-valued_english.jpg)
+![Campos multivalor de dominio en inglés](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_multi-valued_english.jpg)
 
 Cuando incluye los campos RI_DOMAIN_SYSTEM_NAME o RI_DOMAIN, verá el siguiente resultado (se coloca un filtro en el informe para un riesgo que tenía varios valores de dominio):
 
 *Figura 2. Todos los campos de dominio en inglés*
 
-![Todos los campos de dominio en inglés](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_multi-valued_single_fields_english.jpg)
+![Todos los campos de dominio en inglés](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_multi-valued_single_fields_english.jpg)
 
 Estos campos devuelven un único registro para cada valor que ha seleccionado el usuario.
 
@@ -4883,7 +4883,7 @@ Cuando cambia a un usuario con configuración regional de español, ve lo siguie
 
 *Figura 3. Campos multivalor de dominio en español*
 
-![Campos multivalor de dominio en español](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_multi-valued_spanish_2.jpg)
+![Campos multivalor de dominio en español](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_multi-valued_spanish_2.jpg)
 
 Vemos que los valores de ID de dominio de riesgo y los valores de Lista de sistemas de dominio de riesgo son idénticos a los valores vistos en Figura 1. La Lista de dominio de riesgo y los títulos de las cabeceras de campos están ahora en la configuración regional en español del usuario.
 
@@ -4891,13 +4891,13 @@ El ejemplo de [Figura 1](#estructura-de-carpetas-del-entorno-para-enumeraciones-
 
 *Figura 4. Todos los campos de dominio en español*
 
-![Todos los campos de dominio en español](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_multi-valued_single_fields_spanish.jpg)
+![Todos los campos de dominio en español](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_multi-valued_single_fields_spanish.jpg)
 
 Una vez más, ve que estos campos devuelven un único registro para cada valor que ha seleccionado el usuario.
 
 ##### Conversión de campos de fecha utilizando formatos de fecha predefinida
 
-`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-translating-date-fields-using-predefined-date-formats)
+`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-translating-date-fields-using-predefined-date-formats)
 
 Hay formatos de fecha predefinidos para todos los entornos locales de OpenPages® .
 
@@ -4925,7 +4925,7 @@ La tabla siguiente especifica el formato para cada configuración regional.
 
    El informe debería ser similar al siguiente ejemplo:
 
-   ![Informe de lista, incluyendo el nombre del riesgo, la descripción del riesgo y la fecha de creación del riesgo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_date_format_1.jpg)
+   ![Informe de lista, incluyendo el nombre del riesgo, la descripción del riesgo y la fecha de creación del riesgo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_date_format_1.jpg)
 2. Seleccione el campo de fecha **FECHA_CREACIÓN_RÍO** y realice los pasos siguientes.
 
    1. Pulse con el botón derecho del ratón y seleccione **Estilo** > **Formato de datos**.
@@ -4941,7 +4941,7 @@ Ahora ejecute el informe con un usuario que tiene una configuración regional de
 
 ##### Conversión de campos de fecha utilizando formatos de fecha personalizados
 
-`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-translating-date-fields-using-custom-date-formats)
+`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-translating-date-fields-using-custom-date-formats)
 
 Para crear un formato de fecha personalizado para varios idiomas, tendrá que localizar el campo de fecha con un formato condicional y establecer los formatos para cada idioma.
 
@@ -4982,7 +4982,7 @@ Ahora ejecute el informe con un usuario que tiene una configuración regional de
 
 ##### Conversión de los campos de moneda utilizando formatos predefinidos
 
-`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-translating-currency-fields-using-pre-defined-formats)
+`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-translating-currency-fields-using-pre-defined-formats)
 
 Existen formatos de moneda predefinidos para todos los entornos locales de IBM OpenPages® .
 
@@ -5026,7 +5026,7 @@ La moneda tiene ahora el formato predeterminado para la configuración regional 
 
 ##### Conversión de campos de moneda utilizando formatos personalizados
 
-`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=data-translating-currency-fields-using-custom-formats)
+`Guía del creador de informes › Internacionalización y localización › Conversión de datos › Datos de aplicación` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=data-translating-currency-fields-using-custom-formats)
 
 Para crear un formato de moneda personalizado para varios idiomas, tendrá que localizar el campo de moneda con un formato condicional y establecer los formatos para cada idioma.
 
@@ -5060,7 +5060,7 @@ La moneda ahora tiene el formato personalizado (el símbolo de moneda al final) 
 
 ### Uso de mapas de parámetros con filtros de serie enumerada traducidos
 
-`Guía del creador de informes › Internacionalización y localización` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=localization-using-parameter-maps-translated-enumerated-string-filters)
+`Guía del creador de informes › Internacionalización y localización` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=localization-using-parameter-maps-translated-enumerated-string-filters)
 
 Para crear filtros basados en series enumeradas que sean independientes de las configuraciones regionales, debe utilizar mapas de parámetros. El mapa de parámetro se considera que es la configuración regional RDL así que debe utilizar valores en inglés y realizar la comparación en campos de ID.
 
@@ -5082,7 +5082,7 @@ Por ejemplo, queremos filtrar un valor de solicitud de Alto para el campo de imp
 
 ## Uso de las funciones de base de datos predefinida
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-using-predefined-database-functions)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-using-predefined-database-functions)
 
 IBM OpenPages® ha expuesto determinadas funciones de base de datos para que las utilicen los autores de informes con el fin de resolver determinados problemas técnicos que son comunes entre entornos.
 
@@ -5090,7 +5090,7 @@ Este capítulo describe estas funciones y proporciona ejemplos sobre cómo utili
 
 ### Pasar parámetros
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-passing-parameters)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-passing-parameters)
 
 En SQL, los parámetros se pasan en posición (el primer valor al primer parámetro, el segundo valor al segundo parámetro, el tercer valor al tercer parámetro y así, sucesivamente).
 
@@ -5120,13 +5120,13 @@ Debido a la naturaleza posicional de los parámetros en SQL, si desea utilizar u
 
 ### Determinación de un ID de tipo de objeto
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-determining-object-type-id)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-determining-object-type-id)
 
 Algunas de las funciones de bases de datos predefinidas tienen parámetros que requieren un ID de tipo de objeto (un identificador numérico para el tipo de objeto). Para determinar el valor de ID numérico de un tipo de objeto determinado, puede ejecutar una consulta utilizando una herramienta SQL o crear y ejecutar un informe.
 
 #### Uso de SQL para obtener ID de objeto
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Determinación de un ID de tipo de objeto` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=id-using-sql-obtain-object-ids)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Determinación de un ID de tipo de objeto` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=id-using-sql-obtain-object-ids)
 
 Para obtener una lista de objetos y de ID de tipo de objetos de la base de datos, ejecute un mandato SQL.
 
@@ -5167,7 +5167,7 @@ Para Db2, sustituiría este código por la función `INSTR` :
 
 #### Uso de un informe para obtener ID de objeto
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Determinación de un ID de tipo de objeto` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=id-using-report-obtain-object-ids)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Determinación de un ID de tipo de objeto` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=id-using-report-obtain-object-ids)
 
 Puede crear un informe y, a continuación, ejecutarlo para obtener los nombres de objeto y los ID de tipo de objeto.
 
@@ -5177,7 +5177,7 @@ Por ejemplo, la columna `CONTENT_TYPE_ID` del informe de ejemplo, que se muestra
 
 *Figura 1. Informe de ejemplo mostrando el identificador numérico de tipo de objeto*
 
-![Lista que muestra los ID de tipo de objeto](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/object-type-numeric-identifier.jpg)
+![Lista que muestra los ID de tipo de objeto](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/object-type-numeric-identifier.jpg)
 
 ##### Procedimiento
 
@@ -5190,7 +5190,7 @@ Por ejemplo, la columna `CONTENT_TYPE_ID` del informe de ejemplo, que se muestra
 
 ### Determinación de los nombres de tabla de base de datos
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-determining-database-table-names)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-determining-database-table-names)
 
 Los nombres de tabla de base de datos tienen convenciones de denominación específicas.
 
@@ -5215,7 +5215,7 @@ Donde:
 #### Obtención de una lista de nombres de tabla RT
 
 `Guía del creador de informes › Uso de las funciones de base de datos predefinida › Determinación de los nombres de tabla de base de
-datos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=names-obtaining-list-rt-table)
+datos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=names-obtaining-list-rt-table)
 
 Puede utilizar una herramienta SQL para obtener una lista de nombres de tabla RT.
 
@@ -5236,7 +5236,7 @@ El resultado es la lista de todas las tablas RT de la base de datos.
 
 ### Determinación de los nombres de columna de la tabla de base de datos
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-determining-database-table-column-names)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-determining-database-table-column-names)
 
 Hay tres técnicas para determinar los nombres de columna de la tabla de base de datos.
 
@@ -5265,13 +5265,13 @@ Muchos de los nombres de columna de tabla se pueden determinar por uno de los m�
 
 ### Uso de funciones generales
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-using-general)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-using-general)
 
 Esta sección describe las funciones de base de datos generales.
 
 #### Conversión de enumeraciones multivalor en nombres
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-converting-multivalue-enumerations-names)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-converting-multivalue-enumerations-names)
 
 Esta función convierte una lista separada por símbolos de ID de valores enumerados en una lista separada y ordenada de nombres localizados.
 
@@ -5305,11 +5305,11 @@ La siguiente figura muestra un ejemplo de la salida del informe. En este ejemplo
 
 *Figura 1. Conversión de EVIDLIST en salida de nombre*
 
-![La figura muestra una tabla con tres columnas: Nombre del proceso, ID de dominio y Convertir EVIDLIST. La columna ID de dominio muestra valores numéricos (como 228) mientras que la columna Convertir EVIDLIST muestra texto (como Auditoría interna).](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/convert_evidlist_to_name_ex1.jpg)
+![La figura muestra una tabla con tres columnas: Nombre del proceso, ID de dominio y Convertir EVIDLIST. La columna ID de dominio muestra valores numéricos (como 228) mientras que la columna Convertir EVIDLIST muestra texto (como Auditoría interna).](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/convert_evidlist_to_name_ex1.jpg)
 
 #### Conversiones de enumeraciones de valor único en nombres
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-converting-single-value-enumerations-names)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-converting-single-value-enumerations-names)
 
 Esta función convierte un ID de valor enumerado único en un nombre localizado.
 
@@ -5336,11 +5336,11 @@ El ejemplo siguiente muestra cómo tomar el ID de nivel de madurez del proceso d
 
 *Figura 1. Conversión de EVID en salida de nombre*
 
-![Salida de informe de ejemplo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/convert_evid_to_name_ex1.jpg)
+![Salida de informe de ejemplo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/convert_evid_to_name_ex1.jpg)
 
 #### Recuento del número de apariciones de texto
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-counting-number-text-occurrences)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-counting-number-text-occurrences)
 
 Esta función devuelve el recuento del texto especificado en una serie determinada.
 
@@ -5365,11 +5365,11 @@ El ejemplo siguiente cuenta el número de barras diagonales (/) de la vía de ac
 
 *Figura 1. Recuento de la salida de apariciones de texto*
 
-![Salida de informe de ejemplo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/count_text_occurrence.jpg)
+![Salida de informe de ejemplo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/count_text_occurrence.jpg)
 
 #### Determinación de una relación de entorno entre objetos
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-determining-framework-relationship-between-objects)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-determining-framework-relationship-between-objects)
 
 Esta función identifica si existe una relación padre-hijo (directa o indirecta, primaria o no primaria) entre dos objetos cualesquiera.
 
@@ -5406,7 +5406,7 @@ El valor [Entidad].[Nivel nativo] se ha pasado del informe de llamada como un pa
 
 #### Determinación de una relación padre primaria entre objetos
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-determining-primary-parent-relationship-between-objects)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-determining-primary-parent-relationship-between-objects)
 
 Esta función identifica si una relación (ya sea directa o indirecta) entre dos objetos cualquiera es primaria o no.
 
@@ -5443,13 +5443,13 @@ La columna calculada **Proceso a controlar** en Figura 1 describe si hay una rel
 
 *Figura 1. Es salida primaria padre-hijo relativa*
 
-![Ejemplo de una relación padre primaria entre objetos](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/is_rel_parent_child_ex1.jpg)
+![Ejemplo de una relación padre primaria entre objetos](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/is_rel_parent_child_ex1.jpg)
 
 La adición de un filtro para el parámetro `P7`, como cambiar N a Y para **Proceso a control**, eliminará todos los detalles de fila donde no hay una relación primaria (vía de acceso) entre un determinado objeto de proceso y de control.
 
 #### Determinación de una relación entre objetos
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-determining-relationship-between-objects)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-determining-relationship-between-objects)
 
 Esta función identifica si existe una relación padre-hijo (directa o indirecta, primaria o no primaria) entre dos objetos cualesquiera.
 
@@ -5481,11 +5481,11 @@ La columna **Está relacionado** en Figura 1 devuelve la información que indica
 
 *Figura 1. Es salida padre-hijo relativa*
 
-![Tabla con una columna Es relacionado](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/is_rel_parent_child_2_ex1.jpg)
+![Tabla con una columna Es relacionado](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/is_rel_parent_child_2_ex1.jpg)
 
 #### Formateo del valor de divisa
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-formatting-currency-value)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-formatting-currency-value)
 
 Esta función da formato a un valor de divisa con el número de posiciones decimales y separadores adecuados para la configuración regional especificada. Esta función puede ser útil para campos calculados.
 
@@ -5513,7 +5513,7 @@ El siguiente ejemplo convierte el valor para 1234,5 en un formato para la config
 
 *Figura 1. Dar formato de moneda para USD*
 
-![Tabla de referencias cruzadas que muestra el formato de moneda para el entorno local de EE.UU.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/format_currency_value_ex1.jpg)
+![Tabla de referencias cruzadas que muestra el formato de moneda para el entorno local de EE.UU.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/format_currency_value_ex1.jpg)
 
 ##### Ejemplo de uso 2
 
@@ -5521,7 +5521,7 @@ El siguiente ejemplo convierte el valor para 1234,5 en un formato para la config
 
 *Figura 2. Dar formato de moneda para EUR*
 
-![Tabla de referencias cruzadas que muestra el formato de moneda para el entorno local alemán](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/format_currency_value_ex2.jpg)
+![Tabla de referencias cruzadas que muestra el formato de moneda para el entorno local alemán](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/format_currency_value_ex2.jpg)
 
 ##### Ejemplo de uso 3
 
@@ -5529,11 +5529,11 @@ El siguiente ejemplo convierte el valor para 1234,5 en un formato para la config
 
 *Figura 3. Dar formato de moneda para JPY*
 
-![Tabla de referencias cruzadas que muestra el formato de moneda para el entorno local japonés](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/format_currency_value_ex3.jpg)
+![Tabla de referencias cruzadas que muestra el formato de moneda para el entorno local japonés](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/format_currency_value_ex3.jpg)
 
 #### Obtención del nombre de visualización de Actor por ID
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-getting-actors-display-name-by-id)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-getting-actors-display-name-by-id)
 
 Esta función sólo se aplica a entornos Oracle y devuelve el nombre de visualización formateado de un actor (usuario o grupo) utilizando el número de ID de actor interno.
 
@@ -5561,7 +5561,7 @@ El ejemplo siguiente muestra el nombre y apellido del ID de actor 281. La Figura
 
 *Figura 1. Nombre de visualización por Nombre y apellido del ID*
 
-![Tabla de referencias cruzadas que muestra el nombre y el apellido del ID de actor 281](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/get_display_name_by_id-ex1.jpg)
+![Tabla de referencias cruzadas que muestra el nombre y el apellido del ID de actor 281](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/get_display_name_by_id-ex1.jpg)
 
 ##### Ejemplo de uso 2
 
@@ -5569,7 +5569,7 @@ El ejemplo siguiente muestra el correo electrónico del ID de actor 281. La Figu
 
 *Figura 2. Nombre de visualización por correo electrónico del ID*
 
-![Tabla de referencias cruzadas que muestra el correo electrónico para el ID de actor 281](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/get_display_name_by_id-ex2.jpg)
+![Tabla de referencias cruzadas que muestra el correo electrónico para el ID de actor 281](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/get_display_name_by_id-ex2.jpg)
 
 ##### Ejemplo de uso 3
 
@@ -5577,11 +5577,11 @@ El ejemplo siguiente muestra el nombre del ID de actor 281. La Figura 3 muestra 
 
 *Figura 3. Nombre de visualización por nombre del ID*
 
-![Tabla de referencias cruzadas que muestra el nombre del ID de actor 281](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/get_display_name_by_id-ex3.jpg)
+![Tabla de referencias cruzadas que muestra el nombre del ID de actor 281](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/get_display_name_by_id-ex3.jpg)
 
 #### Obtención del nombre de visualización de Actor por ID de Actor
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-getting-actors-display-name-by-actor-id)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-getting-actors-display-name-by-actor-id)
 
 Esta función sólo se aplica a entornos IBM® Db2® y devuelve un nombre de visualización con formato de actor (usuario o grupo) utilizando el número de ID de actor interno.
 
@@ -5609,7 +5609,7 @@ El ejemplo siguiente muestra el nombre y apellido del ID de actor 281. La Figura
 
 *Figura 1. Nombre de visualización por Nombre y apellido del ID*
 
-![Tabla de referencias cruzadas que muestra el nombre y el apellido del ID de actor 281](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/get_display_name_by_id-ex1.jpg)
+![Tabla de referencias cruzadas que muestra el nombre y el apellido del ID de actor 281](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/get_display_name_by_id-ex1.jpg)
 
 ##### Ejemplo de uso 2
 
@@ -5617,7 +5617,7 @@ El ejemplo siguiente muestra el correo electrónico del ID de actor 281. La Figu
 
 *Figura 2. Nombre de visualización por correo electrónico del ID*
 
-![Tabla de referencias cruzadas que muestra el correo electrónico para el ID de actor 281](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/get_display_name_by_id-ex2.jpg)
+![Tabla de referencias cruzadas que muestra el correo electrónico para el ID de actor 281](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/get_display_name_by_id-ex2.jpg)
 
 ##### Ejemplo de uso 3
 
@@ -5625,11 +5625,11 @@ El ejemplo siguiente muestra el nombre del ID de actor 281. La Figura 3 muestra 
 
 *Figura 3. Nombre de visualización por nombre del ID*
 
-![Tabla de referencias cruzadas que muestra el nombre del ID de actor 281](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/get_display_name_by_id-ex3.jpg)
+![Tabla de referencias cruzadas que muestra el nombre del ID de actor 281](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/get_display_name_by_id-ex3.jpg)
 
 #### Obtención del nombre de visualización de actor por ID de sesión
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-getting-actors-display-name-by-logon-id)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-getting-actors-display-name-by-logon-id)
 
 Esta función devuelve los nombres de visualización formateados del actor (usuarios o grupos).
 
@@ -5658,7 +5658,7 @@ En el ejemplo siguiente, se muestra el nombre y el apellido de los usuarios desi
 
 *Figura 1. Nombre y apellido del propietario del control*
 
-![Tabla de referencias cruzadas que muestra los nombres y apellidos de los propietarios de control](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/get-display-name-ex1.jpg)
+![Tabla de referencias cruzadas que muestra los nombres y apellidos de los propietarios de control](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/get-display-name-ex1.jpg)
 
 ##### Ejemplo de uso 2
 
@@ -5666,7 +5666,7 @@ En el ejemplo siguiente, se muestra la dirección de correo electrónico de los 
 
 *Figura 2. Correo electrónico del propietario del control*
 
-![Tabla de referencias cruzadas que muestra las direcciones de correo electrónico de los propietarios de control](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/get-display-name-ex2.jpg)
+![Tabla de referencias cruzadas que muestra las direcciones de correo electrónico de los propietarios de control](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/get-display-name-ex2.jpg)
 
 ##### Ejemplo de uso 3
 
@@ -5674,11 +5674,11 @@ En el ejemplo siguiente, se muestra el nombre de los usuarios designados como Pr
 
 *Figura 3. Nombre del propietario del control*
 
-![Tabla de referencias cruzadas que muestra los nombres de los propietarios de control](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/get-display-name-ex3.jpg)
+![Tabla de referencias cruzadas que muestra los nombres de los propietarios de control](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/get-display-name-ex3.jpg)
 
 #### Obtención del texto clave externo
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-getting-external-key-text)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-getting-external-key-text)
 
 Esta función devuelve una serie clave externa localizada.
 
@@ -5706,11 +5706,11 @@ El siguiente ejemplo muestra cómo tomar el valor de clasificación del riesgo d
 
 *Figura 1. Obtención de la salida del texto clave externo*
 
-![Tabla de referencias cruzadas que muestra series en inglés y alemán que significan "crítico"](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/getting_external_key_text_ex1.jpg)
+![Tabla de referencias cruzadas que muestra series en inglés y alemán que significan "crítico"](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/getting_external_key_text_ex1.jpg)
 
 #### Obtención de los atributos de un objeto padre primario
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-getting-attributes-primary-parent-object)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-getting-attributes-primary-parent-object)
 
 Esta función devuelve el valor para uno o más atributos de un objeto padre primario.
 
@@ -5751,7 +5751,7 @@ El ejemplo siguiente muestra los valores del atributo `ENTITY_TYPE` para la enti
 
 *Figura 1. Obtener salida del atributo padre primario*
 
-![Tabla de referencias cruzadas que muestra el nombre de entidad, el nombre de proceso y el tipo de entidad del padre primario](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/get_prim_parent_attribute.jpg)
+![Tabla de referencias cruzadas que muestra el nombre de entidad, el nombre de proceso y el tipo de entidad del padre primario](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/get_prim_parent_attribute.jpg)
 
 ##### Ejemplo de uso 2
 
@@ -5761,11 +5761,11 @@ El ejemplo siguiente devuelve el Nombre de entidad de nivel superior para un ID 
 
 *Figura 2. Obtener salida del atributo padre primario*
 
-![Tabla de referencias cruzadas que muestra el nombre de entidad del padre principal, el nombre del problema y la ubicación del problema](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/get_prim_parent_attribute_ex2.jpg)
+![Tabla de referencias cruzadas que muestra el nombre de entidad del padre principal, el nombre del problema y la ubicación del problema](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/get_prim_parent_attribute_ex2.jpg)
 
 #### Obtención de atributos directos de un objeto padre primario
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-getting-direct-attributes-primary-parent-object)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-getting-direct-attributes-primary-parent-object)
 
 Esta función devuelve el valor para un atributo de un objeto padre primario.
 
@@ -5795,7 +5795,7 @@ El ejemplo siguiente devuelve el tipo padre para un ID de problema determinado. 
 
 *Figura 1. Tipo padre primario*
 
-![Tabla de referencias cruzadas que muestra el tipo de padre primario para un problema](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_get_direct_primary_parent_value_1.jpg)
+![Tabla de referencias cruzadas que muestra el tipo de padre primario para un problema](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_get_direct_primary_parent_value_1.jpg)
 
 ##### Ejemplo de uso 2
 
@@ -5803,11 +5803,11 @@ El ejemplo siguiente devuelve el ID de recurso padre para un ID de problema dete
 
 *Figura 2. ID de padre primario*
 
-![Tabla de referencias cruzadas que muestra el ID padre de un problema](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_get_direct_primary_parent_value_2.jpg)
+![Tabla de referencias cruzadas que muestra el ID padre de un problema](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_get_direct_primary_parent_value_2.jpg)
 
 #### Obtención de la tasa de cambio
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-getting-exchange-rate)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-getting-exchange-rate)
 
 Esta función devuelve la tasa de cambio para la fecha y código de moneda ISO especificados.
 
@@ -5834,7 +5834,7 @@ El siguiente valor devuelve la tasa de cambio actual para Euros. La Figura 1 mue
 
 *Figura 1. Tipo de cambio de moneda*
 
-![Tabla de referencias cruzadas que muestra el tipo de cambio actual para Euros](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/get_ex_rate_iso_ex1.jpg)
+![Tabla de referencias cruzadas que muestra el tipo de cambio actual para Euros](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/get_ex_rate_iso_ex1.jpg)
 
 ##### Ejemplo de uso 2
 
@@ -5842,11 +5842,11 @@ El ejemplo siguiente devuelve la tasa de cambio para Euros para la fecha que se 
 
 *Figura 2. Tipo de cambio de moneda por fecha*
 
-![Tabla de referencias cruzadas que muestra el tipo de cambio de euros el 1 de enero de 1970](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/get_ex_rate_iso_ex2.jpg)
+![Tabla de referencias cruzadas que muestra el tipo de cambio de euros el 1 de enero de 1970](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/get_ex_rate_iso_ex2.jpg)
 
 #### Obtención de los ID de recurso de vía de acceso de árbol
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-getting-tree-path-resource-ids)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-getting-tree-path-resource-ids)
 
 Esta función devuelve los ID de los objetos que están en la vía de acceso de los dos objetos facilitados como entradas para la función.
 
@@ -5880,7 +5880,7 @@ El siguiente ejemplo muestra que ?ControlObjectiveID? (Inicio_id) y ?TestID? (id
 
 *Figura 1. Obtención de la salida de vía de acceso de árbol*
 
-![Tabla de referencias cruzadas que muestra la salida de vía de acceso de árbol](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/getting_tree_path_ex1.jpg)
+![Tabla de referencias cruzadas que muestra la salida de vía de acceso de árbol](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/getting_tree_path_ex1.jpg)
 
 Otros resultados pueden ser:
 
@@ -5889,7 +5889,7 @@ Otros resultados pueden ser:
 
 #### Resumen de enumeraciones multivalor en una lista
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-rolling-up-multivalued-enumerations-into-list)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de funciones generales` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-rolling-up-multivalued-enumerations-into-list)
 
 Esta función devuelve una lista delimitada de nombres de enumeración multivalor localizados para un campo de propiedad de recurso de enumeración multivalor especificado.
 
@@ -5924,17 +5924,17 @@ El ejemplo siguiente devuelve una lista de valores seleccionados separados por c
 
 *Figura 1. Obtener salida MVAL STRAGG*
 
-![Tabla de referencias cruzadas que muestra una lista delimitada por comas de enumeraciones multivalor acumuladas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/get_mval_stragg_ex1.jpg)
+![Tabla de referencias cruzadas que muestra una lista delimitada por comas de enumeraciones multivalor acumuladas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/get_mval_stragg_ex1.jpg)
 
 ### Uso de las funciones dependientes del tiempo
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-using-time-dependent)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-using-time-dependent)
 
 Esta sección describe las funciones de base de datos basadas en el tiempo.
 
 #### Obtención del valor de campo personalizado por ID
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de las funciones dependientes del tiempo` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-getting-custom-field-value-by-id)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de las funciones dependientes del tiempo` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-getting-custom-field-value-by-id)
 
 Esta función devuelve el valor para un campo personalizado de un objeto a partir de cierta fecha.
 
@@ -5977,29 +5977,29 @@ Si selecciono la fecha 1-Jan-1970 (antes de que se creara el campo), obtengo lo 
 
 *Figura 1. Clasificación de riesgo inherente - 1-ene-1970*
 
-![Tabla de referencias cruzadas que muestra la clasificación de riesgo el 1 de enero de 1970](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_custom_as_of_date_1.jpg)
+![Tabla de referencias cruzadas que muestra la clasificación de riesgo el 1 de enero de 1970](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_custom_as_of_date_1.jpg)
 
 Como puede ver en los resultados, el valor actual de clasificación de riesgo es Medio, pero en la fecha solicitada, no se ha encontrado el valor. Si selecciono la fecha 24-Feb-2011, obtengo lo siguiente, que se muestra en Figura 2:
 
 *Figura 2. Clasificación de riesgo inherente - 24-feb-2011*
 
-![Tabla de referencias cruzadas que muestra la clasificación de riesgo el 24 de febrero de 2011](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_custom_as_of_date_2.jpg)
+![Tabla de referencias cruzadas que muestra la clasificación de riesgo el 24 de febrero de 2011](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_custom_as_of_date_2.jpg)
 
 Ahora puede ver que en la fecha 24-Feb-2011, el valor de la clasificación de riesgo inherente era Bajo. Si entro la fecha de hoy, obtengo lo siguiente, que se muestra en Figura 3:
 
 *Figura 3. Clasificación de riesgo inherente - 1-abril-2011*
 
-![Tabla de referencias cruzadas que muestra la clasificación de riesgo el 1 de abril de 2011](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_custom_as_of_date_3.jpg)
+![Tabla de referencias cruzadas que muestra la clasificación de riesgo el 1 de abril de 2011](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_custom_as_of_date_3.jpg)
 
 El valor del campo es igual a la clasificación de riesgo inherente.
 
 #### Obtención del valor de campo personalizado por nombre
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de las funciones dependientes del tiempo` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-getting-custom-field-value-by-name)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de las funciones dependientes del tiempo` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-getting-custom-field-value-by-name)
 
 Esta función devuelve el valor para una propiedad personalizada por nombre de grupo de campo y nombre de propiedad como una función de fecha.
 
-> **Nota:** La función ' `GET_CUSTOM_PROPERTY_FIELD_VALUE_BY_NAME` ' sustituye a la función ' `GET_CUSTOM_FIELD_VALUE_BY_NAME` ' en el fix pack 9.0.0.5 y posteriores.
+> **Nota** : La función `GET_CUSTOM_PROPERTY_FIELD_VALUE_BY_NAME` reemplaza a la función `GET_CUSTOM_FIELD_VALUE_BY_NAME` .
 
 ##### Sintaxis
 
@@ -6041,7 +6041,7 @@ Si selecciona la fecha 1-Jan-1970 (antes de que se creara el campo), obtendrá e
 
 *Figura 1. Clasificación de riesgo inherente - 1-ene-1970*
 
-![Tabla cruzada que muestra que no se encontró la clasificación de riesgo a 1 de enero de 1970.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_custom_as_of_date_4.jpg)
+![Tabla cruzada que muestra que no se encontró la clasificación de riesgo a 1 de enero de 1970.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_custom_as_of_date_4.jpg)
 
 Como puede ver en los resultados, el valor actual de clasificación de riesgo es Medio, pero en la fecha solicitada, no se ha encontrado el valor.
 
@@ -6049,7 +6049,7 @@ Si selecciona la fecha 24-Feb-2021 (una fecha posterior a la creación del campo
 
 *Figura 2. Calificación del riesgo inherente - 24-Feb-2021*
 
-![Tabla cruzada que muestra que la calificación de riesgo a 24 de febrero de 2011 era Baja.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_custom_as_of_date_5.jpg)
+![Tabla cruzada que muestra que la calificación de riesgo a 24 de febrero de 2011 era Baja.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_custom_as_of_date_5.jpg)
 
 Ahora puede ver que en la fecha 24-Feb-2011, el valor de la clasificación de riesgo inherente era Bajo.
 
@@ -6057,13 +6057,13 @@ Si introduce la fecha de hoy20-Nov-2024), obtendrá el siguiente resultado:
 
 *Figura 3. Calificación del riesgo inherente - 20-Nov-2024*
 
-![Tabla cruzada que muestra que la calificación de riesgo. Ambas columnas muestran el valor Medio.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_custom_as_of_date_6.jpg)
+![Tabla cruzada que muestra que la calificación de riesgo. Ambas columnas muestran el valor Medio.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_custom_as_of_date_6.jpg)
 
 El valor del campo es igual a la clasificación de riesgo inherente.
 
 #### Obtención de la descripción del campo del sistema
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de las funciones dependientes del tiempo` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-getting-system-field-description)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de las funciones dependientes del tiempo` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-getting-system-field-description)
 
 Esta función devuelve el valor para la propiedad de descripción de un objeto como función de tiempo.
 
@@ -6093,7 +6093,7 @@ En el primer ejemplo, hemos obtenido el valor de descripción del sistema a part
 
 *Figura 1. Obtener valor de descripción del sistema - 1 de febrero de 2011*
 
-![Tabla de referencias cruzadas que muestra el valor de descripción del sistema el 1 de febrero de 2011](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_get_system_field_value_description_1.jpg)
+![Tabla de referencias cruzadas que muestra el valor de descripción del sistema el 1 de febrero de 2011](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_get_system_field_value_description_1.jpg)
 
 ##### Ejemplo de uso 2
 
@@ -6101,7 +6101,7 @@ En el ejemplo siguiente, que vemos en la figura siguiente, hemos obtenido el val
 
 *Figura 2. Obtener valor de descripción del sistema - 11 de febrero de 2011*
 
-![Tabla de referencias cruzadas que muestra el valor de descripción del sistema el 11 de febrero de 2011](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_get_system_field_value_description_2.jpg)
+![Tabla de referencias cruzadas que muestra el valor de descripción del sistema el 11 de febrero de 2011](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_get_system_field_value_description_2.jpg)
 
 ##### Ejemplo de uso 3
 
@@ -6109,13 +6109,13 @@ En el ejemplo final que vemos en la figura siguiente, hemos obtenido el valor de
 
 *Figura 3. Obtener valor de descripción del sistema - 11 de febrero de 2009*
 
-![Tabla de referencias cruzadas que muestra el valor de descripción del sistema el 11 de febrero de 2009](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/cognos_8_get_system_description_value.jpg)
+![Tabla de referencias cruzadas que muestra el valor de descripción del sistema el 11 de febrero de 2009](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/cognos_8_get_system_description_value.jpg)
 
 Vemos que el sistema devuelve un valor de error porque no se ha encontrado la propiedad.
 
 #### Obtención de la vía de acceso completa del campo del sistema
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de las funciones dependientes del tiempo` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-getting-system-field-full-path)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de las funciones dependientes del tiempo` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-getting-system-field-full-path)
 
 Esta función devuelve el valor para la propiedad de vía de acceso completa de un objeto como función de tiempo.
 
@@ -6141,7 +6141,7 @@ En el primer ejemplo, que se muestra en Figura 1, hemos obtenido el valor de ví
 
 *Figura 1. Obtener el valor de vía de acceso completa al sistema - Ejemplo 1*
 
-![Tabla de referencias cruzadas que muestra la vía de acceso completa del sistema el 1 de febrero de 2011](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_get_system_full_path_value_2.jpg)
+![Tabla de referencias cruzadas que muestra la vía de acceso completa del sistema el 1 de febrero de 2011](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_get_system_full_path_value_2.jpg)
 
 ##### Ejemplo de uso 2
 
@@ -6149,7 +6149,7 @@ En el ejemplo siguiente, que vemos en la figura siguiente, hemos obtenido el val
 
 *Figura 2. Obtener el valor de vía de acceso completa al sistema - Ejemplo 2*
 
-![Tabla de referencias cruzadas que muestra la ruta completa del sistema el 11 de febrero de 2011](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_get_system_full_path_value_3.jpg)
+![Tabla de referencias cruzadas que muestra la ruta completa del sistema el 11 de febrero de 2011](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_get_system_full_path_value_3.jpg)
 
 ##### Ejemplo de uso 3
 
@@ -6157,13 +6157,13 @@ En el ejemplo final, que vemos en la figura siguiente, hemos obtenido el valor d
 
 *Figura 3. Obtener el valor de vía de acceso completa al sistema - Ejemplo 3*
 
-![Tabla de referencias cruzadas que muestra la ruta completa del sistema el 11 de febrero de 2009](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_get_system_full_path_value_1.jpg)
+![Tabla de referencias cruzadas que muestra la ruta completa del sistema el 11 de febrero de 2009](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_get_system_full_path_value_1.jpg)
 
 Vemos que el sistema devuelve un valor de error porque no se ha encontrado la propiedad.
 
 #### Obtención del nombre de campo del sistema
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de las funciones dependientes del tiempo` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-getting-system-field-name)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de las funciones dependientes del tiempo` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-getting-system-field-name)
 
 Esta función devuelve el valor para la propiedad de nombre de un objeto como función de tiempo.
 
@@ -6193,7 +6193,7 @@ En el primer ejemplo, que se muestra en Figura 1, hemos obtenido el valor de nom
 
 *Figura 1. Obtener valor de nombre del sistema - 1 de febrero de 2011*
 
-![Tabla de referencias cruzadas que muestra el nombre del sistema el 1 de febrero de 2011](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_system_field_value_name_1.jpg)
+![Tabla de referencias cruzadas que muestra el nombre del sistema el 1 de febrero de 2011](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_system_field_value_name_1.jpg)
 
 ##### Ejemplo de uso 2
 
@@ -6201,7 +6201,7 @@ En el ejemplo siguiente, que se muestra en Figura 2, hemos obtenido el valor de 
 
 *Figura 2. Obtener valor de nombre del sistema - 11 de febrero de 2011*
 
-![Tabla de referencias cruzadas que muestra el nombre del sistema el 11 de febrero de 2011](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_system_field_value_name_2.jpg)
+![Tabla de referencias cruzadas que muestra el nombre del sistema el 11 de febrero de 2011](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_system_field_value_name_2.jpg)
 
 ##### Ejemplo de uso 3
 
@@ -6209,13 +6209,13 @@ En el ejemplo final, que se muestra en Figura 3, hemos obtenido el valor de nomb
 
 *Figura 3. Obtener valor de nombre del sistema - 11 de febrero de 2009*
 
-![Tabla de referencias cruzadas que muestra el nombre del sistema el 11 de febrero de 2009](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/cognos_8_get_system_name_value_1.jpg)
+![Tabla de referencias cruzadas que muestra el nombre del sistema el 11 de febrero de 2009](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/cognos_8_get_system_name_value_1.jpg)
 
 Puede ver que no se ha encontrado el nombre del sistema.
 
 #### Obtención del ID de carpeta padre del campo del sistema
 
-`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de las funciones dependientes del tiempo` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=functions-getting-system-field-parent-folder-id)
+`Guía del creador de informes › Uso de las funciones de base de datos predefinida › Uso de las funciones dependientes del tiempo` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=functions-getting-system-field-parent-folder-id)
 
 Esta función devuelve el valor para la propiedad de ID de carpeta padre de un objeto como función de tiempo.
 
@@ -6252,7 +6252,7 @@ En este primer ejemplo, hemos obtenido el ID de la carpeta padre del sistema com
 
 *Figura 1. Obtener el ID de la carpeta padre del sistema - 1 de febrero de 2011*
 
-![Tabla de referencias cruzadas que muestra el ID de carpeta padre el 1 de febrero de 2011](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/cognos_8_get_system_parent_folder_Id_3.jpg)
+![Tabla de referencias cruzadas que muestra el ID de carpeta padre el 1 de febrero de 2011](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/cognos_8_get_system_parent_folder_Id_3.jpg)
 
 ##### Ejemplo de uso 2
 
@@ -6260,7 +6260,7 @@ En el ejemplo siguiente, que se muestra en Figura 2, hemos obtenido el ID de car
 
 *Figura 2. Obtener el ID de la carpeta padre del sistema - 11 de febrero de 2011*
 
-![Tabla de referencias cruzadas que muestra el ID de carpeta padre el 11 de febrero de 2011](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/cognos_8_get_system_parent_folder_Id_2.jpg)
+![Tabla de referencias cruzadas que muestra el ID de carpeta padre el 11 de febrero de 2011](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/cognos_8_get_system_parent_folder_Id_2.jpg)
 
 ##### Ejemplo de uso 3
 
@@ -6268,13 +6268,13 @@ En el ejemplo final, que se muestra en Figura 3, hemos obtenido el ID de carpeta
 
 *Figura 3. Obtener el ID de la carpeta padre del sistema - 11 de febrero de 2009*
 
-![Tabla de referencias cruzadas que muestra el ID de carpeta padre el 11 de febrero de 2009](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/cognos_8_get_system_parent_folder_Id_1.jpg)
+![Tabla de referencias cruzadas que muestra el ID de carpeta padre el 11 de febrero de 2009](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/cognos_8_get_system_parent_folder_Id_1.jpg)
 
 Vemos que el sistema devuelve un valor de error porque no se ha encontrado la propiedad.
 
 ## Formateo de informes para salida
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-formatting-reports-output)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-formatting-reports-output)
 
 Además de la salida HTML estándar, los tres formatos de salida más populares son PDF, Excel y CSV.
 
@@ -6282,7 +6282,7 @@ Para poder utilizar los formatos de forma eficaz, este capítulo describe alguno
 
 ### Configuración del informe para la salida de PDF
 
-`Guía del creador de informes › Formateo de informes para salida` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=output-setting-up-report-pdf)
+`Guía del creador de informes › Formateo de informes para salida` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=output-setting-up-report-pdf)
 
 Puede configurar el informe para la salida de PDF.
 
@@ -6293,7 +6293,7 @@ Puede configurar el informe para la salida de PDF.
 
 ### Inclusión de solicitudes en línea para salida en PDF
 
-`Guía del creador de informes › Formateo de informes para salida` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=output-including-in-line-prompts-pdf)
+`Guía del creador de informes › Formateo de informes para salida` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=output-including-in-line-prompts-pdf)
 
 Puede ver una solicitud de entidad de negocios en la salida en PDF.
 
@@ -6325,7 +6325,7 @@ El informe se parece al que tenía antes en HTML. Ahora cuando lo convierte a PD
 
 ### Formateo del informe para la salida de PDF
 
-`Guía del creador de informes › Formateo de informes para salida` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=output-formatting-report-pdf)
+`Guía del creador de informes › Formateo de informes para salida` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=output-formatting-report-pdf)
 
 El formateo del informe para la salida de PDF o para la salida de HTML comparte muchas de las técnicas de formateo. Cualquiera de las técnicas de formateo utilizadas para ajustar el diseño en una página HTML se puede utilizar para ajustar el formato de un archivo PDF. Si está utilizando salidas de HTML y PDF, debe decidir qué formato desea optimizar.
 
@@ -6344,7 +6344,7 @@ Las técnicas de formateo básicas que utiliza para HTML también se aplican al 
 
 ### Formato para salida de Microsoft Excel
 
-`Guía del creador de informes › Formateo de informes para salida` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=output-formatting-microsoft-excel)
+`Guía del creador de informes › Formateo de informes para salida` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=output-formatting-microsoft-excel)
 
 Al diseñar un informe para que se formatee para el software de hoja de cálculo de Microsoft Excel, la limitación clave es que todos los contenedores del informe deben tener el mismo número de columnas.
 
@@ -6356,7 +6356,7 @@ Añadiendo columnas extra, la alineación de columnas del informe Excel mejora.
 
 ### Formateo para salida en CSV
 
-`Guía del creador de informes › Formateo de informes para salida` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=output-formatting-csv)
+`Guía del creador de informes › Formateo de informes para salida` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=output-formatting-csv)
 
 El formato CSV (valores separados por comas) es el formato de salida más básico porque no hay formateo de estilo.
 
@@ -6372,7 +6372,7 @@ Cuando abra el archivo TXT en el Bloc de notas, verá las comas que separan las 
 
 ## Elaboración de informes
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-authoring-reports)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-authoring-reports)
 
 Esta sección describe las técnicas utilizadas para crear informes utilizando la infraestructura de IBM OpenPages® .
 
@@ -6380,7 +6380,7 @@ Proporciona un ejemplo detallado de las tareas utilizadas para desarrollar infor
 
 ### Valores manuales de IBM Cognos Configuration
 
-`Guía del creador de informes › Elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-manual-cognos-configuration-settings)
+`Guía del creador de informes › Elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-manual-cognos-configuration-settings)
 
 Hay numerosos valores de entorno de IBM® Cognos® en IBM OpenPages®. Algunos de estos se han establecido mediante el instalador de OpenPages , mientras que otros se han establecido manualmente.
 
@@ -6400,7 +6400,7 @@ Establezca las propiedades predeterminadas de los tipos de elemento de datos as�
 
 ### Configuración de informes
 
-`Guía del creador de informes › Elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-configuring)
+`Guía del creador de informes › Elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-configuring)
 
 Hay numerosos elementos que deben configurarse en IBM OpenPages® antes de que pueda empezar el autor del informe.
 
@@ -6460,7 +6460,7 @@ Todos los elementos anteriores requieren que el entorno se regenere cada vez que
 
 ### SQL de informe subyacente
 
-`Guía del creador de informes › Elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-underlying-report-sql)
+`Guía del creador de informes › Elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-underlying-report-sql)
 
 Debe tomar decisiones en relación con el tipo de construcción subyacente que se utilizará para crear el informe.
 
@@ -6478,7 +6478,7 @@ Vamos a suponer que el informe que se va a crear utilizará espacios de nombres 
 
 ### Uso de una plantilla de informe
 
-`Guía del creador de informes › Elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-using-report-template)
+`Guía del creador de informes › Elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-using-report-template)
 
 El mejor lugar para empezar es con la plantilla de informe que se ha estado desarrollando durante la fase de requisitos de informe del proyecto. La plantilla refleja también el estilo en el que se deben desarrollar todos los informes para este proyecto.
 
@@ -6513,7 +6513,7 @@ Esta plantilla incluye fórmulas condicionales útiles, el diseño para la pági
 
 ### Organización del asunto de consulta
 
-`Guía del creador de informes › Elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-query-subject-organization)
+`Guía del creador de informes › Elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-query-subject-organization)
 
 Al crear asuntos de consulta para informes, debe seguir varios directrices.
 
@@ -6527,7 +6527,7 @@ Normalmente, los asuntos de consulta se diseñan desde el final hasta el princip
 
 *Figura 1. Hijos del asunto de consulta*
 
-![Paneles que muestran los elementos hijo de un asunto de consulta, incluidos elementos de datos, filtros de detalles y filtros de resumen](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_query_subject_child.jpg)
+![Paneles que muestran los elementos hijo de un asunto de consulta, incluidos elementos de datos, filtros de detalles y filtros de resumen](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_query_subject_child.jpg)
 
 Este ejemplo muestra la siguiente información:
 
@@ -6543,7 +6543,7 @@ Aparecerá una página de solicitudes que tendrá que llenarse con valores váli
 
 ### Construcciones de asunto de consulta
 
-`Guía del creador de informes › Elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-query-subject-constructs)
+`Guía del creador de informes › Elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-query-subject-constructs)
 
 Todos los objetos autónomos deben unirse manualmente junto con los objetos primarios que deben unirse debido a la complejidad de un informe.
 
@@ -6565,7 +6565,7 @@ La unión ahora también incluye las siguientes propiedades:
 
 ### Dar formato a tablas o listas vacías
 
-`Guía del creador de informes › Elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-formatting-empty-tables-lists)
+`Guía del creador de informes › Elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-formatting-empty-tables-lists)
 
 Un problema que debe abordarse es el de las listas, tablas y tablas de referencias cruzadas vacías en un informe. Si el contenedor primario no devuelve datos, utilizando la propiedad **No contiene datos** del contenedor se informará al usuario de que se han elegido valores de solicitud que no proporcionan ningún dato. La segunda situación es cuando tiene una subtabla o lista en un informe y no tiene datos en ella cuando se ejecuta el informe. Lo que ve es una cabecera y nada más.
 
@@ -6575,7 +6575,7 @@ En el ejemplo siguiente, tenemos un informe que muestra información de entidad,
 
 *Figura 1. Sección en blanco mostrada*
 
-![Lista que muestra algunas secciones en blanco](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_hiding_blank_sections_1.jpg)
+![Lista que muestra algunas secciones en blanco](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_hiding_blank_sections_1.jpg)
 
 Lo que vemos es que en la primera sección hay un problema listado mientras que en las secciones segunda y tercera no se han encontrado datos y aparece la cabecera de la lista.
 
@@ -6609,11 +6609,11 @@ Lo que ahora ve, que se muestra en Figura 2, cuando ejecuta el informe es que el
 
 *Figura 2. Ocultar lista en blanco*
 
-![Lista que no incluye secciones en blanco](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_hiding_blank_sections_3.jpg)
+![Lista que no incluye secciones en blanco](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_hiding_blank_sections_3.jpg)
 
 ## Campos calculados
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-computed-fields)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-computed-fields)
 
 Los campos calculados proporcionan la capacidad de definir campos en un objeto cuyo valor se calcula a partir de los valores de otros campos. Estos otros campos pueden existir en el mismo objeto o en otro objeto relacionado. Estos cálculos estarán disponibles en la aplicación así como para fines de creación de informes.
 
@@ -6665,7 +6665,7 @@ Tenga en cuenta lo siguiente al diseñar el campo calculado:
 
 ### Creación de un campo calculado
 
-`Guía del creador de informes › Campos calculados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=fields-creating-computed-field)
+`Guía del creador de informes › Campos calculados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=fields-creating-computed-field)
 
 Puede crear un campo calculado.
 
@@ -6681,7 +6681,7 @@ Puede crear un campo calculado.
    - ```
      DEFAULT|DEFAULT_REL|GRC_OBJECTS|[SOXRISK]|ID_FIELDS|[RI_RISK_ID]
      ```
-3. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-toolbox.jpg) en el panel **Objetos insertables** .
+3. Pulse la pestaña **Caja de herramientas** ![Icono de caja de herramientas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-toolbox.jpg) en el panel **Objetos insertables** .
 4. Arrastre y suelte un objeto **Cálculo de consulta** en **lista**.
 5. Asigne un nombre al cálculo de consulta `Computed Field`.
 6. En el panel **Definición de expresión** , especifique la expresión siguiente:
@@ -6690,18 +6690,18 @@ Puede crear un campo calculado.
    total([DEFAULT_REL].[SOXRISK].[RI_INHERENT_SEVERIT_BA] for
     [DEFAULT_REL].[SOXRISK].[RI_RISK_ID]) / 100 
    ```
-7. Pulse el icono **Validar** ![Icono Validar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-validate_expression.jpg) para validar la expresión y, a continuación, pulse **Aceptar**.
+7. Pulse el icono **Validar** ![Icono Validar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-validate_expression.jpg) para validar la expresión y, a continuación, pulse **Aceptar**.
 
    El informe debería ser similar al siguiente ejemplo:
 
    *Figura 1. Campo calculado añadido a un informe de lista*
 
-   ![Lista que muestra el resultado de esta tarea, incluido un campo calculado](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/Cognos_8_computed_field_2.jpg)
+   ![Lista que muestra el resultado de esta tarea, incluido un campo calculado](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/Cognos_8_computed_field_2.jpg)
 8. Ejecute el informe.
 
 ### Suministro de campos necesarios
 
-`Guía del creador de informes › Campos calculados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=fields-supplying-required)
+`Guía del creador de informes › Campos calculados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=fields-supplying-required)
 
 Para que el administrador del sistema pueda crear el campo calculado en IBM OpenPages®, debe proporcionar los campos siguientes: Ecuación, Espacio de nombres primario, Espacios de nombres alternativos, Columna de ID de objeto, Columna de ID de periodo de elaboración de informes y Nombre de paquete.
 
@@ -6737,7 +6737,7 @@ Cree los siguientes campos.
 
 ### Creación de un archivo de datos
 
-`Guía del creador de informes › Campos calculados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=fields-creating-data-file)
+`Guía del creador de informes › Campos calculados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=fields-creating-data-file)
 
 Para obtener los valores de campo necesarios, el mejor método es cortar y pegar los valores a un archivo de texto y enviarlos al administrador del sistema para que se pueda crear el campo. Siga este procedimiento para obtener los valores.
 
@@ -6758,7 +6758,7 @@ Ahora debe enviar el archivo de texto al administrador del sistema y pueden aña
 
 ### Uso de campos calculados en varios espacios de nombres
 
-`Guía del creador de informes › Campos calculados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=fields-using-computed-in-multiple-namespaces)
+`Guía del creador de informes › Campos calculados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=fields-using-computed-in-multiple-namespaces)
 
 En la aplicación IBM OpenPages® , permitimos varios tipos de objeto padre para un tipo de objeto hijo determinado.
 
@@ -6770,7 +6770,7 @@ Para que los cálculos estén disponibles en varios espacios de nombres para los
 
 ## Fragmentos de elaboración de informes
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-reporting-fragments)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-reporting-fragments)
 
 Un fragmento de elaboración de informes es normalmente un gráfico, una tabla de referencias cruzadas o una lista que se puede colocar en una página de la aplicación para que el usuario pueda ver una representación visual de los datos al lado de los datos de página.
 
@@ -6791,7 +6791,7 @@ Los fragmentos de elaboración de informes tienen las siguientes limitaciones:
 
 ### Creación de fragmentos de elaboración de informes
 
-`Guía del creador de informes › Fragmentos de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=fragments-creating-reporting)
+`Guía del creador de informes › Fragmentos de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=fragments-creating-reporting)
 
 Los fragmentos de elaboración de informes se desarrollan de la misma manera que los de un informe. Un fragmento de elaboración de informes es un contenedor de datos único (probablemente un gráfico o una lista) con datos. No hay cabeceras, pies de página u otros adornos.
 
@@ -6822,7 +6822,7 @@ El último elemento tiene que ver con la configuración del alto y el ancho del 
 
 ### Uso de CrossTracks en fragmentos de elaboración de informes
 
-`Guía del creador de informes › Fragmentos de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=fragments-using-crosstracks-in-reporting)
+`Guía del creador de informes › Fragmentos de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=fragments-using-crosstracks-in-reporting)
 
 Los CrossTracks se admiten en los fragmentos de elaboración de informes. Sin embargo, la forma en que normalmente creamos enlaces CrossTrack (con un objeto Hyperlink en IBM® Cognos®) no funciona a partir de fragmentos de informes.
 
@@ -6830,7 +6830,7 @@ Para obtener funcionalidad crosstrack, tendrá que utilizar etiquetas HTML en lu
 
 #### Creación de un enlace Abrir en la misma ventana
 
-`Guía del creador de informes › Fragmentos de elaboración de informes › Uso de CrossTracks en fragmentos de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=fragments-creating-link-open-in-same-window)
+`Guía del creador de informes › Fragmentos de elaboración de informes › Uso de CrossTracks en fragmentos de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=fragments-creating-link-open-in-same-window)
 
 Puede crear un hiperenlace en un fragmento de elaboración de informes que se abra en la misma ventana de navegador.
 
@@ -6868,7 +6868,7 @@ Cuando haga clic en CrossTrack,, accederá a la vista de tareas del objeto en la
 
 #### Creación de un enlace a abierto en una ventana nueva
 
-`Guía del creador de informes › Fragmentos de elaboración de informes › Uso de CrossTracks en fragmentos de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=fragments-creating-link-open-in-new-window)
+`Guía del creador de informes › Fragmentos de elaboración de informes › Uso de CrossTracks en fragmentos de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=fragments-creating-link-open-in-new-window)
 
 Puede crear un hiperenlace en un fragmento de creación de informes que abra la vista de tareas del objeto en una ventana de navegador nueva.
 
@@ -6912,7 +6912,7 @@ Cuando pulse el enlace CrossTrack , le llevará a la vista de tarea de objeto en
 
 ### Suministro de campos de configuración
 
-`Guía del creador de informes › Fragmentos de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=fragments-supplying-configuration-fields)
+`Guía del creador de informes › Fragmentos de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=fragments-supplying-configuration-fields)
 
 Para que el administrador del sistema pueda crear el campo de fragmento en la aplicación IBM OpenPages® , debe proporcionar los campos siguientes: **Vía de acceso de informe**, **Nombre de fragmento**, **Solicitud de ID de objeto**, **Solicitud de ID de periodo de creación de informes**, **Altura**y **Anchura**.
 
@@ -6920,7 +6920,7 @@ Cree los siguientes campos.
 
 - **Ruta de informe**
 
-  La ubicación del informe en el repositorio de CommandCenter . Consulte [Obtención de la vía de acceso del informe](#obtención-de-la-vía-de-acceso-de-informe).
+  La ubicación del informe dentro del repositorio de informes. Consulte [Obtención de la vía de acceso del informe](#obtención-de-la-vía-de-acceso-de-informe).
 
 - **Nombre de fragmento**
 
@@ -6938,11 +6938,11 @@ Cree los siguientes campos.
 
   La altura y ancho del área de visualización en píxeles. Normalmente, solo se utiliza cuando se está visualizando una lista. Consulte [Obtención de altura y anchura](#obtención-de-altura-y-anchura).
 
-Para obtener los valores anteriores, el mejor método es cortar y pegar los valores de CommandCenter en un archivo de texto y enviarlos al administrador del sistema. Cree etiquetas en el archivo de texto correspondientes a los campos anteriores. Inicie el archivo de texto con un campo **Nombre** y **Descripción** para el fragmento de elaboración de informes.
+Para obtener los valores anteriores, el mejor método es cortar y pegar los valores de Reporting en un archivo de texto y enviarlos al administrador del sistema. Cree etiquetas en el archivo de texto correspondientes a los campos anteriores. Inicie el archivo de texto con un campo **Nombre** y **Descripción** para el fragmento de elaboración de informes.
 
 #### Obtención de la vía de acceso de informe
 
-`Guía del creador de informes › Fragmentos de elaboración de informes › Suministro de campos de configuración` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=fields-obtaining-report-path)
+`Guía del creador de informes › Fragmentos de elaboración de informes › Suministro de campos de configuración` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=fields-obtaining-report-path)
 
 Puede obtener la **Vía de acceso de informe** para un fragmento de creación de informes.
 
@@ -6956,7 +6956,7 @@ Puede obtener la **Vía de acceso de informe** para un fragmento de creación de
 
 #### Obtención del nombre de fragmento
 
-`Guía del creador de informes › Fragmentos de elaboración de informes › Suministro de campos de configuración` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=fields-obtaining-fragment-name)
+`Guía del creador de informes › Fragmentos de elaboración de informes › Suministro de campos de configuración` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=fields-obtaining-fragment-name)
 
 Puede obtener el **Nombre de fragmento** para un fragmento de creación de informes.
 
@@ -6968,7 +6968,7 @@ Puede obtener el **Nombre de fragmento** para un fragmento de creación de infor
 
 #### Obtención de solicitudes de objeto
 
-`Guía del creador de informes › Fragmentos de elaboración de informes › Suministro de campos de configuración` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=fields-obtaining-object-prompts)
+`Guía del creador de informes › Fragmentos de elaboración de informes › Suministro de campos de configuración` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=fields-obtaining-object-prompts)
 
 Puede obtener una **Solicitud de ID de objeto** para un fragmento de elaboración de informes.
 
@@ -6981,13 +6981,13 @@ Puede obtener una **Solicitud de ID de objeto** para un fragmento de elaboració
 
 #### Obtención de altura y anchura
 
-`Guía del creador de informes › Fragmentos de elaboración de informes › Suministro de campos de configuración` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=fields-obtaining-height-width)
+`Guía del creador de informes › Fragmentos de elaboración de informes › Suministro de campos de configuración` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=fields-obtaining-height-width)
 
 Los parámetros de altura y anchura son opcionales. Si el informe es un gráfico, los valores pueden quedar en blanco y el gráfico se escalará automáticamente. Si el informe es una lista o referencia cruzada, determine una **Altura** y **Anchura** óptimas para minimizar el desplazamiento.
 
 ### Uso de imágenes en Fragmentos de elaboración de informes
 
-`Guía del creador de informes › Fragmentos de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=fragments-using-images-in-reporting)
+`Guía del creador de informes › Fragmentos de elaboración de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=fragments-using-images-in-reporting)
 
 Puede insertar una imagen en un informe que se utiliza en Fragmentos de elaboración de informes.
 
@@ -7009,7 +7009,7 @@ Siga estas prácticas recomendadas:
 
 ## Asuntos de consulta personalizados
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-custom-query-subjects)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-custom-query-subjects)
 
 Los asuntos de consulta personalizados (CQS) son una característica que ofrece IBM OpenPages® para que un autor de informes pueda crear una sentencia SQL definida por el usuario para resolver un problema que no se puede resolver mediante el uso de la infraestructura. El modelo de entorno de fábrica representa un entorno que normalmente resuelve la mayoría de las necesidades de creación de informes del cliente; el resto se resuelven utilizando asuntos de consulta personalizados.
 
@@ -7031,7 +7031,7 @@ La lista que figura a continuación describe el flujo de proceso para la creaci�
 
 ### Revisión del diseño de informe
 
-`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=subjects-reviewing-your-report-design)
+`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=subjects-reviewing-your-report-design)
 
 El primer paso para diseñar un asunto de consulta personalizado es revisar el diseño de informe.
 
@@ -7039,15 +7039,15 @@ Debe prestar especial atención a los campos y objetos necesarios para generar e
 
 ### Creación de un diagrama entidad-relación
 
-`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=subjects-creating-entity-relationship-diagram)
+`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=subjects-creating-entity-relationship-diagram)
 
 A partir de IBM OpenPages® puede determinar los campos adjuntos a un objeto y las relaciones entre objetos.
 
 El siguiente paso en la creación de un asunto de consulta personalizado es generar un diagrama entidad-relación (ER).
 
-Haga clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de soluciones** > **Soluciones** y haga clic en una solución para ver sus tipos de objeto. Para ver detalles sobre un tipo de objeto, incluidos los campos y grupos de campos correspondientes, pulse el nombre. Para obtener más información, consulte [Visualizaciones de esquema de solución](3.2-guia-del-administrador.md#visualizaciones-de-esquemas-de-soluciones).
+Haga clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de soluciones** > **Soluciones** y haga clic en una solución para ver sus tipos de objeto. Para ver detalles sobre un tipo de objeto, incluidos los campos y grupos de campos correspondientes, pulse el nombre. Para obtener más información, consulte [Visualizaciones de esquema de solución](3.2-guia-del-administrador.md#visualizaciones-de-esquemas-de-soluciones).
 
-O bien, haga clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Tipos de objeto**. La lista muestra todos los tipos de objeto definidos en el sistema. Para ver detalles sobre un tipo de objeto, incluidos los campos y grupos de campos correspondientes, pulse el nombre.
+O bien, haga clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Tipos de objeto**. La lista muestra todos los tipos de objeto definidos en el sistema. Para ver detalles sobre un tipo de objeto, incluidos los campos y grupos de campos correspondientes, pulse el nombre.
 
 Los grupos de campos del tipo de objeto contienen las definiciones de todos los campos definidos para el objeto. Esta lista no incluye claves ni otros campos de ID que puedan ser necesarios para crear solicitudes o uniones entre tablas. Consulte [Modelos de base de datos](#modelos-de-bases-de-datos) para obtener más información sobre los campos necesarios para unir tablas.
 
@@ -7057,7 +7057,7 @@ En este punto, puede crear un diagrama ER en una herramienta de diagramación qu
 
 ### Creación de una sentencia SQL
 
-`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=subjects-creating-sql-statement)
+`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=subjects-creating-sql-statement)
 
 Utilizando la herramienta de desarrollo SQL, puede crear la sentencia SQL.
 
@@ -7101,7 +7101,7 @@ Por ejemplo, seleccione op_crypt_mgr.decrypt_property_value(t.propertydefid, t.o
 
 ### Adición de funciones de base de datos
 
-`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=subjects-adding-database-functions)
+`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=subjects-adding-database-functions)
 
 Puede utilizar muchas funciones de base de datos en IBM OpenPages®.
 
@@ -7119,13 +7119,13 @@ Puede utilizar muchas funciones de base de datos en IBM OpenPages®.
 
   Se utiliza para convertir una serie enumerada de selección múltiple en una lista de texto separada por comas.
 
-Después de crear la sentencia SQL, podrá ver en el conjunto de resultados qué elementos se devuelven como ID y cuáles se devuelve como texto. Tendrá que convertir las series devueltas como ID en texto legible para hacer que el informe resulte útil. Debe verificar que los campos que está convirtiendo son series enumeradas reales. Haga clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Tipos de objeto** y busque los campos en los tipos de objeto individuales.
+Después de crear la sentencia SQL, podrá ver en el conjunto de resultados qué elementos se devuelven como ID y cuáles se devuelve como texto. Tendrá que convertir las series devueltas como ID en texto legible para hacer que el informe resulte útil. Debe verificar que los campos que está convirtiendo son series enumeradas reales. Haga clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Tipos de objeto** y busque los campos en los tipos de objeto individuales.
 
 La función `GET_DISPLAY_NAME` se utiliza (según los requisitos de la organización) para mostrar los nombres de usuario en los informes en lugar del nombre de inicio de sesión.
 
 ### Sustitución de variables
 
-`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=subjects-substituting-variables)
+`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=subjects-substituting-variables)
 
 Después de incluir las funciones de base de datos, habrá referencias a series de sustitución que solo están disponibles en el entorno de informes de IBM® Cognos® .
 
@@ -7141,7 +7141,7 @@ Para probar el SQL, necesitará hacer las siguientes sustituciones.
 
 ### Prueba de la sentencia SQL
 
-`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=subjects-testing-sql-statement)
+`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=subjects-testing-sql-statement)
 
 Después de crear una sentencia SQL válida, debe probarla.
 
@@ -7156,7 +7156,7 @@ Debe examinar el conjunto de resultados para los siguientes elementos:
 
 ### Creación de un informe
 
-`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=subjects-creating-report)
+`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=subjects-creating-report)
 
 Puede seleccionar un tipo de informe para crear un informe nuevo.
 
@@ -7166,7 +7166,7 @@ Seleccione un tipo de informe para crear un informe nuevo.
 
 ### Adición de un objeto SQL
 
-`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=subjects-adding-sql-object)
+`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=subjects-adding-sql-object)
 
 Puede añadir un objeto SQL al informe.
 
@@ -7178,13 +7178,13 @@ Puede añadir un objeto SQL al informe.
 
 ### Adición de SQL al objeto SQL
 
-`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=subjects-adding-sql-sql-object)
+`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=subjects-adding-sql-sql-object)
 
 Puede añadir código SQL a un objeto SQL.
 
 Puede añadir el código efectuando doble pulsación en el objeto SQL y pegando el código SQL en el cuadro de diálogo **SQL**.
 
-Pulse el **Validar** icono ![Icono Validar expresión](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-validate_expression.jpg) para asegurarse de que no hay errores en el código SQL. Pulse **Aceptar** para continuar.
+Pulse el **Validar** icono ![Icono Validar expresión](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-validate_expression.jpg) para asegurarse de que no hay errores en el código SQL. Pulse **Aceptar** para continuar.
 
 Ahora puede seleccionar el asunto de consulta del explorador de consultas y ver que aparece el objeto SQL como un asunto de consulta con elementos de consulta que se pueden seleccionar.
 
@@ -7192,13 +7192,13 @@ En este punto puede completar el diseño de informe utilizando el SQL personaliz
 
 ### Volver a poner las variables en SQL
 
-`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=subjects-putting-variables-back-into-sql)
+`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=subjects-putting-variables-back-into-sql)
 
 Después de copiar la sentencia SQL en el objeto SQL, deberá sustituir los valores predeterminados por funciones de base de datos, seguridad y solicitudes por los valores y solicitudes correctos.
 
 #### Adición de solicitudes
 
-`Guía del creador de informes › Asuntos de consulta personalizados › Volver a poner las variables en SQL` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=sql-adding-prompts)
+`Guía del creador de informes › Asuntos de consulta personalizados › Volver a poner las variables en SQL` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=sql-adding-prompts)
 
 Una solicitud le pide al usuario un valor durante la ejecución de una sentencia SQL. Una solicitud es una macro en IBM® Cognos® y no puede ser ejecutada por las herramientas de desarrollo de SQL. Esto es por lo que añade solicitudes después de añadir el SQL al objeto SQL.
 
@@ -7242,7 +7242,7 @@ Para obtener más información sobre cómo utilizar solicitudes, consulte la doc
 
 ### Completar el desarrollo del informe
 
-`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=subjects-completing-report-development)
+`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=subjects-completing-report-development)
 
 En este punto, puede completar todo el desarrollo del informe utilizando el objeto SQL como base para el informe.
 
@@ -7250,7 +7250,7 @@ Es posible que, a medida que continúa el desarrollo del informe, le falten camp
 
 ### Creación de una entrada en el archivo CQS
 
-`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=subjects-creating-entry-in-cqs-file)
+`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=subjects-creating-entry-in-cqs-file)
 
 La generación de entorno contiene dos partes, la parte generada dinámicamente y la parte personalizada.
 
@@ -7298,7 +7298,7 @@ Las siguientes secciones describen el uso adecuado de los elementos de cada secc
 
 #### Adición de un asunto de consulta de modelo
 
-`Guía del creador de informes › Asuntos de consulta personalizados › Creación de una entrada en el archivo CQS` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=file-adding-model-query-subject)
+`Guía del creador de informes › Asuntos de consulta personalizados › Creación de una entrada en el archivo CQS` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=file-adding-model-query-subject)
 
 Este asunto de consulta de modelo es la definición de la sentencia SQL que desea añadir al entorno. Contiene la definición de dónde desea añadir la consulta, la misma consulta, las columnas de la consulta y las solicitudes (si se utilizan).
 
@@ -7483,7 +7483,7 @@ Contenido por: MODELQUERYSUBJECT
 
 #### Especificación de relaciones
 
-`Guía del creador de informes › Asuntos de consulta personalizados › Creación de una entrada en el archivo CQS` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=file-specifying-relationships)
+`Guía del creador de informes › Asuntos de consulta personalizados › Creación de una entrada en el archivo CQS` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=file-specifying-relationships)
 
 Esta sección de relaciones se utiliza para crear uniones entre asuntos de consulta personalizados o entre asuntos de consulta personalizados y asuntos de consulta predefinidos. Si está diseñando un conjunto de consultas que están relacionadas unas con otras, esa relación debe especificarse. Esta parte del archivo XML le permite crear esas relaciones.
 
@@ -7572,7 +7572,7 @@ Contenido por: RELACIONES
 
 #### Creación de cálculos
 
-`Guía del creador de informes › Asuntos de consulta personalizados › Creación de una entrada en el archivo CQS` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=file-creating-calculations)
+`Guía del creador de informes › Asuntos de consulta personalizados › Creación de una entrada en el archivo CQS` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=file-creating-calculations)
 
 Puede crear cálculos personalizados para proporcionar a los autores de informes valores calculados que utilizan normalmente. Los cálculos pueden utilizar elementos de consulta, parámetros, variables, miembros calculados, expresiones y componentes de expresiones como, por ejemplo, funciones.
 
@@ -7656,7 +7656,7 @@ Contenido por: expresión
 
 #### Uso de mapas de parámetros para crear expresión durante el tiempo de ejecución
 
-`Guía del creador de informes › Asuntos de consulta personalizados › Creación de una entrada en el archivo CQS` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=file-using-parameter-maps-create-expressions-run-time)
+`Guía del creador de informes › Asuntos de consulta personalizados › Creación de una entrada en el archivo CQS` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=file-using-parameter-maps-create-expressions-run-time)
 
 Los mapas de parámetros se utilizan para crear sustituciones durante el tiempo de ejecución.
 
@@ -7720,7 +7720,7 @@ Contenido por: parametermap
 
 ### Regeneración del entorno
 
-`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=subjects-regenerating-framework)
+`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=subjects-regenerating-framework)
 
 Puede seguir los procedimientos de la publicación *IBM OpenPages Guía del administrador* para actualizar la infraestructura. Puede elegir generar todos los modelos de entorno o los modelos de entorno seleccionados.
 
@@ -7736,7 +7736,7 @@ Se pueden emitir los errores siguientes cuando se genera el marco de trabajo:
 - No puede utilizar un guion ( - ) en el nombre del CQS.
 - El límite de caracteres para los nombres de campo es de 30 caracteres (esto truncará el nombre de campos).
 
-El detalle de los mensajes de error se puede encontrar en el archivo `script-player-error.log`, ubicado en el servidor de informes en `C:\OpenPages\CommandCenter\framework\logs`
+El detalle de los mensajes de error se puede encontrar en el archivo `script-player-error.log`, ubicado en el servidor de informes en `C:\OpenPages\Reporting\framework\logs`
 
 Si se detecta un error de análisis en el archivo, el error se listará en `framework-generator.log`, en el mismo directorio.
 
@@ -7744,7 +7744,7 @@ Si se detecta un error de análisis en el archivo, el error se listará en `fram
 
 ### Sustitución de referencias a objetos SQL por referencias a CQS
 
-`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=subjects-replacing-sql-object-references-cqs-references)
+`Guía del creador de informes › Asuntos de consulta personalizados` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=subjects-replacing-sql-object-references-cqs-references)
 
 Debe eliminar las referencias al objeto SQL del informe y sustituirlas por las referencias al nuevo asunto de consulta personalizado.
 
@@ -7756,7 +7756,7 @@ Es posible que tenga que suprimir todos los objetos SQL que ha creado porque no 
 
 #### Edición del archivo de texto del informe
 
-`Guía del creador de informes › Asuntos de consulta personalizados › Sustitución de referencias a objetos SQL por referencias a CQS` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=references-editing-report-text-file)
+`Guía del creador de informes › Asuntos de consulta personalizados › Sustitución de referencias a objetos SQL por referencias a CQS` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=references-editing-report-text-file)
 
 Puede editar el archivo de texto del informe para sustituir el contenido que se debe actualizar.
 
@@ -7780,7 +7780,7 @@ Puede guardar el informe en un archivo de texto y realizar una operación de bú
 
 #### Eliminación de objeto SQL
 
-`Guía del creador de informes › Asuntos de consulta personalizados › Sustitución de referencias a objetos SQL por referencias a CQS` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=references-removing-sql-object)
+`Guía del creador de informes › Asuntos de consulta personalizados › Sustitución de referencias a objetos SQL por referencias a CQS` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=references-removing-sql-object)
 
 Puede suprimir todos los objetos SQL que ha creado porque si no se están utilizando.
 
@@ -7789,11 +7789,11 @@ Puede suprimir todos los objetos SQL que ha creado porque si no se están utiliz
 1. En el informe, abra **Explorador de consultas** y seleccione **Consultas**.
 2. Seleccione el **Objeto SQL** que desea eliminar.
 3. Pulse el icono **Suprimir** en la barra de herramientas.
-4. Pulse el **Validar** icono ![Icono Validar expresión](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/icon-validate_expression.jpg). Si ha realizado la sustitución correctamente, el informe se validará.
+4. Pulse el **Validar** icono ![Icono Validar expresión](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/icon-validate_expression.jpg). Si ha realizado la sustitución correctamente, el informe se validará.
 
 ## Directrices de codificación SQL
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-sql-coding-guidelines)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-sql-coding-guidelines)
 
 Este tema describe información general que hay que seguir al trabajar con sentencias SQL en el archivo del asunto de consulta personalizado.
 
@@ -7813,7 +7813,7 @@ Utilice las siguientes directrices con sentencias SQL en el archivo del asunto d
 
 ### Convenciones de denominación
 
-`Guía del creador de informes › Directrices de codificación SQL` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guidelines-naming-conventions)
+`Guía del creador de informes › Directrices de codificación SQL` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guidelines-naming-conventions)
 
 Los términos nemotécnicos listados en este tema se utilizan como nombres de tabla y como prefijos para nombres de columna.
 
@@ -7945,8 +7945,6 @@ Los prefijos de tabla alternativos siguientes se utilizan cuando el prefijo de o
 | Submandate | Submandato | SM |
 | SubSectionTemplate | Plantilla de subsección | SS |
 | SummaryAuditPlan | Plan de auditoría de resumen | SA |
-| SupplyWisdom | Supply Wisdom |  |
-| SupplyWisdomParentAlert | Alerta padre de Supply Wisdom |  |
 | Team | Equipo | TM |
 | Threat | Amenaza | TH |
 | Timesheet | Hoja de registro horario | TI |
@@ -7962,7 +7960,7 @@ Los prefijos de tabla alternativos siguientes se utilizan cuando el prefijo de o
 
 ### Cláusula SELECT
 
-`Guía del creador de informes › Directrices de codificación SQL` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guidelines-select-clause)
+`Guía del creador de informes › Directrices de codificación SQL` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guidelines-select-clause)
 
 Utilice las siguientes directrices al utilizar cláusulas SELECT.
 
@@ -8009,7 +8007,7 @@ Utilice las siguientes directrices al utilizar cláusulas SELECT.
 
 ### Cláusula FROM
 
-`Guía del creador de informes › Directrices de codificación SQL` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guidelines-from-clause)
+`Guía del creador de informes › Directrices de codificación SQL` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guidelines-from-clause)
 
 Utilice las siguientes directrices al utilizar cláusulas FROM.
 
@@ -8020,7 +8018,7 @@ Utilice las siguientes directrices al utilizar cláusulas FROM.
 
 ### Cláusula WHERE
 
-`Guía del creador de informes › Directrices de codificación SQL` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guidelines-where-clause)
+`Guía del creador de informes › Directrices de codificación SQL` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guidelines-where-clause)
 
 Utilice las siguientes directrices al utilizar cláusulas WHERE.
 
@@ -8050,7 +8048,7 @@ Utilice las siguientes directrices al utilizar cláusulas WHERE.
 
 ### Cláusula ORDER BY
 
-`Guía del creador de informes › Directrices de codificación SQL` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guidelines-order-by-clause)
+`Guía del creador de informes › Directrices de codificación SQL` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guidelines-order-by-clause)
 
 Utilice la siguiente directriz cuando utilice las cláusulas ORDER BY.
 
@@ -8058,7 +8056,7 @@ Utilice la siguiente directriz cuando utilice las cláusulas ORDER BY.
 
 ## Definiciones de modelo y espacio de nombres
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-model-namespace-definitions)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-model-namespace-definitions)
 
 Este apéndice contiene las definiciones de todos los modelos de entorno y espacios de nombres predefinidos de IBM OpenPages® . Según la configuración del sistema y las soluciones utilizadas, no todos estos modelos y espacios de nombres estarán disponibles.
 
@@ -8068,13 +8066,13 @@ Estos modelos y espacios de nombres dan soporte a los informes predefinidos que 
 
 La definición más precisa de los modelos y espacios de nombres se puede encontrar en los valores de registro del sistema.
 
-1. Haga clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_report_authors/settings_menu_icon_task_focused_ui.jpg)** > **Configuración del sistema** > **Configuración**.
+1. Haga clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_report_authors/settings_menu_icon_task_focused_ui.jpg)** > **Configuración del sistema** > **Configuración**.
 2. Expanda la carpeta **Plataforma** > **Entorno de elaboración de informes V6** > **Modelos** .
 3. Expanda la carpeta de un modelo y, a continuación, pulse **Espacios de nombres**.
 
 ### Modelos de entorno
 
-`Guía del creador de informes › Definiciones de modelo y espacio de nombres` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=definitions-framework-models)
+`Guía del creador de informes › Definiciones de modelo y espacio de nombres` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=definitions-framework-models)
 
 OpenPages® incluye un conjunto de modelos de entorno. La tabla siguiente lista los modelos y los correspondientes espacios de nombres.
 
@@ -8091,13 +8089,13 @@ OpenPages® incluye un conjunto de modelos de entorno. La tabla siguiente lista 
 
 ## Limitaciones y métodos alternativos
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-limitations-workarounds)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-limitations-workarounds)
 
 Este apéndice lista problemas y limitaciones conocidos que pueden encontrarse los autores de informes al crear informes, y posibles métodos alternativos.
 
 ### Limitación de la longitud de ecuación
 
-`Guía del creador de informes › Limitaciones y métodos alternativos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=workarounds-equation-length-limitation)
+`Guía del creador de informes › Limitaciones y métodos alternativos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=workarounds-equation-length-limitation)
 
 Existe una limitación en el tamaño del valor de atributo de cálculo que puede almacenar la aplicación IBM OpenPages® .
 
@@ -8109,7 +8107,7 @@ Puede crear el cálculo en el archivo CQS.
 
 ### Problemas de visualización de localización
 
-`Guía del creador de informes › Limitaciones y métodos alternativos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=workarounds-localization-display-issues)
+`Guía del creador de informes › Limitaciones y métodos alternativos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=workarounds-localization-display-issues)
 
 Si va a diseñar informes para utilizar con varios idiomas, es posible que encuentre en algunas ocasiones problemas de formato.
 
@@ -8126,7 +8124,7 @@ Los siguientes métodos alternativos pueden ayudarle a resolver el problema del 
 
 ### Localización de prestaciones interactivas
 
-`Guía del creador de informes › Limitaciones y métodos alternativos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=workarounds-localization-interactive-capabilities)
+`Guía del creador de informes › Limitaciones y métodos alternativos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=workarounds-localization-interactive-capabilities)
 
 Algunas características interactivas más recientes de IBM® Cognos® Analytics , que se utilizan en informes de IBM OpenPages® , no se adaptan a la globalización de varios idiomas. Estas características incluyen Cognos Dashboards y tablas de datos interactivas (introducidas en IBM Cognos Analytics 11.1.6). Como resultado, es posible que vea texto en inglés en los informes listos para usar.
 
@@ -8138,7 +8136,7 @@ Utilice los métodos alternativos siguientes:
 
 ### Error al agrupar campos de serie grandes
 
-`Guía del creador de informes › Limitaciones y métodos alternativos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=workarounds-error-when-grouping-large-string-fields)
+`Guía del creador de informes › Limitaciones y métodos alternativos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=workarounds-error-when-grouping-large-string-fields)
 
 Si agrupa un campo de serie grande con una longitud no especificada, ya sea implícita o explícitamente, la agrupación da como resultado un error de columna no indexado.
 
@@ -8154,7 +8152,7 @@ Si desea agrupar un campo de serie grande, primero debe convertirlo en un tipo d
 
 ### Error de cardinalidad no válida RQP-DEF-0162 al ejecutar un informe
 
-`Guía del creador de informes › Limitaciones y métodos alternativos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=lw-rqp-def-0162-illegal-cardinality-error-when-you-run-report)
+`Guía del creador de informes › Limitaciones y métodos alternativos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=lw-rqp-def-0162-illegal-cardinality-error-when-you-run-report)
 
 Al abrir un informe, obtiene el siguiente error: `RQP-DEF-0162 Illegal cardinality cardTwo.`
 
@@ -8184,7 +8182,7 @@ COMMIT;
 
 ## Avisos
 
-`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=rag-notices)
+`Guía del creador de informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=rag-notices)
 
 Esta información se ha desarrollado para productos y servicios que se ofrecen en Estados Unidos.
 

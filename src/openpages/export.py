@@ -31,10 +31,11 @@ import unicodedata
 from collections import Counter
 from datetime import date
 
-from . import CONFIG, DATA, IMAGES, LANG, OUTPUT, PRODUCT, Node, image_file, topic_url
+from . import (CONFIG, DATA, IMAGES, LANG, OUTPUT, PRODUCT, SITE_URL, VERSION, Node,
+               image_file, topic_url)
 
 MAX_BYTES = CONFIG["export"]["max_bytes"]
-PRODUCT_NAME = "IBM OpenPages 9.0.0"
+PRODUCT_NAME = f"IBM OpenPages {VERSION}"
 IMAGE_DIR = "imagenes"
 IMAGE_SUFFIX = (".jpg", ".jpeg", ".png", ".gif", ".svg", ".webp", ".bmp")
 
@@ -428,7 +429,7 @@ def _about(
     lines += [
         ">",
         f"> **Si lo que buscas no está acá.** {where_else}"
-        "El índice de los 2.511 temas del producto, con su archivo y su ancla, está en "
+        f"El índice de los {_miles(len(documents))} temas del producto, con su archivo y su ancla, está en "
         "`index.md`.",
     ]
     return lines
@@ -530,7 +531,7 @@ def _readme(
     lines = [
         f"# {PRODUCT_NAME} — documentación en español",
         "",
-        f"Extracción completa de <https://www.ibm.com/docs/es/openpages/9.0.0> al {stamp}.",
+        f"Extracción completa de <{SITE_URL}> al {stamp}.",
         f"{len(documents)} temas · {words:,} palabras · {len(files)} archivos".replace(",", "."),
         "",
         "| Nº | Archivo | Guía | Temas | Palabras |",
@@ -641,10 +642,14 @@ def _prompt(documents: dict, files: list[tuple[str, list[str]]]) -> None:
         "on_prem": _miles(on_prem),
         "stamp": date.today().isoformat(),
         "product": PRODUCT_NAME,
+        "version": VERSION,
+        "videos": sum(1 for d in documents.values() if VIDEO.search(d["markdown"])),
     }
     (OUTPUT / "prompt.md").write_text(_PROMPT.format(**numbers).lstrip(), encoding="utf-8")
 
 
+# Un vídeo enlazado desde el texto: IBM los aloja en estos dos dominios.
+VIDEO = re.compile(r"\]\(https?://(?:video|mediacenter)\.ibm\.com/")
 APPLIES_ANY = re.compile(r"\*\*Se aplica a:\*\*\s*(?:\[([^\]]+)\]|([^\n*\[]+))")
 
 
@@ -656,7 +661,7 @@ _HOW = """
   ubica el tema en el árbol y `[origen]` enlaza al tema en ibm.com, que es donde se
   verifica. Sirve sobre todo cuando un buscador devuelve un trozo suelto del archivo.
 - **`Se aplica a:`** al inicio de un tema dice a qué despliegue aplica —local, en cloud,
-  Cloud Pak for Data—. El 31% de los temas lo declara.
+  Cloud Pak for Data—. Cerca de un tercio de los temas lo declara.
 - **Las figuras se enlazan a ibm.com**, que es donde se verifican, y conservan su texto
   alternativo en español, que es lo que un modelo puede leer de ellas. Ojo: IBM responde
   403 a las peticiones de figuras que no vienen de su sitio, así que el enlace vale como
@@ -773,9 +778,9 @@ a ver en pantalla.
 
 Di que no está en la documentación —y no lo completes— cuando:
 
-- La pregunta sea de una versión distinta. Este corpus es **solo 9.0.0**; IBM publica
-  además 8.3.0, 9.1 y 9.2.0, y los procedimientos cambian entre versiones.
-- La respuesta esté en un vídeo. Hay 46 temas que enlazan un vídeo de ibm.com; puedes dar
+- La pregunta sea de una versión distinta. Este corpus es **solo {version}**; IBM publica
+  además 8.3.0, 9.0.0 y 9.2.0, y los procedimientos cambian entre versiones.
+- La respuesta esté en un vídeo. Hay {videos} temas que enlazan un vídeo de ibm.com; puedes dar
   el enlace, pero no describir su contenido.
 - La respuesta esté en un PDF o un ZIP suelto —la guía de referencia de la API REST, la de
   desencadenantes, el SDK, el `swagger2.json`—. Están inventariados en `index.md` con su

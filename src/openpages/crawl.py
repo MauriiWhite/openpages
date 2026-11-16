@@ -35,7 +35,7 @@ from .net import fetch
 TOC_URL = f"https://{HOST}/docs/api/v1/toc/{PRODUCT}?lang={LANG}"
 SITEMAP_URL = f"https://{HOST}/docs/{LANG}/{PRODUCT}/0/sitemap.xml"
 
-# Un destino del propio producto dentro del HTML: `/docs/es/SSFUEU_9.0.0/op_grc_admin/x.html`
+# Un destino del propio producto dentro del HTML: `/docs/es/SSFUEU_9.1/op_grc_admin/x.html`
 LOCAL = re.compile(
     rf'(?:href|src)="/docs/[a-z]{{2}}/({re.escape(PRODUCT)}/[^"#?]+)', re.IGNORECASE
 )

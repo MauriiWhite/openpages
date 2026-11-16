@@ -1,12 +1,12 @@
 ---
-product: IBM OpenPages 9.0.0
-product_key: SSFUEU_9.0.0
+product: IBM OpenPages 9.1.3
+product_key: SSFUEU_9.1
 file: 1
 guide: Notas del release
 covers: Notas del release
 chapters: 1
 topics: 1
-words: 176
+words: 155
 tasks: 0
 concepts: 1
 references: 0
@@ -14,19 +14,19 @@ tables: 0
 code_blocks: 0
 figures: 0
 applies_to: sin declarar
-updated: 2025-02-13
+updated: 2026-01-20
 lang: es
-source: https://www.ibm.com/docs/es/openpages/9.0.0?topic=release-notes
-extracted: 2026-09-11
+source: https://www.ibm.com/docs/es/openpages/9.1.x?topic=release-notes
+extracted: 2026-11-16
 ---
 
 # 1 · Notas del release
 
-> **Qué hay en este archivo.** «Notas del release» de IBM OpenPages 9.0.0, completa: 1 capítulo. 1 tema y 176 palabras.
+> **Qué hay en este archivo.** «Notas del release» de IBM OpenPages 9.1.3, completa: 1 capítulo. 1 tema y 155 palabras.
 >
 > **Capítulos:** Notas del release.
 >
-> **Si lo que buscas no está acá.** El índice de los 2.511 temas del producto, con su archivo y su ancla, está en `index.md`.
+> **Si lo que buscas no está acá.** El índice de los 2.417 temas del producto, con su archivo y su ancla, está en `index.md`.
 
 
 
@@ -37,9 +37,9 @@ extracted: 2026-09-11
 
 # Notas del release
 
-`Notas del release` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=release-notes)
+`Notas del release` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=release-notes)
 
-Las notas del release proporcionan una lista de temas y enlaces útiles para utilizar IBM OpenPages®, IBM OpenPages for IBM Cloud Pak for Datay IBM OpenPages on Cloud 9.0.x.
+Las notas de la versión proporcionan una lista de temas y enlaces útiles para utilizar IBM OpenPages®, IBM OpenPages for IBM Cloud Pak for Data y IBM OpenPages en Cloud 9.1.x.
 
 ## Documentación del producto
 
@@ -55,8 +55,4 @@ Para revisar una lista actualizada de entornos soportados por IBM OpenPages, com
 
 ## Lista de arreglos
 
-Para ver una lista de los problemas conocidos que se han solucionado en este release, consulte la [Lista de arreglos](https://www.ibm.com/support/pages/node/6998091).
-
-## Problemas conocidos
-
-Para ver y buscar temas de resolución de problemas, alertas, métodos alternativos e información adicional, vaya a la  [OpenPages](https://www.ibm.com/support/pages/node/6998093) .
+Para ver una lista de los problemas conocidos que se han solucionado en este release, consulte la [Lista de arreglos](https://www.ibm.com/support/pages/node/7181395).

@@ -7,7 +7,7 @@ bueno sin decir nada.
 
 Por eso se valida **antes** de escribir y se aborta conservando la salida anterior.
 
-Las cotas están MEDIDAS sobre el corpus real (2026-09-11) con ~10% de holgura. Si una
+Las cotas están MEDIDAS sobre el corpus real de 9.1 (2026-11-16) con ~10% de holgura. Si una
 estorba, la respuesta es entender por qué se violó, no bajarle el umbral: una invariante
 mal calibrada llora lobo hasta que deja de significar algo.
 """
@@ -21,17 +21,17 @@ from datetime import UTC, datetime
 
 from . import DATA, MIN_TOPICS, Node
 
-MIN_WITH_TITLE = 0.99      # medido: 2.465 de 2.465
-MIN_WITH_BODY = 0.98       # medido: 99,3% pasan de 80 caracteres
-MIN_TABLES = 475           # medido: 529
-MIN_FIGURES = 1580         # medido: 1.758 (las 922 píldoras de aplicabilidad
+MIN_WITH_TITLE = 0.99      # medido: 2.417 de 2.417
+MIN_WITH_BODY = 0.98       # medido: 99,5% pasan de 80 caracteres
+MIN_TABLES = 395           # medido: 438 (529 en 9.0.0: IBM quitó tablas en 9.1)
+MIN_FIGURES = 1500         # medido: 1.664 (las 922 píldoras de aplicabilidad
                            # salen como rótulo, no como imagen: no son figuras)
-MIN_CODE_BLOCKS = 1580     # medido: 1.759
+MIN_CODE_BLOCKS = 1600     # medido: 1.786
 # El índice lista una página que el servidor no sirve (`Bienvenido`, el marcador de la
 # portada). Una es normal; si mañana son cien, el árbol cambió y hay que mirarlo.
 MAX_MISSING = 3
 # El español es el punto del ejercicio. IBM sirve el inglés como respaldo cuando le falta
-# una traducción, y eso no da error: da un tema en otro idioma. Medido: 2.457 de 2.465.
+# una traducción, y eso no da error: da un tema en otro idioma. Medido: 2.412 de 2.417.
 MIN_SPANISH = 0.97
 # Variación de volumen entre corridas. Un fixpack mueve páginas, no un cuarto del texto.
 MAX_TEXT_DRIFT = 0.25

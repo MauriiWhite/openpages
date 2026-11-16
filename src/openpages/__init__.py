@@ -1,4 +1,4 @@
-"""Extracción de IBM Documentation (OpenPages 9.0.0, español) a Markdown verificable.
+"""Extracción de IBM Documentation (OpenPages 9.1.3, español) a Markdown verificable.
 
 El árbol, las rutas y la configuración. Todo lo demás cuelga de acá.
 """
@@ -12,6 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 CONFIG = tomllib.loads((ROOT / "config.toml").read_text(encoding="utf-8"))
 
+VERSION: str = CONFIG["source"]["version"]
 PRODUCT: str = CONFIG["source"]["product"]
 LANG: str = CONFIG["source"]["lang"]
 HOST: str = CONFIG["source"]["host"]
@@ -68,7 +69,7 @@ class Node:
 def guide_of(href: str) -> str:
     """La guía a la que pertenece un `href`.
 
-    `SSFUEU_9.0.0/op_grc_admin/c_foo.html` -> `op_grc_admin`. Las dos páginas sueltas del
+    `SSFUEU_9.1/op_grc_admin/c_foo.html` -> `op_grc_admin`. Las dos páginas sueltas del
     producto (`Bienvenido`, `PDF`) no cuelgan de un directorio de guía; ahí el segmento
     intermedio es el que hay, y para `Bienvenido` no existe: se queda con su propio nombre.
     """
@@ -103,6 +104,6 @@ def walk(toc: dict) -> dict[str, Node]:
             )
         return topic_id
 
-    # La raíz es el producto, no una guía: su `href` es `SSFUEU_9.0.0` a secas.
+    # La raíz es el producto, no una guía: su `href` es `SSFUEU_9.1` a secas.
     visit(toc, 0, None, "", [])
     return nodes

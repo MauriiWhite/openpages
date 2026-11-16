@@ -1,15 +1,18 @@
-# Configuración de la extracción de IBM Documentation para OpenPages 9.0.0 en español.
+# Configuración de la extracción de IBM Documentation para OpenPages 9.1.3 en español.
 # Solo va acá lo que de verdad se ajusta.
 
 [source]
+# La versión que se nombra en el entregable. IBM no publica un set por fixpack: el de 9.1
+# cubre de 9.1.0 a 9.1.3, y 9.1.3 es el último.
+version = "9.1.3"
 # La clave de producto de IBM Docs. Es la única identidad estable del corpus: el número de
-# versión del título cambia entre fixpacks, `SSFUEU_9.0.0` no.
-product = "SSFUEU_9.0.0"
+# versión del título cambia entre fixpacks, `SSFUEU_9.1` no.
+product = "SSFUEU_9.1"
 lang = "es"
 host = "www.ibm.com"
 # La URL que ve una persona. Va en cada documento como procedencia, y no es la que se
 # descarga: el sitio es una SPA y la página HTML no trae el texto.
-site_url = "https://www.ibm.com/docs/es/openpages/9.0.0"
+site_url = "https://www.ibm.com/docs/es/openpages/9.1.x"
 
 [transport]
 # MEDIDO: el WAF de IBM responde 403 a HTTP/1.1 y 200 a HTTP/2 con las mismas cabeceras.
@@ -23,17 +26,17 @@ timeout = 40
 # nombra la guía dentro del producto (`op_grc_admin`), no su título: el título está
 # traducido y cambia con la versión, el directorio no.
 #
-# `min_topics` es una cota inferior MEDIDA sobre el corpus (2026-09-11) con ~10% de holgura.
+# `min_topics` es una cota inferior MEDIDA sobre el corpus 9.1 (2026-11-16) con ~10% de holgura.
 # Cuenta los temas del índice MÁS los que solo están enlazados desde el texto: la guía del
-# administrador tiene 1.099 listados y 45 que IBM no lista. Caer por debajo significa que la
+# administrador tiene 1.108 listados y 43 que IBM no lista. Caer por debajo significa que la
 # extracción de ESA guía se rompió.
 [[guides]]
 slug = "op_grc_admin"
-min_topics = 1029
+min_topics = 1035
 
 [[guides]]
 slug = "op_grc_installation"
-min_topics = 458
+min_topics = 426
 
 [[guides]]
 slug = "op_grc_report_authors"
@@ -41,15 +44,15 @@ min_topics = 226
 
 [[guides]]
 slug = "op_grc_user"
-min_topics = 225
+min_topics = 214
 
 [[guides]]
 slug = "op_grc_solutions"
-min_topics = 104
+min_topics = 94
 
 [[guides]]
 slug = "op_grc_new_features"
-min_topics = 82
+min_topics = 42
 
 [[guides]]
 slug = "op_grc_upgrade_db2"
@@ -57,11 +60,11 @@ min_topics = 60
 
 [[guides]]
 slug = "op_grc_upgrade_ora"
-min_topics = 58
+min_topics = 56
 
 [[guides]]
 slug = "op_grc_dev"
-min_topics = 12
+min_topics = 16
 
 [[guides]]
 slug = "op_grc_release_notes"

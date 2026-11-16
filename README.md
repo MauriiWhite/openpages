@@ -1,10 +1,10 @@
 # openpages
 
-Extrae la documentación de **IBM OpenPages 9.0.0 en español** a Markdown verificable.
+Extrae la documentación de **IBM OpenPages 9.1.3 en español** a Markdown verificable.
 
-Entrada: <https://www.ibm.com/docs/es/openpages/9.0.0>.
-Salida: `output/`, **17 archivos** Markdown con los 2.511 temas del producto, sus 529 tablas,
-sus 1.759 bloques de código y sus 1.758 figuras referenciadas, pensados para dárselos a un
+Entrada: <https://www.ibm.com/docs/es/openpages/9.1.x> (el set de 9.1, que llega hasta el fixpack 9.1.3).
+Salida: `output/`, **17 archivos** Markdown con los 2.417 temas del producto, sus 438 tablas,
+sus 1.786 bloques de código y sus 1.664 figuras referenciadas, pensados para dárselos a un
 modelo.
 
 ```bash
@@ -22,7 +22,7 @@ Sin dependencias de Python. Necesita `curl` en el sistema, y más abajo está el
 
 ```
 output/
-  index.md                             índice maestro: cómo elegir archivo + los 2.511 temas
+  index.md                             índice maestro: cómo elegir archivo + los 2.417 temas
   prompt.md                            instrucciones listas para el agente de Copilot Studio
   01-notas-del-release.md
   02-caracteristicas-nuevas.md
@@ -45,32 +45,32 @@ acá o en otro archivo**, sin abrir los diecisiete:
 file: "03.2"
 guide: Guía del administrador
 part: 2 de 6
-covers: Campos y grupos de campos — Configurar el comentario de objetos
+covers: Tipos de objeto — Configuración de GRC Calculations
 chapters: 6
-topics: 144
-words: 80963
-tasks: 95
-concepts: 41
-references: 5
-tables: 37
-code_blocks: 24
-figures: 221
+topics: 108
+words: 81089
+tasks: 63
+concepts: 43
+references: 1
+tables: 50
+code_blocks: 33
+figures: 227
 applies_to: Todos los tipos de despliegue
 ---
 
 # 03.2 · Guía del administrador — parte 2 de 6
 
-> **Qué hay en este archivo.** «Guía del administrador» de IBM OpenPages 9.0.0, parte 2 de 6:
-> capítulos «Campos y grupos de campos» a «Configurar el comentario de objetos». 144 temas,
-> 95 de ellos procedimientos paso a paso, 37 tablas, 24 bloques de código, 221 figuras y
-> 80.963 palabras.
+> **Qué hay en este archivo.** «Guía del administrador» de IBM OpenPages 9.1.3, parte 2 de 6:
+> capítulos «Tipos de objeto» a «Configuración de GRC Calculations». 108 temas,
+> 63 de ellos procedimientos paso a paso, 50 tablas, 33 bloques de código, 227 figuras y
+> 81.089 palabras.
 >
-> **Capítulos:** Campos y grupos de campos · Tipos de objeto · Perfiles · …
+> **Capítulos:** Tipos de objeto · Perfiles · Configuración de la interfaz de usuario · …
 >
 > **Se aplica a:** Todos los tipos de despliegue.
 >
 > **Si lo que buscas no está acá.** El resto de esta guía está en 03.1, 03.3, 03.4, 03.5,
-> 03.6. El índice de los 2.511 temas del producto está en `index.md`.
+> 03.6. El índice de los 2.417 temas del producto está en `index.md`.
 
 **Términos propios de este archivo:** campo, relación, cuadrícula, filtro, colores, paleta, …
 ```
@@ -84,13 +84,13 @@ que IBM los lista. Bajo cada encabezado va una línea de ubicación:
 
 | | |
 | --- | ---: |
-| Temas | 2.511 |
-| De ellos, fuera del índice de IBM | 46 |
+| Temas | 2.417 |
+| De ellos, fuera del índice de IBM | 44 |
 | Archivos Markdown | 17 + índice |
-| Markdown | 6,57 MB |
-| Figuras referenciadas | 1.758 |
-| Tablas | 529 |
-| Bloques de código | 1.759 |
+| Markdown | 6,44 MB |
+| Figuras referenciadas | 1.664 |
+| Tablas | 438 |
+| Bloques de código | 1.786 |
 | Cobertura del texto de origen | **99,985%** |
 
 ## Las cuatro etapas
@@ -114,14 +114,17 @@ ibm.com/docs/api ──▶ crawl ──▶ data/cache/ ──▶ parse ──▶
 
 ## Decisiones que costó entender
 
+> Las cifras de esta sección se midieron sobre el corpus 9.0.0, que es donde se tomaron
+> estas decisiones. Las vigentes de 9.1.3 están arriba y en «Las dos redes».
+
 ### El sitio no se puede leer como una página
 
-`https://www.ibm.com/docs/es/openpages/9.0.0?topic=…` es una SPA: su HTML trae **17
+`https://www.ibm.com/docs/es/openpages/9.1.x?topic=…` es una SPA: su HTML trae **17
 caracteres** de texto visible y el contenido llega después por el API. Descargar las
 páginas públicas daría 2.467 archivos vacíos.
 
 El contenido sale de `/docs/api/v1/content/<href>?parsebody=true&lang=es`, y el árbol
-entero de una sola petición a `/docs/api/v1/toc/SSFUEU_9.0.0?lang=es`.
+entero de una sola petición a `/docs/api/v1/toc/SSFUEU_9.1?lang=es`.
 
 ### HTTP/2 no es una optimización, es el requisito
 
@@ -253,15 +256,15 @@ de sintaxis que la propia documentación imprime.
 
 | Invariante | Cota | Medido |
 | --- | --- | ---: |
-| Temas por guía | `config.toml` | 1 a 1.144 |
-| Temas del índice sin descargar | `<= 3` | 1 |
+| Temas por guía | `config.toml` | 1 a 1.151 |
+| Temas del índice sin descargar | `<= 3` | 2 |
 | Con título | `>= 99%` | 100% |
-| Con cuerpo (>80 caracteres) | `>= 98%` | 99,4% |
-| En español | `>= 97%` | 99,7% |
-| Tablas | `>= 475` | 529 |
-| Figuras | `>= 1.580` | 1.758 |
-| Bloques de código | `>= 1.580` | 1.759 |
-| Temas del sitemap de IBM presentes | todos | 2.386 de 2.386 |
+| Con cuerpo (>80 caracteres) | `>= 98%` | 99,5% |
+| En español | `>= 97%` | 99,8% |
+| Tablas | `>= 395` | 438 |
+| Figuras | `>= 1.500` | 1.664 |
+| Bloques de código | `>= 1.600` | 1.786 |
+| Temas del sitemap de IBM presentes | todos | 2.294 de 2.294 |
 | Variación de volumen entre corridas | `<= ±25%` | — |
 
 Para forzar —solo cuando ya entendiste por qué se violó—:
@@ -276,12 +279,12 @@ Los conteos no pueden ver una pérdida *dentro* de un tema. `verify` compara el 
 HTML de origen contra el Markdown producido:
 
 ```
-source text: 874.540 words · not in the Markdown: 129 · coverage 99,9852%
-IBM's sitemap: 2386 topics, 0 missing from the corpus
-package: 1758 figures (linked to ibm.com, 0 unresolved), 9779 internal links (13 unresolved)
+source text: 862.192 words · not in the Markdown: 132 · coverage 99,9847%
+IBM's sitemap: 2294 topics, 0 missing from the corpus
+package: 1664 figures (linked to ibm.com, 0 unresolved), 9240 internal links (13 unresolved)
 ```
 
-Las 129 palabras que faltan son las que IBM escribe pegadas a una etiqueta
+Las 132 palabras que faltan son las que IBM escribe pegadas a una etiqueta
 (`<span>Thomson Reuters</span>y`): se transcriben tal cual, así que aparecen como ausentes
 sin serlo. Los 13 enlaces son texto literal de IBM dentro de bloques de código.
 
@@ -304,7 +307,8 @@ sin serlo. Los 13 enlaces son texto literal de IBM dentro de bloques de código.
 - **El material que no es prosa.** IBM publica 17 archivos sueltos —los PDF de la API REST
   y de los desencadenantes, el `swagger2.json`, los ZIP del SDK y el Javadoc—. Están
   inventariados en `output/index.md` y enlazados a su origen, pero no entran al corpus.
-- **Los 46 vídeos.** Se conservan como enlace con su descripción en español; su contenido
+- **Los vídeos de 39 temas.** Se conservan como enlace con su descripción en español; su contenido
   está en píxeles y no se interpreta.
-- **Solo 9.0.0.** IBM publica 8.3.0, 9.1 y 9.2.0 en español. Cambiar de versión es una
-  línea de `config.toml` y volver a correr.
+- **Solo 9.1.3.** IBM publica 8.3.0, 9.0.0 y 9.2.0 en español. Cambiar de versión es
+  `[source]` en `config.toml` (versión, clave de producto, URL), volver a correr y
+  re-medir las cotas de `guard.py` y `min_topics` si las invariantes saltan.

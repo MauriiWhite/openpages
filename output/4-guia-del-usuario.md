@@ -1,54 +1,40 @@
 ---
-product: IBM OpenPages 9.0.0
-product_key: SSFUEU_9.0.0
+product: IBM OpenPages 9.1.3
+product_key: SSFUEU_9.1
 file: 4
 guide: Guía del usuario
 covers: Guía del usuario — Avisos
 chapters: 23
-topics: 250
-words: 70345
-tasks: 75
-concepts: 153
+topics: 238
+words: 70744
+tasks: 76
+concepts: 140
 references: 3
-tables: 26
-code_blocks: 17
-figures: 245
-applies_to: En cloud
-updated: 2025-09-26
+tables: 14
+code_blocks: 18
+figures: 252
+applies_to: En cloud, De forma local
+updated: 2026-08-20
 lang: es
-source: https://www.ibm.com/docs/es/openpages/9.0.0?topic=user-guide
-extracted: 2026-09-11
+source: https://www.ibm.com/docs/es/openpages/9.1.x?topic=user-guide
+extracted: 2026-11-16
 ---
 
 # 4 · Guía del usuario
 
-> **Qué hay en este archivo.** «Guía del usuario» de IBM OpenPages 9.0.0, completa: 23 capítulos. 250 temas, 75 de ellos procedimientos paso a paso, 26 tablas, 17 bloques de código, 245 figuras y 70.345 palabras.
+> **Qué hay en este archivo.** «Guía del usuario» de IBM OpenPages 9.1.3, completa: 23 capítulos. 238 temas, 76 de ellos procedimientos paso a paso, 14 tablas, 18 bloques de código, 252 figuras y 70.744 palabras.
 >
-> **Capítulos:** Guía del usuario · Novedades · Cómo empezar con la interfaz de usuario · Su cuadro de mandos · Trabajo con objetos · Creación y asociación de objetos · Utilización de filtros en vistas de cuadrícula · Búsqueda global · Trabajar con archivos y enlaces · Trabajar con informes · Cuestionarios · Aplicación de firmas y bloqueos · y 11 más.
+> **Capítulos:** Guía del usuario · Cómo empezar con la interfaz de usuario · Su cuadro de mandos · Trabajo con objetos · Creación y asociación de objetos · Visualización del riesgo y el cumplimiento mediante Canvas · Utilización de filtros en vistas de cuadrícula · Búsqueda global · Trabajar con archivos y enlaces · Trabajar con informes · Cuestionarios · Aplicación de firmas y bloqueos · y 11 más.
 >
-> **Se aplica a:** En cloud.
+> **Se aplica a:** En cloud, De forma local.
 >
-> **Si lo que buscas no está acá.** El índice de los 2.511 temas del producto, con su archivo y su ancla, está en `index.md`.
+> **Si lo que buscas no está acá.** El índice de los 2.417 temas del producto, con su archivo y su ancla, está en `index.md`.
 
-**Términos propios de este archivo:** cuadrícula, encuestado, filtro, subsecciones, conformidad, respuestas, comentarios, subsección, reguladora, vencimiento, masivo, reguladores, inserta, gráfico.
+**Términos propios de este archivo:** cuadrícula, encuestado, conformidad, reguladora, vencimiento, respuestas, masivo, subsecciones, comentarios, subsección, reguladores, paneles, inserta, relación.
 
 ## Índice de este archivo
 
 - [Guía del usuario](#guía-del-usuario)
-- [Novedades](#novedades)
-  - [Novedades de la versión 9.0.0.5](#novedades-de-la-versión-9005)
-  - [Novedades de la versión 9.0.0.4](#novedades-de-la-versión-9004)
-  - [Características nuevas de la versión 9.0.0.3](#características-nuevas-de-la-versión-9003)
-  - [Características nuevas de la versión 9.0.0.2](#características-nuevas-de-la-versión-9002)
-  - [Características nuevas de la versión 9.0.0.1](#características-nuevas-de-la-versión-9001)
-  - [Características nuevas de la versión 9.0.0.0](#características-nuevas-de-la-versión-9000)
-  - [Características nuevas de la versión 8.3.0.2](#características-nuevas-de-la-versión-8302)
-  - [Características nuevas de la versión 8.3.0.1](#características-nuevas-de-la-versión-8301)
-  - [Nuevas características en la versión 8.3.0](#nuevas-características-en-la-versión-830)
-  - [Nuevas características en la versión 8.2.0.3](#nuevas-características-en-la-versión-8203)
-  - [Nuevas características en la versión 8.2.0.2](#nuevas-características-en-la-versión-8202)
-  - [Nuevas características en la versión 8.2.0.1](#nuevas-características-en-la-versión-8201)
-  - [Características nuevas de la versión 8.2.0](#características-nuevas-de-la-versión-820)
 - [Cómo empezar con la interfaz de usuario](#cómo-empezar-con-la-interfaz-de-usuario)
   - [Utilización de la IU](#utilización-de-la-iu)
   - [Inicio de sesión en IBM OpenPages for IBM Cloud Pak for Data](#inicio-de-sesión-en-ibm-openpages-for-ibm-cloud-pak-for-data)
@@ -65,7 +51,6 @@ extracted: 2026-09-11
   - [Utilización de IBM watsonx Assistant](#utilización-de-ibm-watsonx-assistant)
   - [Traducción de valores en campos de texto](#traducción-de-valores-en-campos-de-texto)
   - [Modelos de aprendizaje automático](#modelos-de-aprendizaje-automático)
-  - [Proporcionar comentarios utilizando una encuesta NPS](#proporcionar-comentarios-utilizando-una-encuesta-nps)
   - [Ciclos de vida configurables](#ciclos-de-vida-configurables)
   - [Servicios de procesamiento de lenguaje natural](#servicios-de-procesamiento-de-lenguaje-natural)
   - [Etiquetas](#etiquetas)
@@ -78,6 +63,7 @@ extracted: 2026-09-11
   - [Añadir paneles y widgets a una pestaña](#añadir-paneles-y-widgets-a-una-pestaña)
     - [Adición de un panel de gráfico](#adición-de-un-panel-de-gráfico)
     - [Adición de un panel personalizado](#adición-de-un-panel-personalizado)
+    - [Añadir un comentario Panel de actividad](#añadir-un-comentario-panel-de-actividad)
     - [Adición de un panel de favoritos](#adición-de-un-panel-de-favoritos)
     - [Adición de un panel de informes](#adición-de-un-panel-de-informes)
     - [Adición de un panel Mis tareas](#adición-de-un-panel-mis-tareas)
@@ -98,7 +84,7 @@ extracted: 2026-09-11
   - [Exportación de datos de los resultados filtrados](#exportación-de-datos-de-los-resultados-filtrados)
   - [Imprimir una vista en PDF](#imprimir-una-vista-en-pdf)
   - [Edición de objetos en una vista de tarea](#edición-de-objetos-en-una-vista-de-tarea)
-  - [Comentar objetos](#comentar-objetos)
+  - [Añadir comentarios a los objetos](#añadir-comentarios-a-los-objetos)
   - [Copia de objetos](#copia-de-objetos)
   - [Supresión de objetos](#supresión-de-objetos)
   - [Renombrar un objeto desde una vista de tarea](#renombrar-un-objeto-desde-una-vista-de-tarea)
@@ -113,6 +99,7 @@ extracted: 2026-09-11
   - [Disociación de objetos](#disociación-de-objetos)
   - [Asociación padre principal](#asociación-padre-principal)
     - [Cambio de la asociación padre principal](#cambio-de-la-asociación-padre-principal)
+- [Visualización del riesgo y el cumplimiento mediante Canvas](#visualización-del-riesgo-y-el-cumplimiento-mediante-canvas)
 - [Utilización de filtros en vistas de cuadrícula](#utilización-de-filtros-en-vistas-de-cuadrícula)
   - [Búsqueda de objetos con el recuadro Buscar](#búsqueda-de-objetos-con-el-recuadro-buscar)
   - [Utilización de filtros de carpeta (Entidad de negocios)](#utilización-de-filtros-de-carpeta-entidad-de-negocios)
@@ -153,6 +140,7 @@ extracted: 2026-09-11
     - [Establecer los valores de campo de un objeto basándose en las respuestas de un encuestado](#establecer-los-valores-de-campo-de-un-objeto-basándose-en-las-respuestas-de-un-encuestado)
     - [Creación de un objeto basado en las respuestas de un encuestado](#creación-de-un-objeto-basado-en-las-respuestas-de-un-encuestado)
     - [Copia de un objeto basado en las respuestas de un encuestado](#copia-de-un-objeto-basado-en-las-respuestas-de-un-encuestado)
+      - [Copia de objetos hijos relacionados](#copia-de-objetos-hijos-relacionados)
     - [Adición de variables de objeto a una plantilla de cuestionario](#adición-de-variables-de-objeto-a-una-plantilla-de-cuestionario)
     - [Adición de enlaces a una plantilla de cuestionario](#adición-de-enlaces-a-una-plantilla-de-cuestionario)
       - [Enlaces fijos en las plantillas de cuestionario](#enlaces-fijos-en-las-plantillas-de-cuestionario)
@@ -288,7 +276,7 @@ extracted: 2026-09-11
 
 # Guía del usuario
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=user-guide)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=user-guide)
 
 La publicación *IBM OpenPages Guía del usuario* está pensada para su uso con OpenPages®. Esta guía contiene instrucciones para utilizar la aplicación OpenPages .
 
@@ -302,277 +290,15 @@ Si tiene alguna pregunta sobre la funcionalidad disponible en la versión del pr
 
 Las características de accesibilidad ayudan a los usuarios que tienen alguna discapacidad física, por ejemplo movilidad restringida o visión limitada, a utilizar productos de tecnología de la información. La documentación de OpenPages tiene características de accesibilidad. Los documentos PDF son complementarios y no incluyen características de accesibilidad.
 
-## Novedades
-
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ug-whats-new)
-
-Hay características nuevas y modificadas disponibles para IBM OpenPages®.
-
-Para obtener información sobre todas las características nuevas de este release, consulte la publicación *IBM OpenPages New Features Guide*.
-
-### Novedades de la versión 9.0.0.5
-
-`Guía del usuario › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=new-features-in-version-9005)
-
-Las novedades de la versión 9.0.0.4 de " IBM OpenPages® " se describen en las tablas siguientes.
-
-Para conocer las nuevas funciones de la versión 9.0.0.5, consulte la [*Guía de nuevas funciones deIBM OpenPages*](2-caracteristicas-nuevas.md#características-nuevas).
-
-### Novedades de la versión 9.0.0.4
-
-`Guía del usuario › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=new-features-in-version-9004)
-
-Las novedades de la versión IBM OpenPages® 9.0.0.4 se describen en las siguientes tablas.
-
-Para obtener más información, consulte la [*IBM OpenPages*](2-caracteristicas-nuevas.md#características-nuevas).
-
-#### Mejoras en la interfaz de usuario
-
-**Tabla 1. UI centrada en tareasmejoras**
-
-| Mejora | Enlaces a la documentación |
-| --- | --- |
-| Puede hacer clic en **¿Ha olvidado la contraseña?** en la pantalla de inicio de sesión si olvida su contraseña. | [iniciando sesión](#inicio-de-sesión) |
-| El término *tablero* se refiere ahora a la página de inicio en su conjunto. El cuadro de mandos es la página inicial que se muestra a los usuarios cuando inician sesión en OpenPages. | [Tu panel de control](#su-cuadro-de-mandos) |
-| Puedes añadir informes y pestañas personalizadas a tu panel de control. El cuadro de mandos puede contener hasta tres pestañas para Cognos® y OpenPages y hasta tres pestañas personalizadas. | [Añadir un informe o una ficha personalizada](#añadir-un-informe-o-una-ficha-personalizada) |
-| Si no desea que una acción de respuesta intente volver a crear un objeto nuevo si ya existe un objeto con el mismo nombre, seleccione **Omitir si existe**. | [Crear un objeto a partir de las respuestas de un encuestado](#creación-de-un-objeto-basado-en-las-respuestas-de-un-encuestado) |
-| Puede utilizar una expresión al establecer los valores de campo de un objeto basándose en las respuestas de un encuestado. | [Establecimiento de los valores de campo de un objeto en función de las respuestas de un encuestado](#establecer-los-valores-de-campo-de-un-objeto-basándose-en-las-respuestas-de-un-encuestado) |
-| Ya está disponible el tipo de gráfico de barras apiladas. | [Ejemplo: Barra apilada](3.6-guia-del-administrador.md#ejemplos-de-diagrama-de-gráfico) |
-
-### Características nuevas de la versión 9.0.0.3
-
-`Guía del usuario › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=new-features-in-version-9003)
-
-Las nuevas características de IBM OpenPages® versión 9.0.0.3 se describen en las tablas siguientes.
-
-Para obtener más información, consulte la publicación [*IBM OpenPages Guía de características nuevas*](2-caracteristicas-nuevas.md#características-nuevas).
-
-#### Mejoras en la interfaz de usuario
-
-**Tabla 1. Mejoras de Interfaz de usuario centrada en tareas**
-
-| Mejora | Enlaces a la documentación |
-| --- | --- |
-| Puede editar y suprimir comentarios en cuestionarios. | [Completar una evaluación de cuestionario](#completar-una-evaluación-de-cuestionario)<br>[Revisión de una evaluación de cuestionario](#revisión-de-una-evaluación-de-cuestionario) |
-| En un cuestionario, puede hacer que una respuesta sea exclusiva para una pregunta de varias opciones. Cuando un encuestado elige una respuesta exclusiva, no puede seleccionar ninguna otra respuesta para la pregunta después de seleccionar una respuesta exclusiva. | [Añadido de preguntas a una plantilla de cuestionario](#añadido-de-preguntas-a-una-plantilla-de-cuestionario)<br>[Completar una evaluación de cuestionario](#completar-una-evaluación-de-cuestionario) |
-
-### Características nuevas de la versión 9.0.0.2
-
-`Guía del usuario › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=new-features-in-version-9002)
-
-Las características nuevas de IBM OpenPages® versión 9.0.0.2 se describen en las tablas siguientes.
-
-Para obtener más información, consulte la publicación [*IBM OpenPages Guía de características nuevas*](2-caracteristicas-nuevas.md#características-nuevas).
-
-#### Mejoras en la interfaz de usuario
-
-**Tabla 1. Mejoras de Interfaz de usuario centrada en tareas**
-
-| Mejora | Enlaces a la documentación |
-| --- | --- |
-| Puede configurar una acción de respuesta en una plantilla de cuestionario para crear un objeto nuevo o copiar un objeto existente. | [Creación de un objeto basado en las respuestas de un encuestado](#creación-de-un-objeto-basado-en-las-respuestas-de-un-encuestado)<br>[Copia de un objeto basado en las respuestas de un encuestado](#copia-de-un-objeto-basado-en-las-respuestas-de-un-encuestado) |
-| Cuando está revisando una evaluación de cuestionario, puede establecer un filtro para que solo vea las preguntas con puntuaciones bajas. | [Revisión de una evaluación de cuestionario](#revisión-de-una-evaluación-de-cuestionario) |
-| Ahora puede tener varias vistas de informe disponibles al visualizar un objeto. | [Compartir información clave sobre un objeto](#compartición-de-información-clave-sobre-un-objeto) |
-
-### Características nuevas de la versión 9.0.0.1
-
-`Guía del usuario › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=new-features-in-version-9001)
-
-Las nuevas características de IBM OpenPages® versión 9.0.0.1 se describen en las tablas siguientes.
-
-Para obtener más información, consulte la publicación [*IBM OpenPages Guía de características nuevas*](2-caracteristicas-nuevas.md#características-nuevas).
-
-#### Mejoras en la interfaz de usuario
-
-**Tabla 1. Mejoras de Interfaz de usuario centrada en tareas**
-
-| Mejora | Enlaces a la documentación |
-| --- | --- |
-| Puede configurar una acción de respuesta en una plantilla de cuestionario para establecer los valores de los campos en los objetos basándose en las respuestas que proporciona un encuestado en una evaluación de cuestionario. | [Establecimiento de los valores de campo de un objeto basándose en las respuestas de un encuestado](#establecer-los-valores-de-campo-de-un-objeto-basándose-en-las-respuestas-de-un-encuestado) |
-| Una vista de informe muestra información de sólo lectura sobre un objeto. Se configura de forma similar a una vista de tarea. Mientras que una vista de tarea está diseñada para que una persona o grupo trabaje en esa actividad o tarea, una vista de informe es un resumen de la información clave sobre el objeto. Con una vista de informe, los usuarios pueden centrarse en, y resaltar, los aspectos más esenciales del objeto. | [Compartir información clave sobre un objeto](#compartición-de-información-clave-sobre-un-objeto) |
-| Al seleccionar **Imprimir** ![Botón Imprimir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/print_button.png) en una vista, puede imprimirlo en PDF. El archivo se puede imprimir o guardar como PDF. Incluye texto enriquecido, estado de flujo de trabajo, etiquetas, enlaces a objetos, toda la información de cuadrícula tabular y la fecha y hora de la exportación para la auditabilidad. | [Impresión de una vista en PDF](#imprimir-una-vista-en-pdf) |
-| Hay nuevas opciones de filtro en la vista Actividad. Ahora puede refinar la búsqueda de acuerdo con fechas, horas y usuarios específicos. | [Visualización del historial de cambios en la pestaña Actividad](#visualización-del-historial-de-cambios-en-la-pestaña-actividad) |
-| Ahora puede utilizar etiquetas para filtrar una vista de cuadrícula.<br>Además, ahora puede restringir una condición de objeto relacionada para mostrar solo los padres primarios. | [Definición de filtros privados](#definición-de-filtros-privados) |
-
-### Características nuevas de la versión 9.0.0.0
-
-`Guía del usuario › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=new-features-in-version-9000)
-
-Las nuevas características de IBM OpenPages® versión 9.0.0.0 se describen en las tablas siguientes.
-
-Para obtener más información, consulte la publicación [*IBM OpenPages Guía de características nuevas*](2-caracteristicas-nuevas.md#características-nuevas).
-
-#### Mejoras en la interfaz de usuario
-
-**Tabla 1. Mejoras de Interfaz de usuario centrada en tareas**
-
-| Para obtener información sobre... | Consulte el tema... |
-| --- | --- |
-| Visualización de informes como archivos formateados o sin formato de Microsoft Excel | [Visualizar informes en un formato diferente](#visualizar-informes-en-un-formato-diferente) |
-| Selección del perfil al iniciar la sesión | [iniciando sesión](#inicio-de-sesión) |
-| Utilización de una plantilla de cuestionario para especificar lógica compleja para que las dependencias oculten o muestren preguntas | [Creación de dependencias de pregunta](#creación-de-dependencias-de-preguntas) |
-
-### Características nuevas de la versión 8.3.0.2
-
-`Guía del usuario › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=new-features-in-version-8302)
-
-Las características nuevas de IBM OpenPages® versión 8.3.0.2 se describen en las tablas siguientes.
-
-Para obtener más información, consulte la publicación [*IBM OpenPages Guía de características nuevas*](2-caracteristicas-nuevas.md#características-nuevas).
-
-#### Mejoras en la interfaz de usuario
-
-**Tabla 1. Mejoras de Interfaz de usuario centrada en tareas**
-
-| Para obtener información sobre... | Consulte el tema... |
-| --- | --- |
-| Si desea editar la declaración de limitación de responsabilidad en una plantilla de cuestionario, debe modificar el texto de la aplicación `questionnaire.intro.label.informationDetails`. | [Edición de una plantilla de cuestionario](#edición-de-una-plantilla-de-cuestionario) |
-| Cuando edita archivos de Microsoft Office directamente desde OpenPages, el botón **Ver** ya no se visualiza de forma predeterminada y el archivo se extrae ahora cuando pulsa el botón **Editar** . | [Añadir y trabajar con archivos (adjuntos) en objetos](#añadir-y-trabajar-con-archivos-adjuntos-en-objetos) |
-| Puede utilizar la característica de asistencia de contenido para ayudarle a añadir variables de objeto a una plantilla de cuestionario. | [Adición de variables de objeto a una plantilla de cuestionario](#adición-de-variables-de-objeto-a-una-plantilla-de-cuestionario) |
-
-### Características nuevas de la versión 8.3.0.1
-
-`Guía del usuario › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=new-features-in-version-8301)
-
-Las características nuevas de IBM OpenPages® versión 8.3.0.1 se describen en las tablas siguientes.
-
-Para obtener más información, consulte la publicación [*IBM OpenPages Guía de características nuevas*](2-caracteristicas-nuevas.md#características-nuevas).
-
-#### Mejoras en la interfaz de usuario
-
-**Tabla 1. Mejoras de Interfaz de usuario centrada en tareas**
-
-| Para obtener información sobre... | Consulte el tema... |
-| --- | --- |
-| Adición de etiquetas para categorizar objetos y realizar búsquedas basadas en dichas categorías | [Adición y eliminación de etiquetas](#etiquetas) |
-| Cómo los encuestados pueden elegir copiar respuestas, comentarios y archivos adjuntos de una evaluación de cuestionario existente para ahorrar tiempo | [Completar una evaluación de cuestionario](#completar-una-evaluación-de-cuestionario) |
-
-### Nuevas características en la versión 8.3.0
-
-`Guía del usuario › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=new-features-in-version-830)
-
-Las nuevas características de IBM OpenPages® versión 8.3.0 se describen en las tablas siguientes.
-
-Para obtener más información, consulte la publicación [*IBM OpenPages Guía de características nuevas*](2-caracteristicas-nuevas.md#características-nuevas).
-
-#### Mejoras de la interfaz de usuario centrada en tareas
-
-**Tabla 1. Mejoras de Interfaz de usuario centrada en tareas**
-
-| Para obtener información sobre... | Consulte el tema... |
-| --- | --- |
-| Mejoras en los cuestionarios | [Cuestionarios](#cuestionarios) |
-
-#### IU estándar
-
-Se ha eliminado la IU estándar .
-
-Se ha eliminado el elemento de menú **![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/user_menu_icon_task_focused_ui.jpg)** > **Cambiar a IU estándar** .
-
-### Nuevas características en la versión 8.2.0.3
-
-`Guía del usuario › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=new-features-in-version-8203)
-
-Las nuevas características de IBM OpenPages® versión 8.2.0.3 se describen en las tablas siguientes.
-
-#### Mejoras de la interfaz de usuario centrada en tareas
-
-**Tabla 1. Mejoras de Interfaz de usuario centrada en tareas**
-
-| Para obtener información sobre... | Consulte el tema... |
-| --- | --- |
-| IBM Watson® Discovery se ha añadido como un servicio de procesamiento de lenguaje natural. | [Servicios de procesamiento de lenguaje natural](#servicios-de-procesamiento-de-lenguaje-natural) |
-| La capacidad de buscar campos en Vistas de tareas, Vistas de creación y Vistas rápidas | [Navegar por la interfaz de usuario](#navegación-por-la-interfaz-de-usuario), [Abrir una vista rápida](#cómo-abrir-una-vista-rápida) |
-| Los administradores ahora pueden configurar los campos que están disponibles para la actualización masiva en Vistas de cuadrícula. | [Aplicación de cambios a varios objetos con actualización masiva en una vista de cuadrícula](#aplicación-de-cambios-a-varios-objetos-con-actualización-masiva-en-una-vista-de-cuadrícula) |
-| Ahora los usuarios pueden definir pestañas de informes en su panel de control. Anteriormente, los administradores sólo podían crear pestañas de informes utilizando la tarea **Gestionar paneles de control**. | [Añadir un informe o una ficha personalizada](#añadir-un-informe-o-una-ficha-personalizada) |
-
-### Nuevas características en la versión 8.2.0.2
-
-`Guía del usuario › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=new-features-in-version-8202)
-
-Las nuevas características de IBM OpenPages® versión 8.2.0.2 se describen en las tablas siguientes.
-
-#### Mejoras de la interfaz de usuario centrada en tareas
-
-**Tabla 1. Mejoras de Interfaz de usuario centrada en tareas**
-
-| Para obtener información sobre... | Consulte el tema... |
-| --- | --- |
-| Aplicación de un tema de color utilizando la nueva tarea **![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/user_menu_icon_task_focused_ui.jpg)** > **Cambiar tema** . | [Cambiar el tema](#cambiar-el-tema) |
-| Usabilidad mejorada para desasociar objetos. Se ha añadido un botón **Eliminar** en los campos de relación de cuadrícula que tienen una acción Asociar. | [Completar el trabajo asignado](#completar-el-trabajo-asignado) |
-| Recibir recordatorios por correo electrónico cuando las tareas vencen o se retrasan. | [Completar el trabajo asignado](#completar-el-trabajo-asignado) |
-| Completar tareas de flujo de trabajo masivo:<br>• Mediante vistas de cuadrícula para dar soporte a acciones de flujo de trabajo masivo.<br>• Mediante la ventana **Tareas completadas con acciones de flujo de trabajo masivo** en el panel Mis tareas y el panel, la pestaña Tareas de suscripción y el panel y la pestaña Tareas de supervisión y el panel. | [Completar acciones de flujo de trabajo masivo en una vista de cuadrícula](#completar-acciones-de-flujo-de-trabajo-masivo-en-una-vista-de-cuadrícula) |
-| Utilización del nuevo icono ![Icono Mover](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/move_icon_tfui.jpg) en las vistas de cuadrícula para mover objetos de una carpeta a otra. | [Utilización de las vistas de cuadrícula para buscar, abrir y trabajar con objetos](#utilización-de-las-vistas-de-cuadrícula-para-buscar-abrir-y-trabajar-con-objetos) |
-
-### Nuevas características en la versión 8.2.0.1
-
-`Guía del usuario › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=new-features-in-version-8201)
-
-Las nuevas características de IBM OpenPages® versión 8.2.0.1 se describen en las tablas siguientes.
-
-#### IBM OpenPages for IBM Cloud Pak for Data
-
-OpenPages ahora se puede instalar en IBM OpenPages for IBM Cloud Pak for Data.
-
-#### Mejoras de la interfaz de usuario centrada en tareas
-
-**Tabla 1. Mejoras de Interfaz de usuario centrada en tareas**
-
-| Para obtener información sobre... | Consulte el tema... |
-| --- | --- |
-| Utilizando IBM Watson® Language Translator para traducir los valores de los campos de texto al idioma asociado a su entorno local. | [Traducción de valores en campos de texto](#traducción-de-valores-en-campos-de-texto) |
-| Cómo abrir y editar documentos de Microsoft Office directamente desde OpenPages. | [Añadir y trabajar con archivos (adjuntos) en objetos](#añadir-y-trabajar-con-archivos-adjuntos-en-objetos) |
-| Proporcionar comentarios sobre una encuesta de Net Promoter Score (NPS). | [Proporcionar comentarios utilizando una encuesta NPS](#proporcionar-comentarios-utilizando-una-encuesta-nps) |
-| El conmutador **Modalidad de edición** se ha renombrado como **Mostrar campos editables**. | [Navegación por la interfaz de usuario](#navegación-por-la-interfaz-de-usuario) |
-| El botón **Analytics** para IBM Cognos® Analytics se ha movido de la cabecera al menú principal. | [Uso del menú Principal](#uso-del-menú-principal) |
-| Ahora se puede aplicar el modo seguro a los paneles de control. | [Añadir paneles y widgets a una pestaña](#añadir-paneles-y-widgets-a-una-pestaña) |
-
-### Características nuevas de la versión 8.2.0
-
-`Guía del usuario › Novedades` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=new-features-in-version-820)
-
-Las nuevas características de IBM OpenPages® versión 8.2.0 se describen en las tablas siguientes.
-
-Para obtener más información, consulte la publicación [*IBM OpenPages Guía de características nuevas*](2-caracteristicas-nuevas.md#características-nuevas).
-
-#### Mejoras de la interfaz de usuario centrada en tareas
-
-**Tabla 1. Mejoras de Interfaz de usuario centrada en tareas**
-
-| Para obtener información sobre... | Consulte el tema... |
-| --- | --- |
-| La nueva solución IBM OpenPages Business Continuity Management . | [Utilización de OpenPages Business Continuity Management](#utilización-de-openpages-business-continuity-management) |
-| Acceso a IBM Watson® Assistant con el icono ![Icono Iniciar conversación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/start_chat_icon.jpg) . | [Navegación por la interfaz de usuario](#navegación-por-la-interfaz-de-usuario) |
-| El proceso de revisión para las evaluaciones de cuestionario ahora puede ser controlado por GRC Workflow. | [Resumen del cuestionario](#resumen-del-cuestionario) |
-| Evaluaciones de cuestionario ad hoc. | [Creación de una evaluación de cuestionario ad hoc](#creación-de-una-evaluación-de-cuestionario-ad-hoc) |
-| Los campos de clasificador se muestran ahora utilizando un botón y panel de IBM Watson Insights. | [Servicios de procesamiento de lenguaje natural](#servicios-de-procesamiento-de-lenguaje-natural)<br>[Creación de objetos desde una vista de cuadrícula](#creación-de-objetos-desde-una-vista-de-cuadrícula) |
-| Gráficas de Gantt en paneles de control | [Adición de un panel de gráfico](#adición-de-un-panel-de-gráfico) |
-| Nuevo tipo de método y campo de agregación para las suma, promedio, mín y máx en gráficos en los paneles de control. | [Adición de un panel de gráfico](#adición-de-un-panel-de-gráfico) |
-| Pestaña Actividad en la vista de tarea. | [Visualización del historial de cambios en la pestaña Actividad](#visualización-del-historial-de-cambios-en-la-pestaña-actividad) |
-| El botón Suprimir en un diseño de cuadrícula de una vista de tarea. | [Completar el trabajo asignado](#completar-el-trabajo-asignado) |
-| Al definir filtros privados en las vistas de cuadrícula, el nuevo conmutador **Mostrar valores ocultos** controla si se visualizan los valores ocultos para los campos de valores enumerados. | [Definición de filtros privados](#definición-de-filtros-privados) |
-| Un panel Informes en el panel de control ahora puede listar todos los informes por categoría, según como se haya establecido el nuevo campo **Origen de datos**. | [Adición de un panel de informes](#adición-de-un-panel-de-informes) |
-| Un panel de búsqueda en el panel de control utiliza la búsqueda global para encontrar información. | [Búsqueda de objetos mediante la búsqueda global](#búsqueda-de-objetos-mediante-la-búsqueda-global) |
-| Cómo se manejan los Cálculos de GRC en Vistas de creación y Vistas de tarea. | [Creación de objetos desde una vista de cuadrícula](#creación-de-objetos-desde-una-vista-de-cuadrícula)<br>[Completar el trabajo asignado](#completar-el-trabajo-asignado) |
-| Se ha hecho más coherente la función de incorporación y extracción de archivos. | [Añadir y trabajar con archivos (adjuntos) en objetos](#añadir-y-trabajar-con-archivos-adjuntos-en-objetos) |
-
-#### Mejoras de la interfaz de usuario estándar
-
-El **Portal de procesos** de la página de inicio se ha eliminado. Daba soporte a la integración de IBM OpenPages con IBM® Business Process Manager, que se ha eliminado.
-
-#### Mejoras en las soluciones
-
-Consulte la publicación *IBM OpenPages Guía de soluciones* para obtener una lista completa de todos los cambios realizados en las soluciones.
-
 ## Cómo empezar con la interfaz de usuario
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-getting-started-ui)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-getting-started-ui)
 
 Aprenda a navegar por la interfaz de usuario para acceder a la información, cambiar la contraseña, el entorno local, el perfil y el tema.
 
 ### Utilización de la IU
 
-`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ui-using)
+`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ui-using)
 
 Utilice la interfaz de usuario para completar las tareas que tiene asignadas y para buscar información en OpenPages®.
 
@@ -582,7 +308,7 @@ Si es un implementador o administrador responsable de definir los flujos de trab
 
 ### Inicio de sesión en IBM OpenPages for IBM Cloud Pak for Data
 
-`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ui-logging-in-openpages-cloud-pak-data)
+`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ui-logging-in-openpages-cloud-pak-data)
 
 Utilice este procedimiento para iniciar sesión en IBM OpenPages® for IBM Cloud Pak for Data.
 
@@ -612,13 +338,13 @@ Complete su trabajo. Cuando haya terminado, puede finalizar la sesión realizand
    Se visualiza la interfaz de Cloud Pak for Data.
 2. Pulse el botón **Perfil y valores** en la parte superior derecha de la pantalla.
 
-   ![Menú de cierre de sesión de Cloud Pak for Data](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/cpd_logout.png)
+   ![Menú de cierre de sesión de Cloud Pak for Data](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/cpd_logout.png)
 3. Cuando se visualice el menú, pulse **Cerrar sesión**.
 4. Cuando se le solicite que confirme que desea finalizar la sesión, pulse **Cerrar sesión**.
 
 ### Inicio de sesión
 
-`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ui-logging-in)
+`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ui-logging-in)
 
 Puede iniciar sesión en IBM OpenPages® utilizando el navegador.
 
@@ -649,11 +375,11 @@ Antes de iniciar sesión, obtenga la URL OpenPages y su nombre de usuario y cont
 
 #### Qué hacer a continuación
 
-Complete su trabajo. Cuando haya terminado, pulse ![Icono de menú de usuario](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/user_menu_icon_task_focused_ui.jpg) para abrir el menú **Usuario** y pulse **Cerrar sesión**.
+Complete su trabajo. Cuando haya terminado, pulse ![Icono de menú de usuario](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/user_menu_icon_task_focused_ui.jpg) para abrir el menú **Usuario** y pulse **Cerrar sesión**.
 
 ### Cierre de sesión
 
-`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ui-logging-out)
+`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ui-logging-out)
 
 Puede finalizar una sesión y salir de la aplicación.
 
@@ -667,18 +393,18 @@ Si intenta realizar una operación después de que OpenPages haya excedido el ti
 
 #### Procedimiento
 
-1. Pulse ![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/user_menu_icon_task_focused_ui.jpg) para abrir el menú Usuario.
+1. Pulse ![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/user_menu_icon_task_focused_ui.jpg) para abrir el menú Usuario.
 2. Pulse **Cerrar sesión**.
 
 ### Navegación por la interfaz de usuario
 
-`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ui-navigating)
+`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ui-navigating)
 
 La interfaz de usuario está diseñada para facilitar la navegación.
 
 *Figura 1. Ejemplo de la interfaz de usuario*
 
-![La interfaz de usuario tiene una barra de navegación, un área de trabajo y menús.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_ug_new_ui_menu_navigation.png)
+![La interfaz de usuario tiene una barra de navegación, un área de trabajo y menús.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_ug_new_ui_menu_navigation.png)
 
 La interfaz de usuario tiene los componentes siguientes:
 
@@ -686,29 +412,28 @@ La interfaz de usuario tiene los componentes siguientes:
 
 | Componentes de IU | Descripción |
 | --- | --- |
-| ![Atajo del panel de control de IBM OpenPages](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/dashboard_shortcut_task_focused_ui.jpg)<br>![Acceso directo de la página de inicio](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_home_page.jpg) | Ambos muestran el cuadro de mandos en el área de trabajo. Para obtener más información sobre el cuadro de mandos, consulte [Su cuadro de mandos](#su-cuadro-de-mandos). |
-| menú Principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png) | Abre el menú Principal.<br>Para obtener más información, consulte [Uso del menú principal](#uso-del-menú-principal). |
-| Barra de navegación | La barra de navegación contiene ![Acceso directo de la página de inicio](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_home_page.jpg) y una pestaña para cada vista que tenga abierta.<br>Para obtener más información, consulte [Uso de la barra de navegación](#uso-de-la-barra-de-navegación). |
-| ![Icono WalkMe](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/walkme_icon.png) | Abre WalkMe. WalkMe es una herramienta de terceros que puede utilizar para guiarle a través de OpenPages. WalkMe le proporciona visitas guiadas, visiones generales de características y recursos incorporados para ayudarle a sacar el máximo provecho de su implementación deOpenPages .<br>Los administradores utilizan los valores de registro para inhabilitar o habilitar WalkMe. El icono ![Icono WalkMe](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/walkme_icon.png) no se muestra en la interfaz si WalkMe está desactivado.<br>Si haces clic en ![Icono WalkMe](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/walkme_icon.png) y WalkMe no se inicia, actualiza la página de tu navegador.<br>WalkMe se abre en inglés de forma predeterminada, pero puede cambiar el valor de idioma. |
-| ![Icono de menú Notificaciones (campana)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/notifications_menu_icon_task_focused_ui.jpg) | Abre la lista de notificaciones.<br>La lista no incluye notificaciones sobre el trabajo que es necesario completar. |
-| ![Ver icono de información de valor](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/view_insights_icon.png) | Identifica un campo de entrada necesario para ejecutar un modelo de aprendizaje automático personalizado.<br>Para obtener más información sobre los modelos de aprendizaje automático personalizados, consulte [Modelos de aprendizaje automático](#modelos-de-aprendizaje-automático). |
-| Abrir menú de administración ![Icono de menú de valores (engranaje)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/settings_menu_icon_task_focused_ui.jpg) | Abre el menú **Administración** . |
-| ![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/user_menu_icon_task_focused_ui.jpg) | Abre el menú **Usuario** . |
-| ![Icono Iniciar conversación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/start_chat_icon.jpg) | Abre un chat bot donde puede hacer preguntas que utilizan IBM watsonx Assistant™. El botón **Iniciar chat** solo aparece si hay un asistente configurado y se le permite acceder a él.<br>Para obtener más información, consulte [Uso de IBM watsonx Assistant](#utilización-de-ibm-watsonx-assistant). |
-| ![Botón de búsqueda (lupa)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/icon-search-tfui.png) | En una vista de cuadrícula, puede buscar objetos en la cuadrícula.<br>En otras vistas, puede buscar campos. |
-| ![Botón Mostrar campos editables](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/reveal_editable_fields.png) | En una vista de tarea, puede pasar el cursor por encima de los campos para ver cuáles son editables. Cuando el icono ![icono de edición](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_edit_icon.jpg) aparece junto a un campo, puede hacer clic en el campo para ponerlo en modo de edición.<br>Si desea poner todos los campos en modo de edición en lugar de editar un campo cada vez, haga clic en ![Botón Mostrar campos editables](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/reveal_editable_fields.png) en la barra de herramientas de la vista.<br>Este icono y botón están ocultos en determinadas situaciones, como cuando el objeto está bloqueado o no tiene permiso de control de acceso para editarlo. |
-| ![Botón Imprimir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/print_button.png) | En una vista de tarea o una vista de informe, imprime la vista o la guarda en un PDF. |
-| ![Botón Watson Language Translator](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/translate.png) | En una vista de tarea, los valores de los campos de texto se convierten al idioma asociado a su entorno local.<br>Para obtener más información, consulte [Traducción de valores en campos de texto](#traducción-de-valores-en-campos-de-texto). |
-| ![Botón de comentarios](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_feedback.jpg) | Abre una encuesta Net Promoter Score (NPS) en la que puede proporcionar comentarios sobre el producto a IBM®. Si usted es elegible para recibir una encuesta, siempre se muestra en la página de inicio. Puede proporcionar comentarios en cualquier momento y con la frecuencia que desee. También es posible que se le solicite periódicamente que envíe una encuesta cuando inicie la sesión.<br>Para obtener más información, consulte [Proporcionar opiniones mediante una encuesta NPS](#proporcionar-comentarios-utilizando-una-encuesta-nps). |
+| ![Atajo del panel de control de IBM OpenPages](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/dashboard_shortcut_task_focused_ui.jpg)<br>![Acceso directo de la página de inicio](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_home_page.jpg) | Ambos muestran el cuadro de mandos en el área de trabajo. Para obtener más información sobre el cuadro de mandos, consulte [Su cuadro de mandos](#su-cuadro-de-mandos). |
+| menú Principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png) | Abre el menú Principal.<br>Para obtener más información, consulte [Uso del menú principal](#uso-del-menú-principal). |
+| Barra de navegación | La barra de navegación contiene ![Acceso directo de la página de inicio](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_home_page.jpg) y una pestaña para cada vista que tenga abierta.<br>Para obtener más información, consulte [Uso de la barra de navegación](#uso-de-la-barra-de-navegación). |
+| ![Icono WalkMe](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/walkme_icon.png) | Abre WalkMe. WalkMe es una herramienta de terceros que puede utilizar para guiarle a través de OpenPages. WalkMe le proporciona visitas guiadas, visiones generales de características y recursos incorporados para ayudarle a sacar el máximo provecho de su implementación deOpenPages .<br>Los administradores utilizan los valores de registro para inhabilitar o habilitar WalkMe. El icono ![Icono WalkMe](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/walkme_icon.png) no se muestra en la interfaz si WalkMe está desactivado.<br>Si haces clic en ![Icono WalkMe](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/walkme_icon.png) y WalkMe no se inicia, actualiza la página de tu navegador.<br>WalkMe se abre en inglés de forma predeterminada, pero puede cambiar el valor de idioma. |
+| ![Icono de menú Notificaciones (campana)](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/notifications_menu_icon_task_focused_ui.jpg) | Abre la lista de notificaciones.<br>La lista no incluye notificaciones sobre el trabajo que es necesario completar. |
+| ![Ver icono de información de valor](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/view_insights_icon.png) | Identifica un campo de entrada necesario para ejecutar un modelo de aprendizaje automático personalizado.<br>Para obtener más información sobre los modelos de aprendizaje automático personalizados, consulte [Modelos de aprendizaje automático](#modelos-de-aprendizaje-automático). |
+| Abrir menú de administración ![Icono de menú de valores (engranaje)](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/settings_menu_icon_task_focused_ui.jpg) | Abre el menú **Administración** . |
+| ![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/user_menu_icon_task_focused_ui.jpg) | Abre el menú **Usuario** . |
+| ![Icono Iniciar conversación](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/start_chat_icon.jpg) | Abre un chat bot donde puede hacer preguntas que utilizan IBM watsonx Assistant. El **botón Iniciar chat** solo se muestra si se ha configurado un asistente y se le permite acceder a él.<br>Para obtener más información, consulte [Uso de IBM watsonx Assistant](#utilización-de-ibm-watsonx-assistant). |
+| ![Botón de búsqueda (lupa)](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/icon-search-tfui.png) | En una vista de cuadrícula, puede buscar objetos en la cuadrícula.<br>En otras vistas, puede buscar campos. |
+| ![Botón Mostrar campos editables](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/reveal_editable_fields.png) | En una vista de tarea, puede pasar el cursor por encima de los campos para ver cuáles son editables. Cuando el icono ![icono de edición](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_edit_icon.jpg) aparece junto a un campo, puede hacer clic en el campo para ponerlo en modo de edición.<br>Si desea poner todos los campos en modo de edición en lugar de editar un campo cada vez, haga clic en ![Botón Mostrar campos editables](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/reveal_editable_fields.png) en la barra de herramientas de la vista.<br>Este icono y botón están ocultos en determinadas situaciones, como cuando el objeto está bloqueado o no tiene permiso de control de acceso para editarlo. |
+| ![Botón Imprimir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/print_button.png) | En una vista de tarea o una vista de informe, imprime la vista o la guarda en un PDF. |
+| ![Botón Traducir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/translate.png) | En una vista de tarea, los valores de los campos de texto se convierten al idioma asociado a su entorno local.<br>Para obtener más información, consulte [Traducción de valores en campos de texto](#traducción-de-valores-en-campos-de-texto). |
 | Área de trabajo | El área de trabajo muestra el panel de control y las vistas.<br>Para obtener más información, consulte los siguientes temas:<br>• [Pestaña Inicio](#pestaña-inicio)<br>• [Pestaña Mis tareas](#pestaña-mis-tareas)<br>• [Pestaña Tareas de suscripción](#pestaña-tareas-de-suscripción)<br>• [Pestaña Tareas de supervisión](#pestaña-tareas-de-supervisión)<br>• [Utilización de las vistas de cuadrícula para buscar, abrir y trabajar con objetos](#utilización-de-las-vistas-de-cuadrícula-para-buscar-abrir-y-trabajar-con-objetos)<br>• [Creación de objetos desde una vista de cuadrícula](#creación-de-objetos-desde-una-vista-de-cuadrícula)<br>• [Completar el trabajo asignado](#completar-el-trabajo-asignado) |
-| ![Icono de lista de opciones](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/close_task_focused_ui.jpg) | Contiene una lista de pestañas que puede seleccionar. También puede cerrar todas las pestañas. |
-| ![Configurar pestañas y paneles](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/settings_config_dashboard_icon_task_focused_ui.jpg) | Abre un menú que se utiliza para configurar pestañas y paneles.<br>Para obtener más información, consulte [Añadir paneles y widgets a una pestaña](#añadir-paneles-y-widgets-a-una-pestaña). |
+| ![Botón Lista de opciones](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/overflow-menu--vertical.svg) | Contiene una lista de pestañas que puede seleccionar. También puede cerrar todas las pestañas. |
+| ![Configurar pestañas y paneles](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/settings_config_dashboard_icon_task_focused_ui.jpg) | Abre un menú que se utiliza para configurar pestañas y paneles.<br>Para más información, consulte [Añadir paneles y widgets a una pestaña](#añadir-paneles-y-widgets-a-una-pestaña). |
 | Botón Atrás del navegador | Abre la última página web que se ha almacenado en la sesión. |
 | Botón Adelante del navegador | Avanza en el historial de sesiones del navegador de páginas web. |
 
 ### Uso del **menú principal**
 
-`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ui-using-primary-menu)
+`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ui-using-primary-menu)
 
 El menú Principal lista las categorías de tipos de objeto a las que puede acceder en IBM OpenPages®.
 
@@ -720,17 +445,17 @@ Al hacer clic en un tipo de objeto, como Entidades empresariales, se abre una li
 
 *Figura 1. Ejemplo del menú Principal*
 
-![Menú principal que muestra una lista de objetos OpenPages](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_task_focused_ui.png)
+![Menú principal que muestra una lista de objetos OpenPages](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_task_focused_ui.png)
 
 ### Uso de la barra de navegación
 
-`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ui-using-navigation-bar)
+`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ui-using-navigation-bar)
 
-La barra de navegación contiene ![Acceso directo de la página de inicio](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_home_page.jpg) y una pestaña para cada vista que tenga abierta. Pulse en las pestañas para ir de una vista a otra.
+La barra de navegación contiene ![Acceso directo de la página de inicio](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_home_page.jpg) y una pestaña para cada vista que tenga abierta. Pulse en las pestañas para ir de una vista a otra.
 
 *Figura 1. Ejemplo de barra de navegación*
 
-![Barra de navegación con pestañas abiertas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_ug_navgiation_bar_task_focused_ui.jpg)
+![Barra de navegación con pestañas abiertas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_ug_navgiation_bar_task_focused_ui.jpg)
 
 Los iconos se describen en la tabla siguiente:
 
@@ -738,19 +463,19 @@ Los iconos se describen en la tabla siguiente:
 
 | Icono | Descripción |
 | --- | --- |
-| ![Acceso directo de la página de inicio](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_home_page.jpg) | Ambos muestran el cuadro de mandos en el área de trabajo. Para obtener más información sobre el cuadro de mandos, consulte [Su cuadro de mandos](#su-cuadro-de-mandos). |
-| ![icono de vista de cuadrícula en la barra de navegación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_ug_navgiation_bar_grid_icon_task_focused_ui.jpg) | La pestaña es una vista que lista los objetos del tipo de objeto seleccionado. Este tipo de vista se denomina Vista de cuadrícula. |
-| ![icono de vista de creación en la barra de navegación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_ug_navgiation_bar_creation_icon_task_focused_ui.jpg) | La pestaña es una vista en la que se está creando un objeto pero que no está abierto para editarlo. Este tipo de vista se denomina Vista de creación. |
-| ![vista de creación - abrir para editar - icono en la barra de navegación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_ug_navgiation_bar_creation_edit_icon_task_focused_ui.jpg) | La pestaña es una vista en la que se está creando un objeto, que además se puede editar. Este tipo de vista se denomina Vista de creación. |
-| ![icono de vista de tarea en la barra de navegación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_ug_navgiation_bar_task_icon_task_focused_ui.jpg) | La pestaña es una vista en la que se está completando una tarea, pero el objeto no está abierto para editarlo. Este tipo de vista se denomina Vista de tarea. |
-| ![vista de tarea - abrir para editar - icono en la barra de navegación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_ug_navgiation_bar_task_edit_icon_task_focused_ui.jpg) | La pestaña es una vista en la que se está completando una tarea, y el objeto se puede editar. Este tipo de vista se denomina Vista de tarea. |
-| ![Icono Eclipse (tres puntos)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/close_task_focused_ui.jpg) | Le permite elegir una pestaña o cerrar todas las pestañas abiertas en la barra de navegación. |
+| ![Acceso directo de la página de inicio](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_home_page.jpg) | Ambos muestran el cuadro de mandos en el área de trabajo. Para obtener más información sobre el cuadro de mandos, consulte [Su cuadro de mandos](#su-cuadro-de-mandos). |
+| ![icono de vista de cuadrícula en la barra de navegación](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_ug_navgiation_bar_grid_icon_task_focused_ui.jpg) | La pestaña es una vista que lista los objetos del tipo de objeto seleccionado. Este tipo de vista se denomina Vista de cuadrícula. |
+| ![icono de vista de creación en la barra de navegación](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_ug_navgiation_bar_creation_icon_task_focused_ui.jpg) | La pestaña es una vista en la que se está creando un objeto pero que no está abierto para editarlo. Este tipo de vista se denomina Vista de creación. |
+| ![vista de creación - abrir para editar - icono en la barra de navegación](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_ug_navgiation_bar_creation_edit_icon_task_focused_ui.jpg) | La pestaña es una vista en la que se está creando un objeto, que además se puede editar. Este tipo de vista se denomina Vista de creación. |
+| ![icono de vista de tarea en la barra de navegación](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_ug_navgiation_bar_task_icon_task_focused_ui.jpg) | La pestaña es una vista en la que se está completando una tarea, pero el objeto no está abierto para editarlo. Este tipo de vista se denomina Vista de tarea. |
+| ![vista de tarea - abrir para editar - icono en la barra de navegación](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_ug_navgiation_bar_task_edit_icon_task_focused_ui.jpg) | La pestaña es una vista en la que se está completando una tarea, y el objeto se puede editar. Este tipo de vista se denomina Vista de tarea. |
+| ![Botón Lista de opciones](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/overflow-menu--vertical.svg) | Le permite elegir una pestaña o cerrar todas las pestañas abiertas en la barra de navegación. |
 
 Se puede abrir un objeto para editarlo en una sola vista. Si hay un objeto abierto para su edición en una vista e intenta abrirlo en otra vista, recibirá una advertencia.
 
 ### Cambiar configuración regional
 
-`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ui-changing-your-locale)
+`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ui-changing-your-locale)
 
 Puede cambiar el valor de configuración regional. Con esto, cambia el idioma de la interfaz de usuario, así como el formato de visualización de los números y las fechas.
 
@@ -758,19 +483,19 @@ Puede cambiar el valor de configuración regional. Con esto, cambia el idioma de
 
 #### Procedimiento
 
-1. Pulse ![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/user_menu_icon_task_focused_ui.jpg) para abrir el menú Usuario.
+1. Pulse ![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/user_menu_icon_task_focused_ui.jpg) para abrir el menú Usuario.
 2. Pulse **Cambiar entorno local** y seleccione un idioma.
 3. Pulse **Guardar**.
 
 ### Cambio de la contraseña
 
-`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ui-changing-your-password)
+`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ui-changing-your-password)
 
 Puede cambiar la contraseña.
 
 #### Procedimiento
 
-1. Pulse ![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/user_menu_icon_task_focused_ui.jpg) para abrir el menú Usuario.
+1. Pulse ![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/user_menu_icon_task_focused_ui.jpg) para abrir el menú Usuario.
 2. Pulse **Cambiar contraseña**.
 3. Escriba la contraseña antigua en **Contraseña actual**.
 4. Especifique una nueva contraseña en **Nueva contraseña**y confírmela.
@@ -784,7 +509,7 @@ Puede cambiar la contraseña.
 
 ### Modificación del perfil
 
-`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ui-changing-your-profile)
+`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ui-changing-your-profile)
 
 Un perfil determina el aspecto de la experiencia de usuario en la interfaz de usuario. Determina el contenido del panel de control, el diseño y el contenido de todas las vistas, y cualquier filtro disponible para el uso en la vista de cuadrícula. El administrador configura uno o varios perfiles automáticamente, que se pueden adaptar a una tarea específica.
 
@@ -796,12 +521,12 @@ Si su administrador configura varios perfiles, puede cambiar el perfil mediante 
 
 #### Procedimiento
 
-1. Pulse ![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/user_menu_icon_task_focused_ui.jpg) para abrir el menú Usuario.
+1. Pulse ![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/user_menu_icon_task_focused_ui.jpg) para abrir el menú Usuario.
 2. Pulse **Cambiar perfil**.
 
    *Figura 1. Cambiar perfil*
 
-   ![Se muestra el menú. Cambiar perfil está resaltado.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/change_profile.png)
+   ![Se muestra el menú. Cambiar perfil está resaltado.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/change_profile.png)
 
    > **Nota:** Si no ve **Cambiar perfil** en el menú, sólo tiene un perfil.
 3. Seleccione el perfil que desea utilizar y, a continuación, pulse **Guardar**.
@@ -812,7 +537,7 @@ El cambio surte efecto de inmediato sin necesidad de cerrar sesión. Después de
 
 ### Cambiar el tema
 
-`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ui-changing-your-theme)
+`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ui-changing-your-theme)
 
 Un tema determina el diseño de color que se aplica en la interfaz de usuario. El administrador puede configurar uno o más temas para que los utilice.
 
@@ -824,7 +549,7 @@ Después de elegir un tema, se conserva la próxima vez que inicie la sesión.
 
 #### Procedimiento
 
-1. Pulse ![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/user_menu_icon_task_focused_ui.jpg) para abrir el menú Usuario.
+1. Pulse ![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/user_menu_icon_task_focused_ui.jpg) para abrir el menú Usuario.
 2. Pulse **Cambiar tema**.
 3. Seleccione un tema.
 4. Pulse **Guardar**.
@@ -835,7 +560,9 @@ El cambio tiene lugar inmediatamente.
 
 ### Cambio del periodo de elaboración de informes
 
-`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ui-changing-reporting-period)
+`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ui-changing-reporting-period)
+
+**Se aplica a:**[De forma local](3.6-guia-del-administrador.md#openpages-tipos-de-despliegue) [En cloud](3.6-guia-del-administrador.md#openpages-tipos-de-despliegue) [Cloud Pak for Data](3.6-guia-del-administrador.md#openpages-tipos-de-despliegue)
 
 Puede ver los datos de un periodo de elaboración de informes actual o pasado. Sin embargo, sólo puede modificar datos en el periodo de elaboración de informes actual.
 
@@ -848,7 +575,7 @@ Si la opción **Cambiar periodo de elaboración de informes** del menú Usuario 
 #### Procedimiento
 
 1. Abra el objeto con el que desea trabajar.
-2. Pulse ![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/user_menu_icon_task_focused_ui.jpg) para abrir el menú Usuario.
+2. Haga clic en ![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/user_menu_icon_task_focused_ui.jpg) para abrir el menú Usuario.
 
    El periodo de elaboración de informes elegido actualmente se visualiza encima de **Cambiar periodo de elaboración de informes**.
 3. Pulse **Cambiar periodo de elaboración de informes**.
@@ -863,15 +590,15 @@ Repita los pasos para seleccionar el periodo de elaboración de informes actual 
 
 ### Utilización de IBM watsonx Assistant
 
-`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ui-using-watsonx-assistant)
+`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ui-using-watsonx-assistant)
 
-Utilice IBM watsonx Assistant™ para acceder a la asistencia las 24 horas del día para OpenPages®.
+Utilice IBM watsonx Assistant para acceder al soporte de 24 horas para OpenPages®.
 
 IBM watsonx Assistant es un bot de conversación que proporciona respuestas de texto interactivas, búsqueda en lenguaje natural y enlaces directos a páginas específicas en OpenPages, por ejemplo, a una vista de creación donde puede especificar un problema o evento de pérdida.
 
-Cuando IBM watsonx Assistant está configurado y tiene permiso para acceder a él, el icono ![Icono Iniciar conversación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/start_chat_icon.jpg) se muestra en todas las páginas de la interfaz de usuario.
+Cuando IBM watsonx Assistant está configurado y tiene permiso para acceder a él, el icono ![Icono Iniciar conversación](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/start_chat_icon.jpg) se muestra en todas las páginas de la interfaz de usuario.
 
-Pulse ![Icono Iniciar conversación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/start_chat_icon.jpg) y haga una pregunta en el bot de conversación.
+Pulse ![Icono Iniciar conversación](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/start_chat_icon.jpg) y haga una pregunta en el bot de conversación.
 
 #### Tutorial
 
@@ -881,13 +608,13 @@ Este vídeo proporciona una visión general del uso de IBM watsonx Assistant.
 
 ### Traducción de valores en campos de texto
 
-`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ui-translating-values-in-text-fields)
+`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ui-translating-values-in-text-fields)
 
-Puede traducir valores en campos de texto al idioma asociado con el entorno local utilizando ![Botón Conversión automática](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/translate.png).
+Puede traducir valores en campos de texto al idioma asociado con el entorno local utilizando ![Botón Conversión automática](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/translate.png).
 
-En una vista de tarea, pulse ![Botón Conversión automática](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/translate.png). Los valores de los campos de texto se traducen al idioma asociado a su entorno local. Para cada campo traducido, puede conmutar entre los idiomas pulsando **Ver original** y **Ver traducción**. Pulse el icono Información para ver una puntuación de confianza. Pulse ![Botón Conversión automática](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/translate.png) de nuevo para desactivar los valores traducidos.
+En una vista de tarea, pulse ![Botón Conversión automática](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/translate.png). Los valores de los campos de texto se traducen al idioma asociado a su entorno local. Para cada campo traducido, puede conmutar entre los idiomas pulsando **Ver original** y **Ver traducción**. Pulse el icono Información para ver una puntuación de confianza. Pulse ![Botón Conversión automática](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/translate.png) de nuevo para desactivar los valores traducidos.
 
-- Los valores de campo de texto (series simples y series largas) se traducen. Los campos de texto enriquecido y los valores de campo enumerados no se traducen.
+- Se traducen los valores de los campos de texto (cadenas simples, cadenas largas y texto enriquecido). Los valores de los campos enumerados no se traducen.
 - No hay diferenciación entre el inglés de Estados Unidos y el Reino Unido.
 - Los valores traducidos en una vista de tarea no se pueden editar.
 - No se guardan en el objeto.
@@ -896,27 +623,29 @@ En una vista de tarea, pulse ![Botón Conversión automática](https://www.ibm.c
 
 Su entorno local está establecido en inglés de Estados Unidos. Puede ver objetos de cambio normativo en una vista de tarea.
 
-- En primer lugar, ve un objeto de cambio regulador que procede de un organismo regulador francés. Contiene valores de campo en francés. Pulse ![Botón Conversión automática](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/translate.png). Los valores de campo de texto en francés se traducen al inglés.
-- A continuación, puede ver un objeto de cambio normativo que procede de un organismo regulador de la UE. Contiene valores de campo de texto en inglés, francés y portugués. Pulse ![Botón Conversión automática](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/translate.png). Los valores del campo de texto en inglés permanecen sin cambios. Los valores de campo de texto en francés y portugués se traducen al inglés.
+- En primer lugar, ve un objeto de cambio regulador que procede de un organismo regulador francés. Contiene valores de campo en francés. Pulse ![Botón Conversión automática](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/translate.png). Los valores de campo de texto en francés se traducen al inglés.
+- A continuación, puede ver un objeto de cambio normativo que procede de un organismo regulador de la UE. Contiene valores de campo de texto en inglés, francés y portugués. Pulse ![Botón Conversión automática](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/translate.png). Los valores del campo de texto en inglés permanecen sin cambios. Los valores de campo de texto en francés y portugués se traducen al inglés.
 
 #### Ejemplo 2
 
 El entorno local está establecido en japonés. Puede ver objetos de cambio normativo en una vista de tarea.
 
-- En primer lugar, puede ver un objeto de cambio regulador que procede de un organismo regulador de EE.UU. Contiene valores de campo en inglés. Pulse ![Botón Conversión automática](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/translate.png). Los valores de campo de texto en inglés se convierten en japonés.
-- A continuación, puede ver un objeto de cambio normativo que procede de un organismo regulador de la UE. Contiene valores de campo en inglés, francés y portugués. Pulse ![Botón Conversión automática](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/translate.png). Los valores de campo de texto se convierten en japonés.
+- En primer lugar, puede ver un objeto de cambio regulador que procede de un organismo regulador de EE.UU. Contiene valores de campo en inglés. Pulse ![Botón Conversión automática](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/translate.png). Los valores de campo de texto en inglés se convierten en japonés.
+- A continuación, puede ver un objeto de cambio normativo que procede de un organismo regulador de la UE. Contiene valores de campo en inglés, francés y portugués. Pulse ![Botón Conversión automática](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/translate.png). Los valores de campo de texto se convierten en japonés.
 
 ### Modelos de aprendizaje automático
 
-`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ui-machine-learning-models)
+`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ui-machine-learning-models)
 
-Su organización puede crear modelos de aprendizaje automático que el administrador puede configurar para que se ejecuten en OpenPages®. Cuando se ejecuta un modelo de aprendizaje automático, utiliza los datos de entrada de los campos OpenPages para generar información y sugerencias en directo en las vistas de OpenPages . Puede ejecutar estos modelos para extraer información de valor de los datos y aplicar sugerencias del modelo para establecer valores de campo y etiquetas.
+Su organización puede crear modelos de aprendizaje automático que el administrador puede configurar para que se ejecuten en OpenPages®. Cuando se ejecuta un modelo de aprendizaje automático, utiliza datos de entrada de campos y vistas de l OpenPages , para generar información y sugerencias en vivo en vistas de l OpenPages . Puede ejecutar estos modelos para extraer información de sus datos y aplicar sugerencias del modelo para establecer valores de campo, etiquetas y relaciones.
 
-Al abrir una vista, es posible que vea el icono **Ver información** ![Ver icono de información de valor](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/view_insights_icon.png). Este icono muestra que un modelo de aprendizaje automático está disponible para el campo. Los resultados se muestran en un panel lateral como se muestra en la Figura 1.
+El administrador debe darle permiso para ver las estadísticas de una vista. Para obtener más información, póngase en contacto con su administrador. Cuando abra una vista, es posible que vea uno o más iconos de IA para ver información sobre los datos. Los iconos muestran que hay un modelo de aprendizaje automático disponible para el campo o los campos, o para toda la vista. Los resultados se muestran en un panel lateral como se muestra en la Figura 1.
 
-*Figura 1. Un ejemplo de un control en una vista de tarea que muestra información en el panel lateral*
+*Figura 1. Un ejemplo de un evento de pérdida en una vista de tareas que muestra información en el panel lateral*
 
-![Un ejemplo de una vista de control que muestra el panel Insights](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/wml_generated_control.png)
+![wml_generated_insights_loss_event.png](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/wml_generated_insights_loss_event.png)
+
+Los campos, etiquetas y relaciones sugeridos se indican con la etiqueta AI ![Etiqueta AI Explained para el modelo de IA utilizado](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/ai-indicator.png) y, al hacer clic en ellos, se muestra la descripción del modelo de IA y la información que se utilizó para generar los conocimientos.
 
 #### Cómo se ejecuta un modelo
 
@@ -926,75 +655,52 @@ Los administradores pueden configurar modelos para que se ejecuten automática o
 
   Si el administrador ha configurado el modelo para que se ejecute automáticamente, especifique o modifique valores para un campo de entrada que el modelo requiere y pulse en cualquier lugar fuera de ese campo para ejecutar el modelo. Si el administrador ha configurado notificaciones para el modelo, se muestra una notificación cuando el modelo termina de ejecutarse.
 
-  Si desea ver los resultados después de que se ejecute el modelo, pulse ![Ver icono de información de valor](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/view_insights_icon.png) asociado con el campo de entrada que ha modificado. Los resultados se muestran en un panel lateral.
+  Si desea ver los resultados después de que se ejecute el modelo, haga clic en **Ver perspectivas** ![Botón Ver perspectivas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/ai-launch.png) asociado al campo de entrada que modificó. Los resultados se muestran en un panel lateral.
 - Manualmente
 
-  Si el administrador ha configurado el modelo para que se ejecute manualmente, el modelo sólo se ejecuta cuando pulsa ![Ver icono de información de valor](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/view_insights_icon.png) asociado a un campo de entrada. Si el administrador ha configurado las notificaciones, se muestra una notificación cuando el modelo termina de ejecutarse. Los resultados se muestran en un panel lateral.
+  Si el administrador configuró el modelo para que se ejecute manualmente, el modelo solo se ejecuta cuando haces clic en **Ver información** ( ![Botón Ver perspectivas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/ai-launch.png) ) asociada a un campo de entrada. Si el administrador ha configurado las notificaciones, se muestra una notificación cuando el modelo termina de ejecutarse. Los resultados se muestran en un panel lateral.
 
 #### Cómo se aplican las sugerencias de modelo
 
-Un administrador configura un modelo para determinar cómo se aplican las sugerencias o los conocimientos del modelo a los campos o etiquetas.
+Un administrador configura un modelo para determinar cómo se aplican las sugerencias o los conocimientos del modelo a los campos, etiquetas o relaciones.
 
 - Conjunto de usuarios
 
-  Si el administrador ha configurado el modelo para proporcionar sugerencias para campos o etiquetas, puede seleccionar las sugerencias que desea aplicar. Si se define una puntuación de confianza, OpenPages se muestra en el orden de la puntuación de confianza decreciente. De lo contrario, las sugerencias se muestran en el orden en el que se devuelven del modelo. Una puntuación de confianza, que se muestra como un porcentaje, indica la probabilidad de que el resultado se haya determinado correctamente.
+  Si el administrador configuró el modelo para proporcionar sugerencias para campos, etiquetas o relaciones, puede seleccionar las sugerencias que desea aplicar. Si se define una puntuación de confianza, OpenPages se muestra en el orden de la puntuación de confianza decreciente. De lo contrario, las sugerencias se muestran en el orden en el que se devuelven del modelo. Una puntuación de confianza, que se muestra como un porcentaje, indica la probabilidad de que el resultado se haya determinado correctamente.
 
   Para establecer campos, pulse el conjunto de sugerencias que desea aplicar.
 
   *Figura 2. Un ejemplo de un evento de pérdida en una vista de tarea. Los valores de campo se muestran en el panel lateral.*
 
-  ![Un ejemplo de un evento de pérdida en una vista de tarea que muestra el panel lateral](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/set_fields_output.png)
+  ![Un ejemplo de uso de una vista para probar un modelo de campos de conjunto.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/wml_generated_insights_loss_event.png)
 
   Para establecer etiquetas, seleccione los recuadros de selección para cada etiqueta que desee aplicar.
 
-  *Figura 3. Un ejemplo de un problema en una vista de tarea. Las etiquetas sugeridas se muestran en el panel lateral.*
+  *Figura 3. Un ejemplo de un evento de pérdida en una vista de tarea. Las etiquetas sugeridas se muestran en el panel lateral.*
 
-  ![Un ejemplo de un problema en una vista de tarea que muestra el panel lateral](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/set_tags_output.png)
+  ![Un ejemplo de un evento de pérdida en una vista de tareas que muestra el panel lateral](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/set_tags_output.png)
 
-  Si desea saber qué campos de entrada se han utilizado para determinar las sugerencias, pulse **Cómo se han determinado las sugerencias** en el panel lateral.
+  Para establecer relaciones, seleccione el objeto u objetos que desee añadir en una cuadrícula.
+
+  *Figura 4. Un ejemplo de un problema en una vista de tarea. Las relaciones sugeridas se muestran como objetos en una cuadrícula. ![Ejemplo de un problema en una vista de tareas con relaciones sugeridas.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/object_ai_insights_issue.png).*
+
+  Si desea saber qué campos de entrada se utilizaron para determinar las sugerencias, haga clic en la etiqueta de IA ![Etiqueta AI Explained para el modelo de IA utilizado](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/ai-indicator.png) en el panel lateral.
 - Umbral establecido
 
   A veces, el administrador configura el modelo para establecer campos o etiquetas automáticamente basándose en la puntuación de confianza que se muestra en el panel lateral.
 
   - Etiquetas
 
-    Después de que se ejecute el modelo, al pulsar ![Ver icono de información de valor](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/view_insights_icon.png), el panel lateral muestra las etiquetas sugeridas. Cuando cierre el panel lateral, verá las etiquetas que se aplican al objeto. Si el modelo tiene puntuaciones de confianza, las etiquetas aplicadas incluyen las etiquetas que cumplen o superan el umbral de confianza especificado. De lo contrario, las etiquetas aplicadas incluyen todas las etiquetas sugeridas.
+    Después de que se ejecute el modelo, cuando haga clic en **Ver perspectivas** ![Botón Ver perspectivas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/ai-launch.png), el panel lateral mostrará las etiquetas sugeridas. Cuando cierre el panel lateral, verá las etiquetas que se aplican al objeto. Si el modelo tiene puntuaciones de confianza, las etiquetas aplicadas incluyen las etiquetas que cumplen o superan el umbral de confianza especificado. De lo contrario, las etiquetas aplicadas incluyen todas las etiquetas sugeridas.
   - Campos
 
-    Después de que se ejecute el modelo, al pulsar ![Ver icono de información de valor](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/view_insights_icon.png), el panel lateral muestra los valores de campo seleccionados. Si el modelo tiene puntuaciones de confianza, se selecciona el conjunto de valores de campo con la puntuación de confianza más alta. De lo contrario, se selecciona el primer conjunto de valores de campo de la lista. Puede ver los valores de campo aplicados a los campos de objeto. Sólo se establecen los campos sin ningún valor existente, a menos que el administrador configure el modelo para sobrescribir los valores de campo existentes cuando se ejecute el modelo.
+    Después de que se ejecute el modelo, al hacer clic en **Ver perspectivas** ![Botón Ver perspectivas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/ai-launch.png), el panel lateral muestra los valores de campo seleccionados. Si el modelo tiene puntuaciones de confianza, se selecciona el conjunto de valores de campo con la puntuación de confianza más alta. De lo contrario, se selecciona el primer conjunto de valores de campo de la lista. Puede ver los valores de campo aplicados a los campos de objeto. Sólo se establecen los campos sin ningún valor existente, a menos que el administrador configure el modelo para sobrescribir los valores de campo existentes cuando se ejecute el modelo.
 
     Puede optar por pulsar **Guardar** para guardar el objeto con los nuevos valores de campo, o **Cancelar** para mantener el objeto tal como estaba.
 
-### Proporcionar comentarios utilizando una encuesta NPS
-
-`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ui-providing-feedback-using-nps-survey)
-
-Si se ha configurado una encuesta Net Promoter Score , puede enviar comentarios sobre OpenPages® a IBM®.
-
-Los comentarios de los usuarios ayudan a IBM a mejorar OpenPages.
-
-Si una encuesta de Net Promoter Score está habilitada, se le presentan dos posibilidades para completar una encuesta:
-
-- Un botón de comentarios de NPS
-- Un formulario de encuesta de NPS después de iniciar sesión
-
-Un botón de comentarios de NPS aparece siempre en la página de inicio si es apto para recibirlos. Puede proporcionar comentarios en cualquier momento y con la frecuencia que desee.
-
-*Figura 1. Botón de comentarios de NPS en la página de inicio*
-
-![Botón de comentarios](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_nfg_8201_nps_2.jpg)
-
-Es posible que se muestre un formulario de encuesta NPS cuando inicie la sesión. El hecho de recibir una encuesta y la frecuencia de la misma depende de la configuración y del proveedor de la encuesta.
-
-*Figura 2. Formulario de encuesta de NPS visualizado después de iniciar sesión*
-
-![Formulario de encuesta de NPS](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_nfg_8201_nps_1.jpg)
-
-La encuesta se visualiza en el idioma del entorno local que ha seleccionado. Si cambia la configuración regional, el idioma de la encuesta cambia. Responda a las preguntas, proporcione capturas de pantalla (opcional) y pulse **Enviar**.
-
 ### Ciclos de vida configurables
 
-`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ui-configurable-lifecycles)
+`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ui-configurable-lifecycles)
 
 Los ciclos de vida configurables definen las fases que un tipo de objeto puede seguir.
 
@@ -1015,7 +721,7 @@ Para obtener más información, consulte la publicación *IBM OpenPages Guía de
 
 ### Servicios de procesamiento de lenguaje natural
 
-`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ui-natural-language-processing-services)
+`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ui-natural-language-processing-services)
 
 Implementación y configuración de un servicio de proceso de lenguaje natural es una característica opcional en IBM OpenPages®. Si el administrador ha implementado y configurado un servicio de procesamiento de lenguaje natural, puede utilizarlo para interpretar y clasificar el texto que especifique en OpenPages. Un servicio de procesamiento de lenguaje natural entiende la intención detrás del texto y devuelve las clasificaciones sugeridas correspondientes, junto con una puntuación de confianza.
 
@@ -1061,7 +767,7 @@ Puede utilizar un servicio de proceso de lenguaje natural con cualquier objeto e
 
 ### Etiquetas
 
-`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ui-tags)
+`Guía del usuario › Cómo empezar con la interfaz de usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ui-tags)
 
 En OpenPages®, puede utilizar etiquetas para categorizar objetos y realizar búsquedas basadas en dichas categorías.
 
@@ -1095,7 +801,7 @@ Sólo puede añadir y eliminar etiquetas en determinadas condiciones. Para más 
    Aparece la pestaña **Tarea**.
 3. Para añadir etiquetas si todavía no se ha aplicado ninguna:
 
-   1. En el panel **Etiquetas**, haga clic en " ![Añadir icono de etiquetas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/add_tags_icon.png).
+   1. En el panel **Etiquetas**, haga clic en " ![Añadir icono de etiquetas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/add_tags_icon.png).
    2. Puede escribir caracteres para buscar etiquetas o puede hacer clic en la flecha del cuadro desplegable para mostrar una lista de etiquetas.
    3. Seleccione las etiquetas que desea añadir.
 4. Para añadir etiquetas si el objeto ya tiene etiquetas:
@@ -1116,7 +822,7 @@ Los cambios se aplican inmediatamente. Si hace clic fuera del panel **Etiquetas*
 
 ## Su cuadro de mandos
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-your-dashboard)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-your-dashboard)
 
 El cuadro de mandos es el punto central de acceso a la información en OpenPages®.
 
@@ -1168,7 +874,7 @@ Para obtener más información, consulte [Añadir un informe o una ficha persona
 
 ### Pestaña Inicio
 
-`Guía del usuario › Su panel de control` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=dashboard-home-tab)
+`Guía del usuario › Su panel de control` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=dashboard-home-tab)
 
 La pestaña Inicio consta de paneles con contenido personalizado para ti.
 
@@ -1176,7 +882,7 @@ La pestaña Inicio proporciona un acceso personalizado y rápido a las tareas, l
 
 *Figura 1. Ejemplo de pestaña Inicio*
 
-![Pestaña de inicio con varios paneles de información](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_dashboard_1.png)
+![Pestaña de inicio con varios paneles de información](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_dashboard_1.png)
 
 En la pestaña Inicio puede realizar las siguientes tareas:
 
@@ -1190,13 +896,13 @@ Es posible que en la pestaña Inicio aparezcan paneles que no hayas definido. El
 
 ### Pestaña Mis tareas
 
-`Guía del usuario › Su panel de control` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=dashboard-my-tasks-tab)
+`Guía del usuario › Su panel de control` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=dashboard-my-tasks-tab)
 
 Utilice la pestaña Mis tareas para acceder a las tareas que le han sido asignadas.
 
 *Figura 1. Ejemplo de la pestaña Mis tareas*
 
-![Un ejemplo de la ficha Mis tareas que muestra asignaciones y una lista de informes.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/dashboard_task_focused_ui.jpg)
+![Un ejemplo de la ficha Mis tareas que muestra asignaciones y una lista de informes.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/dashboard_task_focused_ui.jpg)
 
 La pestaña Mis tareas contiene dos partes:
 
@@ -1220,13 +926,13 @@ El contenido y el diseño de la pestaña Mis tareas se han configurado para uste
 
 ### Pestaña Tareas de suscripción
 
-`Guía del usuario › Su panel de control` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=dashboard-subscription-tasks-tab)
+`Guía del usuario › Su panel de control` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=dashboard-subscription-tasks-tab)
 
 Utilice la pestaña Tareas de suscripción para acceder a las tareas a las que está suscrito.
 
 *Figura 1. Ejemplo de la pestaña Tareas de suscripción*
 
-![Un ejemplo de la pestaña Tareas de suscripción que muestra asignaciones en un gráfico y cuadrícula](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/subscriber_dashboard_task_focused_ui.jpg)
+![Un ejemplo de la pestaña Tareas de suscripción que muestra asignaciones en un gráfico y cuadrícula](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/subscriber_dashboard_task_focused_ui.jpg)
 
 La pestaña Tareas de suscripción contiene dos partes:
 
@@ -1250,7 +956,7 @@ El contenido y el diseño de la pestaña Tareas de suscripción se han configura
 
 ### Pestaña Tareas de supervisión
 
-`Guía del usuario › Su panel de control` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=dashboard-oversight-tasks-tab)
+`Guía del usuario › Su panel de control` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=dashboard-oversight-tasks-tab)
 
 Utilice la pestaña Tareas de supervisión para ver un resumen de trabajo asignado a las personas de su área de responsabilidad.
 
@@ -1265,7 +971,7 @@ La pestaña Tareas de supervisión tiene dos partes:
 
 *Figura 1. Ejemplo de la pestaña Tareas de supervisión*
 
-![Un ejemplo de la pestaña Tareas de supervisión que muestra las tareas para las personas asignadas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/oversight_dashboard_task_focused_ui.jpg)
+![Un ejemplo de la pestaña Tareas de supervisión que muestra las tareas para las personas asignadas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/oversight_dashboard_task_focused_ui.jpg)
 
 El gráfico muestra en una lista las tareas que pertenecen a las personas de su área de responsabilidad. Puede:
 
@@ -1287,31 +993,31 @@ El contenido y el diseño de la pestaña Tareas de supervisión se han configura
 
 ### Añadir un informe o una ficha personalizada
 
-`Guía del usuario › Su panel de control` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=dashboard-adding-report-custom-tab)
+`Guía del usuario › Su panel de control` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=dashboard-adding-report-custom-tab)
 
 Puedes añadir informes y pestañas personalizadas a tu panel de control. El cuadro de mandos puede contener hasta tres pestañas para Cognos® y OpenPages® y hasta tres pestañas personalizadas.
 
-Es posible que desee crear pestañas personalizadas en lugar de añadir a la ficha Inicio para mantenerlo ordenado y mantener el rendimiento. Además, es posible que desee utilizar pestañas personalizadas para agrupar paneles y widgets relacionados en lugares separados.
+> **Sugerencia:** Puede que desee crear pestañas personalizadas en lugar de añadir paneles a la pestaña **Inicio** para mantenerla ordenada y conservar el rendimiento. Además, es posible que desee utilizar pestañas personalizadas para agrupar paneles y widgets relacionados en lugares separados.
 
 #### Acerca de esta tarea
 
-Es posible que tu administrador haya creado informes y fichas personalizadas para el perfil al que perteneces. Si este es el caso, puedes conservar las pestañas o eliminarlas y añadir las tuyas propias, como pestañas para los informes a los que accedes con más frecuencia.
+Es posible que tu administrador haya creado informes y fichas personalizadas para el perfil al que perteneces. Si este es el caso, puedes conservar las pestañas o eliminarlas y añadir las tuyas propias, como pestañas para los informes a los que accedes con más frecuencia. El nuevo informe y las pestañas personalizadas que el administrador pueda haber creado se muestran después de la pestaña **Inicio**. También puedes reorganizar el orden de las pestañas, excepto la de **Inicio**, ya que su posición es fija.
 
 #### Procedimiento
 
-1. En cualquier pestaña, haz clic en ![Configurar pestañas y paneles](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/settings_config_dashboard_icon_task_focused_ui.jpg).
+1. En cualquier pestaña, haz clic en ![Configurar pestañas y paneles](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/settings_config_dashboard_icon_task_focused_ui.jpg).
 2. Seleccione **Tablas**.
 3. Haz clic en **Nueva pestaña**.
 4. Para crear una ficha de informe, realice los siguientes pasos:
 
-   1. haz clic en **Añadir ficha de informe**.
+   1. Haga clic en **la pestaña Añadir informe**.
    2. Introduzca una **etiqueta**.
 
-      > **Consejo:** La etiqueta se muestra como título de la pestaña. Para que la lengüeta encaje fácilmente en el salpicadero, utilice una etiqueta lo más corta posible.
+      > **Consejo:** La etiqueta se muestra como título de la pestaña. Para que la lengüeta encaje fácilmente en el salpicadero, utilice una etiqueta corta.
 
       Pulse **Editar** para especificar valores localizados.
 
-      Si se visualiza, pulse ![Botón de traducción automática](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/translate.png) para rellenar los valores traducidos a idiomas. Para obtener más información, consulte [Servicios de traducción](3.5-guia-del-administrador.md#servicios-de-traducción).
+      Si se visualiza, pulse ![Botón de traducción automática](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/translate.png) para rellenar los valores traducidos a idiomas. Para obtener más información, consulte [Servicios de traducción](3.5-guia-del-administrador.md#servicios-de-traducción).
    3. Seleccione un **Informe**.
    4. Haz clic en **Hecho**.
 5. Para crear una pestaña personalizada, realice los siguientes pasos:
@@ -1324,11 +1030,12 @@ Es posible que tu administrador haya creado informes y fichas personalizadas par
 
       Para obtener más información sobre cómo añadir un panel, consulte [Añadir paneles y widgets a una pestaña](#añadir-paneles-y-widgets-a-una-pestaña).
    4. Haz clic en **Hecho**.
-6. Cuando haya terminado con los cambios, haga clic en **Guardar**.
+6. Reorganice las pestañas personalizadas y de informes arrastrando cada ficha al orden deseado.
+7. Cuando haya terminado con los cambios, haga clic en **Guardar**.
 
 ### Añadir paneles y widgets a una pestaña
 
-`Guía del usuario › Su panel de control` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=dashboard-adding-panels-widgets-tab)
+`Guía del usuario › Su panel de control` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=dashboard-adding-panels-widgets-tab)
 
 La pestaña Inicio y las pestañas personalizadas te permiten crear tus propios paneles personalizados.
 
@@ -1337,24 +1044,27 @@ Se pueden añadir los siguientes tipos de paneles:
 - Gráficos
 
   Para obtener más información, consulte [Adición de un panel de gráfico](#adición-de-un-panel-de-gráfico).
+- Actividad de comentarios
+
+  Para obtener más información, consulte [Panel de actividad Añadir un comentario](#añadir-un-comentario-panel-de-actividad).
 - Paneles personalizados
 
-  Para obtener más información, consulte [Adición de un panel personalizado](#adición-de-un-panel-personalizado).
+  Para obtener más información, consulte [Añadir un panel personalizado](#adición-de-un-panel-personalizado).
 - Objetos favoritos
 
-  Para obtener más información, consulte [Adición de un panel de favoritos](#adición-de-un-panel-de-favoritos).
+  Para obtener más información, consulte [Añadir un panel de favoritos](#adición-de-un-panel-de-favoritos).
 - Mis tareas
 
-  Para obtener más información, consulte [Adición de un panel Mis tareas](#adición-de-un-panel-mis-tareas).
+  Para obtener más información, consulte [Añadir un panel Mis tareas](#adición-de-un-panel-mis-tareas).
 - Tareas de supervisión
 
-  Para obtener más información, consulte [Adición de un panel de tarea de supervisión](#adición-de-un-panel-de-tareas-de-supervisión).
+  Para obtener más información, consulte [Añadir un panel de tareas de supervisión](#adición-de-un-panel-de-tareas-de-supervisión).
 - Informes
 
-  Para obtener más información, consulte [Adición de un panel de informes](#adición-de-un-panel-de-informes).
+  Para obtener más información, consulte [Añadir un panel de informes](#adición-de-un-panel-de-informes).
 - Tareas suscritas
 
-  Para obtener más información, consulte [Panel Añadir una tarea de suscripción](#adición-de-un-panel-de-tareas-de-suscripción).
+  Para obtener más información, consulte [Añadir una suscripción Panel de tareas](#adición-de-un-panel-de-tareas-de-suscripción).
 
 Puede añadir tantos paneles como desee a una ficha. Sin embargo, antes de añadir un panel, tenga en cuenta que las pestañas con más paneles tardan más en cargarse.
 
@@ -1376,7 +1086,7 @@ Si el panel de control encuentra un problema y no puede representarse, puede apl
 
 #### Adición de un panel de gráfico
 
-`Guía del usuario › Su panel de control › Añadir paneles y widgets a una pestaña` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=tab-adding-chart-panel)
+`Guía del usuario › Su panel de control › Añadir paneles y widgets a una pestaña` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=tab-adding-chart-panel)
 
 Configura un panel de gráficos en la pestaña Inicio o en una pestaña personalizada para mostrar gráficos de datos a los que accedes con frecuencia.
 
@@ -1394,7 +1104,7 @@ Los gráficos en un panel son similares en función a los gráficos en una Vista
 
 ##### Procedimiento
 
-1. En la pestaña Inicio, o en cualquier pestaña personalizada, haz clic en ![Configurar pestañas y paneles](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/settings_config_dashboard_icon_task_focused_ui.jpg).
+1. En la pestaña Inicio, o en cualquier pestaña personalizada, haz clic en ![Configurar pestañas y paneles](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/settings_config_dashboard_icon_task_focused_ui.jpg).
 2. Seleccione **Paneles**.
 3. Pulse **Panel nuevo**.
 4. En el menú **Tipo de panel** , seleccione **Gráfico**.
@@ -1411,8 +1121,6 @@ Los gráficos en un panel son similares en función a los gráficos en una Vista
    - **Barra horizontal**
    - **Gráfico circular**
    - **Barra apilada**
-
-   Si elige un **Tipo de gráfico** de **Barra**, **Tuerca de anillos**, **Barra horizontal**o **Circular** y hay más de 10 valores para mostrar, los valores de campo se muestran para 9 valores. Los otros valores se agrupan y se muestran como **Otros** en el gráfico.
 9. Si selecciona Gantt, complete los campos de Configuración del diagrama de Gantt:
 
    1. Seleccione un **Campo de fecha de inicio**.
@@ -1429,21 +1137,28 @@ Los gráficos en un panel son similares en función a los gráficos en una Vista
 
     - Seleccione **Orden de definición de campo** para visualizar los valores en el gráfico en el mismo orden en que se visualizan en el tipo de objeto.
 
-      Cuando hay más de diez valores para visualizar, los primeros nueve elementos, independientemente de su valor, se muestran en el gráfico y el resto se recopilan en **Otros**.
+      Por defecto, cuando hay más de 10 valores para mostrar, los 9 primeros elementos, independientemente de su valor, se muestran en el gráfico y el resto se recogen en **Otros**. El número de categorías a mostrar puede cambiarse con **Configuración de la pantalla de gráficos**.
     - Seleccione **Ascendente** O **Descendente** para visualizar los valores en el gráfico basándose en sus valores.
 
-      Cuando hay más de diez valores para mostrar, los nueve elementos con los valores más altos se muestran en el gráfico y el resto se recopilan en **Otros**.
+      Por defecto, cuando hay más de 10 valores para mostrar, los 9 elementos con los valores más altos se muestran en el gráfico y el resto se recogen en **Otros**. El número de categorías a mostrar puede cambiarse con **Configuración de la pantalla de gráficos**.
 
     Para gráficos de anillos y gráficos circulares, la **Dirección de ordenación** controla lo que sucede cuando hay más de diez valores para mostrar.
 
-    - Con **Ascendente** O **Descendente**, los nueve elementos con los valores más altos se muestran en el gráfico y el resto se recopilan en **Otros**.
-    - Con **Orden de definición de campo**, los nueve primeros elementos, independientemente de su valor, se muestran en el gráfico y el resto se recopilan en **Otros**.
-13. Pulse **Terminado**.
-14. Haz clic en la pestaña para actualizarla y comprueba que el panel se muestra correctamente. Haz clic en un panel y muévelo hasta donde quieras que se muestre en la pestaña.
+    - Con **Orden de definición de campos**, las 9 primeras categorías, independientemente de su valor, se muestran por defecto en el gráfico y el resto se recogen en **Otros**. El número de categorías a mostrar puede cambiarse con **Configuración de la pantalla de gráficos**.
+    - Con **Ascendente** o **Descendente**, las 9 categorías con los valores más altos se muestran por defecto en el gráfico y el resto se recogen en **Otros**. El número de categorías a mostrar puede cambiarse con **Configuración de la pantalla de gráficos**.
+13. Puede configurar el número de categorías que se mostrarán en un gráfico. Elija cualquiera de las siguientes opciones de la lista desplegable **Configuración de visualización de gráficos** :
+
+    - **Limitar a 10, con "Otros"** : Sólo se muestran 10 categorías, que incluyen 9 categorías y la categoría **Otros**, que combina los datos de las categorías restantes. Si se seleccionó **Ascendente** o **Descendente** para **la dirección de ordenación**, se muestran las 9 categorías con los valores más altos, y si se seleccionó **Orden de definición de campos**, se muestran las 9 primeras categorías.
+    - **Mostrar top 10** : Sólo se muestran 10 categorías. Si se seleccionó **Ascendente** o **Descendente** para **la dirección de ordenación**, entonces se muestran las 10 categorías con los valores más altos, y si se seleccionó **Orden de definición de campo**, entonces se muestran las 10 primeras categorías.
+    - **Mostrar todo** : Se muestran todas las categorías en el gráfico. Si tiene numerosas categorías y muchos datos que mostrar, esta opción puede dificultar la lectura del gráfico.
+
+    > **Nota:** A veces, el recuento total en el panel del gráfico no refleja el recuento total de valores en el gráfico porque algunos valores pertenecen a varias categorías en el mismo gráfico.
+14. Pulse **Terminado**.
+15. Haz clic en la pestaña para actualizarla y comprueba que el panel se muestra correctamente. Puede arrastrar los paneles para reorganizarlos en la pestaña.
 
 #### Adición de un panel personalizado
 
-`Guía del usuario › Su panel de control › Añadir paneles y widgets a una pestaña` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=tab-adding-custom-panel)
+`Guía del usuario › Su panel de control › Añadir paneles y widgets a una pestaña` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=tab-adding-custom-panel)
 
 Configura un panel personalizado en la pestaña Inicio o una pestaña personalizada para organizar la información a la que quieras acceder rápidamente.
 
@@ -1475,7 +1190,7 @@ Los siguientes tipos de widgets se pueden añadir a un panel personalizado:
 
 ##### Procedimiento
 
-1. En la pestaña Inicio, o en cualquier pestaña personalizada, haz clic en ![Configurar pestañas y paneles](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/settings_config_dashboard_icon_task_focused_ui.jpg).
+1. En la pestaña Inicio, o en cualquier pestaña personalizada, haz clic en ![Configurar pestañas y paneles](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/settings_config_dashboard_icon_task_focused_ui.jpg).
 2. Seleccione **Paneles**.
 3. Pulse **Panel nuevo**.
 4. Seleccione **Personalizado** en **Tipo de panel**.
@@ -1540,11 +1255,32 @@ Los siguientes tipos de widgets se pueden añadir a un panel personalizado:
     2. Introduzca una URL completa en **Enlace**, por ejemplo, `https://www.ibm.com`.
     3. Pulse **Terminado**.
 13. Pulse **Terminado**.
-14. Haz clic en la pestaña para actualizarla y comprueba que el panel se muestra correctamente. Haz clic en un panel y muévelo hasta donde quieras que se muestre en la pestaña.
+14. Haz clic en la pestaña para actualizarla y comprueba que el panel se muestra correctamente. Puede arrastrar los paneles para reorganizarlos en la pestaña.
+
+#### Añadir un comentario Panel de actividad
+
+`Guía del usuario › Su panel de control › Añadir paneles y widgets a una pestaña` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=tab-adding-comment-activity-panel)
+
+Si desea ver comentarios sobre objetos en su panel de control, puede configurar un panel de Actividad de comentarios en la pestaña Inicio o en una pestaña personalizada.
+
+##### Procedimiento
+
+1. En la pestaña Inicio, o en cualquier pestaña personalizada, haga clic en ![Configurar pestañas y paneles](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/settings_config_dashboard_icon_task_focused_ui.jpg).
+2. Seleccionar **paneles**.
+3. Haga clic en **Nuevo panel**.
+4. Seleccione **Actividad de comentarios** en **Tipo de panel**.
+5. Introduzca **una etiqueta**. La etiqueta se visualiza como un título para el panel.
+6. Haga clic **en Listo**.
+7. Pulse **Guardar**.
+8. Haga clic en la pestaña para actualizarla y verificar que el panel se muestre correctamente. Puede arrastrar los paneles para reorganizarlos en la pestaña.
+
+##### Resultados
+
+En el panel, puedes elegir **Comentarios mencionados** para ver los comentarios en los que se te menciona o **Mis comentarios** para ver los comentarios que has hecho. Por defecto, el panel muestra **Comentarios mencionados**.
 
 #### Adición de un panel de favoritos
 
-`Guía del usuario › Su panel de control › Añadir paneles y widgets a una pestaña` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=tab-adding-favorites-panel)
+`Guía del usuario › Su panel de control › Añadir paneles y widgets a una pestaña` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=tab-adding-favorites-panel)
 
 Configura un panel de favoritos en la pestaña Inicio o en una pestaña personalizada para mostrar los objetos marcados como favoritos.
 
@@ -1558,7 +1294,7 @@ Se pueden marcar como favoritos 20 objetos como máximo.
 
 ##### Procedimiento
 
-1. En la pestaña Inicio, o en cualquier pestaña personalizada, haz clic en ![Configurar pestañas y paneles](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/settings_config_dashboard_icon_task_focused_ui.jpg).
+1. En la pestaña Inicio, o en cualquier pestaña personalizada, haz clic en ![Configurar pestañas y paneles](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/settings_config_dashboard_icon_task_focused_ui.jpg).
 2. Seleccione **Paneles**.
 3. Pulse **Panel nuevo**.
 4. Seleccione **Objetos favoritos** en **Tipo de panel**.
@@ -1576,18 +1312,18 @@ Se pueden marcar como favoritos 20 objetos como máximo.
    El nuevo panel aparece en la pestaña. Se listan los objetos que ya están marcados como favoritos.
 9. Para marcar un objeto como favorito:
 
-   1. Haga clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)**, amplíe una categoría, elija un tipo de objeto y abra un objeto. Por ejemplo, abra una entidad de negocios a la que tenga que acceder con frecuencia.
-   2. Haz clic en ![estrella de favoritos](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/favorites_star.jpg).
+   1. Haga clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)**, amplíe una categoría, elija un tipo de objeto y abra un objeto. Por ejemplo, abra una entidad de negocios a la que tenga que acceder con frecuencia.
+   2. Haz clic en ![estrella de favoritos](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/favorites_star.jpg).
 
       La estrella de favoritos se vuelve de color amarillo sólido.
    3. Vuelve a la pestaña.
 
       El objeto que ha marcado se lista en el panel de favoritos.
-10. Para desmarcar un objeto como favorito, abra el objeto y haga clic en ![estrella de favoritos (activo)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/favorites_star_filled.jpg).
+10. Para desmarcar un objeto como favorito, abra el objeto y haga clic en ![estrella de favoritos (activo)](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/favorites_star_filled.jpg).
 
 #### Adición de un panel de informes
 
-`Guía del usuario › Su panel de control › Añadir paneles y widgets a una pestaña` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=tab-adding-reports-panel)
+`Guía del usuario › Su panel de control › Añadir paneles y widgets a una pestaña` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=tab-adding-reports-panel)
 
 Configure un panel Informes en la pestaña Inicio o en una pestaña personalizada para mostrar una lista de todos los informes por categoría o una lista alfabética de los informes que están asignados al perfil al que pertenece.
 
@@ -1604,7 +1340,7 @@ Cuando se define un panel de informes, el campo **Origen de datos** determina la
 
 ##### Procedimiento
 
-1. En la pestaña Inicio, o en cualquier pestaña personalizada, haz clic en ![Configurar pestañas y paneles](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/settings_config_dashboard_icon_task_focused_ui.jpg).
+1. En la pestaña Inicio, o en cualquier pestaña personalizada, haz clic en ![Configurar pestañas y paneles](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/settings_config_dashboard_icon_task_focused_ui.jpg).
 2. Seleccione **Paneles**.
 3. Pulse **Panel nuevo**.
 4. Seleccione **Informes** en **Tipo de panel**.
@@ -1612,11 +1348,11 @@ Cuando se define un panel de informes, el campo **Origen de datos** determina la
 6. Seleccione Todos los informes o informes de perfil en **Origen de datos**.
 7. Pulse **Terminado**.
 8. En el menú Orden de datos, elija cómo debe visualizarse la información del gráfico: por definición de campo, por orden ascendente o por orden descendente.
-9. Haz clic en la pestaña para actualizarla y comprueba que el panel se muestra correctamente. Haz clic en un panel y muévelo hasta donde quieras que se muestre en la pestaña.
+9. Haz clic en la pestaña para actualizarla y comprueba que el panel se muestra correctamente. Puede arrastrar los paneles para reorganizarlos en la pestaña.
 
 #### Adición de un panel Mis tareas
 
-`Guía del usuario › Su panel de control › Añadir paneles y widgets a una pestaña` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=tab-adding-my-tasks-panel)
+`Guía del usuario › Su panel de control › Añadir paneles y widgets a una pestaña` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=tab-adding-my-tasks-panel)
 
 Configura un panel Mis tareas en la pestaña Inicio o una pestaña personalizada para organizar las tareas que se te asignan por fecha de vencimiento, en relación con un *plazo de vencimiento próximo*.
 
@@ -1632,7 +1368,7 @@ La ventana **Tarea completada con acciones de flujo de trabajo masivo** se muest
 
 ##### Procedimiento
 
-1. En la pestaña Inicio, o en cualquier pestaña personalizada, haz clic en ![Configurar pestañas y paneles](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/settings_config_dashboard_icon_task_focused_ui.jpg).
+1. En la pestaña Inicio, o en cualquier pestaña personalizada, haz clic en ![Configurar pestañas y paneles](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/settings_config_dashboard_icon_task_focused_ui.jpg).
 2. Seleccione **Paneles**.
 3. Pulse **Panel nuevo**.
 4. Pulse **Mis tareas**en **Tipo de panel**.
@@ -1640,11 +1376,11 @@ La ventana **Tarea completada con acciones de flujo de trabajo masivo** se muest
 6. En la definición de **'Vence pronto' (en semanas)** especifique el número de semanas que definen el periodo de tiempo de vencimiento pronto.
 7. Deje los colores predeterminados tal como están o elija otros colores en **Colores de gráfico**.
 8. Pulse **Terminado**.
-9. Haz clic en la pestaña para actualizarla y comprueba que el panel se muestra correctamente. Haz clic en un panel y muévelo hasta donde quieras que se muestre en la pestaña.
+9. Haz clic en la pestaña para actualizarla y comprueba que el panel se muestra correctamente. Puede arrastrar los paneles para reorganizarlos en la pestaña.
 
 #### Adición de un panel de tareas de suscripción
 
-`Guía del usuario › Su panel de control › Añadir paneles y widgets a una pestaña` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=tab-adding-subscription-task-panel)
+`Guía del usuario › Su panel de control › Añadir paneles y widgets a una pestaña` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=tab-adding-subscription-task-panel)
 
 Configure un panel de Tareas de suscripción en la pestaña Inicio o en una pestaña personalizada para organizar sus tareas de suscripción por fecha de vencimiento, en relación con un plazo de "vencimiento próximo".
 
@@ -1660,7 +1396,7 @@ Aparece la ventana **Tarea completa con acciones de flujo de trabajo masivo** en
 
 ##### Procedimiento
 
-1. En la pestaña Inicio, o en cualquier pestaña personalizada, haz clic en ![Configurar pestañas y paneles](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/settings_config_dashboard_icon_task_focused_ui.jpg).
+1. En la pestaña Inicio, o en cualquier pestaña personalizada, haz clic en ![Configurar pestañas y paneles](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/settings_config_dashboard_icon_task_focused_ui.jpg).
 2. Seleccione **Paneles**.
 3. Pulse **Panel nuevo**.
 4. Seleccione **Tareas suscritas** en **Tipo de panel**.
@@ -1668,11 +1404,11 @@ Aparece la ventana **Tarea completa con acciones de flujo de trabajo masivo** en
 6. En la definición de **'Vence pronto' (en semanas)** especifique el número de semanas que definen el periodo de tiempo de vencimiento pronto.
 7. Deje los colores predeterminados tal como están o elija otros colores en **Colores de gráfico**.
 8. Pulse **Terminado**.
-9. Haz clic en la pestaña para actualizarla y comprueba que el panel se muestra correctamente. Haz clic en un panel y muévelo hasta donde quieras que se muestre en la pestaña.
+9. Haz clic en la pestaña para actualizarla y comprueba que el panel se muestra correctamente. Puede arrastrar los paneles para reorganizarlos en la pestaña.
 
 #### Adición de un panel de tareas de supervisión
 
-`Guía del usuario › Su panel de control › Añadir paneles y widgets a una pestaña` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=tab-adding-oversight-task-panel)
+`Guía del usuario › Su panel de control › Añadir paneles y widgets a una pestaña` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=tab-adding-oversight-task-panel)
 
 Configure un panel de Tareas de supervisión en la pestaña Inicio o en una pestaña personalizada para organizar sus tareas de supervisión por fecha de vencimiento, en relación con un *plazo próximo*.
 
@@ -1688,7 +1424,7 @@ La ventana **Tarea completada con acciones de flujo de trabajo masivo** se muest
 
 ##### Procedimiento
 
-1. En la pestaña Inicio, o en cualquier pestaña personalizada, haz clic en ![Configurar pestañas y paneles](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/settings_config_dashboard_icon_task_focused_ui.jpg).
+1. En la pestaña Inicio, o en cualquier pestaña personalizada, haz clic en ![Configurar pestañas y paneles](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/settings_config_dashboard_icon_task_focused_ui.jpg).
 2. Seleccione **Paneles**.
 3. Pulse **Panel nuevo**.
 4. Seleccione **Tareas de supervisión** en **Tipo de panel**.
@@ -1696,17 +1432,17 @@ La ventana **Tarea completada con acciones de flujo de trabajo masivo** se muest
 6. En la definición de **'Vence pronto' (en semanas)** especifique el número de semanas que definen el periodo de tiempo de vencimiento pronto.
 7. Deje los colores predeterminados tal como están o elija otros colores en **Colores de gráfico**.
 8. Pulse **Terminado**.
-9. Haz clic en la pestaña para actualizarla y comprueba que el panel se muestra correctamente. Haz clic en un panel y muévelo hasta donde quieras que se muestre en la pestaña.
+9. Haz clic en la pestaña para actualizarla y comprueba que el panel se muestra correctamente. Puede arrastrar los paneles para reorganizarlos en la pestaña.
 
 ## Trabajo con objetos
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-working-objects)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-working-objects)
 
 Puede completar el trabajo que se le ha asignado, crear objetos y editar y copiar objetos.
 
 ### Utilización de las vistas de cuadrícula para buscar, abrir y trabajar con objetos
 
-`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-using-grid-views-find-open-work)
+`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-using-grid-views-find-open-work)
 
 Una vista de cuadrícula es una lista de objetos.
 
@@ -1718,14 +1454,36 @@ En una vista de cuadrícula, puede realizar las tareas siguientes:
 - Crear, suprimir, bloquear y desbloquear objetos.
 - Cambiar campos en varios objetos.
 - Aplicar o eliminar etiquetas en varios objetos.
+- Cambie la disposición de los objetos a una disposición de lista o tarjeta.
 
 #### Acerca de esta tarea
 
-Las vistas de cuadrícula funcionan de la misma manera en todos los tipos de objeto. Las columnas de campo varían dependiendo del tipo de objeto.
+Las vistas de cuadrícula funcionan de la misma manera en todos los tipos de objeto. Las columnas de los campos de la lista varían en función del tipo de objeto. En un diseño de tarjeta, los campos y etiquetas se muestran dentro de la tarjeta que representa cada objeto.
 
 *Figura 1. Ejemplo de una lista de objetos (vista de cuadrícula)*
 
-![Lista de objetos de riesgo que se muestran en una cuadrícula con Descripción, Estado, Clasificación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_ug_grid_view.png)
+![Lista de objetos de incidencias mostrados en una cuadrícula con Descripción, Estado, Propietario de la incidencia](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_ug_grid_view_list.png)
+
+*Figura 2. Ejemplo de disposición de objetos en una tarjeta (vista en cuadrícula)*
+
+![Diseño de tarjeta de objetos de problemas en cuadrícula con descripción, estado y propietario del problema](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_ug_grid_view_card.png)
+
+Es posible que su administrador haya configurado una vista de cuadrícula anidada para un tipo de objeto. Una vista de cuadrícula anidada muestra los hijos de un tipo de objeto especificado y los descendientes de tipos de objeto especificados para cada hijo. Cada nivel de objetos está sangrado para proporcionar una representación visual de las relaciones entre los objetos. Por ejemplo, la siguiente figura muestra la estructura de una Entidad Comercial, sus Procesos secundarios y sus Riesgos secundarios.
+
+*Figura 3. Una vista de cuadrícula anidada*
+
+![Una vista de cuadrícula anidada que muestra las entidades empresariales, sus procesos secundarios y sus descendientes.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/nested_grid_view.png)
+
+Una vista de cuadrícula anidada tiene las siguientes características:
+
+- Cuando se visualiza por primera vez una vista de cuadrícula anidada, se muestran los elementos secundarios del objeto actual. Puede hacer clic en **Expandir** ![Chevron para expandir el objeto actual](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/chevron--right.png) sobre un objeto para ver sus hijos y en **Contraer** ![Chevron para contraer el objeto actual](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/chevron--down.png) para ocultarlos. Para contraer todos los niveles expandidos de la cuadrícula, haga clic en **Contraer todo** ![Chevron colapsará todos los niveles](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/chevron--down.png) en la columna situada más a la izquierda de la fila de encabezado.
+- Cuando varios tipos de objetos tienen un campo con la misma etiqueta, los valores de ese campo se colocan en una columna con la palabra **Múltiple** en el encabezado de la columna. Por ejemplo, en la Figura 2, Procesos, Riesgos y Controles comparten **la columna Estado** porque estos tipos de objetos tienen un campo con la etiqueta **Estado**.
+
+  Las columnas etiquetadas como **Múltiple** siempre se muestran en las columnas más a la izquierda.
+
+  Si un campo no está configurado para el tipo de objeto o si no se aplica al objeto, la columna de ese campo aparece en un color diferente al resto de la fila.
+- Puede buscar, ordenar y ejecutar acciones por lotes en el tipo de objeto de nivel superior, pero no en los demás niveles.
+- Cuando hay más de 10 objetos en un nivel, se muestra una barra de paginación para que pueda pasar las páginas de los objetos de ese nivel.
 
 #### Procedimiento
 
@@ -1733,15 +1491,17 @@ Las vistas de cuadrícula funcionan de la misma manera en todos los tipos de obj
 
    Hay varios puntos de acceso para las vistas de cuadrícula, por ejemplo:
 
-   - Haz clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)**. Busque el tipo de objeto con el que desea trabajar. Se abre una vista de cuadrícula.
-   - Pulse un color de un gráfico de una vista de tarea o del panel de control. Se abre una vista de cuadrícula con objetos en esa parte del gráfico.
+   - Haga clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)**. Busque el tipo de objeto con el que desea trabajar. Se abre una vista de cuadrícula.
+   - Pulse un color de un gráfico de una vista de tarea o del panel de control. Se abre una vista de cuadrícula con los objetos de esa parte del gráfico.
 2. Realice alguna de las acciones siguientes:
 
-   - Pulse el nombre de un objeto con el que desea trabajar para abrirlo. o pulse ![Icono Editar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_quick_view_icon.jpg) junto al objeto que desea abrir en una vista rápida.
+   - Utilice la barra de desplazamiento situada en la parte inferior de la página para ver todas las columnas de la vista en cuadrícula. Cuando se desplaza horizontalmente, la columna situada más a la izquierda permanece en su sitio para que siempre esté visible. En el diseño de tarjetas de la vista en cuadrícula, puede desplazarse dentro de cada tarjeta para ver los campos.
+   - Es posible que su administrador haya establecido un diseño predeterminado de la vista de cuadrícula, pero aún puede cambiar el diseño para su comodidad. Para cambiar la disposición de los objetos a una disposición de tarjeta, haga clic en el icono Tarjeta ![Icono de diseño de tarjeta para una vista en cuadrícula](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/card_layout_icon_grid_view.png). Para cambiar la disposición de los objetos a una disposición de lista, haga clic en el icono Lista ![Icono de diseño de lista para una vista de cuadrícula](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/list_layout_icon_grid_view.png).
+   - Haga clic en el nombre de un objeto con el que desee trabajar para abrirlo, o pase el puntero del ratón por encima del objeto y haga clic en **Abrir vista rápida** ![Abrir botón de vista rápida](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_quick_view_icon.jpg) para ver o editar el objeto en un panel lateral.
    - Pulsar en el recuadro de búsqueda y especificar los criterios de búsqueda.
 
-     Para obtener más información, consulte [Búsqueda de objetos con el recuadro de búsqueda](#búsqueda-de-objetos-con-el-recuadro-buscar).
-   - Pulse ![icono de filtro](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/filter_icon_task_focused_ui.jpg) para acceder a los filtros que le ayudan a encontrar rápidamente objetos con los que desea trabajar.
+     Para más información, consulte [Buscar objetos con el cuadro de búsqueda](#búsqueda-de-objetos-con-el-recuadro-buscar).
+   - Pulse ![icono de filtro](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/filter_icon_task_focused_ui.jpg) para acceder a los filtros que le ayudan a encontrar rápidamente objetos con los que desea trabajar.
 
      Para obtener más información, consulte:
 
@@ -1750,29 +1510,29 @@ Las vistas de cuadrícula funcionan de la misma manera en todos los tipos de obj
      - [Utilización de filtros públicos](#utilización-de-filtros-públicos)
      - [Utilización de filtros ad hoc](#utilización-de-filtros-ad-hoc)
 
-     Después de aplicar un filtro, puede especificar opcionalmente criterios de búsqueda en el recuadro de búsqueda para acotar aún más la búsqueda.
+     Después de aplicar un filtro, puede introducir criterios de búsqueda en el cuadro de búsqueda para acotar aún más su búsqueda.
 
      Pulse en el nombre de filtro en la cabecera para eliminar el filtro.
-   - Seleccionar o borrar el filtro que se visualiza en la parte superior de la cuadrícula, si se visualiza alguno. El nombre del filtro depende de cómo se haya configurado su sistema. Si el tipo de objeto utiliza flujos de trabajo, puede que se visualice el filtro **Sólo activos**. Desmarque **Sólo activos** para incluir los objetos de la lista que han completado un flujo de trabajo. En la lista siempre figuran los objetos que no se han sometido a un flujo de trabajo y aquellos que están en un flujo de trabajo de forma activa. Si no se visualiza **Sólo activos**, no existe ningún flujo de trabajo para el tipo de objeto.
-   - Exportar todos los objetos o los objetos seleccionados a una hoja de cálculo. Para obtener información, consulte [Exportación de datos de resultados de filtro](#exportación-de-datos-de-los-resultados-filtrados).
-   - Pulse **Completar tarea con acciones de flujo de trabajo masivo**, si se visualiza, para completar rápidamente los elementos de flujo de trabajo. Para obtener más información, consulte [Completar acciones de flujo de trabajo masivo en una vista de cuadrícula](#completar-acciones-de-flujo-de-trabajo-masivo-en-una-vista-de-cuadrícula).
+   - Seleccionar o borrar el filtro que se visualiza en la parte superior de la cuadrícula, si se visualiza alguno. El nombre del filtro depende de cómo esté configurado su sistema. Si el tipo de objeto utiliza flujos de trabajo, puede que se visualice el filtro **Sólo activos**. Desmarque **Sólo activos** para incluir los objetos de la lista que han completado un flujo de trabajo. Siempre se muestran los objetos que aún no han pasado por un flujo de trabajo y los que están activamente en un flujo de trabajo. Si no se visualiza **Sólo activos**, no existe ningún flujo de trabajo para el tipo de objeto.
+   - Exportar todos los objetos o los objetos seleccionados a una hoja de cálculo. Para más información, consulte [Exportación de datos de los resultados de los filtros](#exportación-de-datos-de-los-resultados-filtrados).
+   - Pulse **Completar tarea con acciones de flujo de trabajo masivo**, si se visualiza, para completar rápidamente los elementos de flujo de trabajo. Para obtener más información, consulte [Finalización de acciones de flujo de trabajo masivo en una vista de cuadrícula](#completar-acciones-de-flujo-de-trabajo-masivo-en-una-vista-de-cuadrícula).
    - Seleccione todos, uno o varios objetos con la marca de selección y, a continuación, podrá suprimirlos, bloquearlos, desbloquearlos o exportarlos.
-   - Seleccione todos, uno o muchos objetos con la marca de selección y pulse ![Actualización masiva](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/bulk_update_icon_tfui.jpg) para cambiar los valores de campo entre varios objetos. Para obtener más información, consulte [Aplicación de cambios a varios objetos con una actualización masiva en una vista de cuadrícula](#aplicación-de-cambios-a-varios-objetos-con-actualización-masiva-en-una-vista-de-cuadrícula).
-   - Seleccione todos, uno o muchos objetos con la marca de selección y pulse ![Gestionar etiquetas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/manage_tags_icon.png) para aplicar o eliminar etiquetas en varios objetos. Para obtener más información, consulte [Adición y eliminación de etiquetas de varios objetos en una vista de cuadrícula](#adición-y-eliminación-de-etiquetas-de-varios-objetos-en-una-vista-de-cuadrícula).
-   - Seleccione todos, uno o varios objetos con la marca de selección y pulse ![Icono Mover](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/move_icon_tfui.jpg) para mover los objetos a otra carpeta. Elija el destino de los objetos seleccionados y pulse **Confirmar**. Para entidades empresariales, objetos autocontenidos y objetos de modelo de seguridad, los objetos seleccionados se mueven utilizando un proceso de larga ejecución. Esto permite a un usuario reorganizar las estructuras de la entidad empresarial. No se puede deshacer un movimiento.
+   - Seleccione todos, uno o muchos objetos con la marca de selección y pulse ![Actualización masiva](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/bulk_update_icon_tfui.jpg) para cambiar los valores de campo entre varios objetos. Para obtener más información, consulte [Aplicación de cambios a varios objetos con actualización masiva en una vista en cuadrícula](#aplicación-de-cambios-a-varios-objetos-con-actualización-masiva-en-una-vista-de-cuadrícula).
+   - Seleccione todos, uno o muchos objetos con la marca de selección y pulse ![Gestionar etiquetas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/manage_tags_icon.png) para aplicar o eliminar etiquetas en varios objetos. Para obtener más información, consulte [Añadir y eliminar etiquetas de varios objetos en una vista en cuadrícula](#adición-y-eliminación-de-etiquetas-de-varios-objetos-en-una-vista-de-cuadrícula).
+   - Seleccione todos, uno o varios objetos con la marca de verificación y haga clic en ![Icono Mover](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/move_icon_tfui.jpg) para mover los objetos a otra carpeta. Elija el destino de los objetos seleccionados y pulse **Confirmar**. Para entidades empresariales, objetos autónomos y objetos de modelo de seguridad, los objetos seleccionados se mueven mediante un proceso de larga duración. Esto permite a un usuario reorganizar las estructuras de la entidad empresarial. No se puede deshacer un movimiento.
 
-     Si puede mover objetos depende de los permisos y de cómo se haya configurado el sistema.
+     Que pueda mover objetos depende de sus permisos y de cómo esté configurado su sistema.
 
-     > **Nota:** Si un movimiento implica un gran número de objetos, realice el movimiento después de horas laborables para reducir el impacto en el rendimiento del sistema.
-   - Pulsar un nombre de campo de la fila de cabecera para ordenar la lista por ese campo en orden ascendente. Pulse el nombre de nuevo para aplicar el orden descendente.
-   - Pulse ![Botón Nuevo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/add_new_icon_task_focused_ui.jpg) para crear un objeto nuevo. La visualización del botón depende de cómo se ha configurado el sistema.
+     > **Nota** : Si un traslado implica muchos objetos, realice el traslado fuera del horario laboral para reducir el impacto en el rendimiento del sistema.
+   - Cuando esté en el diseño de la lista, haga clic en un nombre de campo de la fila de encabezado para ordenar la lista por ese campo en orden ascendente. Pulse el nombre de nuevo para aplicar el orden descendente. No se pueden ordenar los objetos en el diseño de la tarjeta.
+   - Pulse ![Botón Nuevo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/add_new_icon_task_focused_ui.jpg) para crear un objeto nuevo. La visualización del botón depende de cómo se ha configurado el sistema.
    - Elija un valor en **Elementos por página** para controlar cuantos objetos se listan en una sola página.
 
 Si accede a un tipo de objeto que no tiene una vista de cuadrícula válida habilitada, no se visualiza ninguna vista.
 
 ### Completar el trabajo asignado
 
-`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-completing-work-that-is-assigned-you)
+`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-completing-work-that-is-assigned-you)
 
 Puede completar una tarea que se le haya asignado.
 
@@ -1794,15 +1554,15 @@ Las acciones que puede realizar en la tarea dependerá de cómo se haya configur
    - Revise la información del objeto.
    - Complete los campos necesarios que están vacíos.
 
-     Pase el cursor por encima de los campos para ver cuáles son editables. Cuando se visualiza el icono ![icono de edición](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_edit_icon.jpg) junto a un campo, puede pulsar el campo para colocarlo en modo de edición. Pulse el tabulador para moverse de un campo a otro.
+     Pase el cursor por encima de los campos para ver cuáles son editables. Cuando se visualiza el icono ![icono de edición](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_edit_icon.jpg) junto a un campo, puede pulsar el campo para colocarlo en modo de edición. Pulse el tabulador para moverse de un campo a otro.
 
-     > **Sugerencia:** Para poner todos los campos en modo de edición en lugar de editar un campo a la vez, pulse ![Botón Mostrar campos editables](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/reveal_editable_fields.png) en la barra de herramientas de la vista.
+     > **Sugerencia:** Para poner todos los campos en modo de edición en lugar de editar un campo a la vez, pulse ![Botón Mostrar campos editables](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/reveal_editable_fields.png) en la barra de herramientas de la vista.
    - Corrija los campos necesarios y opcionales que tienen valores no válidos.
    - Revise los campos opcionales que tienen valores.
    - Si es posible, complete los campos opcionales que están vacíos.
-   - Pulse ![Icono de orientación de campo incorporado](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/fieldguidance_icon_task_focused_ui.jpg) para ver la orientación del campo para todos los campos de una sección.
-   - Para buscar un campo en la vista, pulse ![Botón de búsqueda (lupa)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/icon-search-tfui.png) y, a continuación, escriba el nombre del campo.
-   - Si desea imprimir la vista o guardarla en un PDF, pulse ![Botón Imprimir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/print_button.png).
+   - Pulse ![Icono de orientación de campo incorporado](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/fieldguidance_icon_task_focused_ui.jpg) para ver la orientación del campo para todos los campos de una sección.
+   - Para buscar un campo en la vista, pulse ![Botón de búsqueda (lupa)](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/icon-search-tfui.png) y, a continuación, escriba el nombre del campo.
+   - Si desea imprimir la vista o guardarla en un PDF, pulse ![Botón Imprimir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/print_button.png).
 
    En función de cómo esté configurada la vista de tarea es posible que también pueda llevar a cabo cualquiera de las acciones siguientes:
 
@@ -1868,12 +1628,12 @@ Las acciones que puede realizar en la tarea dependerá de cómo se haya configur
    - Utilice la tecnología cognitiva IBM Watson para realizar sugerencias de taxonomía y sugerencias de asociación de objetos para padres o hijos. Para obtener más información, consulte [Creación de objetos desde una vista de cuadrícula](#creación-de-objetos-desde-una-vista-de-cuadrícula).
    - Vea información sobre los datos en una vista. Si un campo tiene un enlace a un modelo de IA, puede pulsar el enlace para ver información sobre los datos en el campo. En este ejemplo, el campo **Descripción** tiene un enlace a un modelo de IA:
 
-     ![Se muestra un campo Descripción. También se muestra un enlace denominado View Cognitive Controls Model Insights.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/wml_description_with_link.png)
-   - Si se visualiza, pulse ![Botón Watson Translator](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/translate.png) para convertir los valores de los campos de texto al idioma asociado a su entorno local. Para obtener más información, consulte [Translating values in text fields](#traducción-de-valores-en-campos-de-texto).
+     ![Se muestra un campo Descripción. También se muestra un enlace denominado View Cognitive Controls Model Insights.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/wml_description_with_link.png)
+   - Si se visualiza, pulse ![Botón Watson Translator](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/translate.png) para convertir los valores de los campos de texto al idioma asociado a su entorno local. Para obtener más información, consulte [Translating values in text fields](#traducción-de-valores-en-campos-de-texto).
    - Añadir y trabajar con archivos (adjuntos). Para obtener más información, consulte [Adición y trabajo con archivos (adjuntos) en objetos](#añadir-y-trabajar-con-archivos-adjuntos-en-objetos).
-   - En un campo Relación de cuadrícula, pulse ![Icono de vista rápida](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_quick_view_icon.jpg) para abrir un objeto en una vista rápida. El objeto se abre en el panel lateral. Para obtener más información sobre cómo utilizar la vista rápida, consulte [Apertura de una vista rápida](#cómo-abrir-una-vista-rápida).
+   - Desde un campo de relación de cuadrícula, pase el puntero del ratón sobre una fila y haga clic en " ![Icono de vista rápida](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_quick_view_icon.jpg) " (Vista rápida) para abrir un objeto en una vista rápida. El objeto se abre en el panel lateral. Para obtener más información sobre cómo utilizar la vista rápida, consulte [Apertura de una vista rápida](#cómo-abrir-una-vista-rápida).
 3. Si está disponible, pulse la pestaña **Actividad** para ver el historial de cambios. Para obtener más información, consulte [Visualización del historial de cambios en la pestaña Actividad](#visualización-del-historial-de-cambios-en-la-pestaña-actividad).
-4. Pulse ![Icono de guardar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/save_icon_task_focused_ui.jpg).
+4. Pulse ![Icono de guardar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/save_icon_task_focused_ui.jpg).
 
 #### Resultados
 
@@ -1883,7 +1643,7 @@ Si accede a un tipo de objeto que no tiene una vista de tareas válida habilitad
 
 ### Compartición de información clave sobre un objeto
 
-`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-sharing-key-information-about-object)
+`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-sharing-key-information-about-object)
 
 Una vista de informe muestra información de sólo lectura sobre un objeto. Se configura de forma similar a una vista de tarea. Sin embargo, mientras que una vista de tarea está diseñada para que una persona o grupo trabaje en esa actividad o tarea, una vista de informe es una compilación de la información clave sobre el objeto. Con una vista de informe, los usuarios pueden centrarse en, y resaltar, los aspectos más esenciales del objeto y comunicarse fácilmente y compartir información de GRC con otros, tanto dentro como fuera de la organización. Para compartir la información en una vista de informe, un usuario puede imprimirla o guardarla en un PDF.
 
@@ -1893,19 +1653,19 @@ En la Figura 1, la pestaña **Análisis de riesgo por informe de entidad** muest
 
 *Figura 1. Ejemplo de una vista de informe*
 
-![Una entidad de negocios abierta en una vista de informe.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/report_view.png)
+![Una entidad de negocios abierta en una vista de informe.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/report_view.png)
 
 Si desea compartir información sobre un objeto y no hay ninguna vista de informe disponible, comente lo que necesita con el administrador.
 
 En una vista de informe, puede realizar las acciones siguientes:
 
 - Revise la información del objeto. No puede editar el contenido de una vista de informe porque las vistas de informe son de sólo lectura.
-- Pulse ![Botón de búsqueda (lupa)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/icon-search-tfui.png) para buscar campos en la vista.
-- Pulse ![Botón Imprimir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/print_button.png) para imprimir la vista o guardarla como PDF. El PDF no incluye controles de navegador y elementos de navegación, como botones, campos de búsqueda, menús, barras de desplazamiento, recuadros de selección y URL.
+- Pulse ![Botón de búsqueda (lupa)](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/icon-search-tfui.png) para buscar campos en la vista.
+- Pulse ![Botón Imprimir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/print_button.png) para imprimir la vista o guardarla como PDF. El PDF no incluye controles de navegador y elementos de navegación, como botones, campos de búsqueda, menús, barras de desplazamiento, recuadros de selección y URL.
 
 ### Visualización de información en gráficos
 
-`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-viewing-information-in-charts)
+`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-viewing-information-in-charts)
 
 Un diagrama de gráfico muestra una vista gráfica de los objetos relacionados basándose en un campo específico.
 
@@ -1915,7 +1675,7 @@ En el ejemplo siguiente, un diagrama de barras horizontal muestra documentos de 
 
 *Figura 1. Ejemplo de un gráfico de barras horizontales*
 
-![Gráfico de barras horizontales que muestra informes de trabajo por estado de revisión](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/chart_horizontal_bar.png)
+![Gráfico de barras horizontales que muestra informes de trabajo por estado de revisión](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/chart_horizontal_bar.png)
 
 Pulse en las diferentes áreas de un gráfico para abrir una vista de cuadrícula que lista los objetos subyacentes para ese valor.
 
@@ -1925,11 +1685,11 @@ Los indicadores de la vista de cuadrícula muestran los filtros que se aplican y
 
 *Figura 2. Vista de cuadrícula de objetos subyacentes en un gráfico*
 
-![Una vista de cuadrícula que muestra los objetos subyacentes para los datos en el gráfico](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/chart_horizontal_bar_grid.png)
+![Una vista de cuadrícula que muestra los objetos subyacentes para los datos en el gráfico](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/chart_horizontal_bar_grid.png)
 
 ### Visualización de la información en un diagrama de árbol
 
-`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-viewing-information-in-tree-diagram)
+`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-viewing-information-in-tree-diagram)
 
 Un diagrama de árbol muestra un diagrama de relaciones de objetos que puede utilizar para averiguar cómo se relaciona un objeto con otros, profundizar en el diagrama y abrir los objetos relacionados.
 
@@ -1937,7 +1697,7 @@ En la imagen siguiente se muestra un diagrama de árbol de una entidad de negoci
 
 *Figura 1. Diagrama de árbol*
 
-![Vista de tarea abierta a un diagrama de árbol](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_ug_tree1_task_focused_ui.jpg)
+![Vista de tarea abierta a un diagrama de árbol](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_ug_tree1_task_focused_ui.jpg)
 
 En un diagrama de árbol, puede llevar a cabo las acciones siguientes:
 
@@ -1947,17 +1707,17 @@ En un diagrama de árbol, puede llevar a cabo las acciones siguientes:
   - Si pulsa en un nombre de objeto, el objeto se abre en una vista rápida. Para obtener más información, consulte [Apertura de una vista rápida](#cómo-abrir-una-vista-rápida).
   - Si pulsa en un nombre de tipo de objeto, se visualiza una lista de objetos como tarjetas. Pulse en un nombre de objeto para abrirlo en una pestaña nueva.
 - Pasar el cursor sobre el título de un objeto para ver el nombre completo sin abrir dicho objeto.
-- Pulse ![Icono expandir árbol](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_ug_tree_expand_icon_task_focused_ui.jpg) para abrir el diagrama de árbol en una nueva pestaña.
+- Pulse ![Icono expandir árbol](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_ug_tree_expand_icon_task_focused_ui.jpg) para abrir el diagrama de árbol en una nueva pestaña.
 
 En la imagen siguiente se muestra un diagrama de árbol expandido después de haber accedido a los objetos hijo.
 
 *Figura 2. Diagrama de árbol expandido*
 
-![Diagrama de árbol expandido](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_ug_tree2_task_focused_ui.jpg)
+![Diagrama de árbol expandido](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_ug_tree2_task_focused_ui.jpg)
 
 ### Validación de una acción de flujo de trabajo
 
-`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-validating-workflow-action)
+`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-validating-workflow-action)
 
 Si una tarea forma parte de un flujo de trabajo que se ha iniciado, puede comprobar si una acción pasará la validación antes de completar la acción.
 
@@ -1996,7 +1756,7 @@ La lista de elementos clave incluye los campos necesarios y otros elementos que 
 
 ### Completar acciones de flujo de trabajo masivo en una vista de cuadrícula
 
-`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-completing-bulk-workflow-actions-in-grid-view)
+`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-completing-bulk-workflow-actions-in-grid-view)
 
 Utilice la ventana **Completar tarea con acciones de flujo de trabajo masivo** para completar rápidamente tareas de flujo de trabajo.
 
@@ -2010,7 +1770,7 @@ Por ejemplo, usted es el responsable de las tareas de Riesgos, Evaluaciones de c
 
 *Figura 1. Ejemplo de un panel de control Mis tareas con una ventana **Completar tareas con acciones de flujo de trabajo masivo***
 
-![Un panel de control para Mis tareas muestra la ventana Completar tareas con acciones de flujo de trabajo masivas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_dashboard_panel_bulk_workflow_actions.jpg)
+![Un panel de control para Mis tareas muestra la ventana Completar tareas con acciones de flujo de trabajo masivas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_dashboard_panel_bulk_workflow_actions.jpg)
 
 El número 3 corresponde al número de categorías (flujos de trabajo) que se le han asignado, no al número de tareas reales.
 
@@ -2018,13 +1778,13 @@ Si va a la pestaña **Mis tareas** del cuadro de mandos, aparecerá la ventana *
 
 *Figura 2. Ejemplo de una pestaña Mis tareas con una ventana **Completar tareas con acciones de flujo de trabajo masivo***
 
-![Una pestaña Mis tareas muestra la ventana Completar tareas con acciones de flujo de trabajo masivo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_task_tab_bulk_workflow_actions.jpg)
+![Una pestaña Mis tareas muestra la ventana Completar tareas con acciones de flujo de trabajo masivo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_task_tab_bulk_workflow_actions.jpg)
 
 Desde el punto de acceso, al pulsar en una categoría, se abre una vista de cuadrícula en la que puede trabajar con tareas. En el ejemplo siguiente, ha seleccionado trabajar con tareas relacionadas con riesgos (el flujo de trabajo RCSA). El flujo de trabajo se muestra en **Nombre de flujo de trabajo** en la cabecera. La etapa se visualiza junto al nombre del flujo de trabajo. En este ejemplo, tiene 43 evaluaciones de riesgo para revisar. Seleccione una o más filas con la marca de selección. Las opciones que se muestran en la barra de herramientas son **Aprobar**, **Rechazar**y **Devolver**.
 
 *Figura 3. Ejemplo de una vista de cuadrícula para acciones de flujo de trabajo masivo*
 
-![Vista de cuadrícula para evaluaciones de riesgo. Se muestran los botones Aprobar, Rechazar, Devolver y Actualización masiva.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_grid_view_bulk_workflow_actions.jpg)
+![Vista de cuadrícula para evaluaciones de riesgo. Se muestran los botones Aprobar, Rechazar, Devolver y Actualización masiva.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_grid_view_bulk_workflow_actions.jpg)
 
 #### Procedimiento
 
@@ -2040,17 +1800,17 @@ Desde el punto de acceso, al pulsar en una categoría, se abre una vista de cuad
 
 ### Cómo abrir una vista rápida
 
-`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-opening-quick-view)
+`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-opening-quick-view)
 
-Utilice una vista rápida para ver o editar un objeto seleccionado o relacionado o crear un objeto en una barra lateral pequeña sin dejar el objeto original.
+Utilice una Vista rápida para ver o editar un objeto seleccionado o relacionado, o para crear un objeto en un panel lateral sin salir del objeto original.
 
 #### Acerca de esta tarea
 
-Se accede a una vista rápida desde varios lugares del sistema, por ejemplo, una vista de cuadrícula, un campo de relación de cuadrícula en una vista de tarea o un diagrama de árbol.
+Se puede acceder a una Vista rápida desde varios lugares del sistema, por ejemplo, una Vista de cuadrícula, un campo de relación de cuadrícula en una Vista de tareas o un diagrama de árbol.
 
 Si abre una vista rápida desde una vista de tarea, la vista de tarea en la que se inició pasa a ser de sólo lectura.
 
-Toda la funcionalidad disponible en una vista de tarea también está disponible en una vista rápida con las excepciones siguientes:
+Todas las funciones disponibles en una vista de tareas también están disponibles en una vista rápida, con las siguientes excepciones:
 
 - Acciones en campos de relación excepto para Nuevo (sólo hijos directos)
 - Orientación del usuario
@@ -2060,30 +1820,30 @@ Toda la funcionalidad disponible en una vista de tarea también está disponible
 
 1. Abra una vista de cuadrícula o una vista de tarea.
 
-   Para obtener información sobre cómo acceder a una vista de cuadrícula, consulte [Utilización de vistas de cuadrícula para buscar, abrir y trabajar con objetos](#utilización-de-las-vistas-de-cuadrícula-para-buscar-abrir-y-trabajar-con-objetos).
+   Para obtener información sobre cómo acceder a una vista de cuadrícula, consulte [Uso de vistas de cuadrícula para buscar, abrir y trabajar con objetos](#utilización-de-las-vistas-de-cuadrícula-para-buscar-abrir-y-trabajar-con-objetos).
 
    Para obtener información sobre cómo acceder a una vista de tarea, consulte [Completar el trabajo que tiene asignado](#completar-el-trabajo-asignado).
-2. Pulse ![Icono Editar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_quick_view_icon.jpg) junto al objeto que desea abrir.
+2. Pase el puntero del ratón sobre el objeto que desea abrir y haga clic en **Abrir vista rápida** ![Abrir botón de vista rápida](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_quick_view_icon.jpg).
 
    El objeto se abre en la vista rápida.
-3. En un diagrama de árbol, pulse en un círculo de título donde solo hay un objeto a ese nivel.
+3. En un diagrama de árbol, haga clic en un título de círculo con un solo objeto en ese nivel.
 
    El objeto se abre en una vista rápida.
 4. En una vista rápida, puede:
 
    - Ver un objeto.
    - Editar un objeto, ya sea campo por campo o en modalidad de edición.
-   - Pulse ![Botón de búsqueda (lupa)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/icon-search-tfui.png) para buscar campos en la vista rápida.
+   - Pulse ![Botón de búsqueda (lupa)](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/icon-search-tfui.png) para buscar campos en la vista rápida.
    - Marcar un objeto como favorito.
    - Iniciar una acción de flujo de trabajo
    - Crear un nuevo objeto hijo del objeto que está abierto.
    - Si se visualiza un diagrama de árbol, acceder a otros objetos inferiores.
-   - Pulse ![Icono Expandir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_expand_quick_view_icon.jpg) para expandir la vista rápida para abrir el objeto en una nueva pestaña. El objeto se abre en la vista de tarea de ese tipo de objeto. La funcionalidad completa está disponible.
+   - Pulse ![Icono Expandir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_expand_quick_view_icon.jpg) para expandir la vista rápida para abrir el objeto en una nueva pestaña. El objeto se abre en la vista de tarea de ese tipo de objeto. La funcionalidad completa está disponible.
 5. Cierre la vista rápida.
 
 ### Aplicación de cambios a varios objetos con actualización masiva en una vista de cuadrícula
 
-`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=wo-applying-changes-multiple-objects-bulk-update-in-grid-view)
+`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=wo-applying-changes-multiple-objects-bulk-update-in-grid-view)
 
 Los administradores pueden editar información de varios objetos utilizando la función de actualización masiva.
 
@@ -2131,7 +1891,7 @@ Se actualizan los objetos. Si permanece en la ventana de confirmación durante e
 
 ### Adición y eliminación de etiquetas de varios objetos en una vista de cuadrícula
 
-`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=wo-adding-removing-tags-from-multiple-objects-in-grid-view)
+`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=wo-adding-removing-tags-from-multiple-objects-in-grid-view)
 
 Puede editar las etiquetas para varios objetos utilizando el botón **Gestionar etiquetas** en la vista de cuadrícula.
 
@@ -2179,7 +1939,7 @@ En la vista de cuadrícula, puede ver los cambios que ha realizado en las etique
 
 ### Visualización del historial de cambios en la pestaña Actividad
 
-`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-viewing-change-history-activity-tab)
+`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-viewing-change-history-activity-tab)
 
 Utilice la pestaña **Actividad** de una tarea para ver los cambios realizados en un objeto.
 
@@ -2187,18 +1947,22 @@ Si es miembro del grupo de administradores de OpenPages® , puede ver todas las 
 
 #### Acerca de esta tarea
 
-No puede editar los detalles en la pestaña **Actividad** . El historial de cambios se visualiza para el periodo de elaboración de informes seleccionado. Para obtener más información, consulte [Modificación del periodo de elaboración de informes](#cambio-del-periodo-de-elaboración-de-informes).
+No puede editar los detalles en la pestaña **Actividad** .
+
+[De forma local](3.6-guia-del-administrador.md#openpages-tipos-de-despliegue) [En cloud](3.6-guia-del-administrador.md#openpages-tipos-de-despliegue) [Cloud Pak for Data](3.6-guia-del-administrador.md#openpages-tipos-de-despliegue): Se muestra el historial de cambios del periodo de notificación seleccionado. Para más información, consulte [Modificación del periodo de declaración](#cambio-del-periodo-de-elaboración-de-informes).
 
 #### Procedimiento
 
 1. Abra una tarea.
 
-   Para obtener más información, consulte [Completar el trabajo que se le ha asignado](#completar-el-trabajo-asignado).
+   Para obtener más información, consulte [Finalización del trabajo que se le ha asignado](#completar-el-trabajo-asignado).
 2. Pulse la pestaña **Actividad** .
 
    Se muestran los detalles sobre los cambios que se han realizado en el objeto.
+
+   Puede ver el período de informe **actual**, cualquier período de informe creado por el administrador o **todos los períodos de informe**. Seleccione una opción de período de informe de la lista desplegable.
 3. Compare los valores en las columnas **Valor antiguo** y **Valor nuevo** .
-4. Opcional: Pulse ![Botón de filtrado](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/filter_button.png) para ver los detalles del historial de cambios basándose en los criterios siguientes:
+4. Opcional: Haga clic en ![Botón de filtrado](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/filter_button.png) para ver los detalles del historial de cambios según los siguientes criterios:
 
    - **Campo** : muestra los cambios en los valores de campo
    - **Relación** : muestra los cambios en las asociaciones de objetos
@@ -2208,7 +1972,7 @@ No puede editar los detalles en la pestaña **Actividad** . El historial de camb
    - **Fecha de finalización** y **Hora de finalización** : la fecha y hora de finalización del intervalo de tiempo en el que se han realizado los cambios
 
      > **Nota:** Cuando defina una fecha y una hora, verifique el huso horario, ya que puede ser diferente del huso horario del servidor de OpenPages .
-5. Para exportar los datos a Microsoft Excel, pulse ![botón Exportar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/export_button.png).
+5. Para exportar los datos a Microsoft Excel, haga clic en ![botón Exportar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/export_button.png).
 
    El archivo se descarga automáticamente.
 
@@ -2216,7 +1980,7 @@ No puede editar los detalles en la pestaña **Actividad** . El historial de camb
 
 ### Exportación de datos de los resultados filtrados
 
-`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-exporting-data-from-filter-results)
+`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-exporting-data-from-filter-results)
 
 Puede exportar datos a una hoja de cálculo (formato`.xlsx` ) desde una vista de cuadrícula. Todos los objetos que coinciden con los criterios de filtro, si se aplican, se exportan.
 
@@ -2234,13 +1998,13 @@ Los campos de texto grandes (campos de serie larga grandes) no se exportan porqu
 
    Puede acceder a una vista de cuadrícula desde varias partes de la aplicación. Los pasos siguientes son ejemplos de cómo puede acceder a una vista de cuadrícula.
 
-   - Haz clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)**. Pulse el tipo de objeto con el que desea trabajar. Se abre una vista de cuadrícula.
+   - Haz clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)**. Pulse el tipo de objeto con el que desea trabajar. Se abre una vista de cuadrícula.
    - Pulse un color de un gráfico de una vista de tarea o del panel de control. Se abre una vista de cuadrícula con objetos en esa parte del gráfico.
 2. Seleccione los filtros que necesite.
 3. Puede seleccionar los objetos que desea exportar o puede exportar todos los objetos en una hoja de cálculo.
 
-   - Seleccione los recuadros de selección para los objetos que desea exportar y, a continuación, pulse ![botón Exportar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_export_icon.JPG).
-   - Para exportar todos los objetos, pulse ![botón Exportar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_export_icon.JPG).
+   - Seleccione los recuadros de selección para los objetos que desea exportar y, a continuación, pulse ![botón Exportar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_export_icon.JPG).
+   - Para exportar todos los objetos, pulse ![botón Exportar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_export_icon.JPG).
 4. En el recuadro de diálogo **Exportar** , seleccione **FastMap** o **Vista de cuadrícula**.
 
    - Si selecciona **FastMap**, se exportan los campos especificados por su Administrador.
@@ -2253,7 +2017,7 @@ Los campos de texto grandes (campos de serie larga grandes) no se exportan porqu
 
    Por ejemplo, si está exportando Políticas, es posible que vea también la opción de exportar Procedimientos.
 
-   ![Exportar FastMap seleccionado.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/export_fastmap.png)
+   ![Exportar FastMap seleccionado.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/export_fastmap.png)
 6. Pulse **Exportar**. Se crea un archivo de Microsoft Excel en formato FastMap o en formato de vista de cuadrícula. Se muestra un enlace en la bandeja.
 
    Se exportan todos los campos que están disponibles para su perfil.
@@ -2264,20 +2028,20 @@ Los campos de texto grandes (campos de serie larga grandes) no se exportan porqu
 
 ### Imprimir una vista en PDF
 
-`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-printing-view-pdf)
+`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-printing-view-pdf)
 
 Puede imprimir una vista en PDF.
 
 #### Acerca de esta tarea
 
-Al seleccionar **Imprimir** ![Botón Imprimir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/print_button.png), puede imprimir una vista, guardarla y compartirla como un archivo PDF. El archivo es fácil de leer y no muestra los controles del navegador ni los elementos de navegación, como botones, campos de búsqueda, menús, barras de desplazamiento, recuadros de selección y URL.
+Al seleccionar **Imprimir** ![Botón Imprimir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/print_button.png), puede imprimir una vista, guardarla y compartirla como un archivo PDF. El archivo es fácil de leer y no muestra los controles del navegador ni los elementos de navegación, como botones, campos de búsqueda, menús, barras de desplazamiento, recuadros de selección y URL.
 
 > **Nota:** Para la pestaña Actividad, exporte los datos a Microsoft Excel y, a continuación, imprima el archivo de Microsoft Excel.
 
 #### Procedimiento
 
 1. Abra la vista Tarea, Admin o Informe que desea imprimir.
-2. Pulse ![Botón Imprimir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/print_button.png).
+2. Pulse ![Botón Imprimir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/print_button.png).
 3. Opcional: Especifique el **Título de impresión**. Este es el título que aparecerá en su archivo de impresión o PDF.
 4. Ajuste los valores según sea necesario. Asegúrese de que **Scale** esté establecido en **Default**.
 
@@ -2288,7 +2052,7 @@ Al seleccionar **Imprimir** ![Botón Imprimir](https://www.ibm.com/docs/es/SSFUE
 
 ### Edición de objetos en una vista de tarea
 
-`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-editing-in-task-view)
+`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-editing-in-task-view)
 
 Puede editar campos para un único objeto desde una vista de tarea.
 
@@ -2305,30 +2069,30 @@ Tenga en cuenta la siguiente información antes de editar un objeto en una vista
 #### Procedimiento
 
 1. Acceda al objeto que desea editar. Abra el objeto en una vista de tarea. Para obtener más información, consulte [Completar el trabajo que se le ha asignado](#completar-el-trabajo-asignado).
-2. Pase el encima de los campos para ver cuáles son editables. Cuando se visualiza el icono ![icono de edición](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_edit_icon.jpg) junto a un campo, puede pulsar el campo para colocarlo en modo de edición.
+2. Pase el encima de los campos para ver cuáles son editables. Cuando se visualiza el icono ![icono de edición](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_edit_icon.jpg) junto a un campo, puede pulsar el campo para colocarlo en modo de edición.
 
-   Si desea encontrar un campo determinado, pulse ![Botón de búsqueda (lupa)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/icon-search-tfui.png) en la barra de herramientas de la vista y especifique el nombre del campo que está buscando.
+   Si desea encontrar un campo determinado, pulse ![Botón de búsqueda (lupa)](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/icon-search-tfui.png) en la barra de herramientas de la vista y especifique el nombre del campo que está buscando.
 
-   Si desea poner todos los campos en modalidad de edición en lugar de editar un campo a la vez, pulse ![Botón Mostrar campos editables](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/reveal_editable_fields.png) en la barra de herramientas de la vista.
+   Si desea poner todos los campos en modalidad de edición en lugar de editar un campo a la vez, pulse ![Botón Mostrar campos editables](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/reveal_editable_fields.png) en la barra de herramientas de la vista.
 3. Realice el cambio.
 4. Edite otros campos.
 5. Pulse **Guardar**.
 
 #### Resultados
 
-Si desea imprimir la vista o guardarla en un PDF, pulse ![Botón Imprimir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/print_button.png).
+Si desea imprimir la vista o guardarla en un PDF, pulse ![Botón Imprimir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/print_button.png).
 
-### Comentar objetos
+### Añadir comentarios a los objetos
 
-`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-commenting)
+`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-adding-comments)
 
-Puedes añadir comentarios a los objetos si tu administrador te ha dado permiso y ha configurado ' OpenPages® ' para permitir comentarios en los objetos. Por ejemplo, puede añadir un comentario a un asunto para hacer una pregunta, una observación o dejar constancia de sus pensamientos sobre el asunto.
+Puede añadir comentarios a los objetos en OpenPages® si su administrador ha habilitado los comentarios, le ha concedido permiso y ha configurado los tipos de objeto para permitir comentarios. Por ejemplo, puede añadir un comentario en un objeto de Issue para hacer una pregunta, compartir una observación o anotar sus pensamientos al respecto.
 
-En la ficha Tarea o Admin de un objeto, haga clic en **Comentarios** ' ![Ver comentarios](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/add-comment.svg) para mostrar el panel **Comentarios**.
+Para añadir un comentario a un objeto, vaya a la pestaña Tarea o Admin y haga clic en **Comentarios** ![Ver comentarios](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/add-comment.svg) para abrir **el panel de Comentarios**.
 
-Cuando añades un comentario sobre un objeto, puedes mencionar a otros usuarios que puedan estar interesados en él. Se envía un correo electrónico con un enlace y una vista previa de tu comentario a todos los usuarios que has añadido al comentario.
+Cuando creas un comentario, puedes mencionar a otros usuarios que puedan estar interesados utilizando el símbolo @. Se envía un correo electrónico con un enlace a tu comentario y una vista previa a todos los usuarios que mencionaste.
 
-Puedes editar o eliminar los comentarios que hayas añadido. El texto **Editado** se muestra en los comentarios que han sido editados por el autor. El texto **Comentario eliminado por \<nombredeusuario>** se muestra en los comentarios que se han eliminado.
+También puede editar o eliminar los comentarios que haya añadido. Si editas un comentario, aparece la etiqueta **(Editado** ). Si eliminas un comentario, el panel muestra **Comentario eliminado por \<nombre de usuario** >.
 
 #### Añada sus comentarios
 
@@ -2336,11 +2100,11 @@ Puedes añadir tus comentarios a los objetos si tu administrador te ha dado perm
 
 ##### Procedimiento
 
-1. Haga clic en " **Menú principal " ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** " y seleccione el tipo de objeto que desea comentar.
+1. Haga clic en " **Menú principal " ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** " y seleccione el tipo de objeto que desea comentar.
 2. Seleccione el objeto que desea comentar.
-3. En la pestaña **Tarea** o **Admin**, haga clic en **Comentarios** ' ![Ver comentarios](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/add-comment.svg).
-4. Introduzca su comentario en el cuadro de texto.
-5. Opcional: Para enviar tu comentario en un correo electrónico a otro usuario, haz clic en **Añadir usuario** ' ![Botón Añadir usuario](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/add-user.svg) e introduce el nombre de usuario del usuario, o selecciona el nombre de usuario de la lista de nombres usados recientemente.
+3. En la pestaña **Tarea** o **Admin**, haga clic en **Comentarios** ' ![Ver comentarios](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/add-comment.svg).
+4. Haga clic en **Nuevo comentario** e introduzca su comentario en el cuadro de texto.
+5. Opcional: Para notificar a los usuarios de tu comentario, puedes etiquetarlos utilizando el símbolo @ y seleccionándolos de una lista. Inserte el símbolo @ seguido de unos cuantos caracteres del nombre, apellido o nombre de usuario del usuario para mostrar la lista.
 6. Haga clic en **Comentario**.
 
 ##### Resultados
@@ -2353,11 +2117,11 @@ Puede editar los comentarios que haya añadido a los objetos.
 
 ##### Procedimiento
 
-1. Haga clic en " **Menú principal " ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** " y seleccione el tipo de objeto.
+1. Haga clic en **el menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** y seleccione el tipo de objeto.
 2. Seleccione el objeto para el que desea editar el comentario.
-3. En la pestaña **Tarea** o **Admin**, haga clic en **Comentarios** ' ![Ver comentarios](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/add-comment.svg).
+3. En la pestaña **Tarea** o **Admin**, haga clic en **Comentarios** ![Ver comentarios](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/add-comment.svg).
 4. Seleccione **Editar** para editar el comentario. Sobrescribir el comentario en el cuadro de texto.
-5. Opcional: Para enviar tu comentario en un correo electrónico a otro usuario, haz clic en **Añadir usuarios para enviar este comentario a** ' ![Botón Añadir usuario](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/add-user.svg) e introduce el nombre de usuario del usuario, o selecciona el nombre de usuario de la lista de nombres usados recientemente.
+5. Opcional: Para notificar a los usuarios de tu comentario, puedes etiquetarlos utilizando el símbolo @ y seleccionándolos de una lista. Inserte el símbolo @ seguido de unos cuantos caracteres de su nombre o nombre de usuario para mostrar la lista.
 
    Los correos electrónicos no se reenvían a los usuarios que ya están en la lista.
 6. Pulse **Guardar**.
@@ -2372,10 +2136,10 @@ Puede eliminar los comentarios que haya añadido a los objetos.
 
 ##### Procedimiento
 
-1. Haga clic en " **Menú principal " ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** " y seleccione el tipo de objeto.
+1. Haga clic en **el menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** y seleccione el tipo de objeto.
 2. Seleccione el objeto del que desea eliminar el comentario.
-3. En la pestaña **Tarea** o **Admin**, haga clic en **Comentarios** ' ![Ver comentarios](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/add-comment.svg).
-4. En el comentario que desea editar, haga clic en ![Más](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/overflow-menu--vertical.svg) y seleccione **Eliminar** para borrar el comentario.
+3. En la pestaña **Tarea** o **Admin**, haga clic en **Comentarios** ![Ver comentarios](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/add-comment.svg).
+4. Para eliminar un comentario, haga clic en ![Más](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/overflow-menu--vertical.svg) y seleccione **Eliminar**.
 
 ##### Resultados
 
@@ -2383,7 +2147,7 @@ El comentario se sustituye por el texto **Comentario borrado por \<nombredeusuar
 
 ### Copia de objetos
 
-`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-copying)
+`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-copying)
 
 Si está configurado, puede copiar un objeto existente para crear rápidamente un objeto con valores similares.
 
@@ -2420,7 +2184,7 @@ Para obtener más información, consulte [Adición de una acción Copiar recurre
 
 ### Supresión de objetos
 
-`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-deleting)
+`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-deleting)
 
 Si está configurado, puede suprimir un objeto del periodo de elaboración de informes actual.
 
@@ -2441,12 +2205,12 @@ Un objeto debe estar desbloqueado antes de ser suprimido. Después de suprimir u
 
 1. En el menú principal, seleccione el tipo de objeto.
 2. En la vista de cuadrícula, utilice la marca de selección para seleccionar cada objeto que desee suprimir.
-3. Pulse ![icono de papelera](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/delete_icon.jpg).
+3. Pulse ![icono de papelera](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/delete_icon.jpg).
 4. Haga clic en **Suprimir** para verificar la supresión.
 
 ### Renombrar un objeto desde una vista de tarea
 
-`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-renaming-object-from-task-view)
+`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-renaming-object-from-task-view)
 
 Puede renombrar objetos desde una vista de tarea.
 
@@ -2459,12 +2223,12 @@ Los objetos que residen en la misma carpeta deben tener un nombre exclusivo. Cua
 #### Procedimiento
 
 1. Acceda al objeto que desea editar. Abra el objeto en una vista de tarea. Para obtener información, consulte [Completar el trabajo que se le ha asignado](#completar-el-trabajo-asignado).
-2. Pulse ![icono de edición](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_edit_icon.jpg) junto a **Nombre**.
+2. Pulse ![icono de edición](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_edit_icon.jpg) junto a **Nombre**.
 3. Pulse **Guardar**.
 
 ### Cierre de sesión
 
-`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-logging-out)
+`Guía del usuario › Trabajo con objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-logging-out)
 
 Puede finalizar una sesión y salir de la aplicación.
 
@@ -2478,18 +2242,18 @@ Si intenta realizar una operación después de que OpenPages haya excedido el ti
 
 #### Procedimiento
 
-1. Pulse ![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/user_menu_icon_task_focused_ui.jpg) para abrir el menú Usuario.
+1. Pulse ![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/user_menu_icon_task_focused_ui.jpg) para abrir el menú Usuario.
 2. Pulse **Cerrar sesión**.
 
 ## Creación y asociación de objetos
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-creating-associating-objects)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-creating-associating-objects)
 
 Puede crear instancias de objeto y crear asociaciones entre objetos, o entre objetos y archivos adjuntos.
 
 ### Creación de instancias de objeto
 
-`Guía del usuario › Creación y asociación de objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-creating-object-instances)
+`Guía del usuario › Creación y asociación de objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-creating-object-instances)
 
 En IBM OpenPages®, puede crear instancias de objeto desde varios puntos de ejecución.
 
@@ -2499,10 +2263,10 @@ Hay varios posibles puntos de lanzamiento:
 
 - Desde una vista de cuadrícula.
 
-  Haz clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **[tipo de objeto]**. Se visualiza una vista de cuadrícula para ese tipo de objeto. Pulse ![Icono Añadir nuevo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/add_new_icon_task_focused_ui.jpg).
+  Haz clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **[tipo de objeto]**. Se visualiza una vista de cuadrícula para ese tipo de objeto. Pulse ![Icono Añadir nuevo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/add_new_icon_task_focused_ui.jpg).
 - Desde un panel de pestañas configurado para añadir nuevos objetos.
 
-  Pulse ![Acceso directo de la página de inicio](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_home_page.jpg). Se visualiza el panel de control. Busca en las pestañas un panel que te permita crear objetos. El panel contendrá un botón con una etiqueta como Nuevo control o Nuevo riesgo.
+  Pulse ![Acceso directo de la página de inicio](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_home_page.jpg). Se visualiza el panel de control. Busca en las pestañas un panel que te permita crear objetos. El panel contendrá un botón con una etiqueta como Nuevo control o Nuevo riesgo.
 
   Si no tiene un panel de este tipo, es posible que pueda crear uno, en función de sus permisos. Para obtener más información, consulte [Adición de un panel personalizado](#adición-de-un-panel-personalizado).
 - Desde una vista de tarea que le permite crear objetos hijo.
@@ -2514,15 +2278,15 @@ Hay varios posibles puntos de lanzamiento:
 
   Para obtener más información, consulte [Copia de objetos](#copia-de-objetos).
 
-El siguiente ejemplo muestra la pantalla, denominada Vista de creación, que se muestra al hacer clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Evaluaciones** > **Controles** y, a continuación, hacer clic en ![Icono Añadir nuevo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/add_new_icon_task_focused_ui.jpg).
+El siguiente ejemplo muestra la pantalla, denominada Vista de creación, que se muestra al hacer clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Evaluaciones** > **Controles** y, a continuación, hacer clic en ![Icono Añadir nuevo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/add_new_icon_task_focused_ui.jpg).
 
 *Figura 1. Ejemplo de creación de un objeto de control*
 
-![crear un nuevo objeto de riesgo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_ug_creation_view_task_focused_ui.jpg)
+![crear un nuevo objeto de riesgo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_ug_creation_view_task_focused_ui.jpg)
 
 El proceso de creación de una instancia de objeto tiene las características siguientes:
 
-- El botón ![Icono Añadir nuevo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/add_new_icon_task_focused_ui.jpg) y la etiqueta **Nuevo [tipo de objeto]** pueden tener diferentes nombres, en función de la configuración.
+- El botón ![Icono Añadir nuevo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/add_new_icon_task_focused_ui.jpg) y la etiqueta **Nuevo [tipo de objeto]** pueden tener diferentes nombres, en función de la configuración.
 - Si el administrador habilita el valor de denominación automática para un tipo de objeto, se asigna automáticamente un nombre a la instancia de objeto nueva.
 - Al crear un objeto hijo, en función del punto de acceso, es posible que tenga que seleccionar el objeto padre o que se pueda establecer para usted.
 
@@ -2555,7 +2319,7 @@ El proceso de creación de una instancia de objeto tiene las características si
 
 ### Reglas para la denominación de objetos
 
-`Guía del usuario › Creación y asociación de objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-rules-naming)
+`Guía del usuario › Creación y asociación de objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-rules-naming)
 
 Utilice las siguientes convenciones para poner nombre a los objetos:
 
@@ -2578,23 +2342,23 @@ Si el campo Título está habilitado para un tipo de objeto, utilice los conveni
 
 ### Creación de objetos desde una vista de cuadrícula
 
-`Guía del usuario › Creación y asociación de objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-creating-from-grid-view)
+`Guía del usuario › Creación y asociación de objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-creating-from-grid-view)
 
 Puede crear objetos, por ejemplo, Riesgos, Evaluaciones de riesgos, Controles y Procesos.
 
 #### Acerca de esta tarea
 
-Puede crear objetos pulsando ![Nuevo icono](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/add_new_icon_task_focused_ui.jpg) desde una vista de cuadrícula.
+Puede crear objetos pulsando ![Nuevo icono](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/add_new_icon_task_focused_ui.jpg) desde una vista de cuadrícula.
 
 Desde este punto de acceso, el objeto padre no se conoce. La vista contiene un campo de relación que permite seleccionar un objeto padre.
 
 #### Procedimiento
 
-1. Haz clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)**.
+1. Haz clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)**.
 2. Pulse el tipo de objeto.
 
    Se abre la vista de cuadrícula.
-3. Pulse ![Botón Nuevo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/add_new_icon_task_focused_ui.jpg). Si está creando un objeto trabajando en una tarea que se le ha asignado, empiece aquí.
+3. Pulse ![Botón Nuevo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/add_new_icon_task_focused_ui.jpg). Si está creando un objeto trabajando en una tarea que se le ha asignado, empiece aquí.
 4. Escriba o revise el nombre del objeto.
 
    Si la denominación automática no está habilitada, debe especificar un nombre.
@@ -2619,11 +2383,11 @@ Desde este punto de acceso, el objeto padre no se conoce. La vista contiene un c
 
         Es posible que pueda elegir varias sugerencias.
    3. Si no desea utilizar ninguna de las sugerencias, cierre el panel. Para generar una nueva lista de sugerencias, cambie el texto en el campo de entrada del clasificador, por ejemplo, el campo **Descripción**. Pulse de nuevo el botón IBM Watson Insights.
-10. Pulse ![Icono de guardar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/save_icon_task_focused_ui.jpg).
+10. Pulse ![Icono de guardar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/save_icon_task_focused_ui.jpg).
 
 ### Creación de objetos desde un panel de control
 
-`Guía del usuario › Creación y asociación de objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-creating-from-dashboard-panel)
+`Guía del usuario › Creación y asociación de objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-creating-from-dashboard-panel)
 
 Puede crear objetos desde un panel de panel de control.
 
@@ -2637,7 +2401,7 @@ Desde este punto de acceso, el objeto padre no se conoce. La vista contiene un c
 
 #### Procedimiento
 
-1. Pulse ![Acceso directo de la página de inicio](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_home_page.jpg).
+1. Pulse ![Acceso directo de la página de inicio](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_home_page.jpg).
 2. Busque un panel que le permita crear objetos. Pulse un botón de creación en un panel que tiene un botón con una etiqueta como Crear control o Crear riesgo.
 
    Se abre la vista Creación.
@@ -2646,7 +2410,7 @@ Desde este punto de acceso, el objeto padre no se conoce. La vista contiene un c
 
 ### Creación de objetos hijo desde una vista de tarea
 
-`Guía del usuario › Creación y asociación de objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-creating-child-from-task-view)
+`Guía del usuario › Creación y asociación de objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-creating-child-from-task-view)
 
 Puede crear objetos hijo, por ejemplo, Problemas y Acciones, desde sus objetos padre.
 
@@ -2668,7 +2432,7 @@ Desde este punto de acceso, el padre primario se establece en el objeto de la ta
 
 ### Asociaciones entre objetos
 
-`Guía del usuario › Creación y asociación de objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-associations-between)
+`Guía del usuario › Creación y asociación de objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-associations-between)
 
 Puede enlazar objetos para formar una vista de árbol jerárquico de la estructura de gobierno, gestión de riesgos y conformidad de una empresa. La vista de árbol puede extenderse desde el nivel de entidad empresarial hasta los detalles de cada riesgo individual, control y prueba.
 
@@ -2689,11 +2453,30 @@ Su administrador define las etiquetas y funciones de los botones para cada campo
 
 Para trabajar con asociaciones, cree un objeto nuevo o acceda al objeto en el que desea trabajar. En la vista de tarea, las secciones y los campos de relación dependen de cómo haya configurado el administrador la vista.
 
-El ejemplo siguiente muestra una tarjeta y un campo de relación de cuadrícula en una sección que se utiliza para mostrar los hijos de un riesgo. El campo de relación de tarjeta es para Problemas y el campo de relación de cuadrícula es para Controles. Puede asociar o añadir objetos, crear objetos nuevos y copiar objetos de forma recursiva en ambos campos de relación.
+El siguiente ejemplo muestra un campo de relación de tarjeta y cuadrícula en una sección que se utiliza para mostrar los hijos de un proceso. El campo de relación de tarjeta es para subprocesos y el campo de relación de cuadrícula es para riesgos. Puede asociar o añadir objetos, crear objetos nuevos y copiar objetos de forma recursiva en ambos campos de relación. En el ejemplo, el cursor se sitúa sobre la primera fila de Riesgos, de modo que se muestra **Abrir vista rápida** ![Abrir botón de vista rápida](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_quick_view_icon.jpg) . Haga clic en **Abrir vista rápida** ![Abrir botón de vista rápida](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_quick_view_icon.jpg) para ver o editar el objeto en un panel lateral.
 
 *Figura 1. Ejemplo de una tarjeta y una relación de cuadrícula*
 
-![Se muestra una sección para objetos hijo de un riesgo. La sección contiene un campo de relación de tarjeta y un campo de relación de cuadrícula. El campo de relación de tarjeta muestra tres paneles, cada uno de los cuales muestra un problema. El campo de relación de tarjeta incluye tres botones: Añadir problema, Nuevo problema y Copiar recurrente. El campo de relación de cuadrícula muestra tres filas, cada una de las cuales muestra un control. El campo de relación de cuadrícula incluye tres botones: Añadir control, Nuevo control y Copiar recursivo.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/grid_and_card_relationships.png)
+![Se muestra una sección para los objetos secundarios de un proceso. La sección contiene un campo de relación de tarjeta y un campo de relación de cuadrícula. El campo de relación de la tarjeta muestra paneles que muestran cada uno un subproceso. El campo de relación de la tarjeta incluye tres botones: Añadir subproceso, Nuevo subproceso y Copiar subproceso. El campo de relación de cuadrícula muestra filas que muestran cada una un Riesgo. El campo de relación de cuadrícula incluye tres botones: Añadir riesgo, Nuevo riesgo y Copiar riesgo.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/grid_and_card_relationships.png)
+
+#### Cuadrículas anidadas
+
+Es posible que su administrador haya configurado una cuadrícula anidada. Una cuadrícula anidada muestra los hijos de un tipo de objeto específico y los descendientes de tipos de objetos específicos para cada hijo. Cada nivel de objetos está sangrado para proporcionar una representación visual de las relaciones entre los objetos. Por ejemplo, la siguiente figura muestra la estructura de los Procesos, sus Riesgos secundarios y sus Controles terciarios.
+
+*Figura 2. Una cuadrícula anidada*
+
+![Una cuadrícula anidada que muestra los procesos secundarios y sus descendientes.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/nested_grid1.png)
+
+Una cuadrícula anidada tiene las siguientes características:
+
+- Cuando se ve por primera vez una cuadrícula anidada, se muestran los hijos del objeto actual. Puede hacer clic en **Expandir** ![Chevron para expandir el objeto actual](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/chevron--right.png) sobre un objeto para ver sus hijos y en **Contraer** ![Chevron para contraer el objeto actual](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/chevron--down.png) para ocultarlos. Para contraer todos los niveles expandidos de la cuadrícula, haga clic en **Contraer todo** ![Chevron colapsará todos los niveles](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/chevron--down.png) en la columna situada más a la izquierda de la fila de encabezado.
+- Cuando varios tipos de objetos tienen un campo con la misma etiqueta, los valores de ese campo se colocan en una columna con la palabra **Múltiple** en el encabezado de la columna. Por ejemplo, en la Figura 2, Procesos, Riesgos y Controles comparten **la columna Estado** porque estos tipos de objetos tienen un campo con la etiqueta **Estado**.
+
+  Las columnas etiquetadas como **Múltiple** siempre se muestran en las columnas más a la izquierda.
+
+  Si un campo no está configurado para el tipo de objeto o si no se aplica al objeto, la columna de ese campo aparece en un color diferente al resto de la fila.
+- Puede buscar, ordenar y ejecutar acciones por lotes en el tipo de objeto de nivel superior, pero no en los demás niveles.
+- Cuando hay más de 10 objetos en un nivel, se muestra una barra de paginación para que pueda pasar las páginas de los objetos de ese nivel.
 
 #### Asociación de un nuevo objeto secundario
 
@@ -2705,9 +2488,9 @@ Para un campo de relación, es posible que el administrador haya configurado un 
 
 Por ejemplo, en la vista de tarea de un proceso, puede tener una vista de cuadrícula que muestre los hijos de riesgo del proceso.
 
-*Figura 2. Ejemplo de una relación de cuadrícula que muestra los objetos hijo Riesgo de un objeto Proceso*
+*Figura 3. Ejemplo de una relación de cuadrícula que muestra los objetos hijo Riesgo de un objeto Proceso*
 
-![Se muestra una sección para objetos hijo Riesgo. La sección contiene el campo de relación de cuadrícula. El campo de relación de cuadrícula muestra tres filas, cada una de las cuales muestra un riesgo. El campo de relación de cuadrícula incluye tres botones: Nuevo riesgo, Añadir riesgos y Copiar.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/user_add_action1.png)
+![Se muestra una sección para objetos hijo Riesgo. La sección contiene el campo de relación de cuadrícula. El campo de relación de cuadrícula muestra tres filas, cada una de las cuales muestra un riesgo. El campo de relación de cuadrícula incluye tres botones: Nuevo riesgo, Añadir riesgos y Copiar.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/user_add_action1.png)
 
 El administrador ha configurado la Vista de cuadrícula para que tenga los siguientes botones:
 
@@ -2717,22 +2500,19 @@ El administrador ha configurado la Vista de cuadrícula para que tenga los sigui
 
 Al hacer clic en **Añadir riesgos**, se muestra una vista de cuadrícula.
 
-*Figura 3. Ejemplo de una cuadrícula para añadir objetos hijo de riesgo con un filtro público aplicado*
+*Figura 4. Ejemplo de una cuadrícula para añadir objetos hijo de riesgo con un filtro público aplicado*
 
-![Se muestra una cuadrícula para añadir objetos hijo de riesgo. No se muestran riesgos porque el filtro público Riesgo de interrupción del negocio se aplica a la cuadrícula.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/user_add_action2.png)
+![Se muestra una cuadrícula para añadir objetos hijo de riesgo. No se muestran riesgos porque el filtro público Riesgo de interrupción del negocio se aplica a la cuadrícula.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/user_add_action2.png)
 
 En la Figura 3, no se muestran riesgos porque el filtro público Riesgo de interrupción de negocio se aplica a la cuadrícula. Si el administrador no le ha prohibido eliminar el filtro público, puede pulsar **X** para eliminar el filtro y actualizar la lista de riesgos.
 
-*Figura 4. Ejemplo de una cuadrícula para añadir objetos hijo de riesgo sin aplicar el filtro público*
+*Figura 5. Ejemplo de una cuadrícula para añadir objetos hijo de riesgo sin aplicar el filtro público*
 
-![Se muestra una cuadrícula para añadir objetos hijo de riesgo. Los riesgos se muestran porque el filtro público Riesgo de interrupción de negocio se ha inhabilitado.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/user_add_action3.png)
+![Se muestra una cuadrícula para añadir objetos hijo de riesgo. Los riesgos se muestran porque el filtro público Riesgo de interrupción de negocio se ha inhabilitado.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/user_add_action3.png)
 
-Si desea aplicar un filtro, haga clic en ![Icono de filtro](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/icon-filter.jpg) y seleccione el filtro que desea aplicar.
+Si desea aplicar un filtro, haga clic en ![Icono de filtro](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/icon-filter.jpg) y seleccione el filtro que desea aplicar.
 
-Si tiene un campo de relación que muestra los hijos del objeto actual, es posible que no haya un botón que asocie un objeto existente. Si se da uno de los siguientes casos, el botón no se muestra:
-
-- Tu administrador no configuró el campo de relación para que tenga un botón que asocie un objeto existente.
-- Su administrador configuró su sistema para que un tipo de objeto secundario solo pueda tener un objeto principal del tipo de objeto actual. En este caso, el botón no se muestra para ese tipo de objeto secundario porque los objetos secundarios existentes podrían tener ya un objeto principal de ese tipo.
+Si tiene un campo de relación que muestra los hijos del objeto actual, se muestra un botón que asocia un objeto existente si su administrador configuró la vista para incluir ese botón.
 
 Puede tener un campo de relación que muestre los padres del objeto actual. Si el campo está definido con un botón que asocia un objeto existente, puede hacer clic en el botón para añadir un elemento principal. Si su administrador configuró su sistema de manera que solo se permite un padre de un tipo de objeto específico para el tipo de objeto actual, puede hacer clic en el botón para reemplazar el padre existente. Se muestra una advertencia con la cuadrícula de selección para indicar que se reemplazará la asociación existente.
 
@@ -2751,43 +2531,49 @@ Además, dependiendo de cómo esté definido el botón de copia recursiva, las a
 
 Por ejemplo, el proceso denominado « RB-01 » tiene los elementos secundarios que se muestran en la Figura 5.
 
-*Figura 5. Una cuadrícula en una pestaña de Tarea que muestra los objetos secundarios de Riesgo del Proceso llamado RB-01*
+*Figura 6. Una cuadrícula en una pestaña de Tarea que muestra los objetos secundarios de Riesgo del Proceso llamado RB-01*
 
-![Se muestra una cuadrícula que muestra objetos hijo de riesgo en una pestaña Tarea. Los riesgos son hijos del proceso denominado RB-01.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/user_copy_recursive_action1.png)
+![Se muestra una cuadrícula que muestra objetos hijo de riesgo en una pestaña Tarea. Los riesgos son hijos del proceso denominado RB-01.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/user_copy_recursive_action1.png)
 
 El riesgo denominado RB-01-Risk00189 es uno de los hijos. RB-01-Risk00189 o de riesgos tiene el niño Controlar objetos que se muestran en la Figura 6.
 
-*Figura 6. Una cuadrícula en una pestaña de Tarea que muestra Controlar objetos secundarios del Riesgo llamado RB-01-Risk00189*
+*Figura 7. Una cuadrícula en una pestaña de Tarea que muestra Controlar objetos secundarios del Riesgo llamado RB-01-Risk00189*
 
-![Se muestra una cuadrícula que muestra objetos hijo de control en una pestaña Tarea. Los controles son hijos del riesgo denominado RB-01-Risk00189.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/user_copy_recursive_action2.png)
+![Se muestra una cuadrícula que muestra objetos hijo de control en una pestaña Tarea. Los controles son hijos del riesgo denominado RB-01-Risk00189.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/user_copy_recursive_action2.png)
 
 Al hacer clic en el botón **Copiar objeto y descendientes** que se muestra en la Figura 5, se inicia el proceso de copia recursiva. Se listan los riesgos que cumplen los criterios **Filtro de carpeta** y **Reglas de filtro** . La lista incluye los riesgos que ya están asociados con el proceso y los riesgos que no lo están.
 
-*Figura 7. El recuadro de diálogo **Copiar objetos y descendientes** muestra los objetos hijo Riesgo que se pueden copiar.*
+*Figura 8. El recuadro de diálogo **Copiar objetos y descendientes** muestra los objetos hijo Riesgo que se pueden copiar.*
 
-![Un cuadro de diálogo que muestra los objetos hijo de riesgo que se pueden copiar.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/user_copy_recursive_action3.png)
+![Un cuadro de diálogo que muestra los objetos hijo de riesgo que se pueden copiar.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/user_copy_recursive_action3.png)
 
 Cuando seleccionas el riesgo que se llama " RB-01-Risk00189 " y haces clic en **"Done** ", se crea una copia del objeto de riesgo seleccionado y sus descendientes. El nuevo riesgo, denominado RB-01_RIS_0000001, está asociado al proceso que está abierto en la vista.
 
-*Figura 8. La cuadrícula de objetos hijo Riesgo que muestra el riesgo copiado indicado por un círculo rojo.*
+*Figura 9. La cuadrícula de objetos hijo Riesgo que muestra el riesgo copiado indicado por un círculo rojo.*
 
-![Un recuadro de diálogo que muestra el nuevo objeto Riesgo que se ha copiado.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/user_copy_recursive_action4.png)
+![Un recuadro de diálogo que muestra el nuevo objeto Riesgo que se ha copiado.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/user_copy_recursive_action4.png)
 
 Se han realizado copias de los objetos Control hijo. En la Figura 9, se muestran los hijos del nuevo riesgo RB-01_RIS_0000001 .
 
-*Figura 9. La cuadrícula de objetos hijo de control que se han copiado.*
+*Figura 10. La cuadrícula de objetos hijo de control que se han copiado.*
 
-![Un cuadro de diálogo que muestra los nuevos objetos de control hijo que se han copiado.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/user_copy_recursive_action5.png)
+![Un cuadro de diálogo que muestra los nuevos objetos de control hijo que se han copiado.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/user_copy_recursive_action5.png)
+
+> **Importante:** **Operaciones en cascada y lógica empresarial**
+
+> Las operaciones en cascada, como la asociación recursiva, la disociación y la copia, se gestionan como procesos internos de la base de datos. Estas operaciones no invocan disparadores ni cálculos. Este comportamiento es intencionado y está diseñado para evitar la degradación del rendimiento que podría resultar de la ejecución de la lógica en un número potencialmente grande de objetos relacionados.
+
+> Por ejemplo, cuando un objeto padre se asocia con varios objetos hijo a través de una relación en cascada, los disparadores y cálculos no se ejecutarán en cada objeto hijo durante la asociación o disociación. Si se requiere lógica de negocio durante estas operaciones, debe implementarse **fuera** de la operación en cascada.
 
 #### Establecer el padre principal
 
 Puede establecer un padre principal si los objetos del campo de relación son padres y su administrador ha configurado un botón para establecer un padre principal. Al hacer clic en el botón, puede asociar un objeto principal o cambiar el principal actual. Al hacer clic en el botón que establece un elemento principal, se abre una vista de cuadrícula donde puede seleccionar un objeto. Si el objeto no tiene un padre primario, el objeto padre que ha elegido se establece en el padre primario. Si el objeto tiene un objeto primario, el objeto primario que eligió lo anula como objeto primario, pero el anterior primario permanece como objeto primario.
 
-Para obtener más información sobre la asociación de padres principales, consulte [Asociación de padres principales](#asociación-padre-principal).
+Para obtener más información sobre la asociación de padres primarios, consulte [Asociación de padres primarios](#asociación-padre-principal).
 
 ### Disociación de objetos
 
-`Guía del usuario › Creación y asociación de objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-disassociating)
+`Guía del usuario › Creación y asociación de objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-disassociating)
 
 Puede asociar un objeto padre o hijo, archivo o enlace a un objeto. Por ejemplo, desde un objeto Riesgo, puede añadir enlaces a objetos padre, como Objetivos de control y Evaluaciones de riesgo. También puede eliminar enlaces de objetos hijo, archivos o enlaces. Cuando disocia un objeto, sólo se elimina la asociación o enlace entre los objetos. Los objetos no se ven afectados.
 
@@ -2795,17 +2581,17 @@ Puede asociar un objeto padre o hijo, archivo o enlace a un objeto. Por ejemplo,
 
 1. Acceda al objeto sobre el que desea trabajar.
 2. En un campo de relación de cuadrícula, seleccione el objeto con una marca de selección. Pulse **Eliminar**.
-3. En un campo de relación de tarjeta, pulse ![Icono expandir árbol](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_ug_tree_expand_icon_task_focused_ui.jpg) (Iniciar página de cuadrícula). En la página de cuadrícula, seleccione el objeto con una marca de selección y, a continuación, pulse **Eliminar**.
+3. En un campo de relación de tarjeta, pulse ![Icono expandir árbol](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_ug_tree_expand_icon_task_focused_ui.jpg) (Iniciar página de cuadrícula). En la página de cuadrícula, seleccione el objeto con una marca de selección y, a continuación, pulse **Eliminar**.
 
 ### Asociación padre principal
 
-`Guía del usuario › Creación y asociación de objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-primary-parent-association)
+`Guía del usuario › Creación y asociación de objetos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-primary-parent-association)
 
 Cuando se añade un objeto hijo desde la vista Admin de un objeto padre, se considera que es un «“hijo primario”». El objeto hijo se asocia automáticamente con ese objeto padre primario al crearlo y el objeto hijo tiene la misma vía de acceso de carpeta que el padre primario.
 
 Los tipos de objeto que pueden tener varios objetos padre a través de la asociación pueden sólo pueden tener una asociación padre principal. Por ejemplo, si Control-01 se ha añadido desde la Vista de tareas de Risk-01 y también se ha asociado a Risk-02, Control-01 tendría dos padres: Risk-01 y Risk-02. Sin embargo, sólo Riesgo-01 debe considerarse padre principal de Control-01.
 
-Un objeto padre primario se identifica con el icono ![Icono de objeto padre](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/icon_parentobject.jpg) en los campos de relación de cuadrícula y tarjeta y la etiqueta **Padre primario**en un diagrama de árbol.
+Un objeto padre primario se identifica con el icono ![Icono de objeto padre](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/icon_parentobject.jpg) en los campos de relación de cuadrícula y tarjeta y la etiqueta **Padre primario**en un diagrama de árbol.
 
 Cuando las asociaciones primarias están habilitadas:
 
@@ -2818,7 +2604,7 @@ Cuando las asociaciones primarias están habilitadas:
 
 #### Cambio de la asociación padre principal
 
-`Guía del usuario › Creación y asociación de objetos › Asociación padre principal` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=association-changing-primary-parent)
+`Guía del usuario › Creación y asociación de objetos › Asociación padre principal` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=association-changing-primary-parent)
 
 Un objeto sólo puede tener un padre principal. Si un objeto tiene varios objetos padre, puede cambiar la asociación principal de un objeto padre a otro.
 
@@ -2836,9 +2622,84 @@ Cualquier padre primario anterior permanece asociado pero pasa a ser secundario,
 
    El icono **Asociación primaria** se muestra junto al nombre del nuevo objeto padre primario.
 
+## Visualización del riesgo y el cumplimiento mediante Canvas
+
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-visualizing-risk-compliance-using-canvas)
+
+**Aplicable a:**9.1.3 y posteriores
+
+Canvas proporciona un espacio de trabajo visual para diseñar y presentar información sobre riesgos y cumplimiento normativo. Funciona como una pizarra digital, permitiéndole crear diagramas que combinan OpenPages® objetos (como procesos, riesgos, controles, problemas, etc.) con objetos externos y ciertos elementos textuales y visuales que facilitan la visualización. Esto le ayuda a visualizar sistemas, procesos, relaciones y dependencias complejos de una manera más fácil de comprender y compartir.
+
+Canvas tiene una interfaz interactiva de arrastrar y soltar y está conectada a datos en tiempo OpenPages real. Canvas también se puede utilizar mediante un teclado y es compatible con los estándares de accesibilidad. Un objeto primario es el foco principal de un lienzo y sirve como punto de partida para un flujo o visualización. Los usuarios con acceso de escritura a un objeto principal pueden crear y editar lienzos vinculados a él. Dentro de un lienzo, los usuarios pueden añadir objetos relacionados y nodos personalizados para construir el contexto. Se puede acceder a Canvas desde la barra de herramientas de la página Vista de tareas de un objeto.
+
+Estas son algunas de las cosas que puedes hacer en un lienzo:
+
+- Mostrar OpenPages objetos con sus campos, añadir objetos relacionados y crear nodos que representen objetos externos.
+- Añade anotaciones utilizando nodos de texto para proporcionar contexto adicional.
+- Organiza la información visualmente utilizando nodos de grupo, colores y herramientas de disposición.
+
+### ¿Por qué utilizar Canvas?
+
+Canvas está diseñado para:
+
+- Los gestores de riesgos y los responsables de cumplimiento normativo que necesitan presentar claramente la postura de riesgo.
+- Los responsables de procesos que desean mapear los procesos y los riesgos relacionados.
+- Cualquiera que necesite comunicar relaciones complejas de forma visual.
+
+Los casos de uso típicos incluyen:
+
+- Diseñar un flujo de procesos con los riesgos y controles asociados.
+- Creación de un diagrama de evaluación de riesgos para informes ejecutivos.
+- Ilustración de escenarios de gobernanza de la IA o flujo de datos.
+
+### Acceso a Canvas
+
+Siga estos pasos para crear un nuevo lienzo o abrir uno ya existente:
+
+1. Acceda al objeto al que desea anclar un nuevo lienzo o abra los lienzos existentes anclados a él.
+2. Abra el objeto en una vista de tarea.
+3. Haga clic en el **icono Lienzo** de la barra de herramientas.
+4. En el panel lateral que se abre, realice una de las siguientes acciones:
+
+   - Para abrir un nuevo lienzo, haga clic en **Nuevo lienzo**.
+   - Para abrir un lienzo existente, haz clic en él en la lista de lienzos.
+
+### Trabajar en Canvas
+
+Canvas tiene dos modos, solo lectura y modo de edición:
+
+- **Modo de solo lectura** : cuando abres un lienzo, se abre en modo de solo lectura de forma predeterminada. En este modo, solo puede ver y navegar por el diagrama y manipular los elementos del lienzo moviéndolos, pero no podrá guardar ningún cambio.
+- **Modo de edición** : si tienes permiso para editar un objeto, para activar el modo de edición, en la zona superior derecha del lienzo, activa **el modo** de edición. En este modo, puedes añadir, eliminar y reorganizar elementos. Los cambios se guardan automáticamente.
+
+Cuando se abre por primera vez un lienzo en modo de solo lectura, se muestra la versión publicada del lienzo. Si cambia al modo Editar, la vista puede cambiar a una versión diferente si existe un borrador. Esto garantiza que las ediciones se realicen en el último borrador y no en la versión publicada.
+
+A continuación se describen las principales actividades que puede realizar:
+
+**añadir a elementos**
+
+- Nodos de objetos GRC: arrastre y suelte objetos como riesgos, controles y problemas. Puedes mostrar objetos relacionados y añadir campos como descripción o estado.
+- Nodos de objetos personalizados: representan elementos que no se almacenan en OpenPages (por ejemplo, sistemas externos, pasos conceptuales).
+- Nodos de texto: añade notas o explicaciones utilizando Markdown.
+- Nodos de grupo: agrupa los elementos relacionados en un único cuadro para mayor claridad.
+
+**Elementos de conexión**
+
+Dibuja líneas para indicar relaciones o flujos. Cuando una línea está enfocada, puede utilizar el menú flotante para ocultar o eliminar la línea, o añadirle una etiqueta.
+
+Las relaciones GRC se representan con líneas continuas, mientras que las relaciones dibujadas a mano se representan con líneas discontinuas. Las relaciones GRC indican vínculos definidos por el sistema entre objetos, mientras que las relaciones dibujadas a mano representan conexiones definidas por el usuario con fines visuales o contextuales.
+
+> **Nota:** Estas líneas son solo para representación visual y no crean relaciones reales en OpenPages.
+
+**Formateado**
+
+- Aplica colores a objetos o grupos para clasificarlos.
+- Acerca, aleja y utiliza el minimapa para navegar.
+- Organiza automáticamente los elementos para obtener un diseño limpio.
+- Agrupa los elementos relacionados en un solo cuadro para mayor claridad.
+
 ## Utilización de filtros en vistas de cuadrícula
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-using-filters-in-grid-views)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-using-filters-in-grid-views)
 
 Los filtros son herramientas útiles que hacen que la búsqueda de información en una vista de cuadrícula sea más personalizada y gestionable.
 
@@ -2852,7 +2713,7 @@ Los siguientes tipos de filtros están disponibles en las vistas de cuadrícula:
 
 ### Búsqueda de objetos con el recuadro Buscar
 
-`Guía del usuario › Utilización de filtros en vistas de cuadrícula` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=views-finding-objects-search-box)
+`Guía del usuario › Utilización de filtros en vistas de cuadrícula` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=views-finding-objects-search-box)
 
 Utilice el recuadro Buscar para buscar valores específicos en los objetos listados en una vista de cuadrícula.
 
@@ -2885,17 +2746,17 @@ La búsqueda sólo devuelve resultados que son una coincidencia exacta. Si busca
 
 ### Utilización de filtros de carpeta (Entidad de negocios)
 
-`Guía del usuario › Utilización de filtros en vistas de cuadrícula` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=views-using-folder-filters-business-entity)
+`Guía del usuario › Utilización de filtros en vistas de cuadrícula` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=views-using-folder-filters-business-entity)
 
 Utilice un filtro de carpeta (Entidad de negocios) para identificar objetos basándose en la jerarquía de carpetas a la que pertenece el tipo de objeto.
 
 #### Acerca de esta tarea
 
-Los administradores definen jerarquías de carpetas mediante **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/settings_menu_icon_task_focused_ui.jpg)** > **Configuración del sistema** > **Archivos de sistema**. Si no es un administrador, puede seleccionar carpetas en la jerarquía pero no puede añadir ni editar la jerarquía.
+Los administradores definen jerarquías de carpetas mediante **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/settings_menu_icon_task_focused_ui.jpg)** > **Configuración del sistema** > **Archivos de sistema**. Si no es un administrador, puede seleccionar carpetas en la jerarquía pero no puede añadir ni editar la jerarquía.
 
 #### Procedimiento
 
-1. Desde una vista de cuadrícula, pulse ![icono de filtro](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/filter_icon_task_focused_ui.jpg) para acceder a los filtros.
+1. Desde una vista de cuadrícula, pulse ![icono de filtro](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/filter_icon_task_focused_ui.jpg) para acceder a los filtros.
 2. En la sección **Entidad de negocios** , pulse **Seleccionar** y vea la jerarquía de carpetas.
 3. Navegue por la jerarquía y seleccione una carpeta. **No se pueden seleccionar varias carpetas.**
 
@@ -2911,7 +2772,7 @@ Los administradores definen jerarquías de carpetas mediante **Abrir el menú Ad
 
 ### Utilización de filtros públicos
 
-`Guía del usuario › Utilización de filtros en vistas de cuadrícula` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=views-using-public-filters)
+`Guía del usuario › Utilización de filtros en vistas de cuadrícula` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=views-using-public-filters)
 
 Utilice filtros públicos para buscar objetos en una vista de cuadrícula basándose en criterios de búsqueda.
 
@@ -2925,7 +2786,7 @@ No puede utilizar simultáneamente un filtro público y un filtro privado.
 
 #### Procedimiento
 
-1. Desde una vista de cuadrícula, pulse ![Icono de filtro](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/filter_icon_task_focused_ui.jpg) para acceder a los filtros.
+1. Desde una vista de cuadrícula, pulse ![Icono de filtro](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/filter_icon_task_focused_ui.jpg) para acceder a los filtros.
 2. En **Filtros públicos**, seleccione un filtro.
 
    Se indica el nombre de filtro y el número de resultados. Los objetos que coinciden con los criterios de filtro se listan en la cuadrícula.
@@ -2939,7 +2800,7 @@ No puede utilizar simultáneamente un filtro público y un filtro privado.
 
 ### Utilización de filtros privados
 
-`Guía del usuario › Utilización de filtros en vistas de cuadrícula` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=views-using-private-filters)
+`Guía del usuario › Utilización de filtros en vistas de cuadrícula` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=views-using-private-filters)
 
 Utilice y personalice filtros privados para buscar objetos basados en criterios sobre valores de campo en objetos y, opcionalmente, objetos padre.
 
@@ -2955,7 +2816,7 @@ No puede aplicar un filtro público y un filtro privado.
 
 #### Procedimiento
 
-1. Desde una vista de cuadrícula, pulse ![Icono de filtro](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/filter_icon_task_focused_ui.jpg) para acceder a los filtros.
+1. Desde una vista de cuadrícula, pulse ![Icono de filtro](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/filter_icon_task_focused_ui.jpg) para acceder a los filtros.
 2. En **Mis filtros**, seleccione un filtro de la lista.
 
    Si no ve ningún filtro, puede crear un filtro. Consulte [Definición de filtros privados](#definición-de-filtros-privados).
@@ -2971,9 +2832,9 @@ No puede aplicar un filtro público y un filtro privado.
 
 ### Definición de filtros privados
 
-`Guía del usuario › Utilización de filtros en vistas de cuadrícula` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=views-defining-private-filters)
+`Guía del usuario › Utilización de filtros en vistas de cuadrícula` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=views-defining-private-filters)
 
-Defina un filtro privado en una vista de cuadrícula para guardar los criterios de búsqueda a los que accede con frecuencia.
+Definir un filtro privado en una vista de cuadrícula. Puede aplicar un filtro privado sin guardarlo ni darle un nombre. Proporcione un nombre y guarde un filtro privado si desea acceder fácilmente a los criterios de búsqueda que utiliza con frecuencia. Puede ahorrar tiempo copiando desde un filtro existente en lugar de empezar desde cero.
 
 #### Antes de empezar
 
@@ -2996,17 +2857,22 @@ Una definición de filtro privado especifica los siguientes tipos de criterios:
 
 #### Procedimiento
 
-1. Desde una vista de cuadrícula, pulse ![Icono de filtro](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/filter_icon_task_focused_ui.jpg) para acceder a los filtros.
-2. En **Mis filtros**, pulse **Nuevo filtro** y añada un nombre.
-3. Pulse **Nueva condición**.
+1. Desde una vista de cuadrícula, pulse ![Icono de filtro](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/filter_icon_task_focused_ui.jpg) para acceder a los filtros.
+2. En **Mis filtros**, haga clic en **Nuevo filtro**.
+3. 9.1.2 y posterioresSi desea crear un filtro modificando un filtro existente, haga clic en **Copiar de un filtro existente** y elija un filtro de la lista. A continuación, haz una de las siguientes cosas:
+
+   - Si no quieres cambiar nada y simplemente quieres una copia exacta del filtro, dale un nombre único y salta al paso 10.
+   - Si decide añadir o modificar condiciones en las secciones **Criterios de objeto de base** y **Criterios de objetos relacionados**, siga los pasos que se indican a continuación según sea necesario.
+4. Si desea guardar el filtro para utilizarlo en el futuro, proporciónele un nombre único. En caso contrario, el nombre es opcional.
+5. Pulse **Nueva condición**.
 
    Puede crear una condición utilizando etiquetas o campos. Puede crear un filtro que utilice una combinación de condiciones de etiqueta y condiciones de campo.
 
-   > **Nota:** Si no ve una opción **Etiqueta** , el etiquetado no está habilitado. Solo puede crear condiciones de campo. Vaya al paso 5.
-4. Para crear una condición que utilice etiquetas, pulse **Etiqueta**y, a continuación, seleccione una etiqueta.
+   > **Nota:** Si no ve una opción **Etiqueta** , el etiquetado no está habilitado. Solo puede crear condiciones de campo. Vaya al paso 7.
+6. Para crear una condición que utilice etiquetas, pulse **Etiqueta**y, a continuación, seleccione una etiqueta.
 
    > **Nota:** Si la lista está vacía, no hay etiquetas disponibles.
-5. Para crear una condición que utilice campos, pulse **Campo**. Realice los pasos siguientes para cada campo por el que desee filtrar.
+7. Para crear una condición que utilice campos, pulse **Campo**. Realice los pasos siguientes para cada campo por el que desee filtrar.
 
    1. Seleccione un **Campo** y una **Operación** a la que se aplicará el filtro.
 
@@ -3030,7 +2896,7 @@ Una definición de filtro privado especifica los siguientes tipos de criterios:
 
       > **Nota:** Los filtros privados no admiten campos calculados, campos de serie larga o fragmentos de informes.
    2. Pulse **Terminado**.
-6. Opcional: Los filtros se establecen automáticamente para cumplir todas las condiciones listadas. Para alterar temporalmente esta regla predeterminada, establezca **Lógica avanzada** en `True` y escriba una sentencia en **Lógica**.
+8. Opcional: Los filtros se establecen automáticamente para cumplir todas las condiciones listadas. Para alterar temporalmente esta regla predeterminada, establezca **Lógica avanzada** en `True` y escriba una sentencia en **Lógica**.
 
    Para escribir una sentencia lógica, establezca los números de condición con los operadores `AND`, `OR`, `NOT`y paréntesis.
 
@@ -3041,7 +2907,7 @@ Una definición de filtro privado especifica los siguientes tipos de criterios:
    - `1 OR 2 OR 3`
    - `1 AND (2 OR 3)`
    - `1 NOT (2 OR 3)`
-7. Opcional: Expanda **Criterios de objetos relacionados** para filtrar por objetos relacionados.
+9. Opcional: Expanda **Criterios de objetos relacionados** para filtrar por objetos relacionados.
 
    Para filtrar basándose en los campos de los objetos relacionados, realice los pasos siguientes:
 
@@ -3050,7 +2916,7 @@ Una definición de filtro privado especifica los siguientes tipos de criterios:
       Los campos restantes dependen del tipo de objeto que seleccione.
    2. En **Condiciones de objeto relacionadas**, pulse **Nueva condición**.
 
-      Repita el paso 3 para configurar la condición.
+      Repita el paso 5 para configurar la condición.
    3. Pulse **Terminado**.
 
    Si elige **Ancestros** o **Descendientes** para el **Tipo de relación**, especifique la vía de acceso de relación que se utilizará para el filtro y, a continuación, especifique una condición.
@@ -3059,16 +2925,19 @@ Una definición de filtro privado especifica los siguientes tipos de criterios:
    2. Utilice el árbol para seleccionar las vías de acceso entre el objeto y sus ancestros o descendientes.
    3. En **Condiciones de objeto relacionadas**, pulse **Nueva condición**.
 
-      Repita el paso 3 para configurar la condición.
+      Repita el paso 5 para configurar la condición.
 
    Para limitar el filtro a los padres primarios, pulse **Sólo jerarquía de padres primarios**.
-8. Haga clic en **Guardar** para aplicar el filtro.
+10. Para aplicar el filtro, realice una de las siguientes acciones:
+
+    - Si ha dado un nombre al filtro en el paso 3, haga clic en **Guardar**.
+    - Si no proporcionó un nombre en el paso 3, haga clic en **Aplicar**.
 
 #### Resultados
 
-El filtro se aplica y se visualizan los objetos que coinciden con los criterios de filtro. En la cabecera se muestran el nombre del filtro y el número de resultados.
+El filtro se aplica y se visualizan los objetos que coinciden con los criterios de filtro. En la cabecera se muestran el nombre del filtro y el número de resultados. Si no ha proporcionado un nombre de filtro, la cabecera muestra "Filtro no guardado" como nombre del filtro.
 
-Para editar el filtro, pulse ![icono de edición](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_edit_icon.jpg).
+Para editar el filtro, haga clic en ![icono de edición](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_edit_icon.jpg).
 
 > **Sugerencia:** Cuando crea un filtro que utiliza **Ancestros** o **Descendientes** y la vía de acceso de la relación sólo utiliza padres o hijos, el filtro muestra **Padres** o **Hijos** para el **Tipo de relación** cuando edita el filtro.
 
@@ -3076,7 +2945,7 @@ Para eliminar el filtro, pulse el nombre del filtro en la cabecera.
 
 ### Utilización de filtros ad hoc
 
-`Guía del usuario › Utilización de filtros en vistas de cuadrícula` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=views-using-ad-hoc-filters)
+`Guía del usuario › Utilización de filtros en vistas de cuadrícula` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=views-using-ad-hoc-filters)
 
 Los filtros ad hoc son filtros privados que no se guardan y sólo se utilizan en una sesión. Utilice un filtro ad hoc si no accede con frecuencia a los criterios de búsqueda.
 
@@ -3090,7 +2959,7 @@ Puede aplicar un filtro ad hoc, un filtro de carpeta y los criterios de búsqued
 
 #### Procedimiento
 
-1. Desde una vista de cuadrícula, pulse ![Icono de filtro](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/filter_icon_task_focused_ui.jpg) para acceder a los filtros.
+1. Desde una vista de cuadrícula, pulse ![Icono de filtro](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/filter_icon_task_focused_ui.jpg) para acceder a los filtros.
 2. En **Mis filtros**, pulse **Nuevo filtro**.
 3. No complete el campo **Nombre** . Si deja el campo **Nombre** incompleto, se asegura de que no se guarde el filtro.
 4. Complete los campos y condiciones restantes y pulse **Aplicar**. Para obtener más detalles sobre cómo crear un filtro privado, consulte [Definición de filtros privados](#definición-de-filtros-privados).
@@ -3109,14 +2978,14 @@ Puede aplicar un filtro ad hoc, un filtro de carpeta y los criterios de búsqued
 
 ### Edición de filtros privados
 
-`Guía del usuario › Utilización de filtros en vistas de cuadrícula` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=views-editing-private-filters)
+`Guía del usuario › Utilización de filtros en vistas de cuadrícula` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=views-editing-private-filters)
 
 Después de crear y guardar un filtro privado, puede modificar los criterios de búsqueda y los valores de campo para el filtro.
 
 #### Procedimiento
 
 1. Desde una vista de cuadrícula, acceda a los filtros privados en **Mis filtros**.
-2. Elija el filtro privado que desea editar y pulse ![icono de edición](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_edit_icon.jpg).
+2. Elija el filtro privado que desea editar y pulse ![icono de edición](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_edit_icon.jpg).
 3. Realice los cambios editando los valores de campo.
 
    Por ejemplo, para renombrar el filtro, edite el valor en el campo **Nombre** .
@@ -3124,19 +2993,19 @@ Después de crear y guardar un filtro privado, puede modificar los criterios de 
 
 ### Supresión de filtros guardados
 
-`Guía del usuario › Utilización de filtros en vistas de cuadrícula` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=views-deleting-saved-filters)
+`Guía del usuario › Utilización de filtros en vistas de cuadrícula` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=views-deleting-saved-filters)
 
 Cuando ya no necesite un filtro privado, puede suprimir el filtro.
 
 #### Procedimiento
 
 1. Desde una vista de cuadrícula, acceda a los filtros privados en **Mis filtros**.
-2. Elija el filtro privado que desea suprimir y pulse ![icono suprimir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/delete_icon.jpg).
+2. Elija el filtro privado que desea suprimir y pulse ![icono suprimir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/delete_icon.jpg).
 3. Pulse **Suprimir** y renueve la vista de cuadrícula.
 
 ### Borrar resultados de filtro
 
-`Guía del usuario › Utilización de filtros en vistas de cuadrícula` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=views-clearing-filter-results)
+`Guía del usuario › Utilización de filtros en vistas de cuadrícula` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=views-clearing-filter-results)
 
 Puede borrar los filtros de la vista de cuadrícula que no los suprime de los filtros guardados.
 
@@ -3149,7 +3018,7 @@ Puede borrar los filtros de la vista de cuadrícula que no los suprime de los fi
 
 ## Búsqueda global
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-global-search)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-global-search)
 
 la búsqueda global IBM OpenPages® ' utiliza técnicas avanzadas de procesamiento y análisis de textos para buscar en todos los tipos de objetos y encontrar registros relevantes para sus términos de búsqueda.
 
@@ -3192,7 +3061,7 @@ Utilice el método adecuado según el punto de acceso y lo que está buscando. S
 
 ### Búsqueda de objetos mediante la búsqueda global
 
-`Guía del usuario › Búsqueda global` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=search-searching-objects-using-global)
+`Guía del usuario › Búsqueda global` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=search-searching-objects-using-global)
 
 Es posible buscar rápidamente y realizar acciones sobre los objetos relevantes para sus tareas de GRC mediante el empleo de la búsqueda global.
 
@@ -3209,7 +3078,7 @@ Compruebe que existe un panel de Búsqueda en la pestaña Inicio. El nombre pued
 
    Se visualizan hasta 25 objetos coincidentes con la búsqueda, clasificados de más a menos relevante. Cada resultado muestra un enlace que incluye el nombre de recurso y el tipo de objeto. Si el panel de búsqueda está configurado para buscar en el contenido de los archivos adjuntos, los objetos de archivo también se listan. Sólo se visualizan los objetos que tiene permiso para ver.
 5. Pulse un objeto en la lista de resultados del panel de búsqueda para abrirlo en una pestaña nueva.
-6. Haga clic en ' ![estrella de favoritos](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/favorites_star.jpg) ' para marcar un objeto como favorito.
+6. Haga clic en ' ![estrella de favoritos](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/favorites_star.jpg) ' para marcar un objeto como favorito.
 
    El objeto se añade al panel Favoritos.
 
@@ -3219,7 +3088,7 @@ Obtenga información sobre las muchas maneras en que puede buscar información u
 
 ### Técnicas avanzadas de búsqueda global
 
-`Guía del usuario › Búsqueda global` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=search-global-advanced-techniques)
+`Guía del usuario › Búsqueda global` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=search-global-advanced-techniques)
 
 En la mayoría de los casos, la búsqueda con términos y frases encuentra el registro que busca. También puede refinar su búsqueda utilizando sintaxis de búsqueda avanzada, como comodines, lógica booleana, agrupación, coincidencias difusas, proximidad y potenciación.
 
@@ -3293,13 +3162,13 @@ Por ejemplo, la búsqueda «“gestión de riesgos US^5 UK”» (sin comillas) d
 
 ## Trabajar con archivos y enlaces
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-working-files-links)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-working-files-links)
 
 Puede realizar muchas acciones en archivos y enlaces en OpenPages®.
 
 ### Acerca de archivos adjuntos
 
-`Guía del usuario › Trabajar con archivos y enlaces` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=links-about-file-attachments)
+`Guía del usuario › Trabajar con archivos y enlaces` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=links-about-file-attachments)
 
 Los archivos adjuntos se pueden añadir y gestionar en el repositorio de archivos de IBM OpenPages® .
 
@@ -3309,18 +3178,18 @@ OpenPages utiliza el control de versiones y el bloqueo de archivos en el reposit
 
 Los archivos se pueden añadir a OpenPages desde dos puntos de acceso:
 
-- Utilice la tarea **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Archivos adjuntos** > **Archivos** para añadir y gestionar todos los archivos a los que tenga acceso, en todos los tipos de objetos.
+- Utilice la tarea **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Archivos adjuntos** > **Archivos** para añadir y gestionar todos los archivos a los que tenga acceso, en todos los tipos de objetos.
 
   Para obtener más información, consulte [Adición y gestión de todos los archivos (adjuntos)](#añadir-y-gestionar-todos-los-archivos-adjuntos).
 - Utilice la vista de tarea de un tipo de objeto para añadir y gestionar archivos adjuntos a objetos.
 
   Para obtener más información, consulte [Adición y trabajo con archivos (adjuntos) en objetos](#añadir-y-trabajar-con-archivos-adjuntos-en-objetos).
 
-La funcionalidad es la misma excepto que con la tarea **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Archivos adjuntos** > **Archivos** se puede acceder a todos los archivos a través de todos los tipos de objetos. Las etiquetas de iconos son ligeramente diferentes en las dos tareas.
+La funcionalidad es la misma excepto que con la tarea **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Archivos adjuntos** > **Archivos** se puede acceder a todos los archivos a través de todos los tipos de objetos. Las etiquetas de iconos son ligeramente diferentes en las dos tareas.
 
 #### Reglas para la denominación de carpetas y archivos
 
-`Guía del usuario › Trabajar con archivos y enlaces › Acerca de archivos adjuntos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=attachments-rules-naming-folders-files)
+`Guía del usuario › Trabajar con archivos y enlaces › Acerca de archivos adjuntos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=attachments-rules-naming-folders-files)
 
 Se permiten caracteres especiales en determinados casos. Consulte la tabla siguiente para conocer las restricciones de caracteres especiales.
 
@@ -3356,7 +3225,7 @@ Para un nombre de carpeta,
 
 ### Añadir y trabajar con archivos (adjuntos) en objetos
 
-`Guía del usuario › Trabajar con archivos y enlaces` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=links-adding-working-files-attachments-objects)
+`Guía del usuario › Trabajar con archivos y enlaces` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=links-adding-working-files-attachments-objects)
 
 En función de cómo esté configurada la vista de tarea, es posible que pueda añadir archivos (archivos adjuntos) y trabajar con ellos.
 
@@ -3371,9 +3240,9 @@ Cuando añade un archivo, se asocia con el objeto en la vista que tiene abierta.
 Cuando añade un archivo, se carga una copia del archivo en el repositorio de archivos de OpenPages®. Después de añadir un archivo:
 
 - Pulse el nombre del archivo para ver los detalles del archivo y acceder a varias versiones del archivo si existen.
-- Pulse ![Icono Descargar archivo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_download_file.jpg) para descargarlo.
+- Pulse ![Icono Descargar archivo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_download_file.jpg) para descargarlo.
 
-Pulse ![Icono de extracción de archivo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_checkout_file_icon.jpg) para extraer un archivo.
+Pulse ![Icono de extracción de archivo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_checkout_file_icon.jpg) para extraer un archivo.
 
 Un archivo reservado tiene las características siguientes:
 
@@ -3387,11 +3256,11 @@ Al incorporar un archivo, puede añadir un comentario. Después de incorporar el
 
 En el ejemplo siguiente, el archivo de la segunda fila tiene una marca de selección para indicar que el archivo se ha extraído.
 
-![en una lista de archivos, una marca de selección junto a un archivo indica que se ha extraído](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_ug_files_checkedout_tfui.png)
+![en una lista de archivos, una marca de selección junto a un archivo indica que se ha extraído](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_ug_files_checkedout_tfui.png)
 
-En función de cómo esté configurado el sistema, es posible que pueda abrir y editar archivos de Microsoft Office (Word, Excel y PowerPoint) directamente desde OpenPages. Si esta característica está habilitada, los iconos ![icono de vista](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_view_file_icon.jpg) (Ver) y ![Icono Editar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_edit_file_icon.jpg) (Editar) se muestran junto a los archivos de Microsoft Office.
+En función de cómo esté configurado el sistema, es posible que pueda abrir y editar archivos de Microsoft Office (Word, Excel y PowerPoint) directamente desde OpenPages. Si esta característica está habilitada, los iconos ![icono de vista](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_view_file_icon.jpg) (Ver) y ![Icono Editar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_edit_file_icon.jpg) (Editar) se muestran junto a los archivos de Microsoft Office.
 
-En lugar de acceder a los archivos desde una Vista de tareas, también puede acceder a los archivos haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Anexos** > **Archivos**. Pulse el archivo que desea ver o editar. En una vista de tarea o de administración para el tipo de objeto Archivo, vaya a la sección **Versiones** . Para obtener más información, consulte [Adición y gestión de todos los archivos (adjuntos)](#añadir-y-gestionar-todos-los-archivos-adjuntos).
+En lugar de acceder a los archivos desde una Vista de tareas, también puede acceder a los archivos haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Anexos** > **Archivos**. Pulse el archivo que desea ver o editar. En una vista de tarea o de administración para el tipo de objeto Archivo, vaya a la sección **Versiones** . Para obtener más información, consulte [Adición y gestión de todos los archivos (adjuntos)](#añadir-y-gestionar-todos-los-archivos-adjuntos).
 
 #### Procedimiento
 
@@ -3413,39 +3282,39 @@ Después de añadir un archivo, puede utilizar dos métodos para cargar una nuev
 
    Utilice este método para evitar que otros usuarios editen el archivo mientras trabaja en los cambios.
 
-   No utilice este método al editar archivos de Microsoft Office directamente desde OpenPages pulsando **Ver** o ![icono de vista](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_view_file_icon.jpg), o **Editar** o ![Icono Editar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_edit_file_icon.jpg).
+   No utilice este método al editar archivos de Microsoft Office directamente desde OpenPages pulsando **Ver** o ![icono de vista](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_view_file_icon.jpg), o **Editar** o ![Icono Editar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_edit_file_icon.jpg).
 
-   1. Pulse ![Icono de extracción de archivo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_checkout_file_icon.jpg) para extraer el archivo. Si el archivo ya está reservado, el icono está oculto.
+   1. Pulse ![Icono de extracción de archivo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_checkout_file_icon.jpg) para extraer el archivo. Si el archivo ya está reservado, el icono está oculto.
    2. Descargue el archivo.
    3. Realice y guarde los cambios en el archivo.
    4. Pulse **Añadir/Actualizar** y seleccione el archivo. De forma alternativa, puede arrastrar el archivo a la sección de archivos.
    5. Complete los campos de la ventana **Archivos a añadir** .
    6. Pulse **Cargar**. La copia se carga y el archivo se incorpora.
 
-   Puede pulsar ![icono para cancelar extracción de archivo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_cancelcheckout_file_icon.jpg) para cancelar una extracción. Si cancela una extracción, OpenPages revierte a la última versión seleccionada de un archivo en el repositorio de archivos.
+   Puede pulsar ![icono para cancelar extracción de archivo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_cancelcheckout_file_icon.jpg) para cancelar una extracción. Si cancela una extracción, OpenPages revierte a la última versión seleccionada de un archivo en el repositorio de archivos.
 2. Si está realizando cambios rápidos en un archivo, puede actualizar el archivo sin utilizar la extracción manual:
 
-   > **Restricción:** No utilice este método al editar archivos de Microsoft Office directamente desde OpenPages pulsando **Ver** o ![icono de vista](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_view_file_icon.jpg), o **Editar** o ![Icono Editar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_edit_file_icon.jpg).
+   > **Restricción:** No utilice este método al editar archivos de Microsoft Office directamente desde OpenPages pulsando **Ver** o ![icono de vista](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_view_file_icon.jpg), o **Editar** o ![Icono Editar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_edit_file_icon.jpg).
 
    1. Descargue el archivo.
    2. Realice y guarde los cambios en el archivo.
    3. Pulse **Añadir/Actualizar** y seleccione el archivo. De forma alternativa, puede arrastrar el archivo a la sección de archivos.
    4. Complete los campos de la ventana **Archivos a añadir** .
    5. Pulse **Cargar**. El archivo se extrae automáticamente y se devuelve.
-3. Para ver un archivo de Microsoft Office cuando se visualiza el botón **Ver** o el icono ![icono de vista](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_view_file_icon.jpg), realice los pasos siguientes:
+3. Para ver un archivo de Microsoft Office cuando se visualiza el botón **Ver** o el icono ![icono de vista](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_view_file_icon.jpg), realice los pasos siguientes:
 
-   1. Pulse **Ver** o ![icono de vista](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_view_file_icon.jpg).
+   1. Pulse **Ver** o ![icono de vista](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_view_file_icon.jpg).
    2. Pulse **Abrir [App]** en el recuadro de diálogo que abre la aplicación Microsoft Office.
    3. Vea el archivo.
-   4. Si tiene los derechos para editar el archivo, puede editar el archivo aunque haya elegido verlo. Pulse **Habilitar edición** en la aplicación de Microsoft Office y empiece a realizar los cambios. El archivo se extrae automáticamente. Realice y guarde los cambios. Pulse **Incorporar** o ![Icono de incorporación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_checkin_file_icon.jpg) para incorporar el archivo en OpenPages cuando haya terminado.
+   4. Si tiene los derechos para editar el archivo, puede editar el archivo aunque haya elegido verlo. Pulse **Habilitar edición** en la aplicación de Microsoft Office y empiece a realizar los cambios. El archivo se extrae automáticamente. Realice y guarde los cambios. Pulse **Incorporar** o ![Icono de incorporación](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_checkin_file_icon.jpg) para incorporar el archivo en OpenPages cuando haya terminado.
 
       Si aparece el siguiente mensaje al pulsar **Habilitar edición**, el archivo está bloqueado por otro usuario. Espere hasta que el archivo esté desbloqueado para realizar las ediciones. Sólo puede elegir la primera opción, **Ver una copia de sólo lectura**. Las otras dos opciones no funcionan.
 
-      ![Un diálogo muestra un mensaje que indica que el archivo está bloqueado.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_ug_files_ms_lock_message.jpg)
-4. Para ver un archivo de Microsoft Office cuando no se visualiza el botón **Ver** o el icono ![icono de vista](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_view_file_icon.jpg) , pulse **Editar** o ![Icono Editar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_edit_file_icon.jpg) y cancele la extracción o incorpore el archivo después de visualizarlo. Si no ve el botón **Editar** o el icono ![Icono Editar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_edit_file_icon.jpg) , descargue el archivo y ábralo manualmente.
+      ![Un diálogo muestra un mensaje que indica que el archivo está bloqueado.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_ug_files_ms_lock_message.jpg)
+4. Para ver un archivo de Microsoft Office cuando no se visualiza el botón **Ver** o el icono ![icono de vista](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_view_file_icon.jpg) , pulse **Editar** o ![Icono Editar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_edit_file_icon.jpg) y cancele la extracción o incorpore el archivo después de visualizarlo. Si no ve el botón **Editar** o el icono ![Icono Editar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_edit_file_icon.jpg) , descargue el archivo y ábralo manualmente.
 5. Para abrir y editar un archivo de Microsoft Office:
 
-   1. Pulse **Editar** o ![Icono Editar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_edit_file_icon.jpg).
+   1. Pulse **Editar** o ![Icono Editar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_edit_file_icon.jpg).
 
       Se muestran dos recuadros de diálogo:
 
@@ -3457,7 +3326,7 @@ Después de añadir un archivo, puede utilizar dos métodos para cargar una nuev
 
       Si aparece el siguiente mensaje al pulsar **Habilitar edición**, el archivo está bloqueado por otro usuario. Espere hasta que el archivo esté desbloqueado para realizar las ediciones. Sólo puede elegir la primera opción, **Ver una copia de sólo lectura**. Las otras dos opciones no funcionan.
 
-      ![Un diálogo muestra un mensaje de que el archivo está bloqueado](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_ug_files_ms_lock_message.jpg)
+      ![Un diálogo muestra un mensaje de que el archivo está bloqueado](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_ug_files_ms_lock_message.jpg)
    5. Realice los cambios y guárdelos con frecuencia porque el guardado automático no está habilitado. Cuando guarde manualmente, los cambios se guardarán en el archivo del repositorio de archivos OpenPages . Sin embargo, otros usuarios no pueden ver los cambios hasta que se haya incorporado el archivo.
    6. Cuando haya terminado, pulse **Incorporar** en el recuadro de diálogo para incorporar el archivo.
 
@@ -3467,9 +3336,9 @@ Después de añadir un archivo, puede utilizar dos métodos para cargar una nuev
 
 ### Añadir y gestionar todos los archivos (adjuntos)
 
-`Guía del usuario › Trabajar con archivos y enlaces` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=links-adding-managing-all-files-attachments)
+`Guía del usuario › Trabajar con archivos y enlaces` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=links-adding-managing-all-files-attachments)
 
-Utilice **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Archivos adjuntos** > **Archivos** para añadir y gestionar todos los archivos a los que tenga acceso, en todos los tipos de objetos. La tarea sólo muestra archivos que no son del sistema del tipo de objeto Archivo (SOXDocument). No visualiza archivos del sistema.
+Utilice **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Archivos adjuntos** > **Archivos** para añadir y gestionar todos los archivos a los que tenga acceso, en todos los tipos de objetos. La tarea sólo muestra archivos que no son del sistema del tipo de objeto Archivo (SOXDocument). No visualiza archivos del sistema.
 
 #### Acerca de esta tarea
 
@@ -3479,7 +3348,7 @@ También puede añadir archivos directamente a objetos utilizando una vista de t
 
 #### Procedimiento
 
-1. Haz clic en " **Menú principal " ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Archivos adjuntos** > **Archivos**.
+1. Haz clic en " **Menú principal " ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Archivos adjuntos** > **Archivos**.
 2. Para añadir archivos:
 
    1. Pulse **Nuevo**.
@@ -3532,7 +3401,7 @@ Después de añadir un archivo, hay dos métodos para cargar una nueva versión 
 
       Si aparece el siguiente mensaje al pulsar **Habilitar edición**, el archivo está bloqueado por otro usuario y no se puede editar. Debe esperar hasta que el archivo esté desbloqueado para realizar las ediciones. Sólo puede elegir la primera opción, **Ver una copia de sólo lectura**. Las otras dos opciones no funcionan.
 
-      ![Un diálogo muestra un mensaje que indica que el archivo está bloqueado.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_ug_files_ms_lock_message.jpg)
+      ![Un diálogo muestra un mensaje que indica que el archivo está bloqueado.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_ug_files_ms_lock_message.jpg)
 4. Para abrir y editar un archivo de Microsoft Office:
 
    1. Seleccione el archivo.
@@ -3554,7 +3423,7 @@ Después de añadir un archivo, hay dos métodos para cargar una nueva versión 
 
 ### Enlaces de URL externos
 
-`Guía del usuario › Trabajar con archivos y enlaces` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=links-external-url)
+`Guía del usuario › Trabajar con archivos y enlaces` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=links-external-url)
 
 Un enlace externo es un URL que abre una ventana de navegador y muestra el contenido de ese destino. Tanto si añade un enlace externo autónomo como si adjunta un enlace externo directamente a un objeto, se almacena una copia de ese enlace externo en el repositorio de archivos.
 
@@ -3562,13 +3431,13 @@ Puede añadir un enlace externo a un objeto.
 
 #### Creación de enlaces de URL en objetos
 
-`Guía del usuario › Trabajar con archivos y enlaces › Enlaces de URL externos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=links-creating-url-objects)
+`Guía del usuario › Trabajar con archivos y enlaces › Enlaces de URL externos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=links-creating-url-objects)
 
 Un enlace externo es un URL que abre una ventana de navegador y muestra el contenido de ese destino. Una copia del enlace externo se almacena en el repositorio de archivos de IBM OpenPages® .
 
 ##### Procedimiento
 
-1. Haz clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Anexos** > **Enlaces**.
+1. Haz clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Anexos** > **Enlaces**.
 2. Pulse **Nuevo**.
 3. Especifique un **Nombre**.
 4. Especifique una **Descripción**.
@@ -3578,7 +3447,7 @@ Un enlace externo es un URL que abre una ventana de navegador y muestra el conte
 
 ## Trabajar con informes
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-working-reports)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-working-reports)
 
 IBM OpenPages® viene con una variedad de informes informativos y de excepción predefinidos, como informes de panel de control de resumen gráfico, informes de tareas específicos que se asignan a los usuarios, informes de supervisión de problemas e informes de gestión. Algunos informes también se pueden enlazar a subinformes, que contienen información más detallada en un área en particular. Los informes se pueden generar a petición en cualquier momento.
 
@@ -3597,7 +3466,7 @@ Puede acceder a una lista de informes disponibles añadiendo un panel **Informes
 
 ### Acerca de los informes
 
-`Guía del usuario › Trabajar con informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-about)
+`Guía del usuario › Trabajar con informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-about)
 
 Este tema proporciona enlaces a información sobre los informes.
 
@@ -3608,7 +3477,7 @@ Este tema proporciona enlaces a información sobre los informes.
 
 ### Generar y visualizar informes
 
-`Guía del usuario › Trabajar con informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-generating-viewing)
+`Guía del usuario › Trabajar con informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-generating-viewing)
 
 Puede abrir un informe desde el elemento de menú **Analítica** o desde un panel o pestaña de su cuadro de mandos.
 
@@ -3616,7 +3485,7 @@ Puede abrir un informe desde el elemento de menú **Analítica** o desde un pane
 
 Puede acceder a una lista de informes disponibles añadiendo un panel **Informes** al panel de control. También puede añadir un informe a su cuadro de mandos creando una **pestaña Informe**. Para obtener más información, consulte [Añadir un panel Informes](#adición-de-un-panel-de-informes) y [Añadir un informe o una ficha personalizada](#añadir-un-informe-o-una-ficha-personalizada).
 
-En función de la configuración, **Análisis** puede mostrarse como el primer elemento de menú en el menú principal. Haga clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Analítica** para abrir IBM® Cognos Analytics, donde podrá trabajar con los informes.
+En función de la configuración, **Análisis** puede mostrarse como el primer elemento de menú en el menú principal. Haga clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Analítica** para abrir IBM® Cognos Analytics, donde podrá trabajar con los informes.
 
 #### Procedimiento
 
@@ -3626,7 +3495,7 @@ En función de la configuración, **Análisis** puede mostrarse como el primer e
 
 ### Enviar un informe por correo electrónico
 
-`Guía del usuario › Trabajar con informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-emailing-report)
+`Guía del usuario › Trabajar con informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-emailing-report)
 
 Si el sistema está configurado, puede generar un informe y enviarlo por correo electrónico.
 
@@ -3642,7 +3511,7 @@ Si el sistema está configurado, puede generar un informe y enviarlo por correo 
 
 ### Visualizar informes en un formato diferente
 
-`Guía del usuario › Trabajar con informes` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=reports-viewing-in-different-format)
+`Guía del usuario › Trabajar con informes` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=reports-viewing-in-different-format)
 
 Si el sistema está configurado para mostrar informes en diferentes formatos, puede generar un informe y, a continuación, visualizarlo o guardarlo en otro formato. El formato estándar es HTML.
 
@@ -3651,24 +3520,24 @@ Si el sistema está configurado para mostrar informes en diferentes formatos, pu
 1. Abra el informe.
 2. Si está viendo el informe en OpenPages®, pulse **Ver como** y seleccione un formato.
 
-   *Figura 1. Selección de un formato de informe en OpenPages![Se muestra el menú Ver como en OpenPages . Las opciones del menú son HTML, PDF, Excel y Datos de Excel.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_export_formats.png)*
+   *Figura 1. Selección de un formato de informe en OpenPages![Se muestra el menú Ver como en OpenPages . Las opciones del menú son HTML, PDF, Excel y Datos de Excel.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_export_formats.png)*
 
    O, si está viendo el informe en Cognos®, pulse **HTML** y seleccione un formato.
 
    > **Sugerencia:** Para descargar el informe como un archivo formateado de Microsoft Excel, utilice **Excel**. Para descargar el informe como un archivo sin formato, elija **Datos de Excel**.
 
-   *Figura 2. Selección de un formato de informe en Cognos![Se muestra el menú de formato de informe en Cognos . La opción HTML está seleccionada de forma predeterminada. Las otras opciones del menú son PDF, Excel y Excel Data, CSV y XML.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/cognos_export_formats.png)*
+   *Figura 2. Selección de un formato de informe en Cognos![Se muestra el menú de formato de informe en Cognos . La opción HTML está seleccionada de forma predeterminada. Las otras opciones del menú son PDF, Excel y Excel Data, CSV y XML.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/cognos_export_formats.png)*
 3. Siga las indicaciones de la pantalla.
 
 ## Cuestionarios
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-questionnaires)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-questionnaires)
 
 Utilice cuestionarios para evaluar el riesgo y el cumplimiento o para recopilar información para procesos específicos y riesgos de activos. IBM OpenPages® agiliza, estandariza y centraliza la recopilación de información de evaluación basada en cuestionarios.
 
 ### Resumen del cuestionario
 
-`Guía del usuario › Cuestionarios` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=questionnaires-questionnaire-overview)
+`Guía del usuario › Cuestionarios` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=questionnaires-questionnaire-overview)
 
 Obtenga información sobre la característica del cuestionario y, a continuación, configúrela para su organización.
 
@@ -3712,7 +3581,7 @@ Las plantillas de cuestionario, los recursos y los programas deben estar en el p
 
 #### Puntuación de la plantilla de cuestionario y métodos de puntuación
 
-`Guía del usuario › Cuestionarios › Resumen del cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=overview-questionnaire-template-scores-scoring-methods)
+`Guía del usuario › Cuestionarios › Resumen del cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=overview-questionnaire-template-scores-scoring-methods)
 
 El sistema calcula la puntuación de conformidad y la puntuación de riesgo cuando un encuestado completa una evaluación de cuestionario. Cómo se calculan estas puntuaciones depende del método de puntuación, promedio del riesgo ponderado o simple, que asigna a una plantilla de cuestionario.
 
@@ -3752,7 +3621,7 @@ Para obtener más información sobre las fórmulas que se utilizan en la puntuac
 
 #### Fórmulas de puntuación de la plantilla de cuestionario
 
-`Guía del usuario › Cuestionarios › Resumen del cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=overview-questionnaire-template-scoring-formulas)
+`Guía del usuario › Cuestionarios › Resumen del cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=overview-questionnaire-template-scoring-formulas)
 
 Cuando un encuestado está respondiendo a una evaluación de cuestionario, el sistema calcula y actualiza la puntuación de conformidad y la puntuación de riesgo cada vez que se guarda. El sistema también calcula la puntuación total y la puntuación máxima pero el encuestado no las puede visualizar. Para calcular dichos valores, el sistema utiliza fórmulas que consideran el método de puntuación del cuestionario y los valores que se proporcionan en la plantilla del cuestionario.
 
@@ -3831,7 +3700,7 @@ MSSS = SSW * 10
 
 ### Plantillas de cuestionario
 
-`Guía del usuario › Cuestionarios` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=questionnaires-questionnaire-templates)
+`Guía del usuario › Cuestionarios` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=questionnaires-questionnaire-templates)
 
 Las plantillas de cuestionario se utilizan en programas para iniciar evaluaciones de cuestionario. Contienen preguntas organizadas en secciones y subsecciones. Los encuestados responden a las preguntas de las evaluaciones de cuestionario.
 
@@ -3839,7 +3708,7 @@ Antes de utilizar plantillas de cuestionario, consulte [Visión general del cues
 
 #### Creación de un objeto de plantilla de cuestionario
 
-`Guía del usuario › Cuestionarios › Plantillas de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=templates-creating-questionnaire-template-object)
+`Guía del usuario › Cuestionarios › Plantillas de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=templates-creating-questionnaire-template-object)
 
 Las plantillas de cuestionario contienen las preguntas que responden los encuestados cuando completan una evaluación de cuestionario.
 
@@ -3887,7 +3756,7 @@ Ahora puede editar la nueva plantilla. Para más información, véase [Editar un
 
 #### Edición de una plantilla de cuestionario
 
-`Guía del usuario › Cuestionarios › Plantillas de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=templates-editing-questionnaire-template)
+`Guía del usuario › Cuestionarios › Plantillas de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=templates-editing-questionnaire-template)
 
 Después de crear una plantilla de cuestionario, puede editarla para añadir secciones, subsecciones y preguntas.
 
@@ -3939,7 +3808,7 @@ El paso siguiente es iniciar la plantilla de cuestionario con un programa. Para 
 
 #### Añadido de secciones y subsecciones a una plantilla de cuestionario
 
-`Guía del usuario › Cuestionarios › Plantillas de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=templates-adding-sections-subsections-questionnaire-template)
+`Guía del usuario › Cuestionarios › Plantillas de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=templates-adding-sections-subsections-questionnaire-template)
 
 Las secciones y subsecciones proporcionan la estructura a una plantilla de cuestionario.
 
@@ -3991,7 +3860,7 @@ El siguiente paso es añadir preguntas a las subsecciones. Para obtener más inf
 
 #### Añadido de preguntas a una plantilla de cuestionario
 
-`Guía del usuario › Cuestionarios › Plantillas de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=templates-adding-questions-questionnaire-template)
+`Guía del usuario › Cuestionarios › Plantillas de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=templates-adding-questions-questionnaire-template)
 
 Las preguntas especifican la información que desea que proporcionen los encuestados.
 
@@ -4071,12 +3940,15 @@ Para empezar a editar una plantilla de cuestionario, debe estar en la pestaña *
 
 Continúe realizando cambios hasta que finalice la plantilla de cuestionario.
 
+- Para reordenar las respuestas de una pregunta, puede utilizar el ratón para arrastrar las respuestas dentro de la lista a las posiciones que prefiera.
+
+  También puede pulsar la tecla Tab para mover el cursor hasta la respuesta, pulsar la barra espaciadora para seleccionarla y pulsar las flechas arriba y abajo para cambiar la posición de la respuesta. Cuando la respuesta esté en la posición que desea, pulse la barra espaciadora.
 - Para editar una pregunta, pulse la pregunta e introduzca los cambios.
 - Para duplicar una pregunta, pulse el icono de menú en la pregunta que desea duplicar y pulse **Duplicado**.
 - Para suprimir una pregunta, pulse el icono de menú en la pregunta y pulse **Suprimir**.
 
   Si suprime una pregunta de control, se elimina la lógica de las preguntas dependientes.
-- Para eliminar una dependencia de una pregunta de control o un valor de campo, consulte [Eliminar dependencias de preguntas](#supresión-de-dependencias-de-pregunta).
+- Para eliminar una dependencia de una pregunta de control o un valor de campo, consulte [Eliminación de dependencias de preguntas](#supresión-de-dependencias-de-pregunta).
 - Para mover preguntas, subsecciones y secciones, pulse **Mover y reordenar elementos** en el panel de navegación, arrastre el elemento que desea mover a su nueva ubicación y pulse **Guardar**. Las preguntas de control y las preguntas que dependen de ellas deben existir en la misma subsección. Cuando intenta mover una pregunta dependiente o de control a otra sección o subsección, aparece un icono de signo de exclamación amarillo con cada nombre de elemento en la relación dependiente. El icono del signo de exclamación indica que la dependencia se elimina si hace clic en **Guardar**.
 
 Revise las preguntas:
@@ -4086,11 +3958,11 @@ Revise las preguntas:
 - Verifique que los comentarios y archivos adjuntos están marcados correctamente como obligatorios.
 - Compruebe si hay preguntas duplicadas.
 - Si **Ponderación y puntuación** está habilitado en los **valores de Formato**, compruebe que las ponderaciones de preguntas y la puntuación de respuesta sean correctas y coherentes.
-- Revisar dependencias. Para obtener más información, consulte [Creación de relaciones de preguntas](#creación-de-dependencias-de-preguntas).
+- Revisar dependencias. Para obtener más información, consulte [Creación de dependencias de preguntas](#creación-de-dependencias-de-preguntas).
 
 ##### Creación de dependencias de preguntas
 
-`Guía del usuario › Cuestionarios › Plantillas de cuestionario › Añadido de preguntas a una plantilla de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=template-creating-question-dependencies)
+`Guía del usuario › Cuestionarios › Plantillas de cuestionario › Añadido de preguntas a una plantilla de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=template-creating-question-dependencies)
 
 Una pregunta dependiente se oculta o se muestra en una evaluación basada en una o más condiciones. Una condición puede basarse en la respuesta del encuestado a otra pregunta, denominada pregunta de control, o en el valor de campo para un tipo de objeto especificado.
 
@@ -4150,11 +4022,11 @@ Si define varias condiciones, se deben cumplir todas las condiciones para que se
    - `1 not (2 or 3)`
 7. Pulse **Guardar**.
 
-   Cuando la pregunta tiene una condición que se basa en una o más preguntas de control, se muestra el icono de pregunta dependiente ![Icono de pregunta dependiente](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/dependent_question_icon.svg) para esa pregunta. Cuando el ratón pasa por encima del icono de pregunta dependiente, se visualiza un mensaje que identifica todas las preguntas de control.
+   Cuando la pregunta tiene una condición que se basa en una o más preguntas de control, se muestra el icono de pregunta dependiente ![Icono de pregunta dependiente](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/dependent_question_icon.svg) para esa pregunta. Cuando el ratón pasa por encima del icono de pregunta dependiente, se visualiza un mensaje que identifica todas las preguntas de control.
 
 ##### Supresión de dependencias de pregunta
 
-`Guía del usuario › Cuestionarios › Plantillas de cuestionario › Añadido de preguntas a una plantilla de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=template-deleting-question-dependencies)
+`Guía del usuario › Cuestionarios › Plantillas de cuestionario › Añadido de preguntas a una plantilla de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=template-deleting-question-dependencies)
 
 Puede eliminar dependencias entre una pregunta dependiente y una pregunta de control o un valor de campo.
 
@@ -4166,15 +4038,15 @@ Elimine las dependencias suprimiendo las condiciones de la pregunta dependiente.
 
 1. Expanda la sección **Mostrar lógica** .
 2. Pulse **Generador de condiciones**.
-3. Pulse ![icono de signo menos](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/minus_icon.png) para cada condición que se base en una pregunta de control o un valor de campo.
+3. Pulse ![icono de signo menos](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/minus_icon.png) para cada condición que se base en una pregunta de control o un valor de campo.
 4. Si **Lógica avanzada** se establece en **Activado**, asegúrese de modificar la expresión para eliminar las condiciones suprimidas o establezca **Lógica avanzada** en **Desactivado**.
 5. Pulse **Guardar**.
 
-   Después de guardar los cambios en la pregunta, si la pregunta dependía de una o más preguntas de control y eliminaba todas esas dependencias de la pregunta, el icono de pregunta dependiente ![Icono de pregunta dependiente](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/dependent_question_icon.svg) ya no se visualiza.
+   Después de guardar los cambios en la pregunta, si la pregunta dependía de una o más preguntas de control y eliminaba todas esas dependencias de la pregunta, el icono de pregunta dependiente ![Icono de pregunta dependiente](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/dependent_question_icon.svg) ya no se visualiza.
 
 ##### Asociar respuestas a un campo
 
-`Guía del usuario › Cuestionarios › Plantillas de cuestionario › Añadido de preguntas a una plantilla de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=template-associating-answers-field)
+`Guía del usuario › Cuestionarios › Plantillas de cuestionario › Añadido de preguntas a una plantilla de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=template-associating-answers-field)
 
 Para rellenar las respuestas a una pregunta con los valores de un campo, asocie las respuestas a un campo que contenga los valores que desea.
 
@@ -4199,7 +4071,7 @@ Puede definir una de las siguientes asociaciones:
 4. Opcional: Establezca una puntuación para cada respuesta.
 5. Pulse fuera de la pregunta para guardar los cambios.
 
-   Para mostrar que la pregunta tiene respuestas asociadas a un campo, se muestra el icono de respuestas asociadas ' ![Icono de respuestas asociadas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/answer_associated_to_field.png). Cuando el ratón pasa por encima del icono, aparece un mensaje que identifica el campo asociado y el tipo de objeto.
+   Para mostrar que la pregunta tiene respuestas asociadas a un campo, se muestra el icono de respuestas asociadas ' ![Icono de respuestas asociadas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/answer_associated_to_field.png). Cuando el ratón pasa por encima del icono, aparece un mensaje que identifica el campo asociado y el tipo de objeto.
 
 ###### Qué hacer a continuación
 
@@ -4207,7 +4079,7 @@ Para rellenar las respuestas de la evaluación del cuestionario, añada la opera
 
 #### Establecer los valores de campo de un objeto basándose en las respuestas de un encuestado
 
-`Guía del usuario › Cuestionarios › Plantillas de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=templates-setting-objects-field-values-based-respondents-answers)
+`Guía del usuario › Cuestionarios › Plantillas de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=templates-setting-objects-field-values-based-respondents-answers)
 
 Cree una acción de respuesta que establezca los valores de campo de un objeto basándose en las respuestas proporcionadas por un encuestado.
 
@@ -4280,7 +4152,7 @@ Una acción de respuesta es un conjunto de operaciones que se definen para una p
 
         Si está creando un nuevo objeto, o copiando un objeto existente, y está utilizando una expresión para el valor de un campo, `self` se refiere al padre de la evaluación del cuestionario.
 
-        Para obtener más información sobre el uso de expresiones, consulte [Reglas sintácticas para expresiones](3.3-guia-del-administrador.md#reglas-de-sintaxis-para-expresiones) y [Uso de variables, funciones y campos](3.3-guia-del-administrador.md#uso-de-variables-funciones-y-campos).
+        Para obtener más información sobre el uso de expresiones, consulte [Reglas sintácticas para expresiones](3.2-guia-del-administrador.md#reglas-de-sintaxis-para-expresiones) y [Uso de variables, funciones y campos](3.3-guia-del-administrador.md#uso-de-variables-funciones-y-campos).
       - Si ha seleccionado **Establecer campo con respuesta** como tipo de operación, seleccione la pregunta que tiene la respuesta que desea utilizar para establecer el campo.
       - Si ha seleccionado **Añadir nuevos valores al campo** como tipo de operación, seleccione los valores que desea añadir al campo de serie enumerada.
    5. Opcional: Si desea aplicar otra operación, pulse **Nueva operación** y repita los pasos para definir la operación.
@@ -4292,7 +4164,7 @@ Para ejecutar la acción de respuesta, añada una operación en una acción en e
 
 #### Creación de un objeto basado en las respuestas de un encuestado
 
-`Guía del usuario › Cuestionarios › Plantillas de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=templates-creating-object-based-respondents-answers)
+`Guía del usuario › Cuestionarios › Plantillas de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=templates-creating-object-based-respondents-answers)
 
 Crea una acción de respuesta que cree un objeto. El nuevo objeto, hijo del padre de la evaluación del cuestionario, se crea a partir de las respuestas que proporciona un encuestado.
 
@@ -4343,6 +4215,8 @@ Una acción de respuesta es un conjunto de operaciones que se definen para una p
       - `1 not (2 or 3)`
 6. En la sección **Operaciones** , seleccione **Crear objeto**.
 7. En **Tipo de objeto hijo**, seleccione el tipo de objeto que desea crear.
+
+   > **Nota:** La lista incluye todos los tipos de objetos secundarios relacionados con todas las asociaciones posibles de la Evaluación del cuestionario. Cuando se ejecuta una acción de respuesta, si el objeto secundario seleccionado no tiene relación con el objeto vinculado a la evaluación, se omitirá la acción de respuesta.
 8. **Nuevo nombre del objeto** is disabled if the object is auto-named. Si la opción **Nuevo nombre de objeto** no está desactivada, introduzca el nombre del objeto que desea crear
 9. El hecho de introducir un **Nombre de objeto nuevo** depende de si el tipo de objeto tiene nombre automático y de si el administrador ha habilitado la edición. Su administrador establece **Aplicaciones** > **GRCM** > **Asignación automática de nombres** > **`<tipo_objeto>`** > **Se puede editar** en **verdadero** o **falso** para determinar si se puede editar el nombre generado para un tipo de objeto.
 
@@ -4380,10 +4254,12 @@ Una acción de respuesta es un conjunto de operaciones que se definen para una p
 
          Si está creando un nuevo objeto, o copiando un objeto existente, y está utilizando una expresión para el valor de un campo, `self` se refiere al padre de la evaluación del cuestionario.
 
-         Para obtener más información sobre el uso de expresiones, consulte [Reglas sintácticas para expresiones](3.3-guia-del-administrador.md#reglas-de-sintaxis-para-expresiones) y [Uso de variables, funciones y campos](3.3-guia-del-administrador.md#uso-de-variables-funciones-y-campos).
+         Para obtener más información sobre el uso de expresiones, consulte [Reglas sintácticas para expresiones](3.2-guia-del-administrador.md#reglas-de-sintaxis-para-expresiones) y [Uso de variables, funciones y campos](3.3-guia-del-administrador.md#uso-de-variables-funciones-y-campos).
        - Si ha seleccionado **Establecer campo con respuesta** como tipo de operación, seleccione la pregunta que tiene la respuesta que desea utilizar para establecer el campo.
        - Si ha seleccionado **Añadir nuevos valores al campo** como tipo de operación, seleccione los valores que desea añadir al campo de serie enumerada.
     5. Opcional: Si desea establecer otro valor de campo, pulse **Establecer valor de campo** y repita los pasos para especificar un valor de campo.
+
+    > **Nota:** Las acciones de respuesta son totalmente independientes de las Vistas. Usted es responsable de que se especifiquen todos los campos obligatorios.
 13. Revise la acción de respuesta y edítela según sea necesario. Cuando termine de revisar, pulse **Guardar**.
 
 ##### Qué hacer a continuación
@@ -4392,7 +4268,7 @@ Para ejecutar la acción de respuesta, añada una operación en una acción en e
 
 #### Copia de un objeto basado en las respuestas de un encuestado
 
-`Guía del usuario › Cuestionarios › Plantillas de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=templates-copying-object-based-respondents-answers)
+`Guía del usuario › Cuestionarios › Plantillas de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=templates-copying-object-based-respondents-answers)
 
 Crea una acción de respuesta que copie un objeto existente. El nuevo objeto, hijo del padre de la evaluación del cuestionario, se crea a partir de las respuestas que proporciona un encuestado.
 
@@ -4471,19 +4347,51 @@ Una acción de respuesta es un conjunto de operaciones que se definen para una p
 
          Si está creando un nuevo objeto, o copiando un objeto existente, y está utilizando una expresión para el valor de un campo, `self` se refiere al padre de la evaluación del cuestionario.
 
-         Para obtener más información sobre el uso de expresiones, consulte [Reglas sintácticas para expresiones](3.3-guia-del-administrador.md#reglas-de-sintaxis-para-expresiones) y [Uso de variables, funciones y campos](3.3-guia-del-administrador.md#uso-de-variables-funciones-y-campos).
+         Para obtener más información sobre el uso de expresiones, consulte [Reglas sintácticas para expresiones](3.2-guia-del-administrador.md#reglas-de-sintaxis-para-expresiones) y [Uso de variables, funciones y campos](3.3-guia-del-administrador.md#uso-de-variables-funciones-y-campos).
        - Si ha seleccionado **Establecer campo con respuesta** como tipo de operación, seleccione la pregunta que tiene la respuesta que desea utilizar para establecer el campo.
        - Si ha seleccionado **Añadir nuevos valores al campo** como tipo de operación, seleccione los valores que desea añadir al campo de serie enumerada.
     4. Opcional: Si desea establecer otro valor de campo, pulse **Establecer valor de campo** y repita los pasos para especificar un valor de campo.
-13. Revise la acción de respuesta y edítela según sea necesario. Cuando termine de revisar, pulse **Guardar**.
+13. Opcional: Para copiar un objeto hijo relacionado con el objeto copiado anteriormente, haga lo siguiente:
+
+    1. Haga clic en **Copiar hijo relacionado**.
+    2. Opcional: Si desea establecer los valores de los campos para el nuevo objeto, pulse **Establecer valor de campo** para cada campo que desee establecer.
+
+       De lo contrario, omita el paso siguiente.
+    3. Siga las instrucciones del paso 12.
+    4. Si desea añadir más hijos relacionados, repita los pasos a-c.
+
+       > **Nota:** Sólo se admite una capa adicional de objetos hijos relacionados a partir del objeto copiado inicialmente (es decir, no se pueden anidar copias hijo-relacionado de hijo-relacionado).
+14. Revise la acción de respuesta y edítela según sea necesario. Cuando termine de revisar, pulse **Guardar**.
 
 ##### Qué hacer a continuación
 
 Para ejecutar la acción de respuesta, añada una operación en una acción en el flujo de trabajo de evaluación de cuestionario. Para obtener más información, consulte [Ejecución de una acción basada en respuestas en una evaluación de cuestionario](3.3-guia-del-administrador.md#ejecución-de-una-acción-basada-en-respuestas-en-una-evaluación-de-cuestionario).
 
+##### Copia de objetos hijos relacionados
+
+`Guía del usuario › Cuestionarios › Plantillas de cuestionario › Copia de un objeto basado en las respuestas de un encuestado` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=answers-copying-related-child-objects)
+
+**Se aplica a:** 9.1.2 y posteriores
+
+Puede copiar uno o varios objetos secundarios relacionados con el objeto secundario que copió anteriormente.
+
+Los objetos hijos relacionados se añaden utilizando el botón **Copiar hijo relacionado**. Puede utilizar este botón para añadir varios objetos hijos relacionados al objeto de nivel superior, el que copió anteriormente. Al hacer clic en el botón se añade un mosaico anidado con opciones similares a las del mosaico del objeto de nivel superior, excepto que los mosaicos anidados no tienen un botón para copiar un hijo relacionado. Esto se debe a que la copia de hijos relacionados sólo está disponible para el objeto de nivel superior. Para obtener una guía paso a paso sobre cómo copiar objetos secundarios relacionados, siga los pasos 7-12 del tema [Copiar un objeto basado en las respuestas de un encuestado](#copia-de-un-objeto-basado-en-las-respuestas-de-un-encuestado).
+
+Tenga en cuenta que en cualquier mosaico hijo relacionado, cuando haga clic en **Seleccionar objeto** bajo la columna **Objeto a copiar**, la lista sólo mostrará instancias del tipo de objeto que sean hijos de la instancia del objeto de nivel superior que seleccionó en el primer mosaico.
+
+Veamos un ejemplo: en la ficha para copiar un objeto en el nivel superior, se selecciona el tipo de objeto **`Asset`**. A continuación, en la lista de objetos de los que copiar, seleccione el **`ACCOUNT_HOLDERS`** objeto.
+
+![Copiar hijo relacionado durante la copia de objeto en la acción de respuesta](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/response_action_copying_related_child.png)
+
+Al abrir un mosaico para copiar un objeto secundario relacionado, el campo **Tipo de objeto secundario** sólo mostrará los tipos de objeto secundarios del tipo de objeto **`Asset`** tipo de objeto. Si seleccionara el **`Incident`** tipo de objeto como tipo de objeto de nivel superior, el campo mostraría en su lugar los tipos de objeto hijos del **`Incident`** del tipo de objeto.
+
+Ahora, en la ficha para copiar un hijo relacionado, se selecciona el tipo de objeto **`Employee`** (que es uno de los tipos de objeto hijo del tipo de objeto **`Asset`** tipo de objeto, como se mencionó anteriormente).
+
+Del mismo modo, cuando abra la lista de objetos desde los que copiar, el sistema sólo mostrará **`Employee`** objetos que son hijos del **`ACCOUNT_HOLDERS`** objeto seleccionado en el nivel superior.
+
 #### Adición de variables de objeto a una plantilla de cuestionario
 
-`Guía del usuario › Cuestionarios › Plantillas de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=templates-adding-object-variables-questionnaire-template)
+`Guía del usuario › Cuestionarios › Plantillas de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=templates-adding-object-variables-questionnaire-template)
 
 Las variables de objeto en una plantilla de cuestionario se representan en valoraciones de cuestionario como valores de los objetos asociados con la evaluación de cuestionario que responde el encuestado. Puede utilizar variables de objeto en una plantilla de cuestionario.
 
@@ -4522,7 +4430,7 @@ Puede crear un programa de prueba e iniciar una evaluación de cuestionario para
 
 Puede utilizar la característica de asistencia de contenido para elegir entre una lista de variables de objeto. En el cuadro de texto, escriba **/?** para mostrar todas las variables disponibles o escriba **${** seguido del nombre de la variable para filtrar las opciones.
 
-![Una descripción de sección que muestra la lista de variables de objeto disponibles](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/questionnaire_vars_list.png)
+![Una descripción de sección que muestra la lista de variables de objeto disponibles](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/questionnaire_vars_list.png)
 
 ##### Lista de variables de objeto
 
@@ -4547,7 +4455,7 @@ Consulte la tabla siguiente para obtener una lista de variables. Las variables n
 
 #### Adición de enlaces a una plantilla de cuestionario
 
-`Guía del usuario › Cuestionarios › Plantillas de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=templates-adding-links-questionnaire-template)
+`Guía del usuario › Cuestionarios › Plantillas de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=templates-adding-links-questionnaire-template)
 
 Los enlaces de una plantilla de cuestionario se muestran en las evaluaciones de cuestionario como hipervínculos en los que un encuestado puede hacer clic para acceder a una URL, un objeto de OpenPages®, por ejemplo, el activo subyacente en el que se basa una evaluación de cuestionario, o un informe de IBM® Cognos® Analytics. Puede utilizar enlaces en una plantilla de cuestionario.
 
@@ -4567,14 +4475,16 @@ Por ejemplo, el siguiente texto en la descripción de una sección incluye un en
 
 ```
 This questionnaire is related to the asset: ${asset.link}.
-For more information about assets, see [Assets](https://www.ibm.com/docs/en/opw/9.0.0?topic=links-resources).
+For more information about assets, see [Assets](https://www.ibm.com/docs/en/opw/9.1.0?topic=links-resources).
 ```
 
 Se muestra como una evaluación de cuestionario de la siguiente manera:
 
-**Este cuestionario está relacionado con el activo: AssetA. Para obtener más información sobre assetts, consulte Activos.**
+```
+This questionnaire is related to the asset: AssetA. For more information about assets, see Assets.
+```
 
-**AssetA** es un enlace a la vista de tarea del activo subyacente y **Activos** es un enlace al tema de ayuda IBM Documentation sobre objetos de activo.
+**AssetA** es un enlace a la vista de tareas del activo subyacente y **Activos** es un enlace al tema de ayuda de la documentación de IBM sobre los objetos Activos.
 
 Puede crear un programa de prueba e iniciar una evaluación de cuestionario para asegurarse de que los enlaces se insertan correctamente.
 
@@ -4582,7 +4492,7 @@ También puede añadir variables de objetos a las plantillas de cuestionario. Pa
 
 ##### Enlaces fijos en las plantillas de cuestionario
 
-`Guía del usuario › Cuestionarios › Plantillas de cuestionario › Adición de enlaces a una plantilla de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=template-fixed-links-in-questionnaire-templates)
+`Guía del usuario › Cuestionarios › Plantillas de cuestionario › Adición de enlaces a una plantilla de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=template-fixed-links-in-questionnaire-templates)
 
 Los enlaces fijos se representan como hiperenlaces en plantillas de cuestionario y evaluaciones. Cuando un encuestado hace clic en el hipervínculo, la URL se abre en una nueva pestaña o ventana.
 
@@ -4595,18 +4505,18 @@ Los enlaces fijos se representan como hiperenlaces en plantillas de cuestionario
 - **Ejemplo**
 
   ```
-  [Controls](https://www.ibm.com/docs/en/opw/9.0.0?topic=objects-controls)
+  [Controls](https://www.ibm.com/docs/en/opw/9.1.0?topic=objects-controls)
   ```
 
-  Se representa como un hiperenlace con el texto de enlace **Controles** y abre IBM Documentation en el tema de ayuda sobre Controles.
+  Se renderiza como un hipervínculo con el texto de enlace **Controles** y abre IBM Documentation al tema de ayuda sobre Controles.
 
 - **Reglas**
 
-  El protocolo puede ser http, https o ftp. No use únicamente www.
+  El protocolo puede ser `http`, `https`, o `ftp`. No utilice únicamente `www`.
 
 ##### Enlaces dinámicos en plantillas de cuestionario
 
-`Guía del usuario › Cuestionarios › Plantillas de cuestionario › Adición de enlaces a una plantilla de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=template-dynamic-links-in-questionnaire-templates)
+`Guía del usuario › Cuestionarios › Plantillas de cuestionario › Adición de enlaces a una plantilla de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=template-dynamic-links-in-questionnaire-templates)
 
 Un enlace dinámico se representa en una evaluación de cuestionario como un enlace a un objeto asociado con la evaluación de cuestionario a la que responde un encuestado.
 
@@ -4643,14 +4553,14 @@ Un enlace dinámico contiene una variable que inserta un enlace a los objetos si
 
 | Variable de enlace | Descripción |
 | --- | --- |
-| ${asset.link} | Inserta un enlace al activo subyacente. El nombre de activo se visualiza como texto de enlace. |
-| ${program.link} | Inserta un enlace al programa. El nombre del programa se visualiza como el texto del enlace. |
-| ${questionnaireassessment.link} | Inserta un enlace a la evaluación de cuestionario. El nombre de evaluación de cuestionario se muestra como texto de enlace. |
-| ${questionnairetemplate.link} | Inserta un enlace a la plantilla de cuestionario. El nombre de plantilla de cuestionario se visualiza como texto de enlace. |
+| `${asset.link}` | Inserta un enlace al activo subyacente. El nombre de activo se visualiza como texto de enlace. |
+| `${program.link}` | Inserta un enlace al programa. El nombre del programa se visualiza como el texto del enlace. |
+| `${questionnaireassessment.link}` | Inserta un enlace a la evaluación de cuestionario. El nombre de evaluación de cuestionario se muestra como texto de enlace. |
+| `${questionnairetemplate.link}` | Inserta un enlace a la plantilla de cuestionario. El nombre de plantilla de cuestionario se visualiza como texto de enlace. |
 
 ##### Enlaces a informes de IBM Cognos Analytics en plantillas de cuestionario
 
-`Guía del usuario › Cuestionarios › Plantillas de cuestionario › Adición de enlaces a una plantilla de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=template-links-cognos-analytics-reports-in-questionnaire-templates)
+`Guía del usuario › Cuestionarios › Plantillas de cuestionario › Adición de enlaces a una plantilla de cuestionario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=template-links-cognos-analytics-reports-in-questionnaire-templates)
 
 Un enlace a un informe de Cognos® se representa como un hiperenlace en una evaluación de cuestionario. Cuando un encuestado pulsa el hiperenlace, el informe de Cognos se abre en una nueva pestaña o ventana. Opcionalmente, los parámetros se pueden pasar de la evaluación de cuestionario al informe.
 
@@ -4680,7 +4590,7 @@ Un enlace a un informe de Cognos® se representa como un hiperenlace en una eval
 
   Tanto `folderName` (nombre de carpeta) y `reportName` (nombre de informe) son obligatorios.
 
-  Si no conoce `folderName` y `reportName`, puede buscar los valores. Haga clic en **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/settings_menu_icon_task_focused_ui.jpg)** > **Configuración del sistema** > **Páginas y plantillas** y seleccione el informe. La **Carpeta de informes** muestra `folderName/reportName`
+  Si no conoce `folderName` y `reportName`, puede buscar los valores. Haga clic en **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/settings_menu_icon_task_focused_ui.jpg)** > **Configuración del sistema** > **Páginas y plantillas** y seleccione el informe. La **Carpeta de informes** muestra `folderName/reportName`
 
   Si pasa parámetros de la evaluación de cuestionario al informe, los nombres de parámetro los determina el informe de Cognos . Los parámetros pueden contener parámetros de valor fijo, por ejemplo, el tipo de informe o el tipo de programa. Los parámetros también pueden ser variables que pasan la información siguiente:
 
@@ -4695,7 +4605,7 @@ Un enlace a un informe de Cognos® se representa como un hiperenlace en una eval
 
 ### evaluaciones de cuestionarios
 
-`Guía del usuario › Cuestionarios` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=questionnaires-questionnaire-assessments)
+`Guía del usuario › Cuestionarios` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=questionnaires-questionnaire-assessments)
 
 Las evaluaciones de cuestionario son medios de recopilar información de los usuarios empresariales de la organización. Los encuestados completan las preguntas y envían la evaluación de cuestionario finalizada.
 
@@ -4705,7 +4615,7 @@ Las evaluaciones de cuestionario se crean cuando se inicia un programa. Para obt
 
 #### Completar una evaluación de cuestionario
 
-`Guía del usuario › Cuestionarios › evaluaciones de cuestionarios` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=assessments-completing-questionnaire-assessment)
+`Guía del usuario › Cuestionarios › evaluaciones de cuestionarios` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=assessments-completing-questionnaire-assessment)
 
 Como encuestado, puede completar una evaluación de cuestionario que el equipo de riesgo empresarial le ha enviado.
 
@@ -4776,9 +4686,9 @@ Cualquiera que pueda acceder a la evaluación de cuestionario también puede tra
 
    Los comentarios no pueden suprimirse.
 
-   Para editar un comentario que haya creado, haga clic en **Editar** ![Icono Editar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_edit_icon.jpg). Los comentarios generados que indican que una respuesta se ha copiado de otra evaluación de cuestionario no se pueden editar.
+   Para editar un comentario que haya creado, haga clic en **Editar** ![Icono Editar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_edit_icon.jpg). Los comentarios generados que indican que una respuesta se ha copiado de otra evaluación de cuestionario no se pueden editar.
 
-   Para eliminar un comentario que haya creado, haga clic en **Eliminar** ![Icono Suprimir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/trash_icon.png). Los siguientes tipos de comentarios no se pueden suprimir:
+   Para eliminar un comentario que haya creado, haga clic en **Eliminar** ![Icono Suprimir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/trash_icon.png). Los siguientes tipos de comentarios no se pueden suprimir:
 
    - Comentarios generados que indican que se ha copiado una respuesta de otra evaluación de cuestionario
    - Comenta el revisor creado para explicar por qué se ha marcado una pregunta
@@ -4800,7 +4710,7 @@ Tras enviar una evaluación de preguntas, lo que sucede a continuación viene de
 
 #### Revisión de una evaluación de cuestionario
 
-`Guía del usuario › Cuestionarios › evaluaciones de cuestionarios` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=assessments-reviewing-questionnaire-assessment)
+`Guía del usuario › Cuestionarios › evaluaciones de cuestionarios` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=assessments-reviewing-questionnaire-assessment)
 
 Después de que un usuario complete una evaluación de cuestionario, puede revisarla si está en la etapa de flujo de trabajo de revisión.
 
@@ -4815,7 +4725,7 @@ De forma predeterminada, cuando una evaluación de cuestionario está en la etap
    - Abra el correo electrónico y pulse la URL. La página de destino para la evaluación de cuestionario se abre en el navegador web. Pulse **Abrir cuestionario**.
    - Si el correo electrónico no está configurado, pulse **Evaluaciones** > **Evaluaciones de cuestionario**. El sistema mostrará una lista de evaluaciones de cuestionario. Pulse la evaluación de cuestionario que desea revisar. Se muestra la pestaña **Cuestionario**.
 
-     Si desea empezar desde la página de destino de la evaluación de cuestionario, pulse ![Iniciar evaluación de cuestionario](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/questionnaire_landing_page_icon.png). La página de destino para la evaluación de cuestionario abre una nueva pestaña en el navegador web. Pulse **Abrir cuestionario**.
+     Si desea empezar desde la página de destino de la evaluación de cuestionario, pulse ![Iniciar evaluación de cuestionario](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/questionnaire_landing_page_icon.png). La página de destino para la evaluación de cuestionario abre una nueva pestaña en el navegador web. Pulse **Abrir cuestionario**.
 2. Revise las respuestas.
 
    De forma predeterminada, se muestran todas las preguntas. Para ver sólo las preguntas completadas, necesarias, marcadas o de puntuación baja, puede filtrarlas seleccionando una de las siguientes opciones en el menú desplegable del panel izquierdo: **Ver todas las preguntas**, **Ver preguntas completadas**, **Ver preguntas incompletas**, **Ver preguntas marcadas**, **Ver preguntas necesarias**o **Ver preguntas con puntuaciones bajas**.
@@ -4825,16 +4735,16 @@ De forma predeterminada, cuando una evaluación de cuestionario está en la etap
    Una pregunta de opción única o múltiple se considera una pregunta de puntuación baja si tiene una puntuación de 0, 1, 2, 3 o 4. Una pregunta con una puntuación de -1 no se tiene en cuenta para la puntuación.
 
    Sólo para preguntas de opción múltiple, la puntuación final de una pregunta es igual a la suma de las puntuaciones de todas las respuestas seleccionadas por el encuestado. Si alguna de las respuestas seleccionadas tiene una puntuación de -1, entonces la puntuación global de la pregunta se ignora independientemente de las puntuaciones de otras respuestas seleccionadas, y la pregunta no se considera de puntuación baja.
-3. Opcional: Si una respuesta requiere más información del encuestado, pulse el icono de distintivo ![Icono de distintivo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/answer_flag_icon.png), especifique la razón para marcar la respuesta y pulse **Distintivo**.
-4. Opcional: Si desea realizar un comentario sobre una respuesta, pulse el icono de comentario ![Icono de comentario](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/answer_comment_icon.png), especifique el comentario y pulse la flecha para enviar el comentario tal como se muestra en la imagen siguiente.
+3. Opcional: Si una respuesta requiere más información del encuestado, pulse el icono de distintivo ![Icono de distintivo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/answer_flag_icon.png), especifique la razón para marcar la respuesta y pulse **Distintivo**.
+4. Opcional: Si desea realizar un comentario sobre una respuesta, pulse el icono de comentario ![Icono de comentario](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/answer_comment_icon.png), especifique el comentario y pulse la flecha para enviar el comentario tal como se muestra en la imagen siguiente.
 
-   ![La imagen muestra una pregunta. Una barra de herramientas muestra iconos, incluido el icono Comentario. Cuando se pulsa el icono Comentario, se abre el recuadro de texto. La imagen muestra cómo puede escribir en el cuadro de texto y, a continuación, enviar el comentario.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/submitting_a_comment_icon.png)
+   ![La imagen muestra una pregunta. Una barra de herramientas muestra iconos, incluido el icono Comentario. Cuando se pulsa el icono Comentario, se abre el recuadro de texto. La imagen muestra cómo puede escribir en el cuadro de texto y, a continuación, enviar el comentario.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/submitting_a_comment_icon.png)
 
    La longitud máxima de un comentario es de 1000 caracteres.
 
-   Para editar un comentario que ha creado, pulse **Editar** ![Icono Editar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/tfui_edit_icon.jpg). Los comentarios generados que indican que una respuesta se ha copiado de otra evaluación de cuestionario no se pueden editar.
+   Para editar un comentario que ha creado, pulse **Editar** ![Icono Editar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/tfui_edit_icon.jpg). Los comentarios generados que indican que una respuesta se ha copiado de otra evaluación de cuestionario no se pueden editar.
 
-   Para suprimir un comentario que ha creado, pulse **Suprimir** ![Icono Suprimir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/trash_icon.png). Los siguientes tipos de comentarios no se pueden suprimir:
+   Para suprimir un comentario que ha creado, pulse **Suprimir** ![Icono Suprimir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/trash_icon.png). Los siguientes tipos de comentarios no se pueden suprimir:
 
    - Comentarios generados que indican que se ha copiado una respuesta de otra evaluación de cuestionario
    - Comenta el revisor creado para explicar por qué se ha marcado una pregunta
@@ -4846,19 +4756,21 @@ De forma predeterminada, cuando una evaluación de cuestionario está en la etap
 
      La evaluación de cuestionario regresará a la fase de recopilación de información. Se reenviará al encuestado. El encuestado recibe un correo electrónico e inicia la evaluación, responde a las preguntas marcadas y lo reenvía. Cuando regrese a usted, al recibir un correo electrónico, la volverá a abrir y seguirá el mismo proceso para revisarla. Puede aprobarla o volver a rechazarla. En la segunda y posteriores revisiones, puede incluir un comentario en las respuestas aceptadas que anteriormente había rechazado.
 
+     > **Nota** : Incluso después de aceptar una respuesta revisada, puede hacer clic en **Volver a marcar** para marcar la misma pregunta de nuevo.
+
 ##### Resultados
 
 Después de aprobar una evaluación de cuestionario, el tipo de flujo de trabajo determina lo que sucede a continuación.
 
 Si está asignada a un ciclo de vida de tres fases, el sistema la cierra. Tanto el encuestado como el revisor pueden verla, pero ninguno de ellos puede editarla.
 
-Si se asigna a un ciclo de vida de cuatro fases, un aprobador recibe un correo electrónico y lo revisa, siguiendo el mismo proceso que el revisor. El aprobador puede marcar o comentar respuestas y enviarle de nuevo la evaluación. Revise las respuestas y los comentarios marcados y vuelva a enviarla o rechazarla. Si la rechaza, vuelve al encuestado. Cuando el aprobador pulsa **Acción** > **Aprobar**, el sistema cierra la evaluación de cuestionario. En ese momento puede verla pero ya no editarla.
+Si se asigna a un ciclo de vida de cuatro fases, un aprobador recibe un correo electrónico y lo revisa, siguiendo el mismo proceso que el revisor. El aprobador puede marcar o comentar respuestas y enviarle de nuevo la evaluación. Revise las respuestas y los comentarios marcados y vuelva a enviarla o rechazarla. Si la rechaza, vuelve al encuestado. Cuando el aprobador hace clic en **Acción** > **Aprobar**, el sistema cierra la evaluación del cuestionario. En ese momento puede verla pero ya no editarla.
 
 Si el asignado sigue siendo el mismo, los correos electrónicos no se envían. De forma predeterminada, no se envían correos electrónicos cuando las evaluaciones están cerradas.
 
 #### Creación de una evaluación de cuestionario ad hoc
 
-`Guía del usuario › Cuestionarios › evaluaciones de cuestionarios` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=assessments-creating-ad-hoc-questionnaire-assessment)
+`Guía del usuario › Cuestionarios › evaluaciones de cuestionarios` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=assessments-creating-ad-hoc-questionnaire-assessment)
 
 Utilice una evaluación de cuestionario ad hoc para crear una única evaluación de cuestionario independiente de un programa.
 
@@ -4868,7 +4780,7 @@ La evaluación de cuestionario se puede asignar a otro usuario, no solo al usuar
 
 ##### Procedimiento
 
-1. Haga clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Activos** y seleccione el activo para el que desea crear una evaluación de cuestionario. Por ejemplo, haga clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Activos** > **Recursos** y haga clic en un recurso.
+1. Haga clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Activos** y seleccione el activo para el que desea crear una evaluación de cuestionario. Por ejemplo, haga clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Activos** > **Recursos** y haga clic en un recurso.
 2. En la pestaña **Tarea** , expanda la sección **Evaluación, problemas y vulnerabilidades** .
 3. Pulse **Nuevo**.
 
@@ -4888,7 +4800,7 @@ La evaluación de cuestionario se puede asignar a otro usuario, no solo al usuar
 
 ### Programas
 
-`Guía del usuario › Cuestionarios` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=questionnaires-programs)
+`Guía del usuario › Cuestionarios` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=questionnaires-programs)
 
 Utilice programas para definir e iniciar evaluaciones de cuestionario.
 
@@ -4912,7 +4824,7 @@ Puede utilizar la plantilla de cuestionario del programa anterior o guardarla co
 
 #### Creación y configuración de un programa
 
-`Guía del usuario › Cuestionarios › Programas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=programs-creating-configuring-program)
+`Guía del usuario › Cuestionarios › Programas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=programs-creating-configuring-program)
 
 Cree, configure e inicie un programa para crear evaluaciones de cuestionario.
 
@@ -4968,7 +4880,7 @@ Inicie el programa. Para obtener más información, consulte [Inicio de un progr
 
 #### Lanzamiento de un programa
 
-`Guía del usuario › Cuestionarios › Programas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=programs-launching-program)
+`Guía del usuario › Cuestionarios › Programas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=programs-launching-program)
 
 Es posible lanzar un programa para crear instancias de evaluación de cuestionario.
 
@@ -5015,7 +4927,7 @@ El sistema:
 
 ## Aplicación de firmas y bloqueos
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-applying-signatures-locks)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-applying-signatures-locks)
 
 Puede añadir una firma para iniciar la sesión en un objeto para indicar que el objeto cumple su aprobación. No tiene facultades de ejecución y no impide que el elemento se modifique después de la aprobación. Sin embargo, las modificaciones en el objeto se impiden si los valores del sistema se configuran para aplicar automáticamente un bloqueo en el objeto firmado. Se puede establecer otro valor del sistema para bloquear los hijos del objeto de un tipo de objeto determinado cuando el padre está bloqueado.
 
@@ -5037,7 +4949,7 @@ Para obtener más información sobre la revocación de firmas, consulte [Revocac
 
 Un bloqueo en un objeto se comporta de la misma manera si bloquea un objeto manualmente o si el bloqueo se aplica a un objeto como resultado de una firma añadida.
 
-Un icono de bloqueo cerrado ![Desbloquear recurso](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/icon-padlock.jpg) que aparece junto al nombre del objeto en una vista de cuadrícula o en la página del objeto indica un objeto bloqueado. Dado que se puede replicar un bloqueo en la jerarquía de objetos, un objeto puede heredar varios bloqueos. No se puede modificar un objeto con varios bloqueos hasta que se eliminen todos los bloqueos.
+Un icono de bloqueo cerrado ![Desbloquear recurso](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/icon-padlock.jpg) que aparece junto al nombre del objeto en una vista de cuadrícula o en la página del objeto indica un objeto bloqueado. Dado que se puede replicar un bloqueo en la jerarquía de objetos, un objeto puede heredar varios bloqueos. No se puede modificar un objeto con varios bloqueos hasta que se eliminen todos los bloqueos.
 
 Si el valor **Aplicaciones** > **GRCM** > **Objetos bloqueados** > **Bloquear tipos hijo** > **< tipo_objeto_padre>** se establece en un tipo de objeto hijo, cuando el padre está bloqueado, todos sus objetos hijo del tipo especificado están bloqueados.
 
@@ -5060,7 +4972,7 @@ Puede realizar las siguientes acciones en un objeto bloqueado:
 
 ### Añadir una firma
 
-`Guía del usuario › Aplicación de firmas y bloqueos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=locks-adding-signature)
+`Guía del usuario › Aplicación de firmas y bloqueos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=locks-adding-signature)
 
 Si el grupo de usuarios tiene permisos para añadir una firma para el tipo de objeto, puede añadir una firma para iniciar la sesión en un objeto.
 
@@ -5072,7 +4984,7 @@ Cuando un objeto padre tiene un bloqueo de firma aplicado, sólo se puede coloca
 
 #### Procedimiento
 
-1. Haz clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)**.
+1. Haz clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)**.
 2. Expanda las categorías para ver los tipos de objeto.
 3. Seleccione el tipo de objeto con el que desea trabajar.
 
@@ -5088,7 +5000,7 @@ Cuando un objeto padre tiene un bloqueo de firma aplicado, sólo se puede coloca
 
 ### Revocación de firmas
 
-`Guía del usuario › Aplicación de firmas y bloqueos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=locks-revoking-signatures)
+`Guía del usuario › Aplicación de firmas y bloqueos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=locks-revoking-signatures)
 
 Puede revocar una firma o iniciar la sesión en una firma que ha añadido manualmente. Con el flujo de trabajo predefinido, Revocación de firma, sólo puede revocar una firma que haya creado.
 
@@ -5100,7 +5012,7 @@ Todos losbloqueos de firma (incluidos los bloqueos heredados) se debeneliminar d
 
 #### Procedimiento
 
-1. Haga clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/settings_menu_icon_task_focused_ui.jpg)** > **Solución. Configuración** > **Flujos de trabajo** > **Revocar firma**.
+1. Haga clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/settings_menu_icon_task_focused_ui.jpg)** > **Solución. Configuración** > **Flujos de trabajo** > **Revocar firma**.
 2. Seleccione la acción entre las etapas **Inicio** y **Fin** .
 
    Se visualiza el panel **Propiedades de acción**.
@@ -5116,13 +5028,13 @@ Todos losbloqueos de firma (incluidos los bloqueos heredados) se debeneliminar d
 
 ### Visualización de firmas
 
-`Guía del usuario › Aplicación de firmas y bloqueos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=locks-viewing-signatures)
+`Guía del usuario › Aplicación de firmas y bloqueos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=locks-viewing-signatures)
 
 Puede ver una firma asociada con un objeto.
 
 #### Procedimiento
 
-1. Haz clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)**.
+1. Haz clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)**.
 2. Expanda las categorías para ver los tipos de objeto.
 3. Seleccione el tipo de objeto con el que desea trabajar.
 
@@ -5137,13 +5049,13 @@ Puede ver una firma asociada con un objeto.
 
 ### Bloqueo y desbloqueo de objetos
 
-`Guía del usuario › Aplicación de firmas y bloqueos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=locks-locking-unlocking-objects)
+`Guía del usuario › Aplicación de firmas y bloqueos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=locks-locking-unlocking-objects)
 
 Los tipos de objetos que puede bloquear o desbloquear están determinados por un valor del sistema y sus permisos de acceso. Sólo puede bloquear objetos de primer nivel.
 
 En una vista de cuadrícula, las opciones **Bloquear** y **Bloquear** se visualizan cuando selecciona el recuadro de selección de un objeto que puede bloquear o desbloquear.
 
-En otras vistas, se visualiza un icono ![Bloquear recurso](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/icon-padlock-unlock.jpg) o ![Desbloquear recurso](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/icon-padlock.jpg) junto al nombre de un objeto. Cuando un objeto está bloqueado, se visualiza el icono de bloqueo cerrado ![Desbloquear](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/icon-padlock.jpg) . Un icono de bloqueo cerrado gris indica que el objeto ha heredado el bloqueo. Para eliminar un bloqueo heredado, debe desbloquear el objeto padre.
+En otras vistas, se visualiza un icono ![Bloquear recurso](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/icon-padlock-unlock.jpg) o ![Desbloquear recurso](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/icon-padlock.jpg) junto al nombre de un objeto. Cuando un objeto está bloqueado, se visualiza el icono de bloqueo cerrado ![Desbloquear](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/icon-padlock.jpg) . Un icono de bloqueo cerrado gris indica que el objeto ha heredado el bloqueo. Para eliminar un bloqueo heredado, debe desbloquear el objeto padre.
 
 #### Acerca de esta tarea
 
@@ -5153,27 +5065,27 @@ Al desbloquear un objeto, el icono de bloqueo cerrado se sustituye por un icono 
 
 #### Procedimiento
 
-1. Haz clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)**.
+1. Haz clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)**.
 2. Expanda las categorías para ver los tipos de objeto.
 3. Seleccione el tipo de objeto con el que desea trabajar.
 
    Se abre una vista de cuadrícula.
 4. Lleve a cabo una de las siguientes acciones:
 
-   - Para desbloquear uno o más objetos, marque el recuadro de selección de cada objeto que desee desbloquear. Pulse **Desbloquear** ![Desbloquear](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/icon-padlock-unlock.jpg).
-   - Para bloquear uno o más objetos, marque el recuadro de selección de cada objeto que desee bloquear. Pulse **Bloquear** ![Bloquear](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/icon-padlock.jpg).
+   - Para desbloquear uno o más objetos, marque el recuadro de selección de cada objeto que desee desbloquear. Pulse **Desbloquear** ![Desbloquear](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/icon-padlock-unlock.jpg).
+   - Para bloquear uno o más objetos, marque el recuadro de selección de cada objeto que desee bloquear. Pulse **Bloquear** ![Bloquear](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/icon-padlock.jpg).
 
    Las opciones **Desbloquear** y **Bloquear** sólo están disponibles para los tipos de objeto que soportan el bloqueo y sólo cuando los permisos de acceso permiten el bloqueo y el desbloqueo.
 
 ## Utilización de objetos de OpenPages Platform
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-using-openpages-platform-objects)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-using-openpages-platform-objects)
 
 Los objetos de plataforma son los objetos fundamentales que componen el núcleo de OpenPages®. Forman parte de cada sistema OpenPages , independientemente de las soluciones configuradas.
 
 ### Entidades empresariales
 
-`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-business-entities)
+`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-business-entities)
 
 Las entidades empresariales son representaciones abstractas de la estructura empresarial. Una entidad de negocio puede contener subentidades (como departamentos, unidades de negocio o ubicaciones geográficas). La estructura de la entidad que crea depende de las necesidades empresariales. Por ejemplo, puede crear una entidad padre para las oficinas centrales de la empresa y una subentidad para cada ubicación o departamento. Es posible que también desee representar una estructura de entidad legal y una estructura de entidad de negocios.
 
@@ -5185,19 +5097,19 @@ En IBM OpenPages Internal Audit Management , las entidades empresariales tambié
 
 ### Evaluaciones de riesgos
 
-`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-risk-assessments)
+`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-risk-assessments)
 
 Las evaluaciones de riesgos le ofrecen la posibilidad de evaluar y notificar pasivos potenciales para un conjunto de entidades o procesos empresariales. Un objeto Evaluación de riesgo contiene los nombres del asesor y revisor, los marcos de tiempo de la evaluación y el estado de la evaluación. Utilice una evaluación de riesgo para gestionar el riesgo de un proceso de autoevaluación. Asocie los objetos Riesgo a una evaluación de riesgo para crear un enlace entre la entidad de negocios y los riesgos. Por ejemplo, cree una evaluación de riesgo para evaluar riesgos operativos, como un fraude o robo externo, un fraude internos, daños físicos a la propiedad o interrupción de negocio.
 
 ### Evaluaciones de evaluación de riesgos
 
-`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-risk-assessment-evals)
+`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-risk-assessment-evals)
 
 Los objetos Evaluación de evaluación de riesgo son similares a los objetos Evaluación de riesgo, excepto que se instancian como hijos de las evaluaciones de riesgo. Almacenan los datos de evaluación de riesgo.
 
 ### Objetivos de control
 
-`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-control-objectives)
+`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-control-objectives)
 
 Un objetivo de control es un objeto de evaluación que define las categorías de riesgo para un proceso o subproceso.
 
@@ -5209,7 +5121,7 @@ De forma predeterminada, un objetivo de control de OpenPages® Internal Audit Ma
 
 ### Procesos
 
-`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-processes)
+`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-processes)
 
 Los procesos representan las principales actividades empresariales globales dentro de una entidad empresarial que están sujetas a riesgo. Los procesos residen en áreas como la creación de informes financieros, la conformidad y la seguridad de la información. Por ejemplo, los procesos del departamento de cuentas por cobrar, como el proceso desde el pedido hasta el cobro se pueden mejorar con controles para protegerse contra los riesgos de creación de informes financieros, por ejemplo, contra un comportamiento fraudulento o contra imprecisiones de la creación de informes financieros.
 
@@ -5217,7 +5129,7 @@ En OpenPages® Internal Audit Management, los procesos también se utilizan en l
 
 ### Evaluaciones de proceso
 
-`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-process-evals)
+`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-process-evals)
 
 Los objetos de evaluación de proceso son hijos de los objetos de proceso y se utilizan para capturar valores de medida de proceso para fines de tendencia.
 
@@ -5225,13 +5137,13 @@ Cuando los periodos de creación de informes no están alineado con los ciclos d
 
 ### Subprocesos
 
-`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-sub-processes)
+`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-sub-processes)
 
 Un subproceso es un componente de un proceso. Se utiliza para dividir procesos en unidades más pequeñas con fines de evaluación. Por ejemplo, un proceso financiero desde el pedido hasta el cobro puede componerse de varios subprocesos como acreedores, compras y contabilidad general. Cualquiera de estos subprocesos podría exponer a la entidad de negocios a un riesgo, lo cual es posible mejorar utilizando controles.
 
 ### Controles
 
-`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-controls)
+`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-controls)
 
 Los controles son políticas y procedimientos que garantizan que se realizan respuestas de mitigación de riesgos.
 
@@ -5243,7 +5155,7 @@ En IBM OpenPages® Internal Audit Management utilice Controles para crear un mod
 
 ### Planes de conformidad y Temas de conformidad
 
-`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-compliance-plans-compliance-themes)
+`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-compliance-plans-compliance-themes)
 
 Los objetos Plan de conformidad y Tema de conformidad se utilizan con IBM OpenPages® Regulatory Compliance Management.
 
@@ -5265,17 +5177,17 @@ Por ejemplo, imagine que despliega el tema de conformidad de privacidad de datos
 
 En este ejemplo, el requisito de privacidad de datos 1 se enlaza con un control denominado Control de privacidad de datos 1 (Data Privacy Control 1). Servicios de agencia todavía no tiene este control. Por lo tanto, la evaluación del requisito de privacidad de datos 1 (Data Privacy Requirement Evaluation 1) se enlaza con el control en la biblioteca de controles (Controls Library).
 
-![Diagrama de flujo que muestra el tema Data Privacy que se despliega en los servicios de agencia.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/op_depl_theme_eg1.jpg)
+![Diagrama de flujo que muestra el tema Data Privacy que se despliega en los servicios de agencia.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/op_depl_theme_eg1.jpg)
 
 #### Despliegue de varios temas de conformidad en una entidad de negocios
 
-`Guía del usuario › Uso de objetos de OpenPages Platform › Planes de conformidad y Temas de conformidad` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=themes-deploying-multiple-compliance-business-entity)
+`Guía del usuario › Uso de objetos de OpenPages Platform › Planes de conformidad y Temas de conformidad` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=themes-deploying-multiple-compliance-business-entity)
 
 Puede desplegar varios temas de conformidad a una entidad de negocios.
 
 ##### Procedimiento
 
-1. Haz clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Cumplimiento de la normativa** > **Planes de cumplimiento**.
+1. Haz clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Cumplimiento de la normativa** > **Planes de cumplimiento**.
 
    Utilice filtros para buscar el plan que desea utilizar.
 2. Pulse el plan de conformidad que contenga los temas de conformidad que desea desplegar.
@@ -5291,11 +5203,11 @@ Puede desplegar varios temas de conformidad a una entidad de negocios.
    Se inicia el proceso de despliegue. La página **Historial de proceso** muestra el progreso. Pulse **Renovar** para actualizar la página.
 9. Cierre la ventana **Historial de procesos** .
 
-   > **Nota:** Para ver una lista de todos los procesos que está ejecutando, haga clic en **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/settings_menu_icon_task_focused_ui.jpg)** > **Otros** > **Procesos de fondo**.
+   > **Nota:** Para ver una lista de todos los procesos que está ejecutando, haga clic en **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/settings_menu_icon_task_focused_ui.jpg)** > **Otros** > **Procesos de fondo**.
 
 #### Despliegue de un tema de conformidad en varias entidades de negocio
 
-`Guía del usuario › Uso de objetos de OpenPages Platform › Planes de conformidad y Temas de conformidad` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=themes-deploying-compliance-theme-multiple-business-entities)
+`Guía del usuario › Uso de objetos de OpenPages Platform › Planes de conformidad y Temas de conformidad` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=themes-deploying-compliance-theme-multiple-business-entities)
 
 Puede desplegar un tema de conformidad en varias entidades de negocio.
 
@@ -5305,7 +5217,7 @@ Cuando se despliega un tema de conformidad en una o varias entidades de negocio,
 
 ##### Procedimiento
 
-1. Haz clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Cumplimiento de la normativa** > **Temas de cumplimiento**.
+1. Haga clic en el **menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Evaluaciones de conformidad** > **Temas de conformidad**.
 
    Utilice filtros para buscar el tema que desea desplegar.
 2. Pulse el Tema de conformidad que desea desplegar.
@@ -5327,17 +5239,17 @@ Cuando se despliega un tema de conformidad en una o varias entidades de negocio,
    Se inicia el proceso de despliegue. La página **Historial de proceso** muestra el progreso. Pulse **Renovar** para actualizar la página.
 9. Cierre la ventana **Historial de procesos** .
 
-   > **Nota:** Para ver una lista de todos los procesos que está ejecutando, haga clic en **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/settings_menu_icon_task_focused_ui.jpg)** > **Otros** > **Procesos de fondo**.
+   > **Nota:** Para ver una lista de todos los procesos que está ejecutando, haga clic en **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/settings_menu_icon_task_focused_ui.jpg)** > **Otros** > **Procesos de fondo**.
 
 ### Evaluaciones de control
 
-`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-control-evals)
+`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-control-evals)
 
 Los objetos de evaluación de riesgo son similares a los objetos de evaluación de riesgo, excepto que se crean como hijos de controles. Almacenan datos de gestión de control. Cuando los ciclos de evaluación de control y periodos de informes no están alineados, utilice objetos Evaluación de control para capturar varios ciclos de evaluación de gestión dentro de un único periodo de creación de informes.
 
 ### Riesgos
 
-`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-risks)
+`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-risks)
 
 Los riesgos son pasivos potenciales. Los riesgos pueden estar asociados a procesos empresariales, entidades de negocios o en conformidad con un mandato. Cada riesgo tiene controles que proporcionan protección contra el riesgo. Los controles ayudan a reducir las consecuencias que son resultado del riesgo. Utilice el objeto Riesgo para categorizar riesgos; capturar la frecuencia, la puntuación y la gravedad de los datos de riesgo observados y calculados; y para ver informes para identificar los elementos de riesgo principales. Por ejemplo, la cuenta En metálico tiene un proceso denominado Nómina. Un riesgo potencial que se puede producir en la nómina es un desembolso de nómina duplicado o la creación de desembolsos de nómina ficticios. La identificación de riesgos en curso es un componente principal del desarrollo de un proyecto de documentación de controles financieros.
 
@@ -5345,19 +5257,19 @@ En OpenPages® Internal Audit Management, un riesgo que se comparte entre una au
 
 ### Evaluaciones de riesgos
 
-`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-risk-evals)
+`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-risk-evals)
 
 Los objetos Evaluación de riesgo son hijos de los objetos Riesgo y se utilizan para capturar valores de medida de riesgo a efectos de tendencia. Cuando los periodos de creación de informes no están alineado con los ciclos de evaluación de riesgo, puede utilizar objetos Evaluación de riesgo para capturar varios ciclos de evaluación dentro de un único periodo de creación de informes..
 
 ### Planes de pruebas
 
-`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-test-plans)
+`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-test-plans)
 
 Un plan de prueba es un contenedor para pruebas y se puede asociar con objetos de control padre y objetos hijo, como por ejemplo Resultados de prueba y Problemas. Determine la efectividad operativa de un control realizando pruebas detalladas y documentando los resultados. Los planes de prueba describen los mecanismos que determinan si un control es efectivo. Por ejemplo, un control de prueba sería: «“Recursos Humanos autoriza cambios en el estado del empleado”». Una prueba de este control sería: «“Verificar el sello de autorización de RRHH en los registros de empleados nuevos”». La prueba verifica que el nuevo control está implementado y en uso.  Un resultado de la prueba es la información que se obtiene tras la ejecución de un plan de prueba.
 
 #### Planes de pruebas
 
-`Guía del usuario › Uso de objetos de OpenPages Platform › Planes de pruebas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=plans-test)
+`Guía del usuario › Uso de objetos de OpenPages Platform › Planes de pruebas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=plans-test)
 
 Un plan de prueba es un contenedor para pruebas y se puede asociar con objetos de control padre y objetos hijo, como por ejemplo Resultados de prueba y Problemas. Determine la efectividad operativa de un control realizando pruebas detalladas y documentando los resultados. Los planes de prueba describen los mecanismos que determinan si un control es efectivo. Por ejemplo, un control de prueba sería: «“Recursos Humanos autoriza cambios en el estado del empleado”». Una prueba de este control sería: «“Verificar el sello de autorización de RRHH en los registros de empleados nuevos”». La prueba verifica que el nuevo control está implementado y en uso.
 
@@ -5365,7 +5277,7 @@ La configuración predeterminada de OpenPages® Internal Audit Management utiliz
 
 #### Resultados de prueba
 
-`Guía del usuario › Uso de objetos de OpenPages Platform › Planes de pruebas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=plans-test-results)
+`Guía del usuario › Uso de objetos de OpenPages Platform › Planes de pruebas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=plans-test-results)
 
 Un resultado de prueba es la información que se obtiene de la ejecución de un plan de prueba.
 
@@ -5373,7 +5285,7 @@ La configuración predeterminada de OpenPages® Internal Audit Management utiliz
 
 ### Problemas y elementos de acción
 
-`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-issue-action-items)
+`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-issue-action-items)
 
 Aunque los problemas se generan en áreas donde los controles internos no se implementan correctamente, utilice el objeto Problema para documentar un problema asociado a cualquier tipo de objeto. Por ejemplo, una prueba se ha asociado con un control, pero la prueba ha fallado la última vez que se ha completado. Este problema potencial puede resaltarse capturándolo en un objeto Problema.
 
@@ -5383,7 +5295,7 @@ En OpenPages® Internal Audit Management, se pueden utilizar problemas y element
 
 #### Adición de comentarios a un elemento de acción
 
-`Guía del usuario › Uso de objetos de OpenPages Platform › Problemas y elementos de acción` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=items-adding-comments-action-item)
+`Guía del usuario › Uso de objetos de OpenPages Platform › Problemas y elementos de acción` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=items-adding-comments-action-item)
 
 Puede añadir comentarios a un elemento de acción desde una vista de tarea. Después de guardar un comentario, no se puede editar o suprimir.
 
@@ -5398,7 +5310,7 @@ Puede añadir comentarios a un elemento de acción desde una vista de tarea. Des
 
 #### Completar elementos de acción
 
-`Guía del usuario › Uso de objetos de OpenPages Platform › Problemas y elementos de acción` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=items-completing-action)
+`Guía del usuario › Uso de objetos de OpenPages Platform › Problemas y elementos de acción` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=items-completing-action)
 
 Puede seleccionar un porcentaje en el campo Porcentaje completado de un objeto de elemento de acción para identificar el progreso o la finalización del elemento de acción asignado. Para mostrar que ha completado un elemento de acción, establezca el porcentaje de compleción en 100%.
 
@@ -5413,7 +5325,7 @@ Puede seleccionar un porcentaje en el campo Porcentaje completado de un objeto d
 
 ### Preferencias y Grupos de preferencias
 
-`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-preferences-preferences-groups)
+`Guía del usuario › Uso de objetos de OpenPages Platform` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-preferences-preferences-groups)
 
 El objeto Preferencia es hijo de una entidad de negocios o un grupo de preferencias e incluye valores variables que pueden dirigir informes, flujos de trabajo y campos calculados. Tiene valores de variable específicos de la entidad que permiten un comportamiento diferente para los mismos flujos de trabajo. Por ejemplo, defina valores de variable para determinar el comportamiento para flujos de trabajo de revisión y aprobación como, por ejemplo, los usuarios adecuados para cada nivel de revisión y aprobación, y los umbrales para determinar cuántos niveles de revisión y aprobación se necesitan.
 
@@ -5423,7 +5335,7 @@ En la configuración predeterminada de IBM OpenPages® Internal Audit Management
 
 ## Utilización de OpenPages Internal Audit Management (IAM)
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-using-openpages-internal-audit-management-iam)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-using-openpages-internal-audit-management-iam)
 
 IBM® OpenPages® Internal Audit Management (IAM) proporciona a los auditores internos una vista configurada de forma exclusiva del gobierno, riesgo y conformidad de la organización (GRC), lo que permite a la auditoría complementar y coexistir con actividades de gestión de riesgos y conformidad más amplias.
 
@@ -5447,13 +5359,13 @@ Sus principales características son:
 
 ### Objetos de OpenPages Internal Audit Management
 
-`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM)` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=iam-openpages-internal-audit-management-objects)
+`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM)` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=iam-openpages-internal-audit-management-objects)
 
 Este tema proporciona información sobre los objetos de OpenPages® Internal Audit Management .
 
 #### Planes de auditoría de resumen
 
-`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM) › Objetos de OpenPages Internal Audit Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-summary-audit-plans)
+`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM) › Objetos de OpenPages Internal Audit Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-summary-audit-plans)
 
 El tipo de objeto Plan de auditoría de resumen permite a una oficina del programa planificar auditorías de entidades auditables para un periodo de tiempo predeterminado (anual, medio año o trimestre) por ámbito, perfil de riesgo, horas de previsión de auditorías, etc.
 
@@ -5461,7 +5373,7 @@ El objeto Plan de auditoría de resumen es un hijo de Entidad de negocios. Los h
 
 #### Auditorías
 
-`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM) › Objetos de OpenPages Internal Audit Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-audits)
+`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM) › Objetos de OpenPages Internal Audit Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-audits)
 
 Una auditoría representa cada ejecución de una auditoría en una entidad auditable. Por ejemplo, si se audita una entidad auditable cada dos años, se debe crear una instancia de auditoría hijo independiente para cada periodo de dos años, como 2022 y 2024. Una organización puede auditar varios procesos. Por ejemplo, puede auditar una entidad, un requisito regulador específico o una seguridad física de centro de datos.
 
@@ -5475,7 +5387,7 @@ Utilice el objeto Auditoría para gestionar el proceso de auditoría en su empre
 
 #### Entidades auditables
 
-`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM) › Objetos de OpenPages Internal Audit Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-auditable-entities)
+`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM) › Objetos de OpenPages Internal Audit Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-auditable-entities)
 
 Un objeto Entidad auditable es un hijo de una Entidad de negocios y un Plan de auditoría de resumen. Se establece una jerarquía de entidad de negocios de auditoría y se crean todas las Entidades auditables como hijo del objeto Entidad de negocios de auditoría interna. Las entidades auditables alineadas con elementos de la jerarquía organizativa de la entidad de negocios también están asociadas a las entidades de negocios.
 
@@ -5485,7 +5397,7 @@ Las Entidades auditables se clasifican como riesgo anualmente para determinar la
 
 #### Secciones de auditoría
 
-`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM) › Objetos de OpenPages Internal Audit Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-audit-sections)
+`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM) › Objetos de OpenPages Internal Audit Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-audit-sections)
 
 Las secciones de auditoría se pueden utilizar para representar las fases de la auditoría, los programas de trabajo dentro de la auditoría u otros componentes de la auditoría en el nivel de granularidad que desee.
 
@@ -5497,7 +5409,7 @@ Aunque las secciones de auditoría se pueden utilizar para planificar y programa
 
 #### Planes
 
-`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM) › Objetos de OpenPages Internal Audit Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-plans)
+`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM) › Objetos de OpenPages Internal Audit Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-plans)
 
 Un tipo de objeto Plan facilita la planificación y asignación de recursos de auditoría en cualquier nivel. Por ejemplo, puede crear un único objeto de planificación para una auditoría completa o puede crear un objeto de planificación por tarea para cada auditor implicado en la auditoría. Los objetos Plan se utilizan para determinar la disponibilidad, habilidades y experiencia necesarias del recurso deseado. Las vistas de auditoría de OpenPages® , informes, etc., están alineadas con la planificación a nivel de auditoría. Los planes se pueden asociar a secciones de auditoría, en cuyo caso, estos componentes tendrán que modificarse.
 
@@ -5507,7 +5419,7 @@ Normalmente, puede crear o modificar un objeto Plan utilizando el ayudante Añad
 
 #### Informes
 
-`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM) › Objetos de OpenPages Internal Audit Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-workpapers)
+`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM) › Objetos de OpenPages Internal Audit Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-workpapers)
 
 Un informe de trabajo es cualquier artefacto o entregable del que desee realizar un seguimiento en el ámbito de una auditoría. Puede representar una carta de compromiso, una matriz de prueba, las notas de una entrevista o cualquier otro cosa que resulte apropiada para la auditoría en cuestión. El propio informe puede ser atributos que se almacenan en el objeto de informe, o puede ser un archivo de Microsoft Word, Microsoft Excel u otro tipo de archivo que se adjunta a un objeto de informe. Cuando el informe se utiliza como evidencia de prueba, documenta la planificación de la prueba y los resultados de la prueba.
 
@@ -5515,7 +5427,7 @@ Cree un objeto Documento de trabajo desde la vista de tareas de una sección de 
 
 #### Conclusiones
 
-`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM) › Objetos de OpenPages Internal Audit Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-findings)
+`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM) › Objetos de OpenPages Internal Audit Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-findings)
 
 Las conclusiones se pueden utilizar para representar observaciones notificables a la empresa, al Comité de auditoría o a ambos. Además, las conclusiones se pueden utilizar para representar observaciones objetivas individuales, mientras que los problemas se utilizan para representar temas consolidados o problemas sistémicos de los que se informa a la empresa, al comité de auditoría o a ambos.
 
@@ -5523,7 +5435,7 @@ Una conclusión representa algo que se ha descubierto en el curso de una auditor
 
 #### Auditores
 
-`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM) › Objetos de OpenPages Internal Audit Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-auditors)
+`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM) › Objetos de OpenPages Internal Audit Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-auditors)
 
 La planificación y asignación de recursos requiere información clave sobre cada persona que pueda realizar el trabajo de auditoría. El objeto Auditor se utiliza para crear una agrupación de auditores que se pueden asignar a la auditorías.
 
@@ -5531,13 +5443,13 @@ Cada usuario asignado al trabajo de auditoría se representa como una instancia 
 
 #### Comentarios de revisión de auditoría
 
-`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM) › Objetos de OpenPages Internal Audit Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-audit-review-comments)
+`Guía del usuario › Utilización de OpenPages Internal Audit Management (IAM) › Objetos de OpenPages Internal Audit Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-audit-review-comments)
 
 El tipo de objeto Comentario de revisión de auditoría se utiliza para proporcionar comentarios durante el proceso de revisión para una auditoría y sus componentes. Está asociado como hijo a la instancia de Auditoría, Sección, Informe o Conclusión para la que se está proporcionando feedback.
 
 ## Utilización de OpenPages IT Governance (ITG)
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-using-openpages-it-governance-itg)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-using-openpages-it-governance-itg)
 
 IBM OpenPages® IT Governance (ITG) es una solución de gobierno de TI empresarial que alinea los servicios de TI, los riesgos y las políticas con las iniciativas empresariales corporativas, la estrategia y los estándares operativos.
 
@@ -5556,7 +5468,7 @@ Sus principales características son:
 
 ### Términos de OpenPages IT Governance que debe conocer
 
-`Guía del usuario › Utilización de OpenPages IT Governance (ITG)` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=itg-openpages-it-governance-terms-you-should-know)
+`Guía del usuario › Utilización de OpenPages IT Governance (ITG)` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=itg-openpages-it-governance-terms-you-should-know)
 
 Este tema proporciona términos para utilizar en IBM OpenPages® IT Governance.
 
@@ -5594,19 +5506,19 @@ Este tema proporciona términos para utilizar en IBM OpenPages® IT Governance.
 
 ### Objetos de gobierno de TI interno de OpenPages
 
-`Guía del usuario › Utilización de OpenPages IT Governance (ITG)` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=itg-openpages-internal-it-governance-objects)
+`Guía del usuario › Utilización de OpenPages IT Governance (ITG)` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=itg-openpages-internal-it-governance-objects)
 
 Este tema proporciona información sobre los objetos OpenPages® Internal IT Governance.
 
 #### Activos y enlaces de activos
 
-`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-assets-asset-links)
+`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-assets-asset-links)
 
 El tipo de objeto Activo se utiliza para representar categorías de personal, aplicaciones, infraestructura, procesos, instalaciones y funciones. Los objetos de activo del mismo tipo a menudo deben estar relacionados entre sí. Puede utilizar un tipo de objeto Enlace de activo para enlazar dos objetos Activo.
 
 ##### Activos
 
-`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages › Activos y enlaces de activos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=links-assets)
+`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages › Activos y enlaces de activos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=links-assets)
 
 El tipo de objeto Activo se utiliza para representar categorías de personal, aplicaciones, infraestructura, procesos, recursos y funciones.
 
@@ -5616,11 +5528,11 @@ Aunque los objetos de activos pueden representar un activo de TI individual (por
 
 Normalmente, los objetos de activo los crea la entidad empresarial de TI propietaria o responsable y, a continuación, se asocian con el objeto al que dan soporte como, por ejemplo, Entidades empresariales, Procesos y Líneas base.
 
-Para acceder a los objetos Activos, haga clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Activos** > **Activos**.
+Para acceder a los objetos Activos, haga clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Activos** > **Activos**.
 
 ##### Enlaces de activos
 
-`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages › Activos y enlaces de activos` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=links-asset)
+`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages › Activos y enlaces de activos` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=links-asset)
 
 A menudo, los objetos de activo del mismo tipo deben estar relacionados entre sí. Puede utilizar un tipo de objeto Enlace de activo para enlazar dos objetos Activo.
 
@@ -5634,7 +5546,7 @@ Tenga en cuenta que si los nombres o atributos de cualquiera de los objetos de a
 
 #### Líneas base
 
-`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-baselines)
+`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-baselines)
 
 Un tipo de objeto de línea base representa una plantilla de requisitos de biblioteca. Es autónomo, lo que significa que las carpetas se crean para cada línea base. Las líneas base de la biblioteca representan elementos del entorno operativo de TI. Están enlazados a los requisitos para ese tipo de elemento. El objeto Línea base se copia de la biblioteca a la jerarquía empresarial, se realiza una asociación a un requisito en la biblioteca, y los tipos de objeto Riesgo, Control y Prueba se crean como objetos hijo. Los objetos Riesgo, Control y Prueba se llenan con datos del requisito cuando se utiliza el ayudante de copia de línea base.
 
@@ -5650,13 +5562,13 @@ Para ver un historial de cambios, vaya a la pestaña **Actividad** del objeto.
 
 #### Incidencias
 
-`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-incidents)
+`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-incidents)
 
-Una incidencia es una aparición que tiene un efecto potencialmente adverso en la empresa. Cree un objeto Incidente para registrar información, como la persona responsable de la investigación del incidente y otros datos relacionados. El objeto Incidencia lo utiliza un flujo de trabajo para facilitar el análisis de incidencias. Las categorías que se aplican a los incidentes incluyen la Conformidad con la normativa, Conformidad legal, Seguridad de la información y TI. Las incidencias se almacenan en la entidad de negocios o activo donde se ha producido el suceso y se asocian de forma secundaria a un mandato o política afectados.
+Un incidente es un suceso que tiene un efecto potencialmente adverso en su empresa. Cree un objeto Incidente para registrar información, como la persona responsable de la investigación del incidente y otros datos relacionados. El objeto Incidencia lo utiliza un flujo de trabajo para facilitar el análisis de incidencias. Las categorías que se aplican a los incidentes incluyen la Conformidad con la normativa, Conformidad legal, Seguridad de la información y TI. Los incidentes se almacenan a menudo en la Entidad de Negocio, Activo o Modelo de Despliegue donde ocurrió el evento y se asocian secundariamente a un Mandato o Política impactada.
 
 #### KRI y valores de KRI
 
-`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-kris-kri-values)
+`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-kris-kri-values)
 
 Los KRI (Key Risk Indicators) son componentes del proceso de supervisión de riesgos y se utilizan para proporcionar indicadores iniciales o de retraso para condiciones de riesgo potenciales. Cada instancia de KRI dentro de la organización puede tener límites de umbral y destino exclusivos. Los valores KRI se utilizan para registrar el valor real de un indicador en un punto específico en el tiempo.
 
@@ -5666,46 +5578,46 @@ Puede crear y asociar un KRI (Indicador clave de riesgo) desde la vista de tarea
 
 Los valores KRI se utilizan para registrar el valor real de un indicador en un punto específico en el tiempo.
 
-Puede acceder a los elementos de menú **KRIs** y **Valores KRI** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Indicadores**.
+Puede acceder a los elementos de menú **KRIs** y **Valores KRI** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Indicadores**.
 
 #### KPI y valores de KPI
 
-`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-kpis-kpi-values)
+`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-kpis-kpi-values)
 
 Los ICR (Key Performance Indicators) son componentes del proceso de supervisión de riesgos y se utilizan para proporcionar indicadores iniciales o de retraso para condiciones de riesgo potenciales. Cada instancia de KPI dentro de la organización puede tener límites de umbral y destino exclusivos. El tipo de objeto Valor de KPI registra el valor de un objeto de KPI en un punto específico. Cree un objeto de KPI y, a continuación, periódicamente (diariamente, semanalmente, mensualmente) cree un objeto Valor de KPI para poder detectar tendencias.
 
 Un objeto KPI se puede asociar con uno o más tipos de objeto padre (como, Entidad de negocios, Control, Sistema, Proceso, Subproceso). Por lo general, crea y asocia un KPI desde la vista de tarea de un tipo de objeto principal.
 
-Puede acceder a los elementos de menú **KPIs** y **Valores de KPI** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Indicadores**.
+Puede acceder a los elementos de menú **KPIs** y **Valores de KPI** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Indicadores**.
 
 #### Mandatos
 
-`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-mandates)
+`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-mandates)
 
 Los mandatos representan elementos externos con los que las organizaciones deben cumplir, como leyes, normativas y estándares. El contenido se puede extraer de proveedores de terceros como, por ejemplo, UCF, Ascent Reg Techo Wolters Kluwer. Los mandatos se representan en una estructura de entidades de negocios por biblioteca y no se replican para todo el sistema.
 
 #### Políticas
 
-`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-policies)
+`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-policies)
 
 Las políticas representan directrices internas adoptadas por el Consejo de Administración o el cuerpo de gobierno sénior dentro de una organización. El texto de una política puede almacenarse en los campos estandarizados en el objeto o como un archivo adjunto al objeto. Normalmente, las políticas tienen un ciclo de vida definido que va de Borrador a Publicado a Caducado, así como un proceso de revisión y aprobación. Normalmente, las políticas Borrador residen en la Jerarquía empresarial organizativa, mientras que las políticas Publicado y Caducado residen en las entidades de biblioteca de referencia. Las políticas también se correlacionan con mandatos aplicables de la biblioteca con la que están relacionadas.
 
 #### Procedimientos
 
-`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-procedures)
+`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-procedures)
 
 Los procedimientos representan el qué, dónde, cuándo y cómo de cómo se implementan las políticas en una organización. El texto de los procedimientos se almacenan normalmente en los campos en el objeto. Normalmente, los procedimientos se representan como hijos de una política y residen en la misma estructura de entidad que su política padre.
 
 #### Requisitos
 
-`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-requirements)
+`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-requirements)
 
 El objeto Requisito detalla requisitos específicos, que se encuentran en el objeto Mandato o Submandato relacionado, que la organización necesita cumplir para estar en conformidad.
 
 Por ejemplo:
 
 - Los tipos de objeto y las acciones que están disponibles en una vista dependen de la configuración y de los permisos específicos.
-- Para acceder a la opción **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Conformidad** > **Requisitos**, debes tener configurados los permisos necesarios en tu cuenta.
+- Para acceder a la opción **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Biblioteca de conformidad** > **Requisitos** , debe tener los permisos necesarios configurados en su cuenta.
 
 Normalmente, se crean requisitos como objetos autónomos desde la vista de cuadrícula Requisitos y posteriormente se asocia el requisito a otros objetos. De forma alternativa, también puede crear un objeto Requisito desde la vista de tarea de un objeto padre (por ejemplo, objetivos de control, controles, mandatos o submandatos).
 
@@ -5713,17 +5625,17 @@ En la vista de tareas de un objeto Requisito, puede crear, asociar o desasociar 
 
 Para ver un historial de cambios, vaya a la pestaña **Actividad** del objeto.
 
-Puede acceder a la opción de menú **Requisitos** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Conformidad**.
+Puede acceder a la opción de menú **Requisitos** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Biblioteca de conformidad**.
 
 #### Submandatos
 
-`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-sub-mandates)
+`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-sub-mandates)
 
 Los submandatos representan subelementos externos (o internos) que la organización necesita cumplir. El contenido se puede extraer de proveedores de terceros, incluyendo UCF, Ascent Reg Tech, Thomson Reutersy Wolters Kluwer. Generalmente, los Submandatos están representados en una estructura de Entidad de negocios de biblioteca y no se replican en todo el sistema. El submandato es recursivo, pero el contenido de Deloitte, UCF, Ascent Reg Tech, Thomson Reutersy Wolters Kluwer utiliza exactamente un nivel de submandato. Los submandatos también soportan contenido para conformidad con la normativa. Los submandatos se pueden utilizar para representar párrafos derivados de informes reguladores.
 
 #### Sistemas
 
-`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-systems)
+`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-systems)
 
 El sistema es un tipo de objeto autocontenido, lo que significa que se crean carpetas para cada objeto del sistema. El objeto Sistema agrupa varias líneas base para representar elementos en el entorno operativo que se pueden evaluar para el riesgo. Actúa como contenedor para una colección de objetos de activos y los riesgos, controles y requisitos relacionados que realizan conjuntamente una función o forman parte de un servicio de TI. Por ejemplo, un objeto del sistema puede representar los servidores, sistemas operativos, aplicaciones, bases de datos, personal de soporte y recursos que proporcionan el correo electrónico corporativo.
 
@@ -5733,7 +5645,7 @@ Para ver un historial de cambios, vaya a la pestaña **Actividad** del objeto.
 
 #### Amenazas
 
-`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-threats)
+`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-threats)
 
 Una amenaza es cualquier circunstancia o suceso con el potencial de afectar negativamente a las operaciones y activos de la organización. Se puede crear una biblioteca de amenazas bajo el objeto Entidad de negocios y asociarse o copiarse en un objeto Proceso, Sistema o Activo padre. Las amenazas también pueden asociarse a Vulnerabilidades para identificar y evaluar la probabilidad y el impacto de la explotación de una Vulnerabilidad por parte de una Amenaza, lo que daría como resultado un riesgo para un Activo, Sistema o Proceso.
 
@@ -5741,7 +5653,7 @@ Para ver un historial de cambios, vaya a la pestaña **Actividad** del objeto.
 
 #### Vulnerabilidades
 
-`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-vulnerabilities)
+`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-vulnerabilities)
 
 Las vulnerabilidades le ofrecen la posibilidad de realizar un seguimiento y evaluar las debilidades de seguridad. Asigne puntuaciones a Vulnerabilidades mediante Vulnerabilities Common Vulnerability Scoring System (CVSS v2). El objeto padre de una vulnerabilidad puede ser un sistema, una incidencia, un activo o un riesgo. Por norma, las vulnerabilidades se importan de una solución de seguridad de TI.
 
@@ -5751,7 +5663,7 @@ Para ver un historial de cambios, vaya a la pestaña **Actividad** del objeto.
 
 #### Renuncias
 
-`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-waivers)
+`Guía del usuario › Utilización de OpenPages IT Governance (ITG) › Objetos de gobierno de TI interno de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-waivers)
 
 Los vencidos le ofrecen la posibilidad de documentar, procesar y gestionar el ciclo de vida de excepciones a políticas, requisitos o controles. Las exenciones se pueden asociar a entidades empresariales, políticas, procedimientos, requisitos, riesgos, controles, líneas base y activos.
 
@@ -5768,7 +5680,7 @@ Para ver un historial de cambios, vaya a la pestaña **Actividad** del objeto.
 
 ## Uso de objetos de OpenPages Operational Risk Management
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-using-openpages-operational-risk-management-objects)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-using-openpages-operational-risk-management-objects)
 
 IBM OpenPages® Operational Risk Management combina la gestión de documentos y procesos con un sistema de supervisión y soporte de decisiones que permite a las organizaciones analizar, gestionar y mitigar los riesgos de forma sencilla y eficiente.
 
@@ -5798,13 +5710,13 @@ IBM OpenPages Operational Risk Management incluye las siguientes característica
 
 ### Objetos de OpenPages Operational Risk Management
 
-`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-openpages-operational-risk-management)
+`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-openpages-operational-risk-management)
 
 Este tema proporciona información sobre los objetos OpenPages® Operational Risk Management .
 
 #### KRI y valores de KRI
 
-`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=oormo-kris-kri-values)
+`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=oormo-kris-kri-values)
 
 Los KRI (Key Risk Indicators) son componentes del proceso de supervisión de riesgos y se utilizan para proporcionar indicadores iniciales o de retraso para condiciones de riesgo potenciales. Cada instancia de KRI dentro de la organización puede tener límites de umbral y destino exclusivos. Los valores KRI se utilizan para registrar el valor real de un indicador en un punto específico en el tiempo.
 
@@ -5814,21 +5726,21 @@ Puede crear y asociar un KRI (Indicador clave de riesgo) desde la vista de tarea
 
 Los valores KRI se utilizan para registrar el valor real de un indicador en un punto específico en el tiempo.
 
-Puede acceder a los elementos de menú **KRIs** y **Valores KRI** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Indicadores**.
+Puede acceder a los elementos de menú **KRIs** y **Valores KRI** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Indicadores**.
 
 #### KPI y valores de KPI
 
-`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=oormo-kpis-kpi-values)
+`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=oormo-kpis-kpi-values)
 
 Los ICR (Key Performance Indicators) son componentes del proceso de supervisión de riesgos y se utilizan para proporcionar indicadores iniciales o de retraso para condiciones de riesgo potenciales. Cada instancia de KPI dentro de la organización puede tener límites de umbral y destino exclusivos. El tipo de objeto Valor de KPI registra el valor de un objeto de KPI en un punto específico. Cree un objeto de KPI y, a continuación, periódicamente (diariamente, semanalmente, mensualmente) cree un objeto Valor de KPI para poder detectar tendencias.
 
 Un objeto KPI se puede asociar con uno o más tipos de objeto padre (como, Entidad de negocios, Control, Sistema, Proceso, Subproceso). Por lo general, crea y asocia un KPI desde la vista de tarea de un tipo de objeto principal.
 
-Puede acceder a los elementos de menú **KPIs** y **Valores de KPI** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Indicadores**.
+Puede acceder a los elementos de menú **KPIs** y **Valores de KPI** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Indicadores**.
 
 #### Eventos de pérdida
 
-`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-loss-events)
+`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-loss-events)
 
 Los eventos de pérdida se utilizan para realizar un seguimiento de las pérdidas operativas que se producen en cualquier parte de una organización. Los Eventos de pérdida se almacenan generalmente bajo la Entidad de negocios donde se ha producido la pérdida. Los objetos Evento de pérdida se utilizan para hacer seguimiento, evaluar y gestionar los datos de pérdida internos relacionados. Puede añadir varios impactos y recuperaciones a cada evento de pérdida utilizando los objetos Impacto de pérdida y Recuperación de pérdida. Los objetos Evento de pérdida, Impacto de pérdida y Recuperación de pérdida también se pueden crear en IBM® OpenPages® Loss Event Entry.
 
@@ -5836,19 +5748,19 @@ Su organización puede llamar a los eventos de pérdida «“eventos operativos�
 
 #### Impactos de pérdida
 
-`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-loss-impacts)
+`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-loss-impacts)
 
 Un impacto de pérdida es una consecuencia financiera y no financiera que resulta de un evento de pérdida. Los impactos de pérdida realizan un seguimiento de los impactos iniciados por un evento de pérdida, como la responsabilidad legal, pérdida o daños en los activos o una interrupción de la actividad del negocio. Puede haber varios impactos de pérdida asociados con cada evento de pérdida.
 
 #### Recuperaciones de pérdidas
 
-`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-loss-recoveries)
+`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-loss-recoveries)
 
 Los objetos de recuperación de pérdida se utilizan para realizar un seguimiento de los procesos asociados con la recuperación de daños que resultan de los eventos de pérdida.
 
 #### Análisis de escenario
 
-`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-scenario-analysis)
+`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-scenario-analysis)
 
 Análisis de escenario (SA) es una técnica de evaluación que se utiliza para identificar y medir la aparición potencial de sucesos de riesgo operativo o para evaluar la resiliencia operativa. A diferencia de las evaluaciones de riesgos operativos tradicionales, es un análisis de futuro «“what if”» .
 
@@ -5856,13 +5768,13 @@ El análisis de escenarios está diseñado para derivar evaluaciones razonadas d
 
 #### Resultados del caso de ejemplo
 
-`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-scenario-results)
+`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-scenario-results)
 
 Los objetos Resultado del escenario son hijos de los objetos Análisis del escenario y se utilizan para capturar los resultados de los talleres de Análisis del escenario con fines de comparación y tendencias.
 
 #### Pérdidas FIRST
 
-`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-first-losses)
+`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-first-losses)
 
 Los objetos de pérdida FIRST se pueden importar desde la base de datos de pérdida externa FIRST, para utilizarlos con análisis de escenario, benchmarking y generación de informes, y para exportar datos de pérdida a herramientas analíticas o aplicaciones de asignación de capital. Los objetos Pérdida FIRST a menudo se organizan por categorías de pérdida, como líneas de producto o tipos de evento. Por ejemplo, utilice una entidad de negocios para crear una jerarquía para los datos de la pérdida FIRST. Denomine al objeto raíz «“FIRST-data”» y cree carpetas de categoría bajo la raíz. Enlace pérdidas externas a ese objeto.
 
@@ -5874,7 +5786,7 @@ Para ver un historial de cambios, vaya a la pestaña **Actividad** del objeto.
 
 #### Pérdidas ORIC
 
-`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-oric-losses)
+`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-oric-losses)
 
 Los objetos Pérdida ORIC se pueden importar desde la base de datos de pérdida externa ORIC, para utilizarlos con análisis de escenario, benchmarking y generación de informes, y para exportar datos de pérdida a herramientas analíticas o aplicaciones de asignación de capital.
 
@@ -5886,11 +5798,11 @@ En la vista de tareas de un objeto Pérdida ORIC, puede asociar objetos padre, a
 
 Para ver un historial de cambios, vaya a la pestaña **Actividad** del objeto.
 
-Puede acceder a la opción de menú **Pérdidas ORIC** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Eventos**.
+Puede acceder a la opción de menú **Pérdidas ORIC** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Eventos**.
 
 #### Pérdidas ORX
 
-`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-orx-losses)
+`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-orx-losses)
 
 Los objetos Pérdida ORX se pueden importar desde la base de datos de pérdida externa ORX, para utilizarlos con análisis de escenario, benchmarking y generación de informes, y para exportar datos de pérdida a herramientas analíticas o aplicaciones de asignación de capital. Puede importar datos de pérdida ORX externos a OpenPages® Operational Risk Management para utilizarlos con el análisis de escenario.
 
@@ -5902,11 +5814,11 @@ En la vista de tareas de un objeto Pérdida ORX, puede asociar objetos padre e h
 
 Para ver un historial de cambios, vaya a la pestaña **Actividad** del objeto.
 
-Puede acceder a la opción de menú **Pérdidas de ORX** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Eventos**.
+Puede acceder a la opción de menú **Pérdidas de ORX** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Eventos**.
 
 #### Centros de costes
 
-`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-cost-centers)
+`Guía del usuario › Uso de objetos de OpenPages Operational Risk Management › Objetos de OpenPages Operational Risk Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-cost-centers)
 
 Los objetos del Centro de costes de  se utilizan para agrupar eventos de pérdida bajo una entidad empresarial. En muchos casos, las firmas desean hacer seguimiento donde se producen los eventos de pérdida con el más mínimo detalle, como a nivel de centro de costes, pero no desean representar todas las capas organizativas como entidades de negocios.
 
@@ -5916,11 +5828,11 @@ En la vista de tareas de un objeto de Centro de costes, puede crear, asociar o d
 
 Para ver un historial de cambios, vaya a la pestaña **Actividad** del objeto.
 
-Puede acceder a la opción de menú **Centros de costes** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Organización**.
+Puede acceder a la opción de menú **Centros de costes** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Organización**.
 
 ## Utilización de OpenPages Policy Management
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-using-openpages-policy-management)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-using-openpages-policy-management)
 
 IBM OpenPages® Policy Management (PCM) es una solución de software de gestión de conformidad empresarial que reduce el coste, la complejidad y la naturaleza engorrosa de la conformidad con varios mandatos normativos y políticas corporativas.
 
@@ -5951,11 +5863,11 @@ El PCM apoya tres enfoques para cargar inicialmente los datos de políticas y es
 
 Una vez cargados los datos de la política, un flujo de trabajo preconstruido permite a las organizaciones hacer avanzar un objeto de la política a través de un proceso de revisión y un proceso de aprobación. La política avanza en cada etapa sobre la base de los valores del estado de aprobación y publicación.
 
-Para obtener más información, consulte [OpenPages](https://www.ibm.com/docs/es/SSFUEU_9.0.0/pdf/OpenPages_PCM_Solution_v9.pdf).
+Para obtener más información, consulte [OpenPages](https://www.ibm.com/docs/es/SSFUEU_9.1/pdf/OpenPages_PCM_Solution_v91.pdf).
 
 ### Términos de IBM OpenPages Policy Management que debe conocer
 
-`Guía del usuario › Utilización de OpenPages Policy Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=management-openpages-policy-terms-you-should-know)
+`Guía del usuario › Utilización de OpenPages Policy Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=management-openpages-policy-terms-you-should-know)
 
 Este tema proporciona términos que debe conocer para utilizar IBM OpenPages® Policy Management.
 
@@ -5973,25 +5885,25 @@ Este tema proporciona términos que debe conocer para utilizar IBM OpenPages® P
 
 ### Objetos de gestión de políticas de OpenPages
 
-`Guía del usuario › Utilización de OpenPages Policy Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=management-openpages-policy-objects)
+`Guía del usuario › Utilización de OpenPages Policy Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=management-openpages-policy-objects)
 
 Este tema proporciona información sobre los objetos IBM OpenPages® Policy Management .
 
 #### Aplicabilidades del reglamento
 
-`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-regulation-applicabilities)
+`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-regulation-applicabilities)
 
 El objeto Aplicabilidad de la normativa reside en la jerarquía empresarial de la organización. Evalúa y hace seguimiento del impacto regulador de un mandato de la biblioteca en una entidad de negocios.
 
 #### Mandatos
 
-`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=opmo-mandates)
+`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=opmo-mandates)
 
 Los mandatos representan elementos externos con los que las organizaciones deben cumplir, como leyes, normativas y estándares. El contenido se puede extraer de proveedores de terceros como, por ejemplo, UCF, Ascent Reg Techo Wolters Kluwer. Los mandatos se representan en una estructura de entidades de negocios por biblioteca y no se replican para todo el sistema.
 
 #### Submandato
 
-`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-sub-mandate)
+`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-sub-mandate)
 
 Los Submandatos representan subelementos internos o externos que debe cumplir la organización.
 
@@ -5999,7 +5911,7 @@ La configuración preestablecida soporta directamente el contenido proporcionado
 
 #### Requisito
 
-`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-requirement)
+`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-requirement)
 
 El objeto Requisito detalla requisitos específicos, que se encuentran en el objeto Mandato o Submandato relacionado, que la organización necesita cumplir para estar en conformidad.
 
@@ -6009,7 +5921,7 @@ Para Ascent Reg Tech, se crea un requisito para cada tarea entrante.
 
 #### KRI y valores de KRI
 
-`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=opmo-kris-kri-values)
+`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=opmo-kris-kri-values)
 
 Los KRI (Key Risk Indicators) son componentes del proceso de supervisión de riesgos y se utilizan para proporcionar indicadores iniciales o de retraso para condiciones de riesgo potenciales. Cada instancia de KRI dentro de la organización puede tener límites de umbral y destino exclusivos. Los valores KRI se utilizan para registrar el valor real de un indicador en un punto específico en el tiempo.
 
@@ -6019,17 +5931,17 @@ Puede crear y asociar un KRI (Indicador clave de riesgo) desde la vista de tarea
 
 Los valores KRI se utilizan para registrar el valor real de un indicador en un punto específico en el tiempo.
 
-Puede acceder a los elementos de menú **KRIs** y **Valores KRI** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Indicadores**.
+Puede acceder a los elementos de menú **KRIs** y **Valores KRI** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Indicadores**.
 
 #### Incidencias
 
-`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=opmo-incidents)
+`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=opmo-incidents)
 
-Una incidencia es una aparición que tiene un efecto potencialmente adverso en la empresa. Cree un objeto Incidente para registrar información, como la persona responsable de la investigación del incidente y otros datos relacionados. El objeto Incidencia lo utiliza un flujo de trabajo para facilitar el análisis de incidencias. Las categorías que se aplican a los incidentes incluyen la Conformidad con la normativa, Conformidad legal, Seguridad de la información y TI. Las incidencias se almacenan en la entidad de negocios o activo donde se ha producido el suceso y se asocian de forma secundaria a un mandato o política afectados.
+Un incidente es un suceso que tiene un efecto potencialmente adverso en su empresa. Cree un objeto Incidente para registrar información, como la persona responsable de la investigación del incidente y otros datos relacionados. El objeto Incidencia lo utiliza un flujo de trabajo para facilitar el análisis de incidencias. Las categorías que se aplican a los incidentes incluyen la Conformidad con la normativa, Conformidad legal, Seguridad de la información y TI. Los incidentes se almacenan a menudo en la Entidad de Negocio, Activo o Modelo de Despliegue donde ocurrió el evento y se asocian secundariamente a un Mandato o Política impactada.
 
 #### Renuncias
 
-`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=opmo-waivers)
+`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=opmo-waivers)
 
 Los vencidos le ofrecen la posibilidad de documentar, procesar y gestionar el ciclo de vida de excepciones a políticas, requisitos o controles. Las exenciones se pueden asociar a entidades empresariales, políticas, procedimientos, requisitos, riesgos, controles, líneas base y activos.
 
@@ -6046,77 +5958,77 @@ Para ver un historial de cambios, vaya a la pestaña **Actividad** del objeto.
 
 #### KPI y valores de KPI
 
-`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=opmo-kpis-kpi-values)
+`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=opmo-kpis-kpi-values)
 
 Los ICR (Key Performance Indicators) son componentes del proceso de supervisión de riesgos y se utilizan para proporcionar indicadores iniciales o de retraso para condiciones de riesgo potenciales. Cada instancia de KPI dentro de la organización puede tener límites de umbral y destino exclusivos. El tipo de objeto Valor de KPI registra el valor de un objeto de KPI en un punto específico. Cree un objeto de KPI y, a continuación, periódicamente (diariamente, semanalmente, mensualmente) cree un objeto Valor de KPI para poder detectar tendencias.
 
 Un objeto KPI se puede asociar con uno o más tipos de objeto padre (como, Entidad de negocios, Control, Sistema, Proceso, Subproceso). Por lo general, crea y asocia un KPI desde la vista de tarea de un tipo de objeto principal.
 
-Puede acceder a los elementos de menú **KPIs** y **Valores de KPI** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Indicadores**.
+Puede acceder a los elementos de menú **KPIs** y **Valores de KPI** haciendo clic en **Menú principal ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_user/primary_menu_icon_task_focused_ui.png)** > **Indicadores**.
 
 #### Políticas
 
-`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=opmo-policies)
+`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=opmo-policies)
 
 Las políticas representan directrices internas adoptadas por el Consejo de Administración o el cuerpo de gobierno sénior dentro de una organización. El texto de una política puede almacenarse en los campos estandarizados en el objeto o como un archivo adjunto al objeto. Normalmente, las políticas tienen un ciclo de vida definido que va de Borrador a Publicado a Caducado, así como un proceso de revisión y aprobación. Normalmente, las políticas Borrador residen en la Jerarquía empresarial organizativa, mientras que las políticas Publicado y Caducado residen en las entidades de biblioteca de referencia. Las políticas también se correlacionan con mandatos aplicables de la biblioteca con la que están relacionadas.
 
 #### Comentario de revisión de política
 
-`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-policy-review-comment)
+`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-policy-review-comment)
 
 Los comentarios de revisión de políticas dan soporte y facilitan el proceso de revisión y aprobación de políticas y procedimientos por parte de expertos en la materia y personal de conformidad.
 
 #### Procedimientos
 
-`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=opmo-procedures)
+`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=opmo-procedures)
 
 Los procedimientos representan el qué, dónde, cuándo y cómo de cómo se implementan las políticas en una organización. El texto de los procedimientos se almacenan normalmente en los campos en el objeto. Normalmente, los procedimientos se representan como hijos de una política y residen en la misma estructura de entidad que su política padre.
 
 #### Campañas
 
-`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-campaigns)
+`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-campaigns)
 
 El objeto Campaña forma parte de la prestación Conocimiento de política y se utiliza para gestionar los aspectos de gestión de proyectos de una campaña de reconocimiento. También se utiliza para definir los requisitos y criterios que identifica qué empleados necesitan leer y autenticar cada política. Las campañas se crean generalmente en la jerarquía de políticas publicadas.
 
 #### Empleados
 
-`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-employees)
+`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-employees)
 
 El objeto Employee forma parte de la prestación Policy Awareness Ability. Se utiliza para capturar información sobre empleados individuales, como el nombre, el cargo, el correo electrónico, la región, el departamento, el estado, etc. La información del perfil del empleado se coteja después con los requisitos de atestación definidos en una campaña para determinar qué empleados necesitan testificar sobre cada política. Los datos de empleado provienen generalmente de la exportación del sistema de RRHH, cargado a través de Online FastMap, y residen en la entidad de negocios de empleado de referencia. Se recomienda que el campo Nombre de empleado coincida con el nombre de usuario del usuario.
 
 #### Atestaciones
 
-`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-attestations)
+`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-attestations)
 
 El objeto de testificación, que forma parte de la función de reconocimiento de políticas, se utiliza para capturar la afirmación de un empleado de que ha leído y comprendido una política. Un padre principal de la Atestación es el registro de empleados y el padre secundario es la campaña asociada.
 
 #### Autoridades reguladoras
 
-`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-regulators)
+`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-regulators)
 
 El objeto Regulador forma parte de la prestación Gestión de interacciones con la autoridad reguladora y proporciona a las organizaciones la capacidad de crear un único inventario de todos los reguladores con los que interactúan. Las actividades reguladoras normalmente se crean en una entidad de negocios de biblioteca. El objeto es un hijo de la entidad de negocios y se puede asociar a mandatos e interacciones con la actividad reguladora.
 
 #### Interacciones de las autoridades reguladoras, categorías de RI y solicitudes de RI
 
-`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-regulator-interactions-ri-categories-ri-requests)
+`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-regulator-interactions-ri-categories-ri-requests)
 
 El objeto Interacción con la autoridad reguladora forma parte de la prestación Gestión de interacciones con la autoridad reguladora. El objeto Interacción con la autoridad reguladora permite gestionar las interacciones, las comunicaciones, los trabajos internos, las revisiones y las aprobaciones asociadas con las autoridades reguladoras externas, como las consultas, los envíos, los archivados, los exámenes y las reuniones. Para las interacciones complejas, como por ejemplo los exámenes, puede utilizar los objetos Componente RI y Subcomponente RI para partir la interacción en componentes más pequeños o para rastrear las consultas de seguimiento procedentes de la entidad reguladora. La Interacción con la autoridad reguladora se puede correlacionar a los siguientes objetos padre: Autoridad reguladora, Mandato, Submandato, Requisito, Política, Procedimiento y Control. Estas asociaciones padre permiten a un usuario enlazar objetos que puedan estar dando problemas en la Interacción con la autoridad reguladora, e identificar a los usuarios que son relevantes para esos objetos y a los que quizás se tenga que consultar para responder a la autoridad reguladora. Se podrían asignar tareas individuales relacionadas con la gestión y respuesta a la interacción con la autoridad reguladora a usuarios a través de objetos hijo de tareas reguladoras.
 
 ##### Categorías de RI
 
-`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages › Interacciones de las autoridades reguladoras, categorías de RI y solicitudes de RI` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=requests-ri-categories)
+`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages › Interacciones de las autoridades reguladoras, categorías de RI y solicitudes de RI` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=requests-ri-categories)
 
 El objeto Componente RI (anteriormente etiquetado como Categoría RI) forma parte de la prestación Gestión de interacciones con la autoridad reguladora y se utiliza como nivel medio del modelo de objeto de tres niveles (Interacción con la autoridad reguladora, Componente RI y Subcomponente RI). El objeto se utiliza para dividir una Interacción con la autoridad reguladora compleja en registros más pequeños, más manejables o para enlazar una consulta de seguimiento de una autoridad reguladora con el objeto padre de la Interacción con la autoridad reguladora. Además, el Componente RI se puede correlacionar con los siguientes objetos padre: Mandato, Submandato, Requisito, Política, Procedimiento y Control. Estas asociaciones permiten a un usuario enlazar objetos que puedan estar dando problemas e identificar a los usuarios relevantes para esos objetos y a los que quizás se tenga que consultar para responder a la autoridad reguladora. Las tareas individuales relacionadas con la gestión y respuesta a la interacción reguladora se pueden asignar a usuarios a través de un objeto hijo de tarea reguladora.
 
 ##### Solicitudes de RI
 
-`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages › Interacciones de las autoridades reguladoras, categorías de RI y solicitudes de RI` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=requests-ri)
+`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages › Interacciones de las autoridades reguladoras, categorías de RI y solicitudes de RI` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=requests-ri)
 
 El objeto Subcomponente RI (anteriormente denominado Solicitud RI) forma parte de la prestación Gestión de interacciones con la autoridad reguladora y se utiliza como último nivel del modelo de objeto de tres niveles (Interacción con la autoridad reguladora, Componente RI y Subcomponente RI). El objeto se utiliza para dividir una Interacción con la autoridad reguladora y el componente RI en registros más pequeños y manejables. Además, el Subcomponente RI se puede correlacionar con los siguientes objetos padre: Mandato, Submandato, Requisito, Política, Procedimiento y Control. Estas asociaciones permiten a un usuario enlazar objetos que puedan estar dando problemas e identificar a los usuarios relevantes para esos objetos y a los que quizás se tenga que consultar para responder a la autoridad reguladora. Las tareas individuales relacionadas con la gestión y respuesta a la interacción reguladora se pueden asignar a usuarios a través de objetos hijo de tareas reguladoras.
 
 #### Cambios reguladores y tareas reguladoras
 
-`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-regulatory-changes-regulatory-tasks)
+`Guía del usuario › Utilización de OpenPages Policy Management › Objetos de gestión de políticas de OpenPages` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-regulatory-changes-regulatory-tasks)
 
 El objeto Cambio regulador forma parte de la capacidad de Gestión de cambios reguladores. Ofrece la capacidad de realizar un seguimiento de los cambios reguladores, evalúa el impacto de una modificación en la organización, comunica el cambio a nivel interno a las personas que correspondan y gestiona los procesos internos de respuesta al cambio.
 
@@ -6124,7 +6036,7 @@ El objeto Tarea reguladora se utiliza para asignar tareas a usuarios de OpenPage
 
 ## Utilización de IBM OpenPages Financial Controls Management
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-using-openpages-financial-controls-management)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-using-openpages-financial-controls-management)
 
 IBM® OpenPages® Financial Controls Management reduce el tiempo y los costes de recursos asociados con la conformidad continua de las normativas de informes financieros.
 
@@ -6140,19 +6052,19 @@ Sus principales características son:
 
 ### Objetos OpenPages Financial Controls Management
 
-`Guía del usuario › Utilización de IBM OpenPages Financial Controls Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=management-openpages-financial-controls-objects)
+`Guía del usuario › Utilización de IBM OpenPages Financial Controls Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=management-openpages-financial-controls-objects)
 
 Este tema proporciona información sobre los objetos OpenPages® Financial Controls Management .
 
 #### Subcuentas
 
-`Guía del usuario › Utilización de IBM OpenPages Financial Controls Management › Objetos OpenPages Financial Controls Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-sub-accounts)
+`Guía del usuario › Utilización de IBM OpenPages Financial Controls Management › Objetos OpenPages Financial Controls Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-sub-accounts)
 
 Una subcuenta representa un elemento de línea más pequeño y más específico que forma parte de una cuenta padre más grande (o de otra subcuenta). Cada objeto Subcuenta puede estar asociado a objetos Subcuenta o Cuenta padre.
 
 #### Declaraciones
 
-`Guía del usuario › Utilización de IBM OpenPages Financial Controls Management › Objetos OpenPages Financial Controls Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-assertions)
+`Guía del usuario › Utilización de IBM OpenPages Financial Controls Management › Objetos OpenPages Financial Controls Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-assertions)
 
 El objeto Declaraciones se utiliza para enlazar un control directamente con la cuenta (o subcuenta) a la que afecta y para documentar qué declaraciones cubre para una cuenta o subcuenta concreta.
 
@@ -6162,13 +6074,13 @@ Los tipos de objeto y acciones disponibles en una página depende de la configur
 
 #### Cuentas
 
-`Guía del usuario › Utilización de IBM OpenPages Financial Controls Management › Objetos OpenPages Financial Controls Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-accounts)
+`Guía del usuario › Utilización de IBM OpenPages Financial Controls Management › Objetos OpenPages Financial Controls Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-accounts)
 
 Las cuentas corresponden a una o varias líneas de detalle de un informe financiero. Cada cuenta está afectada por Procesos recurrentes. Estos procesos pueden introducir riesgos que deben documentarse durante el proyecto de documentación de controles financieros. Una cuenta se identifica como cuenta significativa en base a factores como el tamaño, la complejidad de los procesos que operan en la cuenta o si la cuenta está asociada con una nueva línea de producto dentro de la empresa. Los riesgos que podrían materializarse y que producen un efecto material sobre la cuenta se identifican mediante la consideración de los procesos que operan en la cuenta.
 
 ## Utilización de OpenPages Regulatory Compliance Management
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-regulatory-compliance-management-overview)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-regulatory-compliance-management-overview)
 
 IBM OpenPages® Regulatory Compliance Management (RCM) da soporte a las organizaciones para desglosar las normativas en un catálogo de requisitos, evaluar su impacto en la empresa y crear tareas accionables.
 
@@ -6186,7 +6098,7 @@ Puede utilizar RCM Theme Deployer para crear la estructura de temas de las entid
 
 ### Objetos de OpenPages Regulatory Compliance Management
 
-`Guía del usuario › Visión general de Regulatory Compliance Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=overview-regulatory-compliance-management-object-types)
+`Guía del usuario › Visión general de Regulatory Compliance Management` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=overview-regulatory-compliance-management-object-types)
 
 Este tema proporciona información sobre los objetos IBM OpenPages® Regulatory Compliance Management para la gestión de conformidad con la normativa.
 
@@ -6300,13 +6212,13 @@ Este tema proporciona información sobre los objetos IBM OpenPages® Regulatory 
 
 ## objetos de OpenPages Model Risk Governance
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-openpages-model-risk-governance-objects)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-openpages-model-risk-governance-objects)
 
 Este tema proporciona información sobre los objetos OpenPages® Model Risk Governance .
 
 ### OpenPages Model Risk Governance
 
-`Guía del usuario › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-openpages-model-risk-governance)
+`Guía del usuario › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-openpages-model-risk-governance)
 
 IBM OpenPages® Model Risk Governance (MRG) da soporte a las organizaciones para organizar y centralizar su inventario de modelos.
 
@@ -6366,91 +6278,91 @@ Los perfiles MRG incluyen los campos que dan soporte a la integración.
 
 ### objetos de OpenPages Model Risk Governance
 
-`Guía del usuario › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=omrgo-openpages-model-risk-governance-objects)
+`Guía del usuario › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=omrgo-openpages-model-risk-governance-objects)
 
 Este tema proporciona información sobre los objetos IBM OpenPages® Model Risk Governance .
 
 #### Solicitud de cambio
 
-`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-change-request)
+`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-change-request)
 
 El objeto Solicitud de cambio es hijo de los objetos Modelo y Despliegue de modelo y permite la creación y el seguimiento de actividades de gobierno relacionadas con los cambios en los modelos y sus despliegues. El objeto captura datos como Tipo de cambio, Descripción de cambio y Estado. Está soportado por un flujo de trabajo.
 
 #### Comité
 
-`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-committee)
+`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-committee)
 
 El objeto Comité es hijo de la entidad empresarial y permite a una organización representar grupos/comités de gobierno. Éstos pueden alinearse a continuación con los modelos y también puede ser el padre del objeto Empleado. Puede almacenar información como los Términos de referencia para un comité, la frecuencia de reuniones y el detalle del Moderador.
 
 #### Métrica
 
-`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-metric)
+`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-metric)
 
-El objeto Métrica registra la definición de una medida de rendimiento que la organización elige rastrear. Un usuario establece el Tipo de métrica, los Umbrales amarillo y rojo y otra información de la recopilación. Una Métrica es un hijo de los objetos Despliegue de modelo y Modelo.
+El objeto Métrica registra la definición de una medida de rendimiento que la organización elige rastrear. Un usuario establece el Tipo de métrica, los Umbrales amarillo y rojo y otra información de la recopilación. Una Métrica es hija de los objetos Activo, Despliegue de Modelo y Modelo.
 
 #### Valor de métrica
 
-`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-metric-value)
+`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-metric-value)
 
 El objeto Valor de métrica registra el resultado de la medida de rendimiento de métrica. Está diseñado para permitir a la organización almacenar los resultados de medida de las series temporales.
 
 #### Modelo
 
-`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-model)
+`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-model)
 
 El objeto Modelo proporciona representación de los modelos dentro de una organización. A nivel teórico, un modelo como método cuantitativo, sistema o enfoque que se aplica a teorías, técnicas y asunciones estadísticas, económicas, financieras o matemáticas para procesar datos de entrada en estimaciones cuantitativas. Dentro del objeto Modelo, se puede representar información clave del modelo, incluyendo: descripción del modelo, propiedad del modelo, estado del modelo, fechas de ciclo de vida de desarrollo, tipo de modelo y categoría, y datos de evaluación de riesgos del modelo. Un objeto Modelo es hijo de una Entidad de negocios y padre de objetos Despliegue del modelo.
 
 #### Atestación de modelo
 
-`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-model-attestation)
+`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-model-attestation)
 
 La testificación de modelo permite a una organización solicitar una validación regular o *testificación* de un modelo. El administrador de MRG crea periódicamente un conjunto de atestaciones de modelo en blanco, que se asignan a los respectivos propietarios de modelo. Cada propietario de modelo responde a un conjunto de preguntas acerca del modelo y envía su atestación de modelo.
 
 #### Entrada de modelo
 
-`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-model-input)
+`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-model-input)
 
 Si una organización desea adoptar un enfoque más granular para la documentación del modelo, el objeto Entrada de modelo proporciona la posibilidad de registrar las entradas. Los campos incluyen Propietario de entrada, Tipo, Estado y Descripción. Un objeto de Entrada de modelo también puede ser el hijo de un objeto de Salida de modelo, lo que permite crear cadenas de modelos a un nivel de detalle si el enfoque de enlace de modelo no es suficientemente granular.
 
 #### Enlace de modelo
 
-`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-model-link)
+`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-model-link)
 
 Si una organización desea adoptar un enfoque menos granular para la documentación del modelo, utilice el enlace de modelo, que es una asociación de tipo amplio que no proporciona detalles explícitos del canal de información de un modelo a otro. Actúa como hijo de varios modelos para permitir la generación de cadenas de modelos.
 
 #### Salida del modelo
 
-`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-model-output)
+`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-model-output)
 
 Si una organización desea adoptar un enfoque más granular en la documentación del modelo, el objeto Resultado del modelo proporciona la posibilidad de registrar las salidas del modelo. La finalidad prevista es registrar la descripción y visión general de la salida desde un punto de vista de gobierno.
 
 #### Tarjeta de puntuación de riesgo modelo
 
-`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-model-risk-scorecard)
+`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-model-risk-scorecard)
 
 Las evaluaciones de riesgo de modelo se realizan durante la fase de desarrollo y documentación de un modelo. También se realizan de forma periódica una vez que un modelo se encuentra en producción. El objeto Modelo de tarjeta de puntuación de riesgo se utiliza para realizar esta evaluación de riesgo. El usuario responde a una serie de preguntas sobre el modelo. Los desencadenantes de Tabla de puntuación de riesgo de modelo calculan una puntuación de riesgo y determinan el nivel de modelo.
 
 #### Caso de uso de modelo
 
-`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-model-use-case)
+`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-model-use-case)
 
 El objeto Caso de uso de modelo o Caso de uso es un hijo de Entity y un padre del objeto Modelo. El uso del objeto Caso de uso de modelo es opcional. Su finalidad principal es actuar como biblioteca de los modelos durante el desarrollo.
 
 #### Revisar
 
-`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-review)
+`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-review)
 
 El objeto de revisión se utiliza para registrar la planificación y los resultados de cualquier actividad de revisión de modelo. Es hijo de los objetos de despliegue de modelo y modelo. El objeto está pensado para capturar los resultados de revisiones realizadas preimplementación, postimplementación y realizadas por una segunda o tercera línea de defensa.
 
 #### Despliegue de modelos
 
-`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=objects-model-deployment)
+`Guía del usuario › objetos de OpenPages Model Risk Governance › objetos de OpenPages Model Risk Governance` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=objects-model-deployment)
 
 El objeto Despliegue del modelo es hijo del modelo. Se utiliza como elemento clave para registrar el despliegue de uno o más modelos.
 
 ## Utilización de OpenPages Third Party Risk Management
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-third-party-risk-management-overview)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-third-party-risk-management-overview)
 
 IBM OpenPages® Third Party Risk Management da soporte a las organizaciones en la organización y centralización de la información sobre sus proveedores.
 
@@ -6465,7 +6377,7 @@ En releases anteriores, IBM OpenPages Third Party Risk Management se denominaba 
 
 ### OpenPages Objetos de gestión de riesgos de terceros
 
-`Guía del usuario › Visión general de la gestión de riesgos de terceros` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=overview-third-party-risk-management-object-types)
+`Guía del usuario › Visión general de la gestión de riesgos de terceros` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=overview-third-party-risk-management-object-types)
 
 Este tema proporciona información sobre los objetos IBM OpenPages® Third Party Risk Management .
 
@@ -6493,14 +6405,6 @@ Este tema proporciona información sobre los objetos IBM OpenPages® Third Party
 
   Los objetos Subcontratista son objetos hijo de objetos Proveedor. Un subcontratista representa una parte de un servicio proporcionado por un proveedor. Subcontratista es un tipo de objeto opcional. Los subcontratistas pueden estar sujetos a evaluaciones de cuestionarios, evaluaciones de riesgos o niveles. Puede resumir y analizar el riesgo asociado a distintos subcontratistas. Puede añadir una asociación padre al proceso o subproceso al que da soporte un subcontratista.
 
-- **Supply Wisdom**
-
-  El objeto Supply Wisdom almacena evaluaciones de riesgo de proveedores que se importan de Supply Wisdom. El tipo de objeto Supply Wisdom tiene un padre, Vendor.
-
-- **Alerta padre de Supply Wisdom**
-
-  El objeto Alerta padre Supply Wisdom almacena datos de alerta que se importan de Supply Wisdom. La importación crea objetos de suceso de continuidad de negocio para los datos de alerta entrantes y asocia las alertas a los objetos de proveedor y ubicación correspondientes en OpenPages.
-
 - **Proveedor**
 
   Un proveedor es una empresa externa a la que una empresa adquiere bienes o servicios. Los proveedores pueden tener cuatro tipos de objetos hijo: Vendedor Filial, SubContractors, Encargos y Contratos. Los proveedores pueden estar sujetos a evaluaciones de cuestionario, evaluaciones de riesgo u organización en niveles. Puede resumir y analizar los riesgos asociados a los distintos Proveedores. Puede añadir una asociación padre al proceso o al subproceso al que da soporte el Proveedor.
@@ -6511,7 +6415,7 @@ Este tema proporciona información sobre los objetos IBM OpenPages® Third Party
 
 ## Utilización de OpenPages Business Continuity Management
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=guide-using-openpages-business-continuity-management)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=guide-using-openpages-business-continuity-management)
 
 IBM OpenPages® Business Continuity Management (BCM) es utilizado por una organización, o grupo, para mantener o reanudar un nivel predeterminado de operaciones durante o después de un suceso disruptivo. Se identifican todos los riesgos que pueden afectar potencialmente al negocio durante o después de un suceso.
 
@@ -6561,7 +6465,7 @@ Para obtener una descripción general del objeto Plan de prueba de continuidad d
 
 ## Avisos
 
-`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=ug-notices)
+`Guía del usuario` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=ug-notices)
 
 Esta información se ha desarrollado para productos y servicios que se ofrecen en Estados Unidos.
 
@@ -6591,7 +6495,7 @@ Cualquier referencia incluida en esta información a sitios Web que no sean de I
 
 IBM puede utilizar o distribuir cualquier información que se le suministre del modo que considere oportuno sin incurrir en ninguna obligación para con el remitente.
 
-Los licenciatarios de este programa que deseen obtener información sobre él con el fin de permitir: (i) el intercambio de información entre programas creados independientemente y otros programas (incluido este) y (ii) el uso mutuo de información que se haya intercambiado, deben ponerse en contacto con:
+Los licenciatarios de este programa que deseen obtener información sobre él con el fin de permitir: (i) el intercambio de información entre programas creados independientemente y otros programas (incluido este) y (ii) el uso mutuo de información que se ha intercambiado, deben ponerse en contacto con:
 
 IBM Corporation   
  Location Code IE9  
@@ -6610,7 +6514,7 @@ La información relativa a productos no IBM se ha obtenido de los proveedores de
 
 Todas las declaraciones relacionadas con futuras directrices o intenciones de IBM están sujetas a cambios o a su retirada sin previo aviso y sólo representan objetivos.
 
-Este manual contiene ejemplos de datos e informes que se utilizan en operaciones comerciales diarias. Para ilustrarlas de la forma más completa posible, los ejemplos incluyen los nombres de personas, empresas, marcas y productos. Todos estos nombres son ficticios y cualquier similitud a los nombres y direcciones que haya utilizado una empresa real es pura coincidencia.
+Esta información contiene ejemplos de datos e informes utilizados en operaciones comerciales diarias. Para ilustrarlas de la forma más completa posible, los ejemplos incluyen los nombres de personas, empresas, marcas y productos. Todos estos nombres son ficticios y cualquier similitud a los nombres y direcciones que haya utilizado una empresa real es pura coincidencia.
 
 Si ha optado por visualizar la copia software de esta información, puede que no aparezcan las fotografías y las ilustraciones a color.
 

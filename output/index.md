@@ -1,27 +1,27 @@
-# IBM OpenPages 9.0.0 — documentación en español
+# IBM OpenPages 9.1.3 — documentación en español
 
-Extracción completa de <https://www.ibm.com/docs/es/openpages/9.0.0> al 2026-09-11.
-2511 temas · 888.543 palabras · 17 archivos
+Extracción completa de <https://www.ibm.com/docs/es/openpages/9.1.x> al 2026-11-16.
+2417 temas · 873.443 palabras · 17 archivos
 
 | Nº | Archivo | Guía | Temas | Palabras |
 | --- | --- | --- | ---: | ---: |
-| `1` | [1-notas-del-release.md](1-notas-del-release.md) | Notas del release | 1 | 176 |
-| `2` | [2-caracteristicas-nuevas.md](2-caracteristicas-nuevas.md) | Características nuevas | 92 | 41.900 |
-| `3.1` | [3.1-guia-del-administrador.md](3.1-guia-del-administrador.md) | Guía del administrador | 166 | 65.882 |
-| `3.2` | [3.2-guia-del-administrador.md](3.2-guia-del-administrador.md) | Guía del administrador | 144 | 80.963 |
-| `3.3` | [3.3-guia-del-administrador.md](3.3-guia-del-administrador.md) | Guía del administrador | 232 | 84.271 |
-| `3.4` | [3.4-guia-del-administrador.md](3.4-guia-del-administrador.md) | Guía del administrador | 285 | 79.118 |
-| `3.5` | [3.5-guia-del-administrador.md](3.5-guia-del-administrador.md) | Guía del administrador | 157 | 73.979 |
-| `3.6` | [3.6-guia-del-administrador.md](3.6-guia-del-administrador.md) | Guía del administrador | 160 | 56.429 |
-| `4` | [4-guia-del-usuario.md](4-guia-del-usuario.md) | Guía del usuario | 250 | 70.345 |
-| `5.1` | [5.1-guia-de-instalacion-y-despliegue-solo-local.md](5.1-guia-de-instalacion-y-despliegue-solo-local.md) | Guía de instalación y despliegue (sólo local) | 242 | 76.626 |
-| `5.2` | [5.2-guia-de-instalacion-y-despliegue-solo-local.md](5.2-guia-de-instalacion-y-despliegue-solo-local.md) | Guía de instalación y despliegue (sólo local) | 267 | 76.775 |
-| `6` | [6-guia-de-actualizacion-para-db2-solo-en-local.md](6-guia-de-actualizacion-para-db2-solo-en-local.md) | Guía de actualización para Db2 (solo en local) | 67 | 24.123 |
-| `7` | [7-guia-de-actualizacion-para-oracle-solo-en-local.md](7-guia-de-actualizacion-para-oracle-solo-en-local.md) | Guía de actualización para Oracle (solo en local) | 65 | 20.894 |
-| `8` | [8-guia-de-soluciones.md](8-guia-de-soluciones.md) | Guía de soluciones | 116 | 66.366 |
-| `9` | [9-guia-del-desarrollador.md](9-guia-del-desarrollador.md) | Guía del desarrollador | 14 | 7.359 |
-| `10` | [10-guia-del-creador-de-informes.md](10-guia-del-creador-de-informes.md) | Guía del creador de informes | 252 | 63.238 |
-| `11` | [11-pdf.md](11-pdf.md) | PDF | 1 | 99 |
+| `1` | [1-notas-del-release.md](1-notas-del-release.md) | Notas del release | 1 | 155 |
+| `2` | [2-caracteristicas-nuevas.md](2-caracteristicas-nuevas.md) | Características nuevas | 47 | 34.252 |
+| `3.1` | [3.1-guia-del-administrador.md](3.1-guia-del-administrador.md) | Guía del administrador | 215 | 76.447 |
+| `3.2` | [3.2-guia-del-administrador.md](3.2-guia-del-administrador.md) | Guía del administrador | 108 | 81.089 |
+| `3.3` | [3.3-guia-del-administrador.md](3.3-guia-del-administrador.md) | Guía del administrador | 225 | 78.957 |
+| `3.4` | [3.4-guia-del-administrador.md](3.4-guia-del-administrador.md) | Guía del administrador | 298 | 74.951 |
+| `3.5` | [3.5-guia-del-administrador.md](3.5-guia-del-administrador.md) | Guía del administrador | 150 | 73.260 |
+| `3.6` | [3.6-guia-del-administrador.md](3.6-guia-del-administrador.md) | Guía del administrador | 155 | 55.018 |
+| `4` | [4-guia-del-usuario.md](4-guia-del-usuario.md) | Guía del usuario | 238 | 70.744 |
+| `5.1` | [5.1-guia-de-instalacion-y-despliegue-solo-local.md](5.1-guia-de-instalacion-y-despliegue-solo-local.md) | Guía de instalación y despliegue (sólo local) | 224 | 72.610 |
+| `5.2` | [5.2-guia-de-instalacion-y-despliegue-solo-local.md](5.2-guia-de-instalacion-y-despliegue-solo-local.md) | Guía de instalación y despliegue (sólo local) | 250 | 72.148 |
+| `6` | [6-guia-de-actualizacion-para-db2-solo-en-local.md](6-guia-de-actualizacion-para-db2-solo-en-local.md) | Guía de actualización para Db2 (solo en local) | 67 | 25.121 |
+| `7` | [7-guia-de-actualizacion-para-oracle-solo-en-local.md](7-guia-de-actualizacion-para-oracle-solo-en-local.md) | Guía de actualización para Oracle (solo en local) | 63 | 20.542 |
+| `8` | [8-guia-de-soluciones.md](8-guia-de-soluciones.md) | Guía de soluciones | 105 | 62.179 |
+| `9` | [9-guia-del-desarrollador.md](9-guia-del-desarrollador.md) | Guía del desarrollador | 18 | 12.655 |
+| `10` | [10-guia-del-creador-de-informes.md](10-guia-del-creador-de-informes.md) | Guía del creador de informes | 252 | 63.211 |
+| `11` | [11-pdf.md](11-pdf.md) | PDF | 1 | 104 |
 
 ## Cómo leer este paquete
 
@@ -32,7 +32,7 @@ Extracción completa de <https://www.ibm.com/docs/es/openpages/9.0.0> al 2026-09
   ubica el tema en el árbol y `[origen]` enlaza al tema en ibm.com, que es donde se
   verifica. Sirve sobre todo cuando un buscador devuelve un trozo suelto del archivo.
 - **`Se aplica a:`** al inicio de un tema dice a qué despliegue aplica —local, en cloud,
-  Cloud Pak for Data—. El 31% de los temas lo declara.
+  Cloud Pak for Data—. Cerca de un tercio de los temas lo declara.
 - **Las figuras se enlazan a ibm.com**, que es donde se verifican, y conservan su texto
   alternativo en español, que es lo que un modelo puede leer de ellas. Ojo: IBM responde
   403 a las peticiones de figuras que no vienen de su sitio, así que el enlace vale como
@@ -47,9 +47,9 @@ Extracción completa de <https://www.ibm.com/docs/es/openpages/9.0.0> al 2026-09
   IBM Documentation, sin modelo de lenguaje de por medio. Las erratas del original se
   conservan.
 
-## Temas que IBM no lista en su índice (46)
+## Temas que IBM no lista en su índice (44)
 
-IBM los enlaza desde el texto de otros temas pero no los pone en su árbol de contenidos. Se encontraron siguiendo los enlaces internos; son 194.362 caracteres y están al final de la guía a la que pertenecen.
+IBM los enlaza desde el texto de otros temas pero no los pone en su árbol de contenidos. Se encontraron siguiendo los enlaces internos; son 186.701 caracteres y están al final de la guía a la que pertenecen.
 
 | Tema | Archivo |
 | --- | --- |
@@ -70,7 +70,6 @@ IBM los enlaza desde el texto de otros temas pero no los pone en su árbol de co
 | Adición de una sección | [3.6-guia-del-administrador.md](3.6-guia-del-administrador.md#adición-de-una-sección) |
 | Aplicación de etiquetas de campo alternativas | [3.6-guia-del-administrador.md](3.6-guia-del-administrador.md#aplicación-de-etiquetas-de-campo-alternativas) |
 | Aplicación del formato básico a un texto | [3.6-guia-del-administrador.md](3.6-guia-del-administrador.md#aplicación-del-formato-básico-a-un-texto) |
-| Asociación de objetos utilizando la vista de administración | [3.6-guia-del-administrador.md](3.6-guia-del-administrador.md#asociación-de-objetos-utilizando-la-vista-de-administración) |
 | Copia de una vista | [3.6-guia-del-administrador.md](3.6-guia-del-administrador.md#copia-de-una-vista) |
 | Creación de un filtro de relaciones compartidas | [3.6-guia-del-administrador.md](3.6-guia-del-administrador.md#creación-de-un-filtro-de-relaciones-compartidas) |
 | Cómo se muestran los elementos clave y las acciones de flujo de trabajo en la orientación de usuario | [3.6-guia-del-administrador.md](3.6-guia-del-administrador.md#cómo-se-muestran-los-elementos-clave-y-las-acciones-de-flujo-de-trabajo-en-la-orientación-de-usuario) |
@@ -96,7 +95,6 @@ IBM los enlaza desde el texto de otros temas pero no los pone en su árbol de co
 | Integración de OpenPages con la seguridad de IBM® WebSphere Liberty | [9-guia-del-desarrollador.md](9-guia-del-desarrollador.md#integración-de-openpages-con-la-seguridad-de-ibm-websphere-liberty) |
 | OpenPages TIPOS DE DESPLIEGUE | [3.6-guia-del-administrador.md](3.6-guia-del-administrador.md#openpages-tipos-de-despliegue) |
 | Organización de campos de relaciones en grupos de pestañas | [3.6-guia-del-administrador.md](3.6-guia-del-administrador.md#organización-de-campos-de-relaciones-en-grupos-de-pestañas) |
-| Vistas de administrador | [3.6-guia-del-administrador.md](3.6-guia-del-administrador.md#vistas-de-administrador) |
 | Visualización de información de depuración | [3.6-guia-del-administrador.md](3.6-guia-del-administrador.md#visualización-de-información-de-depuración) |
 | Visualización de un campo de iniciador de URL como un botón o un enlace | [3.6-guia-del-administrador.md](3.6-guia-del-administrador.md#visualización-de-un-campo-de-iniciador-de-url-como-un-botón-o-un-enlace) |
 
@@ -104,23 +102,23 @@ IBM los enlaza desde el texto de otros temas pero no los pone en su árbol de co
 
 IBM lo publica como archivo suelto, no como tema. No entra al corpus y se enlaza a su origen.
 
-- [GRC_REST_API.pdf](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_dev/GRC_REST_API.pdf)
-- [Trigger_Developer_Guide.pdf](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_dev/Trigger_Developer_Guide.pdf)
-- [op_grc_rest_api_html.zip](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_dev/op_grc_rest_api_html.zip)
-- [op_sdk_javadoc_9.0.zip](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_dev/op_sdk_javadoc_9.0.zip)
-- [op_sdk_rest_samples.zip](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_dev/op_sdk_rest_samples.zip)
-- [swagger2.json](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_dev/swagger2.json)
-- [OpenPages_PCM_Solution_v9.pdf](https://www.ibm.com/docs/es/SSFUEU_9.0.0/pdf/OpenPages_PCM_Solution_v9.pdf)
-- [OpenPages_TPRM_Solution_v9.pdf](https://www.ibm.com/docs/es/SSFUEU_9.0.0/pdf/OpenPages_TPRM_Solution_v9.pdf)
-- [Release_Notes.pdf](https://www.ibm.com/docs/es/SSFUEU_9.0.0/pdf/Release_Notes.pdf)
-- [Report_Authors_Guide.pdf](https://www.ibm.com/docs/es/SSFUEU_9.0.0/pdf/Report_Authors_Guide.pdf)
-- [administrators_guide.pdf](https://www.ibm.com/docs/es/SSFUEU_9.0.0/pdf/administrators_guide.pdf)
-- [op_installation_guide.pdf](https://www.ibm.com/docs/es/SSFUEU_9.0.0/pdf/op_installation_guide.pdf)
-- [op_new_features.pdf](https://www.ibm.com/docs/es/SSFUEU_9.0.0/pdf/op_new_features.pdf)
-- [op_solutions_guide.pdf](https://www.ibm.com/docs/es/SSFUEU_9.0.0/pdf/op_solutions_guide.pdf)
-- [op_user_guide.pdf](https://www.ibm.com/docs/es/SSFUEU_9.0.0/pdf/op_user_guide.pdf)
-- [upgrade_guide_for_db2.pdf](https://www.ibm.com/docs/es/SSFUEU_9.0.0/pdf/upgrade_guide_for_db2.pdf)
-- [upgrade_guide_for_oracle.pdf](https://www.ibm.com/docs/es/SSFUEU_9.0.0/pdf/upgrade_guide_for_oracle.pdf)
+- [GRC_REST_API.pdf](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_dev/GRC_REST_API.pdf)
+- [Trigger_Developer_Guide.pdf](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_dev/Trigger_Developer_Guide.pdf)
+- [op_grc_rest_api_html.zip](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_dev/op_grc_rest_api_html.zip)
+- [op_sdk_javadoc_9.1.zip](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_dev/op_sdk_javadoc_9.1.zip)
+- [op_sdk_rest_samples.zip](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_dev/op_sdk_rest_samples.zip)
+- [swagger2.json](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_dev/swagger2.json)
+- [OpenPages_PCM_Solution_v91.pdf](https://www.ibm.com/docs/es/SSFUEU_9.1/pdf/OpenPages_PCM_Solution_v91.pdf)
+- [OpenPages_TPRM_Solution_v91.pdf](https://www.ibm.com/docs/es/SSFUEU_9.1/pdf/OpenPages_TPRM_Solution_v91.pdf)
+- [Release_Notes.pdf](https://www.ibm.com/docs/es/SSFUEU_9.1/pdf/Release_Notes.pdf)
+- [Report_Authors_Guide.pdf](https://www.ibm.com/docs/es/SSFUEU_9.1/pdf/Report_Authors_Guide.pdf)
+- [administrators_guide.pdf](https://www.ibm.com/docs/es/SSFUEU_9.1/pdf/administrators_guide.pdf)
+- [op_installation_guide.pdf](https://www.ibm.com/docs/es/SSFUEU_9.1/pdf/op_installation_guide.pdf)
+- [op_new_features.pdf](https://www.ibm.com/docs/es/SSFUEU_9.1/pdf/op_new_features.pdf)
+- [op_solutions_guide.pdf](https://www.ibm.com/docs/es/SSFUEU_9.1/pdf/op_solutions_guide.pdf)
+- [op_user_guide.pdf](https://www.ibm.com/docs/es/SSFUEU_9.1/pdf/op_user_guide.pdf)
+- [upgrade_guide_for_db2.pdf](https://www.ibm.com/docs/es/SSFUEU_9.1/pdf/upgrade_guide_for_db2.pdf)
+- [upgrade_guide_for_oracle.pdf](https://www.ibm.com/docs/es/SSFUEU_9.1/pdf/upgrade_guide_for_oracle.pdf)
 
 ## Cómo elegir archivo
 
@@ -128,133 +126,133 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
 
 ### `1` · Notas del release
 
-[1-notas-del-release.md](1-notas-del-release.md) · 1 tema (0 procedimientos, 0 tablas) · 176 palabras · actualizado 2025-02-13
+[1-notas-del-release.md](1-notas-del-release.md) · 1 tema (0 procedimientos, 0 tablas) · 155 palabras · actualizado 2026-01-20
 
 **Capítulos:** Notas del release.
 
 ### `2` · Características nuevas
 
-[2-caracteristicas-nuevas.md](2-caracteristicas-nuevas.md) · 92 temas (0 procedimientos, 8 tablas) · 41.900 palabras · se aplica a En cloud · actualizado 2025-02-13
+[2-caracteristicas-nuevas.md](2-caracteristicas-nuevas.md) · 47 temas (0 procedimientos, 8 tablas) · 34.252 palabras · se aplica a En cloud · actualizado 2026-02-11
 
-**Capítulos:** Características nuevas · Novedades de la versión 9.0.0.5 · Novedades de la versión 9.0.0.4 · Características nuevas de la versión 9.0.0.3 · Características nuevas de la versión 9.0.0.2 · Características nuevas de la versión 9.0.0.1 · Características nuevas de la versión 9.0.0 · Características nuevas de la versión 8.3.0.2 · Características nuevas de la versión 8.3.0.1 · Nuevas características en la versión 8.3.0 · Nuevas características en la versión 8.2.0.4 · Nuevas características en la versión 8.2.0.3 · Nuevas características en la versión 8.2.0.2 · Nuevas características en la versión 8.2.0.1 · Características nuevas de la versión 8.2.0 · Avisos.
+**Capítulos:** Características nuevas · Nuevas características de la versión 9.1.3 · Novedades de la versión 9.1.2 · Novedades de la versión 9.1.1 · Nuevas características en la versión 9.1.0 · Novedades de la versión 9.0.0.5 · Novedades de la versión 9.0.0.4 · Características nuevas de la versión 9.0.0.3 · Características nuevas de la versión 9.0.0.2 · Características nuevas de la versión 9.0.0.1 · Características nuevas de la versión 9.0.0 · Características nuevas de la versión 8.3.0.2 · Características nuevas de la versión 8.3.0.1 · Nuevas características en la versión 8.3.0 · Avisos.
 
-**Términos:** regulador, certificación, subcertificación, maestro, conformidad, sysview, cuadrícula, ámbito, sector, ascent, master, continuidad, supply, anualizado.
+**Términos:** risklens, supply, wisdom, cuadrícula, conformidad, sysview, anualizado, etapa, maestro, ámbito, mejorado, comentarios, respuestas, rapidratings.
 
 ### `3.1` · Guía del administrador
 
-[3.1-guia-del-administrador.md](3.1-guia-del-administrador.md) · 166 temas (71 procedimientos, 88 tablas) · 65.882 palabras · se aplica a De forma local, Todos los tipos de despliegue, Cloud Pak for Data · actualizado 2025-09-26
+[3.1-guia-del-administrador.md](3.1-guia-del-administrador.md) · 215 temas (111 procedimientos, 58 tablas) · 76.447 palabras · se aplica a De forma local, Todos los tipos de despliegue, Cloud Pak for Data · actualizado 2026-08-20
 
-**Capítulos:** Guía del administrador · IBM OpenPages · Novedades · Modo de administración del sistema (SAM) · Usuarios, grupos y dominios · Seguridad · Gestión del esquema de elaboración de informes · Gestión de informes · Gestión de archivos de sistema.
+**Capítulos:** Guía del administrador · IBM OpenPages · Modo de administración del sistema (SAM) · Usuarios, grupos y dominios · Seguridad · Gestión del esquema de elaboración de informes · Gestión de informes · Gestión de archivos de sistema · Campos y grupos de campos.
 
-**Términos:** cifrado, restrict, ldap, extend, delegar, fórmula, historia, roles, algoritmo, accesos, opadministrators, suministro, otorga, read.
+**Términos:** restrict, regla, ldap, extend, accesos, delegar, fórmula, selector, oauth, historia, roles, otorga, opadministrators, multivalor.
 
 ### `3.2` · Guía del administrador
 
-[3.2-guia-del-administrador.md](3.2-guia-del-administrador.md) · 144 temas (95 procedimientos, 37 tablas) · 80.963 palabras · se aplica a Todos los tipos de despliegue · actualizado 2025-09-26
+[3.2-guia-del-administrador.md](3.2-guia-del-administrador.md) · 108 temas (63 procedimientos, 50 tablas) · 81.089 palabras · se aplica a Todos los tipos de despliegue · actualizado 2026-08-20
 
-**Capítulos:** Campos y grupos de campos · Tipos de objeto · Perfiles · Configuración de la interfaz de usuario · Vistas · Configurar el comentario de objetos.
+**Capítulos:** Tipos de objeto · Perfiles · Configuración de la interfaz de usuario · Vistas · Configurar el comentario de objetos · Configuración de GRC Calculations.
 
-**Términos:** relación, cuadrícula, filtro, colores, paleta, selector, rangos, gráfico, reserva, diseñador, controlador, clasificador, submenú, dependiente.
+**Términos:** cuadrícula, relación, paleta, regla, diseñador, reserva, colores, pestañas, clasificador, hermanos, dependiente, submenú, controlador, expresión.
 
 ### `3.3` · Guía del administrador
 
-[3.3-guia-del-administrador.md](3.3-guia-del-administrador.md) · 232 temas (67 procedimientos, 54 tablas) · 84.271 palabras · se aplica a De forma local · actualizado 2025-10-09
+[3.3-guia-del-administrador.md](3.3-guia-del-administrador.md) · 225 temas (64 procedimientos, 30 tablas) · 78.957 palabras · se aplica a De forma local, Todos los tipos de despliegue · actualizado 2026-08-20
 
-**Capítulos:** Configuración de GRC Calculations · Configuración de flujos de trabajo · Planificador · Localización de texto · Periodos de elaboración de informes, restablecimientos de objeto y conjuntos de reglas · Visualización de la página Configuración y valores.
+**Capítulos:** Configuración de flujos de trabajo · Planificador · Localización de texto · Periodos de elaboración de informes, restablecimientos de objeto y conjuntos de reglas · Visualización de la página Configuración y valores · Optimizar la búsqueda global.
 
-**Términos:** etapa, ancestro, foco, relacionado, vencimiento, relación, workflow, directo, suscriptores, aplicabilidad, descendiente, expresión, clamav, macos.
+**Términos:** etapa, vencimiento, ancestro, foco, suscriptores, recordatorios, descendiente, relación, restablecimiento, relacionado, clamav, workflow, macos, directo.
 
 ### `3.4` · Guía del administrador
 
-[3.4-guia-del-administrador.md](3.4-guia-del-administrador.md) · 285 temas (183 procedimientos, 58 tablas) · 79.118 palabras · se aplica a De forma local, En cloud · actualizado 2025-09-26
+[3.4-guia-del-administrador.md](3.4-guia-del-administrador.md) · 298 temas (190 procedimientos, 60 tablas) · 74.951 palabras · se aplica a De forma local, En cloud · actualizado 2026-08-20
 
-**Capítulos:** Optimizar la búsqueda global · Utilización de programas de utilidad de IBM OpenPages con bases de datos Db2 · Utilización de programas de utilidad de IBM OpenPages con bases de datos Oracle · Mantenimiento del sistema · Iniciar y detener servidores.
+**Capítulos:** Utilización de programas de utilidad de IBM OpenPages con bases de datos Db2 · Utilización de programas de utilidad de IBM OpenPages con bases de datos Oracle · Mantenimiento del sistema · Iniciar y detener servidores · Migración de entornos de OpenPages.
 
-**Términos:** certificado, opbackup, restauración, compresión, puerto, emisora, oprestore, shell, apache, concatenación, ikeyman, fuerte, solr, inesperados.
+**Términos:** certificado, puerto, opbackup, restauración, emisora, compresión, backup, shell, concatenación, ikeyman, fuerte, oprestore, caja, asíncronos.
 
 ### `3.5` · Guía del administrador
 
-[3.5-guia-del-administrador.md](3.5-guia-del-administrador.md) · 157 temas (61 procedimientos, 40 tablas) · 73.979 palabras · se aplica a De forma local, Todos los tipos de despliegue · actualizado 2025-09-26
+[3.5-guia-del-administrador.md](3.5-guia-del-administrador.md) · 150 temas (60 procedimientos, 33 tablas) · 73.260 palabras · se aplica a De forma local · actualizado 2026-08-20
 
-**Capítulos:** Migración de entornos de OpenPages · Cargar datos en ' OpenPages ' con ObjectManager · Importación de datos de objetos a OpenPages con FastMap · Configuración y generación del entorno de elaboración de informes · IBM OpenPages conectores · Iniciación a las evaluaciones de cuestionario · OpenPages Entrada de evento de pérdida · Configurando integraciones · IBM OpenPages Data Privacy Management · IBM OpenPages IT Governance con RiskLens · IBM OpenPages Model Risk Governance.
+**Capítulos:** Cargar datos en ' OpenPages ' con ObjectManager · Importación de datos de objetos a OpenPages con FastMap · Configuración y generación del entorno de elaboración de informes · IBM OpenPages conectores · Iniciación a las evaluaciones de cuestionario · OpenPages Entrada de evento de pérdida · Configurando integraciones · IBM OpenPages Data Privacy Management · IBM OpenPages Model Risk Governance.
 
-**Términos:** dump, hoja, watsonx, factsheets, rabbitmq, risklens, clasificador, libro, triaje, jsonata, exporta, understanding, learning, recursivos.
+**Términos:** dump, hoja, watsonx, amazon, clasificador, sagemaker, jsonata, objectmanager, rabbitmq, libro, exporta, factsheets, triaje, understanding.
 
 ### `3.6` · Guía del administrador
 
-[3.6-guia-del-administrador.md](3.6-guia-del-administrador.md) · 160 temas (84 procedimientos, 12 tablas) · 56.429 palabras · se aplica a Todos los tipos de despliegue, De forma local, Cloud Pak for Data, En cloud · actualizado 2025-09-26
+[3.6-guia-del-administrador.md](3.6-guia-del-administrador.md) · 155 temas (80 procedimientos, 14 tablas) · 55.018 palabras · se aplica a De forma local, Todos los tipos de despliegue, En cloud, Cloud Pak for Data, Como servicio · actualizado 2026-08-20
 
-**Capítulos:** Configuración de IBM OpenPages Regulatory Compliance Management · Configuración de IBM OpenPages Gestión de riesgos de terceros · El gestor de notificaciones · Propiedades y parámetros · Resolución de problemas y soporte para IBM OpenPages · Mejores prácticas para configurar IBM OpenPages · Creación de acciones personalizadas para flujos de trabajo de GRC · Información personal procesada y almacenada por OpenPages · Características heredadas · Avisos · Adición de orientación del usuario · Adición de orientación en línea · Adición de reglas a campos de relación · Adición de un campo de clasificador que hace sugerencias sobre asociación de objetos · Adición de un campo de clasificador que haga sugerencias sobre taxonomía · Adición de un diagrama de gráfico · Adición de un diagrama de árbol · Adición de un diseño de cuadrícula · Adición de un diseño de tarjeta · Adición de un recuento · Adición de una acción Añadir · Adición de una acción Copia recurrente · Adición de una acción Establecer padre primario · Adición de una acción Suprimir · Adición de una sección · Aplicación de etiquetas de campo alternativas · Aplicación del formato básico a un texto · Asociación de objetos utilizando la vista de administración · Copia de una vista · Creación de un filtro de relaciones compartidas · Cómo se muestran los elementos clave y las acciones de flujo de trabajo en la orientación de usuario · Definición de filtros dinámicos sobre acciones en campos de relación · Definición de filtros predeterminados en Vistas de cuadrícula · Definición de reglas Editable y de Solo lectura · Definición de reglas visibles y ocultas · Definición de una cabecera de vista de tarea · Definición de una vista de administrador · Definición de una vista de creación · Definición de una vista de cuadrícula · Definición de una vista de informe · Definición de una vista de tarea · Definición de vistas de creación para tipos de objetos de archivo · Definición de vistas de tareas para tipos de objetos de archivo · Diseño de una vista de creación · Diseño de una vista de cuadrícula · Diseño de una vista de tarea · Distribución de los campos en columnas · Ejemplos de diagrama de gráfico · Habilitación e inhabilitación de la búsqueda global · Inhabilitación de activadores al migrar entornos · OpenPages TIPOS DE DESPLIEGUE · Organización de campos de relaciones en grupos de pestañas · Vistas de administrador · Visualización de información de depuración · Visualización de un campo de iniciador de URL como un botón o un enlace.
+**Capítulos:** Configuración de IBM OpenPages Regulatory Compliance Management · Configuración de IBM OpenPages Gestión de riesgos de terceros · El gestor de notificaciones · Propiedades y parámetros · Resolución de problemas y soporte para IBM OpenPages · Mejores prácticas para configurar IBM OpenPages · Creación de acciones personalizadas para flujos de trabajo de GRC · Información personal procesada y almacenada por OpenPages · Características heredadas · Avisos · Adición de orientación del usuario · Adición de orientación en línea · Adición de reglas a campos de relación · Adición de un campo de clasificador que hace sugerencias sobre asociación de objetos · Adición de un campo de clasificador que haga sugerencias sobre taxonomía · Adición de un diagrama de gráfico · Adición de un diagrama de árbol · Adición de un diseño de cuadrícula · Adición de un diseño de tarjeta · Adición de un recuento · Adición de una acción Añadir · Adición de una acción Copia recurrente · Adición de una acción Establecer padre primario · Adición de una acción Suprimir · Adición de una sección · Aplicación de etiquetas de campo alternativas · Aplicación del formato básico a un texto · Copia de una vista · Creación de un filtro de relaciones compartidas · Cómo se muestran los elementos clave y las acciones de flujo de trabajo en la orientación de usuario · Definición de filtros dinámicos sobre acciones en campos de relación · Definición de filtros predeterminados en Vistas de cuadrícula · Definición de reglas Editable y de Solo lectura · Definición de reglas visibles y ocultas · Definición de una cabecera de vista de tarea · Definición de una vista de administrador · Definición de una vista de creación · Definición de una vista de cuadrícula · Definición de una vista de informe · Definición de una vista de tarea · Definición de vistas de creación para tipos de objetos de archivo · Definición de vistas de tareas para tipos de objetos de archivo · Diseño de una vista de creación · Diseño de una vista de cuadrícula · Diseño de una vista de tarea · Distribución de los campos en columnas · Ejemplos de diagrama de gráfico · Habilitación e inhabilitación de la búsqueda global · Inhabilitación de activadores al migrar entornos · OpenPages TIPOS DE DESPLIEGUE · Organización de campos de relaciones en grupos de pestañas · Visualización de información de depuración · Visualización de un campo de iniciador de URL como un botón o un enlace.
 
-**Términos:** relación, cuadrícula, sftp, track, canales, filtro, reguladores, taxonomía, thomson, reuters, wolters, kluwer, paleta, antiguos.
+**Términos:** relación, taxonomía, cuadrícula, sftp, track, canales, thomson, reuters, regla, reguladores, clasificador, paleta, wolters, kluwer.
 
 ### `4` · Guía del usuario
 
-[4-guia-del-usuario.md](4-guia-del-usuario.md) · 250 temas (75 procedimientos, 26 tablas) · 70.345 palabras · se aplica a En cloud · actualizado 2025-09-26
+[4-guia-del-usuario.md](4-guia-del-usuario.md) · 238 temas (76 procedimientos, 14 tablas) · 70.744 palabras · se aplica a En cloud, De forma local · actualizado 2026-08-20
 
-**Capítulos:** Guía del usuario · Novedades · Cómo empezar con la interfaz de usuario · Su cuadro de mandos · Trabajo con objetos · Creación y asociación de objetos · Utilización de filtros en vistas de cuadrícula · Búsqueda global · Trabajar con archivos y enlaces · Trabajar con informes · Cuestionarios · Aplicación de firmas y bloqueos · Utilización de objetos de OpenPages Platform · Utilización de OpenPages Internal Audit Management (IAM) · Utilización de OpenPages IT Governance (ITG) · Uso de objetos de OpenPages Operational Risk Management · Utilización de OpenPages Policy Management · Utilización de IBM OpenPages Financial Controls Management · Utilización de OpenPages Regulatory Compliance Management · objetos de OpenPages Model Risk Governance · Utilización de OpenPages Third Party Risk Management · Utilización de OpenPages Business Continuity Management · Avisos.
+**Capítulos:** Guía del usuario · Cómo empezar con la interfaz de usuario · Su cuadro de mandos · Trabajo con objetos · Creación y asociación de objetos · Visualización del riesgo y el cumplimiento mediante Canvas · Utilización de filtros en vistas de cuadrícula · Búsqueda global · Trabajar con archivos y enlaces · Trabajar con informes · Cuestionarios · Aplicación de firmas y bloqueos · Utilización de objetos de OpenPages Platform · Utilización de OpenPages Internal Audit Management (IAM) · Utilización de OpenPages IT Governance (ITG) · Uso de objetos de OpenPages Operational Risk Management · Utilización de OpenPages Policy Management · Utilización de IBM OpenPages Financial Controls Management · Utilización de OpenPages Regulatory Compliance Management · objetos de OpenPages Model Risk Governance · Utilización de OpenPages Third Party Risk Management · Utilización de OpenPages Business Continuity Management · Avisos.
 
-**Términos:** cuadrícula, encuestado, filtro, subsecciones, conformidad, respuestas, comentarios, subsección, reguladora, vencimiento, masivo, reguladores, inserta, gráfico.
+**Términos:** cuadrícula, encuestado, conformidad, reguladora, vencimiento, respuestas, masivo, subsecciones, comentarios, subsección, reguladores, paneles, inserta, relación.
 
 ### `5.1` · Guía de instalación y despliegue (sólo local)
 
-[5.1-guia-de-instalacion-y-despliegue-solo-local.md](5.1-guia-de-instalacion-y-despliegue-solo-local.md) · 242 temas (130 procedimientos, 57 tablas) · 76.626 palabras · se aplica a De forma local · actualizado 2025-04-02
+[5.1-guia-de-instalacion-y-despliegue-solo-local.md](5.1-guia-de-instalacion-y-despliegue-solo-local.md) · 224 temas (129 procedimientos, 36 tablas) · 72.610 palabras · se aplica a De forma local · actualizado 2026-08-20
 
-**Capítulos:** Guía de instalación y despliegue (sólo local) · Cómo empezar · Novedades · Visión general de OpenPages · Requisitos previos de instalación · Servidor de instalación y aplicación de OpenPages · Instalar IBM OpenPages · Migrar a una nueva versión de IBM OpenPages.
+**Capítulos:** Guía de instalación y despliegue (sólo local) · Cómo empezar · Visión general de OpenPages · Requisitos previos de instalación · Servidor de instalación y aplicación de OpenPages · Instalar IBM OpenPages · Migrar a una nueva versión de IBM OpenPages.
 
-**Términos:** agente, instant, client, puerto, instale, clúster, search, remoto, host, server, fixpack, text, installation, jdbc.
+**Términos:** instant, client, puerto, agente, instale, remoto, semeru, clúster, instalado, search, tiempos, host, installation, equilibrador.
 
 ### `5.2` · Guía de instalación y despliegue (sólo local)
 
-[5.2-guia-de-instalacion-y-despliegue-solo-local.md](5.2-guia-de-instalacion-y-despliegue-solo-local.md) · 267 temas (166 procedimientos, 24 tablas) · 76.775 palabras · se aplica a De forma local, En cloud, Cloud Pak for Data · actualizado 2025-04-02
+[5.2-guia-de-instalacion-y-despliegue-solo-local.md](5.2-guia-de-instalacion-y-despliegue-solo-local.md) · 250 temas (154 procedimientos, 21 tablas) · 72.148 palabras · se aplica a De forma local, En cloud, Cloud Pak for Data · actualizado 2026-08-20
 
-**Capítulos:** Referencia de tareas de migración para bases de datos Db2 · Referencia de tareas de migración para bases de datos Oracle · Tareas posteriores a la migración de las soluciones de OpenPages · Fixpacks · Iniciar y detener servidores · Integración de inicio de sesión único para el servidor de aplicaciones OpenPages · integración de QRadar · IBM OpenPages SDI Connector for UCF Common Controls Hub · Entrada de evento de pérdida · Desinstalación OpenPages · Instalaciones silenciosas · Instalar OpenPages utilizando Docker · Tareas adicionales · Resolución de problemas · Avisos.
+**Capítulos:** Referencia de tareas de actualización y migración para Db2 bases de datos · Referencia de tareas de actualización y migración para bases de datos Oracle · Tareas posteriores a la migración de las soluciones de OpenPages · Fixpacks · Iniciar y detener servidores · Integración de inicio de sesión único para el servidor de aplicaciones OpenPages · integración de QRadar · IBM OpenPages SDI Connector for UCF Common Controls Hub · Entrada de evento de pérdida · Desinstalación OpenPages · Instalaciones silenciosas · Instalar OpenPages utilizando Docker · Tareas adicionales · Resolución de problemas · Avisos.
 
-**Términos:** fixpack, docker, dbms, public, adfs, saml, loss, event, entry, installation, agente, detener, silenciosa, host.
+**Términos:** docker, fixpack, dbms, public, loss, event, entry, saml, adfs, installation, paquete, detener, agente, contenedores.
 
 ### `6` · Guía de actualización para Db2 (solo en local)
 
-[6-guia-de-actualizacion-para-db2-solo-en-local.md](6-guia-de-actualizacion-para-db2-solo-en-local.md) · 67 temas (40 procedimientos, 5 tablas) · 24.123 palabras · se aplica a De forma local · actualizado 2025-03-24
+[6-guia-de-actualizacion-para-db2-solo-en-local.md](6-guia-de-actualizacion-para-db2-solo-en-local.md) · 67 temas (42 procedimientos, 4 tablas) · 25.121 palabras · se aplica a De forma local · actualizado 2026-05-13
 
 **Capítulos:** Guía de actualización para Db2 (solo en local) · Cómo empezar · Determinar la ruta de actualización · Preparación de la actualización · Actualizar OpenPages · Avisos.
 
-**Términos:** agente, search, remoto, technology, alrededor, fixpack, argumento, text, autorizaciones, despliegues, situ, edition, migrando, lanzador.
+**Términos:** agente, remoto, search, semeru, implantaciones, alrededor, paquete, instalado, dbadm, secadm, text, autorizaciones, argumento, actualizando.
 
 ### `7` · Guía de actualización para Oracle (solo en local)
 
-[7-guia-de-actualizacion-para-oracle-solo-en-local.md](7-guia-de-actualizacion-para-oracle-solo-en-local.md) · 65 temas (38 procedimientos, 6 tablas) · 20.894 palabras · se aplica a De forma local · actualizado 2025-04-02
+[7-guia-de-actualizacion-para-oracle-solo-en-local.md](7-guia-de-actualizacion-para-oracle-solo-en-local.md) · 63 temas (38 procedimientos, 5 tablas) · 20.542 palabras · se aplica a De forma local · actualizado 2026-08-20
 
 **Capítulos:** Guía de actualización para Oracle (solo en local) · Cómo empezar · Determinar la ruta de actualización · Preparación de la actualización · Actualizar OpenPages · Avisos.
 
-**Términos:** agente, remoto, situ, sysdba, fixpack, argumento, despliegues, lanzador, alrededor, crosstrack, restaure, migrando, antivirus, opss.
+**Términos:** agente, remoto, semeru, implantaciones, sysdba, situ, instalado, argumento, fixpack, tiempos, paquete, alrededor, opss, actualizando.
 
 ### `8` · Guía de soluciones
 
-[8-guia-de-soluciones.md](8-guia-de-soluciones.md) · 116 temas (0 procedimientos, 48 tablas) · 66.366 palabras · actualizado 2025-02-13
+[8-guia-de-soluciones.md](8-guia-de-soluciones.md) · 105 temas (0 procedimientos, 39 tablas) · 62.179 palabras · actualizado 2025-06-27
 
-**Capítulos:** Guía de soluciones · IBM OpenPages GRC Solutions · Novedades · Tipos de objeto · Asistentes · Notificaciones · Informes · Activadores · Perfiles · Plantillas de funciones · Cálculos de GRC · GRC Workflow · Características heredadas · Avisos.
+**Capítulos:** Guía de soluciones · IBM OpenPages GRC Solutions · Tipos de objeto · Asistentes · Notificaciones · Informes · Activadores · Perfiles · Plantillas de funciones · Cálculos de GRC · GRC Workflow · Características heredadas · Avisos.
 
-**Términos:** vulneración, regulador, continuidad, tolerancia, conformidad, ciclo, rcsa, master, reguladora, métrica, maestro, activador, first, cerrado.
+**Términos:** vulneración, regulador, continuidad, tolerancia, conformidad, ciclo, rcsa, reguladora, activador, métrica, first, cerrado, certificación, maestro.
 
 ### `9` · Guía del desarrollador
 
-[9-guia-del-desarrollador.md](9-guia-del-desarrollador.md) · 14 temas (1 procedimiento, 1 tabla) · 7.359 palabras · actualizado 2025-02-13
+[9-guia-del-desarrollador.md](9-guia-del-desarrollador.md) · 18 temas (1 procedimiento, 1 tabla) · 12.655 palabras · actualizado 2026-02-11
 
-**Capítulos:** Guía del desarrollador · Novedades · API Java deIBM OpenPages GRC · IBM OpenPages API REST GRC V2 · IBM OpenPages API REST GRC V1 · Ejemplos de API · Activadores · Avisos · Integración de OpenPages con la seguridad de IBM® WebSphere Liberty.
+**Capítulos:** Guía del desarrollador · Novedades · Tareas de actualización para desarrolladores · Extensiones · Webhooks · API Java deIBM OpenPages GRC · IBM OpenPages API REST GRC V2 · IBM OpenPages API REST GRC V1 · Ejemplos de API · Activadores · Avisos · Integración de OpenPages con la seguridad de IBM® WebSphere Liberty.
 
-**Términos:** oauth, certificado, regex, regular, curl, openapi, token, oidc, liberty, coincidente, sujeto, expresión, captura, connect.
+**Términos:** oauth, certificado, curl, regex, regular, openapi, oidc, token, liberty, captura, nativa, openid, coincidente, sujeto.
 
 ### `10` · Guía del creador de informes
 
-[10-guia-del-creador-de-informes.md](10-guia-del-creador-de-informes.md) · 252 temas (72 procedimientos, 65 tablas) · 63.238 palabras · actualizado 2025-09-26
+[10-guia-del-creador-de-informes.md](10-guia-del-creador-de-informes.md) · 252 temas (72 procedimientos, 65 tablas) · 63.211 palabras · actualizado 2025-03-31
 
 **Capítulos:** Guía del creador de informes · Modelos de bases de datos · Modelos de datos del entorno · Modelo de objeto · Entorno de elaboración de informes · Optimización del rendimiento · Idioma de diseño de informe · Trabajar con datos relacionales · Trabajar con entidades de negocios · Trabajar con objetos compartidos · Trabajar con objetos recursivos · Internacionalización y localización · Uso de las funciones de base de datos predefinida · Formateo de informes para salida · Elaboración de informes · Campos calculados · Fragmentos de elaboración de informes · Asuntos de consulta personalizados · Directrices de codificación SQL · Definiciones de modelo y espacio de nombres · Limitaciones y métodos alternativos · Avisos.
 
-**Términos:** listmain, cruzadas, arrastre, caja, suelte, unión, explorador, filtro, insertables, asunto, expresión, numérico, regional, febrero.
+**Términos:** listmain, caja, suelte, arrastre, cruzadas, explorador, insertables, asunto, unión, expresión, devolverá, regional, febrero, uniones.
 
 ### `11` · PDF
 
-[11-pdf.md](11-pdf.md) · 1 tema (0 procedimientos, 0 tablas) · 99 palabras · actualizado 2025-02-13
+[11-pdf.md](11-pdf.md) · 1 tema (0 procedimientos, 0 tablas) · 104 palabras · actualizado 2025-03-31
 
 **Capítulos:** PDF.
 
@@ -268,6 +266,10 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
 ### 2-caracteristicas-nuevas.md
 
 - [Características nuevas](2-caracteristicas-nuevas.md#características-nuevas)
+- [Nuevas características de la versión 9.1.3](2-caracteristicas-nuevas.md#nuevas-características-de-la-versión-913)
+- [Novedades de la versión 9.1.2](2-caracteristicas-nuevas.md#novedades-de-la-versión-912)
+- [Novedades de la versión 9.1.1](2-caracteristicas-nuevas.md#novedades-de-la-versión-911)
+- [Nuevas características en la versión 9.1.0](2-caracteristicas-nuevas.md#nuevas-características-en-la-versión-910)
 - [Novedades de la versión 9.0.0.5](2-caracteristicas-nuevas.md#novedades-de-la-versión-9005)
 - [Novedades de la versión 9.0.0.4](2-caracteristicas-nuevas.md#novedades-de-la-versión-9004)
 - [Características nuevas de la versión 9.0.0.3](2-caracteristicas-nuevas.md#características-nuevas-de-la-versión-9003)
@@ -309,55 +311,6 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Mejoras en la gestión de conformidad reguladora en 8.3.0](2-caracteristicas-nuevas.md#mejoras-en-la-gestión-de-conformidad-reguladora-en-830)
     - [Mejoras en la gestión de riesgos de terceros en 8.3.0](2-caracteristicas-nuevas.md#mejoras-en-la-gestión-de-riesgos-de-terceros-en-830)
   - [Software soportado en 8.3](2-caracteristicas-nuevas.md#software-soportado-en-83)
-- [Nuevas características en la versión 8.2.0.4](2-caracteristicas-nuevas.md#nuevas-características-en-la-versión-8204)
-  - [Integración con IBM Watson Natural Language Understanding](2-caracteristicas-nuevas.md#integración-con-ibm-watson-natural-language-understanding)
-  - [Actualización de Apache Log4j 1 a Apache Log4j 2](2-caracteristicas-nuevas.md#actualización-de-apache-log4j-1-a-apache-log4j-2)
-- [Nuevas características en la versión 8.2.0.3](2-caracteristicas-nuevas.md#nuevas-características-en-la-versión-8203)
-  - [Mejoras de la plataforma](2-caracteristicas-nuevas.md#mejoras-de-la-plataforma)
-    - [Mejoras en la interfaz de usuario centrada en la tarea](2-caracteristicas-nuevas.md#mejoras-en-la-interfaz-de-usuario-centrada-en-la-tarea)
-  - [Mejoras en las soluciones](2-caracteristicas-nuevas.md#mejoras-en-las-soluciones)
-    - [Mejoras en OpenPages Gestión de riesgos de terceros](2-caracteristicas-nuevas.md#mejoras-en-openpages-gestión-de-riesgos-de-terceros)
-- [Nuevas características en la versión 8.2.0.2](2-caracteristicas-nuevas.md#nuevas-características-en-la-versión-8202)
-  - [Mejoras de la plataforma](2-caracteristicas-nuevas.md#mejoras-de-la-plataforma-1)
-    - [Mejoras en la interfaz de usuario centrada en tareas](2-caracteristicas-nuevas.md#mejoras-en-la-interfaz-de-usuario-centrada-en-tareas)
-  - [Mejoras en las soluciones](2-caracteristicas-nuevas.md#mejoras-en-las-soluciones-1)
-    - [IBM OpenPages Data Privacy Management](2-caracteristicas-nuevas.md#ibm-openpages-data-privacy-management)
-    - [Mejoras en IBM OpenPages Financial Controls Management](2-caracteristicas-nuevas.md#mejoras-en-ibm-openpages-financial-controls-management)
-    - [Mejoras en IBM OpenPages Regulatory Compliance Management](2-caracteristicas-nuevas.md#mejoras-en-ibm-openpages-regulatory-compliance-management-1)
-  - [Software soportado](2-caracteristicas-nuevas.md#software-soportado)
-- [Nuevas características en la versión 8.2.0.1](2-caracteristicas-nuevas.md#nuevas-características-en-la-versión-8201)
-  - [Mejoras de la plataforma](2-caracteristicas-nuevas.md#mejoras-de-la-plataforma-2)
-    - [IBM OpenPages for IBM Cloud Pak for Data](2-caracteristicas-nuevas.md#ibm-openpages-for-ibm-cloud-pak-for-data)
-    - [IBM Watson Language Translator](2-caracteristicas-nuevas.md#ibm-watson-language-translator)
-    - [Encuesta Net Promoter Score (NPS)](2-caracteristicas-nuevas.md#encuesta-net-promoter-score-nps)
-    - [Abrir archivos de Microsoft Office directamente desde OpenPages](2-caracteristicas-nuevas.md#abrir-archivos-de-microsoft-office-directamente-desde-openpages)
-    - [Mejoras en la interfaz de usuario centrada en tareas](2-caracteristicas-nuevas.md#mejoras-en-la-interfaz-de-usuario-centrada-en-tareas-1)
-  - [Mejoras en las soluciones](2-caracteristicas-nuevas.md#mejoras-en-las-soluciones-2)
-    - [Mejoras en IBM OpenPages Regulatory Compliance Management](2-caracteristicas-nuevas.md#mejoras-en-ibm-openpages-regulatory-compliance-management-2)
-    - [Mejoras en OpenPages Gestión de riesgos de terceros](2-caracteristicas-nuevas.md#mejoras-en-openpages-gestión-de-riesgos-de-terceros-1)
-  - [Mejoras de administración y capacidad de servicio](2-caracteristicas-nuevas.md#mejoras-de-administración-y-capacidad-de-servicio-1)
-  - [Software soportado](2-caracteristicas-nuevas.md#software-soportado-1)
-- [Características nuevas de la versión 8.2.0](2-caracteristicas-nuevas.md#características-nuevas-de-la-versión-820)
-  - [Mejoras de la plataforma](2-caracteristicas-nuevas.md#mejoras-de-la-plataforma-3)
-    - [Cálculos de GRC](2-caracteristicas-nuevas.md#cálculos-de-grc)
-    - [Planificador](2-caracteristicas-nuevas.md#planificador)
-    - [Visualización del esquema de solución](2-caracteristicas-nuevas.md#visualización-del-esquema-de-solución)
-    - [Mejoras en la interfaz de usuario centrada en tareas](2-caracteristicas-nuevas.md#mejoras-en-la-interfaz-de-usuario-centrada-en-tareas-2)
-    - [Mejoras en GRC Workflow](2-caracteristicas-nuevas.md#mejoras-en-grc-workflow)
-    - [Nueva página de inicio de sesión](2-caracteristicas-nuevas.md#nueva-página-de-inicio-de-sesión)
-  - [Mejoras en las soluciones](2-caracteristicas-nuevas.md#mejoras-en-las-soluciones-3)
-    - [IBM OpenPages Business Continuity Management](2-caracteristicas-nuevas.md#ibm-openpages-business-continuity-management)
-    - [Mejoras en IBM OpenPages Internal Audit Management](2-caracteristicas-nuevas.md#mejoras-en-ibm-openpages-internal-audit-management)
-    - [Mejoras en IBM OpenPages Model Risk Governance](2-caracteristicas-nuevas.md#mejoras-en-ibm-openpages-model-risk-governance)
-    - [Mejoras en IBM OpenPages Policy Management](2-caracteristicas-nuevas.md#mejoras-en-ibm-openpages-policy-management)
-    - [Mejoras en IBM OpenPages Regulatory Compliance Management](2-caracteristicas-nuevas.md#mejoras-en-ibm-openpages-regulatory-compliance-management-3)
-      - [Ascent Conector](2-caracteristicas-nuevas.md#ascent-conector)
-      - [Thomson Reuters API](2-caracteristicas-nuevas.md#thomson-reuters-api)
-      - [Objetos de Interacción con la autoridad reguladora](2-caracteristicas-nuevas.md#objetos-de-interacción-con-la-autoridad-reguladora)
-      - [Flujo de trabajo de interacción con la autoridad reguladora](2-caracteristicas-nuevas.md#flujo-de-trabajo-de-interacción-con-la-autoridad-reguladora)
-    - [IBM OpenPages Third Party Risk Management](2-caracteristicas-nuevas.md#ibm-openpages-third-party-risk-management)
-  - [Software soportado](2-caracteristicas-nuevas.md#software-soportado-2)
-  - [Mejoras de administración y capacidad de servicio](2-caracteristicas-nuevas.md#mejoras-de-administración-y-capacidad-de-servicio-2)
 - [Avisos](2-caracteristicas-nuevas.md#avisos)
 
 ### 3.1-guia-del-administrador.md
@@ -368,21 +321,6 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Ubicaciones de instalación](3.1-guia-del-administrador.md#ubicaciones-de-instalación)
   - [Caracteres especiales en las contraseñas](3.1-guia-del-administrador.md#caracteres-especiales-en-las-contraseñas)
   - [Variables y marcadores](3.1-guia-del-administrador.md#variables-y-marcadores)
-- [Novedades](3.1-guia-del-administrador.md#novedades)
-  - [Novedades y cambios en la versión 9.0.0.5](3.1-guia-del-administrador.md#novedades-y-cambios-en-la-versión-9005)
-  - [Novedades y cambios en la versión 9.0.0.4](3.1-guia-del-administrador.md#novedades-y-cambios-en-la-versión-9004)
-  - [Características nuevas y modificadas en la versión 9.0.0.3](3.1-guia-del-administrador.md#características-nuevas-y-modificadas-en-la-versión-9003)
-  - [Características nuevas y modificadas en la versión 9.0.0.2](3.1-guia-del-administrador.md#características-nuevas-y-modificadas-en-la-versión-9002)
-  - [Características nuevas y modificadas en la versión 9.0.0.1](3.1-guia-del-administrador.md#características-nuevas-y-modificadas-en-la-versión-9001)
-  - [Características nuevas y modificadas en la versión 9.0.0.0](3.1-guia-del-administrador.md#características-nuevas-y-modificadas-en-la-versión-9000)
-  - [Características nuevas y modificadas en la versión 8.3.0.2](3.1-guia-del-administrador.md#características-nuevas-y-modificadas-en-la-versión-8302)
-  - [Características nuevas y modificadas en la versión 8.3.0.1](3.1-guia-del-administrador.md#características-nuevas-y-modificadas-en-la-versión-8301)
-  - [Características nuevas y modificadas en la versión 8.3.0](3.1-guia-del-administrador.md#características-nuevas-y-modificadas-en-la-versión-830)
-  - [Características nuevas y modificadas en la versión 8.2.0.4](3.1-guia-del-administrador.md#características-nuevas-y-modificadas-en-la-versión-8204)
-  - [Características nuevas y modificadas en la versión 8.2.0.3](3.1-guia-del-administrador.md#características-nuevas-y-modificadas-en-la-versión-8203)
-  - [Características nuevas y modificadas en la versión 8.2.0.2](3.1-guia-del-administrador.md#características-nuevas-y-modificadas-en-la-versión-8202)
-  - [Características nuevas y modificadas en la versión 8.2.0.1](3.1-guia-del-administrador.md#características-nuevas-y-modificadas-en-la-versión-8201)
-  - [Características nuevas y modificadas en la versión 8.2.0](3.1-guia-del-administrador.md#características-nuevas-y-modificadas-en-la-versión-820)
 - [Modo de administración del sistema (SAM)](3.1-guia-del-administrador.md#modo-de-administración-del-sistema-sam)
   - [Habilitación e inhabilitación del modo de administración del sistema](3.1-guia-del-administrador.md#habilitación-e-inhabilitación-del-modo-de-administración-del-sistema)
 - [Usuarios, grupos y dominios](3.1-guia-del-administrador.md#usuarios-grupos-y-dominios)
@@ -413,9 +351,8 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Verificación del algoritmo de cifrado actual](3.1-guia-del-administrador.md#verificación-del-algoritmo-de-cifrado-actual)
     - [Verificación del entorno](3.1-guia-del-administrador.md#verificación-del-entorno)
     - [Configuración del proveedor de seguridad en el archivo `java.security`](3.1-guia-del-administrador.md#configuración-del-proveedor-de-seguridad-en-el-archivo-javasecurity)
-    - [Preparación de contraseñas en el archivo `aurora.properties` y en el archivo `op-backup-restore.env` para volver a cifrar](3.1-guia-del-administrador.md#preparación-de-contraseñas-en-el-archivo-auroraproperties-y-en-el-archivo-op-backup-restoreenv-para-volver-a-cifrar)
+    - [Preparación de contraseñas en archivos de propiedades para su recodificación](3.1-guia-del-administrador.md#preparación-de-contraseñas-en-archivos-de-propiedades-para-su-recodificación)
     - [Parámetros y sintaxis de la herramienta UPEA](3.1-guia-del-administrador.md#parámetros-y-sintaxis-de-la-herramienta-upea)
-      - [Cambio del algoritmo de cifrado de contraseñas por AES](3.1-guia-del-administrador.md#cambio-del-algoritmo-de-cifrado-de-contraseñas-por-aes)
       - [cambio de la clave de cifrado AES](3.1-guia-del-administrador.md#cambio-de-la-clave-de-cifrado-aes)
       - [Cambio del algoritmo de cifrado de contraseña al cifrado PBKDF2](3.1-guia-del-administrador.md#cambio-del-algoritmo-de-cifrado-de-contraseña-al-cifrado-pbkdf2)
 - [Seguridad](3.1-guia-del-administrador.md#seguridad)
@@ -483,6 +420,12 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
       - [Modificación del archivo de configuración LDAP](3.1-guia-del-administrador.md#modificación-del-archivo-de-configuración-ldap)
     - [Configuración de la autenticación de modo mixto](3.1-guia-del-administrador.md#configuración-de-la-autenticación-de-modo-mixto)
     - [Configuración de una autenticación LDAP muy llena](3.1-guia-del-administrador.md#configuración-de-una-autenticación-ldap-muy-llena)
+  - [Autenticación nativa OAuth 2.0](3.1-guia-del-administrador.md#autenticación-nativa-oauth-20)
+    - [Configuración de la autenticación nativa OAuth 2.0](3.1-guia-del-administrador.md#configuración-de-la-autenticación-nativa-oauth-20)
+    - [Configuración de un cliente OAuth 2.0](3.1-guia-del-administrador.md#configuración-de-un-cliente-oauth-20)
+    - [Llamada a la API REST OpenPages mediante autenticación OAuth 2.0](3.1-guia-del-administrador.md#llamada-a-la-api-rest-openpages-mediante-autenticación-oauth-20)
+    - [Ejecución de comandos CLI mediante autenticación OAuth 2.0](3.1-guia-del-administrador.md#ejecución-de-comandos-cli-mediante-autenticación-oauth-20)
+    - [Activación y desactivación de clientes OAuth 2.0](3.1-guia-del-administrador.md#activación-y-desactivación-de-clientes-oauth-20)
 - [Gestión del esquema de elaboración de informes](3.1-guia-del-administrador.md#gestión-del-esquema-de-elaboración-de-informes)
   - [Cambios que requieren que el esquema de elaboración de informes se actualice o se vuelva a crear](3.1-guia-del-administrador.md#cambios-que-requieren-que-el-esquema-de-elaboración-de-informes-se-actualice-o-se-vuelva-a-crear)
   - [Llenado de los periodos de elaboración de informes anteriores](3.1-guia-del-administrador.md#llenado-de-los-periodos-de-elaboración-de-informes-anteriores)
@@ -519,7 +462,7 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Restricción de acceso a informes](3.1-guia-del-administrador.md#restricción-de-acceso-a-informes)
     - [Establecimiento de permisos en JSP e informes](3.1-guia-del-administrador.md#establecimiento-de-permisos-en-jsp-e-informes)
     - [Asegurar acceso al portal de informe](3.1-guia-del-administrador.md#asegurar-acceso-al-portal-de-informe)
-      - [Asignación de derechos administrativos de CommandCenter a un grupo](3.1-guia-del-administrador.md#asignación-de-derechos-administrativos-de-commandcenter-a-un-grupo)
+      - [Asignación de derechos administrativos de informes a un grupo](3.1-guia-del-administrador.md#asignación-de-derechos-administrativos-de-informes-a-un-grupo)
       - [Especificación del acceso de usuario a las funciones administrativas en IBM Cognos Analytics](3.1-guia-del-administrador.md#especificación-del-acceso-de-usuario-a-las-funciones-administrativas-en-ibm-cognos-analytics)
       - [Restricción del acceso a los informes en la carpeta Contenido del equipo](3.1-guia-del-administrador.md#restricción-del-acceso-a-los-informes-en-la-carpeta-contenido-del-equipo)
       - [Restringir usuarios para que únicamente ejecuten informes](3.1-guia-del-administrador.md#restringir-usuarios-para-que-únicamente-ejecuten-informes)
@@ -528,66 +471,68 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Modificación de los archivos del sistema](3.1-guia-del-administrador.md#modificación-de-los-archivos-del-sistema)
     - [Adición y modificación de archivos del sistema](3.1-guia-del-administrador.md#adición-y-modificación-de-archivos-del-sistema)
     - [Renovación de configuraciones de activador](3.1-guia-del-administrador.md#renovación-de-configuraciones-de-activador)
+- [Campos y grupos de campos](3.1-guia-del-administrador.md#campos-y-grupos-de-campos)
+  - [Definición de un campo](3.1-guia-del-administrador.md#definición-de-un-campo)
+  - [Definición de un grupo de campos](3.1-guia-del-administrador.md#definición-de-un-grupo-de-campos)
+  - [Requisitos para nuevos campos](3.1-guia-del-administrador.md#requisitos-para-nuevos-campos)
+  - [Directrices de denominación de campos](3.1-guia-del-administrador.md#directrices-de-denominación-de-campos)
+  - [Tipos de datos](3.1-guia-del-administrador.md#tipos-de-datos)
+  - [Campos de sólo lectura](3.1-guia-del-administrador.md#campos-de-sólo-lectura)
+  - [Colores para rangos de valores de campo](3.1-guia-del-administrador.md#colores-para-rangos-de-valores-de-campo)
+  - [Paletas de color soportadas para valores de campo](3.1-guia-del-administrador.md#paletas-de-color-soportadas-para-valores-de-campo)
+  - [Definición de grupos de campos](3.1-guia-del-administrador.md#definición-de-grupos-de-campos)
+  - [Adición de grupos de campos existentes a tipos de objeto](3.1-guia-del-administrador.md#adición-de-grupos-de-campos-existentes-a-tipos-de-objeto)
+  - [Definir campos y añadirlos a grupos de campos](3.1-guia-del-administrador.md#definir-campos-y-añadirlos-a-grupos-de-campos)
+    - [Hacer que los campos sean obligatorios u opcionales](3.1-guia-del-administrador.md#hacer-que-los-campos-sean-obligatorios-u-opcionales)
+    - [Cifrado de valores de campo](3.1-guia-del-administrador.md#cifrado-de-valores-de-campo)
+    - [Descifrado de valores de campo](3.1-guia-del-administrador.md#descifrado-de-valores-de-campo)
+    - [Establecimiento de un valor predeterminado para un campo de objeto](3.1-guia-del-administrador.md#establecimiento-de-un-valor-predeterminado-para-un-campo-de-objeto)
+  - [Definición de campos booleanos](3.1-guia-del-administrador.md#definición-de-campos-booleanos)
+  - [Definición de campos de selector de entidad empresarial](3.1-guia-del-administrador.md#definición-de-campos-de-selector-de-entidad-empresarial)
+  - [Definición de un campo de clasificador](3.1-guia-del-administrador.md#definición-de-un-campo-de-clasificador)
+  - [Definición de campos de moneda](3.1-guia-del-administrador.md#definición-de-campos-de-moneda)
+    - [Modificación de los tipos de cambio de moneda](3.1-guia-del-administrador.md#modificación-de-los-tipos-de-cambio-de-moneda)
+      - [Formateo de un archivo CSV](3.1-guia-del-administrador.md#formateo-de-un-archivo-csv)
+      - [Edición, habilitación, inhabilitación y carga de tipos de cambio de moneda](3.1-guia-del-administrador.md#edición-habilitación-inhabilitación-y-carga-de-tipos-de-cambio-de-moneda)
+  - [Definición de un campo de fecha](3.1-guia-del-administrador.md#definición-de-un-campo-de-fecha)
+  - [Definición de campos decimales](3.1-guia-del-administrador.md#definición-de-campos-decimales)
+  - [Definición de campos de serie enumerados](3.1-guia-del-administrador.md#definición-de-campos-de-serie-enumerados)
+  - [Definición de campos enteros](3.1-guia-del-administrador.md#definición-de-campos-enteros)
+  - [Definición de campos de serie larga](3.1-guia-del-administrador.md#definición-de-campos-de-serie-larga)
+  - [Definición de campos de series simples](3.1-guia-del-administrador.md#definición-de-campos-de-series-simples)
+  - [Definición de campos de usuario/grupo](3.1-guia-del-administrador.md#definición-de-campos-de-usuariogrupo)
+    - [Cambio del tipo de visualización para usuarios y grupos](3.1-guia-del-administrador.md#cambio-del-tipo-de-visualización-para-usuarios-y-grupos)
+  - [Configurar campos de fragmento de creación de informes](3.1-guia-del-administrador.md#configurar-campos-de-fragmento-de-creación-de-informes)
+    - [Configuración general para los campos de fragmento de creación de informes](3.1-guia-del-administrador.md#configuración-general-para-los-campos-de-fragmento-de-creación-de-informes)
+    - [Planificación de consideraciones para campos de fragmento de informes](3.1-guia-del-administrador.md#planificación-de-consideraciones-para-campos-de-fragmento-de-informes)
+    - [Definición de un campo de fragmento de informes](3.1-guia-del-administrador.md#definición-de-un-campo-de-fragmento-de-informes)
+    - [Obtención de información de Cognos](3.1-guia-del-administrador.md#obtención-de-información-de-cognos)
+      - [Obtención de la vía de acceso de informe](3.1-guia-del-administrador.md#obtención-de-la-vía-de-acceso-de-informe)
+      - [Obtención del nombre del fragmento de informe](3.1-guia-del-administrador.md#obtención-del-nombre-del-fragmento-de-informe)
+      - [Obtención de la solicitud del ID de objeto](3.1-guia-del-administrador.md#obtención-de-la-solicitud-del-id-de-objeto)
+      - [Obtención del indicador de ID de periodo de informe](3.1-guia-del-administrador.md#obtención-del-indicador-de-id-de-periodo-de-informe)
+  - [Creación de campos calculados](3.1-guia-del-administrador.md#creación-de-campos-calculados)
+    - [Modelado de un nuevo campo calculado en Cognos](3.1-guia-del-administrador.md#modelado-de-un-nuevo-campo-calculado-en-cognos)
+    - [Definición de un campo calculado](3.1-guia-del-administrador.md#definición-de-un-campo-calculado)
+    - [Uso de campos calculados con varios espacios de nombres](3.1-guia-del-administrador.md#uso-de-campos-calculados-con-varios-espacios-de-nombres)
+    - [Anidamiento de campos calculados](3.1-guia-del-administrador.md#anidamiento-de-campos-calculados)
+    - [Resolución de problemas: Validación de campos calculados](3.1-guia-del-administrador.md#resolución-de-problemas-validación-de-campos-calculados)
+    - [Resolución de problemas: Limitación de la longitud de la ecuación de campo calculado](3.1-guia-del-administrador.md#resolución-de-problemas-limitación-de-la-longitud-de-la-ecuación-de-campo-calculado)
+    - [Resolución de problemas: Campos calculados entre productos](3.1-guia-del-administrador.md#resolución-de-problemas-campos-calculados-entre-productos)
+    - [Resolución de problemas: Optimización del rendimiento de solicitud de informe](3.1-guia-del-administrador.md#resolución-de-problemas-optimización-del-rendimiento-de-solicitud-de-informe)
+    - [Resolución de problemas: Rendimiento de la dirección de consulta de campo calculado](3.1-guia-del-administrador.md#resolución-de-problemas-rendimiento-de-la-dirección-de-consulta-de-campo-calculado)
+  - [Utilización de campos de objeto para iniciar JavaServer Pages y URL externos](3.1-guia-del-administrador.md#utilización-de-campos-de-objeto-para-iniciar-javaserver-pages-y-url-externos)
+    - [Atributos en la serie de configuración de URL](3.1-guia-del-administrador.md#atributos-en-la-serie-de-configuración-de-url)
+    - [Ejemplos de series de configuración de URL](3.1-guia-del-administrador.md#ejemplos-de-series-de-configuración-de-url)
+    - [Configuración del texto de aplicación](3.1-guia-del-administrador.md#configuración-del-texto-de-aplicación)
+    - [Adición de un campo de iniciador de URL](3.1-guia-del-administrador.md#adición-de-un-campo-de-iniciador-de-url)
+    - [Adición de un campo de iniciador de URL a perfiles y vistas](3.1-guia-del-administrador.md#adición-de-un-campo-de-iniciador-de-url-a-perfiles-y-vistas)
+  - [Borrar campos (de grupos de campos)](3.1-guia-del-administrador.md#borrar-campos-de-grupos-de-campos)
+  - [Determinar dónde se hace referencia a los campos](3.1-guia-del-administrador.md#determinar-dónde-se-hace-referencia-a-los-campos)
+  - [Ejecución del informe Análisis del esquema](3.1-guia-del-administrador.md#ejecución-del-informe-análisis-del-esquema)
 
 ### 3.2-guia-del-administrador.md
 
-- [Campos y grupos de campos](3.2-guia-del-administrador.md#campos-y-grupos-de-campos)
-  - [Definición de campos](3.2-guia-del-administrador.md#definición-de-campos)
-  - [Definición de un grupo de campos](3.2-guia-del-administrador.md#definición-de-un-grupo-de-campos)
-  - [Requisitos para nuevos campos](3.2-guia-del-administrador.md#requisitos-para-nuevos-campos)
-  - [Directrices de denominación de campos](3.2-guia-del-administrador.md#directrices-de-denominación-de-campos)
-  - [Tipos de datos](3.2-guia-del-administrador.md#tipos-de-datos)
-  - [Campos de sólo lectura](3.2-guia-del-administrador.md#campos-de-sólo-lectura)
-  - [Colores para rangos de valores de campo](3.2-guia-del-administrador.md#colores-para-rangos-de-valores-de-campo)
-  - [Paletas de color soportadas para valores de campo](3.2-guia-del-administrador.md#paletas-de-color-soportadas-para-valores-de-campo)
-  - [Definición de grupos de campos](3.2-guia-del-administrador.md#definición-de-grupos-de-campos)
-  - [Adición de grupos de campos existentes a tipos de objeto](3.2-guia-del-administrador.md#adición-de-grupos-de-campos-existentes-a-tipos-de-objeto)
-  - [Definir campos y añadirlos a grupos de campos](3.2-guia-del-administrador.md#definir-campos-y-añadirlos-a-grupos-de-campos)
-    - [Hacer que los campos sean obligatorios u opcionales](3.2-guia-del-administrador.md#hacer-que-los-campos-sean-obligatorios-u-opcionales)
-    - [Cifrado de valores de campo](3.2-guia-del-administrador.md#cifrado-de-valores-de-campo)
-    - [Descifrado de valores de campo](3.2-guia-del-administrador.md#descifrado-de-valores-de-campo)
-    - [Establecimiento de un valor predeterminado para un campo de objeto](3.2-guia-del-administrador.md#establecimiento-de-un-valor-predeterminado-para-un-campo-de-objeto)
-  - [Definición de campos booleanos](3.2-guia-del-administrador.md#definición-de-campos-booleanos)
-  - [Definición de campos de selector de entidad empresarial](3.2-guia-del-administrador.md#definición-de-campos-de-selector-de-entidad-empresarial)
-  - [Definición de un campo de clasificador](3.2-guia-del-administrador.md#definición-de-un-campo-de-clasificador)
-  - [Definición de campos de moneda](3.2-guia-del-administrador.md#definición-de-campos-de-moneda)
-    - [Modificación de los tipos de cambio de moneda](3.2-guia-del-administrador.md#modificación-de-los-tipos-de-cambio-de-moneda)
-      - [Formateo de un archivo CSV](3.2-guia-del-administrador.md#formateo-de-un-archivo-csv)
-      - [Edición, habilitación, inhabilitación y carga de tipos de cambio de moneda](3.2-guia-del-administrador.md#edición-habilitación-inhabilitación-y-carga-de-tipos-de-cambio-de-moneda)
-  - [Definición de un campo de fecha](3.2-guia-del-administrador.md#definición-de-un-campo-de-fecha)
-  - [Definición de campos decimales](3.2-guia-del-administrador.md#definición-de-campos-decimales)
-  - [Definición de campos de serie enumerados](3.2-guia-del-administrador.md#definición-de-campos-de-serie-enumerados)
-  - [Definición de campos enteros](3.2-guia-del-administrador.md#definición-de-campos-enteros)
-  - [Definición de campos de serie larga](3.2-guia-del-administrador.md#definición-de-campos-de-serie-larga)
-  - [Definición de campos de series simples](3.2-guia-del-administrador.md#definición-de-campos-de-series-simples)
-  - [Definición de campos de usuario/grupo](3.2-guia-del-administrador.md#definición-de-campos-de-usuariogrupo)
-    - [Cambio del tipo de visualización para usuarios y grupos](3.2-guia-del-administrador.md#cambio-del-tipo-de-visualización-para-usuarios-y-grupos)
-  - [Configurar campos de fragmento de creación de informes](3.2-guia-del-administrador.md#configurar-campos-de-fragmento-de-creación-de-informes)
-    - [Configuración general para los campos de fragmento de creación de informes](3.2-guia-del-administrador.md#configuración-general-para-los-campos-de-fragmento-de-creación-de-informes)
-    - [Planificación de consideraciones para campos de fragmento de informes](3.2-guia-del-administrador.md#planificación-de-consideraciones-para-campos-de-fragmento-de-informes)
-    - [Definición de un campo de fragmento de informes](3.2-guia-del-administrador.md#definición-de-un-campo-de-fragmento-de-informes)
-    - [Obtención de información de Cognos](3.2-guia-del-administrador.md#obtención-de-información-de-cognos)
-      - [Obtención de la vía de acceso de informe](3.2-guia-del-administrador.md#obtención-de-la-vía-de-acceso-de-informe)
-      - [Obtención del nombre del fragmento de informe](3.2-guia-del-administrador.md#obtención-del-nombre-del-fragmento-de-informe)
-      - [Obtención de la solicitud del ID de objeto](3.2-guia-del-administrador.md#obtención-de-la-solicitud-del-id-de-objeto)
-      - [Obtención del indicador de ID de periodo de informe](3.2-guia-del-administrador.md#obtención-del-indicador-de-id-de-periodo-de-informe)
-  - [Creación de campos calculados](3.2-guia-del-administrador.md#creación-de-campos-calculados)
-    - [Modelado de un nuevo campo calculado en Cognos](3.2-guia-del-administrador.md#modelado-de-un-nuevo-campo-calculado-en-cognos)
-    - [Definición de un campo calculado](3.2-guia-del-administrador.md#definición-de-un-campo-calculado)
-    - [Uso de campos calculados con varios espacios de nombres](3.2-guia-del-administrador.md#uso-de-campos-calculados-con-varios-espacios-de-nombres)
-    - [Anidamiento de campos calculados](3.2-guia-del-administrador.md#anidamiento-de-campos-calculados)
-    - [Resolución de problemas: Validación de campos calculados](3.2-guia-del-administrador.md#resolución-de-problemas-validación-de-campos-calculados)
-    - [Resolución de problemas: Limitación de la longitud de la ecuación de campo calculado](3.2-guia-del-administrador.md#resolución-de-problemas-limitación-de-la-longitud-de-la-ecuación-de-campo-calculado)
-    - [Resolución de problemas: Campos calculados entre productos](3.2-guia-del-administrador.md#resolución-de-problemas-campos-calculados-entre-productos)
-    - [Resolución de problemas: Optimización del rendimiento de solicitud de informe](3.2-guia-del-administrador.md#resolución-de-problemas-optimización-del-rendimiento-de-solicitud-de-informe)
-    - [Resolución de problemas: Rendimiento de la dirección de consulta de campo calculado](3.2-guia-del-administrador.md#resolución-de-problemas-rendimiento-de-la-dirección-de-consulta-de-campo-calculado)
-  - [Utilización de campos de objeto para iniciar JavaServer Pages y URL externos](3.2-guia-del-administrador.md#utilización-de-campos-de-objeto-para-iniciar-javaserver-pages-y-url-externos)
-    - [Atributos en la serie de configuración de URL](3.2-guia-del-administrador.md#atributos-en-la-serie-de-configuración-de-url)
-    - [Ejemplos de series de configuración de URL](3.2-guia-del-administrador.md#ejemplos-de-series-de-configuración-de-url)
-    - [Configuración del texto de aplicación](3.2-guia-del-administrador.md#configuración-del-texto-de-aplicación)
-    - [Adición de un campo de iniciador de URL](3.2-guia-del-administrador.md#adición-de-un-campo-de-iniciador-de-url)
-    - [Adición de un campo de iniciador de URL a perfiles y vistas](3.2-guia-del-administrador.md#adición-de-un-campo-de-iniciador-de-url-a-perfiles-y-vistas)
-  - [Ejecución del informe Análisis del esquema](3.2-guia-del-administrador.md#ejecución-del-informe-análisis-del-esquema)
 - [Tipos de objeto](3.2-guia-del-administrador.md#tipos-de-objeto)
   - [Tipos de objeto Plataforma](3.2-guia-del-administrador.md#tipos-de-objeto-plataforma)
   - [Visualizaciones de esquemas de soluciones](3.2-guia-del-administrador.md#visualizaciones-de-esquemas-de-soluciones)
@@ -654,7 +599,6 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Creación de un nuevo elemento de menú de nivel superior](3.2-guia-del-administrador.md#creación-de-un-nuevo-elemento-de-menú-de-nivel-superior)
   - [Creación de etiquetas](3.2-guia-del-administrador.md#creación-de-etiquetas)
   - [Integración de WalkMe](3.2-guia-del-administrador.md#integración-de-walkme)
-  - [Configuración de una encuesta Net Promoter Score](3.2-guia-del-administrador.md#configuración-de-una-encuesta-net-promoter-score)
   - [Exportación e importación de paneles de control](3.2-guia-del-administrador.md#exportación-e-importación-de-paneles-de-control)
   - [Temas](3.2-guia-del-administrador.md#temas)
     - [Definición de temas personalizados](3.2-guia-del-administrador.md#definición-de-temas-personalizados)
@@ -675,31 +619,31 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Adición de acciones a campos de relación](3.2-guia-del-administrador.md#adición-de-acciones-a-campos-de-relación)
   - [Configuración de reglas](3.2-guia-del-administrador.md#configuración-de-reglas)
 - [Configurar el comentario de objetos](3.2-guia-del-administrador.md#configurar-el-comentario-de-objetos)
+- [Configuración de GRC Calculations](3.2-guia-del-administrador.md#configuración-de-grc-calculations)
+  - [Configuración de GRC Calculations](3.2-guia-del-administrador.md#configuración-de-grc-calculations-1)
+  - [Fundamentos de cálculo](3.2-guia-del-administrador.md#fundamentos-de-cálculo)
+  - [Preguntas más frecuentes sobre cálculos de GRC](3.2-guia-del-administrador.md#preguntas-más-frecuentes-sobre-cálculos-de-grc)
+  - [Diseño de un cálculo](3.2-guia-del-administrador.md#diseño-de-un-cálculo)
+  - [Casos de uso del cálculo común](3.2-guia-del-administrador.md#casos-de-uso-del-cálculo-común)
+  - [Gestión de definiciones de cálculo](3.2-guia-del-administrador.md#gestión-de-definiciones-de-cálculo)
+  - [Definición de un cálculo](3.2-guia-del-administrador.md#definición-de-un-cálculo)
+  - [Expresiones en GRC Calculations](3.2-guia-del-administrador.md#expresiones-en-grc-calculations)
+    - [Reglas de sintaxis para expresiones](3.2-guia-del-administrador.md#reglas-de-sintaxis-para-expresiones)
+    - [Guía de aprendizaje: escribir expresiones](3.2-guia-del-administrador.md#guía-de-aprendizaje-escribir-expresiones)
+    - [Trabajar con listas](3.2-guia-del-administrador.md#trabajar-con-listas)
+    - [Campos de objeto](3.2-guia-del-administrador.md#campos-de-objeto)
+    - [Variables del sistema](3.2-guia-del-administrador.md#variables-del-sistema)
+    - [Funciones para valores de serie](3.2-guia-del-administrador.md#funciones-para-valores-de-serie)
+    - [Funciones para listas y valores numéricos](3.2-guia-del-administrador.md#funciones-para-listas-y-valores-numéricos)
+    - [Funciones para fechas](3.2-guia-del-administrador.md#funciones-para-fechas)
+    - [Funciones para valores de moneda](3.2-guia-del-administrador.md#funciones-para-valores-de-moneda)
+    - [Sentencias If/then/else/endif](3.2-guia-del-administrador.md#sentencias-ifthenelseendif)
+  - [Ejecución de un cálculo como administrador](3.2-guia-del-administrador.md#ejecución-de-un-cálculo-como-administrador)
+  - [Prueba y depuración de un cálculo](3.2-guia-del-administrador.md#prueba-y-depuración-de-un-cálculo)
+  - [Personalización de notificaciones de correo electrónico para GRC Calculations](3.2-guia-del-administrador.md#personalización-de-notificaciones-de-correo-electrónico-para-grc-calculations)
 
 ### 3.3-guia-del-administrador.md
 
-- [Configuración de GRC Calculations](3.3-guia-del-administrador.md#configuración-de-grc-calculations)
-  - [Configuración de GRC Calculations](3.3-guia-del-administrador.md#configuración-de-grc-calculations-1)
-  - [Fundamentos de cálculo](3.3-guia-del-administrador.md#fundamentos-de-cálculo)
-  - [Preguntas más frecuentes sobre cálculos de GRC](3.3-guia-del-administrador.md#preguntas-más-frecuentes-sobre-cálculos-de-grc)
-  - [Diseño de un cálculo](3.3-guia-del-administrador.md#diseño-de-un-cálculo)
-  - [Casos de uso del cálculo común](3.3-guia-del-administrador.md#casos-de-uso-del-cálculo-común)
-  - [Gestión de definiciones de cálculo](3.3-guia-del-administrador.md#gestión-de-definiciones-de-cálculo)
-  - [Definición de un cálculo](3.3-guia-del-administrador.md#definición-de-un-cálculo)
-  - [Expresiones en GRC Calculations](3.3-guia-del-administrador.md#expresiones-en-grc-calculations)
-    - [Reglas de sintaxis para expresiones](3.3-guia-del-administrador.md#reglas-de-sintaxis-para-expresiones)
-    - [Guía de aprendizaje: escribir expresiones](3.3-guia-del-administrador.md#guía-de-aprendizaje-escribir-expresiones)
-    - [Trabajar con listas](3.3-guia-del-administrador.md#trabajar-con-listas)
-    - [Campos de objeto](3.3-guia-del-administrador.md#campos-de-objeto)
-    - [Variables del sistema](3.3-guia-del-administrador.md#variables-del-sistema)
-    - [Funciones para valores de serie](3.3-guia-del-administrador.md#funciones-para-valores-de-serie)
-    - [Funciones para listas y valores numéricos](3.3-guia-del-administrador.md#funciones-para-listas-y-valores-numéricos)
-    - [Funciones para fechas](3.3-guia-del-administrador.md#funciones-para-fechas)
-    - [Funciones para valores de moneda](3.3-guia-del-administrador.md#funciones-para-valores-de-moneda)
-    - [Sentencias If/then/else/endif](3.3-guia-del-administrador.md#sentencias-ifthenelseendif)
-  - [Ejecución de un cálculo como administrador](3.3-guia-del-administrador.md#ejecución-de-un-cálculo-como-administrador)
-  - [Prueba y depuración de un cálculo](3.3-guia-del-administrador.md#prueba-y-depuración-de-un-cálculo)
-  - [Personalización de notificaciones de correo electrónico para GRC Calculations](3.3-guia-del-administrador.md#personalización-de-notificaciones-de-correo-electrónico-para-grc-calculations)
 - [Configuración de flujos de trabajo](3.3-guia-del-administrador.md#configuración-de-flujos-de-trabajo)
   - [Configuración de GRC Workflow](3.3-guia-del-administrador.md#configuración-de-grc-workflow)
   - [Aspectos básicos de GRC Workflow](3.3-guia-del-administrador.md#aspectos-básicos-de-grc-workflow)
@@ -738,6 +682,7 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Definición de una acción de flujo de trabajo que asocia objetos con el objeto actual](3.3-guia-del-administrador.md#definición-de-una-acción-de-flujo-de-trabajo-que-asocia-objetos-con-el-objeto-actual)
     - [Definición de una acción de flujo de trabajo que rellena las respuestas en una evaluación de cuestionario](3.3-guia-del-administrador.md#definición-de-una-acción-de-flujo-de-trabajo-que-rellena-las-respuestas-en-una-evaluación-de-cuestionario)
     - [Definir una acción de flujo de trabajo que elimine todos los comentarios de objetos](3.3-guia-del-administrador.md#definir-una-acción-de-flujo-de-trabajo-que-elimine-todos-los-comentarios-de-objetos)
+    - [Definición de una acción de flujo de trabajo que ejecuta un modelo de IA](3.3-guia-del-administrador.md#definición-de-una-acción-de-flujo-de-trabajo-que-ejecuta-un-modelo-de-ia)
     - [Supresión de acciones](3.3-guia-del-administrador.md#supresión-de-acciones)
   - [Orden de proceso de operaciones, validaciones, cálculos y desencadenantes](3.3-guia-del-administrador.md#orden-de-proceso-de-operaciones-validaciones-cálculos-y-desencadenantes)
   - [Personalización de plantillas de notificación de correo electrónico en flujos de trabajo](3.3-guia-del-administrador.md#personalización-de-plantillas-de-notificación-de-correo-electrónico-en-flujos-de-trabajo)
@@ -831,12 +776,12 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Configuración del formato de nombres de objeto](3.3-guia-del-administrador.md#configuración-del-formato-de-nombres-de-objeto)
     - [Valores de denominación automática de objetos SOXDocument para nombres de archivos duplicados](3.3-guia-del-administrador.md#valores-de-denominación-automática-de-objetos-soxdocument-para-nombres-de-archivos-duplicados)
     - [Valores de migración de entorno](3.3-guia-del-administrador.md#valores-de-migración-de-entorno)
+    - [Configuración del recopilador de registros](3.3-guia-del-administrador.md#configuración-del-recopilador-de-registros)
     - [Valores de fragmento de informes](3.3-guia-del-administrador.md#valores-de-fragmento-de-informes)
     - [Configuración del servidor de correo](3.3-guia-del-administrador.md#configuración-del-servidor-de-correo)
     - [Formato de visualización del campo de fecha](3.3-guia-del-administrador.md#formato-de-visualización-del-campo-de-fecha)
     - [Configuración de archivos grandes para cargar](3.3-guia-del-administrador.md#configuración-de-archivos-grandes-para-cargar)
     - [Habilitación y configuración de la apertura de archivos de Microsoft Office](3.3-guia-del-administrador.md#habilitación-y-configuración-de-la-apertura-de-archivos-de-microsoft-office)
-    - [Revisión de los valores de la encuesta Net Promoter Score (NPS)](3.3-guia-del-administrador.md#revisión-de-los-valores-de-la-encuesta-net-promoter-score-nps)
     - [Firma y valores de bloqueo](3.3-guia-del-administrador.md#firma-y-valores-de-bloqueo)
       - [Configuración de firmas](3.3-guia-del-administrador.md#configuración-de-firmas)
       - [Configurar bloqueos de firma](3.3-guia-del-administrador.md#configurar-bloqueos-de-firma)
@@ -863,7 +808,11 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
       - [Número de niveles de tipos de objeto a exportar](3.3-guia-del-administrador.md#número-de-niveles-de-tipos-de-objeto-a-exportar)
       - [Máximo de solicitudes de exportación simultáneas](3.3-guia-del-administrador.md#máximo-de-solicitudes-de-exportación-simultáneas)
     - [Valor de movimiento masivo y cambio de nombre](3.3-guia-del-administrador.md#valor-de-movimiento-masivo-y-cambio-de-nombre)
+    - [Habilitar y deshabilitar el botón de mover en la configuración de vistas de cuadrícula](3.3-guia-del-administrador.md#habilitar-y-deshabilitar-el-botón-de-mover-en-la-configuración-de-vistas-de-cuadrícula)
     - [Configure el registro de solicitudes HTTP para IBM Watson Language Translator](3.3-guia-del-administrador.md#configure-el-registro-de-solicitudes-http-para-ibm-watson-language-translator)
+    - [Añadir nombre de usuario con nombre de visualización](3.3-guia-del-administrador.md#añadir-nombre-de-usuario-con-nombre-de-visualización)
+    - [Configuración de la lista de permisos de la API](3.3-guia-del-administrador.md#configuración-de-la-lista-de-permisos-de-la-api)
+    - [Forzar la configuración inicial de la pestaña seleccionada](3.3-guia-del-administrador.md#forzar-la-configuración-inicial-de-la-pestaña-seleccionada)
   - [Valores personalizados](3.3-guia-del-administrador.md#valores-personalizados)
     - [Creación de un valor personalizado](3.3-guia-del-administrador.md#creación-de-un-valor-personalizado)
     - [Supresión de un valor personalizado](3.3-guia-del-administrador.md#supresión-de-un-valor-personalizado)
@@ -871,10 +820,10 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Valores de la carpeta Común](3.3-guia-del-administrador.md#valores-de-la-carpeta-común)
     - [Número máximo de filas en el archivo de carga de tipo de cambio](3.3-guia-del-administrador.md#número-máximo-de-filas-en-el-archivo-de-carga-de-tipo-de-cambio)
     - [Tamaño máximo de página](3.3-guia-del-administrador.md#tamaño-máximo-de-página)
-    - [Excluir caracteres de los nombres de usuario](3.3-guia-del-administrador.md#excluir-caracteres-de-los-nombres-de-usuario)
     - [Establecer el modelo de seguridad del sistema](3.3-guia-del-administrador.md#establecer-el-modelo-de-seguridad-del-sistema)
     - [Inhabilitación de control de acceso en grupos de funciones](3.3-guia-del-administrador.md#inhabilitación-de-control-de-acceso-en-grupos-de-funciones)
     - [Configuración de tipos de objeto autocontenido](3.3-guia-del-administrador.md#configuración-de-tipos-de-objeto-autocontenido)
+    - [Incluir tipos de objetos secundarios al eliminar unidades económicas](3.3-guia-del-administrador.md#incluir-tipos-de-objetos-secundarios-al-eliminar-unidades-económicas)
   - [valores de la carpeta Plataforma](3.3-guia-del-administrador.md#valores-de-la-carpeta-plataforma)
     - [Habilitación del servicio REST personalizado](3.3-guia-del-administrador.md#habilitación-del-servicio-rest-personalizado)
     - [Establecer el signo de un entero devuelto por la función de fechas](3.3-guia-del-administrador.md#establecer-el-signo-de-un-entero-devuelto-por-la-función-de-fechas)
@@ -894,6 +843,9 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
         - [Ejemplo 2: Adición de un índice en un campo personalizado](3.3-guia-del-administrador.md#ejemplo-2-adición-de-un-índice-en-un-campo-personalizado)
         - [Ejemplo 3: Adición de un índice para filtros rápidos y series simples personalizadas](3.3-guia-del-administrador.md#ejemplo-3-adición-de-un-índice-para-filtros-rápidos-y-series-simples-personalizadas)
       - [Volver a crear índices para un esquema de elaboración de informes cuando se actualiza](3.3-guia-del-administrador.md#volver-a-crear-índices-para-un-esquema-de-elaboración-de-informes-cuando-se-actualiza)
+      - [Añadir índices predeterminados en las tablas de unión RT para los campos del esquema de informes](3.3-guia-del-administrador.md#añadir-índices-predeterminados-en-las-tablas-de-unión-rt-para-los-campos-del-esquema-de-informes)
+      - [Añadir índices personalizados en las tablas de unión RPS RT para los campos del esquema de informes](3.3-guia-del-administrador.md#añadir-índices-personalizados-en-las-tablas-de-unión-rps-rt-para-los-campos-del-esquema-de-informes)
+      - [Recree los índices para un esquema de informes en las tablas de unión RT cuando se actualice](3.3-guia-del-administrador.md#recree-los-índices-para-un-esquema-de-informes-en-las-tablas-de-unión-rt-cuando-se-actualice)
     - [Valores de seguridad](3.3-guia-del-administrador.md#valores-de-seguridad)
       - [Configurar la exploración antivirus para archivos importados](3.3-guia-del-administrador.md#configurar-la-exploración-antivirus-para-archivos-importados)
       - [Configurar la visualización de HTML en las notificaciones por correo electrónico del flujo de trabajo](3.3-guia-del-administrador.md#configurar-la-visualización-de-html-en-las-notificaciones-por-correo-electrónico-del-flujo-de-trabajo)
@@ -910,15 +862,16 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
       - [Configurar el tiempo de espera de sesión SSO](3.3-guia-del-administrador.md#configurar-el-tiempo-de-espera-de-sesión-sso)
   - [valores de la carpeta Preferencias de usuario](3.3-guia-del-administrador.md#valores-de-la-carpeta-preferencias-de-usuario)
     - [Establecer comportamiento de notificación de alerta](3.3-guia-del-administrador.md#establecer-comportamiento-de-notificación-de-alerta)
+- [Optimizar la búsqueda global](3.3-guia-del-administrador.md#optimizar-la-búsqueda-global)
+  - [Configuración de la búsqueda global](3.3-guia-del-administrador.md#configuración-de-la-búsqueda-global)
+  - [Personalización de la búsqueda personalizada](3.3-guia-del-administrador.md#personalización-de-la-búsqueda-personalizada)
+  - [Configuración de la búsqueda global](3.3-guia-del-administrador.md#configuración-de-la-búsqueda-global-1)
+    - [Valores de búsqueda globales](3.3-guia-del-administrador.md#valores-de-búsqueda-globales)
+    - [Archivo de propiedades de la búsqueda global](3.3-guia-del-administrador.md#archivo-de-propiedades-de-la-búsqueda-global)
+  - [Preguntas más frecuentes de la búsqueda global](3.3-guia-del-administrador.md#preguntas-más-frecuentes-de-la-búsqueda-global)
 
 ### 3.4-guia-del-administrador.md
 
-- [Optimizar la búsqueda global](3.4-guia-del-administrador.md#optimizar-la-búsqueda-global)
-  - [Configuración de la búsqueda global](3.4-guia-del-administrador.md#configuración-de-la-búsqueda-global)
-  - [Personalización de la búsqueda personalizada](3.4-guia-del-administrador.md#personalización-de-la-búsqueda-personalizada)
-  - [Valores de búsqueda globales](3.4-guia-del-administrador.md#valores-de-búsqueda-globales)
-  - [Archivo de propiedades de la búsqueda global](3.4-guia-del-administrador.md#archivo-de-propiedades-de-la-búsqueda-global)
-  - [Preguntas más frecuentes de la búsqueda global](3.4-guia-del-administrador.md#preguntas-más-frecuentes-de-la-búsqueda-global)
 - [Utilización de programas de utilidad de IBM OpenPages con bases de datos Db2](3.4-guia-del-administrador.md#utilización-de-programas-de-utilidad-de-ibm-openpages-con-bases-de-datos-db2)
   - [Db2 y los programas de utilidad de copia de seguridad y restauración de OpenPages](3.4-guia-del-administrador.md#db2-y-los-programas-de-utilidad-de-copia-de-seguridad-y-restauración-de-openpages)
   - [Configuración de la notificación de trabajo de copia de seguridad](3.4-guia-del-administrador.md#configuración-de-la-notificación-de-trabajo-de-copia-de-seguridad)
@@ -1080,7 +1033,7 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Cambio de las referencias de contraseña de base de datos](3.4-guia-del-administrador.md#cambio-de-las-referencias-de-contraseña-de-base-de-datos)
     - [Cambiar referencias de contraseña de base de datos en el servidor de aplicaciones de OpenPages](3.4-guia-del-administrador.md#cambiar-referencias-de-contraseña-de-base-de-datos-en-el-servidor-de-aplicaciones-de-openpages)
       - [Modificación de la contraseña de origen de datos JDBC](3.4-guia-del-administrador.md#modificación-de-la-contraseña-de-origen-de-datos-jdbc)
-      - [Actualización de la contraseña de base de datos del servidor de aplicaciones en el archivo `aurora.properties`](3.4-guia-del-administrador.md#actualización-de-la-contraseña-de-base-de-datos-del-servidor-de-aplicaciones-en-el-archivo-auroraproperties)
+      - [Actualización de la contraseña de la base de datos del servidor de aplicaciones en los archivos de propiedades](3.4-guia-del-administrador.md#actualización-de-la-contraseña-de-la-base-de-datos-del-servidor-de-aplicaciones-en-los-archivos-de-propiedades)
     - [Modificación de la contraseña de base de datos de OpenPages en Cognos](3.4-guia-del-administrador.md#modificación-de-la-contraseña-de-base-de-datos-de-openpages-en-cognos)
     - [Modificación de contraseñas de base de datos en los archivos de entorno de copia de seguridad/restauración](3.4-guia-del-administrador.md#modificación-de-contraseñas-de-base-de-datos-en-los-archivos-de-entorno-de-copia-de-seguridadrestauración)
     - [Actualización de la herramienta Oracle Enterprise Manager](3.4-guia-del-administrador.md#actualización-de-la-herramienta-oracle-enterprise-manager)
@@ -1089,7 +1042,7 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Prueba de la conexión con la base de datos OpenPages desde el cliente de base de datos Oracle](3.4-guia-del-administrador.md#prueba-de-la-conexión-con-la-base-de-datos-openpages-desde-el-cliente-de-base-de-datos-oracle)
     - [Modificación del URL de conexión de origen de datos](3.4-guia-del-administrador.md#modificación-del-url-de-conexión-de-origen-de-datos)
     - [Modificar referencias de base de datos en los archivos de configuración de aplicación](3.4-guia-del-administrador.md#modificar-referencias-de-base-de-datos-en-los-archivos-de-configuración-de-aplicación)
-      - [Modificar la referencia de base de datos en el archivo `aurora.properties`](3.4-guia-del-administrador.md#modificar-la-referencia-de-base-de-datos-en-el-archivo-auroraproperties)
+      - [Modificar la referencia a la base de datos en los archivos de propiedades](3.4-guia-del-administrador.md#modificar-la-referencia-a-la-base-de-datos-en-los-archivos-de-propiedades)
       - [Modificar referencias de base de datos en el archivo de entorno de copia de seguridad y restauración de OpenPages (soloOracle )](3.4-guia-del-administrador.md#modificar-referencias-de-base-de-datos-en-el-archivo-de-entorno-de-copia-de-seguridad-y-restauración-de-openpages-solooracle)
     - [Modificar referencias de conexión de base de datos para el servidor de informes](3.4-guia-del-administrador.md#modificar-referencias-de-conexión-de-base-de-datos-para-el-servidor-de-informes)
       - [Modificación de referencias de conexión de base de datos en Cognos](3.4-guia-del-administrador.md#modificación-de-referencias-de-conexión-de-base-de-datos-en-cognos)
@@ -1175,6 +1128,9 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
       - [Cambio del tamaño y del número de copias de seguridad del archivo de registro de aurora](3.4-guia-del-administrador.md#cambio-del-tamaño-y-del-número-de-copias-de-seguridad-del-archivo-de-registro-de-aurora)
       - [Habilitación del registro de rastreo](3.4-guia-del-administrador.md#habilitación-del-registro-de-rastreo)
   - [Visualización de información sobre procesos en segundo plano](3.4-guia-del-administrador.md#visualización-de-información-sobre-procesos-en-segundo-plano)
+  - [Traslado/cambio de nombre de una entidad empresarial mediante la interfaz de usuario](3.4-guia-del-administrador.md#trasladocambio-de-nombre-de-una-entidad-empresarial-mediante-la-interfaz-de-usuario)
+  - [Mueva objetos sin entidad utilizando la interfaz de usuario](3.4-guia-del-administrador.md#mueva-objetos-sin-entidad-utilizando-la-interfaz-de-usuario)
+  - [Copia de seguridad](3.4-guia-del-administrador.md#copia-de-seguridad)
 - [Iniciar y detener servidores](3.4-guia-del-administrador.md#iniciar-y-detener-servidores)
   - [Inicio de los servidores de aplicaciones](3.4-guia-del-administrador.md#inicio-de-los-servidores-de-aplicaciones)
     - [Inicio de servidores de aplicaciones utilizando servicios de Windows](3.4-guia-del-administrador.md#inicio-de-servidores-de-aplicaciones-utilizando-servicios-de-windows)
@@ -1198,22 +1154,25 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Utilización de la herramienta de configuración IBM Cognos para iniciar y detener el servicio IBM Cognos](3.4-guia-del-administrador.md#utilización-de-la-herramienta-de-configuración-ibm-cognos-para-iniciar-y-detener-el-servicio-ibm-cognos)
     - [Utilización del sistema operativo Windows para iniciar y detener el servicio IBM Cognos](3.4-guia-del-administrador.md#utilización-del-sistema-operativo-windows-para-iniciar-y-detener-el-servicio-ibm-cognos)
     - [Utilización del sistema operativo Linux para iniciar y detener el servicio IBM® Cognos](3.4-guia-del-administrador.md#utilización-del-sistema-operativo-linux-para-iniciar-y-detener-el-servicio-ibm-cognos)
+    - [Iniciar y detener el servicio de integración de OpenPages Cognos en Linux](3.4-guia-del-administrador.md#iniciar-y-detener-el-servicio-de-integración-de-openpages-cognos-en-linux)
+    - [Iniciar y detener el servicio de integración de OpenPages Cognos en Windows](3.4-guia-del-administrador.md#iniciar-y-detener-el-servicio-de-integración-de-openpages-cognos-en-windows)
+    - [Iniciar y detener el servicio de integración de OpenPages Cognos en Windows mediante un script](3.4-guia-del-administrador.md#iniciar-y-detener-el-servicio-de-integración-de-openpages-cognos-en-windows-mediante-un-script)
+- [Migración de entornos de OpenPages](3.4-guia-del-administrador.md#migración-de-entornos-de-openpages)
+  - [Valores que se aplican a la migración de entorno](3.4-guia-del-administrador.md#valores-que-se-aplican-a-la-migración-de-entorno)
+  - [Elementos de migración soportados](3.4-guia-del-administrador.md#elementos-de-migración-soportados)
+    - [Exportación de dependencias](3.4-guia-del-administrador.md#exportación-de-dependencias)
+    - [Elementos que no se migran](3.4-guia-del-administrador.md#elementos-que-no-se-migran)
+    - [Dependencias de elemento no migradas de forma predeterminada](3.4-guia-del-administrador.md#dependencias-de-elemento-no-migradas-de-forma-predeterminada)
+  - [Practicas recomendadas de la migración de entorno](3.4-guia-del-administrador.md#practicas-recomendadas-de-la-migración-de-entorno)
+  - [El proceso de migración de entorno](3.4-guia-del-administrador.md#el-proceso-de-migración-de-entorno)
+  - [Exportación de elementos de configuración desde el entorno de origen](3.4-guia-del-administrador.md#exportación-de-elementos-de-configuración-desde-el-entorno-de-origen)
+  - [Importación de los elementos de configuración al entorno de destino](3.4-guia-del-administrador.md#importación-de-los-elementos-de-configuración-al-entorno-de-destino)
+    - [Configuración de la migración de entorno para permitir caracteres especiales](3.4-guia-del-administrador.md#configuración-de-la-migración-de-entorno-para-permitir-caracteres-especiales)
+    - [Validación de un archivo de migración](3.4-guia-del-administrador.md#validación-de-un-archivo-de-migración)
+    - [Importación de un archivo de migración](3.4-guia-del-administrador.md#importación-de-un-archivo-de-migración)
 
 ### 3.5-guia-del-administrador.md
 
-- [Migración de entornos de OpenPages](3.5-guia-del-administrador.md#migración-de-entornos-de-openpages)
-  - [Valores que se aplican a la migración de entorno](3.5-guia-del-administrador.md#valores-que-se-aplican-a-la-migración-de-entorno)
-  - [Elementos de migración soportados](3.5-guia-del-administrador.md#elementos-de-migración-soportados)
-    - [Exportación de dependencias](3.5-guia-del-administrador.md#exportación-de-dependencias)
-    - [Elementos que no se migran](3.5-guia-del-administrador.md#elementos-que-no-se-migran)
-    - [Dependencias de elemento no migradas de forma predeterminada](3.5-guia-del-administrador.md#dependencias-de-elemento-no-migradas-de-forma-predeterminada)
-  - [Practicas recomendadas de la migración de entorno](3.5-guia-del-administrador.md#practicas-recomendadas-de-la-migración-de-entorno)
-  - [El proceso de migración de entorno](3.5-guia-del-administrador.md#el-proceso-de-migración-de-entorno)
-  - [Exportación de elementos de configuración desde el entorno de origen](3.5-guia-del-administrador.md#exportación-de-elementos-de-configuración-desde-el-entorno-de-origen)
-  - [Importación de los elementos de configuración al entorno de destino](3.5-guia-del-administrador.md#importación-de-los-elementos-de-configuración-al-entorno-de-destino)
-    - [Configuración de la migración de entorno para permitir caracteres especiales](3.5-guia-del-administrador.md#configuración-de-la-migración-de-entorno-para-permitir-caracteres-especiales)
-    - [Validación de un archivo de migración](3.5-guia-del-administrador.md#validación-de-un-archivo-de-migración)
-    - [Importación de un archivo de migración](3.5-guia-del-administrador.md#importación-de-un-archivo-de-migración)
 - [Cargar datos en ' OpenPages ' con ObjectManager](3.5-guia-del-administrador.md#cargar-datos-en--openpages--con-objectmanager)
   - [Instalación del cliente ObjectManager](3.5-guia-del-administrador.md#instalación-del-cliente-objectmanager)
   - [Trabajar con ficheros loader en ObjectManager](3.5-guia-del-administrador.md#trabajar-con-ficheros-loader-en-objectmanager)
@@ -1308,7 +1267,7 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Cómo se configuran los correos electrónicos de confirmación](3.5-guia-del-administrador.md#cómo-se-configuran-los-correos-electrónicos-de-confirmación)
   - [Configuración de la entrada de evento de pérdida de OpenPages](3.5-guia-del-administrador.md#configuración-de-la-entrada-de-evento-de-pérdida-de-openpages)
 - [Configurando integraciones](3.5-guia-del-administrador.md#configurando-integraciones)
-  - [IBM® watsonx Assistant](3.5-guia-del-administrador.md#ibm-watsonx-assistant)
+  - [IBM® watsonx Assistant™](3.5-guia-del-administrador.md#ibm-watsonx-assistant)
     - [Configuración de un asistente de conversación web utilizando IBM watsonx Assistant](3.5-guia-del-administrador.md#configuración-de-un-asistente-de-conversación-web-utilizando-ibm-watsonx-assistant)
     - [Configuración de la integración entre un asistente y OpenPages](3.5-guia-del-administrador.md#configuración-de-la-integración-entre-un-asistente-y-openpages)
     - [Habilitación de características de seguridad adicionales para IBM watsonx Assistant en IBM Cloud](3.5-guia-del-administrador.md#habilitación-de-características-de-seguridad-adicionales-para-ibm-watsonx-assistant-en-ibm-cloud)
@@ -1341,23 +1300,29 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Adición de un modelo a una vista](3.5-guia-del-administrador.md#adición-de-un-modelo-a-una-vista)
     - [probar un modelo](3.5-guia-del-administrador.md#probar-un-modelo)
   - [Importación de un certificado para conexiones a servicios en IBM Cloud Pak for Data](3.5-guia-del-administrador.md#importación-de-un-certificado-para-conexiones-a-servicios-en-ibm-cloud-pak-for-data)
+  - [Exportar datos de OpenPages s para que los utilicen otras aplicaciones](3.5-guia-del-administrador.md#exportar-datos-de-openpages-s-para-que-los-utilicen-otras-aplicaciones)
+  - [Extensiones](3.5-guia-del-administrador.md#extensiones)
+  - [Webhooks](3.5-guia-del-administrador.md#webhooks)
 - [IBM OpenPages Data Privacy Management](3.5-guia-del-administrador.md#ibm-openpages-data-privacy-management)
   - [Configuración del conector IBM Knowledge Catalog](3.5-guia-del-administrador.md#configuración-del-conector-ibm-knowledge-catalog)
-- [IBM OpenPages IT Governance con RiskLens](3.5-guia-del-administrador.md#ibm-openpages-it-governance-con-risklens)
-  - [Configuración del conector RiskLens](3.5-guia-del-administrador.md#configuración-del-conector-risklens)
 - [IBM OpenPages Model Risk Governance](3.5-guia-del-administrador.md#ibm-openpages-model-risk-governance)
   - [Integración con watsonx.governance](3.5-guia-del-administrador.md#integración-con-watsonxgovernance)
-    - [Cargando los archivos de la solución para watsonx.governance](3.5-guia-del-administrador.md#cargando-los-archivos-de-la-solución-para-watsonxgovernance)
+    - [Carga de los archivos de la solución para la gobernanza de la IA (on prem)](3.5-guia-del-administrador.md#carga-de-los-archivos-de-la-solución-para-la-gobernanza-de-la-ia-on-prem)
     - [Cargando los archivos de activación para watsonx.governance](3.5-guia-del-administrador.md#cargando-los-archivos-de-activación-para-watsonxgovernance)
     - [Configuración de OpenPages para integrarse con watsonx.governance](3.5-guia-del-administrador.md#configuración-de-openpages-para-integrarse-con-watsonxgovernance)
     - [Configuración watsonx.governance para integrarse con OpenPages](3.5-guia-del-administrador.md#configuración-watsonxgovernance-para-integrarse-con-openpages)
+  - [Integración con Amazon SageMaker](3.5-guia-del-administrador.md#integración-con-amazon-sagemaker)
+    - [Planifique la integración con Amazon SageMaker](3.5-guia-del-administrador.md#planifique-la-integración-con-amazon-sagemaker)
+    - [Configuración de servicios AWS para la integración con Amazon SageMaker](3.5-guia-del-administrador.md#configuración-de-servicios-aws-para-la-integración-con-amazon-sagemaker)
+    - [Carga de los archivos de la solución para la gobernanza de la IA (IBM Software Hub)](3.5-guia-del-administrador.md#carga-de-los-archivos-de-la-solución-para-la-gobernanza-de-la-ia-ibm-software-hub)
+    - [Configuración OpenPages para integrar con Amazon SageMaker](3.5-guia-del-administrador.md#configuración-openpages-para-integrar-con-amazon-sagemaker)
   - [Integración con AI Factsheets](3.5-guia-del-administrador.md#integración-con-ai-factsheets)
     - [Carga de los archivos AI Factsheets](3.5-guia-del-administrador.md#carga-de-los-archivos-ai-factsheets)
       - [Carga de los archivos de integración para AI Factsheets](3.5-guia-del-administrador.md#carga-de-los-archivos-de-integración-para-ai-factsheets)
-    - [Configuración de la integración " AI Factsheets " en 9.0.0.1 y 9.0.0.2 o IBM Cloud Pak® for Data 4.8.x](3.5-guia-del-administrador.md#configuración-de-la-integración--ai-factsheets--en-9001-y-9002-o-ibm-cloud-pak-for-data-48x)
-    - [Configuración de la integración AI Factsheets en 9.0.0.0 o IBM Cloud Pak® for Data](3.5-guia-del-administrador.md#configuración-de-la-integración-ai-factsheets-en-9000-o-ibm-cloud-pak-for-data)
+    - [Configuración de la integración AI Factsheets](3.5-guia-del-administrador.md#configuración-de-la-integración-ai-factsheets)
     - [Configuración de desencadenante de ejemplo para AI Factsheets](3.5-guia-del-administrador.md#configuración-de-desencadenante-de-ejemplo-para-ai-factsheets)
-  - [Configuración de OpenPages para conectarse a RabbitMQ](3.5-guia-del-administrador.md#configuración-de-openpages-para-conectarse-a-rabbitmq)
+  - [Configuración OpenPages para conectarse a RabbitMQ o AmazonMQ](3.5-guia-del-administrador.md#configuración-openpages-para-conectarse-a-rabbitmq-o-amazonmq)
+  - [Actualización de la gobernanza de la IA tras una actualización (en Prem)](3.5-guia-del-administrador.md#actualización-de-la-gobernanza-de-la-ia-tras-una-actualización-en-prem)
 
 ### 3.6-guia-del-administrador.md
 
@@ -1402,8 +1367,6 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
 - [Configuración de IBM OpenPages Gestión de riesgos de terceros](3.6-guia-del-administrador.md#configuración-de-ibm-openpages-gestión-de-riesgos-de-terceros)
   - [Conector de SecurityScorecard para IBM OpenPages Third Party Risk Management](3.6-guia-del-administrador.md#conector-de-securityscorecard-para-ibm-openpages-third-party-risk-management)
     - [Configuración del conector SecurityScorecard](3.6-guia-del-administrador.md#configuración-del-conector-securityscorecard)
-  - [Supply Wisdom Conector](3.6-guia-del-administrador.md#supply-wisdom-conector)
-    - [Configuración del conector Supply Wisdom](3.6-guia-del-administrador.md#configuración-del-conector-supply-wisdom)
   - [Conector de RapidRatings para IBM OpenPages Third Party Risk Management](3.6-guia-del-administrador.md#conector-de-rapidratings-para-ibm-openpages-third-party-risk-management)
   - [Conector de RiskRecon para IBM OpenPages Third Party Risk Management](3.6-guia-del-administrador.md#conector-de-riskrecon-para-ibm-openpages-third-party-risk-management)
     - [Configuración del conector RiskRecon](3.6-guia-del-administrador.md#configuración-del-conector-riskrecon)
@@ -1413,11 +1376,9 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Tarea 1: Creación de una plantilla de página](3.6-guia-del-administrador.md#tarea-1-creación-de-una-plantilla-de-página)
     - [Tarea 2: Creación de la notificación](3.6-guia-del-administrador.md#tarea-2-creación-de-la-notificación)
     - [Tarea 3: Activación de la notificación](3.6-guia-del-administrador.md#tarea-3-activación-de-la-notificación)
-      - [Utilización de la IU](3.6-guia-del-administrador.md#utilización-de-la-iu)
-      - [Utilización de la interfaz de línea de mandatos del Gestor de notificaciones](3.6-guia-del-administrador.md#utilización-de-la-interfaz-de-línea-de-mandatos-del-gestor-de-notificaciones)
-      - [Sintaxis de la interfaz de línea de mandatos del gestor de notificaciones](3.6-guia-del-administrador.md#sintaxis-de-la-interfaz-de-línea-de-mandatos-del-gestor-de-notificaciones)
 - [Propiedades y parámetros](3.6-guia-del-administrador.md#propiedades-y-parámetros)
   - [Parámetros y propiedades de Aurora](3.6-guia-del-administrador.md#parámetros-y-propiedades-de-aurora)
+  - [`bootstrap.properties`](3.6-guia-del-administrador.md#bootstrapproperties)
   - [Parámetros y propiedades de servidor OpenPages](3.6-guia-del-administrador.md#parámetros-y-propiedades-de-servidor-openpages)
   - [Parámetros y propiedades de Sosa](3.6-guia-del-administrador.md#parámetros-y-propiedades-de-sosa)
   - [Propiedades y parámetros de herramientas](3.6-guia-del-administrador.md#propiedades-y-parámetros-de-herramientas)
@@ -1425,7 +1386,7 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Técnicas para la resolución de problemas](3.6-guia-del-administrador.md#técnicas-para-la-resolución-de-problemas)
   - [Búsqueda en bases de conocimiento](3.6-guia-del-administrador.md#búsqueda-en-bases-de-conocimiento)
   - [Cómo obtener los arreglos](3.6-guia-del-administrador.md#cómo-obtener-los-arreglos)
-  - [Cómo ponerse en contacto con el servicio de soporte de IBM](3.6-guia-del-administrador.md#cómo-ponerse-en-contacto-con-el-servicio-de-soporte-de-ibm)
+  - [Obtener ayuda de IBM](3.6-guia-del-administrador.md#obtener-ayuda-de-ibm)
   - [Intercambio de información con IBM](3.6-guia-del-administrador.md#intercambio-de-información-con-ibm)
     - [Envío de información al soporte de IBM](3.6-guia-del-administrador.md#envío-de-información-al-soporte-de-ibm)
     - [Recepción de información del soporte de IBM](3.6-guia-del-administrador.md#recepción-de-información-del-soporte-de-ibm)
@@ -1441,6 +1402,7 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Errores del navegador sobre la Política de seguridad de contenido](3.6-guia-del-administrador.md#errores-del-navegador-sobre-la-política-de-seguridad-de-contenido)
   - [Prácticas recomendadas para el navegador](3.6-guia-del-administrador.md#prácticas-recomendadas-para-el-navegador)
   - [Faltan elementos del menú Administración](3.6-guia-del-administrador.md#faltan-elementos-del-menú-administración)
+  - [Error: Debe ser superadministrador para modificar esta configuración.](3.6-guia-del-administrador.md#error-debe-ser-superadministrador-para-modificar-esta-configuración)
   - [Los cambios en los tipos de cambio no se guardan cuando se editan en una vista](3.6-guia-del-administrador.md#los-cambios-en-los-tipos-de-cambio-no-se-guardan-cuando-se-editan-en-una-vista)
   - [Problemas conocidos y soluciones para la búsqueda global](3.6-guia-del-administrador.md#problemas-conocidos-y-soluciones-para-la-búsqueda-global)
     - [El inicio de la búsqueda global falla](3.6-guia-del-administrador.md#el-inicio-de-la-búsqueda-global-falla)
@@ -1493,7 +1455,6 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
 - [Adición de una sección](3.6-guia-del-administrador.md#adición-de-una-sección)
 - [Aplicación de etiquetas de campo alternativas](3.6-guia-del-administrador.md#aplicación-de-etiquetas-de-campo-alternativas)
 - [Aplicación del formato básico a un texto](3.6-guia-del-administrador.md#aplicación-del-formato-básico-a-un-texto)
-- [Asociación de objetos utilizando la vista de administración](3.6-guia-del-administrador.md#asociación-de-objetos-utilizando-la-vista-de-administración)
 - [Copia de una vista](3.6-guia-del-administrador.md#copia-de-una-vista)
 - [Creación de un filtro de relaciones compartidas](3.6-guia-del-administrador.md#creación-de-un-filtro-de-relaciones-compartidas)
 - [Cómo se muestran los elementos clave y las acciones de flujo de trabajo en la orientación de usuario](3.6-guia-del-administrador.md#cómo-se-muestran-los-elementos-clave-y-las-acciones-de-flujo-de-trabajo-en-la-orientación-de-usuario)
@@ -1518,27 +1479,12 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
 - [Inhabilitación de activadores al migrar entornos](3.6-guia-del-administrador.md#inhabilitación-de-activadores-al-migrar-entornos)
 - [OpenPages TIPOS DE DESPLIEGUE](3.6-guia-del-administrador.md#openpages-tipos-de-despliegue)
 - [Organización de campos de relaciones en grupos de pestañas](3.6-guia-del-administrador.md#organización-de-campos-de-relaciones-en-grupos-de-pestañas)
-- [Vistas de administrador](3.6-guia-del-administrador.md#vistas-de-administrador)
 - [Visualización de información de depuración](3.6-guia-del-administrador.md#visualización-de-información-de-depuración)
 - [Visualización de un campo de iniciador de URL como un botón o un enlace](3.6-guia-del-administrador.md#visualización-de-un-campo-de-iniciador-de-url-como-un-botón-o-un-enlace)
 
 ### 4-guia-del-usuario.md
 
 - [Guía del usuario](4-guia-del-usuario.md#guía-del-usuario)
-- [Novedades](4-guia-del-usuario.md#novedades)
-  - [Novedades de la versión 9.0.0.5](4-guia-del-usuario.md#novedades-de-la-versión-9005)
-  - [Novedades de la versión 9.0.0.4](4-guia-del-usuario.md#novedades-de-la-versión-9004)
-  - [Características nuevas de la versión 9.0.0.3](4-guia-del-usuario.md#características-nuevas-de-la-versión-9003)
-  - [Características nuevas de la versión 9.0.0.2](4-guia-del-usuario.md#características-nuevas-de-la-versión-9002)
-  - [Características nuevas de la versión 9.0.0.1](4-guia-del-usuario.md#características-nuevas-de-la-versión-9001)
-  - [Características nuevas de la versión 9.0.0.0](4-guia-del-usuario.md#características-nuevas-de-la-versión-9000)
-  - [Características nuevas de la versión 8.3.0.2](4-guia-del-usuario.md#características-nuevas-de-la-versión-8302)
-  - [Características nuevas de la versión 8.3.0.1](4-guia-del-usuario.md#características-nuevas-de-la-versión-8301)
-  - [Nuevas características en la versión 8.3.0](4-guia-del-usuario.md#nuevas-características-en-la-versión-830)
-  - [Nuevas características en la versión 8.2.0.3](4-guia-del-usuario.md#nuevas-características-en-la-versión-8203)
-  - [Nuevas características en la versión 8.2.0.2](4-guia-del-usuario.md#nuevas-características-en-la-versión-8202)
-  - [Nuevas características en la versión 8.2.0.1](4-guia-del-usuario.md#nuevas-características-en-la-versión-8201)
-  - [Características nuevas de la versión 8.2.0](4-guia-del-usuario.md#características-nuevas-de-la-versión-820)
 - [Cómo empezar con la interfaz de usuario](4-guia-del-usuario.md#cómo-empezar-con-la-interfaz-de-usuario)
   - [Utilización de la IU](4-guia-del-usuario.md#utilización-de-la-iu)
   - [Inicio de sesión en IBM OpenPages for IBM Cloud Pak for Data](4-guia-del-usuario.md#inicio-de-sesión-en-ibm-openpages-for-ibm-cloud-pak-for-data)
@@ -1555,7 +1501,6 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Utilización de IBM watsonx Assistant](4-guia-del-usuario.md#utilización-de-ibm-watsonx-assistant)
   - [Traducción de valores en campos de texto](4-guia-del-usuario.md#traducción-de-valores-en-campos-de-texto)
   - [Modelos de aprendizaje automático](4-guia-del-usuario.md#modelos-de-aprendizaje-automático)
-  - [Proporcionar comentarios utilizando una encuesta NPS](4-guia-del-usuario.md#proporcionar-comentarios-utilizando-una-encuesta-nps)
   - [Ciclos de vida configurables](4-guia-del-usuario.md#ciclos-de-vida-configurables)
   - [Servicios de procesamiento de lenguaje natural](4-guia-del-usuario.md#servicios-de-procesamiento-de-lenguaje-natural)
   - [Etiquetas](4-guia-del-usuario.md#etiquetas)
@@ -1568,6 +1513,7 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Añadir paneles y widgets a una pestaña](4-guia-del-usuario.md#añadir-paneles-y-widgets-a-una-pestaña)
     - [Adición de un panel de gráfico](4-guia-del-usuario.md#adición-de-un-panel-de-gráfico)
     - [Adición de un panel personalizado](4-guia-del-usuario.md#adición-de-un-panel-personalizado)
+    - [Añadir un comentario Panel de actividad](4-guia-del-usuario.md#añadir-un-comentario-panel-de-actividad)
     - [Adición de un panel de favoritos](4-guia-del-usuario.md#adición-de-un-panel-de-favoritos)
     - [Adición de un panel de informes](4-guia-del-usuario.md#adición-de-un-panel-de-informes)
     - [Adición de un panel Mis tareas](4-guia-del-usuario.md#adición-de-un-panel-mis-tareas)
@@ -1588,7 +1534,7 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Exportación de datos de los resultados filtrados](4-guia-del-usuario.md#exportación-de-datos-de-los-resultados-filtrados)
   - [Imprimir una vista en PDF](4-guia-del-usuario.md#imprimir-una-vista-en-pdf)
   - [Edición de objetos en una vista de tarea](4-guia-del-usuario.md#edición-de-objetos-en-una-vista-de-tarea)
-  - [Comentar objetos](4-guia-del-usuario.md#comentar-objetos)
+  - [Añadir comentarios a los objetos](4-guia-del-usuario.md#añadir-comentarios-a-los-objetos)
   - [Copia de objetos](4-guia-del-usuario.md#copia-de-objetos)
   - [Supresión de objetos](4-guia-del-usuario.md#supresión-de-objetos)
   - [Renombrar un objeto desde una vista de tarea](4-guia-del-usuario.md#renombrar-un-objeto-desde-una-vista-de-tarea)
@@ -1603,6 +1549,7 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Disociación de objetos](4-guia-del-usuario.md#disociación-de-objetos)
   - [Asociación padre principal](4-guia-del-usuario.md#asociación-padre-principal)
     - [Cambio de la asociación padre principal](4-guia-del-usuario.md#cambio-de-la-asociación-padre-principal)
+- [Visualización del riesgo y el cumplimiento mediante Canvas](4-guia-del-usuario.md#visualización-del-riesgo-y-el-cumplimiento-mediante-canvas)
 - [Utilización de filtros en vistas de cuadrícula](4-guia-del-usuario.md#utilización-de-filtros-en-vistas-de-cuadrícula)
   - [Búsqueda de objetos con el recuadro Buscar](4-guia-del-usuario.md#búsqueda-de-objetos-con-el-recuadro-buscar)
   - [Utilización de filtros de carpeta (Entidad de negocios)](4-guia-del-usuario.md#utilización-de-filtros-de-carpeta-entidad-de-negocios)
@@ -1643,6 +1590,7 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Establecer los valores de campo de un objeto basándose en las respuestas de un encuestado](4-guia-del-usuario.md#establecer-los-valores-de-campo-de-un-objeto-basándose-en-las-respuestas-de-un-encuestado)
     - [Creación de un objeto basado en las respuestas de un encuestado](4-guia-del-usuario.md#creación-de-un-objeto-basado-en-las-respuestas-de-un-encuestado)
     - [Copia de un objeto basado en las respuestas de un encuestado](4-guia-del-usuario.md#copia-de-un-objeto-basado-en-las-respuestas-de-un-encuestado)
+      - [Copia de objetos hijos relacionados](4-guia-del-usuario.md#copia-de-objetos-hijos-relacionados)
     - [Adición de variables de objeto a una plantilla de cuestionario](4-guia-del-usuario.md#adición-de-variables-de-objeto-a-una-plantilla-de-cuestionario)
     - [Adición de enlaces a una plantilla de cuestionario](4-guia-del-usuario.md#adición-de-enlaces-a-una-plantilla-de-cuestionario)
       - [Enlaces fijos en las plantillas de cuestionario](4-guia-del-usuario.md#enlaces-fijos-en-las-plantillas-de-cuestionario)
@@ -1783,24 +1731,8 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Ubicaciones de instalación](5.1-guia-de-instalacion-y-despliegue-solo-local.md#ubicaciones-de-instalación)
   - [Cambios realizados en el proceso de instalación](5.1-guia-de-instalacion-y-despliegue-solo-local.md#cambios-realizados-en-el-proceso-de-instalación)
   - [Caracteres especiales en las contraseñas](5.1-guia-de-instalacion-y-despliegue-solo-local.md#caracteres-especiales-en-las-contraseñas)
-- [Novedades](5.1-guia-de-instalacion-y-despliegue-solo-local.md#novedades)
-  - [Características nuevas de la versión 9.0.0.2](5.1-guia-de-instalacion-y-despliegue-solo-local.md#características-nuevas-de-la-versión-9002)
-  - [Características nuevas de la versión 9.0.0.1](5.1-guia-de-instalacion-y-despliegue-solo-local.md#características-nuevas-de-la-versión-9001)
-  - [Características nuevas de la versión 9.0.0.0](5.1-guia-de-instalacion-y-despliegue-solo-local.md#características-nuevas-de-la-versión-9000)
-  - [Características nuevas de la versión 8.3.0.1](5.1-guia-de-instalacion-y-despliegue-solo-local.md#características-nuevas-de-la-versión-8301)
-  - [Nuevas características en la versión 8.3.0](5.1-guia-de-instalacion-y-despliegue-solo-local.md#nuevas-características-en-la-versión-830)
-  - [Nuevas características en la versión 8.2.0.4](5.1-guia-de-instalacion-y-despliegue-solo-local.md#nuevas-características-en-la-versión-8204)
-  - [Nuevas características en la versión 8.2.0.3](5.1-guia-de-instalacion-y-despliegue-solo-local.md#nuevas-características-en-la-versión-8203)
-  - [Nuevas características en la versión 8.2.0.2](5.1-guia-de-instalacion-y-despliegue-solo-local.md#nuevas-características-en-la-versión-8202)
-  - [Nuevas características en la versión 8.2.0.1](5.1-guia-de-instalacion-y-despliegue-solo-local.md#nuevas-características-en-la-versión-8201)
-  - [Características nuevas de la versión 8.2.0](5.1-guia-de-instalacion-y-despliegue-solo-local.md#características-nuevas-de-la-versión-820)
 - [Visión general de OpenPages](5.1-guia-de-instalacion-y-despliegue-solo-local.md#visión-general-de-openpages)
   - [OpenPages componentes](5.1-guia-de-instalacion-y-despliegue-solo-local.md#openpages-componentes)
-    - [Servidor de instalación](5.1-guia-de-instalacion-y-despliegue-solo-local.md#servidor-de-instalación)
-    - [Servidor de bases de datos](5.1-guia-de-instalacion-y-despliegue-solo-local.md#servidor-de-bases-de-datos)
-    - [Servidor de aplicaciones](5.1-guia-de-instalacion-y-despliegue-solo-local.md#servidor-de-aplicaciones)
-    - [Servidor de informes](5.1-guia-de-instalacion-y-despliegue-solo-local.md#servidor-de-informes)
-    - [Servidor de búsqueda](5.1-guia-de-instalacion-y-despliegue-solo-local.md#servidor-de-búsqueda)
   - [Topología de servidor y configuraciones de instalación](5.1-guia-de-instalacion-y-despliegue-solo-local.md#topología-de-servidor-y-configuraciones-de-instalación)
   - [Entornos en clúster](5.1-guia-de-instalacion-y-despliegue-solo-local.md#entornos-en-clúster)
 - [Requisitos previos de instalación](5.1-guia-de-instalacion-y-despliegue-solo-local.md#requisitos-previos-de-instalación)
@@ -1820,7 +1752,7 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Configuración del servidor de instalación en Linux®](5.1-guia-de-instalacion-y-despliegue-solo-local.md#configuración-del-servidor-de-instalación-en-linux)
   - [Migración de despliegues y usuarios del servidor de instalación](5.1-guia-de-instalacion-y-despliegue-solo-local.md#migración-de-despliegues-y-usuarios-del-servidor-de-instalación)
   - [Instalación manual de agentes](5.1-guia-de-instalacion-y-despliegue-solo-local.md#instalación-manual-de-agentes)
-  - [Actualización del servidor de instalación y los agentes](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-del-servidor-de-instalación-y-los-agentes)
+  - [Actualizar el servidor de instalación y los agentes con un paquete de correcciones](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualizar-el-servidor-de-instalación-y-los-agentes-con-un-paquete-de-correcciones)
     - [Actualización del servidor de instalación](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-del-servidor-de-instalación)
     - [Actualización manual de un agente](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-manual-de-un-agente)
   - [Inicio de sesión en la aplicación de instalación](5.1-guia-de-instalacion-y-despliegue-solo-local.md#inicio-de-sesión-en-la-aplicación-de-instalación)
@@ -1835,16 +1767,19 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Descripción general del proceso de instalación](5.1-guia-de-instalacion-y-despliegue-solo-local.md#descripción-general-del-proceso-de-instalación)
   - [Preparación del sistema para la instalación](5.1-guia-de-instalacion-y-despliegue-solo-local.md#preparación-del-sistema-para-la-instalación)
     - [Lista de comprobación si utiliza el hardware existente](5.1-guia-de-instalacion-y-despliegue-solo-local.md#lista-de-comprobación-si-utiliza-el-hardware-existente)
+      - [Preparar el almacén de claves personalizado para la actualización o migración](5.1-guia-de-instalacion-y-despliegue-solo-local.md#preparar-el-almacén-de-claves-personalizado-para-la-actualización-o-migración)
+        - [Opción 1: Desactivar el almacén de claves personalizado](5.1-guia-de-instalacion-y-despliegue-solo-local.md#opción-1-desactivar-el-almacén-de-claves-personalizado)
+        - [Opción 2: Migrar un almacén de claves de cifrado personalizado a PKCS12](5.1-guia-de-instalacion-y-despliegue-solo-local.md#opción-2-migrar-un-almacén-de-claves-de-cifrado-personalizado-a-pkcs12)
     - [Lista de comprobación para servidores Windows](5.1-guia-de-instalacion-y-despliegue-solo-local.md#lista-de-comprobación-para-servidores-windows)
       - [Habilitación de Data Execution Prevention para programas y servicios esenciales de Windows](5.1-guia-de-instalacion-y-despliegue-solo-local.md#habilitación-de-data-execution-prevention-para-programas-y-servicios-esenciales-de-windows)
       - [Usuarios y grupos para instalaciones en Windows](5.1-guia-de-instalacion-y-despliegue-solo-local.md#usuarios-y-grupos-para-instalaciones-en-windows)
-      - [Obtención de una copia del SDK de IBM (Windows)](5.1-guia-de-instalacion-y-despliegue-solo-local.md#obtención-de-una-copia-del-sdk-de-ibm-windows)
+      - [Obtener una copia del archivo de registro de Semeru ( IBM ) (Windows)](5.1-guia-de-instalacion-y-despliegue-solo-local.md#obtener-una-copia-del-archivo-de-registro-de-semeru--ibm--windows)
     - [Lista de comprobación para servidores Linux](5.1-guia-de-instalacion-y-despliegue-solo-local.md#lista-de-comprobación-para-servidores-linux)
       - [Establecimiento del límite de descriptor de archivo para usuarios de OpenPages en Linux](5.1-guia-de-instalacion-y-despliegue-solo-local.md#establecimiento-del-límite-de-descriptor-de-archivo-para-usuarios-de-openpages-en-linux)
       - [Compruebe los límites del sistema operativo en Linux](5.1-guia-de-instalacion-y-despliegue-solo-local.md#compruebe-los-límites-del-sistema-operativo-en-linux)
       - [Creación del usuario de instalación de OpenPages (Linux)](5.1-guia-de-instalacion-y-despliegue-solo-local.md#creación-del-usuario-de-instalación-de-openpages-linux)
       - [Creación de los directorios de instalación para Linux](5.1-guia-de-instalacion-y-despliegue-solo-local.md#creación-de-los-directorios-de-instalación-para-linux)
-      - [Obtención de una copia de IBM SDK (Linux)](5.1-guia-de-instalacion-y-despliegue-solo-local.md#obtención-de-una-copia-de-ibm-sdk-linux)
+      - [Obtener una copia de los tiempos de ejecución de Semeru de IBM ( Linux )](5.1-guia-de-instalacion-y-despliegue-solo-local.md#obtener-una-copia-de-los-tiempos-de-ejecución-de-semeru-de-ibm--linux)
     - [Lista de comprobación para servidores de aplicaciones](5.1-guia-de-instalacion-y-despliegue-solo-local.md#lista-de-comprobación-para-servidores-de-aplicaciones)
       - [Configuración del archivo `hosts`](5.1-guia-de-instalacion-y-despliegue-solo-local.md#configuración-del-archivo-hosts)
       - [Instalar IBM Installation Manager](5.1-guia-de-instalacion-y-despliegue-solo-local.md#instalar-ibm-installation-manager)
@@ -1870,8 +1805,6 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
       - [Creación de usuarios y grupos en el servidor de bases de datos Oracle para sistemas operativos Linux](5.1-guia-de-instalacion-y-despliegue-solo-local.md#creación-de-usuarios-y-grupos-en-el-servidor-de-bases-de-datos-oracle-para-sistemas-operativos-linux)
       - [Instalaciones de Oracle Database 19c](5.1-guia-de-instalacion-y-despliegue-solo-local.md#instalaciones-de-oracle-database-19c)
         - [Instalación de Oracle 19c](5.1-guia-de-instalacion-y-despliegue-solo-local.md#instalación-de-oracle-19c)
-        - [Actualización de Oracle a 19c (in situ)](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-oracle-a-19c-in-situ)
-        - [Actualización de Oracle a 19c (migración)](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-oracle-a-19c-migración)
       - [Establecimiento de las variables de entorno de Oracle para el servidor de bases de datos (Windows)](5.1-guia-de-instalacion-y-despliegue-solo-local.md#establecimiento-de-las-variables-de-entorno-de-oracle-para-el-servidor-de-bases-de-datos-windows)
       - [Establecimiento de las variables de entorno de Oracle para el servidor de bases de datos (Linux)](5.1-guia-de-instalacion-y-despliegue-solo-local.md#establecimiento-de-las-variables-de-entorno-de-oracle-para-el-servidor-de-bases-de-datos-linux)
       - [Preparación de la base de datos de Oracle](5.1-guia-de-instalacion-y-despliegue-solo-local.md#preparación-de-la-base-de-datos-de-oracle)
@@ -1899,7 +1832,7 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
         - [Configuración de una conexión con el almacén de contenido (Db2)](5.1-guia-de-instalacion-y-despliegue-solo-local.md#configuración-de-una-conexión-con-el-almacén-de-contenido-db2)
         - [Configuración de una conexión con el almacén de contenido (Oracle)](5.1-guia-de-instalacion-y-despliegue-solo-local.md#configuración-de-una-conexión-con-el-almacén-de-contenido-oracle)
         - [Guardar los valores e iniciar los servicios de IBM Cognos](5.1-guia-de-instalacion-y-despliegue-solo-local.md#guardar-los-valores-e-iniciar-los-servicios-de-ibm-cognos)
-        - [Habilitación de la conexión a una base de datos Db2 desde el sistema OpenPages CommandCenter](5.1-guia-de-instalacion-y-despliegue-solo-local.md#habilitación-de-la-conexión-a-una-base-de-datos-db2-desde-el-sistema-openpages-commandcenter)
+        - [Habilitar la conexión a una base de datos Db2 desde el OpenPages Computadora de informes](5.1-guia-de-instalacion-y-despliegue-solo-local.md#habilitar-la-conexión-a-una-base-de-datos-db2-desde-el-openpages-computadora-de-informes)
         - [Establecimiento de variables de entorno de base de datos para el servidor de informes en sistemas operativos Linux®](5.1-guia-de-instalacion-y-despliegue-solo-local.md#establecimiento-de-variables-de-entorno-de-base-de-datos-para-el-servidor-de-informes-en-sistemas-operativos-linux)
         - [Establecimiento de variables de entorno de base de datos para servidores de informes en sistemas operativos Windows](5.1-guia-de-instalacion-y-despliegue-solo-local.md#establecimiento-de-variables-de-entorno-de-base-de-datos-para-servidores-de-informes-en-sistemas-operativos-windows)
         - [Prueba de la conexión con la base de datos OpenPages desde el cliente de base de datos Oracle](5.1-guia-de-instalacion-y-despliegue-solo-local.md#prueba-de-la-conexión-con-la-base-de-datos-openpages-desde-el-cliente-de-base-de-datos-oracle-1)
@@ -1935,12 +1868,13 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Configuración de un servidor de búsqueda](5.1-guia-de-instalacion-y-despliegue-solo-local.md#configuración-de-un-servidor-de-búsqueda)
   - [Tareas posteriores a la instalación](5.1-guia-de-instalacion-y-despliegue-solo-local.md#tareas-posteriores-a-la-instalación)
     - [Eliminar el botón de lanzamiento de interfaz de usuario de cuestionario heredado de la vista de administración para las evaluaciones de cuestionario](5.1-guia-de-instalacion-y-despliegue-solo-local.md#eliminar-el-botón-de-lanzamiento-de-interfaz-de-usuario-de-cuestionario-heredado-de-la-vista-de-administración-para-las-evaluaciones-de-cuestionario)
-    - [Actualización de WebSphere Liberty en servidores de aplicaciones](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-websphere-liberty-en-servidores-de-aplicaciones)
-      - [Actualización manual de las características de WebSphere Liberty](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-manual-de-las-características-de-websphere-liberty)
-    - [Tareas posteriores a la instalación de OpenPages CommandCenter](5.1-guia-de-instalacion-y-despliegue-solo-local.md#tareas-posteriores-a-la-instalación-de-openpages-commandcenter)
+    - [Actualización WebSphere Liberty](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-websphere-liberty)
+      - [Actualización WebSphere Liberty de las funciones en los servidores de aplicaciones de forma manual](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-websphere-liberty-de-las-funciones-en-los-servidores-de-aplicaciones-de-forma-manual)
+      - [Actualización WebSphere Liberty de las funciones en los servidores de informes de forma manual](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-websphere-liberty-de-las-funciones-en-los-servidores-de-informes-de-forma-manual)
+    - [OpenPages Informar de las tareas posteriores a la instalación](5.1-guia-de-instalacion-y-despliegue-solo-local.md#openpages-informar-de-las-tareas-posteriores-a-la-instalación)
       - [Copia de los archivos de IBM Global Security Kit en el servidor Db2 (Windows)](5.1-guia-de-instalacion-y-despliegue-solo-local.md#copia-de-los-archivos-de-ibm-global-security-kit-en-el-servidor-db2-windows)
       - [Creación del esquema y entorno de elaboración de informes](5.1-guia-de-instalacion-y-despliegue-solo-local.md#creación-del-esquema-y-entorno-de-elaboración-de-informes)
-      - [Seguridad del portal de OpenPages CommandCenter](5.1-guia-de-instalacion-y-despliegue-solo-local.md#seguridad-del-portal-de-openpages-commandcenter)
+      - [OpenPages Seguridad del portal de informes](5.1-guia-de-instalacion-y-despliegue-solo-local.md#openpages-seguridad-del-portal-de-informes)
       - [Creación de un bloque de mandatos de sesión abierta para el origen de datos OpenPages](5.1-guia-de-instalacion-y-despliegue-solo-local.md#creación-de-un-bloque-de-mandatos-de-sesión-abierta-para-el-origen-de-datos-openpages)
     - [Carga de la integración del panel de control de Cognos después de la instalación](5.1-guia-de-instalacion-y-despliegue-solo-local.md#carga-de-la-integración-del-panel-de-control-de-cognos-después-de-la-instalación)
     - [Configuración de aplicaciones OpenPages para utilizar una cuenta de dominio (Windows)](5.1-guia-de-instalacion-y-despliegue-solo-local.md#configuración-de-aplicaciones-openpages-para-utilizar-una-cuenta-de-dominio-windows)
@@ -1986,7 +1920,7 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Descripción general del proceso de migración: Utilización del servidor de base de datos desde el entorno de origen](5.1-guia-de-instalacion-y-despliegue-solo-local.md#descripción-general-del-proceso-de-migración-utilización-del-servidor-de-base-de-datos-desde-el-entorno-de-origen)
     - [Descripción general del proceso de migración: Utilización de un nuevo hardware para el servidor de base de datos](5.1-guia-de-instalacion-y-despliegue-solo-local.md#descripción-general-del-proceso-de-migración-utilización-de-un-nuevo-hardware-para-el-servidor-de-base-de-datos)
   - [Actualizar software de requisito previo](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualizar-software-de-requisito-previo)
-    - [Opciones de actualización de Oracle y Oracle PDB](5.1-guia-de-instalacion-y-despliegue-solo-local.md#opciones-de-actualización-de-oracle-y-oracle-pdb)
+    - [Oracle PDB](5.1-guia-de-instalacion-y-despliegue-solo-local.md#oracle-pdb)
     - [IBM Cognos Analytics](5.1-guia-de-instalacion-y-despliegue-solo-local.md#ibm-cognos-analytics)
   - [Preparación del servidor de búsqueda en el entorno de origen](5.1-guia-de-instalacion-y-despliegue-solo-local.md#preparación-del-servidor-de-búsqueda-en-el-entorno-de-origen)
   - [Realizar copia de seguridad del entorno de origen](5.1-guia-de-instalacion-y-despliegue-solo-local.md#realizar-copia-de-seguridad-del-entorno-de-origen)
@@ -2000,7 +1934,7 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Actualización de los valores de servidor](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-los-valores-de-servidor)
     - [Actualización de los punteros de host de URL para informes](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-los-punteros-de-host-de-url-para-informes)
     - [Verifique la lista de dominios y nombres de host válidos para IBM Cognos Analytics](5.1-guia-de-instalacion-y-despliegue-solo-local.md#verifique-la-lista-de-dominios-y-nombres-de-host-válidos-para-ibm-cognos-analytics)
-    - [Actualización del algoritmo de cifrado de contraseñas OpenPages para el cifrado AES](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-del-algoritmo-de-cifrado-de-contraseñas-openpages-para-el-cifrado-aes)
+    - [Actualización del algoritmo de cifrado de contraseñas de OpenPages](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-del-algoritmo-de-cifrado-de-contraseñas-de-openpages)
     - [Valores personalizados en archivos de configuración](5.1-guia-de-instalacion-y-despliegue-solo-local.md#valores-personalizados-en-archivos-de-configuración)
     - [Tareas posteriores a la migración del servidor de búsqueda](5.1-guia-de-instalacion-y-despliegue-solo-local.md#tareas-posteriores-a-la-migración-del-servidor-de-búsqueda)
       - [Volver a crear el índice para la búsqueda global](5.1-guia-de-instalacion-y-despliegue-solo-local.md#volver-a-crear-el-índice-para-la-búsqueda-global)
@@ -2010,30 +1944,26 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Actualización de IBM OpenPages SDI Connector for UCF Common Controls Hub](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-ibm-openpages-sdi-connector-for-ucf-common-controls-hub)
     - [Actualización de IBM Security Directory Integrator para el conector QRadar](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-ibm-security-directory-integrator-para-el-conector-qradar)
     - [Actualización de campos calculados personalizados](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-campos-calculados-personalizados)
-    - [Actualizar informes](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualizar-informes)
-    - [Actualización del esquema de elaboración de informes](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-del-esquema-de-elaboración-de-informes)
     - [Regeneración del entorno de elaboración de informes](5.1-guia-de-instalacion-y-despliegue-solo-local.md#regeneración-del-entorno-de-elaboración-de-informes)
     - [Pruebas de verificación de la migración](5.1-guia-de-instalacion-y-despliegue-solo-local.md#pruebas-de-verificación-de-la-migración)
-    - [Actualización de vistas de detalles a vistas de administración](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-vistas-de-detalles-a-vistas-de-administración)
-    - [Utilización de vistas de creación personalizadas con la aplicación Loss Event Entry](5.1-guia-de-instalacion-y-despliegue-solo-local.md#utilización-de-vistas-de-creación-personalizadas-con-la-aplicación-loss-event-entry)
     - [Cambios y mejoras en la configuración](5.1-guia-de-instalacion-y-despliegue-solo-local.md#cambios-y-mejoras-en-la-configuración)
       - [Rellenar el campo Título del sistema después de actualizar o migrar](5.1-guia-de-instalacion-y-despliegue-solo-local.md#rellenar-el-campo-título-del-sistema-después-de-actualizar-o-migrar)
   - [Retrotracción de una migración de OpenPages](5.1-guia-de-instalacion-y-despliegue-solo-local.md#retrotracción-de-una-migración-de-openpages)
 
 ### 5.2-guia-de-instalacion-y-despliegue-solo-local.md
 
-- [Referencia de tareas de migración para bases de datos Db2](5.2-guia-de-instalacion-y-despliegue-solo-local.md#referencia-de-tareas-de-migración-para-bases-de-datos-db2)
+- [Referencia de tareas de actualización y migración para Db2 bases de datos](5.2-guia-de-instalacion-y-despliegue-solo-local.md#referencia-de-tareas-de-actualización-y-migración-para-db2-bases-de-datos)
   - [Copia de seguridad de la base de datos (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#copia-de-seguridad-de-la-base-de-datos-db2)
     - [Descarte del índice de búsqueda e inhabilitación de Db2 Text Search](5.2-guia-de-instalacion-y-despliegue-solo-local.md#descarte-del-índice-de-búsqueda-e-inhabilitación-de-db2-text-search)
-    - [Copia de seguridad de la base de datos OpenPages durante una migración a 9.0 (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#copia-de-seguridad-de-la-base-de-datos-openpages-durante-una-migración-a-90-db2)
-    - [Copia de seguridad de la base de datos de Cognos durante una migración a 9.0 (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#copia-de-seguridad-de-la-base-de-datos-de-cognos-durante-una-migración-a-90-db2)
-  - [Restaurar la base de datos OpenPages en el entorno de 9.0 (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#restaurar-la-base-de-datos-openpages-en-el-entorno-de-90-db2)
+    - [Copia de seguridad de la base de datos OpenPages durante una migración a 9.1.x ( Db2 )](5.2-guia-de-instalacion-y-despliegue-solo-local.md#copia-de-seguridad-de-la-base-de-datos-openpages-durante-una-migración-a-91x--db2)
+    - [Copia de seguridad de la Cognos de la base de datos durante una migración a 9.1.x ( Db2 )](5.2-guia-de-instalacion-y-despliegue-solo-local.md#copia-de-seguridad-de-la-cognos-de-la-base-de-datos-durante-una-migración-a-91x--db2)
+  - [Restaure la base de datos OpenPages en su 9.1.x entorno ( Db2 )](5.2-guia-de-instalacion-y-despliegue-solo-local.md#restaure-la-base-de-datos-openpages-en-su-91x-entorno--db2)
     - [Restauración de la base de datos OpenPages (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#restauración-de-la-base-de-datos-openpages-db2)
       - [Resolución de errores de revinculación (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#resolución-de-errores-de-revinculación-db2)
     - [Restaurar Db2 Text Search](5.2-guia-de-instalacion-y-despliegue-solo-local.md#restaurar-db2-text-search)
-    - [Actualizar las bases de datos para un fixpack de Db2 11.5.x](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualizar-las-bases-de-datos-para-un-fixpack-de-db2-115x)
+    - [Actualizar las bases de datos para un paquete de correcciones de Db2, 11.5.x o 12.1.x](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualizar-las-bases-de-datos-para-un-paquete-de-correcciones-de-db2-115x-o-121x)
   - [Restauración del almacén de contenido de Cognos (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#restauración-del-almacén-de-contenido-de-cognos-db2)
-  - [Actualizar las bases de datos (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualizar-las-bases-de-datos-db2)
+  - [Actualice la base de datos OpenPages ( Db2 )](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualice-la-base-de-datos-openpages--db2)
     - [Ampliación de los tamaños de fila de base de datos para las bases de datos (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#ampliación-de-los-tamaños-de-fila-de-base-de-datos-para-las-bases-de-datos-db2)
     - [Preparación de la actualización de la base de datos (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#preparación-de-la-actualización-de-la-base-de-datos-db2)
       - [Ejecución de un script personalizado durante la actualización de la base de datos (Db2®)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#ejecución-de-un-script-personalizado-durante-la-actualización-de-la-base-de-datos-db2)
@@ -2044,20 +1974,20 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Validación del paso de DBA posterior a la actualización (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#validación-del-paso-de-dba-posterior-a-la-actualización-db2)
   - [Actualización de la ubicación del directorio `openpages-storage` (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-la-ubicación-del-directorio-openpages-storage-db2)
   - [Actualizar la información de conexión de base de datos (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualizar-la-información-de-conexión-de-base-de-datos-db2)
-    - [Actualización del archivo `aurora.properties` (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-del-archivo-auroraproperties-db2)
+    - [Actualización de los archivos de propiedades ( Db2 )](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-los-archivos-de-propiedades--db2)
     - [Actualización de la conexión de origen de datos en WebSphere Liberty (Db2®)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-la-conexión-de-origen-de-datos-en-websphere-liberty-db2)
     - [Actualización de la información del almacén de contenido de Cognos (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-la-información-del-almacén-de-contenido-de-cognos-db2)
     - [Actualización de la información de conexión de base de datos para el servidor de búsqueda (Db2®)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-la-información-de-conexión-de-base-de-datos-para-el-servidor-de-búsqueda-db2)
     - [Actualización del archivo `deploy.properties`](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-del-archivo-deployproperties)
     - [Actualización de la conexión con la base de datos OpenPages para Cognos (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-la-conexión-con-la-base-de-datos-openpages-para-cognos-db2)
-- [Referencia de tareas de migración para bases de datos Oracle](5.2-guia-de-instalacion-y-despliegue-solo-local.md#referencia-de-tareas-de-migración-para-bases-de-datos-oracle)
+- [Referencia de tareas de actualización y migración para bases de datos Oracle](5.2-guia-de-instalacion-y-despliegue-solo-local.md#referencia-de-tareas-de-actualización-y-migración-para-bases-de-datos-oracle)
   - [Copia de seguridad de la base de datos OpenPages durante una migración (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#copia-de-seguridad-de-la-base-de-datos-openpages-durante-una-migración-oracle)
   - [Copia de seguridad del almacén de contenido de Cognos durante una migración (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#copia-de-seguridad-del-almacén-de-contenido-de-cognos-durante-una-migración-oracle)
-  - [Restaurar la base de datos OpenPages en el entorno 9.0 (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#restaurar-la-base-de-datos-openpages-en-el-entorno-90-oracle)
+  - [Restaure la base de datos OpenPages en su 9.1.x entorno ( Oracle )](5.2-guia-de-instalacion-y-despliegue-solo-local.md#restaure-la-base-de-datos-openpages-en-su-91x-entorno--oracle)
     - [Preparación para importar la base de datos OpenPages (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#preparación-para-importar-la-base-de-datos-openpages-oracle)
     - [Restauración de los esquemas de base de datos de OpenPages (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#restauración-de-los-esquemas-de-base-de-datos-de-openpages-oracle)
     - [Volver a correlacionar nombres de esquemas y espacios de tabla (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#volver-a-correlacionar-nombres-de-esquemas-y-espacios-de-tabla-oracle)
-  - [Restaurar el almacén de contenido de Cognos en el entorno de 9.0 (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#restaurar-el-almacén-de-contenido-de-cognos-en-el-entorno-de-90-oracle)
+  - [Restaurar el Cognos almacén de contenidos en su 9.1.x entorno ( Oracle )](5.2-guia-de-instalacion-y-despliegue-solo-local.md#restaurar-el-cognos-almacén-de-contenidos-en-su-91x-entorno--oracle)
     - [Preparación para importar el almacén de contenido de Cognos (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#preparación-para-importar-el-almacén-de-contenido-de-cognos-oracle)
     - [Restauración del almacén de contenido de Cognos (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#restauración-del-almacén-de-contenido-de-cognos-oracle)
   - [Actualizar la base de datos de OpenPages (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualizar-la-base-de-datos-de-openpages-oracle)
@@ -2071,7 +2001,7 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Validación del paso de DBA posterior a la actualización (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#validación-del-paso-de-dba-posterior-a-la-actualización-oracle)
   - [Actualización de la ubicación del directorio `openpages-storage` (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-la-ubicación-del-directorio-openpages-storage-oracle)
   - [Actualización de la información de conexión de base de datos (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-la-información-de-conexión-de-base-de-datos-oracle)
-    - [Actualización del archivo `aurora.properties` (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-del-archivo-auroraproperties-oracle)
+    - [Actualización de los archivos de propiedades ( Oracle )](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-los-archivos-de-propiedades--oracle)
     - [Actualización de la conexión de origen de datos en WebSphere Liberty (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-la-conexión-de-origen-de-datos-en-websphere-liberty-oracle)
     - [Actualización de la información del almacén de contenido de Cognos (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-la-información-del-almacén-de-contenido-de-cognos-oracle)
     - [Actualización de la información de conexión de base de datos para el servidor de búsqueda (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-la-información-de-conexión-de-base-de-datos-para-el-servidor-de-búsqueda-oracle)
@@ -2080,41 +2010,25 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Transparent Data Encryption de Oracle para clientes de migración](5.2-guia-de-instalacion-y-despliegue-solo-local.md#transparent-data-encryption-de-oracle-para-clientes-de-migración)
 - [Tareas posteriores a la migración de las soluciones de OpenPages](5.2-guia-de-instalacion-y-despliegue-solo-local.md#tareas-posteriores-a-la-migración-de-las-soluciones-de-openpages)
   - [Importación del paquete de informes de soluciones](5.2-guia-de-instalacion-y-despliegue-solo-local.md#importación-del-paquete-de-informes-de-soluciones)
+  - [Actualización de la tarea del Programador que importa datos de IBM Knowledge Catalog](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-la-tarea-del-programador-que-importa-datos-de-ibm-knowledge-catalog)
   - [Sustitución de campos calculados por cálculos y campos de lanzador de URL (IAM e ITG)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#sustitución-de-campos-calculados-por-cálculos-y-campos-de-lanzador-de-url-iam-e-itg)
   - [Sustitución de campos calculados por campos de lanzador de URL (RCSA)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#sustitución-de-campos-calculados-por-campos-de-lanzador-de-url-rcsa)
 - [Fixpacks](5.2-guia-de-instalacion-y-despliegue-solo-local.md#fixpacks)
   - [Descripción general del proceso de instalación de fixpacks](5.2-guia-de-instalacion-y-despliegue-solo-local.md#descripción-general-del-proceso-de-instalación-de-fixpacks)
   - [Preparación de un fixpack](5.2-guia-de-instalacion-y-despliegue-solo-local.md#preparación-de-un-fixpack)
-    - [Revisión de las características y arreglos nuevos](5.2-guia-de-instalacion-y-despliegue-solo-local.md#revisión-de-las-características-y-arreglos-nuevos)
     - [Copia de seguridad del entorno existente](5.2-guia-de-instalacion-y-despliegue-solo-local.md#copia-de-seguridad-del-entorno-existente)
       - [Realizar copia de seguridad del entorno de origen](5.2-guia-de-instalacion-y-despliegue-solo-local.md#realizar-copia-de-seguridad-del-entorno-de-origen)
       - [Copia de seguridad de asistentes de soluciones, imágenes y kits de herramientas Dojo](5.2-guia-de-instalacion-y-despliegue-solo-local.md#copia-de-seguridad-de-asistentes-de-soluciones-imágenes-y-kits-de-herramientas-dojo)
     - [Verificar los servidores antes de instalar un fixpack](5.2-guia-de-instalacion-y-despliegue-solo-local.md#verificar-los-servidores-antes-de-instalar-un-fixpack)
   - [Tareas de instalación de los fixpacks](5.2-guia-de-instalacion-y-despliegue-solo-local.md#tareas-de-instalación-de-los-fixpacks)
     - [Actualice la base de datos OpenPages manualmente (Db2®)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualice-la-base-de-datos-openpages-manualmente-db2)
-      - [Preparación para aplicar un fixpack a la base de datos (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#preparación-para-aplicar-un-fixpack-a-la-base-de-datos-db2)
-      - [Ejecución del script de DBA previo a la actualización para un fixpack (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#ejecución-del-script-de-dba-previo-a-la-actualización-para-un-fixpack-db2)
-      - [Validación del paso de DBA previo a la actualización para un fixpack (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#validación-del-paso-de-dba-previo-a-la-actualización-para-un-fixpack-db2)
-      - [Actualización de los objetos de base de datos para un fixpack (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-los-objetos-de-base-de-datos-para-un-fixpack-db2)
-      - [Ejecución del script de DBA posterior a la actualización para un fixpack (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#ejecución-del-script-de-dba-posterior-a-la-actualización-para-un-fixpack-db2)
-      - [Validación del paso de DBA posterior a la actualización para un fixpack (Db2)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#validación-del-paso-de-dba-posterior-a-la-actualización-para-un-fixpack-db2)
     - [Preparación de la base de datos de Oracle](5.2-guia-de-instalacion-y-despliegue-solo-local.md#preparación-de-la-base-de-datos-de-oracle-1)
     - [Actualizar la base de datos OpenPages manualmente (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualizar-la-base-de-datos-openpages-manualmente-oracle)
-      - [Preparación para aplicar un fixpack a la base de datos (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#preparación-para-aplicar-un-fixpack-a-la-base-de-datos-oracle)
-      - [Ejecución del script de DBA previo a la actualización para un fixpack (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#ejecución-del-script-de-dba-previo-a-la-actualización-para-un-fixpack-oracle)
-      - [Validación del paso de DBA previo a la actualización para un fixpack (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#validación-del-paso-de-dba-previo-a-la-actualización-para-un-fixpack-oracle)
-      - [Actualización del esquema para un fixpack (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-del-esquema-para-un-fixpack-oracle)
-      - [Ejecución del script de DBA posterior a la actualización para un fixpack (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#ejecución-del-script-de-dba-posterior-a-la-actualización-para-un-fixpack-oracle)
-      - [Validación del paso de DBA posterior a la actualización para un fixpack (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#validación-del-paso-de-dba-posterior-a-la-actualización-para-un-fixpack-oracle)
     - [Instalación de un fixpack](5.2-guia-de-instalacion-y-despliegue-solo-local.md#instalación-de-un-fixpack)
   - [Tareas de postinstalación](5.2-guia-de-instalacion-y-despliegue-solo-local.md#tareas-de-postinstalación)
     - [Restauración del valor de registro de CSP](5.2-guia-de-instalacion-y-despliegue-solo-local.md#restauración-del-valor-de-registro-de-csp)
     - [Restauración de asistentes de soluciones, imágenes y otros archivos](5.2-guia-de-instalacion-y-despliegue-solo-local.md#restauración-de-asistentes-de-soluciones-imágenes-y-otros-archivos)
-    - [Revisar cambios importantes](5.2-guia-de-instalacion-y-despliegue-solo-local.md#revisar-cambios-importantes)
-    - [Tareas posteriores a la instalación de soluciones](5.2-guia-de-instalacion-y-despliegue-solo-local.md#tareas-posteriores-a-la-instalación-de-soluciones)
-      - [Importación de los paquetes de informes de soluciones después de instalar un fixpack](5.2-guia-de-instalacion-y-despliegue-solo-local.md#importación-de-los-paquetes-de-informes-de-soluciones-después-de-instalar-un-fixpack)
-      - [Actualización de la tarea del Programador que importa datos de IBM Knowledge Catalog](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-la-tarea-del-programador-que-importa-datos-de-ibm-knowledge-catalog)
-    - [Regeneración del entorno de elaboración de informes](5.2-guia-de-instalacion-y-despliegue-solo-local.md#regeneración-del-entorno-de-elaboración-de-informes)
+    - [Importación de los paquetes de informes de soluciones después de instalar un fixpack](5.2-guia-de-instalacion-y-despliegue-solo-local.md#importación-de-los-paquetes-de-informes-de-soluciones-después-de-instalar-un-fixpack)
   - [Tareas adicionales para los fixpacks](5.2-guia-de-instalacion-y-despliegue-solo-local.md#tareas-adicionales-para-los-fixpacks)
     - [Realización de una instalación silenciosa de un fixpack](5.2-guia-de-instalacion-y-despliegue-solo-local.md#realización-de-una-instalación-silenciosa-de-un-fixpack)
     - [Retrotracción de un fixpack](5.2-guia-de-instalacion-y-despliegue-solo-local.md#retrotracción-de-un-fixpack)
@@ -2141,6 +2055,9 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Utilización de la herramienta de configuración IBM Cognos para iniciar y detener el servicio IBM Cognos](5.2-guia-de-instalacion-y-despliegue-solo-local.md#utilización-de-la-herramienta-de-configuración-ibm-cognos-para-iniciar-y-detener-el-servicio-ibm-cognos)
     - [Utilización del sistema operativo Windows para iniciar y detener el servicio IBM Cognos](5.2-guia-de-instalacion-y-despliegue-solo-local.md#utilización-del-sistema-operativo-windows-para-iniciar-y-detener-el-servicio-ibm-cognos)
     - [Utilización del sistema operativo Linux para iniciar y detener el servicio IBM® Cognos](5.2-guia-de-instalacion-y-despliegue-solo-local.md#utilización-del-sistema-operativo-linux-para-iniciar-y-detener-el-servicio-ibm-cognos)
+    - [Iniciar y detener el servicio de integración de OpenPages Cognos en Linux](5.2-guia-de-instalacion-y-despliegue-solo-local.md#iniciar-y-detener-el-servicio-de-integración-de-openpages-cognos-en-linux)
+    - [Iniciar y detener el servicio de integración de OpenPages Cognos en Windows](5.2-guia-de-instalacion-y-despliegue-solo-local.md#iniciar-y-detener-el-servicio-de-integración-de-openpages-cognos-en-windows)
+    - [Iniciar y detener el servicio de integración de OpenPages Cognos en Windows mediante un script](5.2-guia-de-instalacion-y-despliegue-solo-local.md#iniciar-y-detener-el-servicio-de-integración-de-openpages-cognos-en-windows-mediante-un-script)
 - [Integración de inicio de sesión único para el servidor de aplicaciones OpenPages](5.2-guia-de-instalacion-y-despliegue-solo-local.md#integración-de-inicio-de-sesión-único-para-el-servidor-de-aplicaciones-openpages)
   - [Configuración del inicio de sesión único de SAML](5.2-guia-de-instalacion-y-despliegue-solo-local.md#configuración-del-inicio-de-sesión-único-de-saml)
     - [Inhabilitación del inicio de sesión único de SAML](5.2-guia-de-instalacion-y-despliegue-solo-local.md#inhabilitación-del-inicio-de-sesión-único-de-saml)
@@ -2211,18 +2128,15 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Copia de seguridad de la base de datos OpenPages (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#copia-de-seguridad-de-la-base-de-datos-openpages-oracle)
   - [Copia de seguridad del almacén de contenido de Cognos (Oracle)](5.2-guia-de-instalacion-y-despliegue-solo-local.md#copia-de-seguridad-del-almacén-de-contenido-de-cognos-oracle)
   - [Actualización de nombres de host](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-nombres-de-host)
-  - [Renovación de un entorno con datos de un entorno 8.2.x o 8.3.x](5.2-guia-de-instalacion-y-despliegue-solo-local.md#renovación-de-un-entorno-con-datos-de-un-entorno-82x-o-83x)
-    - [Actualización de datos de aplicación a un fixpack 9.0.0.x](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-datos-de-aplicación-a-un-fixpack-900x)
+  - [Actualizar un entorno con datos de un entorno 8.3.x o 9.0.x](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualizar-un-entorno-con-datos-de-un-entorno-83x-o-90x)
+    - [Actualización de los datos de la aplicación a un paquete de correcciones 9.1.x.x](5.2-guia-de-instalacion-y-despliegue-solo-local.md#actualización-de-los-datos-de-la-aplicación-a-un-paquete-de-correcciones-91xx)
   - [Añadir soluciones a un despliegue](5.2-guia-de-instalacion-y-despliegue-solo-local.md#añadir-soluciones-a-un-despliegue)
 - [Resolución de problemas](5.2-guia-de-instalacion-y-despliegue-solo-local.md#resolución-de-problemas)
   - [Recursos de resolución de problemas](5.2-guia-de-instalacion-y-despliegue-solo-local.md#recursos-de-resolución-de-problemas)
     - [Búsqueda en bases de conocimiento](5.2-guia-de-instalacion-y-despliegue-solo-local.md#búsqueda-en-bases-de-conocimiento)
     - [Cómo obtener los arreglos](5.2-guia-de-instalacion-y-despliegue-solo-local.md#cómo-obtener-los-arreglos)
-    - [Cómo ponerse en contacto con el servicio de soporte de IBM](5.2-guia-de-instalacion-y-despliegue-solo-local.md#cómo-ponerse-en-contacto-con-el-servicio-de-soporte-de-ibm)
+    - [Obtener ayuda de IBM](5.2-guia-de-instalacion-y-despliegue-solo-local.md#obtener-ayuda-de-ibm)
     - [Intercambio de información con IBM](5.2-guia-de-instalacion-y-despliegue-solo-local.md#intercambio-de-información-con-ibm)
-      - [Envío de información al soporte de IBM](5.2-guia-de-instalacion-y-despliegue-solo-local.md#envío-de-información-al-soporte-de-ibm)
-      - [Recepción de información del soporte de IBM](5.2-guia-de-instalacion-y-despliegue-solo-local.md#recepción-de-información-del-soporte-de-ibm)
-    - [Suscripción a las notificaciones de soporte](5.2-guia-de-instalacion-y-despliegue-solo-local.md#suscripción-a-las-notificaciones-de-soporte)
   - [Archivos de registro](5.2-guia-de-instalacion-y-despliegue-solo-local.md#archivos-de-registro)
   - [Recopilación de registros con la interfaz de usuario de LogCollector](5.2-guia-de-instalacion-y-despliegue-solo-local.md#recopilación-de-registros-con-la-interfaz-de-usuario-de-logcollector)
   - [Recopilación de registros con la herramienta de recopilador de registro](5.2-guia-de-instalacion-y-despliegue-solo-local.md#recopilación-de-registros-con-la-herramienta-de-recopilador-de-registro)
@@ -2234,7 +2148,6 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [La configuración de la búsqueda global falla](5.2-guia-de-instalacion-y-despliegue-solo-local.md#la-configuración-de-la-búsqueda-global-falla)
     - [Forzado de un restablecimiento de búsqueda global](5.2-guia-de-instalacion-y-despliegue-solo-local.md#forzado-de-un-restablecimiento-de-búsqueda-global)
     - [Comprobación de los problemas de configuración de la búsqueda global y supervisión periódica](5.2-guia-de-instalacion-y-despliegue-solo-local.md#comprobación-de-los-problemas-de-configuración-de-la-búsqueda-global-y-supervisión-periódica)
-    - [Cifrado de series largas en OpenPages en ejecución en Oracle](5.2-guia-de-instalacion-y-despliegue-solo-local.md#cifrado-de-series-largas-en-openpages-en-ejecución-en-oracle)
     - [Creación del índice de búsqueda global](5.2-guia-de-instalacion-y-despliegue-solo-local.md#creación-del-índice-de-búsqueda-global)
     - [Antes de ponerse en contacto con IBM Support](5.2-guia-de-instalacion-y-despliegue-solo-local.md#antes-de-ponerse-en-contacto-con-ibm-support)
   - [Problemas de instalación y soluciones](5.2-guia-de-instalacion-y-despliegue-solo-local.md#problemas-de-instalación-y-soluciones)
@@ -2304,6 +2217,9 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Copia de seguridad de la base de datos OpenPages (Db2)](6-guia-de-actualizacion-para-db2-solo-en-local.md#copia-de-seguridad-de-la-base-de-datos-openpages-db2)
     - [Copia de seguridad de la base de datos de Cognos (Db2)](6-guia-de-actualizacion-para-db2-solo-en-local.md#copia-de-seguridad-de-la-base-de-datos-de-cognos-db2)
     - [Copia de seguridad de asistentes de soluciones, imágenes y otros archivos](6-guia-de-actualizacion-para-db2-solo-en-local.md#copia-de-seguridad-de-asistentes-de-soluciones-imágenes-y-otros-archivos)
+  - [Preparar el almacén de claves personalizado para la actualización o migración](6-guia-de-actualizacion-para-db2-solo-en-local.md#preparar-el-almacén-de-claves-personalizado-para-la-actualización-o-migración)
+    - [Opción 1: Desactivar el almacén de claves personalizado](6-guia-de-actualizacion-para-db2-solo-en-local.md#opción-1-desactivar-el-almacén-de-claves-personalizado)
+    - [Opción 2: Migración de un almacén de claves de cifrado personalizado a PKCS12](6-guia-de-actualizacion-para-db2-solo-en-local.md#opción-2-migración-de-un-almacén-de-claves-de-cifrado-personalizado-a-pkcs12)
   - [Actualizar software de requisito previo](6-guia-de-actualizacion-para-db2-solo-en-local.md#actualizar-software-de-requisito-previo)
     - [Actualizar o actualizar Db2](6-guia-de-actualizacion-para-db2-solo-en-local.md#actualizar-o-actualizar-db2)
       - [Instalación de un Db2 fix pack (Windows)](6-guia-de-actualizacion-para-db2-solo-en-local.md#instalación-de-un-db2-fix-pack-windows)
@@ -2311,11 +2227,11 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
       - [Actualización de Db2 (Linux)](6-guia-de-actualizacion-para-db2-solo-en-local.md#actualización-de-db2-linux)
       - [Descarte del índice de búsqueda e inhabilitación de Db2 Text Search](6-guia-de-actualizacion-para-db2-solo-en-local.md#descarte-del-índice-de-búsqueda-e-inhabilitación-de-db2-text-search)
     - [Actualización de Cognos](6-guia-de-actualizacion-para-db2-solo-en-local.md#actualización-de-cognos)
-    - [Obtención de una copia del SDK de IBM (Windows)](6-guia-de-actualizacion-para-db2-solo-en-local.md#obtención-de-una-copia-del-sdk-de-ibm-windows)
-    - [Obtención de una copia de IBM SDK (Linux®)](6-guia-de-actualizacion-para-db2-solo-en-local.md#obtención-de-una-copia-de-ibm-sdk-linux)
+    - [Obtener una copia del archivo de registro de Semeru ( IBM ) (Windows)](6-guia-de-actualizacion-para-db2-solo-en-local.md#obtener-una-copia-del-archivo-de-registro-de-semeru--ibm--windows)
+    - [Obtener una copia de los tiempos de ejecución de Semeru de IBM ( Linux® )](6-guia-de-actualizacion-para-db2-solo-en-local.md#obtener-una-copia-de-los-tiempos-de-ejecución-de-semeru-de-ibm--linux)
   - [Verificación de los servidores antes de la actualización](6-guia-de-actualizacion-para-db2-solo-en-local.md#verificación-de-los-servidores-antes-de-la-actualización)
 - [Actualizar OpenPages](6-guia-de-actualizacion-para-db2-solo-en-local.md#actualizar-openpages)
-  - [Actualice la base de datos OpenPages (Db2)](6-guia-de-actualizacion-para-db2-solo-en-local.md#actualice-la-base-de-datos-openpages-db2)
+  - [Actualice la base de datos OpenPages ( Db2 )](6-guia-de-actualizacion-para-db2-solo-en-local.md#actualice-la-base-de-datos-openpages--db2)
     - [Preparación de la actualización de la base de datos (Db2)](6-guia-de-actualizacion-para-db2-solo-en-local.md#preparación-de-la-actualización-de-la-base-de-datos-db2)
       - [Ejecución de un script personalizado durante la actualización de la base de datos (Db2®)](6-guia-de-actualizacion-para-db2-solo-en-local.md#ejecución-de-un-script-personalizado-durante-la-actualización-de-la-base-de-datos-db2)
     - [Ejecución del script de DBA previo a la actualización (Db2)](6-guia-de-actualizacion-para-db2-solo-en-local.md#ejecución-del-script-de-dba-previo-a-la-actualización-db2)
@@ -2327,7 +2243,7 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Configuración del servidor de instalación en Windows](6-guia-de-actualizacion-para-db2-solo-en-local.md#configuración-del-servidor-de-instalación-en-windows)
     - [Configuración del servidor de instalación en Linux®](6-guia-de-actualizacion-para-db2-solo-en-local.md#configuración-del-servidor-de-instalación-en-linux)
     - [Instalación manual de agentes](6-guia-de-actualizacion-para-db2-solo-en-local.md#instalación-manual-de-agentes)
-    - [Actualización del servidor de instalación y los agentes](6-guia-de-actualizacion-para-db2-solo-en-local.md#actualización-del-servidor-de-instalación-y-los-agentes)
+    - [Actualizar el servidor de instalación y los agentes con un paquete de correcciones](6-guia-de-actualizacion-para-db2-solo-en-local.md#actualizar-el-servidor-de-instalación-y-los-agentes-con-un-paquete-de-correcciones)
       - [Actualización del servidor de instalación](6-guia-de-actualizacion-para-db2-solo-en-local.md#actualización-del-servidor-de-instalación)
       - [Actualización manual de un agente](6-guia-de-actualizacion-para-db2-solo-en-local.md#actualización-manual-de-un-agente)
     - [Migración de despliegues y usuarios del servidor de instalación](6-guia-de-actualizacion-para-db2-solo-en-local.md#migración-de-despliegues-y-usuarios-del-servidor-de-instalación)
@@ -2338,20 +2254,17 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Actualización de los valores de instancia de Db2](6-guia-de-actualizacion-para-db2-solo-en-local.md#actualización-de-los-valores-de-instancia-de-db2)
     - [Eliminar el botón de lanzamiento de interfaz de usuario de cuestionario heredado de la vista de administración para las evaluaciones de cuestionario](6-guia-de-actualizacion-para-db2-solo-en-local.md#eliminar-el-botón-de-lanzamiento-de-interfaz-de-usuario-de-cuestionario-heredado-de-la-vista-de-administración-para-las-evaluaciones-de-cuestionario)
     - [Actualización de aplicaciones opcionales](6-guia-de-actualizacion-para-db2-solo-en-local.md#actualización-de-aplicaciones-opcionales)
-    - [Restaurar valores del servidor de aplicaciones personalizado](6-guia-de-actualizacion-para-db2-solo-en-local.md#restaurar-valores-del-servidor-de-aplicaciones-personalizado)
     - [Restauración de asistentes de soluciones, imágenes y otros archivos](6-guia-de-actualizacion-para-db2-solo-en-local.md#restauración-de-asistentes-de-soluciones-imágenes-y-otros-archivos)
     - [Volver a crear el índice para la búsqueda global](6-guia-de-actualizacion-para-db2-solo-en-local.md#volver-a-crear-el-índice-para-la-búsqueda-global)
-    - [Actualizar informes](6-guia-de-actualizacion-para-db2-solo-en-local.md#actualizar-informes)
     - [Habilitar LDAP después de actualizar o migrar](6-guia-de-actualizacion-para-db2-solo-en-local.md#habilitar-ldap-después-de-actualizar-o-migrar)
     - [Tareas posteriores a la actualización para las soluciones](6-guia-de-actualizacion-para-db2-solo-en-local.md#tareas-posteriores-a-la-actualización-para-las-soluciones)
       - [Sustitución de campos calculados por cálculos y campos de lanzador de URL (IAM e ITG)](6-guia-de-actualizacion-para-db2-solo-en-local.md#sustitución-de-campos-calculados-por-cálculos-y-campos-de-lanzador-de-url-iam-e-itg)
       - [Sustitución de campos calculados por campos de lanzamiento de URL (RCSA)](6-guia-de-actualizacion-para-db2-solo-en-local.md#sustitución-de-campos-calculados-por-campos-de-lanzamiento-de-url-rcsa)
+      - [Actualización de la tarea del Programador que importa datos de IBM Knowledge Catalog](6-guia-de-actualizacion-para-db2-solo-en-local.md#actualización-de-la-tarea-del-programador-que-importa-datos-de-ibm-knowledge-catalog)
       - [Importación del paquete de informes de soluciones](6-guia-de-actualizacion-para-db2-solo-en-local.md#importación-del-paquete-de-informes-de-soluciones)
     - [Actualización de campos calculados personalizados](6-guia-de-actualizacion-para-db2-solo-en-local.md#actualización-de-campos-calculados-personalizados)
     - [Actualización del esquema de elaboración de informes](6-guia-de-actualizacion-para-db2-solo-en-local.md#actualización-del-esquema-de-elaboración-de-informes)
     - [Regeneración del entorno de elaboración de informes](6-guia-de-actualizacion-para-db2-solo-en-local.md#regeneración-del-entorno-de-elaboración-de-informes)
-    - [Actualización de vistas de detalles a vistas de administración](6-guia-de-actualizacion-para-db2-solo-en-local.md#actualización-de-vistas-de-detalles-a-vistas-de-administración)
-    - [Utilización de vistas de creación personalizadas con la aplicación Loss Event Entry](6-guia-de-actualizacion-para-db2-solo-en-local.md#utilización-de-vistas-de-creación-personalizadas-con-la-aplicación-loss-event-entry)
     - [Cambios y mejoras en la configuración](6-guia-de-actualizacion-para-db2-solo-en-local.md#cambios-y-mejoras-en-la-configuración)
       - [Rellenar el campo Título del sistema después de actualizar o migrar](6-guia-de-actualizacion-para-db2-solo-en-local.md#rellenar-el-campo-título-del-sistema-después-de-actualizar-o-migrar)
   - [Tareas adicionales para actualizaciones](6-guia-de-actualizacion-para-db2-solo-en-local.md#tareas-adicionales-para-actualizaciones)
@@ -2374,13 +2287,14 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Copia de seguridad de la base de datos OpenPages (Oracle)](7-guia-de-actualizacion-para-oracle-solo-en-local.md#copia-de-seguridad-de-la-base-de-datos-openpages-oracle)
     - [Copia de seguridad del almacén de contenido de Cognos (Oracle)](7-guia-de-actualizacion-para-oracle-solo-en-local.md#copia-de-seguridad-del-almacén-de-contenido-de-cognos-oracle)
     - [Copia de seguridad de asistentes de soluciones, imágenes y otros archivos](7-guia-de-actualizacion-para-oracle-solo-en-local.md#copia-de-seguridad-de-asistentes-de-soluciones-imágenes-y-otros-archivos)
+  - [Preparar el almacén de claves personalizado para la actualización o migración](7-guia-de-actualizacion-para-oracle-solo-en-local.md#preparar-el-almacén-de-claves-personalizado-para-la-actualización-o-migración)
+    - [Opción 1: Desactivar el almacén de claves personalizado](7-guia-de-actualizacion-para-oracle-solo-en-local.md#opción-1-desactivar-el-almacén-de-claves-personalizado)
+    - [Opción 2: Migración de un almacén de claves de cifrado personalizado a PKCS12](7-guia-de-actualizacion-para-oracle-solo-en-local.md#opción-2-migración-de-un-almacén-de-claves-de-cifrado-personalizado-a-pkcs12)
   - [Actualizar software de requisito previo](7-guia-de-actualizacion-para-oracle-solo-en-local.md#actualizar-software-de-requisito-previo)
-    - [Opciones de actualización de Oracle y Oracle PDB](7-guia-de-actualizacion-para-oracle-solo-en-local.md#opciones-de-actualización-de-oracle-y-oracle-pdb)
-      - [Actualización de Oracle a 19c (in situ)](7-guia-de-actualizacion-para-oracle-solo-en-local.md#actualización-de-oracle-a-19c-in-situ)
-      - [Actualización de Oracle a 19c (migración)](7-guia-de-actualizacion-para-oracle-solo-en-local.md#actualización-de-oracle-a-19c-migración)
+    - [Oracle PDB](7-guia-de-actualizacion-para-oracle-solo-en-local.md#oracle-pdb)
     - [Actualización de Cognos](7-guia-de-actualizacion-para-oracle-solo-en-local.md#actualización-de-cognos)
-    - [Obtención de una copia del SDK de IBM (Windows)](7-guia-de-actualizacion-para-oracle-solo-en-local.md#obtención-de-una-copia-del-sdk-de-ibm-windows)
-    - [Obtención de una copia de IBM SDK (Linux®)](7-guia-de-actualizacion-para-oracle-solo-en-local.md#obtención-de-una-copia-de-ibm-sdk-linux)
+    - [Obtener una copia del archivo de registro de Semeru ( IBM ) (Windows)](7-guia-de-actualizacion-para-oracle-solo-en-local.md#obtener-una-copia-del-archivo-de-registro-de-semeru--ibm--windows)
+    - [Obtener una copia de los tiempos de ejecución de Semeru de IBM ( Linux® )](7-guia-de-actualizacion-para-oracle-solo-en-local.md#obtener-una-copia-de-los-tiempos-de-ejecución-de-semeru-de-ibm--linux)
   - [Verificación de los servidores antes de la actualización](7-guia-de-actualizacion-para-oracle-solo-en-local.md#verificación-de-los-servidores-antes-de-la-actualización)
 - [Actualizar OpenPages](7-guia-de-actualizacion-para-oracle-solo-en-local.md#actualizar-openpages)
   - [Actualizar la base de datos de OpenPages (Oracle)](7-guia-de-actualizacion-para-oracle-solo-en-local.md#actualizar-la-base-de-datos-de-openpages-oracle)
@@ -2396,7 +2310,7 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
     - [Configuración del servidor de instalación en Windows](7-guia-de-actualizacion-para-oracle-solo-en-local.md#configuración-del-servidor-de-instalación-en-windows)
     - [Configuración del servidor de instalación en Linux®](7-guia-de-actualizacion-para-oracle-solo-en-local.md#configuración-del-servidor-de-instalación-en-linux)
     - [Instalación manual de agentes](7-guia-de-actualizacion-para-oracle-solo-en-local.md#instalación-manual-de-agentes)
-    - [Actualización del servidor de instalación y los agentes](7-guia-de-actualizacion-para-oracle-solo-en-local.md#actualización-del-servidor-de-instalación-y-los-agentes)
+    - [Actualizar el servidor de instalación y los agentes con un paquete de correcciones](7-guia-de-actualizacion-para-oracle-solo-en-local.md#actualizar-el-servidor-de-instalación-y-los-agentes-con-un-paquete-de-correcciones)
       - [Actualización del servidor de instalación](7-guia-de-actualizacion-para-oracle-solo-en-local.md#actualización-del-servidor-de-instalación)
       - [Actualización manual de un agente](7-guia-de-actualizacion-para-oracle-solo-en-local.md#actualización-manual-de-un-agente)
     - [Migración de despliegues y usuarios del servidor de instalación](7-guia-de-actualizacion-para-oracle-solo-en-local.md#migración-de-despliegues-y-usuarios-del-servidor-de-instalación)
@@ -2406,20 +2320,17 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Tareas posteriores a la actualización](7-guia-de-actualizacion-para-oracle-solo-en-local.md#tareas-posteriores-a-la-actualización)
     - [Eliminar el botón de lanzamiento de interfaz de usuario de cuestionario heredado de la vista de administración para las evaluaciones de cuestionario](7-guia-de-actualizacion-para-oracle-solo-en-local.md#eliminar-el-botón-de-lanzamiento-de-interfaz-de-usuario-de-cuestionario-heredado-de-la-vista-de-administración-para-las-evaluaciones-de-cuestionario)
     - [Actualización de aplicaciones opcionales](7-guia-de-actualizacion-para-oracle-solo-en-local.md#actualización-de-aplicaciones-opcionales)
-    - [Restaurar valores del servidor de aplicaciones personalizado](7-guia-de-actualizacion-para-oracle-solo-en-local.md#restaurar-valores-del-servidor-de-aplicaciones-personalizado)
     - [Restauración de asistentes de soluciones, imágenes y otros archivos](7-guia-de-actualizacion-para-oracle-solo-en-local.md#restauración-de-asistentes-de-soluciones-imágenes-y-otros-archivos)
     - [Volver a crear el índice para la búsqueda global](7-guia-de-actualizacion-para-oracle-solo-en-local.md#volver-a-crear-el-índice-para-la-búsqueda-global)
-    - [Actualizar informes](7-guia-de-actualizacion-para-oracle-solo-en-local.md#actualizar-informes)
     - [Habilitar LDAP después de actualizar o migrar](7-guia-de-actualizacion-para-oracle-solo-en-local.md#habilitar-ldap-después-de-actualizar-o-migrar)
     - [Tareas posteriores a la actualización para las soluciones](7-guia-de-actualizacion-para-oracle-solo-en-local.md#tareas-posteriores-a-la-actualización-para-las-soluciones)
       - [Sustitución de campos calculados por cálculos y campos de lanzador de URL (IAM e ITG)](7-guia-de-actualizacion-para-oracle-solo-en-local.md#sustitución-de-campos-calculados-por-cálculos-y-campos-de-lanzador-de-url-iam-e-itg)
       - [Sustitución de campos calculados por campos de lanzamiento de URL (RCSA)](7-guia-de-actualizacion-para-oracle-solo-en-local.md#sustitución-de-campos-calculados-por-campos-de-lanzamiento-de-url-rcsa)
+      - [Actualización de la tarea del Programador que importa datos de IBM Knowledge Catalog](7-guia-de-actualizacion-para-oracle-solo-en-local.md#actualización-de-la-tarea-del-programador-que-importa-datos-de-ibm-knowledge-catalog)
       - [Importación del paquete de informes de soluciones](7-guia-de-actualizacion-para-oracle-solo-en-local.md#importación-del-paquete-de-informes-de-soluciones)
     - [Actualización de campos calculados personalizados](7-guia-de-actualizacion-para-oracle-solo-en-local.md#actualización-de-campos-calculados-personalizados)
     - [Actualización del esquema de elaboración de informes](7-guia-de-actualizacion-para-oracle-solo-en-local.md#actualización-del-esquema-de-elaboración-de-informes)
     - [Regeneración del entorno de elaboración de informes](7-guia-de-actualizacion-para-oracle-solo-en-local.md#regeneración-del-entorno-de-elaboración-de-informes)
-    - [Actualización de vistas de detalles a vistas de administración](7-guia-de-actualizacion-para-oracle-solo-en-local.md#actualización-de-vistas-de-detalles-a-vistas-de-administración)
-    - [Utilización de vistas de creación personalizadas con la aplicación Loss Event Entry](7-guia-de-actualizacion-para-oracle-solo-en-local.md#utilización-de-vistas-de-creación-personalizadas-con-la-aplicación-loss-event-entry)
     - [Cambios y mejoras en la configuración](7-guia-de-actualizacion-para-oracle-solo-en-local.md#cambios-y-mejoras-en-la-configuración)
       - [Rellenar el campo Título del sistema después de actualizar o migrar](7-guia-de-actualizacion-para-oracle-solo-en-local.md#rellenar-el-campo-título-del-sistema-después-de-actualizar-o-migrar)
   - [Tareas adicionales para actualizaciones](7-guia-de-actualizacion-para-oracle-solo-en-local.md#tareas-adicionales-para-actualizaciones)
@@ -2446,15 +2357,6 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Utilización de OpenPages Business Continuity Management](8-guia-de-soluciones.md#utilización-de-openpages-business-continuity-management)
   - [OpenPages Data Privacy Management](8-guia-de-soluciones.md#openpages-data-privacy-management)
   - [OpenPages Gestión de riesgos para ESG](8-guia-de-soluciones.md#openpages-gestión-de-riesgos-para-esg)
-- [Novedades](8-guia-de-soluciones.md#novedades)
-  - [Características nuevas de la versión 9.0.0.0](8-guia-de-soluciones.md#características-nuevas-de-la-versión-9000)
-  - [Características nuevas de la versión 8.3.0.2](8-guia-de-soluciones.md#características-nuevas-de-la-versión-8302)
-  - [Características nuevas de la versión 8.3.0.1](8-guia-de-soluciones.md#características-nuevas-de-la-versión-8301)
-  - [Nuevas características en la versión 8.3.0](8-guia-de-soluciones.md#nuevas-características-en-la-versión-830)
-  - [Nuevas características en la versión 8.2.0.3](8-guia-de-soluciones.md#nuevas-características-en-la-versión-8203)
-  - [Nuevas características en la versión 8.2.0.2](8-guia-de-soluciones.md#nuevas-características-en-la-versión-8202)
-  - [Nuevas características en la versión 8.2.0.1](8-guia-de-soluciones.md#nuevas-características-en-la-versión-8201)
-  - [Características nuevas de la versión 8.2.0](8-guia-de-soluciones.md#características-nuevas-de-la-versión-820)
 - [Tipos de objeto](8-guia-de-soluciones.md#tipos-de-objeto)
   - [Correlación de nombres de objeto](8-guia-de-soluciones.md#correlación-de-nombres-de-objeto)
   - [Descripciones de tipo de objeto](8-guia-de-soluciones.md#descripciones-de-tipo-de-objeto)
@@ -2476,8 +2378,6 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
   - [Asistente Cerrar auditoría](8-guia-de-soluciones.md#asistente-cerrar-auditoría)
   - [Asistente para añadir o modificar planificaciones](8-guia-de-soluciones.md#asistente-para-añadir-o-modificar-planificaciones)
   - [Asistentes de hoja de registro horario](8-guia-de-soluciones.md#asistentes-de-hoja-de-registro-horario)
-    - [Asistente de entrada de hoja de registro horario](8-guia-de-soluciones.md#asistente-de-entrada-de-hoja-de-registro-horario)
-    - [Asistente de aprobación de hoja de registro horario](8-guia-de-soluciones.md#asistente-de-aprobación-de-hoja-de-registro-horario)
 - [Notificaciones](8-guia-de-soluciones.md#notificaciones)
   - [Notificación a través del boletín de problemas y acciones](8-guia-de-soluciones.md#notificación-a-través-del-boletín-de-problemas-y-acciones)
   - [Notificación de incidente](8-guia-de-soluciones.md#notificación-de-incidente)
@@ -2551,11 +2451,15 @@ Una fila por archivo con lo que trae y con qué jerga se habla dentro. Es lo que
 
 - [Guía del desarrollador](9-guia-del-desarrollador.md#guía-del-desarrollador)
 - [Novedades](9-guia-del-desarrollador.md#novedades)
+  - [Novedades de la versión 9.1.0](9-guia-del-desarrollador.md#novedades-de-la-versión-910)
   - [Novedades de la versión 9.0.0.5](9-guia-del-desarrollador.md#novedades-de-la-versión-9005)
   - [Novedades de la versión 9.0.0.4](9-guia-del-desarrollador.md#novedades-de-la-versión-9004)
   - [Novedades de la versión 9.0.0.3](9-guia-del-desarrollador.md#novedades-de-la-versión-9003)
   - [Novedades de la versión 9.0.0.2](9-guia-del-desarrollador.md#novedades-de-la-versión-9002)
   - [Novedades de la versión 9.0.0.1](9-guia-del-desarrollador.md#novedades-de-la-versión-9001)
+- [Tareas de actualización para desarrolladores](9-guia-del-desarrollador.md#tareas-de-actualización-para-desarrolladores)
+- [Extensiones](9-guia-del-desarrollador.md#extensiones)
+- [Webhooks](9-guia-del-desarrollador.md#webhooks)
 - [API Java deIBM OpenPages GRC](9-guia-del-desarrollador.md#api-java-deibm-openpages-grc)
 - [IBM OpenPages API REST GRC V2](9-guia-del-desarrollador.md#ibm-openpages-api-rest-grc-v2)
 - [IBM OpenPages API REST GRC V1](9-guia-del-desarrollador.md#ibm-openpages-api-rest-grc-v1)

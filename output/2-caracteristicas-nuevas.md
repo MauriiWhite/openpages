@@ -1,40 +1,44 @@
 ---
-product: IBM OpenPages 9.0.0
-product_key: SSFUEU_9.0.0
+product: IBM OpenPages 9.1.3
+product_key: SSFUEU_9.1
 file: 2
 guide: Características nuevas
 covers: Características nuevas — Avisos
-chapters: 16
-topics: 92
-words: 41900
+chapters: 15
+topics: 47
+words: 34252
 tasks: 0
-concepts: 92
+concepts: 47
 references: 0
 tables: 8
 code_blocks: 2
-figures: 239
+figures: 186
 applies_to: En cloud
-updated: 2025-02-13
+updated: 2026-02-11
 lang: es
-source: https://www.ibm.com/docs/es/openpages/9.0.0?topic=new-features
-extracted: 2026-09-11
+source: https://www.ibm.com/docs/es/openpages/9.1.x?topic=new-features
+extracted: 2026-11-16
 ---
 
 # 2 · Características nuevas
 
-> **Qué hay en este archivo.** «Características nuevas» de IBM OpenPages 9.0.0, completa: 16 capítulos. 92 temas, 8 tablas, 2 bloques de código, 239 figuras y 41.900 palabras.
+> **Qué hay en este archivo.** «Características nuevas» de IBM OpenPages 9.1.3, completa: 15 capítulos. 47 temas, 8 tablas, 2 bloques de código, 186 figuras y 34.252 palabras.
 >
-> **Capítulos:** Características nuevas · Novedades de la versión 9.0.0.5 · Novedades de la versión 9.0.0.4 · Características nuevas de la versión 9.0.0.3 · Características nuevas de la versión 9.0.0.2 · Características nuevas de la versión 9.0.0.1 · Características nuevas de la versión 9.0.0 · Características nuevas de la versión 8.3.0.2 · Características nuevas de la versión 8.3.0.1 · Nuevas características en la versión 8.3.0 · Nuevas características en la versión 8.2.0.4 · Nuevas características en la versión 8.2.0.3 · y 4 más.
+> **Capítulos:** Características nuevas · Nuevas características de la versión 9.1.3 · Novedades de la versión 9.1.2 · Novedades de la versión 9.1.1 · Nuevas características en la versión 9.1.0 · Novedades de la versión 9.0.0.5 · Novedades de la versión 9.0.0.4 · Características nuevas de la versión 9.0.0.3 · Características nuevas de la versión 9.0.0.2 · Características nuevas de la versión 9.0.0.1 · Características nuevas de la versión 9.0.0 · Características nuevas de la versión 8.3.0.2 · y 3 más.
 >
 > **Se aplica a:** En cloud.
 >
-> **Si lo que buscas no está acá.** El índice de los 2.511 temas del producto, con su archivo y su ancla, está en `index.md`.
+> **Si lo que buscas no está acá.** El índice de los 2.417 temas del producto, con su archivo y su ancla, está en `index.md`.
 
-**Términos propios de este archivo:** regulador, certificación, subcertificación, maestro, conformidad, sysview, cuadrícula, ámbito, sector, ascent, master, continuidad, supply, anualizado.
+**Términos propios de este archivo:** risklens, supply, wisdom, cuadrícula, conformidad, sysview, anualizado, etapa, maestro, ámbito, mejorado, comentarios, respuestas, rapidratings.
 
 ## Índice de este archivo
 
 - [Características nuevas](#características-nuevas)
+- [Nuevas características de la versión 9.1.3](#nuevas-características-de-la-versión-913)
+- [Novedades de la versión 9.1.2](#novedades-de-la-versión-912)
+- [Novedades de la versión 9.1.1](#novedades-de-la-versión-911)
+- [Nuevas características en la versión 9.1.0](#nuevas-características-en-la-versión-910)
 - [Novedades de la versión 9.0.0.5](#novedades-de-la-versión-9005)
 - [Novedades de la versión 9.0.0.4](#novedades-de-la-versión-9004)
 - [Características nuevas de la versión 9.0.0.3](#características-nuevas-de-la-versión-9003)
@@ -76,61 +80,12 @@ extracted: 2026-09-11
     - [Mejoras en la gestión de conformidad reguladora en 8.3.0](#mejoras-en-la-gestión-de-conformidad-reguladora-en-830)
     - [Mejoras en la gestión de riesgos de terceros en 8.3.0](#mejoras-en-la-gestión-de-riesgos-de-terceros-en-830)
   - [Software soportado en 8.3](#software-soportado-en-83)
-- [Nuevas características en la versión 8.2.0.4](#nuevas-características-en-la-versión-8204)
-  - [Integración con IBM Watson Natural Language Understanding](#integración-con-ibm-watson-natural-language-understanding)
-  - [Actualización de Apache Log4j 1 a Apache Log4j 2](#actualización-de-apache-log4j-1-a-apache-log4j-2)
-- [Nuevas características en la versión 8.2.0.3](#nuevas-características-en-la-versión-8203)
-  - [Mejoras de la plataforma](#mejoras-de-la-plataforma)
-    - [Mejoras en la interfaz de usuario centrada en la tarea](#mejoras-en-la-interfaz-de-usuario-centrada-en-la-tarea)
-  - [Mejoras en las soluciones](#mejoras-en-las-soluciones)
-    - [Mejoras en OpenPages Gestión de riesgos de terceros](#mejoras-en-openpages-gestión-de-riesgos-de-terceros)
-- [Nuevas características en la versión 8.2.0.2](#nuevas-características-en-la-versión-8202)
-  - [Mejoras de la plataforma](#mejoras-de-la-plataforma-1)
-    - [Mejoras en la interfaz de usuario centrada en tareas](#mejoras-en-la-interfaz-de-usuario-centrada-en-tareas)
-  - [Mejoras en las soluciones](#mejoras-en-las-soluciones-1)
-    - [IBM OpenPages Data Privacy Management](#ibm-openpages-data-privacy-management)
-    - [Mejoras en IBM OpenPages Financial Controls Management](#mejoras-en-ibm-openpages-financial-controls-management)
-    - [Mejoras en IBM OpenPages Regulatory Compliance Management](#mejoras-en-ibm-openpages-regulatory-compliance-management-1)
-  - [Software soportado](#software-soportado)
-- [Nuevas características en la versión 8.2.0.1](#nuevas-características-en-la-versión-8201)
-  - [Mejoras de la plataforma](#mejoras-de-la-plataforma-2)
-    - [IBM OpenPages for IBM Cloud Pak for Data](#ibm-openpages-for-ibm-cloud-pak-for-data)
-    - [IBM Watson Language Translator](#ibm-watson-language-translator)
-    - [Encuesta Net Promoter Score (NPS)](#encuesta-net-promoter-score-nps)
-    - [Abrir archivos de Microsoft Office directamente desde OpenPages](#abrir-archivos-de-microsoft-office-directamente-desde-openpages)
-    - [Mejoras en la interfaz de usuario centrada en tareas](#mejoras-en-la-interfaz-de-usuario-centrada-en-tareas-1)
-  - [Mejoras en las soluciones](#mejoras-en-las-soluciones-2)
-    - [Mejoras en IBM OpenPages Regulatory Compliance Management](#mejoras-en-ibm-openpages-regulatory-compliance-management-2)
-    - [Mejoras en OpenPages Gestión de riesgos de terceros](#mejoras-en-openpages-gestión-de-riesgos-de-terceros-1)
-  - [Mejoras de administración y capacidad de servicio](#mejoras-de-administración-y-capacidad-de-servicio-1)
-  - [Software soportado](#software-soportado-1)
-- [Características nuevas de la versión 8.2.0](#características-nuevas-de-la-versión-820)
-  - [Mejoras de la plataforma](#mejoras-de-la-plataforma-3)
-    - [Cálculos de GRC](#cálculos-de-grc)
-    - [Planificador](#planificador)
-    - [Visualización del esquema de solución](#visualización-del-esquema-de-solución)
-    - [Mejoras en la interfaz de usuario centrada en tareas](#mejoras-en-la-interfaz-de-usuario-centrada-en-tareas-2)
-    - [Mejoras en GRC Workflow](#mejoras-en-grc-workflow)
-    - [Nueva página de inicio de sesión](#nueva-página-de-inicio-de-sesión)
-  - [Mejoras en las soluciones](#mejoras-en-las-soluciones-3)
-    - [IBM OpenPages Business Continuity Management](#ibm-openpages-business-continuity-management)
-    - [Mejoras en IBM OpenPages Internal Audit Management](#mejoras-en-ibm-openpages-internal-audit-management)
-    - [Mejoras en IBM OpenPages Model Risk Governance](#mejoras-en-ibm-openpages-model-risk-governance)
-    - [Mejoras en IBM OpenPages Policy Management](#mejoras-en-ibm-openpages-policy-management)
-    - [Mejoras en IBM OpenPages Regulatory Compliance Management](#mejoras-en-ibm-openpages-regulatory-compliance-management-3)
-      - [Ascent Conector](#ascent-conector)
-      - [Thomson Reuters API](#thomson-reuters-api)
-      - [Objetos de Interacción con la autoridad reguladora](#objetos-de-interacción-con-la-autoridad-reguladora)
-      - [Flujo de trabajo de interacción con la autoridad reguladora](#flujo-de-trabajo-de-interacción-con-la-autoridad-reguladora)
-    - [IBM OpenPages Third Party Risk Management](#ibm-openpages-third-party-risk-management)
-  - [Software soportado](#software-soportado-2)
-  - [Mejoras de administración y capacidad de servicio](#mejoras-de-administración-y-capacidad-de-servicio-2)
 - [Avisos](#avisos)
 
 
 # Características nuevas
 
-`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=new-features)
+`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=new-features)
 
 La *Guía de nuevas funciones deIBM OpenPages* está destinada a los usuarios que deseen conocer las nuevas funciones de la última versión de ' IBM OpenPages®. Para obtener más información sobre las características nuevas y cambiadas, consulte los documentos específicos del producto, por ejemplo guías de instalación y guías de usuario.
 
@@ -154,9 +109,624 @@ Las características de accesibilidad ayudan a los usuarios que tienen alguna di
 
 Puede revisar las características y mejoras del release actual y de los releases anteriores.
 
+## Nuevas características de la versión 9.1.3
+
+`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-new-in-version-913)
+
+La OpenPages®9.1.3 versión incluye GRC Canvas, una nueva experiencia visual dentro de OpenPages, nuevas y mejoradas funciones en IA, experiencia general de tareas del usuario y administración.
+
+Consulte las siguientes categorías para obtener más información sobre las nuevas funciones:
+
+- Lienzo GRC
+- Mejoras en IA
+- Mejoras en la interfaz de usuario centradas en las tareas
+- Controles y configuraciones de administración
+
+### Lienzo GRC
+
+- **GRC Canvas: una nueva experiencia visual dentro de OpenPages**
+
+  GRC Canvas proporciona una interfaz visual dentro de IBM OpenPages para mapear las relaciones entre riesgos, controles, procesos o cualquier otro objeto. Permite a los usuarios crear y configurar lienzos para los tipos de objetos compatibles basándose en los datos que ya se encuentran en OpenPages. Los usuarios pueden añadir OpenPages objetos o nodos personalizados y añadir anotaciones con nodos de texto. Dentro del lienzo, los usuarios podrán crear y agrupar nodos, aplicar colores, gestionar los campos mostrados y acceder a sus datos directamente desde el lienzo. El control de versiones se admite a través de los estados de borrador y publicado, con detección de conflictos y gestión de cambios para mantener los diagramas alineados con los datos subyacentes. Los permisos y el acceso a los objetos se transfieren al lienzo. Para obtener más información, consulte [Visualización del riesgo y el cumplimiento mediante Canvas](4-guia-del-usuario.md#visualización-del-riesgo-y-el-cumplimiento-mediante-canvas).
+
+  *Figura 1. Ejemplo de un lienzo de evaluación de riesgos*
+
+  ![Diseño en lienzo de un objeto de evaluación de riesgos con nodos principales y nodos secundarios agrupados.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/canvas_nfg.png)
+
+### Mejoras en IA
+
+- **Servidor MCP local para operaciones de IA en objetos**
+
+  El servidor MCP solo se implementa localmente y proporciona una interfaz estandarizada que permite a los agentes de IA realizar operaciones sobre OpenPages objetos, como incidencias y controles.
+
+  > **Nota:**
+
+  > Esta es una función beta de la versión 9.1.3 de OpenPages. El servidor MCP se puede implementar localmente dentro de un sistema de agentes, como watsonx Orchestrate. El servidor MCP local solo se puede utilizar en desarrollo para explorar casos de uso de agentes. Para implementar el servidor MCP en su entorno local, utilice el [repositorio de código abierto IBM OpenPages del servidor MCP local](https://www.ibm.com/links?url=https%3A%2F%2Fgithub.com%2FIBM%2Fibm-openpages-local-mcp-server).
+
+- **Gestionar entradas y salidas de enumeraciones multivalor en modelos**
+
+  Se ha añadido compatibilidad con campos enumerados multivalor en las entradas y salidas de los modelos, lo que reduce los errores y mejora la integración de los modelos.
+
+- **Compatibilidad avanzada con JSON y entrada de expresiones**
+
+  La interfaz de usuario de configuración del aprendizaje automático (ML) ahora admite conmutadores de entrada JSON avanzados y la introducción de expresiones, lo que agiliza la configuración del modelo y mejora la usabilidad.
+
+  *Figura 2. Configuración del aprendizaje automático con expresión JSON*
+
+  ![Ventana de expresión para entrada JSON](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/json_expression_ml.png)
+
+- **Ampliaciones de API**
+
+  - **Conectividad flexible de modelos de IA a través de extensiones API**
+
+    Habilite OpenPages para conectarse con cualquier modelo de IA a través de API, como OpenAIChatGPT, Mistral AI, otros LLM o terminales de ML. Al permitir a los administradores crear nuevos complementos de integración, OpenPages las implementaciones pueden conectarse virtualmente con cualquier solución externa que exponga una API. Esto permite enviar y recibir datos sin problemas, aprovechando el marco existente Bring Your Own Model (BYOM) para analizar y procesar la información.
+
+    *Figura 3. Configuración de la extensión para OpenAI el modelo*
+
+    ![Editar ventana de configuración de la extensión con OpenAI especificaciones.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/connect_ai_model_api_ext.png)
+
+  - **Gestionar extensiones API en la interfaz de usuario de modelos de aprendizaje automático personalizados**
+
+    Se ha introducido una nueva interfaz de usuario para gestionar las extensiones API en modelos ML personalizados, lo que hace que la configuración sea más intuitiva y accesible.
+
+    *Figura 4. Configuración personalizada del modelo de aprendizaje automático para gestionar las extensiones de la API*
+
+    ![Ventana de configuración personalizada del modelo de aprendizaje automático con una conexión correcta a la extensión Mistral.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/custom_ml_api_connection_ui.png)
+
+  - **Mejora las extensiones API con registro y trazabilidad**
+
+    Se han añadido capacidades de registro y seguimiento a las extensiones de la API, lo que mejora la facilidad de mantenimiento y la depuración de los complementos de integración.
+
+    *Figura 5. Registro y trazabilidad para extensiones API*
+
+    ![Las extensiones en el panel de opciones de tracción del sistema están activadas.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/log_trace_api_ext.png)
+
+  - **Habilitar la migración de configuraciones de extensiones API**
+
+    Migrar las configuraciones de la extensión API, garantizando transiciones más fluidas entre entornos y simplificando los procesos de actualización.
+
+    *Figura 6. Extensiones de la API de exportación*
+
+    ![Elemento de extensión Mistral para exportar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/export_api_ext.png)
+
+### Mejoras en la interfaz de usuario centradas en las tareas
+
+- **Permitir la vista de tareas y las modificaciones de sección para campos ocultos**
+
+  Ahora los usuarios pueden anular la configuración de visibilidad en las vistas de tareas y secciones, ocultando o mostrando los campos según sea necesario. Esta flexibilidad mejora la personalización y el control sobre las interfaces de usuario.
+
+- **Añadir campos de recuento a diseños compactos y de tabla**
+
+  Ahora se pueden incluir campos de texto y recuento personalizados en diseños compactos y tabulares, lo que mejora la visibilidad de los datos y permite obtener resúmenes más informativos.
+
+  *Figura 7. Diseño compacto de tabla para presupuesto y calendario con campos de texto y recuento personalizados*
+
+  ![Diseño de tabla compacto para el presupuesto y el calendario con la fecha de inicio y finalización, las horas y los campos de texto personalizado y recuento de T&E.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/count_fields_table_layout.png)
+
+- **Cambiar entre períodos de informe**
+
+  Al cambiar los períodos de informe, las pestañas abiertas ahora permanecen abiertas. La interfaz de usuario se adapta al período seleccionado, mejorando la navegación y la claridad.
+
+### Controles y configuraciones de administración
+
+- **Ocultar el botón Mover en las vistas de cuadrícula**
+
+  Los administradores ahora pueden configurar la interfaz de usuario para ocultar el botón **Mover** en las vistas de cuadrícula para tipos de objetos específicos, lo que ayuda a aplicar un control más estricto sobre la gestión de objetos.
+
+- **Capacidad del administrador para mover objetos que no son entidades**
+
+  Los administradores ahora pueden mover uno o más objetos de cualquier tipo que no sea entidad a un objeto de destino, lo que incluye la detección de todos los elementos secundarios del objeto seleccionado. Se trataría de un movimiento jerárquico, lo que significa que, para el objeto que se está moviendo, los elementos secundarios que se encuentran debajo de él también se moverían (primarios y no primarios). Para el objeto que se está moviendo, la ruta de la carpeta principal de sus hijos cambiará. En el caso del objeto que se mueve, los hijos no primarios también se moverían, pero su ruta solo cambiaría si el padre de los hijos no primarios es un hijo primario del objeto que se está moviendo.
+
+- **Admite reglas entre objetos para cálculos en tiempo de ejecución**
+
+  Ahora se admiten reglas entre objetos en los cálculos en tiempo de ejecución, lo que permite la agregación de datos entre objetos relacionados sin consultas persistentes.
+
+### Soporte para 12.1.1Cognos AnalyticsIBM y Db2 12.1.3
+
+OpenPages Ahora es compatible con 12.1.1Cognos® AnalyticsIBM® y Db2® 12.1.3, lo que garantiza la compatibilidad con las últimas versiones para mejorar el rendimiento y la integración.
+
+## Novedades de la versión 9.1.2
+
+`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-new-in-version-912)
+
+La versión OpenPages® 9.1.2 incluye funciones nuevas y mejoradas en IA, experiencia general de la tarea del usuario, administración y flujos de trabajo.
+
+### Crear objeto hijo a partir de la salida de la IA generativa
+
+Ahora los usuarios pueden generar objetos hijos, como elementos de acción o controles, basándose en los resultados de la IA generativa. Esta función agiliza la creación de contenidos y ayuda a los usuarios a actuar de forma más eficiente a partir de la información generada por la IA. ![Crear objetos hijo a partir de sugerencias de salida de IA](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/child_obj_genai.png)
+
+### Mostrar objetos no relacionados en las vistas de tareas para contextualizar
+
+Las vistas de tareas ahora pueden incluir objetos no relacionados/contextuales, filtrados por reglas o etiquetas. Esto proporciona a los usuarios el contexto pertinente, como siniestros similares o controles aplicables, lo que mejora la toma de decisiones y la calidad de los datos de IA.
+
+Esto permite enviar información extra que proporciona un contexto adicional para que el agente de IA proporcione la información adecuada. Esto desbloquea un nuevo conjunto de un caso de uso como el siguiente:
+
+- Similitudes de asuntos - donde el Agente de IA puede recibir asuntos relevantes con los que comparar (asuntos en el negocio, abiertos en los últimos años).
+- Sugerencias de controles - donde la solución puede enviar la lista actual de controles de la biblioteca.
+
+![Control en el diseñador de vistas con el tipo de relación contextual seleccionado](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/ctrl_task_relation_type.png)
+
+A continuación se muestra un ejemplo de similitud de asuntos:
+
+![Emitir panel de percepciones de similitud en la vista de tareas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/issue_similarity_example.png)
+
+### Permitir que el administrador obtenga la objectJson para la entrada de vista
+
+Ahora los administradores pueden exportar fácilmente la dirección objectJson exacta enviada a los modelos de IA cuando se utiliza una **vista** como entrada. Esta mejora simplifica la configuración de los avisos.
+
+![Exportar objeto Json para entrada AI en una Vista](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/objJson_ai_input_views.png)
+
+### Añadir más campos a las rejillas para la IA y las vistas de usuario
+
+Se ha aumentado de 6 a 10 el número máximo de campos por objeto en las rejillas. Esto permite mostrar datos más completos y utilizarlos en vistas basadas en IA.
+
+### Soporte de Markdown para agilizar la presentación visual de los resultados de la IA
+
+El soporte de Markdown permite que la salida de AI tenga un formato organizado, incluyendo encabezados, viñetas y enlaces que permiten enlazar dentro de las pestañas de OpenPages , por lo que el prompt es mucho más fácil de construir.
+
+![Ejemplo Markdown de salida AI](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/markdown_example_aioutput.png)
+
+### Visualizar los datos relativos a la hora en las zonas horarias locales de los usuarios
+
+Los usuarios de las implantaciones globales de OpenPages ahora pueden ver la información relacionada con la hora -como las fechas de los objetos, los registros de actividad y las horas de inicio de sesión- en su zona horaria local. Esta mejora aumenta la claridad y reduce la confusión a la hora de colaborar entre regiones.
+
+![Visualización de datos horarios para usuarios en implantaciones globales](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/users_time_data.png)
+
+### Posibilidad de añadir una etiqueta a un campo de enlace - Mejora de Markdown
+
+Los usuarios tienen ahora la posibilidad de añadir una etiqueta a un campo que sea un enlace. El campo URL utiliza ahora el altLabel definido en la configuración del campo. En lugar de mostrar el texto en bruto URL, la interfaz de usuario muestra el texto altLabel. Cuando el usuario hace clic en este texto, se le redirige a la página URL. Esto puede verse siempre que se muestre un campo de tipo enlace en la interfaz de usuario.
+
+![Etiqueta para un campo de texto de enlace con la palabra clave de configuración altLabel](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/altlabel_link.png)
+
+### Personalice las vistas de las tareas con diseños de tabla compactos y editables
+
+Una nueva opción de diseño compacto permite a los usuarios organizar los campos en formato de tabla dentro de las vistas de tareas. Esto facilita la lectura y la interacción con la información relacionada, especialmente cuando se trata de varios campos. Los usuarios pueden definir los encabezados de las columnas y filas, y los campos siguen siendo editables en función de los controles de acceso.
+
+![Diseño compacto de tablas en la vista de tareas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/compact_table_layout.png)
+
+### Bloquear el panel de comentarios cuando se bloquea un objeto
+
+Para evitar comentarios no autorizados o involuntarios, ahora el panel de comentarios se bloquea cuando se bloquea el objeto asociado. Esto garantiza que no se puedan añadir o modificar comentarios sin el conocimiento del propietario del objeto.
+
+### Ver los datos de la cuadrícula como tarjetas para una mejor legibilidad
+
+Ahora los usuarios pueden cambiar entre los diseños de cuadrícula y tarjeta para la presentación de los datos. La disposición en tarjetas es especialmente útil en pantallas pequeñas y mejora la legibilidad de los datos más consumibles. Los administradores pueden configurar los diseños predeterminados y permitidos.
+
+![Disposición de las tarjetas en la vista en cuadrícula](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/card_layout_grids.png)
+
+### Exportar las respuestas del cuestionario de evaluación al formato xlsx en la fase de recogida de información
+
+Ahora los usuarios pueden exportar las respuestas de la Evaluación de cuestionarios en la etapa de recopilación de información junto con las demás etapas del ciclo de vida de un cuestionario.
+
+### Copiar objetos hijo al duplicar una respuesta de cuestionario
+
+Al copiar una respuesta de un cuestionario, los usuarios ahora pueden elegir copiar las relaciones hijo. Esto agiliza el proceso de duplicación y garantiza la conservación de los datos relacionados. Los usuarios podrán ver una nueva opción llamada **Copiar hijo relacionado** bajo la operación **Copiar objeto** en las acciones de respuesta del modelo de cuestionario.
+
+### Fusionar ediciones concurrentes no conflictivas
+
+OpenPages ahora permite fusionar ediciones simultáneas cuando se realizan cambios en campos diferentes. Esto reduce el riesgo de perder trabajo por errores de concurrencia y mejora la experiencia de edición en entornos colaborativos.
+
+### Posibilidad de tener varios periodos de información
+
+Los administradores ahora tienen la capacidad de crear múltiples periodos de informes, permitiendo a los usuarios cambiar entre periodos de informes en el Registro de Actividad. De este modo, se puede pasar de un periodo a otro sin problemas, lo que permite un seguimiento y un análisis más precisos de los datos históricos.
+
+Además, los objetos que existan en el período de informe actual seguirán reflejados y no se actualizarán.
+
+![Seleccionar un período de informe para una acción en el registro de actividades](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/switch_periods_activity_log.png)
+
+### Exportar las respuestas al cuestionario y los datos de evaluación
+
+Ahora los administradores pueden exportar las respuestas de la Evaluación del cuestionario a archivos CSV utilizando la función de Exportación de datos. Esta función permite mejorar el análisis de datos y la elaboración de informes para tipos de objetos no estándar.
+
+### Ejecutar cálculos sobre los objetos seleccionados desde la vista en cuadrícula
+
+Ahora los administradores pueden seleccionar objetos específicos de una vista en cuadrícula y realizar cálculos sobre ellos. Este enfoque selectivo ahorra tiempo y recursos en comparación con la ejecución de cálculos en todos los objetos aplicables.
+
+![Seleccione el cálculo de ejecución para los elementos de la vista en cuadrícula de Activos](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/obj_run_calc.png)
+
+### Integración de Webhooks
+
+Ahora puede integrarse con Webhooks para permitir la comunicación en tiempo real basada en eventos entre OpenPages y sistemas externos. Esta nueva función permite a los usuarios configurar Webhooks salientes que activan automáticamente las devoluciones de llamada de HTTP cuando se producen eventos específicos en la plataforma, como la creación, actualización, eliminación, asociación y disociación de registros. Esta función permite a desarrolladores y administradores crear soluciones con mayor capacidad de respuesta e interconectadas utilizando OpenPages.
+
+### Ejecute varios flujos de trabajo en paralelo
+
+Los flujos de trabajo que no requieren la interacción del usuario ahora pueden ejecutarse simultáneamente con otros flujos de trabajo. Esto permite automatizar acciones específicas sin interrumpir los procesos en curso, lo que mejora la eficacia y la flexibilidad.
+
+A continuación se muestra un ejemplo de flujo de trabajo automatizado que puede utilizarse para realizar automáticamente las siguientes tareas:
+
+- Crear objetos
+- Cálculo de la ejecución
+- Ejecutar un agente de IA
+
+![Ejemplo de flujo de trabajo automatizado que ejecuta múltiples tareas automáticamente](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/automated_workflow.png)
+
+### Hacer editables los campos de sólo lectura en las anulaciones de la vista de tareas
+
+Ahora los administradores pueden anular las vistas de tareas para que los campos de sólo lectura sean editables. Esto proporciona una mayor flexibilidad a la hora de personalizar los flujos de trabajo sin alterar la configuración de seguridad subyacente.
+
+### Configurar relaciones múltiples en flujos de trabajo de creación de objetos
+
+Las operaciones de flujo de trabajo para crear objetos ahora admiten la configuración de relaciones múltiples. Esta mejora simplifica los complejos escenarios de creación de objetos y mejora la vinculación de datos.
+
+![Añadir relaciones múltiples en operaciones de flujo de trabajo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/multiple_relationships_workflows.png)
+
+## Novedades de la versión 9.1.1
+
+`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-new-in-version-911)
+
+OpenPages® 9.1.1 ofrece un amplio conjunto de mejoras en cinco áreas clave:
+
+- IA y automatización: Integración ampliada con watsonx, configuración más inteligente del modelo de IA y automatización activada por el flujo de trabajo.
+- Interfaz de usuario y usabilidad: Navegación mejorada, filtrado dinámico, compatibilidad con markdown e interacciones de usuario mejoradas.
+- Administración y Data Management : Gestión de entidades más sencilla, exportaciones de datos enriquecidos y procesos de actualización agilizados.
+- Datos y visualización: Gráficos más potentes para una mejor comprensión de los datos.
+- Integración y feeds: Campos personalizados en RCM Feed.
+
+### Filtro de la carpeta principal de la cuadrícula de asociación
+
+Permite al administrador definir un filtro dinámico en una carpeta. El filtro dinámico se basa en la carpeta del objeto actual; se trata de una mejora del filtro de carpetas actual.
+
+![Vista de diseño de Entidad de Negocio con panel lateral de filtro de carpetas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/dynamic_filter.png)
+
+Ventaja: Proporciona a los usuarios finales sólo una lista de objetos o actividades que son relevantes para ellos en este momento. En lugar de ver miles de controles, el usuario final sólo vería los controles de la misma entidad empresarial/organización.
+
+### Un filtro público para identificar fácilmente los objetos bloqueados
+
+Ahora puede filtrar objetos bloqueados en las vistas utilizando filtros privados y públicos.
+
+![Nuevo panel de condiciones para Controles con Bloqueo seleccionado](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/locked_object_filtering.png)
+
+### Asociación de hijos en las vistas de creación
+
+Los usuarios pueden asociar elementos existentes como hijos durante el proceso de creación.
+
+![Ver diseñador para la opción Programa con hijos de tipo Relación](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/child_association_creation_view.png)
+
+Utilidad: Los usuarios pueden ahorrar tiempo y asignar hijos en las vistas de creación.
+
+### Grupo de inicio de selector de usuario basado en objetos relacionados
+
+Puede definir el grupo inicial para los campos de selector de usuario basándose en otros campos de usuario de objetos relacionados en el diseñador de la vista de tareas.
+
+![Diseñador de vistas con panel Campo de grupo inicial](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/starting_group_user_selector.png)
+
+### Exportación de cuadrículas anidadas en formato Excel sencillo
+
+El botón de exportación permite ahora exportar la información de una rejilla (con rejilla anidada) en un sencillo formato Excel.
+
+![Panel de exportación de evaluaciones de riesgos con la vista de cuadrícula seleccionada](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/export_simple_excel.png)
+
+Ventajas: Proporciona al usuario la flexibilidad de exportar datos a una hoja de cálculo Excel.
+
+### Plantilla de cuestionario Autorización
+
+Se ha añadido un nuevo permiso para controlar quién puede ser el autor de las Plantillas de cuestionario (es decir, `All/SOX/User Interfaces/Questionnaire Template Authoring`). Sin este permiso de aplicación, los usuarios no pueden ver la pestaña **Editor** de la plantilla de cuestionario.
+
+### Exportar las respuestas de evaluación del cuestionario a xlsx
+
+Los usuarios podrán ahora exportar las respuestas de la evaluación del cuestionario haciendo clic en el botón **Exportar** en las etapas de revisión, aprobación y cierre de una evaluación del cuestionario.
+
+![Evaluación de cuestionario](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/export_questionnaire_response.png)
+
+### Mejoras en el análisis de referencias sobre el terreno
+
+Si se hace referencia a un campo en varios tipos de objeto, ahora se agrupa por tipo de objeto. Ahora se incluyen en el informe los campos que se utilizan en la entrada de eventos de pérdida y en Machine Learning personalizada. Por último, ahora los administradores pueden descargar el análisis mediante un archivo.xlsx.
+
+![Cuadro de diálogo de análisis de referencia de campo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/field_reference_analysis_box.png)
+
+Utilidad: Proporciona al usuario información sobre dónde se utiliza actualmente el campo, dónde se eliminará y las posibles repercusiones de su eliminación.
+
+### Eliminación de campos para tipos de datos seleccionados
+
+Esta función permite a los usuarios gestionar las configuraciones de campos de forma más eficaz, ya que permite eliminar campos de los grupos de campos definidos. Los usuarios pueden eliminar los campos obsoletos o que ya no son relevantes.
+
+> **Nota:** Los campos de moneda y multiactor no pueden eliminarse mediante esta función.
+
+![Campos de la cuenta con opción de supresión](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/field_delete.png)
+
+Utilidad: Esta funcionalidad ayuda a los usuarios a mantener los datos más limpios, mejorar el rendimiento del sistema y garantizar que sólo se conserva la información relevante para la elaboración de informes y análisis.
+
+### Formato Markdown
+
+Ahora puede utilizar Markdown como tipo de visualización para tipos de datos de cadenas simples y largas. El tipo de visualización le permite tanto editar como previsualizar su Markdown antes de guardarlo, lo que facilita la integración de IA, ya que este es el formato principal para la salida de modelos de IA.
+
+![Tipo de visualización de campo seleccionado a Markdown](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/display_type_markdown.png)
+
+Utilidad: Markdown es ahora compatible como nuevo tipo de visualización para campos de texto, y en una salida personalizada de aprendizaje automático.
+
+### Campos de referencia de etiquetas en los comentarios
+
+Los usuarios pueden hacer referencia a campos en los comentarios utilizando el signo #, lo que permite a los destinatarios navegar directamente al campo de referencia dentro de la vista de la tarea.
+
+![Panel lateral de comentarios con la opción del signo # en el desplegable](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/ref_fields_comments.png)
+
+Utilidad: Esta función agiliza la colaboración y reduce el tiempo dedicado a buscar información relevante.
+
+### Mejoras en las cuadrículas anidadas
+
+Los tipos de objetos anidados ahora admiten filtros y órdenes de clasificación.
+
+![Configurar el panel lateral de enlaces de activos anidados con opciones de filtrado y clasificación](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nested_object_filters_sort_orders.png)
+
+### Cabeceras adhesivas en las rejillas
+
+Las cabeceras de las cuadrículas permanecen visibles al desplazarse, lo que mejora su uso en grandes conjuntos de datos.
+
+### Edición de etiquetas Enum en páginas de objetos
+
+Ahora los administradores pueden editar las etiquetas Enum directamente desde la interfaz de usuario de la página de objetos.
+
+![Etiqueta Enum en el panel lateral para editar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/enum_label_edit.png)
+
+### Soporte de configuración regional
+
+Ahora puede crear locales para ruso y esloveno.
+
+### Migración de entornos para modelos personalizados de aprendizaje automático
+
+Migración de entornos para modelos de IA personalizados.
+
+![Cuadro de diálogo de exportación de modelos personalizados de aprendizaje automático](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/export_custom_ai_models.png)
+
+Ventaja: Soporte de infraestructura para migrar integraciones de IA entre entornos
+
+### Compatibilidad con cuadrículas anidadas en modelos de IA basados en vistas
+
+Ahora puede utilizar cuadrículas anidadas como entrada para modelos de aprendizaje automático personalizados basados en vistas.
+
+Utilidad: Envíe fácilmente los datos correctos al modelo incluyendo todos los objetos relacionados relevantes -hasta 6 campos por objeto, 3 niveles de profundidad. Esta mejora ofrece una mayor flexibilidad a la hora de estructurar los datos, lo que permite realizar predicciones de IA más precisas.
+
+### Activación automática de modelos de IA mediante flujos de trabajo
+
+Los modelos de aprendizaje automático personalizados **Set Fields** y **Set Tags** configurados con acciones automáticas ahora se pueden utilizar como acciones dentro de los flujos de trabajo.
+
+![Panel lateral de operaciones para un flujo de trabajo con la opción Ejecutar un modelo AI como operación.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/workflow_action_run_ai.png)
+
+Ventajas: La ejecución de un modelo de IA ahora se puede activar directamente desde las acciones del flujo de trabajo, lo que agiliza la automatización para las capacidades de campos establecidos y etiquetas establecidas (ejemplo: categorizar automáticamente las incidencias).
+
+### Establezca relaciones automáticamente aprovechando los modelos de IA
+
+Los modelos de aprendizaje automático personalizados para establecer relaciones pueden configurarse ahora para que se ejecuten automáticamente en función de los cambios de entrada y establezcan automáticamente las relaciones en la cuadrícula sin intervención del usuario.
+
+![Edite el cuadro de diálogo de su modelo con la opción Automático seleccionada.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/automatic_run_ai_model.png)
+
+Utilidad: Establecer automáticamente relaciones basadas en los resultados del modelo de IA, permitiendo después al usuario simplemente revisar y actualizar los objetos o actividades asociados.
+
+### Watsonx assistant y watsonx orquestan la integración
+
+Ahora se admiten acciones en el asistente watsonx en lugar de la integración basada en diálogos.
+
+![Watsonx asistente de la interfaz de usuario de acciones con el botón Crear acción](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/watsonx_assistant_actions.png)
+
+Utilidad: La perfecta integración con watsonx Assistant y Orchestrate permite capacidades de IA conversacional en OpenPages, aprovechando las variables de acción en lugar del diálogo. Esta es una nueva forma de adjuntar información contextual de una tarea a watsonx Assistant o al Asistente en Orchestrate (por ejemplo: el Asistente puede entender dónde está el usuario, qué perfil tiene, qué objeto está mirando en OpenPages, y como resultado informar al usuario qué tipo de acción o servicio está disponible).
+
+### RCM - Campos personalizados para el feed de Wolters Kluwer
+
+Wolters Kluwer ahora tiene la capacidad de proporcionar campos personalizados para el contenido normativo.
+
+Para habilitar esta función:
+
+- Añadir campos personalizados a Wolters Kluwer
+- Añada los campos personalizados a un Grupo de campos en OpenPages. Utilice los mismos nombres de campo que en Wolters Kluwer
+- Cuando se ingieren datos de Wolters Kluwer, el proceso comprueba si hay campos personalizados en el XML. En caso afirmativo, el proceso comprueba si existe un campo con el mismo nombre en OpenPages. Si lo hace, el proceso actualiza el campo. Si no, se salta el campo.
+
+Utilidad: La incorporación de la compatibilidad con campos personalizados en el feed RCM de Wolters Kluwer mejora la gestión del contenido normativo.
+
+### Soporte para Cognos 12.1
+
+OpenPages incluye ahora compatibilidad con IBM Cognos Analytics 12.1, además de su compatibilidad con Cognos 12.0.1 y las versiones posteriores 12.0.x.
+
+### Soporte para Db2 12.1
+
+OpenPages incluye ahora compatibilidad con las bases de datos IBM Db2 12.1, además de su compatibilidad con Db2 11.5.5 y las versiones posteriores 11.5.x.
+
+### Soporte del instalador para actualizaciones automáticas de bases de datos
+
+El instalador de OpenPages ahora puede actualizar la base de datos de OpenPages automáticamente como parte del resto de la actualización de OpenPages para las versiones principales y de mods, además de la compatibilidad existente en las versiones de paquetes de correcciones y correcciones provisionales. Los usuarios pueden elegir entre actualizar su base de datos manualmente antes de la actualización de OpenPages, o permitir que el instalador realice la actualización.
+
+### Mover / Renombrar Entidad
+
+Esta versión incluye una nueva función de administración que permite mover y renombrar entidades empresariales por lotes a través de la interfaz de usuario. Esta nueva interfaz de usuario proporciona las mismas capacidades que la [utilidad de línea de comandos Mover/Cambiar nombre de entidad](3.4-guia-del-administrador.md#programa-de-utilidad-movercambiar-nombre-de-entidad) existente.
+
+En el menú de administración, haga clic en **Otros** > **Mover / Renombrar**.
+
+![Operaciones de traslado y cambio de nombre de entidades empresariales.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/move_rename_business_entitities.png)
+
+Utilidad: Ahora los administradores pueden renombrar o mover entidades directamente a través de la interfaz de usuario.
+
+### Lógica de interfaz de usuario simplificada para la validación de acciones de flujo de trabajo
+
+Se ha simplificado la compleja lógica de la interfaz de usuario para mejorar su comprensión.
+
+![Creación de elementos de acción con la pestaña Lógica expandida.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/ui_logic.png)
+
+### La exportación de datos ahora incluye etiquetas
+
+La exportación incluye ahora etiquetas para los tipos de objetos seleccionados.
+
+### Mejoras en los gráficos
+
+Ahora los gráficos admiten campos de selección múltiple. Mejora de la visualización de gráficos con más de 10 elementos utilizando un cubo "Otros".
+
+![Gráfico de barras con campos de selección múltiple](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/chart_multi_select.png)
+
+## Nuevas características en la versión 9.1.0
+
+`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-new-in-version-910)
+
+La versión 9.1.0 de OpenPages® incluye mejoras en los modelos personalizados de aprendizaje automático, comentarios de objetos, cuestionarios, compatibilidad nativa con OAuth 2.0, exportación de datos y mucho más.
+
+### Uso de vistas para enviar campos de entrada a modelos personalizados
+
+En versiones anteriores de OpenPages, un administrador podía especificar campos de objeto para utilizarlos como entrada en un modelo personalizado. Los administradores ahora pueden configurar una vista de tareas o informes que contenga los campos de datos de entrada ( OpenPages ) que desean que procese el modelo. Excepto los campos de relación de gráfico, todos los campos de objeto y de relación de la vista se envían como entrada al modelo.
+
+Para obtener más información sobre cómo crear un modelo que utilice una vista como entrada, consulte el tema [Configuración de entradas de modelo](3.5-guia-del-administrador.md#configuración-de-entradas-de-modelo) en *la Guía del administrador de IBM OpenPages.*
+
+Dado que los usuarios necesitan una forma de acceder a la información de un modelo, el administrador añade **un botón Ver información de IA** a una vista en View Designer. La vista puede ser una vista de creación, vista de tareas, vista de administración (utilizada por los administradores) o vista de informe. Cuando el administrador configura el botón, especifica el modelo que se ejecutará y la vista que se utilizará como entrada. Después de que el administrador publique la vista, el usuario puede hacer clic **en Ver perspectivas** ![Botón Ver perspectivas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/ai-launch.png) para mostrar las perspectivas del modelo.
+
+Para obtener más información sobre la adición de un botón **View AI insights** a una vista en View Designer, consulte *Adición de un botón para ver insights* en el tema [Adición de elementos generales a una vista](3.2-guia-del-administrador.md#adición-de-elementos-generales-a-una-vista) de la *Guía del administrador de IBM OpenPages*.
+
+### Exportación de datos
+
+Puede exportar datos desde OpenPages. Los datos exportados pueden utilizarse en aplicaciones de cuadros de mando y elaboración de informes, para la Generación Mejorada por Recuperación (RAG) y para otros modelos basados en IA.
+
+Debe tener el permiso de administrador ( `All Permissions/SOX/Administration/Data Export` ) para ejecutar exportaciones de datos.
+
+Para obtener más información, consulte [el tema Exportación de datos de OpenPages para que los utilicen otras aplicaciones](3.5-guia-del-administrador.md#exportar-datos-de-openpages-s-para-que-los-utilicen-otras-aplicaciones) en *la Guía del administrador de IBM OpenPages*.
+
+### Uso de @menciones en comentarios de objetos
+
+En un comentario sobre un objeto, los usuarios ahora pueden usar @menciones para etiquetar a otros usuarios. Cuando escriben @ seguido de unos caracteres del nombre, apellido o nombre de usuario, se muestra una lista de usuarios. El usuario puede entonces elegir un nombre de la lista.
+
+Para obtener más información, consulte el tema [Añadir comentarios a los objetos](4-guia-del-usuario.md#añadir-comentarios-a-los-objetos) en *la Guía del usuario de OpenPages ( IBM* ).
+
+### Añadir un comentario Panel de actividad al panel de control
+
+Los usuarios pueden añadir un panel en el panel de control para ver los comentarios que han hecho y los comentarios en los que se les menciona.
+
+Para obtener más información, consulte el tema [Agregar un panel de actividad de comentario](4-guia-del-usuario.md#añadir-un-comentario-panel-de-actividad) en la *Guía del usuario IBM OpenPages*.
+
+### Personalización de plantillas de correo electrónico para notificaciones de comentarios
+
+Los administradores pueden personalizar la plantilla de los correos electrónicos que reciben los usuarios cuando se les menciona en un comentario.
+
+Para obtener más información, consulte el tema [Configuración de comentarios de objetos](3.2-guia-del-administrador.md#configurar-el-comentario-de-objetos) en *la Guía del administrador de IBM OpenPages*.
+
+### Reordenar las respuestas en las plantillas de los cuestionarios
+
+Los autores de plantillas de cuestionarios ahora pueden reordenar las respuestas a una pregunta.
+
+Para obtener más información, consulte el tema [Añadir preguntas a una plantilla de cuestionario](4-guia-del-usuario.md#añadido-de-preguntas-a-una-plantilla-de-cuestionario) en *la Guía del usuario de IBM OpenPages.*
+
+### Cambiar la bandera de las preguntas en las evaluaciones del cuestionario
+
+Cuando un revisor marca una pregunta en un cuestionario y la envía de vuelta al usuario para que realice cambios, aunque el revisor acepte la nueva respuesta, el revisor puede volver a marcar la misma pregunta más adelante.
+
+Para obtener más información, consulte el tema [Revisar una evaluación del cuestionario](4-guia-del-usuario.md#revisión-de-una-evaluación-de-cuestionario) en *la Guía del usuario de IBM OpenPages.*
+
+### Utilizar acciones de respuesta en plantillas de cuestionarios para establecer una respuesta a un campo enumerado
+
+Un autor de cuestionarios ahora puede utilizar campos enumerados para establecer un campo en las acciones de respuesta de una plantilla de cuestionario.
+
+Para obtener más información sobre la configuración de campos mediante acciones de respuesta, consulte el tema [Configuración de los valores de campo de un objeto en función de las respuestas de un encuestado](4-guia-del-usuario.md#establecer-los-valores-de-campo-de-un-objeto-basándose-en-las-respuestas-de-un-encuestado) en la *Guía del usuario de IBM OpenPages*.
+
+### Soporte nativo para autenticación OAuth 2.0 para OpenPages API REST V1 y V2
+
+Ahora puede configurar la autenticación nativa de OAuth2.0 para OpenPages IBM OpenPages REST API V1 y V2 en IBM OpenPages en las instalaciones o IBM OpenPages en la nube.
+
+En esta configuración, OpenPages desempeña la función de servidor de autorización de OAuth 2.0. Puede utilizar un proveedor de OIDC ( OpenID Connect) como proveedor de identidad ( IdP ).
+
+Para obtener más información sobre la configuración de la autenticación nativa OAuth 2.0, consulte el tema [Configuración de la autenticación nativa OAuth 2.0](3.1-guia-del-administrador.md#configuración-de-la-autenticación-nativa-oauth-20) en *la Guía del administrador de IBM OpenPages*.
+
+### Cuadrículas anidadas
+
+Un administrador puede configurar una cuadrícula anidada para una Vista de cuadrícula o como un campo de relación en una Vista de tareas o de administración. Una cuadrícula anidada muestra los hijos de un tipo de objeto específico y los descendientes de tipos de objetos específicos para cada hijo. Cada nivel de objetos está sangrado para proporcionar una representación visual de las relaciones entre los objetos.
+
+La siguiente figura muestra una vista de cuadrícula anidada con la estructura de una entidad comercial, sus procesos secundarios y sus riesgos secundarios.
+
+*Figura 1. Una vista de cuadrícula anidada*
+
+![Una vista de cuadrícula anidada que muestra las entidades empresariales, sus procesos secundarios y sus descendientes.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nested_grid_view.png)
+
+Para obtener más información sobre cómo configurar una vista de cuadrícula anidada, consulte el tema [Definir una vista de cuadrícula](3.6-guia-del-administrador.md#definición-de-una-vista-de-cuadrícula) en *la Guía del administrador de IBM OpenPages.*
+
+Para obtener más información sobre el uso de una vista de cuadrícula anidada, consulte el tema [Uso de vistas de cuadrícula para buscar, abrir y trabajar con objetos](4-guia-del-usuario.md#utilización-de-las-vistas-de-cuadrícula-para-buscar-abrir-y-trabajar-con-objetos) en la *Guía del usuario de IBM OpenPages*.
+
+La siguiente figura muestra una vista de tareas con una cuadrícula de relaciones. La cuadrícula anidada muestra la estructura de los Procesos, sus Riesgos secundarios y sus Controles terciarios.
+
+*Figura 2. Una cuadrícula anidada*
+
+![Una cuadrícula anidada en el campo de relación de una vista de tareas que muestra los procesos secundarios y sus descendientes.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nested_grid1.png)
+
+Para obtener más información sobre cómo configurar una cuadrícula anidada para un campo de relación en una vista de tareas, consulte el tema [Añadir un diseño de cuadrícula](3.6-guia-del-administrador.md#adición-de-un-diseño-de-cuadrícula) en *la Guía del administrador de IBM OpenPages.*
+
+Para obtener más información sobre el uso de una cuadrícula anidada para un campo de relación en una vista de tareas, consulte el tema [Asociaciones entre objetos](4-guia-del-usuario.md#asociaciones-entre-objetos) en *la Guía del usuario de OpenPages IBM.*
+
+### Acciones del flujo de trabajo de pedidos
+
+Los administradores ahora pueden establecer el orden de las acciones que un usuario ve cuando hace clic en **Acción** en una Vista de tareas. Por ejemplo, un administrador puede editar las propiedades de una etapa para mostrar las acciones en el orden de las más utilizadas a las menos utilizadas.
+
+Para obtener más información sobre cómo cambiar el orden de las acciones, consulte el tema [Definir una etapa estándar](3.3-guia-del-administrador.md#definición-de-una-etapa-estándar) en *la Guía del administrador de IBM OpenPages.*
+
+### Determinar dónde se hace referencia a los campos
+
+Los administradores ahora pueden determinar si las referencias a un campo siguen siendo necesarias ejecutando un informe de análisis de referencia de campo. El informe comprueba si hay referencias al campo en vistas, flujos de trabajo, perfiles, cálculos, reglas de seguridad, filtros, vistas de panel, dependencias de campo y reglas de eventos normativos.
+
+Para obtener más información, consulte el tema [Determinar dónde se hace referencia a los campos](3.1-guia-del-administrador.md#determinar-dónde-se-hace-referencia-a-los-campos) en *la Guía del administrador de IBM OpenPages*.
+
+### Migración del sistema: exportación de dependencias
+
+Puede exportar un artículo sin exportar otros artículos de los que depende. Por ejemplo, puede exportar una vista sin sus definiciones de campo y objeto dependientes.
+
+Para obtener más información, consulte [el tema Exportar elementos de configuración desde el entorno de origen](3.4-guia-del-administrador.md#exportación-de-elementos-de-configuración-desde-el-entorno-de-origen) en *la Guía del administrador de IBM OpenPages*.
+
+Además, el contenido no relacionado ya no se incluye en la exportación. Por ejemplo, cuando exportaba un perfil en versiones anteriores, se exportaban todos los tipos de objeto incluidos en el perfil, incluyendo todos los campos de esos tipos de objeto. En la versión 9.1.0 de OpenPages, solo se incluyen en la exportación los artículos a los que hace referencia el artículo exportado.
+
+### Flujos de trabajo del sistema
+
+Solo un trabajo de programador u otro flujo de trabajo puede iniciar un flujo de trabajo del sistema. Cuando utiliza un flujo de trabajo del sistema, se asegura de que el flujo de trabajo se ejecute de forma coherente y en el momento adecuado, minimizando el riesgo de variaciones o errores.
+
+### Nuevos puntos finales disponibles en la API REST de GRC V2
+
+Ahora puede recuperar plantillas de cuestionarios y evaluaciones por ID utilizando los nuevos puntos finales `GET /questionnaire/{id}` y `GET /assessment/{id}`.
+
+También puede crear o actualizar una lista de objetos utilizando el nuevo punto final `POST /contents/bulk`.
+
+Para obtener más información sobre las actualizaciones de la API V2, consulte [Novedades de la versión 9.1.0](9-guia-del-desarrollador.md#novedades-de-la-versión-910) en la *Guía del desarrollador IBM OpenPages*.
+
+### Están disponibles las configuraciones regionales árabe (Arabia Saudí) y árabe (Emiratos Árabes Unidos)
+
+Los administradores ahora pueden agregar árabe (Arabia Saudí) y árabe (Emiratos Árabes Unidos) como nuevos idiomas. Sin embargo, todos los datos numéricos, como la moneda, los decimales y la hora, utilizan números arábigos occidentales, independientemente de la preferencia regional.
+
+Para obtener más información sobre cómo agregar configuraciones regionales, consulte el tema [Agregar configuraciones regionales](3.3-guia-del-administrador.md#adición-de-entornos-locales) en *la Guía del administrador de IBM OpenPages*.
+
+### Cambios en los formatos de moneda y fecha
+
+Los formatos de visualización de monedas y fechas han cambiado para las siguientes configuraciones regionales:
+
+**Tabla 1. Cambios en el formato de las divisas**
+
+| Idioma o localidad | Nuevo formato | Formato anterior |
+| --- | --- | --- |
+| Griego | • Separador decimal: `,`<br>• Grupo (miles) separador: `.`<br>Por ejemplo: `12.345,00` | `12,345.00`. |
+| Rumano | • Separador decimal: `,`<br>• Grupo (miles) separador: `.`<br>Por ejemplo: `12.345,00` | `12 345.00` |
+| Serbio Latino | • Separador decimal: `,`<br>• Grupo (miles) separador: `.`<br>Por ejemplo: `12.345,00` | `12,345.00` |
+| Sueco | • Separador decimal: `,`<br>• Grupo (miles) separador:  (espacio)<br>Por ejemplo: `123 456,00` | `1 234,56` |
+
+**Tabla 2. Cambios en el formato de las fechas**
+
+| Idioma o localidad | Nuevo formato | Formato anterior |
+| --- | --- | --- |
+| Danés | `tt-mm-jjjj` | `tt.mm.jjjj`. |
+| Coreano | `yyyy. mm. dd` | `yyyy. mm. dd.` |
+| Letón | `yyyy.dd.mm` | `dd.mm.yyyy` |
+
+Los cambios se deben a la actualización de IBM® Semeru Runtimes.
+
+### Otros cambios
+
+- Ahora puede controlar cómo se muestra `displayname` aplicando la configuración **Aplicaciones** > **GRCM** > **Anexar nombre de usuario con nombre para mostrar**.
+
+  Para obtener más información, consulte el tema [Añadir nombre de usuario con `displayname`](3.3-guia-del-administrador.md#añadir-nombre-de-usuario-con-nombre-de-visualización) en la *Guía del administrador de IBM OpenPages*.
+- Ahora puede mantener valores de API válidos para que el usuario los añada al campo **Contenido referenciado** de una vista de tarea aplicando la configuración **Aplicaciones** > **Común** > **Contenido referenciado** > **Lista de API permitidas**.
+
+  Para obtener más información, consulte el tema de [configuración API allowlist](3.3-guia-del-administrador.md#configuración-de-la-lista-de-permisos-de-la-api) en la *Guía del administrador de IBM OpenPages*.
+- El botón **Abrir vista rápida** ![Abrir el botón de vista rápida](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/tfui_quick_view_icon.jpg) que solía aparecer en la columna situada más a la derecha en una vista de cuadrícula se muestra ahora en la segunda columna desde la izquierda cuando se pasa el puntero del ratón sobre una fila.
+- Cuando utilice la barra de desplazamiento situada en la parte inferior de la página para ver todas las columnas de una vista de cuadrícula, la columna situada más a la izquierda permanecerá en su sitio para que siempre esté visible.
+- El algoritmo de cifrado 3DES no es compatible con IBM Semeru Runtimes. Si utiliza un almacén de claves personalizado, utilice AES.
+
+  Antes de actualizar o migrar, consulte el tema [Prepare el almacén de claves personalizado para la actualización o migración](5.1-guia-de-instalacion-y-despliegue-solo-local.md#preparar-el-almacén-de-claves-personalizado-para-la-actualización-o-migración) en la *Guía de instalación y despliegue de IBM OpenPages*.
+- Los algoritmos de encriptación OP-CUSTOM y 3DES ya no son compatibles con la encriptación de contraseñas. Cambia el algoritmo a AES.
+
+  Para obtener más información, consulte el tema [Actualización del algoritmo de cifrado de contraseñas de OpenPages](5.1-guia-de-instalacion-y-despliegue-solo-local.md#actualización-del-algoritmo-de-cifrado-de-contraseñas-de-openpages) en la *Guía de instalación e implantación de IBM OpenPages*.
+- Ahora se admiten los nuevos códigos de moneda XCG y ZWG. Para obtener información sobre cómo activar una divisa y cargar los tipos de cambio, consulte [Modificación de los tipos de cambio de divisas](3.1-guia-del-administrador.md#modificación-de-los-tipos-de-cambio-de-moneda).
+- Las siguientes integraciones ya no están disponibles:
+
+  - RiskLens
+  - Supply Wisdom
+
 ## Novedades de la versión 9.0.0.5
 
-`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-new-in-version-9005)
+`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-new-in-version-9005)
 
 La versión 9.0.0.5 de OpenPages® incluye mejoras en las vistas de tareas, cuestionarios y mucho más.
 
@@ -164,7 +734,7 @@ La versión 9.0.0.5 de OpenPages® incluye mejoras en las vistas de tareas, cues
 
 Los usuarios pueden añadir sus comentarios a los objetos si el administrador les da permiso. Por ejemplo, un usuario puede añadir un comentario a un asunto para hacer una pregunta, una observación o dejar constancia de sus pensamientos sobre el asunto.
 
-Para obtener más información, consulte el tema [Comentario de objetos](4-guia-del-usuario.md#comentar-objetos) en la *Guía del usuario de IBM OpenPages*.
+Para obtener más información, consulte el tema [Comentario de objetos](4-guia-del-usuario.md#añadir-comentarios-a-los-objetos) en la *Guía del usuario de IBM OpenPages*.
 
 Los administradores pueden eliminar todos los comentarios de un objeto con una operación en una acción de flujo de trabajo.
 
@@ -201,11 +771,11 @@ Los administradores pueden definir flujos de trabajo para eliminar objetos de la
 
 Cuando los administradores utilizan el servicio de traducción de idiomas watsonx.ai, pueden definir el mensaje y el contexto de la traducción. Con esta función, el gran modelo lingüístico (LLM) puede proporcionar una traducción que utilice el lenguaje específico del sector del dominio de Gobernanza, Riesgo y Cumplimiento para ofrecer traducciones más adecuadas al contexto.
 
-Para configurar el servicio de traducción de idiomas de watsonx.ai™, haga clic en **Abrir menú de administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Integraciones** > **Servicios de traducción de OpenPages** y seleccione **watsonx.ai** como **Tipo de traductor**.
+Para configurar el servicio de traducción de idiomas de watsonx.ai™, haga clic en **Abrir menú de administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Integraciones** > **Servicios de traducción de OpenPages** y seleccione **watsonx.ai** como **Tipo de traductor**.
 
 ### La información contextual puede compartirse con IBM watsonx Assistant
 
-A través de la integración con IBM watsonx Assistant™, OpenPages puede compartir información contextual sobre la sesión de usuario de OpenPages. Con esta información, IBM watsonx Assistant conoce el tipo de usuario que ha iniciado sesión y en qué parte de la interfaz de usuario ' OpenPages ' se encuentra. IBM watsonx Assistant puede entonces utilizar la API ' OpenPages ' para obtener más información o realizar acciones en nombre del usuario. Por ejemplo, IBM watsonx Assistant puede utilizar IA generativa para crear un elemento de acción para un problema en " OpenPages.
+A través de la integración con IBM watsonx Assistant, OpenPages puede compartir información contextual sobre la sesión de usuario de OpenPages . Con esta información, IBM watsonx Assistant conoce el tipo de usuario que ha iniciado sesión y en qué parte de la interfaz de usuario ' OpenPages ' se encuentra. IBM watsonx Assistant puede entonces utilizar la API ' OpenPages ' para obtener más información o realizar acciones en nombre del usuario. Por ejemplo, IBM watsonx Assistant puede utilizar IA generativa para crear un elemento de acción para un problema en " OpenPages.
 
 La siguiente información contextual se envía al inicio de una nueva sesión de usuario:
 
@@ -228,7 +798,7 @@ Para obtener más información, consulte el tema [Recopilación de registros con
 
 ### Buscar tipos de objetos en el menú principal
 
-Ahora puede hacer clic en **el menú Principal** ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/primary_menu_icon_task_focused_ui.png) e e introducir un tipo de objeto en el cuadro Buscar tipo de objeto para encontrar un tipo de objeto.
+Ahora puede hacer clic en **el menú Principal** ![Icono de menú principal](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/primary_menu_icon_task_focused_ui.png) e e introducir un tipo de objeto en el cuadro Buscar tipo de objeto para encontrar un tipo de objeto.
 
 Para obtener más información sobre el menú Principal, consulte el tema [Uso del menú Principal](4-guia-del-usuario.md#uso-del-menú-principal) en la *Guía del usuario de IBM OpenPages*.
 
@@ -240,7 +810,7 @@ Para obtener más información sobre la adición de configuraciones regionales, 
 
 ## Novedades de la versión 9.0.0.4
 
-`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-new-in-version-9004)
+`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-new-in-version-9004)
 
 La versión 9.0.0.4 de OpenPages® incluye mejoras en el panel de control, los gráficos, el registro, los cuestionarios y mucho más.
 
@@ -302,7 +872,7 @@ Para obtener más información, consulte el tema [Recopilación de registros con
 
 ## Características nuevas de la versión 9.0.0.3
 
-`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-new-in-version-9003)
+`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-new-in-version-9003)
 
 La versión 9.0.0.3 de OpenPages® incluye mejoras en entornos locales, seguridad, edición de campos de texto, cuestionarios, etc.
 
@@ -312,7 +882,7 @@ Ahora los administradores pueden añadir nuevos entornos locales para proporcion
 
 *Figura 1. Adición de un nuevo entorno local*
 
-![La pestaña Entornos locales se muestra con una lista de entornos locales nuevos que se pueden seleccionar.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/9003_nf_locales.png)
+![La pestaña Entornos locales se muestra con una lista de entornos locales nuevos que se pueden seleccionar.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/9003_nf_locales.png)
 
 Puede seleccionar nuevos entornos locales para añadirlos en la lista siguiente:
 
@@ -343,17 +913,17 @@ Para obtener más información sobre cómo añadir entornos locales, consulte el
 
 Para los campos de serie que tienen un tipo de visualización de texto enriquecido, los usuarios tienen una barra de herramientas y mandatos para el formato de texto y el procesamiento de texto. Esta barra de herramientas ahora contiene las siguientes herramientas:
 
-- Utilizar el**Subir imagen desde la computadora**![Cargar imagen desde el ícono de la computadora](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/ckeditor_image_icon.png) herramienta para agregar una imagen. En el cuadro de diálogo, seleccione la imagen que desee.
+- Utilizar el**Subir imagen desde la computadora**![Cargar imagen desde el ícono de la computadora](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/ckeditor_image_icon.png) herramienta para agregar una imagen. En el cuadro de diálogo, seleccione la imagen que desee.
 
   La imagen se almacena en la aplicación cuando guarda el objeto.
-- Utilizar el**Pantalla completa**![Icono de pantalla completa](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/ckeditor_full_screen_icon.png) herramienta para maximizar el campo a pantalla completa.
-- Utilizar el**Fuente**![Icono de fuente](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/ckeditor_source_icon.png) herramienta para editar el código HTML directamente.
+- Utilizar el**Pantalla completa**![Icono de pantalla completa](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/ckeditor_full_screen_icon.png) herramienta para maximizar el campo a pantalla completa.
+- Utilizar el**Fuente**![Icono de fuente](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/ckeditor_source_icon.png) herramienta para editar el código HTML directamente.
 
 Por ejemplo, la figura siguiente muestra el campo Propósito de una nueva política. El campo contiene una imagen. Las nuevas herramientas de la barra de herramientas aparecen en un círculo.
 
 *Figura 2. Una imagen utilizada en el propósito de una política*
 
-![Se muestra un objeto de política. El campo de propósito de la política contiene una imagen.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/9003_nf_rich_txt_image.png)
+![Se muestra un objeto de política. El campo de propósito de la política contiene una imagen.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/9003_nf_rich_txt_image.png)
 
 > **Importante:** FastMap no exporta ni importa imágenes. Cuando un objeto se exporta utilizandoFastMap, cualquier imagen agregada a campos de texto enriquecido no se exporta con ese objeto.
 
@@ -361,7 +931,7 @@ Por ejemplo, la figura siguiente muestra el campo Propósito de una nueva polít
 
 Antes de 9.0.0.3, los paneles de instrumentos solo se podían exportar como parte de un perfil. Ahora puede exportar paneles de control directamente utilizando la interfaz de usuario de migración de entorno.
 
-Para obtener más información sobre la exportación e importación de paneles de instrumentos, consulte los temas [Exportación de elementos de configuración desde el entorno de origen](3.5-guia-del-administrador.md#exportación-de-elementos-de-configuración-desde-el-entorno-de-origen) y [Importación de elementos de configuración al entorno de destino](3.5-guia-del-administrador.md#importación-de-un-archivo-de-migración) en la publicación *IBM OpenPages Guía del administrador*.
+Para obtener más información sobre la exportación e importación de paneles de instrumentos, consulte los temas [Exportación de elementos de configuración desde el entorno de origen](3.4-guia-del-administrador.md#exportación-de-elementos-de-configuración-desde-el-entorno-de-origen) y [Importación de elementos de configuración al entorno de destino](3.4-guia-del-administrador.md#importación-de-un-archivo-de-migración) en la publicación *IBM OpenPages Guía del administrador*.
 
 ### Editar y suprimir comentarios en cuestionarios
 
@@ -371,7 +941,7 @@ Puede editar o suprimir un comentario que ha creado. Hay algunas restricciones e
 
 *Figura 3. Una evaluación de cuestionario que muestra un comentario con los botones Editar y Suprimir en círculo*
 
-![La ficha Cuestionario de una evaluación de cuestionario se muestra junto con una pregunta. Los botones Editar y Suprimir del comentario aparecen en un círculo.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/9003_nf_edit_delete_comment.png)
+![La ficha Cuestionario de una evaluación de cuestionario se muestra junto con una pregunta. Los botones Editar y Suprimir del comentario aparecen en un círculo.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/9003_nf_edit_delete_comment.png)
 
 Para obtener más información sobre cómo editar o suprimir comentarios mientras responde a un cuestionario, consulte el tema [Completar una evaluación de cuestionario](4-guia-del-usuario.md#completar-una-evaluación-de-cuestionario) en la publicación *IBM OpenPages Guía del usuario*.
 
@@ -383,7 +953,7 @@ Al editar una plantilla de cuestionario, un usuario puede hacer que una respuest
 
 *Figura 4. Una plantilla de cuestionario con el recuadro de selección de respuesta exclusivo en círculo*
 
-![La pestaña Editor de una plantilla de cuestionario se muestra con una respuesta seleccionada como respuesta exclusiva. El recuadro de selección seleccionado aparece en un círculo.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/9003_nf_exclusive_question.png)
+![La pestaña Editor de una plantilla de cuestionario se muestra con una respuesta seleccionada como respuesta exclusiva. El recuadro de selección seleccionado aparece en un círculo.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/9003_nf_exclusive_question.png)
 
 Para obtener más información sobre cómo hacer que una respuesta sea exclusiva en un cuestionario, consulte el tema [Adición de preguntas a una plantilla de cuestionario](4-guia-del-usuario.md#añadido-de-preguntas-a-una-plantilla-de-cuestionario) en la publicación *IBM OpenPages Guía del usuario*.
 
@@ -446,7 +1016,7 @@ Para obtener más información sobre CSP y sobre cómo restaurar o sustituir la 
 
 ## Características nuevas de la versión 9.0.0.2
 
-`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-new-in-version-9002)
+`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-new-in-version-9002)
 
 La versión 9.0.0.2 de OpenPages® incluye mejoras en flujos de trabajo, informes, cuestionarios, etc.
 
@@ -460,7 +1030,7 @@ Ahora, los administradores pueden crear varias vistas de informe y especificar l
 
 *Figura 1. Selección de una vista de informe*
 
-![Se muestra un objeto de plan de continuidad de negocio. La pestaña de informe muestra tres informes. Se selecciona el informe Resumen ejecutivo.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/new_feature_9002_report-view.png)
+![Se muestra un objeto de plan de continuidad de negocio. La pestaña de informe muestra tres informes. Se selecciona el informe Resumen ejecutivo.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/new_feature_9002_report-view.png)
 
 Para obtener más información, consulte [Definición de una vista de informe](3.6-guia-del-administrador.md#definición-de-una-vista-de-informe).
 
@@ -470,7 +1040,7 @@ En un flujo de trabajo, ahora puede añadir una nueva operación **Asociar objet
 
 *Figura 2. Adición de una operación para asociar objetos*
 
-![Se muestra la página Operaciones. El tipo de operación se establece en Asociar objetos. La opción Objetos a asociar se ha establecido en Plantilla de cuestionario hijo directo.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/new_feature_9002_wf-op-assoc.png)
+![Se muestra la página Operaciones. El tipo de operación se establece en Asociar objetos. La opción Objetos a asociar se ha establecido en Plantilla de cuestionario hijo directo.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/new_feature_9002_wf-op-assoc.png)
 
 Además, si está asociando un objeto como hijo del objeto actual, puede hacer que el objeto actual sea el padre principal del objeto hijo. Por ejemplo, si está asociando automáticamente una plantilla de cuestionario con una evaluación de cuestionario, puede hacer que la evaluación de cuestionario sea el padre principal de la plantilla de cuestionario.
 
@@ -487,25 +1057,25 @@ En la pestaña **Editor** de una plantilla de cuestionario, seleccione **Accione
 
 *Figura 3. Adición de una acción de respuesta*
 
-![La página Acciones de respuesta se muestra con el botón Nueva acción de respuesta. Hay dos acciones de respuesta listadas.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg_response_actions1.png)
+![La página Acciones de respuesta se muestra con el botón Nueva acción de respuesta. Hay dos acciones de respuesta listadas.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg_response_actions1.png)
 
 Al configurar la acción de respuesta, puede elegir crear un objeto basándose en la respuesta.
 
 *Figura 4. Creación de un objeto basado en una respuesta*
 
-![Se muestra el cuadro de diálogo Acción de respuesta. La operación Crear objeto está seleccionada.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg_response_actions2.png)
+![Se muestra el cuadro de diálogo Acción de respuesta. La operación Crear objeto está seleccionada.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg_response_actions2.png)
 
 De forma alternativa, puede elegir copiar un objeto basándose en la respuesta.
 
 *Figura 5. Copia de un objeto basándose en una respuesta*
 
-![Se muestra el cuadro de diálogo Acción de respuesta. La operación Copiar objeto está seleccionada.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg_response_actions3.png)
+![Se muestra el cuadro de diálogo Acción de respuesta. La operación Copiar objeto está seleccionada.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg_response_actions3.png)
 
 Cree una operación de acción de respuesta de cuestionario en una acción del flujo de trabajo de evaluación de cuestionario para aplicar la acción de respuesta.
 
 *Figura 6. Configuración de una acción de respuesta de cuestionario en un flujo de trabajo*
 
-![Se muestra el flujo de trabajo de evaluación de cuestionario. El panel Operaciones está abierto con una operación de acción de respuesta de cuestionario especificada.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg_response_actions4.png)
+![Se muestra el flujo de trabajo de evaluación de cuestionario. El panel Operaciones está abierto con una operación de acción de respuesta de cuestionario especificada.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg_response_actions4.png)
 
 Para obtener más información sobre la creación de objetos, consulte  [Creación de un objeto basándose en las respuestas de un encuestado](4-guia-del-usuario.md#creación-de-un-objeto-basado-en-las-respuestas-de-un-encuestado).
 
@@ -517,7 +1087,7 @@ Ahora los administradores pueden configurar un modelo para sugerir relaciones en
 
 *Figura 7. Elección del tipo de conocimiento Establecer relación*
 
-![La página Editar el modelo se muestra con el paso de acceso Modelo seleccionado. El tipo de Insight es Establecer relación.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/ai_set_relationship.png)
+![La página Editar el modelo se muestra con el paso de acceso Modelo seleccionado. El tipo de Insight es Establecer relación.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/ai_set_relationship.png)
 
 Por ejemplo, puede configurar el modelo para realizar las sugerencias siguientes:
 
@@ -526,7 +1096,7 @@ Por ejemplo, puede configurar el modelo para realizar las sugerencias siguientes
 
 *Figura 8. Selección de controles para copiar desde la biblioteca*
 
-![Se muestra la vista Copiar de cuadrícula. Las sugerencias de IA sólo están habilitadas. La cuadrícula lista los controles sugeridos.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/ai_set_relationship-copy.png)
+![Se muestra la vista Copiar de cuadrícula. Las sugerencias de IA sólo están habilitadas. La cuadrícula lista los controles sugeridos.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/ai_set_relationship-copy.png)
 
 ### Exportar plantillas de cuestionarios mediante el proceso de migración de entornos
 
@@ -538,7 +1108,7 @@ En versiones de OpenPages anteriores a 9.0.0.2, se utilizaba FastMap para export
 
 > **Nota:** Puede seguir utilizando FastMap para importar plantillas de cuestionarios que haya exportado desde una versión de OpenPages anterior a 9.0.0.2.
 
-Para obtener más información sobre el uso de la migración de entorno, consulte el tema *Migración de OpenPages entornos* en la sección [Migración de OpenPages entornos](3.5-guia-del-administrador.md#migración-de-entornos-de-openpages).
+Para obtener más información sobre el uso de la migración de entorno, consulte el tema *Migración de OpenPages entornos* en la sección [Migración de OpenPages entornos](3.4-guia-del-administrador.md#migración-de-entornos-de-openpages).
 
 ### Ver cuestionarios de puntuación baja en Evaluaciones de cuestionario
 
@@ -546,7 +1116,7 @@ Ahora un revisor de cuestionario puede ver las preguntas con puntuaciones bajas 
 
 *Figura 9. Selección del filtro **Ver preguntas con puntuaciones bajas** en una evaluación de cuestionario*
 
-![Se muestra una evaluación de cuestionario con el filtro Ver preguntas con puntuación baja aplicado.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/low_score_questions.png)
+![Se muestra una evaluación de cuestionario con el filtro Ver preguntas con puntuación baja aplicado.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/low_score_questions.png)
 
 ### Servicios de traducción
 
@@ -554,7 +1124,7 @@ OpenPages ahora da soporte a NeuralSeek. Los administradores pueden aprovisionar
 
 *Figura 10. Configuración de un servicio de traducción*
 
-![En OpenPages, se muestra la página de configuración de los servicios de traducción.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/new_feature_9002_tr_serv.png)
+![En OpenPages, se muestra la página de configuración de los servicios de traducción.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/new_feature_9002_tr_serv.png)
 
 Para obtener más información, consulte [Servicios de traducción](3.5-guia-del-administrador.md#servicios-de-traducción).
 
@@ -573,7 +1143,7 @@ Para más información, consulte la página web [Entornos compatibles](https://w
 
 ## Características nuevas de la versión 9.0.0.1
 
-`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-new-in-version-9001)
+`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-new-in-version-9001)
 
 Las nuevas características de OpenPages® 9.0.0.1 dan soporte al objetivo continuado de IBM®de implicar a los usuarios, desplegar casos de uso a través de herramientas y ayudar a los equipos a aprender con el uso compartido de información simplificado.
 
@@ -589,7 +1159,7 @@ Ahora los administradores pueden personalizar el mensaje de bienvenida en la pá
 
 *Figura 1. Personalizar el mensaje de bienvenida de la página de inicio*
 
-![penPages Configuración de solución > Pantalla Tipos de objeto que muestra app.dashboard.home.title.greet. ¡panel con Bienvenido a OpenPages, %NM;! tecleado en U.S. Inglés, seguido de una imagen de la página de inicio de OpenPages mostrando un nuevo mensaje de bienvenida que dice: ¡Bienvenido a OpenPages, Jane!](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/new_feature_9001_welcome_message.png)
+![penPages Configuración de solución > Pantalla Tipos de objeto que muestra app.dashboard.home.title.greet. ¡panel con Bienvenido a OpenPages, %NM;! tecleado en U.S. Inglés, seguido de una imagen de la página de inicio de OpenPages mostrando un nuevo mensaje de bienvenida que dice: ¡Bienvenido a OpenPages, Jane!](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/new_feature_9001_welcome_message.png)
 
 ### Filtrar por etiquetas
 
@@ -597,7 +1167,7 @@ Los usuarios y administradores ahora pueden crear y guardar filtros públicos y 
 
 *Figura 2. Filtrado con etiquetas*
 
-![Pestaña OpenPages Tipo de objeto de riesgo, con el botón Filtro resaltado, seguido de una imagen de la ventana Exportar riesgos, con el botón de selección Vista de cuadrícula seleccionado](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/new_feature_9001_filter_by_tags.png)
+![Pestaña OpenPages Tipo de objeto de riesgo, con el botón Filtro resaltado, seguido de una imagen de la ventana Exportar riesgos, con el botón de selección Vista de cuadrícula seleccionado](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/new_feature_9001_filter_by_tags.png)
 
 ### Aplicar automáticamente los cambios de los flujos de trabajo recién publicados
 
@@ -609,7 +1179,7 @@ Actualizar automáticamente los campos basándose en las respuestas a los cuesti
 
 *Figura 3. Configuración de una acción de respuesta*
 
-![Abra la pantalla de acción Respuesta de página.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/new_feature_9001_questionnaire_response_action.png)
+![Abra la pantalla de acción Respuesta de página.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/new_feature_9001_questionnaire_response_action.png)
 
 ### Crear y acceder a una vista de informe
 
@@ -617,7 +1187,7 @@ Cree una vista de informe que muestre información específica que los usuarios 
 
 *Figura 4. Creación de una vista de informe*
 
-![Pestaña OpenPages Vistas con el panel Nueva vista expandido y resaltado. El menú Tipo de vista se ha expandido con Admin seleccionado. La pantalla siguiente muestra una nueva pestaña de vista que muestra la etiqueta, Mi nueva vista de administrador.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/new_feature_9001_create_access_report_view.png)
+![Pestaña OpenPages Vistas con el panel Nueva vista expandido y resaltado. El menú Tipo de vista se ha expandido con Admin seleccionado. La pantalla siguiente muestra una nueva pestaña de vista que muestra la etiqueta, Mi nueva vista de administrador.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/new_feature_9001_create_access_report_view.png)
 
 ### Añadir etiquetas a vistas
 
@@ -625,7 +1195,7 @@ Se ha añadido un nuevo campo **Etiqueta** a la configuración de vista. A difer
 
 *Figura 5. Adición de una etiqueta a una vista*
 
-![Pestaña OpenPages Vistas con el panel Nueva vista expandido. El campo Etiqueta se resalta y dice, Nueva etiqueta de vista. La pantalla siguiente muestra una nueva pestaña de vista con el título Nueva etiqueta de vista resaltada](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/new_feature_9001_add_labels_to_views.png)
+![Pestaña OpenPages Vistas con el panel Nueva vista expandido. El campo Etiqueta se resalta y dice, Nueva etiqueta de vista. La pantalla siguiente muestra una nueva pestaña de vista con el título Nueva etiqueta de vista resaltada](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/new_feature_9001_add_labels_to_views.png)
 
 ### Copiar vistas existentes
 
@@ -633,32 +1203,32 @@ Al crear una vista nueva, ahora puede pulsar **Copiar vista** para replicar la v
 
 *Figura 6. Crear una vista copiando de una vista existente*
 
-![OpenPages Pantalla Vista de tarea con el botón Copiar vista resaltado, seguida de una pantalla Vista de tarea con el panel Nueva vista visualizada. La pantalla final muestra el menú Tipo en el panel Nueva vista expandida y Tarea seleccionada.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/new_feature_9001_copy_existing_views.png)
+![OpenPages Pantalla Vista de tarea con el botón Copiar vista resaltado, seguida de una pantalla Vista de tarea con el panel Nueva vista visualizada. La pantalla final muestra el menú Tipo en el panel Nueva vista expandida y Tarea seleccionada.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/new_feature_9001_copy_existing_views.png)
 
 ### Imprimir y exportar vistas
 
-Exporte las vistas como informes limpios y fáciles de leer en unos pocos clics. El tipo de exportación depende de la vista. Imprima en PDF pulsando **Imprimir** ![Botón Imprimir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/print_button.png) para las vistas siguientes:
+Exporte las vistas como informes limpios y fáciles de leer en unos pocos clics. El tipo de exportación depende de la vista. Imprima en PDF pulsando **Imprimir** ![Botón Imprimir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/print_button.png) para las vistas siguientes:
 
 - tarea
 - Administrador
 - Informe
 
-Exporte a Excel pulsando **Exportar** ![botón Exportar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/tfui_export_icon.JPG) para las vistas siguientes:
+Exporte a Excel pulsando **Exportar** ![botón Exportar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/tfui_export_icon.JPG) para las vistas siguientes:
 
 - Cuadrícula
 - Actividad
 
-Al seleccionar **Imprimir**![Botón Imprimir](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/print_button.png) en una vista, puede imprimir una vista detallada en PDF. El archivo puede imprimirse o guardarse y compartirse como PDF. Los usuarios pueden definir un título de impresión, que se muestra en la cabecera del informe y en el nombre de archivo, cuando se exporta. Es fácil de leer y excluye los controles del navegador y los elementos de navegación, como botones, campos de búsqueda, menús, barras de desplazamiento, recuadros de selección y URL. El archivo exportado incluye texto enriquecido, estado de flujo de trabajo, etiquetas, enlaces a objetos y toda la información de cuadrícula tabular. El informe también captura la fecha y hora de la exportación para su auditabilidad. Para obtener más información, consulte  [Impresión de una vista en PDF](4-guia-del-usuario.md#imprimir-una-vista-en-pdf).
+Al seleccionar **Imprimir**![Botón Imprimir](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/print_button.png) en una vista, puede imprimir una vista detallada en PDF. El archivo puede imprimirse o guardarse y compartirse como PDF. Los usuarios pueden definir un título de impresión, que se muestra en la cabecera del informe y en el nombre de archivo, cuando se exporta. Es fácil de leer y excluye los controles del navegador y los elementos de navegación, como botones, campos de búsqueda, menús, barras de desplazamiento, recuadros de selección y URL. El archivo exportado incluye texto enriquecido, estado de flujo de trabajo, etiquetas, enlaces a objetos y toda la información de cuadrícula tabular. El informe también captura la fecha y hora de la exportación para su auditabilidad. Para obtener más información, consulte  [Impresión de una vista en PDF](4-guia-del-usuario.md#imprimir-una-vista-en-pdf).
 
 *Figura 7. Impresión de una vista de tarea*
 
-![OpenPages 2021 La vista Pagos AML-Carta de notificación se ha abierto con el botón de impresión resaltado, seguido de la misma pantalla con la ventana Imprimir abierta. La pantalla final muestra una vista impresa de la vista Pagos AML-Carta de notificación de 2021.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/new_feature_9001_print_and_export_views_pdf.png)
+![OpenPages 2021 La vista Pagos AML-Carta de notificación se ha abierto con el botón de impresión resaltado, seguido de la misma pantalla con la ventana Imprimir abierta. La pantalla final muestra una vista impresa de la vista Pagos AML-Carta de notificación de 2021.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/new_feature_9001_print_and_export_views_pdf.png)
 
-Para compartir datos desde la vista de cuadrícula o actividad, pulse **Exportar** ![botón Exportar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/tfui_export_icon.JPG) para descargar un archivo de Microsoft Excel.
+Para compartir datos desde la vista de cuadrícula o actividad, pulse **Exportar** ![botón Exportar](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/tfui_export_icon.JPG) para descargar un archivo de Microsoft Excel.
 
 *Figura 8. Exportación de datos desde una vista de cuadrícula*
 
-![OpenPages Pantalla de la vista Riesgos con el botón Exportar resaltado, seguido de la pantalla de la vista Riesgos con la ventana Exportar riesgos abierta y el botón de selección Vista de cuadrícula seleccionado.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/new_feature_9001_print_export_view_grid.png)
+![OpenPages Pantalla de la vista Riesgos con el botón Exportar resaltado, seguido de la pantalla de la vista Riesgos con la ventana Exportar riesgos abierta y el botón de selección Vista de cuadrícula seleccionado.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/new_feature_9001_print_export_view_grid.png)
 
 ### Filtrar datos en la vista Actividad
 
@@ -666,7 +1236,7 @@ Ahora hay nuevas opciones de filtro disponibles en la vista Actividad. Puede ref
 
 *Figura 9. Filtrado de la vista Actividad*
 
-![La pantalla OpenPages que muestra la vista Tema de biblioteca-Actividad de supervisión de gobierno de datos. El panel Filtro se expande, mostrando los campos Fecha de inicio, Hora de inicio, Fecha de finalización y Hora de finalización.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/new_feature_9001_filter_data_in_activity_view.png)
+![La pantalla OpenPages que muestra la vista Tema de biblioteca-Actividad de supervisión de gobierno de datos. El panel Filtro se expande, mostrando los campos Fecha de inicio, Hora de inicio, Fecha de finalización y Hora de finalización.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/new_feature_9001_filter_data_in_activity_view.png)
 
 ### Personalizar gráficos con ordenación de datos mejorada
 
@@ -674,7 +1244,7 @@ Personalice y ordene los datos del gráfico para obtener una visualización y un
 
 *Figura 10. Ordenación de datos en un gráfico*
 
-![OpenPages Pantalla de la página de inicio con el panel Diseño visualizado. Se expande el menú Ordenar dirección y se selecciona el orden de definición de campo.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/new_feature_9001_customize_charts_enhanced_data_sorting%20.png)
+![OpenPages Pantalla de la página de inicio con el panel Diseño visualizado. Se expande el menú Ordenar dirección y se selecciona el orden de definición de campo.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/new_feature_9001_customize_charts_enhanced_data_sorting%20.png)
 
 ### Software soportado en 9.0.0.1
 
@@ -682,21 +1252,21 @@ OpenPages ahora da soporte a Cognos® 12.0.1. También se admiten los releases c
 
 ## Características nuevas de la versión 9.0.0
 
-`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-new-in-version-900)
+`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-new-in-version-900)
 
 Las nuevas características de IBM OpenPages® 9.0.0.0 incluyen las mejoras siguientes.
 
 ### Mejoras de la interfaz de usuario en 9.0.0
 
-`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=900-ui-enhancements-in)
+`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=900-ui-enhancements-in)
 
 En versiones anteriores de IBM OpenPages®, cuando cambiaba la paleta de colores para un campo enumerado, tenía que cambiarla en el Diseñador de vistas para cambiar el color del campo en todas las vistas.
 
-En IBM OpenPages 9.0.0, en lugar de utilizar el Diseñador de vistas, ahora especifique la paleta de colores para un campo enumerado cuando especifique la definición del campo para un tipo de objeto. Para obtener más información, consulte [Definición de campos de serie enumerada](3.2-guia-del-administrador.md#definición-de-campos-de-serie-enumerados).
+En IBM OpenPages 9.0.0, en lugar de utilizar el Diseñador de vistas, ahora especifique la paleta de colores para un campo enumerado cuando especifique la definición del campo para un tipo de objeto. Para obtener más información, consulte [Definición de campos de serie enumerada](3.1-guia-del-administrador.md#definición-de-campos-de-serie-enumerados).
 
 ### Mejoras del flujo de trabajo en 9.0.0
 
-`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=900-workflow-enhancements-in)
+`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=900-workflow-enhancements-in)
 
 Se han realizado varias mejoras para ayudarle a administrar, mantener y dar soporte IBM OpenPages®.
 
@@ -706,13 +1276,13 @@ Ahora los administradores pueden crear mensajes personalizados que se mostrarán
 
 *Figura 1. La nueva opción **Mensaje de error personalizado** en el Diseñador de flujos de trabajo al crear una validación*
 
-![Se muestra el panel Validaciones. Incluye un campo denominado Mensaje de error personalizado.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-wf_customerr1.png)
+![Se muestra el panel Validaciones. Incluye un campo denominado Mensaje de error personalizado.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-wf_customerr1.png)
 
 La imagen de la izquierda muestra una vista del sistema 8.3.0.2 . En esta vista, se ha desencadenado una validación que utiliza lógica avanzada desde un flujo de trabajo listo para usar. La imagen de la derecha muestra un sistema 9.0 . En esta vista, se ha desencadenado la misma validación, pero esta vez se ha creado un mensaje de error personalizado para la validación. El mensaje de error personalizado indica al usuario que rellene un campo de texto porque dos valores de campo no coinciden cuando se esperaba que coincidiesen.
 
 *Figura 2. La opción de mensaje de error personalizado para flujos de trabajo*
 
-![Se muestran dos imágenes. La primera imagen muestra una vista de tarea en la versión 8.3.0.2. Se muestra un mensaje de aviso. Muestra siete avisos. La segunda imagen muestra la misma vista de tarea en 9.0.0. Se muestra un mensaje de aviso. Contiene un aviso. Un indicador en el panel lateral muestra que dos campos tienen valores no coincidentes. El panel lateral proporciona orientación sobre cómo solucionar el problema.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-wf_customerr2.png)
+![Se muestran dos imágenes. La primera imagen muestra una vista de tarea en la versión 8.3.0.2. Se muestra un mensaje de aviso. Muestra siete avisos. La segunda imagen muestra la misma vista de tarea en 9.0.0. Se muestra un mensaje de aviso. Contiene un aviso. Un indicador en el panel lateral muestra que dos campos tienen valores no coincidentes. El panel lateral proporciona orientación sobre cómo solucionar el problema.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-wf_customerr2.png)
 
 #### Avance automático de la etapa de flujo de trabajo
 
@@ -722,7 +1292,7 @@ Para utilizar esta característica, seleccione una acción en un flujo de trabaj
 
 *Figura 3. La nueva opción **Etapa de avance automático** en el Diseñador de flujos de trabajo al crear una acción*
 
-![Se muestra el panel Propiedades de acción. Incluye un nuevo conmutador que se llama Auto-Advance Stage. En este ejemplo, la etapa de avance automático está habilitada.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-wf_stage1.png)
+![Se muestra el panel Propiedades de acción. Incluye un nuevo conmutador que se llama Auto-Advance Stage. En este ejemplo, la etapa de avance automático está habilitada.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-wf_stage1.png)
 
 En la misma acción, establezca una condición en el objeto que es el sujeto del flujo de trabajo.
 
@@ -730,17 +1300,17 @@ En el ejemplo siguiente, cuando el campo Comentario de ciclo de vida tiene un va
 
 *Figura 4. Definición de la condición*
 
-![Se muestra el panel Propiedades de acción. En este ejemplo, se establece una condición para la acción: Comentario de ciclo de vida de emisión = Elementos de acción completados.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-wf_stage2.png)
+![Se muestra el panel Propiedades de acción. En este ejemplo, se establece una condición para la acción: Comentario de ciclo de vida de emisión = Elementos de acción completados.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-wf_stage2.png)
 
 Un flujo de trabajo de ejemplo con el valor **Etapa de avance automático** habilitado está disponible en el flujo de trabajo Revisión de problema. Este flujo de trabajo está disponible en instalaciones nuevas de 9.0. En el flujo de trabajo de ejemplo, la etapa **En espera de finalización** avanza automáticamente cuando el campo Comentario de ciclo de vida es igual a **Elementos de acción completados**. El valor **Elementos de acción completados** para el campo Comentario de ciclo de vida se establece mediante el cálculo de ejemplo **Emitir avance automático de etapa de flujo de trabajo** . Este cálculo cuenta cada elemento de acción hijo bajo el problema. Cuando todos los elementos de acción hijo están en estado Cerrado, el campo Comentario de ciclo de vida se establece con el valor que hace avanzar la etapa de flujo de trabajo.
 
 *Figura 5. El flujo de trabajo de revisión de problemas con el valor **Etapa de avance automático** configurado para la etapa **En espera de finalización***
 
-![El flujo de trabajo de revisión de problemas se muestra en el Diseñador de flujos de trabajo. Se selecciona la acción entre la etapa En espera de finalización y la etapa Aprobación FInal. Se muestra el panel lateral Propiedades de acción. La opción Etapa de avance automático está habilitada.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-wf_stage3.png)
+![El flujo de trabajo de revisión de problemas se muestra en el Diseñador de flujos de trabajo. Se selecciona la acción entre la etapa En espera de finalización y la etapa Aprobación FInal. Se muestra el panel lateral Propiedades de acción. La opción Etapa de avance automático está habilitada.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-wf_stage3.png)
 
 ### Mejora del etiquetado en 9.0.0
 
-`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=900-tagging-enhancement-in)
+`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=900-tagging-enhancement-in)
 
 En IBM OpenPages® 9.0.0, se han realizado las siguientes mejoras en el etiquetado.
 
@@ -756,7 +1326,7 @@ Por ejemplo, puede tener uno de los siguientes casos de uso:
 
 Si desea impedir la aplicación de etiquetas a tipos de objeto específicos, realice los pasos siguientes.
 
-1. Haga clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Etiquetas**.
+1. Haga clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Etiquetas**.
 2. En el panel **Valores del sistema** , pulse el recuadro **Habilitar etiquetado para estos tipos de objeto** .
 3. Deseleccione los tipos de objeto para los que no desea permitir etiquetas.
 
@@ -764,31 +1334,31 @@ Si desea impedir la aplicación de etiquetas a tipos de objeto específicos, rea
 
    *Figura 1. El panel **Valores del sistema** con el tipo de objeto Cuenta deseleccionado.*
 
-   ![Se muestra el panel Valores del sistema. Muestra que las etiquetas no están permitidas para los tipos de objeto de cuenta.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-tags_system_settings.png)
+   ![Se muestra el panel Valores del sistema. Muestra que las etiquetas no están permitidas para los tipos de objeto de cuenta.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-tags_system_settings.png)
 
 ### Mejoras del cuestionario en 9.0.0
 
-`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=900-questionnaire-enhancements-in)
+`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=900-questionnaire-enhancements-in)
 
 En IBM OpenPages® 9.0.0, puede responder a un cuestionario en modalidad autónoma y definir lógica compleja para dependencias en plantillas de cuestionario.
 
 #### Respuesta al cuestionario
 
-Ahora puede abrir una evaluación de cuestionario en modo autónomo pulsando ![Iniciar el cuestionario en el icono de modo en curso](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/qr_launch_stand-alone.png) en la pestaña **Cuestionario** .
+Ahora puede abrir una evaluación de cuestionario en modo autónomo pulsando ![Iniciar el cuestionario en el icono de modo en curso](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/qr_launch_stand-alone.png) en la pestaña **Cuestionario** .
 
 *Figura 1. Una evaluación de cuestionario que muestra el icono utilizado para abrir la evaluación en modo autónomo*
 
-![Una evaluación de cuestionario que muestra el icono utilizado para abrir la evaluación en modo autónomo.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-questionnaire_stand-alone.png)
+![Una evaluación de cuestionario que muestra el icono utilizado para abrir la evaluación en modo autónomo.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-questionnaire_stand-alone.png)
 
 Responder a los cuestionarios es ahora más fácil con el nuevo formato para preguntas de una sola opción y de varias. Las preguntas de opción única o múltiple con nueve o más opciones muestran las opciones en un campo desplegable o de selección múltiple.
 
 *Figura 2. Una única pregunta de elección con nueve o más opciones.*
 
-![Una evaluación de cuestionario que muestra una pregunta de opción única con nueve o más opciones.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-questionnaire_single_morethan8.png)
+![Una evaluación de cuestionario que muestra una pregunta de opción única con nueve o más opciones.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-questionnaire_single_morethan8.png)
 
 *Figura 3. Una pregunta de opción múltiple con nueve o más opciones.*
 
-![Una evaluación de cuestionario que muestra una pregunta de varias opciones con nueve o más opciones.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-questionnaire_multi_morethan8.png)
+![Una evaluación de cuestionario que muestra una pregunta de varias opciones con nueve o más opciones.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-questionnaire_multi_morethan8.png)
 
 #### Dependencias de la pregunta
 
@@ -801,11 +1371,11 @@ Ahora puede utilizar una plantilla de cuestionario para especificar lógica comp
 
 *Figura 4. El generador de condiciones donde se especifican las condiciones para las preguntas dependientes*
 
-![El generador de condiciones donde se especifican las condiciones para las preguntas dependientes.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-questionnaire_condition_builder.png)
+![El generador de condiciones donde se especifican las condiciones para las preguntas dependientes.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-questionnaire_condition_builder.png)
 
 ### Integración del modelo de aprendizaje automático personalizado en 9.0.0
 
-`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=900-custom-machine-learning-model-integration-in)
+`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=900-custom-machine-learning-model-integration-in)
 
 En IBM OpenPages® 9.0.0, la integración del modelo de aprendizaje automático personalizado ahora da soporte a la conexión con los servicios siguientes.
 
@@ -829,11 +1399,11 @@ La integración del modelo de aprendizaje automático personalizado incluye las 
 
 *Figura 1. La página **Orientación** donde el administrador establece las notificaciones y el estilo de salida para el usuario*
 
-![La página Orientación donde el administrador establece las notificaciones y el estilo de salida para el usuario.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-ml_config_user_guidance.png)
+![La página Orientación donde el administrador establece las notificaciones y el estilo de salida para el usuario.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-ml_config_user_guidance.png)
 
 ### Mejoras de filtrado en 9.0.0
 
-`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=900-filtering-enhancements-in)
+`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=900-filtering-enhancements-in)
 
 IBM OpenPages® 9.0.0 presenta varias mejoras en el filtrado.
 
@@ -879,7 +1449,7 @@ Para obtener más información sobre los filtros de relaciones compartidas, cons
 
 ### Mejoras de soluciones en 9.0.0
 
-`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=900-solutions-enhancements-in)
+`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=900-solutions-enhancements-in)
 
 Las soluciones de IBM OpenPages® se han mejorado para hacerlas más completas y fáciles de utilizar.
 
@@ -900,13 +1470,13 @@ Por ejemplo, cuando el usuario especifica un importe en el campo Valor anualizad
 
 *Figura 1. La vista de cuadrícula Cuentas con los nuevos campos de clasificación*
 
-![Se muestra una vista de cuadrícula para cuentas. Las columnas incluyen Tipo de cuenta, Clasificación, Valor anualizado y Porcentaje de valor anualizado.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-fcm_account_gridview.png)
+![Se muestra una vista de cuadrícula para cuentas. Las columnas incluyen Tipo de cuenta, Clasificación, Valor anualizado y Porcentaje de valor anualizado.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-fcm_account_gridview.png)
 
 Se han añadido campos de clasificación al objeto Entidad de negocios. Se ha añadido una nueva sección, Totales de clasificación de cuenta, a las vistas de objeto Entidad de negocios relacionadas. Un cálculo establece los campos de esta sección.
 
 *Figura 2. Una vista de tarea de entidad empresarial con una nueva sección para la clasificación de cuentas*
 
-![Se muestra una vista de tarea para una entidad empresarial. Una sección denominada Totales de clasificación de cuenta muestra los valores calculados y un gráfico de barras verticales colorido.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-fcm_be_taskview.png)
+![Se muestra una vista de tarea para una entidad empresarial. Una sección denominada Totales de clasificación de cuenta muestra los valores calculados y un gráfico de barras verticales colorido.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-fcm_be_taskview.png)
 
 Se han añadido nuevos cálculos, informes, campos y vistas de Cuenta y Entidad de negocios actualizadas para dar soporte a este proceso.
 
@@ -969,7 +1539,7 @@ Se han añadido nuevos cálculos, informes, campos y vistas de Cuenta y Entidad 
 
   *Figura 3. Informe de ámbito de cuenta por entidad y clasificación*
 
-  ![Se muestra un informe tabular. Las cuentas se agrupan por clasificación: Activos, Acciones y Gastos. Las columnas son Clasificación de cuenta, Cuenta, Tipo, Balance de cuenta, Porcentaje anualizado y En ámbito. Para cada clasificación, una fila Total muestra el saldo total de la cuenta para la clasificación.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-fcm_account_report.png)
+  ![Se muestra un informe tabular. Las cuentas se agrupan por clasificación: Activos, Acciones y Gastos. Las columnas son Clasificación de cuenta, Cuenta, Tipo, Balance de cuenta, Porcentaje anualizado y En ámbito. Para cada clasificación, una fila Total muestra el saldo total de la cuenta para la clasificación.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-fcm_account_report.png)
 
 - **Correlación de cuentas y procesos de FCM**
 
@@ -979,11 +1549,11 @@ Se han añadido nuevos cálculos, informes, campos y vistas de Cuenta y Entidad 
 
   *Figura 4. Correlación de procesos y cuentas-selección de opciones*
 
-  ![Se muestra un informe. Un conjunto de recuadros de selección permite a los usuarios realizar selecciones para el informe.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-fcm_process_report1.png)
+  ![Se muestra un informe. Un conjunto de recuadros de selección permite a los usuarios realizar selecciones para el informe.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-fcm_process_report1.png)
 
   *Figura 5. Correlación de proceso y cuenta-informe*
 
-  ![Se muestra un informe tabular. Muestra cuentas y procesos que están en el ámbito.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-fcm_process_report2.png)
+  ![Se muestra un informe tabular. Muestra cuentas y procesos que están en el ámbito.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-fcm_process_report2.png)
 
 **Un panel de control actualizado**
 
@@ -991,7 +1561,7 @@ El panel de control actualizado incluye los nuevos informes de ámbito de FCM (e
 
 *Figura 6. Panel FCM*
 
-![Se muestra el panel de control con tareas FCM, informes y otros datos. Un gráfico de barras muestra las cuentas en el ámbito por clasificación. Una serie de gráficos circulares muestra cuentas, procesos y controles clave que están en el ámbito de SOX.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-fcm_dashboard.png)
+![Se muestra el panel de control con tareas FCM, informes y otros datos. Un gráfico de barras muestra las cuentas en el ámbito por clasificación. Una serie de gráficos circulares muestra cuentas, procesos y controles clave que están en el ámbito de SOX.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-fcm_dashboard.png)
 
 #### Mejoras en IBM OpenPages Data Privacy Management
 
@@ -1007,7 +1577,7 @@ El panel de control de DPM listo para usar se ha actualizado para incluir inform
 
 *Figura 7. Panel de control maestro de DPM*
 
-![Se muestra un panel de control con tareas de DPM, enlaces y otros datos. Los gráficos coloridos muestran información sobre activos de datos.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-dpm_master_dashboard.png)
+![Se muestra un panel de control con tareas de DPM, enlaces y otros datos. Los gráficos coloridos muestran información sobre activos de datos.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-dpm_master_dashboard.png)
 
 **Nuevos perfiles y paneles de instrumentos**
 
@@ -1017,7 +1587,7 @@ El panel de control de DPM listo para usar se ha actualizado para incluir inform
 
   *Figura 8. Panel de control Oficial de privacidad de DPM*
 
-  ![Se muestra un panel de control con tareas de DPM, enlaces y otros datos. Los gráficos coloridos muestran información sobre el cumplimiento de la privacidad de los datos y las evaluaciones de privacidad.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-dpm_dpo_dashboard.png)
+  ![Se muestra un panel de control con tareas de DPM, enlaces y otros datos. Los gráficos coloridos muestran información sobre el cumplimiento de la privacidad de los datos y las evaluaciones de privacidad.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-dpm_dpo_dashboard.png)
 
 - **Encargado de datos de DPM**
 
@@ -1025,7 +1595,7 @@ El panel de control de DPM listo para usar se ha actualizado para incluir inform
 
   *Figura 9. Panel de control encargado de datos de DPM*
 
-  ![Se muestra un panel de control con tareas de DPM, enlaces y otros datos. Los gráficos coloridos muestran información sobre las evaluaciones de privacidad y los activos de datos.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-dpm_ds_dashboard.png)
+  ![Se muestra un panel de control con tareas de DPM, enlaces y otros datos. Los gráficos coloridos muestran información sobre las evaluaciones de privacidad y los activos de datos.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-dpm_ds_dashboard.png)
 
 #### Mejoras en IBM OpenPages Internal Audit Management
 
@@ -1047,7 +1617,7 @@ Calcula los campos siguientes para la vista de objeto Plan de auditoría de resu
 
 *Figura 10. Panel de control de IAM*
 
-![Se muestra el panel de control con tareas de IAM, informes y otros datos. Un gráfico de barras muestra la auditoría por tipo. Otro muestra los resultados por prioridad. Un diagrama de Gantt muestra la planificación de auditoría.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-iam_dashboard.png)
+![Se muestra el panel de control con tareas de IAM, informes y otros datos. Un gráfico de barras muestra la auditoría por tipo. Otro muestra los resultados por prioridad. Un diagrama de Gantt muestra la planificación de auditoría.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-iam_dashboard.png)
 
 #### Mejoras en IBM OpenPages IT Governance
 
@@ -1061,7 +1631,7 @@ Una amenaza es cualquier circunstancia o suceso con el potencial de afectar nega
 
 *Figura 11. Panel de instrumentos maestro de ITG*
 
-![Se muestra un panel de instrumentos con tareas y datos de ITG. Los gráficos de anillo coloridos muestran el estado de los sistemas, las evaluaciones de riesgos, los problemas y las incidencias.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-itg_dashboard.png)
+![Se muestra un panel de instrumentos con tareas y datos de ITG. Los gráficos de anillo coloridos muestran el estado de los sistemas, las evaluaciones de riesgos, los problemas y las incidencias.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-itg_dashboard.png)
 
 **Cálculos nuevos**:
 
@@ -1105,7 +1675,7 @@ Varias vistas para los objetos Modelo y Revisión se han consolidado en una úni
 
 *Figura 12. Parte de la vista de tarea Modelo actualizada*
 
-![Se muestra la vista de tarea para el objeto Modelo. Una cuadrícula muestra casos de uso padre para el modelo. Otra cuadrícula muestra revisiones de modelo.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-mrg_taskview.png)
+![Se muestra la vista de tarea para el objeto Modelo. Una cuadrícula muestra casos de uso padre para el modelo. Otra cuadrícula muestra revisiones de modelo.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-mrg_taskview.png)
 
 **Paneles de instrumentos nuevos**
 
@@ -1113,15 +1683,15 @@ Los paneles de control MRG listos para usar se han actualizado para incluir info
 
 *Figura 13. Panel de control maestro de MRG*
 
-![Se muestra un panel de control con tareas y datos de MRG. Un gráfico de barras muestra los modelos por departamento. Otro muestra el estado de conformidad de los modelos. Varios gráficos de anillo muestran modelos por agrupaciones o categorías.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-mrg_dashboard1.png)
+![Se muestra un panel de control con tareas y datos de MRG. Un gráfico de barras muestra los modelos por departamento. Otro muestra el estado de conformidad de los modelos. Varios gráficos de anillo muestran modelos por agrupaciones o categorías.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-mrg_dashboard1.png)
 
 *Figura 14. Panel de control para el perfil de validación de modelo MRG*
 
-![Se muestra un panel de control con tareas y datos de MRG. Los gráficos de anillo muestran modelos por riesgo de modelo, estado de validación y rendimiento.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-mrg_dashboard2.png)
+![Se muestra un panel de control con tareas y datos de MRG. Los gráficos de anillo muestran modelos por riesgo de modelo, estado de validación y rendimiento.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-mrg_dashboard2.png)
 
 *Figura 15. Panel de control para el perfil de propietario de modelo MRG*
 
-![Se muestra un panel de control con tareas y datos de MRG. Los gráficos de anillo muestran el inventario del modelo. Un gráfico de barras muestra los modelos por departamento.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-mrg_dashboard3.png)
+![Se muestra un panel de control con tareas y datos de MRG. Los gráficos de anillo muestran el inventario del modelo. Un gráfico de barras muestra los modelos por departamento.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-mrg_dashboard3.png)
 
 **Flujo de trabajo nuevo: Ciclo de vida de modelo**
 
@@ -1129,7 +1699,7 @@ El flujo de trabajo Ciclo de vida de modelo sustituye al flujo de trabajo Desarr
 
 *Figura 16. Flujo de trabajo de ciclo de vida*
 
-![Se muestra el flujo de trabajo. Tiene varias etapas y puntos finales.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-mrg_wf-model_lifecycle.png)
+![Se muestra el flujo de trabajo. Tiene varias etapas y puntos finales.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-mrg_wf-model_lifecycle.png)
 
 **Flujo de trabajo nuevo: solicitud de caso de uso de modelo**
 
@@ -1137,7 +1707,7 @@ El flujo de trabajo Solicitud de caso de uso de modelo se utiliza para evaluar e
 
 *Figura 17. Flujo de trabajo de solicitud de caso de uso de modelo*
 
-![Se muestra el flujo de trabajo. Tiene las etapas siguientes: Inicio, Propuesto, En espera de aprobación, Rechazado y Aprobado.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-mrg_wf-use_case_request.png)
+![Se muestra el flujo de trabajo. Tiene las etapas siguientes: Inicio, Propuesto, En espera de aprobación, Rechazado y Aprobado.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-mrg_wf-use_case_request.png)
 
 **Flujo de trabajo nuevo: Despliegue del modelo**
 
@@ -1145,7 +1715,7 @@ El flujo de trabajo Despliegue del modelo se utiliza para controlar el proceso d
 
 *Figura 18. Flujo de trabajo de solicitud de caso de uso de modelo*
 
-![Se muestra el flujo de trabajo. Tiene las etapas siguientes: Iniciar, Desplegar Modelo, Verificar Despliegue, Desplegado y Productionizar modelo.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-mrg_wf-model_deployment.png)
+![Se muestra el flujo de trabajo. Tiene las etapas siguientes: Iniciar, Desplegar Modelo, Verificar Despliegue, Desplegado y Productionizar modelo.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-mrg_wf-model_deployment.png)
 
 #### Mejoras en IBM OpenPages Policy Management
 
@@ -1161,7 +1731,7 @@ El ayudante de publicación debe desencadenarse al final del proceso para comple
 
 **Nueva documentación de**
 
-El nuevo [Documento de solución de gestión de políticas deOpenPages](https://www.ibm.com/docs/es/SSFUEU_9.0.0/pdf/OpenPages_PCM_Solution_v9.pdf) proporciona detalles sobre la solución, incluida una visión general del ciclo de vida de la política, un inventario de lo que incluye la solución y una plantilla de importación de políticas de ejemplo.
+El nuevo [Documento de solución de gestión de políticas deOpenPages](https://www.ibm.com/docs/es/SSFUEU_9.1/pdf/OpenPages_PCM_Solution_v91.pdf) proporciona detalles sobre la solución, incluida una visión general del ciclo de vida de la política, un inventario de lo que incluye la solución y una plantilla de importación de políticas de ejemplo.
 
 #### Mejoras en IBM OpenPages Regulatory Compliance Management
 
@@ -1188,7 +1758,7 @@ Las mejoras en TPRM incluyen:
 
 ### Mejoras de administración y capacidad de servicio
 
-`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=900-administration-serviceability-enhancements)
+`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=900-administration-serviceability-enhancements)
 
 Se han realizado varias mejoras para ayudarle a administrar, mantener y dar soporte IBM OpenPages®.
 
@@ -1200,11 +1770,11 @@ El campo Nombre se muestra en muchas ubicaciones prominentes dentro de OpenPages
 
 Para equilibrar la prevención de interrupciones para los clientes existentes y una mejor experiencia para los nuevos clientes, hemos creado una configuración totalmente opcional que está disponible para cada tipo de objeto, **Habilitar componente de título**. Esta opción controla cómo se visualiza la referencia a un objeto. Si la opción **Habilitar componente de título** se establece en **False** (que es el valor predeterminado para los clientes que actualizan a 9.0), no experimentará ningún cambio en el comportamiento relacionado con el campo Nombre del sistema.
 
-Un administrador puede acceder a esta función haciendo clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Tipos de objetos**. Después de seleccionar un objeto, pulse el botón **Editar** para abrir un panel lateral que muestra la nueva opción **Habilitar componente de título** . Cuando establece la opción en **True**, se le proporcionan tres opciones para visualizar el campo Nombre: Sólo título, Título (ID) e ID (Título). Esta selección dicta cómo se hace referencia al objeto en todo el sistema y proporciona el componente Título al usuario final para que lo llene en los registros de este tipo de objeto. No es necesario que el componente Título sea exclusivo dentro de una carpeta y tiene un límite de 4.000 caracteres. En el mismo panel lateral, también puede hacer que el título sea un campo obligatorio, lo que impide que los usuarios guarden un registro a menos que se llene el campo Título.
+Un administrador puede acceder a esta función haciendo clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Tipos de objetos**. Después de seleccionar un objeto, pulse el botón **Editar** para abrir un panel lateral que muestra la nueva opción **Habilitar componente de título** . Cuando establece la opción en **True**, se le proporcionan tres opciones para visualizar el campo Nombre: Sólo título, Título (ID) e ID (Título). Esta selección dicta cómo se hace referencia al objeto en todo el sistema y proporciona el componente Título al usuario final para que lo llene en los registros de este tipo de objeto. No es necesario que el componente Título sea exclusivo dentro de una carpeta y tiene un límite de 4.000 caracteres. En el mismo panel lateral, también puede hacer que el título sea un campo obligatorio, lo que impide que los usuarios guarden un registro a menos que se llene el campo Título.
 
 *Figura 1. Ejemplo: Habilitación del componente Título para el tipo de objeto KRI*
 
-![Se muestra la página de configuración para el tipo de objeto KRI. En otra imagen, se muestra el panel lateral. La nueva opción Habilitar componente de título está resaltada. La opción está activada y desactivada utilizando un botón de conmutación. Se muestran tres botones de selección: Título solamente, Título (ID) e ID (Título). También se muestra otro conmutador, Título. En este ejemplo, Habilitar componente de título se establece en True, Sólo título se selecciona y Título es necesario se establece en False.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-systitle_panel2.png)
+![Se muestra la página de configuración para el tipo de objeto KRI. En otra imagen, se muestra el panel lateral. La nueva opción Habilitar componente de título está resaltada. La opción está activada y desactivada utilizando un botón de conmutación. Se muestran tres botones de selección: Título solamente, Título (ID) e ID (Título). También se muestra otro conmutador, Título. En este ejemplo, Habilitar componente de título se establece en True, Sólo título se selecciona y Título es necesario se establece en False.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-systitle_panel2.png)
 
 Cuando **Habilitar componente de título** se establece en **True**, el campo Nombre muestra dos componentes: ID y Título. El campo ID se rellena con los valores existentes que se proporcionaron en el campo Nombre del sistema anterior a 9.0. Cuando **Habilitar componente de título** se establece en **False**, el campo de ID se llena con los valores rellenados en el campo Nombre.
 
@@ -1216,35 +1786,35 @@ El ejemplo siguiente muestra el Diseñador de vistas con los componentes ID y T�
 
 *Figura 2. Ejemplo: Visualización de los componentes ID y Título del campo Nombre en el Diseñador de vistas*
 
-![Se muestra el Diseñador de vistas. Se visualiza la vista de creación para el tipo de objeto KRI. El campo Nombre está seleccionado. En el panel lateral, se muestran los componentes ID y Título. Para Título, hay dos conmutadores disponibles: Sólo lectura y Obligatorio. En este ejemplo, ambos conmutadores se establecen en False.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-systitle_view_designer.png)
+![Se muestra el Diseñador de vistas. Se visualiza la vista de creación para el tipo de objeto KRI. El campo Nombre está seleccionado. En el panel lateral, se muestran los componentes ID y Título. Para Título, hay dos conmutadores disponibles: Sólo lectura y Obligatorio. En este ejemplo, ambos conmutadores se establecen en False.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-systitle_view_designer.png)
 
 Este ejemplo muestra una vista de creación en la que el componente Título está habilitado y la denominación automática está en su lugar para el componente ID.
 
 *Figura 3. Ejemplo: una vista de creación con título habilitado y denominación automática para el ID*
 
-![Se visualiza la vista de creación para el tipo de objeto KRI. La sección General muestra el campo Nombre con dos componentes: ID y Título. El ID es _KRI_001. El campo Título está vacío. El panel lateral muestra que Name :ID es obligatorio y se ha completado mientras que Name: Title es opcional y todavía no se ha rellenado.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-systitle_view.png)
+![Se visualiza la vista de creación para el tipo de objeto KRI. La sección General muestra el campo Nombre con dos componentes: ID y Título. El ID es _KRI_001. El campo Título está vacío. El panel lateral muestra que Name :ID es obligatorio y se ha completado mientras que Name: Title es opcional y todavía no se ha rellenado.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-systitle_view.png)
 
 Basándose en el valor que se ha configurado en el objeto KRI, el componente Título se muestra en ubicaciones prominentes dentro de la vista de tarea. En el ejemplo siguiente, al pulsar el campo Nombre se muestran los componentes ID y Título cuando al menos un componente es editable; de lo contrario, el valor **Visualización de nombre** dicta la visualización del campo Nombre. En este ejemplo, el valor **Visualización de nombre** en el objeto KRI se establece en **Sólo título**y, por lo tanto, el componente Título se visualiza en la cabecera de la vista de tarea y en el diagrama de árbol de relaciones.
 
 *Figura 4. Ejemplo: una vista de tarea con título habilitado*
 
-![Se visualiza la vista de tarea del tipo de objeto KRI. La cabecera de la vista muestra el campo Título. La vista contiene un diagrama de árbol. Dentro del árbol, se muestra el título del KRI.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-systitle_view2.png)
+![Se visualiza la vista de tarea del tipo de objeto KRI. La cabecera de la vista muestra el campo Título. La vista contiene un diagrama de árbol. Dentro del árbol, se muestra el título del KRI.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-systitle_view2.png)
 
 El ejemplo siguiente muestra la vista de cuadrícula para KRI con Título habilitado. El componente Título se muestra en la columna Nombre en las vistas de cuadrícula, basándose en el valor del tipo de objeto KRI. Al pasar el cursor por encima de la entrada se muestra el ID y el título del objeto. Con el componente Título rellenado en este objeto, el ID, el título y la descripción están todos disponibles para la búsqueda y el filtrado en las vistas de cuadrícula.
 
 *Figura 5. Ejemplo: una vista de cuadrícula con el título habilitado*
 
-![Se visualiza la vista de cuadrícula del tipo de objeto KRI. El panel Filtro está abierto. La cuadrícula se filtra para mostrar los KRI donde Name.Title empieza por Reclamaciones de cliente. En la cuadrícula, la columna Nombre muestra el título de los KRI. El puntero del ratón está en el nombre de un KRI. Una ayuda contextual muestra el ID y el título del KRI.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-systitle_view3.png)
+![Se visualiza la vista de cuadrícula del tipo de objeto KRI. El panel Filtro está abierto. La cuadrícula se filtra para mostrar los KRI donde Name.Title empieza por Reclamaciones de cliente. En la cuadrícula, la columna Nombre muestra el título de los KRI. El puntero del ratón está en el nombre de un KRI. Una ayuda contextual muestra el ID y el título del KRI.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-systitle_view3.png)
 
 Los ejemplos siguientes muestran un panel de instrumentos con el valor **Visualización de nombre** que indica la visualización del campo Nombre para objetos KRI.
 
 *Figura 6. Ejemplo: un panel de control con el título habilitado*
 
-![Se muestra un panel de control. Un panel muestra los cinco KRI principales por fecha de vencimiento. La lista muestra los títulos de los KRI. El ratón pasa por encima de Reclamaciones de cliente. La ayuda contextual muestra el ID y el título del KRI.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-systitle_dashboard.png)
+![Se muestra un panel de control. Un panel muestra los cinco KRI principales por fecha de vencimiento. La lista muestra los títulos de los KRI. El ratón pasa por encima de Reclamaciones de cliente. La ayuda contextual muestra el ID y el título del KRI.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-systitle_dashboard.png)
 
 *Figura 7. Ejemplo: la pestaña del panel de control Mis tareas con Título habilitado*
 
-![Se muestra la pestaña Mis tareas. En una cuadrícula, se listan los KRI. La columna Nombre muestra el título de los KRI.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-systitle_dashboard2.png)
+![Se muestra la pestaña Mis tareas. En una cuadrícula, se listan los KRI. La columna Nombre muestra el título de los KRI.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-systitle_dashboard2.png)
 
 El valor **Visualización de nombre** proporciona los componentes ID y Título dentro del flujo de trabajo y los motores de cálculo. Si el valor **Habilitar componente de título** se establece en **False**, sólo se mostrará el campo Nombre (y no los dos componentes ID y Título) (el comportamiento pre-9.0 ).
 
@@ -1252,19 +1822,19 @@ El ejemplo siguiente muestra el diseñador de flujos de trabajo con el valor **V
 
 *Figura 8. Ejemplo: un flujo de trabajo en el diseñador con el componente Título habilitado para el tipo de objeto*
 
-![Se muestra el diseñador de flujos de trabajo. Se muestra el flujo de trabajo Creación de valor KRI. El panel lateral muestra las condiciones de flujo de trabajo. La lista Campo de objeto muestra Name.ID y Name.Title.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-systitle_wf1.png)
+![Se muestra el diseñador de flujos de trabajo. Se muestra el flujo de trabajo Creación de valor KRI. El panel lateral muestra las condiciones de flujo de trabajo. La lista Campo de objeto muestra Name.ID y Name.Title.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-systitle_wf1.png)
 
 El ejemplo siguiente muestra un cálculo con el valor **Visualización de nombre** que indica la visualización del campo Nombre.
 
 *Figura 9. Ejemplo: un cálculo con el componente Título habilitado para el tipo de objeto*
 
-![Se muestra un cálculo. En el panel lateral, la lista Campo de objeto muestra Name.ID y Name.Title.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-systitle_calc.png)
+![Se muestra un cálculo. En el panel lateral, la lista Campo de objeto muestra Name.ID y Name.Title.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-systitle_calc.png)
 
 El ejemplo siguiente muestra un correo electrónico generado por un flujo de trabajo que utiliza el componente Título del KRI, tal como lo establece el valor **Visualización de nombre** en el objeto KRI.
 
 *Figura 10. Ejemplo: un correo electrónico de notificación que muestra el título de un objeto*
 
-![Se muestra un correo electrónico. El mensaje muestra el título de un KRI, Reclamaciones de cliente.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-systitle_email.png)
+![Se muestra un correo electrónico. El mensaje muestra el título de un KRI, Reclamaciones de cliente.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-systitle_email.png)
 
 #### Migración de usuarios, grupos y roles
 
@@ -1278,7 +1848,7 @@ El ejemplo siguiente muestra cómo puede exportar grupos. Al exportar un grupo, 
 
 *Figura 11. Selección de grupos para exportar*
 
-![Se muestra la página Seleccionar elementos para exportar. Los elementos disponibles para exportar ahora incluyen Grupos/Usuarios, Asignaciones de roles y Plantillas de roles. En este ejemplo, se seleccionan Grupos/Usuarios y se seleccionan dos grupos para la exportación.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-export_groups.png)
+![Se muestra la página Seleccionar elementos para exportar. Los elementos disponibles para exportar ahora incluyen Grupos/Usuarios, Asignaciones de roles y Plantillas de roles. En este ejemplo, se seleccionan Grupos/Usuarios y se seleccionan dos grupos para la exportación.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-export_groups.png)
 
 #### Actualizaciones de la interfaz de usuario y temas personalizados (Carbon)
 
@@ -1286,7 +1856,7 @@ La interfaz de usuario ahora utiliza Carbon 11. Los nombres de los valores de co
 
 *Figura 12. Selección de colores para un tema personalizado*
 
-![Se muestra el panel lateral Añadir tema. Se listan los colores disponibles. Los valores de color incluyen button-primary-active y link-primary. En versiones anteriores, los nombres eran menos intuitivos.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg9000-carbon11.png)
+![Se muestra el panel lateral Añadir tema. Se listan los colores disponibles. Los valores de color incluyen button-primary-active y link-primary. En versiones anteriores, los nombres eran menos intuitivos.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg9000-carbon11.png)
 
 La tabla siguiente muestra ejemplos de los cambios de nombre:
 
@@ -1314,7 +1884,7 @@ Para obtener información sobre la creación de temas personalizados, consulte [
 
 ### Mejoras de la API en 9.0.0
 
-`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=900-api-enhancements-in)
+`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=900-api-enhancements-in)
 
 IBM OpenPages® 9.0.0 presenta una nueva versión de la API REST de GRC.
 
@@ -1330,7 +1900,7 @@ Utilice la versión IBM OpenPages API REST GRC V1 de la API OpenPages para las v
 
 ### Nueva guía del desarrollador en 9.0.0
 
-`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=900-new-developer-guide-in)
+`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=900-new-developer-guide-in)
 
 IBM OpenPages® 9.0.0 presenta una nueva Guía del desarrollador.
 
@@ -1343,7 +1913,7 @@ La  [Guía del desarrollador](9-guia-del-desarrollador.md#guía-del-desarrollado
 
 ### Software soportado en 9.0.0
 
-`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=900-supported-software-in)
+`Características nuevas › Características nuevas de la versión 9.0.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=900-supported-software-in)
 
 IBM OpenPages® 9.0.0 incluye cambios en los requisitos de software:
 
@@ -1377,13 +1947,13 @@ En la versión 9.0, FastMap sólo da soporte a archivos `.xlsx` . El tipo de arc
 
 ## Características nuevas de la versión 8.3.0.2
 
-`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-new-in-version-8302)
+`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-new-in-version-8302)
 
 Las nuevas características de IBM OpenPages® 8.3.0.2 incluyen las mejoras siguientes.
 
 ### Notificaciones de etapa de flujo de trabajo personalizado en 8.3.0.2
 
-`Características nuevas › Características nuevas de la versión 8.3.0.2` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8302-custom-workflow-stage-notifications)
+`Características nuevas › Características nuevas de la versión 8.3.0.2` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=8302-custom-workflow-stage-notifications)
 
 Ahora puede editar y crear plantillas de notificación de correo electrónico en el Diseñador de flujos de trabajo y asignar plantillas a las etapas de flujo de trabajo.
 
@@ -1395,31 +1965,31 @@ Para las notificaciones enviadas cuando se ha completado un flujo de trabajo, es
 
 *Figura 1. Personalización de notificaciones de correo electrónico para acciones y etapas*
 
-![Se muestran dos imágenes. La primera imagen muestra el panel Propiedades de acción. Las secciones Notificar a los responsables y Notificar a los suscriptores tienen cada una un enlace denominado Personalizar. La segunda imagen muestra el panel de propiedades de etapa. La sección Notificar a otros usuarios tiene un botón denominado Personalizar plantilla de correo electrónico.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-wf_action_props.png)
+![Se muestran dos imágenes. La primera imagen muestra el panel Propiedades de acción. Las secciones Notificar a los responsables y Notificar a los suscriptores tienen cada una un enlace denominado Personalizar. La segunda imagen muestra el panel de propiedades de etapa. La sección Notificar a otros usuarios tiene un botón denominado Personalizar plantilla de correo electrónico.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-wf_action_props.png)
 
 Cuando pulsa **Personalizar** o el botón **Personalizar plantilla de correo electrónico** , se abre un panel. Inicialmente, muestra las plantillas predeterminadas para las series de texto de aplicación de asunto y cuerpo. Puede seleccionar cualquier plantilla de correo electrónico de asunto en OpenPages en la sección **Asunto** o cualquier plantilla de correo electrónico de cuerpo en OpenPages en la sección **Cuerpo** . Las ediciones que realice en una plantilla en este panel se aplican a todas las etapas de flujo de trabajo asignadas a la plantilla.
 
 *Figura 2. Selección y personalización de plantillas para notificaciones de asignado*
 
-![Se muestra el panel Personalizar notificaciones de asignado. El panel tiene dos secciones: Asunto y Cuerpo. Cada sección tiene dos campos: uno para seleccionar una plantilla y otro para ver o editar el HTML de la plantilla.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-wf_assignee_custn.png)
+![Se muestra el panel Personalizar notificaciones de asignado. El panel tiene dos secciones: Asunto y Cuerpo. Cada sección tiene dos campos: uno para seleccionar una plantilla y otro para ver o editar el HTML de la plantilla.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-wf_assignee_custn.png)
 
 También puede seleccionar una plantilla y pulsar **Copiar en plantilla nueva**. Con esta opción, especifica un nombre y una descripción para la nueva plantilla, y las series proporcionadas por la plantilla que ha seleccionado se ponen a su disposición para su edición. Se genera automáticamente un nombre para la nueva plantilla. Puede modificarlo según sea necesario.
 
 *Figura 3. Creación de una plantilla copiando de otra plantilla*
 
-![Se muestra el panel Personalizar notificaciones de asignado. Se resalta la plantilla Copiar a nueva. Otra imagen muestra el panel Copiar en plantilla nueva. El ejemplo muestra la copia de la plantilla predeterminada en una nueva plantilla que se utilizará para la etapa Enviar para revisión de un flujo de trabajo de problema.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-wf_template_copy.png)
+![Se muestra el panel Personalizar notificaciones de asignado. Se resalta la plantilla Copiar a nueva. Otra imagen muestra el panel Copiar en plantilla nueva. El ejemplo muestra la copia de la plantilla predeterminada en una nueva plantilla que se utilizará para la etapa Enviar para revisión de un flujo de trabajo de problema.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-wf_template_copy.png)
 
 El texto de la plantilla de correo electrónico se puede previsualizar pulsando **Vista previa**, que muestra cómo se presentará el correo electrónico al destinatario. Si su entorno se integra con Watson Language Translator, también puede traducir las series que se crean o editan en una plantilla. Después de completar las ediciones en la plantilla de correo electrónico y pulsar **Terminado**, la notificación para la acción seleccionada o la notificación de la etapa final se envía al destinatario utilizando la plantilla de correo electrónico seleccionada.
 
 *Figura 4. Vista previa de una notificación*
 
-![El panel Personalizar notificaciones de asignado muestra una vista previa de una notificación de correo electrónico. La vista previa muestra el asunto y el cuerpo del correo electrónico, que incluye enlaces, colores y cadenas de texto de aplicación como [$System Fields: Description$].](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-wf_assignee_custn-2.png)
+![El panel Personalizar notificaciones de asignado muestra una vista previa de una notificación de correo electrónico. La vista previa muestra el asunto y el cuerpo del correo electrónico, que incluye enlaces, colores y cadenas de texto de aplicación como [$System Fields: Description$].](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-wf_assignee_custn-2.png)
 
-Cualquier plantilla que se cree o edite dentro del Diseñador de flujos de trabajo se refleja en la pantalla **Texto de aplicación**, a la que se accede desde **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Configuración del sistema**. Además, los cambios realizados en una plantilla de correo electrónico desde la pantalla **Texto de aplicación** se reflejan en el Diseñador de flujo de trabajo.
+Cualquier plantilla que se cree o edite dentro del Diseñador de flujos de trabajo se refleja en la pantalla **Texto de aplicación**, a la que se accede desde **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Configuración del sistema**. Además, los cambios realizados en una plantilla de correo electrónico desde la pantalla **Texto de aplicación** se reflejan en el Diseñador de flujo de trabajo.
 
 ### IBM OpenPages Gestión de riesgos para ESG
 
-`Características nuevas › Características nuevas de la versión 8.3.0.2` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8302-openpages-risk-management-esg)
+`Características nuevas › Características nuevas de la versión 8.3.0.2` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=8302-openpages-risk-management-esg)
 
 La nueva solución IBM OpenPages® Risk Management for ESG (ESG) ayuda a las organizaciones a gobernar y gestionar sus programas ESG.
 
@@ -1432,7 +2002,6 @@ IBM OpenPages Risk Management for ESG da soporte a los siguientes casos de uso:
 - Almacenar una biblioteca de requisitos normativos y divulgaciones de ESG
 - Conformidad de pruebas con requisitos de informes externos
 - Exploración de horizonte ESG
-- Puntuaciones de ESG de superficie en proveedores (Supply Wisdom)
 
 #### Perfiles
 
@@ -1447,6 +2016,8 @@ ESG incluye dos perfiles:
   Contiene los campos y vistas para el uso general de la solución con elementos adicionales para que el usuario pueda ver las clasificaciones ESG en los proveedores tal como proporciona la integración con Supply Wisdom.
 
   > **Nota:** Para utilizar este perfil, debe tener OpenPages Third Party Risk Management y una suscripción al canal de información de Supply Wisdom .
+
+  La integración de Supply Wisdom se eliminó en 9.1.0.
 
 #### Paneles de control
 
@@ -1465,7 +2036,7 @@ ESG incluye dos paneles de control:
 
   *Figura 1. Panel de control Maestro ESG*
 
-  ![Se muestra el panel de control con tareas ESG, informes y otros datos. El panel de control incluye barras coloridas y gráficos de anillo.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_master-dashb.png)
+  ![Se muestra el panel de control con tareas ESG, informes y otros datos. El panel de control incluye barras coloridas y gráficos de anillo.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_master-dashb.png)
 
 - **Panel de control maestro de ESG Supply Wisdom**
 
@@ -1481,7 +2052,7 @@ ESG incluye dos paneles de control:
 
   *Figura 2. Panel de control de ESG Supply Wisdom Master*
 
-  ![Este panel de control es similar al panel de control maestro de ESG, pero incluye un panel adicional para los datos de Supply Wisdom.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_master-sw-dashb.png)
+  ![Este panel es similar al Panel principal de ESG, pero incluye un panel adicional para los datos de Supply Wisdom.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_master-sw-dashb.png)
 
 #### Nuevos tipos de objeto
 
@@ -1536,7 +2107,7 @@ Los flujos de trabajo para la gestión de objetivos son:
 
   *Figura 3. Flujo de trabajo de creación de objetivos*
 
-  ![Este flujo de trabajo tiene tres etapas: Inicio, Objetivo de documento y Objetivo final en directo.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_obj-cr.png)
+  ![Este flujo de trabajo tiene tres etapas: Inicio, Objetivo de documento y Objetivo final en directo.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_obj-cr.png)
 
 - **Flujo de trabajo de actualización de objetivo**
 
@@ -1544,7 +2115,7 @@ Los flujos de trabajo para la gestión de objetivos son:
 
   *Figura 4. Flujo de trabajo de actualización de objetivo*
 
-  ![Este flujo de trabajo tiene cuatro etapas: Inicio, Progreso de actualización, Objetivo de finalización completado y Objetivo de finalización en curso.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_obj-upd.png)
+  ![Este flujo de trabajo tiene cuatro etapas: Inicio, Progreso de actualización, Objetivo de finalización completado y Objetivo de finalización en curso.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_obj-upd.png)
 
 Los flujos de trabajo para la aplicabilidad de conformidad son:
 
@@ -1554,7 +2125,7 @@ Los flujos de trabajo para la aplicabilidad de conformidad son:
 
   *Figura 5. Aplicabilidad ESG-Flujo de trabajo de mandato*
 
-  ![Este flujo de trabajo tiene dos etapas: Inicio y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_app-m.png)
+  ![Este flujo de trabajo tiene dos etapas: Inicio y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_app-m.png)
 
 - **Aplicabilidad ESG-Flujo de trabajo SubMandate**
 
@@ -1562,7 +2133,7 @@ Los flujos de trabajo para la aplicabilidad de conformidad son:
 
   *Figura 6. Aplicabilidad ESG-Flujo de trabajo SubMandate*
 
-  ![Este flujo de trabajo tiene tres etapas: Iniciar, Determinar aplicabilidad y Finalizar.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_app-subm.png)
+  ![Este flujo de trabajo tiene tres etapas: Iniciar, Determinar aplicabilidad y Finalizar.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_app-subm.png)
 
 - **Aplicabilidad ESG-Requisito**
 
@@ -1570,7 +2141,7 @@ Los flujos de trabajo para la aplicabilidad de conformidad son:
 
   *Figura 7. Aplicabilidad ESG-Flujo de trabajo de requisito*
 
-  ![Este flujo de trabajo tiene tres etapas: Iniciar, Determinar aplicabilidad y Finalizar.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_app-req.png)
+  ![Este flujo de trabajo tiene tres etapas: Iniciar, Determinar aplicabilidad y Finalizar.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_app-req.png)
 
 Los flujos de trabajo para la evaluación de conformidad son:
 
@@ -1580,7 +2151,7 @@ Los flujos de trabajo para la evaluación de conformidad son:
 
   *Figura 8. Evaluación de conformidad de ESG-Iniciar flujo de trabajo*
 
-  ![Este flujo de trabajo tiene dos etapas: Inicio y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_ca-launch.png)
+  ![Este flujo de trabajo tiene dos etapas: Inicio y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_ca-launch.png)
 
 - **Evaluación de conformidad de ESG-Flujo de trabajo de requisito**
 
@@ -1588,7 +2159,7 @@ Los flujos de trabajo para la evaluación de conformidad son:
 
   *Figura 9. Evaluación de conformidad de ESG-Flujo de trabajo de requisito*
 
-  ![Este flujo de trabajo tiene cinco etapas: Inicio, Evaluación-Declaración de divulgación, Evaluación-Medida, Revisión de evaluación y Evaluación y Revisión completadas.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_ca-req.png)
+  ![Este flujo de trabajo tiene cinco etapas: Inicio, Evaluación-Declaración de divulgación, Evaluación-Medida, Revisión de evaluación y Evaluación y Revisión completadas.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_ca-req.png)
 
 - **Flujo de trabajo Declaración de divulgación y revisión**
 
@@ -1596,7 +2167,7 @@ Los flujos de trabajo para la evaluación de conformidad son:
 
   *Figura 10. Flujo de trabajo Declaración de divulgación y revisión*
 
-  ![Este flujo de trabajo tiene cinco etapas: Inicio, Declaración de divulgación completa, Revisión de divulgación, Finalización de intención cumplida y Finalización de intención no cumplida.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_wf-ds.png)
+  ![Este flujo de trabajo tiene cinco etapas: Inicio, Declaración de divulgación completa, Revisión de divulgación, Finalización de intención cumplida y Finalización de intención no cumplida.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_wf-ds.png)
 
 #### Cálculos
 
@@ -1632,15 +2203,15 @@ La solución ESG incluye los informes siguientes:
 
   *Figura 11. Panel de control de objetivos*
 
-  ![El panel de instrumentos colorido muestra un gráfico de anillo de objetivos por estado, un gráfico de barras de objetivos por dominio y un gráfico de barras de objetivos por estado de progreso.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_obj-dashb.png)
+  ![El panel de instrumentos colorido muestra un gráfico de anillo de objetivos por estado, un gráfico de barras de objetivos por dominio y un gráfico de barras de objetivos por estado de progreso.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_obj-dashb.png)
 
   *Figura 12. Panel de instrumentos Objetivo-Pestaña Priorización*
 
-  ![La pestaña Priorización muestra un diagrama de dispersión de objetivos estratégicos por Importancia a Firma e Importancia a partes interesadas. La pestaña también muestra una tabla de objetivos con detalles y puntuaciones de prioridad.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_obj-dashb-pr.png)
+  ![La pestaña Priorización muestra un diagrama de dispersión de objetivos estratégicos por Importancia a Firma e Importancia a partes interesadas. La pestaña también muestra una tabla de objetivos con detalles y puntuaciones de prioridad.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_obj-dashb-pr.png)
 
   *Figura 13. Panel de instrumentos Objetivo-Pestaña Progreso frente a Destino*
 
-  ![La pestaña Progreso frente a objetivo muestra un gráfico de barras grande con el porcentaje alcanzado en el eje y y los objetivos en el eje x. Las barras están codificadas por colores por dominio ESG.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_obj-dashb-prog.png)
+  ![La pestaña Progreso frente a objetivo muestra un gráfico de barras grande con el porcentaje alcanzado en el eje y y los objetivos en el eje x. Las barras están codificadas por colores por dominio ESG.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_obj-dashb-prog.png)
 
 - **Listado de objetivos**
 
@@ -1652,7 +2223,7 @@ La solución ESG incluye los informes siguientes:
 
   *Figura 14. Panel de instrumentos Objetivo-Informe de acceso a detalles*
 
-  ![El informe muestra una tabla con detalles sobre los objetivos de ESG para una entidad de negocios.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_obj-dashb-dt.png)
+  ![El informe muestra una tabla con detalles sobre los objetivos de ESG para una entidad de negocios.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_obj-dashb-dt.png)
 
 - **Panel de control KRI de objetivo**
 
@@ -1660,7 +2231,7 @@ La solución ESG incluye los informes siguientes:
 
   *Figura 15. Panel de control KRI de objetivo*
 
-  ![El informe muestra los KRI. Para cada KRI, el informe muestra su descripción y un gráfico de tendencias.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_kri-dashb.png)
+  ![El informe muestra los KRI. Para cada KRI, el informe muestra su descripción y un gráfico de tendencias.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_kri-dashb.png)
 
 - **Panel de control de conformidad de ESG**
 
@@ -1668,15 +2239,15 @@ La solución ESG incluye los informes siguientes:
 
   *Figura 16. Panel de control de conformidad de ESG*
 
-  ![El panel de control de colores muestra un gráfico de barras apiladas. Un panel de filtro le permite filtrar el gráfico por un estándar o infraestructura de conformidad.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_comp-dashb.png)
+  ![El panel de control de colores muestra un gráfico de barras apiladas. Un panel de filtro le permite filtrar el gráfico por un estándar o infraestructura de conformidad.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_comp-dashb.png)
 
   *Figura 17. Panel de control de conformidad de ESG-Conformidad por SubMandate*
 
-  ![La pestaña del panel de control muestra un mapa de calor de evaluaciones de requisitos por submandato. Un panel de filtro le permite filtrar el gráfico por un mandato.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_comp-dashb-sm.png)
+  ![La pestaña del panel de control muestra un mapa de calor de evaluaciones de requisitos por submandato. Un panel de filtro le permite filtrar el gráfico por un mandato.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_comp-dashb-sm.png)
 
   *Figura 18. Panel de control de conformidad de ESG-Progreso de evaluación*
 
-  ![La pestaña del panel de control muestra dos gráficos de barras apiladas: progreso de evaluación por infraestructura y tipo de evaluación por infraestructura.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_comp-dashb-prog.png)
+  ![La pestaña del panel de control muestra dos gráficos de barras apiladas: progreso de evaluación por infraestructura y tipo de evaluación por infraestructura.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_comp-dashb-prog.png)
 
 - **Conformidad por acceso a detalles de mandato**
 
@@ -1684,7 +2255,7 @@ La solución ESG incluye los informes siguientes:
 
   *Figura 19. Informe de acceso a detalles de conformidad por mandato*
 
-  ![El informe muestra una tabla de declaraciones de divulgación para un mandato.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_comp-mand-dt.png)
+  ![El informe muestra una tabla de declaraciones de divulgación para un mandato.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_comp-mand-dt.png)
 
 - **Detalles de cumplimiento normativo y estándar de ESG**
 
@@ -1710,7 +2281,7 @@ La solución ESG incluye los informes siguientes:
 
   *Figura 20. Comparación de proveedores-Informe ESG*
 
-  ![El informe muestra dos gráficos de barras, uno para cada proveedor. Cada gráfico de barras muestra la valoración actual en el eje y y el nombre de riesgo de sabiduría de suministro en el eje x.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_vendor-comp.png)
+  ![El informe muestra dos gráficos de barras, uno para cada proveedor. Cada gráfico de barras muestra la valoración actual en el eje y y el nombre de riesgo de sabiduría de suministro en el eje x.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_vendor-comp.png)
 
 - **Postura de proveedor-Calificaciones de ESG**
 
@@ -1720,11 +2291,11 @@ La solución ESG incluye los informes siguientes:
 
   *Figura 21. Postura del proveedor-Informe de valoraciones de ESG*
 
-  ![El informe muestra las calificaciones de riesgo de Sabiduría de suministro en una tabla y en varios gráficos.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-esg_vendor-post.png)
+  ![El informe muestra las calificaciones de riesgo de Sabiduría de suministro en una tabla y en varios gráficos.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-esg_vendor-post.png)
 
 ### Mejoras en la integración de modelos de IA en 8.3.0.2
 
-`Características nuevas › Características nuevas de la versión 8.3.0.2` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8302-enhancements-ai-model-integration)
+`Características nuevas › Características nuevas de la versión 8.3.0.2` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=8302-enhancements-ai-model-integration)
 
 Versión 8.3.0.2 incluye los siguientes cambios y mejoras en la integración de modelos de IA:
 
@@ -1733,7 +2304,7 @@ Versión 8.3.0.2 incluye los siguientes cambios y mejoras en la integración de 
 
 ### Mejoras en IBM OpenPages Regulatory Compliance Management en 8.3.0.2
 
-`Características nuevas › Características nuevas de la versión 8.3.0.2` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8302-enhancements-rcm)
+`Características nuevas › Características nuevas de la versión 8.3.0.2` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=8302-enhancements-rcm)
 
 IBM OpenPages® Regulatory Compliance Management (RCM) incluye mejoras que continúan basándose en la estrategia y la dirección que se introdujo en 8.3.0.1.
 
@@ -1745,7 +2316,7 @@ La integración de Ascent se ha mejorado con la ingestión de versiones de requi
 
 Se visualiza una vista de tarea para el objeto Requisito. En la versión de requisito de la vista, una cuadrícula muestra las versiones relacionadas del texto regulador.
 
-![Se visualiza una vista de tarea para el objeto Requisito. En la versión de requisito de la vista, una cuadrícula muestra las versiones relacionadas del texto regulador.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8302-rcm_ascent.png)
+![Se visualiza una vista de tarea para el objeto Requisito. En la versión de requisito de la vista, una cuadrícula muestra las versiones relacionadas del texto regulador.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8302-rcm_ascent.png)
 
 **Nuevo objeto**
 
@@ -1761,13 +2332,13 @@ Las vistas siguientes se han editado o añadido para dar soporte a la integraci�
 
 ## Características nuevas de la versión 8.3.0.1
 
-`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-new-in-version-8301)
+`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-new-in-version-8301)
 
 Las nuevas características de IBM OpenPages® 8.3.0.1 incluyen las mejoras siguientes.
 
 ### Integración de modelos de IA
 
-`Características nuevas › Características nuevas de la versión 8.3.0.1` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8301-integration-ai-models)
+`Características nuevas › Características nuevas de la versión 8.3.0.1` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=8301-integration-ai-models)
 
 Ahora puede crear o incorporar cualquier tipo de modelo de IA y utilizar la información de modelo directamente en vistas y flujos de trabajo de OpenPages® .
 
@@ -1775,7 +2346,7 @@ Puede utilizar modelos de IA creados con AutoAI en Watson Studio o desarrollados
 
 ### Mejoras en IBM OpenPages Regulatory Compliance Management
 
-`Características nuevas › Características nuevas de la versión 8.3.0.1` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8301-enhancements-rcm-in)
+`Características nuevas › Características nuevas de la versión 8.3.0.1` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=8301-enhancements-rcm-in)
 
 IBM OpenPages® Regulatory Compliance Management (RCM) incluye numerosas mejoras que continúan basándose en la estrategia y la dirección que se introdujo en 8.3.0.1.
 
@@ -1785,7 +2356,7 @@ La integración de Ascent se ha mejorado con la ingestión de información de so
 
 *Figura 1. Vista de tarea de requisito de RCM con la cuadrícula de relación de información de soporte*
 
-![Se visualiza una vista de tarea para el objeto Requisito. En la sección Información de soporte de la vista, una cuadrícula muestra las citas relacionadas.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8301-rcm_ascent.png)
+![Se visualiza una vista de tarea para el objeto Requisito. En la sección Información de soporte de la vista, una cuadrícula muestra las citas relacionadas.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8301-rcm_ascent.png)
 
 **Nuevo objeto**
 
@@ -1801,7 +2372,7 @@ Se han añadido las vistas siguientes para dar soporte a la integración de Asce
 
 ### Mejoras de la gestión de riesgos de terceros en 8.3.0.1
 
-`Características nuevas › Características nuevas de la versión 8.3.0.1` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8301-enhancements-tprm-in)
+`Características nuevas › Características nuevas de la versión 8.3.0.1` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=8301-enhancements-tprm-in)
 
 Versión 8.3.0.1 incluye mejoras para OpenPages® Third Party Risk Management (TPRM).
 
@@ -1817,11 +2388,11 @@ Para obtener información sobre cómo configurar el conector RapidRatings , cons
 
 *Figura 1. Panel de control de TPRM con RapidRatings*
 
-![Panel de instrumentos que muestra los nuevos paneles para RapidRatings. Por ejemplo, uno de los paneles muestra un gráfico de anillo colorido que muestra los riesgos por categoría RapidRatings .](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8301-tprm_rapidr_db.png)
+![Panel de instrumentos que muestra los nuevos paneles para RapidRatings. Por ejemplo, uno de los paneles muestra un gráfico de anillo colorido que muestra los riesgos por categoría RapidRatings .](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8301-tprm_rapidr_db.png)
 
 *Figura 2. Detalles de proveedor de TPRM con datos de RapidRatings*
 
-![Vista de tareas de un proveedor. La vista incluye datos de RapidRatings.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8301-tprm_rapidr_view.png)
+![Vista de tareas de un proveedor. La vista incluye datos de RapidRatings.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8301-tprm_rapidr_view.png)
 
 **Trabajo de Planificador**
 
@@ -1851,7 +2422,7 @@ Se han añadido los siguientes grupos de campos al objeto Proveedor:
 
 *Figura 3. Ejemplo de campos rellenados a partir de datos proporcionados por la integración de RapidRatings*
 
-![Se muestra una vista de tarea. Muestra las calificaciones financieras y otros datos proporcionados por la integración de RapidRatings .](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8301-tprm_rapidr_field.png)
+![Se muestra una vista de tarea. Muestra las calificaciones financieras y otros datos proporcionados por la integración de RapidRatings .](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8301-tprm_rapidr_field.png)
 
 **Nuevas vistas**
 
@@ -1876,11 +2447,11 @@ Para obtener información sobre cómo configurar el conector RiskRecon , consult
 
 *Figura 4. Panel de control de TPRM con RiskRecon*
 
-![Panel de instrumentos que muestra los nuevos paneles para RiskRecon](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8301-tprm_riskrecon_db.png)
+![Panel de instrumentos que muestra los nuevos paneles para RiskRecon](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8301-tprm_riskrecon_db.png)
 
 *Figura 5. Detalles de proveedor de TPRM con datos de RiskRecon*
 
-![Vista de tareas de un proveedor. La vista incluye datos de RiskRecon.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8301-tprm_riskrecon_view.png)
+![Vista de tareas de un proveedor. La vista incluye datos de RiskRecon.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8301-tprm_riskrecon_view.png)
 
 **Trabajo de Planificador**
 
@@ -1900,7 +2471,7 @@ Se ha añadido el siguiente grupo de campos al objeto Riesgo: OPSS-RiskRecon-Dom
 
 *Figura 6. Ejemplo de campos rellenados a partir de datos proporcionados por la integración de RiskRecon*
 
-![Se muestra una vista de tarea. Muestra las evaluaciones de seguridad de la aplicación proporcionadas por la integración de RiskRecon .](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8301-tprm_riskrecon_field.png)
+![Se muestra una vista de tarea. Muestra las evaluaciones de seguridad de la aplicación proporcionadas por la integración de RiskRecon .](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8301-tprm_riskrecon_field.png)
 
 **Nuevas vistas**
 
@@ -1915,7 +2486,7 @@ Se han añadido las vistas siguientes para dar soporte a la integración de Risk
 
 ### Cuestionarios
 
-`Características nuevas › Características nuevas de la versión 8.3.0.1` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8301-questionnaires)
+`Características nuevas › Características nuevas de la versión 8.3.0.1` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=8301-questionnaires)
 
 Las mejoras en la funcionalidad de cuestionario se incluyen en esta versión de IBM OpenPages®.
 
@@ -1927,11 +2498,11 @@ Los encuestados pueden sustituir las respuestas existentes. Si el recuadro de se
 
 *Figura 1. Recuadro de diálogo **Copiar respuestas***
 
-![El cuadro de diálogo Copiar respuestas donde los encuestados pueden copiar respuestas, comentarios y archivos adjuntos de un cuestionario anterior.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/copy_answers_dialog.png)
+![El cuadro de diálogo Copiar respuestas donde los encuestados pueden copiar respuestas, comentarios y archivos adjuntos de un cuestionario anterior.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/copy_answers_dialog.png)
 
 *Figura 2. Se ha copiado un **Evaluación de cuestionario** que muestra el comentario que muestra una respuesta*
 
-![Una evaluación de cuestionario que muestra el comentario que muestra una respuesta se ha copiado de otra evaluación.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/copied_answers_assessment.png)
+![Una evaluación de cuestionario que muestra el comentario que muestra una respuesta se ha copiado de otra evaluación.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/copied_answers_assessment.png)
 
 #### Crear un objeto basado en puntuaciones en una evaluación de cuestionario
 
@@ -1939,7 +2510,7 @@ En IBM OpenPages 8.3, una nueva acción personalizada en el flujo de trabajo de 
 
 Por ejemplo, el cuestionario contiene la pregunta **¿Tiene su organización un proceso para restringir el procesamiento de Datos Personales en sus sistemas?**. Desea generar un riesgo cuando el encuestado selecciona **No** como respuesta. A la respuesta **No** se le asigna una puntuación de **1**.
 
-1. Haga clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Flujos de trabajo**.
+1. Haga clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Flujos de trabajo**.
 2. Pulse **Flujo de trabajo de evaluación de cuestionario**.
 3. Seleccione una acción entre dos etapas. Por ejemplo, para una evaluación de cuestionario de dos etapas, puede seleccionar la acción **Enviar y cerrar** entre la etapa **Recopilación de información** y la etapa **Cerrado**.
 
@@ -1960,14 +2531,14 @@ Por ejemplo, el cuestionario contiene la pregunta **¿Tiene su organización un 
 
     El panel **Operaciones** muestra ambas propiedades.
 
-    ![Se muestra el panel de operaciones. La sección Propiedades muestra las dos propiedades: umbral y tipo de objeto.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/operations_dialog.png)
+    ![Se muestra el panel de operaciones. La sección Propiedades muestra las dos propiedades: umbral y tipo de objeto.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/operations_dialog.png)
 15. En el panel **Operaciones** , pulse **Hecho** y pulse **Publicar**.
 
 Con el umbral establecido en **5** y **objectType** establecido en **SOXRisk**, se genera un riesgo cuando una puntuación para cualquier respuesta es menor que 5. El texto de la pregunta, el ID del encuestado y la respuesta a la pregunta aparecen en la descripción del riesgo.
 
 ### Etiquetas
 
-`Características nuevas › Características nuevas de la versión 8.3.0.1` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8301-tags)
+`Características nuevas › Características nuevas de la versión 8.3.0.1` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=8301-tags)
 
 Ahora los usuarios pueden aplicar etiquetas a objetos en IBM OpenPages® para categorizar los objetos y realizar búsquedas basadas en dichas categorías. Los usuarios pueden buscar etiquetas en cualquier cuadrícula que no sea una cuadrícula de relaciones en una pestaña **Tarea** o **Admin** .
 
@@ -1990,7 +2561,7 @@ Los administradores con el permiso de administración de etiquetado pueden reali
 
 *Figura 1. La pestaña **Etiquetas** donde el administrador trabaja con etiquetas*
 
-![La pestaña Etiquetas donde el administrador trabaja con etiquetas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/managing_tags.png)
+![La pestaña Etiquetas donde el administrador trabaja con etiquetas](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/managing_tags.png)
 
 Después de que el administrador habilite el etiquetado, los usuarios pueden realizar las tareas siguientes:
 
@@ -2001,15 +2572,15 @@ Después de que el administrador habilite el etiquetado, los usuarios pueden rea
 
 *Figura 2. Aplicación de etiquetas a un riesgo*
 
-![Aplicación de etiquetas a un riesgo en la vista de tarea](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/selecting_tags_in_task_view.png)
+![Aplicación de etiquetas a un riesgo en la vista de tarea](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/selecting_tags_in_task_view.png)
 
 *Figura 3. Visualización de etiquetas en riesgos en la vista de cuadrícula*
 
-![Visualización de etiquetas en riesgos en la vista de cuadrícula](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/viewing_tags_in_grid.png)
+![Visualización de etiquetas en riesgos en la vista de cuadrícula](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/viewing_tags_in_grid.png)
 
 *Figura 4. Búsqueda de etiquetas para asociar objetos relacionados*
 
-![Búsqueda de etiquetas para asociar objetos relacionados](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/assoc_search_on_tags.png)
+![Búsqueda de etiquetas para asociar objetos relacionados](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/assoc_search_on_tags.png)
 
 #### Gestión de etiquetas a través de la API
 
@@ -2017,7 +2588,7 @@ Ahora hay disponible un nuevo punto final de API REST para añadir y eliminar et
 
 ### Gráficos de tendencias basados en el historial de cambios de los valores de campo
 
-`Características nuevas › Características nuevas de la versión 8.3.0.1` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8301-trend-charts-based-change-history-field-values)
+`Características nuevas › Características nuevas de la versión 8.3.0.1` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=8301-trend-charts-based-change-history-field-values)
 
 Ahora puede añadir un gráfico de tendencias con campos a una vista de tarea o de administración para que un objeto muestre los valores históricos de los campos numéricos.
 
@@ -2028,17 +2599,17 @@ Un gráfico de tendencias puede ser especialmente valioso para los campos que se
 
 *Figura 1. Un ejemplo de un gráfico de tendencias basado en el historial de cambios de los valores de campo*
 
-![Un ejemplo de un gráfico de tendencias basado en el historial de cambios de los valores de campo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/trend_chart_for_field_values.png)
+![Un ejemplo de un gráfico de tendencias basado en el historial de cambios de los valores de campo](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/trend_chart_for_field_values.png)
 
 ## Nuevas características en la versión 8.3.0
 
-`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-new-in-version-830)
+`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-new-in-version-830)
 
 Las nuevas características de IBM OpenPages® 8.3.0 incluyen las mejoras siguientes.
 
 ### Mejoras de la plataforma en 8.3.0
 
-`Características nuevas › Nuevas características en la versión 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=830-platform-enhancements-in)
+`Características nuevas › Nuevas características en la versión 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=830-platform-enhancements-in)
 
 Las mejoras en la funcionalidad se incluyen en esta versión de IBM OpenPages®.
 
@@ -2060,14 +2631,14 @@ El nuevo diseño del cuestionario proporciona más funcionalidad y mejora la fac
 
   *Figura 1. El cuadro de diálogo **Valores de formato***
 
-  ![El recuadro de diálogo Valores de formato donde los autores pueden establecer las propiedades del cuestionario.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg_8.3_qr1.png)
+  ![El recuadro de diálogo Valores de formato donde los autores pueden establecer las propiedades del cuestionario.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg_8.3_qr1.png)
 - Página de destino con logotipo
 
   La nueva página de destino del cuestionario proporciona información introductoria al usuario, como el título, la descripción, la fecha de vencimiento, el progreso, las personas asignadas y la exención de responsabilidad. Un autor puede añadir un logotipo personalizado y un texto de exención de responsabilidad para que aparezcan en todos los cuestionarios.
 
   *Figura 2. Una página de destino de un cuestionario*
 
-  ![Una página de destino que muestra información introductoria que incluye un logotipo personalizado y una exención de responsabilidad](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg_8.3_qr3.svg)
+  ![Una página de destino que muestra información introductoria que incluye un logotipo personalizado y una exención de responsabilidad](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg_8.3_qr3.svg)
 - Los autores del cuestionario pueden designar las preguntas que deseen.
 
   Los encuestados no podrán presentar el cuestionario si no responden a alguna de las preguntas requeridas.
@@ -2088,26 +2659,26 @@ La interfaz de usuario incluye numerosas funciones y características nuevas.
 
   *Figura 3. Gráfico de tendencias de KRI*
 
-  ![Un ejemplo de gráfico de tendencias](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg_8.3_trend_chart.png)
+  ![Un ejemplo de gráfico de tendencias](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg_8.3_trend_chart.png)
 - Vista administrativa
 
   La gestión administrativa de los registros ahora es más fácil con la creación de la vista administrativa, que muestra todos los campos y asociaciones disponibles en el perfil del usuario independientemente de la vista de tareas determinada que esté habilitada para un registro. Un usuario al que se le ha concedido permiso para acceder a la vista de administración con un nuevo permiso de plantilla de rol puede acceder a la nueva vista desde cualquier vista de tarea.
 
   *Figura 4. Una pestaña **Tarea** para un objeto de riesgo*
 
-  ![Un ejemplo de una pestaña Tarea](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg_8.3_task_tab.png)
+  ![Un ejemplo de una pestaña Tarea](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg_8.3_task_tab.png)
 
   Cuando un usuario pulsa la pestaña Admin, puede ver todos los campos disponibles para el objeto que están disponibles en el perfil del usuario.
 
   *Figura 5. Una pestaña Admin para un objeto de riesgo*
 
-  ![Un ejemplo de una pestaña Admin](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg_8.3_admin_tab.png)
+  ![Un ejemplo de una pestaña Admin](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg_8.3_admin_tab.png)
 
   La pestaña Admin puede mostrar todos los padres e hijos del registro.
 
   *Figura 6. Una pestaña Admin que muestra los padres y los hijos de un objeto de riesgo*
 
-  ![Un ejemplo de una pestaña Admin que muestra padres e hijos](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg_8.3_parents_and_children.png)
+  ![Un ejemplo de una pestaña Admin que muestra padres e hijos](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg_8.3_parents_and_children.png)
 
   Las vistas administrativas se crean utilizando el Diseñador de vistas. El orden de los campos que se asigna en el Diseñador de vistas establece el orden de los campos para la importación de FastMap. Una selección de solo lectura para un campo en la vista administrativa impide una importación de FastMap de dicho campo. Los clientes de actualización pueden importar las vistas de detalles de su versión anterior de OpenPages como vistas administrativas.
 - Migración de características anteriormente disponibles solo dentro de la interfaz de usuario estándar
@@ -2128,12 +2699,12 @@ Para las implementaciones personalizadas, debe tener una licencia separada para 
 
 Para ver los valores del registro para Walkme, realice los pasos siguientes:
 
-1. Haga clic en **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Configuración del sistema** > **Ajustes** y establezca **Aplicaciones** > **Común** > **Configuración** > **Mostrar ajustes ocultos** en **verdadero** para mostrar la configuración oculta.
+1. Haga clic en **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Configuración del sistema** > **Ajustes** y establezca **Aplicaciones** > **Común** > **Configuración** > **Mostrar ajustes ocultos** en **verdadero** para mostrar la configuración oculta.
 2. Vaya a **Aplicaciones** > **Walkme**.
 
 *Figura 7. Los valores de la aplicación Walwalme*
 
-![Valores de aplicación de Walme](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/walkme_settings.png)
+![Valores de aplicación de Walme](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/walkme_settings.png)
 
 - **Walkme habilitado**
 
@@ -2151,13 +2722,13 @@ Para ver los valores del registro para Walkme, realice los pasos siguientes:
 
 ### Mejoras de soluciones en 8.3.0
 
-`Características nuevas › Nuevas características en la versión 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=830-solutions-enhancements-in)
+`Características nuevas › Nuevas características en la versión 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=830-solutions-enhancements-in)
 
 Las soluciones de IBM OpenPages® se han mejorado para hacerlas más completas y fáciles de utilizar.
 
 #### Mejoras en la gestión de continuidad de negocio en 8.3.0
 
-`Características nuevas › Nuevas características en la versión 8.3.0 › Mejoras de soluciones en 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=830-business-continuity-management-enhancements-in)
+`Características nuevas › Nuevas características en la versión 8.3.0 › Mejoras de soluciones en 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=830-business-continuity-management-enhancements-in)
 
 Versión 8.3 incluye varias mejoras en IBM OpenPages® Business Continuity Management (BCM).
 
@@ -2175,7 +2746,7 @@ El panel de control maestro de BCM incorpora ahora objetos KRI y KPI y muestra m
 
 *Figura 1. Panel de control maestro de BCM*
 
-![Se muestra un panel de control en OpenPages. El panel de instrumentos tiene los paneles siguientes: Mis tareas, Análisis de impacto empresarial, Métricas de servicios empresariales y Mis tareas. Los paneles muestran coloridos gráficos de barras y gráficos de anillo. La parte inferior del panel de control se corta para mostrar que el panel de control incluye más paneles.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8300-bcm_dashboard.png)
+![Se muestra un panel de control en OpenPages. El panel de instrumentos tiene los paneles siguientes: Mis tareas, Análisis de impacto empresarial, Métricas de servicios empresariales y Mis tareas. Los paneles muestran coloridos gráficos de barras y gráficos de anillo. La parte inferior del panel de control se corta para mostrar que el panel de control incluye más paneles.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8300-bcm_dashboard.png)
 
 **Nuevos tipos de objeto**
 
@@ -2221,13 +2792,13 @@ La versión 8.3 incluye actualizaciones de los cálculos así como nuevos cálcu
 
   *Figura 2. La sección Continuidad de negocio de la vista Tarea de recurso muestra las métricas RPO y RTO*
 
-  ![La sección Continuidad de negocio de una vista de tarea se muestra en OpenPages. La sección contiene campos como, por ejemplo, objetivo de tiempo de recuperación de procesos, objetivo de tiempo de recuperación de recursos, objetivo de punto de recuperación de procesos, etc. Un campo denominado Aviso de alineación de RTO muestra un icono de aviso rojo.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8300-bcm_bc_calc.png)
+  ![La sección Continuidad de negocio de una vista de tarea se muestra en OpenPages. La sección contiene campos como, por ejemplo, objetivo de tiempo de recuperación de procesos, objetivo de tiempo de recuperación de recursos, objetivo de punto de recuperación de procesos, etc. Un campo denominado Aviso de alineación de RTO muestra un icono de aviso rojo.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8300-bcm_bc_calc.png)
 
   Los usuarios pueden ver las métricas en el panel de control maestro de BCM.
 
   *Figura 3. Panel de control maestro de BCM*
 
-  ![Se muestra un panel de control en OpenPages. Se muestran dos paneles: Alertas de objetivo de punto de recuperación y Alertas de objetivo de tiempo de recuperación. Cada panel muestra gráficos de texto y barras. En el panel Alertas de RTO, por ejemplo, un gráfico de barras muestra que dos proveedores y un recurso tienen puntuaciones de gravedad alta.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8300-bcm_dashbrd-rpo.png)
+  ![Se muestra un panel de control en OpenPages. Se muestran dos paneles: Alertas de objetivo de punto de recuperación y Alertas de objetivo de tiempo de recuperación. Cada panel muestra gráficos de texto y barras. En el panel Alertas de RTO, por ejemplo, un gráfico de barras muestra que dos proveedores y un recurso tienen puntuaciones de gravedad alta.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8300-bcm_dashbrd-rpo.png)
 - Cálculos para la resiliencia operativa
 
   Los nuevos cálculos en 8.3 identifican los Servicios empresariales y las dependencias relacionadas (Ubicaciones, Procesos, Recursos y Proveedores) con los KRI que están en o cerca de la infracción de una tolerancia de impacto establecida.
@@ -2249,9 +2820,11 @@ Por ejemplo, un nuevo flujo de trabajo denominado Evaluación inicial del servic
 
 *Figura 4. El nuevo flujo de trabajo de evaluación inicial del servicio empresarial*
 
-![Se muestra un flujo de trabajo en el Diseñador de flujos de trabajo. El flujo de trabajo tiene nueve etapas.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8300-bcm_workflow.png)
+![Se muestra un flujo de trabajo en el Diseñador de flujos de trabajo. El flujo de trabajo tiene nueve etapas.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8300-bcm_workflow.png)
 
 **Integración con Supply Wisdom**
+
+> **Nota** : Esta integración se eliminó en 9.1.0.
 
 La versión 8.3 incluye una integración con Supply Wisdom que incluye lo siguiente para los suscriptores de Supply Wisdom :
 
@@ -2262,11 +2835,11 @@ La versión 8.3 incluye una integración con Supply Wisdom que incluye lo siguie
 
 *Figura 5. La vista de tareas de ubicación*
 
-![Se visualiza la nueva sección Clasificaciones de sabiduría de suministro de la vista de tarea Ubicación. La sección contiene dos gráficos de anillos (un gráfico muestra las tendencias de riesgo, el otro muestra la gravedad) y una vista de cuadrícula de los riesgos.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8300-bcm_view_sw.png)
+![Se visualiza la nueva sección Clasificaciones de sabiduría de suministro de la vista de tarea Ubicación. La sección contiene dos gráficos de anillos (un gráfico muestra las tendencias de riesgo, el otro muestra la gravedad) y una vista de cuadrícula de los riesgos.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8300-bcm_view_sw.png)
 
 #### Mejoras de la Gestión de privacidad de datos en 8.3.0
 
-`Características nuevas › Nuevas características en la versión 8.3.0 › Mejoras de soluciones en 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=830-data-privacy-management-enhancements-in)
+`Características nuevas › Nuevas características en la versión 8.3.0 › Mejoras de soluciones en 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=830-data-privacy-management-enhancements-in)
 
 Versión 8.3 incluye varias mejoras en IBM OpenPages® Data Privacy Management (DPM).
 
@@ -2276,7 +2849,7 @@ IBM OpenPages Data Privacy Management incluye un nuevo panel de control.
 
 *Figura 1. Panel de control de DPM*
 
-![Se muestra un panel de control en OpenPages. El panel de control incluye un panel denominado Mis tareas con una barra codificada por colores que muestra el estado de las tareas. Otro panel muestra un gráfico circular colorido de Recursos por ubicación física.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8300-dpm_dashboard.png)
+![Se muestra un panel de control en OpenPages. El panel de control incluye un panel denominado Mis tareas con una barra codificada por colores que muestra el estado de las tareas. Otro panel muestra un gráfico circular colorido de Recursos por ubicación física.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8300-dpm_dashboard.png)
 
 **Nuevo flujo de trabajo**
 
@@ -2288,7 +2861,7 @@ DPM incluye dos flujos de trabajo de ejemplo. Puede utilizarlos tal cual o modif
 
   *Figura 2. Evaluación de impacto de privacidad*
 
-  ![Se visualiza un flujo de trabajo en el diseñador de flujos de trabajo. El flujo de trabajo empieza con una etapa Revisión de activo de datos y finaliza con una etapa Evaluación de privacidad no necesaria o una etapa Evaluación de privacidad completada.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8300-dpm_pia_workflow.png)
+  ![Se visualiza un flujo de trabajo en el diseñador de flujos de trabajo. El flujo de trabajo empieza con una etapa Revisión de activo de datos y finaliza con una etapa Evaluación de privacidad no necesaria o una etapa Evaluación de privacidad completada.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8300-dpm_pia_workflow.png)
 
 - **Evaluación del impacto de la protección de datos**
 
@@ -2296,7 +2869,7 @@ DPM incluye dos flujos de trabajo de ejemplo. Puede utilizarlos tal cual o modif
 
   *Figura 3. Flujo de trabajo de evaluación del impacto de protección de datos*
 
-  ![Se visualiza un flujo de trabajo en el diseñador de flujos de trabajo. El flujo de trabajo empieza con una etapa DPIA iniciada y termina con una etapa DPIA no necesaria o una etapa DPIA completada.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8300-dpm_dpia_workflow.png)
+  ![Se visualiza un flujo de trabajo en el diseñador de flujos de trabajo. El flujo de trabajo empieza con una etapa DPIA iniciada y termina con una etapa DPIA no necesaria o una etapa DPIA completada.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8300-dpm_dpia_workflow.png)
 
 **Nuevas plantillas de rol**
 
@@ -2304,9 +2877,11 @@ Las plantillas de funciones para la gestión de Data Privacy ahora se incluyen c
 
 #### Mejoras de Gobierno de TI en 8.3.0
 
-`Características nuevas › Nuevas características en la versión 8.3.0 › Mejoras de soluciones en 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=830-it-governance-enhancements-in)
+`Características nuevas › Nuevas características en la versión 8.3.0 › Mejoras de soluciones en 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=830-it-governance-enhancements-in)
 
 La versión 8.3 incluye una integración con la plataforma de análisis de cuantificación de riesgos cibernéticos RiskLens.
+
+> **Nota** : Esta función se eliminó en la versión 9.1.
 
 Dentro de la plataforma RiskLens, los usuarios registran los activos y las amenazas incluidas dentro de los escenarios y llenan estos objetos de acuerdo con el método FAIR utilizando ayudantes de datos proporcionados en RiskLens. La integración con OpenPages® permite a un usuario de OpenPages enviar un registro para su inclusión dentro de una evaluación de riesgo en RiskLens. El objeto se puede asociar a uno o más escenarios dentro de las simulaciones de RiskLens y Monte Carlo. Después de completar la simulación y de acuerdo con el trabajo planificado en OpenPages, las métricas de exposición a pérdidas generadas por las simulaciones de Monte Carlo se extraen en OpenPages para su uso en toda la aplicación. El trabajo planificado en OpenPages extrae datos actualizados de RiskLens cuando se modifican las evaluaciones de riesgo.
 
@@ -2318,7 +2893,7 @@ El siguiente grupo de campos se ha añadido al objeto de riesgo: **OPS-RiskLens*
 
 *Figura 1. Ejemplo de campos rellenados a partir de datos proporcionados por la integración de RiskLens*
 
-![Se visualiza una vista de tarea en OpenPages. La vista tiene una sección de Integración de RiskLens, que incluye un enlace a RiskLens, métricas, estado de la solicitud y la fecha de la última ejecución.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8300-itg_fieldgrp.png)
+![Se visualiza una vista de tarea en OpenPages. La vista tiene una sección de Integración de RiskLens, que incluye un enlace a RiskLens, métricas, estado de la solicitud y la fecha de la última ejecución.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8300-itg_fieldgrp.png)
 
 **Nuevo trabajo en el planificador**
 
@@ -2335,7 +2910,7 @@ Se han añadido las siguientes vistas para dar soporte a la integración de Risk
 
 #### Mejoras en el gobierno de riesgos de modelo en 8.3.0
 
-`Características nuevas › Nuevas características en la versión 8.3.0 › Mejoras de soluciones en 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=830-model-risk-governance-enhancements-in)
+`Características nuevas › Nuevas características en la versión 8.3.0 › Mejoras de soluciones en 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=830-model-risk-governance-enhancements-in)
 
 Versión 8.3 incluye varias mejoras en IBM OpenPages® Model Risk Governance (MRG).
 
@@ -2373,7 +2948,7 @@ La versión 8.3 incluye un nuevo flujo de trabajo, Creación de valor de métric
 
 #### Mejoras en la gestión de riesgos operativos en 8.3.0
 
-`Características nuevas › Nuevas características en la versión 8.3.0 › Mejoras de soluciones en 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=830-operational-risk-management-enhancements-in)
+`Características nuevas › Nuevas características en la versión 8.3.0 › Mejoras de soluciones en 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=830-operational-risk-management-enhancements-in)
 
 Versión 8.3 incluye varias mejoras en IBM OpenPages® Operational Risk Management (ORM).
 
@@ -2389,7 +2964,7 @@ El panel de control maestro de ORM proporciona una visión general de alto nivel
 
 *Figura 1. Panel control maestro de ORM*
 
-![Se muestra un panel de control en OpenPages. El panel de control incluye un panel denominado Mis tareas con una barra codificada por colores que muestra el estado de las tareas. Varios otros paneles muestran coloridos gráficos circulares. Por ejemplo, un panel tiene un gráfico de anillos que muestra el estado de ruptura de los indicadores clave de riesgo (KRI).](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8300-orm_dashbrd.png)
+![Se muestra un panel de control en OpenPages. El panel de control incluye un panel denominado Mis tareas con una barra codificada por colores que muestra el estado de las tareas. Varios otros paneles muestran coloridos gráficos circulares. Por ejemplo, un panel tiene un gráfico de anillos que muestra el estado de ruptura de los indicadores clave de riesgo (KRI).](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8300-orm_dashbrd.png)
 
 **Cálculos nuevos y actualizados**
 
@@ -2416,7 +2991,7 @@ La versión 8.3 incluye actualizaciones de los cálculos así como nuevos cálcu
 
   *Figura 2. La vista de tareas de KRI*
 
-  ![Se visualiza una vista de tarea de Indicador clave de riesgo (KRI) en OpenPages. La vista muestra la información de medición de KRI, el valor más reciente del KRI, un gráfico de colores que muestra el estado de la colección del KRI, y una vista de cuadrícula de los valores de KRI que son hijos del KRI. La vista de cuadrícula incluye información sobre el estado de recopilación y el estado de infracción de cada valor KRI.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8300-orm_view.png)
+  ![Se visualiza una vista de tarea de Indicador clave de riesgo (KRI) en OpenPages. La vista muestra la información de medición de KRI, el valor más reciente del KRI, un gráfico de colores que muestra el estado de la colección del KRI, y una vista de cuadrícula de los valores de KRI que son hijos del KRI. La vista de cuadrícula incluye información sobre el estado de recopilación y el estado de infracción de cada valor KRI.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8300-orm_view.png)
 
 - **Cálculos de KPI**
 
@@ -2479,7 +3054,7 @@ DPM incluye dos flujos de trabajo de ejemplo. Puede utilizarlos tal cual o modif
 
 #### Mejoras en la gestión de políticas en 8.3.0
 
-`Características nuevas › Nuevas características en la versión 8.3.0 › Mejoras de soluciones en 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=830-policy-management-enhancements-in)
+`Características nuevas › Nuevas características en la versión 8.3.0 › Mejoras de soluciones en 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=830-policy-management-enhancements-in)
 
 Versión 8.3 incluye varias mejoras en IBM OpenPages® Policy Management (PCM).
 
@@ -2491,7 +3066,7 @@ El panel de control Propietario de PCM de OpenPages proporciona una visión gene
 
 *Figura 1. Panel de control de propietario de políticas de PCM*
 
-![Se muestra un panel de control en OpenPages. El panel de control tiene los paneles siguientes: Mis tareas de política, Buscar, Mis políticas, Informes, Estado de PRC y Mis favoritos.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8300-pcm_dashboard.png)
+![Se muestra un panel de control en OpenPages. El panel de control tiene los paneles siguientes: Mis tareas de política, Buscar, Mis políticas, Informes, Estado de PRC y Mis favoritos.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8300-pcm_dashboard.png)
 
 **Nuevo flujo de trabajo**
 
@@ -2505,7 +3080,7 @@ El flujo de trabajo Revisión y aprobación de políticas aborda los siguientes 
 
 *Figura 2. Flujo de trabajo Revisión y aprobación de políticas*
 
-![El flujo de trabajo se muestra en el Diseñador de flujos de trabajo. Es un flujo de trabajo complejo con varias ramas: nuevas políticas, políticas con cambios importantes, políticas con cambios menores y políticas sin cambios.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8300-pcm_review_workflow.png)
+![El flujo de trabajo se muestra en el Diseñador de flujos de trabajo. Es un flujo de trabajo complejo con varias ramas: nuevas políticas, políticas con cambios importantes, políticas con cambios menores y políticas sin cambios.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8300-pcm_review_workflow.png)
 
 Las etapas y los usuarios de ejemplo del flujo de trabajo incluyen:
 
@@ -2527,13 +3102,13 @@ El cálculo rellena la descripción de objeto de comentario de revisión de pol�
 
 *Figura 3. Comentario de revisión de política en una vista de cuadrícula*
 
-![Una vista de cuadrícula contiene un comentario de revisión de política. La columna Descripción muestra el nombre de la política relacionada del comentario de revisión.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8300-pcm_view.png)
+![Una vista de cuadrícula contiene un comentario de revisión de política. La columna Descripción muestra el nombre de la política relacionada del comentario de revisión.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8300-pcm_view.png)
 
 Puede inhabilitar este cálculo, si es necesario.
 
 #### Mejoras en la gestión de conformidad reguladora en 8.3.0
 
-`Características nuevas › Nuevas características en la versión 8.3.0 › Mejoras de soluciones en 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=830-regulatory-compliance-management-enhancements-in)
+`Características nuevas › Nuevas características en la versión 8.3.0 › Mejoras de soluciones en 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=830-regulatory-compliance-management-enhancements-in)
 
 Versión 8.3 incluye varias mejoras en IBM OpenPages® Regulatory Compliance Management (RCM).
 
@@ -2576,13 +3151,13 @@ Los flujos de trabajo de la biblioteca de temas ayudan a los usuarios a construi
 
 *Figura 1. Flujo de trabajo Creación de biblioteca de temas de conformidad*
 
-![El Editor de flujos de trabajo muestra las etapas en el flujo de trabajo: Inicio, Correlación de requisitos, Aprobación, Iniciar desplegador de temas y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8300-rcm_lib_workflow.png)
+![El Editor de flujos de trabajo muestra las etapas en el flujo de trabajo: Inicio, Correlación de requisitos, Aprobación, Iniciar desplegador de temas y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8300-rcm_lib_workflow.png)
 
 Los flujos de trabajo de evaluación están ahora disponibles para los objetos Evaluación de requisitos, Requisito, Tema de conformidad y Plan de conformidad. Por ejemplo, el flujo de trabajo Evaluación de requisitos ayuda a los usuarios a evaluar la eficacia de los controles para gestionar el riesgo de conformidad de los requisitos correlacionados. Con este flujo de trabajo, los usuarios revisan todos los controles que son hijos de la evaluación de requisitos y, a continuación, proporcionan evaluaciones para la eficacia del diseño del control, la eficacia operativa y una valoración general sobre lo bien que los controles abordan el requisito subyacente bajo revisión.
 
 *Figura 2. Flujo de trabajo de evaluación de requisitos*
 
-![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, Evaluación de requisitos, Aprobación de evaluación y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/nfg8300-rcm_assess_workflow.png)
+![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, Evaluación de requisitos, Aprobación de evaluación y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.1/op_grc_new_features/nfg8300-rcm_assess_workflow.png)
 
 Los flujos de trabajo de restablecimiento funcionan conjuntamente para renovar los datos de evaluación que se especifican en los registros de evaluación de requisitos, tema de conformidad y plan de conformidad cuando se implementa un nuevo ciclo de evaluación.
 
@@ -2595,13 +3170,15 @@ Los flujos de trabajo de restablecimiento funcionan conjuntamente para renovar l
 
 #### Mejoras en la gestión de riesgos de terceros en 8.3.0
 
-`Características nuevas › Nuevas características en la versión 8.3.0 › Mejoras de soluciones en 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=830-third-party-risk-management-enhancements-in)
+`Características nuevas › Nuevas características en la versión 8.3.0 › Mejoras de soluciones en 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=830-third-party-risk-management-enhancements-in)
 
 Versión 8.3 incluye mejoras para OpenPages® Third Party Risk Management (TPRM).
 
 Las actualizaciones incluyen mejoras en el cuestionario, que se utilizan al realizar una evaluación de proveedor.
 
 La integración de Supply Wisdom se ha mejorado con la ingestión de supervisión de sucesos de proveedores junto con las ubicaciones en las que operan dichos proveedores. Se han añadido factores de riesgo de ubicación para ayudar a identificar los riesgos geopolíticos y medioambientales que podrían afectar a la prestación de servicios de un proveedor
+
+> **Nota** : La integración de Supply Wisdom se eliminó en 9.1.0.
 
 Ahora están disponibles nuevos flujos de trabajo listos para usar para la gestión del ciclo de vida del proveedor (Selección a través de la terminación). Estos flujos de trabajo están diseñados para ser complementados por los procesos internos del usuario:
 
@@ -2639,7 +3216,7 @@ Ahora están disponibles nuevos flujos de trabajo listos para usar para la gesti
 
 ### Software soportado en 8.3
 
-`Características nuevas › Nuevas características en la versión 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=830-supported-software-in-83)
+`Características nuevas › Nuevas características en la versión 8.3.0` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=830-supported-software-in-83)
 
 IBM OpenPages® 8.3.0 requiere nuevas versiones de algún software:
 
@@ -2654,1613 +3231,9 @@ IBM OpenPages® 8.3.0 requiere nuevas versiones de algún software:
 
 Para obtener más información, consulte [Entornos soportados](https://www.ibm.com/support/pages/node/713069).
 
-## Nuevas características en la versión 8.2.0.4
-
-`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-new-in-version-8204)
-
-Las nuevas características de IBM OpenPages® 8.2.0.4 incluyen las mejoras siguientes.
-
-### Integración con IBM Watson Natural Language Understanding
-
-`Características nuevas › Nuevas características en la versión 8.2.0.4` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8204-integration-watson-natural-language-understanding)
-
-Ahora puede integrar un clasificador IBM Watson® Natural Language Understanding en OpenPages®.
-
-IBM Watson Natural Language Understanding es un servicio de procesamiento de idiomas en IBM Cloud. Puede entrenar y desplegar modelos de clasificador de texto y, a continuación, integrarlos con OpenPages. IBM Watson Natural Language Understanding aprende de sus datos y puede predecir clasificaciones para textos en los que no está entrenado. IBM Watson Natural Language Understanding es similar a IBM Watson Natural Language Classifier, pero a diferencia de IBM Watson Natural Language Classifier, IBM Watson Natural Language Understanding es un clasificador de varias etiquetas y varias clases. Asume que el texto probablemente pertenece a más de una clase y puede predecir mejor los textos con múltiples clasificaciones.
-
-La estructura de entrenamiento también es diferente entre IBM Watson Natural Language Classifier e IBM Watson Natural Language Understanding.
-
-**Tabla 1. Estructura de entrenamiento**
-
-|  | IBM Watson Natural Language Classifier | IBM Watson Natural Language Understanding |
-| --- | --- | --- |
-| Límite de caracteres | 1024 | 2000 |
-| Formato del archivo de datos de entrenamiento | .csv | .csv, .json<br>Requiere al menos 5 ejemplos de entrenamiento por clase. |
-| Método de entrenamiento | Interfaz de usuario de Watson Studio | Debe realizarse a través del código: Java, Python, cURL, Ruby |
-
-Para obtener más información sobre la integración de un clasificador de lenguaje natural, como por ejemplo IBM Watson Natural Language Understanding o IBM Watson Discovery, consulte la publicación  [*IBM OpenPages Guía del administrador*](3.5-guia-del-administrador.md#servicios-de-procesamiento-de-lenguaje-natural)
-
-### Actualización de Apache Log4j 1 a Apache Log4j 2
-
-`Características nuevas › Nuevas características en la versión 8.2.0.4` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=nfiv8-upgrade-from-apache-log4j-1-apache-log4j-2)
-
-Para abordar los problemas de vulnerabilidad de seguridad, IBM OpenPages® fixpack 8.2.0.4 actualiza de Apache Log4j 1 a Apache Log4j2.
-
-Para obtener información sobre el registro, consulte la publicación  [*IBM OpenPages Guía del administrador*](3.4-guia-del-administrador.md#archivos-de-registro-estándar-de-openpages)
-
-Esta actualización cambia el registro cronológico y afecta a los archivos de propiedades de registro, los registradores JSP y otros códigos personalizados.
-
-## Nuevas características en la versión 8.2.0.3
-
-`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-new-in-version-8203)
-
-Las nuevas características de IBM OpenPages® 8.2.0.3 incluyen las mejoras siguientes.
-
-### Mejoras de la plataforma
-
-`Características nuevas › Nuevas características en la versión 8.2.0.3` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8203-platform-enhancements)
-
-Las mejoras en la funcionalidad se incluyen en esta versión de IBM OpenPages®.
-
-#### Mejoras en la interfaz de usuario centrada en la tarea
-
-`Características nuevas › Nuevas características en la versión 8.2.0.3 › Mejoras de la plataforma` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=enhancements-task-focused-ui)
-
-La interfaz de usuario centrada en tareas incluye numerosas prestaciones y características nuevas.
-
-##### IBM Watson Discovery
-
-IBM Watson® Discovery se ha añadido como un servicio de procesamiento de lenguaje natural. Se puede utilizar en lugar de Natural Language Classifier.
-
-##### Mejoras en la interfaz de usuario de importación de FastMap
-
-La importación de datos de objeto utilizando Fast Map es un proceso de dos pasos que consiste en la validación y la importación.
-
-Para iniciar la importación, haga clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **FastMap Importar**.
-
-La pestaña **Importación de FastMap** muestra una lista de las importaciones. Si tiene permiso de aplicación para ver las importaciones realizadas por otros usuarios, puede pulsar el desplegable **Vista** y seleccionar **Todas las importaciones**. La columna **Creado por** se añade a la cuadrícula si selecciona esta vista.
-
-![Separador Importación de FastMap](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/fastmap_import_tab.png)
-
-Para ver más información sobre una importación determinada, pulse la fila correspondiente a dicha importación.
-
-![Detalles de importación de FastMap](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/fastmap_import_details.png)
-
-En la pestaña **Importación de FastMap**, después de pulsar **Importar** y elegir un archivo para importar, se inicia la validación.
-
-![Recuadro de diálogo antes de la validación de importación de FastMap](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/fastmap_validate.png)
-
-Puede elegir si desea esperar o ser notificado cuando se haya completado la validación.
-
-![Recuadro de diálogo durante la validación de importación de FastMap](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/fastmap_close_notify.png)
-
-La notificación contiene un enlace para revisar los mensajes de estado de validación. Si se pierde un mensaje de notificación, puede pulsar **Ver notificación** ![Ver icono de notificación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/notifications_menu_icon_task_focused_ui.jpg) para ver el mensaje.
-
-Si la validación falla, se le solicitará que cargue un archivo corregido.
-
-![La notificación que muestra una validación de importación de FastMap ha fallado](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/fastmap_validation_failed.png)
-
-![Recuadro de diálogo que muestra mensajes de error después de la validación de importación de FastMap](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/fastmap_validation_errors.png)
-
-Si la validación se completa con avisos, tendrá las opciones siguientes:
-
-- Puede cargar un archivo corregido.
-- Si los avisos no importan, puede importar los datos del objeto.
-- Puede cancelar e iniciar el proceso desde el principio.
-- Puede cerrar el recuadro de diálogo. Más adelante en la sesión actual, puede consultar las notificaciones para ver la lista de avisos o volver a la pestaña **Importación de FastMap** para importar el archivo.
-
-![Notificación que muestra una validación de importación de FastMap completada con avisos](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/fastmap_validation_warn.png)
-
-![Recuadro de diálogo que muestra mensajes de aviso después de la validación de importación de FastMap](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/fastmap_validation_warnings.png)
-
-Cuando la validación finaliza satisfactoriamente, puede elegir importar o cancelar.
-
-![La notificación que muestra una validación de importación de FastMap se ha completado correctamente](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/fastmap_validation_ok.png)
-
-![Recuadro de diálogo que muestra mensajes después de una validación de importación correcta de FastMap](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/fastmap_validation_ok_import.png)
-
-Cuando elige importar, el indicador de progreso se actualiza automáticamente. Puede cerrar el recuadro de diálogo **Detalles de importación de FastMap** en cualquier momento y se le notificará cuando se complete la importación.
-
-![Recuadro de diálogo que muestra el progreso de la importación de FastMap](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/fastmap_import_progress.png)
-
-##### Búsqueda de campos en una vista
-
-En Vistas de creación, Vistas de tareas y Vistas rápidas, los usuarios ahora pueden buscar campos dentro de la vista.
-
-*Figura 1. Búsqueda de campos en una vista de tareas*
-
-![Se muestra una vista de tarea. El texto se escribe en el recuadro de búsqueda. Los campos que coinciden con el texto se muestran en el gráfico de vista, enlaces, favoritos y tareas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8203_fieldsearch_task.png)
-
-*Figura 2. Búsqueda de campos en una vista rápida*
-
-![Se muestra una vista de tarea. El texto se escribe en el recuadro de búsqueda. Los campos que coinciden con el texto se muestran en el gráfico de vista, enlaces, favoritos y tareas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8203_fieldsearch_quick.png)
-
-##### Configuración de campos para la actualización masiva en Vistas de cuadrícula
-
-Ahora los administradores pueden configurar los campos que se pueden actualizar cuando los usuarios pulsan ![Actualización masiva](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/bulk_update_icon_tfui.jpg) (Actualización masiva) en las vistas de cuadrícula. Utilice los siguientes componentes nuevos en las vistas de cuadrícula en el Diseñador de vistas:
-
-- Establezca el conmutador **Actualización masiva** para controlar si se permite actualizar un campo mediante una actualización masiva
-- Añada campos a la sección **Campos habilitados para actualización masiva pero no en vista de cuadrícula** para permitir a los usuarios actualizar los campos aunque no se visualicen en la vista de cuadrícula.
-
-Además, los administradores con el nuevo permiso de aplicación **Actualización masiva de todos los campos** pueden eludir las restricciones de campo y actualizar todos los campos.
-
-##### Ejecución de cálculos desde un flujo de trabajo
-
-Los cálculos ahora se pueden iniciar directamente desde una acción de flujo de trabajo.
-
-- Se ha añadido **Tipo de cálculo** a las definiciones de cálculo. Los valores válidos son Automático o Manual. Los cálculos manuales solo se inician mediante una acción **ejecutar un cálculo** en un flujo de trabajo.
-- Se ha añadido la nueva acción **ejecutar un cálculo** a las etapas de flujo de trabajo.
-
-### Mejoras en las soluciones
-
-`Características nuevas › Nuevas características en la versión 8.2.0.3` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8203-solutions-enhancements)
-
-Las soluciones de IBM OpenPages® se han mejorado para hacerlas más completas y fáciles de utilizar.
-
-#### Mejoras en OpenPages Gestión de riesgos de terceros
-
-`Características nuevas › Nuevas características en la versión 8.2.0.3 › Mejoras en las soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=enhancements-openpages-third-party-risk-management)
-
-OpenPages® Third Party Risk Management (TPRM) ahora incluye un conector para Supply Wisdom.
-
-##### Supply Wisdom Conector
-
-El conector Supply Wisdom le permite importar detalles de proveedor y valoraciones de Supply Wisdom a objetos de proveedor en OpenPages. A continuación, puede ver las evaluaciones en OpenPages.
-
-Para obtener información sobre cómo configurar el conector Supply Wisdom , consulte la publicación  [*IBM OpenPages Guía del administrador*](3.6-guia-del-administrador.md#supply-wisdom-conector) .
-
-*Figura 1. Panel de control de TPRM con Supply Wisdom*
-
-![Panel de control que muestra los nuevos paneles para Sabiduría de suministro.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8203_tprm_dashboard.png)
-
-*Figura 2. Detalles de proveedor de TPRM con datos de Supply Wisdom*
-
-![Se muestra una vista de tarea para un proveedor. La vista incluye datos de Sabiduría de suministro.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8203_tprm_vendor.png)
-
-##### Trabajo de Planificador
-
-Los administradores configuran y planifican el canal de información de Supply Wisdom utilizando el nuevo trabajo administrativo de SupplyWisdom en el Planificador.
-
-## Nuevas características en la versión 8.2.0.2
-
-`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-new-in-version-8202)
-
-Las nuevas características de IBM OpenPages® 8.2.0.2 incluyen las mejoras siguientes.
-
-La documentación del producto para todos los productos IBM® se ha rediseñado y actualizado. El Knowledge Center se ha renombrado como IBM Documentation. El enlace del sitio web ha cambiado a [IBM Documentation](https://www.ibm.com/docs/en/opw). Los marcadores a sus temas favoritos se redirigen automáticamente al nuevo sitio web.
-
-### Mejoras de la plataforma
-
-`Características nuevas › Nuevas características en la versión 8.2.0.2` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8202-platform-enhancements)
-
-Las mejoras en la funcionalidad se incluyen en esta versión de IBM OpenPages®.
-
-#### Mejoras en la interfaz de usuario centrada en tareas
-
-`Características nuevas › Nuevas características en la versión 8.2.0.2 › Mejoras de la plataforma` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=pe-enhancements-task-focused-ui)
-
-La interfaz de usuario centrada en tareas incluye numerosas prestaciones y características nuevas.
-
-##### Temas
-
-Los usuarios pueden aplicar un tema utilizando la tarea **![Icono de menú de usuario (persona)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/user_menu_icon_task_focused_ui.jpg)** > **Cambiar tema** . Los administradores pueden crear sus propios temas, denominados temas personalizados, mediante el **menú Abrir administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Configuración del sistema** > **Temas**. Los colores se basan ahora en dos paletas de colores Carbon: Categórica y Monocromática.
-
-El ejemplo siguiente muestra uno de los temas del sistema oscuro.
-
-*Figura 1. Tema oscuro*
-
-![La página de inicio visualizada con el tema más oscuro del sistema](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8202_dark_theme.jpg)
-
-##### Grupos de pestañas para los campos de relación
-
-Los campos de relación se pueden organizar en grupos de pestañas en el Diseñador de vistas.
-
-##### GRC Workflow
-
-Los recordatorios de correo electrónico ahora se pueden configurar en etapas estándar en GRC Workflow.
-
-Los usuarios ahora pueden completar sus tareas de flujo de trabajo de forma masiva.
-
-- Se ha añadido **Acción de flujo de trabajo masivo** a las etapas estándar.
-- Se ha añadido funcionalidad a las vistas de cuadrícula para dar soporte a las acciones de flujo de trabajo masivo.
-- Se ha añadido la ventana **Tareas completas con acciones de flujo de trabajo masivo** a la pestaña y panel Mis tareas, la pestaña Tareas de suscripción y la pestaña y el panel Tareas de supervisión.
-
-Se ha añadido **Alterar temporalmente el texto de acción de flujo de trabajo** a las acciones de flujo Se utilíza para personalizar el texto en la ventana de confirmación que se visualiza cuando los usuarios seleccionan una acción de flujo de trabajo.
-
-##### Desplazamiento masivo
-
-Los objetos se pueden mover de una carpeta a otra utilizando el nuevo botón **Mover** en Vistas de cuadrícula.
-
-En el ejemplo siguiente, se selecciona un objeto de proceso y está listo para moverse a una entidad empresarial diferente.
-
-*Figura 2. Opciones de movimiento masivo*
-
-![Las opciones de movimiento masivo se visualizan donde puede elegir una entidad de empresa de destino](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8202_bulk_move.jpg)
-
-Si los objetos hijo se mueven cuando se mueven los objetos padre se controla mediante el nuevo valor **Aplicaciones** > **GRCM** > **Mover objeto** > **Permitir movimientos jerárquicos** .
-
-##### Tareas de administrador migradas desde la interfaz de usuario estándar
-
-Ahora se puede acceder a las tareas siguientes en el menú Administración de la interfaz de usuario centrada en tareas:
-
-- Las herramientas de migración de entorno ya están disponibles. Haga clic en **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Migración del sistema** > **Exportar configuración** y **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Migración del sistema** > **Importar configuración**.
-- Se ha añadido la sección **Grupos de campo** a la tarea **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Objetos**.
-- Se ha añadido la sección **Dependencias de campo** a la tarea **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Objetos**.
-- Se ha añadido la sección **Listas de selección dependientes** a la tarea **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Objetos**.
-
-Estas tareas siguen estando disponibles en la interfaz de usuario estándar.
-
-### Mejoras en las soluciones
-
-`Características nuevas › Nuevas características en la versión 8.2.0.2` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8202-solutions-enhancements)
-
-Las soluciones de IBM OpenPages® se han mejorado para hacerlas más completas y fáciles de utilizar.
-
-#### IBM OpenPages Data Privacy Management
-
-`Características nuevas › Nuevas características en la versión 8.2.0.2 › Mejoras en las soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=enhancements-openpages-data-privacy-management)
-
-La nueva solución IBM OpenPages® Data Privacy Management (DPM) es utilizada por una organización para ayudar a cumplir con las normativas de privacidad de datos.
-
-Utilizando DPM, las organizaciones pueden tener una visibilidad clara de todos sus datos privados o sensibles y asegurarse de que los datos se manejan correctamente. DPM ayuda a los CPO, CDO, CCO y otros profesionales de la privacidad y el cumplimiento proporcionando visibilidad y permitiéndoles demostrar el cumplimiento.
-
-DPM ayuda a las organizaciones a:
-
-- Soportar el cumplimiento con la normativa de privacidad de datos
-- Mantener un inventario de todos los datos privados en la organización de OpenPages utilizando una integración con Watson Knowledge Catalog
-- Tener una visión holística de todos los datos privados en toda su organización
-- Demostrar el cumplimiento de la privacidad mediante evaluaciones de cuestionarios e informes
-- Iniciar automáticamente las evaluaciones de privacidad para los activos de datos recién cargados
-
-##### Perfil maestro de DPM
-
-DPM incluye el perfil maestro de DPM.
-
-El perfil incluye:
-
-- Pestaña Mi trabajo, pestaña Panel de control, y todas las pestañas de la página de inicio
-- Vistas dependientes y listas de selección dependientes
-- Vistas de cuadrícula y vistas de tareas
-- Vistas Detalle, Contexto, Carpeta, Visión general, Lista filtrada y Lista
-
-##### Panel de control
-
-DPM incluye el panel de control de maestro de DPM.
-
-El panel de control de maestro de DPM proporciona a los profesionales de privacidad una visión general de alto nivel de los diferentes activos de datos de su organización, las tareas que se les han asignado y el estado de las evaluaciones de privacidad que se están realizando en la organización.
-
-*Figura 1. Panel de control maestro de DPM*
-
-![Panel de control con datos de privacidad por gráfico de jurisdicción, enlaces, favoritos y tareas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8202_dpm_dashboard.jpg)
-
-##### Flujos de trabajo de ejemplo
-
-DPM incluye el flujo de trabajo de ejemplo de Evaluación de privacidad de datos.
-
-Cuando se importa un nuevo activo de datos (recurso) en OpenPages desde Watson Knowledge Catalog, el flujo de trabajo de evaluación de privacidad de datos se inicia automáticamente. La primera etapa es Revisión de activos de datos, donde un revisor debe determinar si es necesaria una evaluación de privacidad o no. Si necesitan más información, pueden solicitar más información al propietario del activo de datos seleccionando **Acciones** > **Solicitar información adicional**. Ahora el propietario del activo de datos deberá proporcionar la información solicitada y seleccionar **Acciones** > **Enviar para revisión de activo de datos**.
-
-Si el responsable de privacidad determina que no es necesaria una evaluación de privacidad, seleccionaría **Acciones** > **Evaluación de privacidad no necesaria**. Esto establece el campo Estado de PIA en el recurso en No necesario y el flujo de trabajo finaliza.
-
-Si el responsable de privacidad determina que se necesita una evaluación de privacidad, seleccionaría **Acciones** > **Evaluación de privacidad necesaria**. Esto establece el campo Estado de PIA del recurso en Necesario y crea una evaluación de cuestionario asignada al propietario principal del recurso.
-
-El responsable de privacidad ahora selecciona una plantilla de cuestionario para la evaluación, y el propietario del activo completará el cuestionario. Una vez completado el cuestionario, el propietario del activo seleccionaría **Acciones** > **Enviar para aprobación**.
-
-El responsable de privacidad ahora revisa la evaluación de privacidad y puede **Aprobar** o **Rechazar**. Si se rechaza, se devolverá al propietario del activo para la remediación y, si se aprueba, el flujo de trabajo finaliza.
-
-*Figura 2. Flujo de trabajo de ejemplo para la evaluación de privacidad de datos*
-
-![Flujo de trabajo muestra la aprobación de la evaluación de privacidad](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8202_dpm_workflow.jpg)
-
-##### Plantillas de cuestionario
-
-Las plantillas de cuestionario para algunas leyes de privacidad importantes pronto estarán disponibles en la comunidad GRC. Las plantillas se pueden utilizar como punto de partida para crear sus propias evaluaciones de privacidad.
-
-##### Vistas
-
-Se han añadido nuevas vistas de cuadrícula y tareas del sistema para el plan de recursos y control.
-
-- **Vista de tareas de recurso**
-
-  La nueva vista de tareas SysView-Task-Resource-WKC contiene tres secciones.
-
-  La sección Información de privacidad contiene campos relacionados con varias evaluaciones de privacidad. Contiene los siguientes campos nuevos:
-
-  - Estado de PIA: estado de la evaluación de impacto de privacidad en el recurso.
-  - Fecha de finalización de PIA: fecha de finalización de la evaluación de impacto de privacidad.
-  - Estado de DPIA: estado de la evaluación de impacto de protección de datos en el recurso (solo visible para Recursos con una gravedad de alta).
-  - Fecha de finalización de DPIA: fecha de finalización de la evaluación de impacto de protección de datos (solo visible para Recursos con una gravedad de alta).
-
-  La sección Información de integración contiene información sobre el servicio que se está integrando con, en este caso, Watson Knowledge Catalog. Contiene los siguientes campos nuevos:
-
-  - Aplicación: el nombre del servicio externo con el que se está integrando.
-  - ID externo: ID de recurso del servicio externo con el que se está integrando.
-  - Enlace de terceros: enlace con el recurso externo con el que se está integrando.
-  - Última actualización: fecha y hora de la última sincronización con el servicio externo.
-  - Información adicional: un campo de texto que se puede utilizar para almacenar cualquier información adicional que pueda ser relevante.
-
-  La sección Información de Watson Knowledge Catalog contiene metadatos más específicos sobre el activo de datos (Recurso) que se carga desde Watson Knowledge Catalog.
-
-  - Clasificación WKC: clasificación del activo de datos en Watson Knowledge Catalog. La clasificación se utiliza como filtro para determinar qué activos de datos se cargan desde Watson Knowledge Catalog en OpenPages.
-  - Estado de WKC: Estado del objeto en Watson Knowledge Catalog (Activo, Suprimido, Ya no es privado).
-  - Nombre de catálogo: nombre del catálogo al que pertenece el activo de datos (recurso) en Watson Knowledge Catalog.
-  - Etiquetas: etiquetas de activos de datos de Watson Knowledge Catalog.
-  - Términos de negocio: términos de negocio de Watson Knowledge Catalog.
-  - Jurisdicción: la jurisdicción del activo de datos.
-
-- **Vista de cuadrícula de recursos**
-
-  La nueva vista de cuadrícula SysView-Grid-Resource-WKC contiene los campos siguientes:
-
-  - Nombre de WKC
-  - Nombre
-  - Descripción
-  - Tipo de recurso
-  - Estado de WKC
-  - Gravedad
-  - Propietario primario
-
-- **Vista de tarea de plan de control**
-
-  La nueva vista de tarea SysView-Task-RiskEntity-WKC contiene dos secciones.
-
-  La sección Información de integración contiene información sobre el servicio que se está integrando con, en este caso, Watson Knowledge Catalog. Contiene los siguientes campos nuevos:
-
-  - Aplicación: el nombre del servicio externo con el que se está integrando.
-  - ID externo: ID de recurso del servicio externo con el que se está integrando.
-  - Enlace de terceros: enlace con el recurso externo con el que se está integrando.
-  - Última actualización: fecha y hora de la última sincronización con el servicio externo.
-  - Información adicional: un campo de texto que se puede utilizar para almacenar cualquier información adicional que pueda ser relevante.
-
-  La sección Información de Watson Knowledge Catalog contiene metadatos más específicos sobre el activo de datos (recurso) que se carga desde Watson Knowledge Catalog.
-
-  - Clasificación WKC: clasificación del activo de datos en Watson Knowledge Catalog. La clasificación se utiliza como filtro para determinar qué activos de datos se cargan desde Watson Knowledge Catalog en OpenPages.
-  - Estado de WKC: Estado del objeto en Watson Knowledge Catalog (Activo, Suprimido, Ya no es privado).
-
-- **Vista cuadrícula de plan de control**
-
-  La nueva vista de cuadrícula de SysView-Risk-RiskEntity-WKC contiene los campos siguientes:
-
-  - Nombre de WKC
-  - Nombre
-  - Descripción
-  - Nivel de clasificación de datos
-  - Tipo de datos
-  - Percepción de riesgos
-  - Riesgo residual
-
-#### Mejoras en IBM OpenPages Financial Controls Management
-
-`Características nuevas › Nuevas características en la versión 8.2.0.2 › Mejoras en las soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=enhancements-openpages-financial-controls-management)
-
-IBM OpenPages® Financial Controls Management (FCM) incluye numerosas mejoras.
-
-FCM da soporte a los usuarios que son responsables del proceso interno de "subcertificación" para los informes de controles financieros, incluyendo SOX. Los usuarios pueden revisar los procesos en curso y los controles clave en una línea de tiempo planificada y aprovechar los flujos de trabajo preconfigurados, los paneles de control y los informes para proporcionar información adicional.
-
-Ahora los usos pueden:
-
-- Dar soporte al proceso de subcertificación de la organización con una infraestructura automatizada, repetible y coherente.
-- Proporcionar funciones de supervisión con una mayor visibilidad del estado del control interno y de la infraestructura de procesos con informes procesables bajo demanda.
-- Gestionar las tareas de requisito previo sin llegar a los propietarios de negocio, de modo que los propietarios de procesos, los propietarios de control y las funciones de supervisión puedan contribuir con confianza al proceso de certificación de la organización a nivel ejecutivo.
-- Utilice el proceso de subcertificación interna para supervisar el programa de pruebas general del marco de control interno y aumentar la conciencia de los riesgos, problemas y brechas generales.
-
-##### Perfiles de usuario
-
-FCM incluye los siguientes perfiles:
-
-- Certificación FCM V2
-
-  Este perfil está diseñado para usuarios que participan activamente en el proceso de revisión y subcertificación.
-- FCM Master V2
-
-  Este perfil está diseñado para usuarios que participan en el proceso de subcertificación o tienen un rol de supervisión en el proceso de subcertificación.
-
-Los perfiles incluyen:
-
-- Pestaña Mi trabajo, pestaña Panel de control con informes y todas las pestañas de la página de inicio
-- Vistas dependientes, campos y listas de selección dependientes
-
-##### Plantilla de funciones
-
-FCM incluye la nueva plantilla de rol FCM - Certificaciones.
-
-##### Grupo de campos
-
-El nuevo grupo de campos y campos de `OPSS-FCM-cert` dan soporte al proceso de subcertificación interno para la creación de informes de controles financieros y se utilizan en los nuevos flujos de trabajo de certificación, paneles de control y vistas.
-
-##### Filtros
-
-FCM incluye filtros para los siguientes tipos de objeto:
-
-- Control
-- Proceso
-- Evaluación de control
-- Evaluación de proceso
-
-Los filtros dan soporte a los nuevos paneles de control de FCM que se utilizan en el proceso de creación de informes de controles financieros.
-
-##### Paneles de control
-
-FCM incluye los paneles de control siguientes:
-
-- Maestro de FCM
-- Certificación FCM
-
-El panel de control Maestro FCM proporciona una visión general de alto nivel para el usuario supervisor. El perfil proporciona visibilidad en el proceso y controla el progreso de la subcertificación y el acceso a informes específicos de FCM.
-
-*Figura 1. Panel de control maestro de FCM*
-
-![Panel de control con informes de certificación y visión general de certificación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_fcm_dashboard1.jpg)
-
-El panel de control de certificación de FCM proporciona una visión general de alto nivel de las tareas asignadas, el estado de las actividades de control y de subcertificación de procesos y el acceso a informes específicos de FCM para ayudar a tomar decisiones asignadas.
-
-*Figura 2. Panel de instrumentos de certificación de FCM*
-
-![Panel de control con mis certificaciones e informes](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_fcm_dashboard2.jpg)
-
-##### Flujos de trabajo de ejemplo
-
-FCM incluye los siguientes flujos de trabajo de ejemplo:
-
-- Certificación FCM - Nivel de negocio
-- Certificación FCM - Evaluación de control
-- Certificación FCM - Evaluación de proceso
-- Certificación FCM - Control
-- Certificación FCM - Proceso
-
-Los flujos de trabajo soportan la infraestructura de subcertificación interna en los niveles de Control y Proceso. Dos vías de flujo de trabajo distintas, la subcertificación de control y la subcertificación de proceso, facilitan esto y se ejecutan simultáneamente a partir del nivel de entidad empresarial.
-
-En función de la infraestructura de subcertificación interna de la organización, puede elegir:
-
-- Habilite solo una de estas vías de flujo de trabajo.
-
-  Por ejemplo, el flujo de trabajo Control puede estar inhabilitado si la subcertificación a nivel de proceso es todo lo que se necesita para cumplir los requisitos de la organización.
-- Inhabilite el flujo de trabajo Certificación FCM - Nivel de negocio si la entidad empresarial no está categorizada como en el ámbito de SOX.
-
-  Si el flujo de trabajo Certificación de FCM-Nivel de negocio está inhabilitado, las operaciones realizadas en este flujo de trabajo deben revisarse, como por ejemplo volver a establecer el campo Estado de certificación en "No revisado" para determinar los impactos en el proceso de subcertificación global y los flujos de trabajo restantes.
-
-- **Flujo de trabajo Certificación FCM - Nivel de negocio**
-
-  - El proceso de subcertificación comienza a nivel de entidad empresarial.
-  - El flujo de trabajo se activa para todas las entidades empresariales que están en el ámbito de SOX.
-  - El flujo de trabajo de nivel empresarial tiene dos etapas, inicio y final.
-  - El flujo de trabajo listo para usar se inicia utilizando el Planificador, que se establece para iniciar cada trimestre natural y se puede ajustar a las necesidades de la organización.
-  - Este flujo de trabajo desencadena el inicio de los siguientes flujos de trabajo:
-
-    - Certificación FCM-Control (campo «“clasificación”» = controles clave, aplicabilidad de flujo de trabajo = controles clave), y
-    - Certificación FCM-Proceso (campo «“en ámbito”» = SOX, aplicabilidad de flujo de trabajo = en ámbito para SOX)
-
-- **Vía de acceso de flujo de trabajo a nivel de control**
-
-  Los objetivos del flujo de trabajo de Certificación de FCM - Control son:
-
-  - Se inicia automáticamente desde el flujo de trabajo de nivel empresarial para todos los controles clasificados como controles «“clave”» .
-  - Cree un objeto de evaluación de control para cada control de tecla.
-  - Inicie automáticamente el flujo de trabajo Certificación de FCM - Evaluación de control.
-
-  Los objetivos del flujo de trabajo Certificación FCM - Evaluación de control son:
-
-  - Proporcione un mecanismo para que el usuario certifique trimestralmente los datos de control para cada control de claves.
-  - Crear un registro de sólo lectura de la certificación (el objeto Control Eval) con los puntos de datos relevantes correlacionados desde el objeto Control en una fecha específica
-
-  El usuario puede completar el flujo de trabajo con las acciones siguientes:
-
-  - Certificar - el campo Descripción de la excepción debe estar en blanco
-  - Certificar con excepción - el campo Descripción de excepción debe rellenarse con la descripción de excepción.
-
-  Una vez finalizada la certificación, el objeto de evaluación de control se bloquea para mantener la integridad de los datos.
-
-  *Figura 3. El flujo de trabajo Certificación de FCM-Evaluación de control*
-
-  ![Vía de acceso de flujo de trabajo para la evaluación de control](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_fcm_workflow_conrol.jpg)
-
-- **Vía de acceso de flujo de trabajo a nivel de proceso**
-
-  Los objetivos del flujo de trabajo Certificación FCM - Proceso son:
-
-  - Se inicia automáticamente desde el flujo de trabajo de nivel empresarial para todos los procesos que están «“en el ámbito de SOX”».
-  - Cree un objeto de evaluación de proceso para cada proceso dentro del ámbito.
-  - Inicie automáticamente el flujo de trabajo Certificación de FCM - Evaluación de proceso.
-
-  Los objetivos del flujo de trabajo Certificación FCM - Evaluación de proceso son:
-
-  - Proporcione un mecanismo para que el usuario certifique los datos de proceso para cada proceso «“en ámbito”» de forma trimestral.
-  - Crear un registro de sólo lectura de la certificación (el objeto de evaluación de proceso) con los puntos de datos relevantes correlacionados desde el objeto de proceso en una fecha específica
-
-  El usuario puede completar el flujo de trabajo con las acciones siguientes:
-
-  - Certificar - el campo Descripción de la excepción debe estar en blanco
-  - Certificar con excepción - el campo Descripción de excepción debe rellenarse con la descripción de excepción.
-
-  - Una vez finalizada la subcertificación, el objeto de evaluación de proceso se bloquea para mantener la integridad de los datos.
-
-  *Figura 4. Certificación FCM-Flujo de trabajo de evaluación de procesos*
-
-  ![Vía de acceso de flujo de trabajo para la evaluación de proceso](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_fcm_workflow_process.jpg)
-
-##### Cálculos
-
-FCM incluye los cálculos siguientes:
-
-- Certificación de evaluación de control
-- Certificación de evaluación de proceso
-
-El propósito de los cálculos es:
-
-- Proporcionar un convenio de denominación automática para los objetos de evaluación de control y evaluación de proceso con la información trimestral y anual en el nombre.
-- Rellene los campos Trimestre y Año en los objetos de evaluación de control y evaluación de proceso para alinearlos con la fecha de subcertificación.
-
-> **Nota:** puesto que la característica GRC Calculations nombra automáticamente los objetos Control Eval y Process Eval, estos objetos no se pueden nombrar si se crean manualmente. Asegúrese de que los botones **Añadir nuevo** del objeto de Evaluación de control y Evaluación de proceso estén inhabilitados en la vista de cuadrícula mientras la característica Cálculos GRC esté habilitada.
-
-##### Vistas
-
-FCM incluye las vistas siguientes:
-
-- `SysView-Grid-SOXProcessCert`
-- `SysView-Grid-SOXProcessEval`
-- `SysView-Task-SOXControlCert`
-- `SysView-Task-SOXControlEvalCert`
-- `SysView-Task-SOXProcessCert`
-- `SysView-Grid-SOXControlEvalCert`
-- `SysView-Grid-SOXControlCert`
-- `SysView-Grid-SOXProcessEval`
-
-Las vistas fueron creadas específicamente para ayudar al usuario en el proceso de subcertificación. El ejemplo siguiente muestra una vista personalizada que se ha desarrollado para dar soporte a este proceso.
-
-La vista de evaluación de proceso se ha diseñado para ayudar al usuario en el proceso de subcertificación. Los puntos de datos del objeto de proceso padre y el flujo de trabajo se correlacionan y se rellenan previamente con el registro de objeto de evaluación de proceso. El Informe de resumen de procesos y controles está disponible en el objeto de Proceso padre para proporcionar información adicional para las funciones de aprobador y supervisión en el proceso de subcertificación.
-
-Se ha proporcionado una guía para ayudar al usuario en el proceso de subcertificación.
-
-*Figura 5. Vista de tarea de evaluación de proceso*
-
-![Vista de tareas para la evaluación de proceso](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_fcm_views.jpg)
-
-##### Informes
-
-FCM incluye los informes siguientes:
-
-- Informe Resumen de estado de certificación de control
-
-  - Acceso a detalles de la certificación de control
-- Informe sobre cuestiones y acciones de la FCM
-- Informe de resumen de SOX
-- Informe de resumen de proceso
-
-Se puede acceder al informe de resumen de estado de certificación de control (con acceso a detalles) desde el panel de control de FCM y proporciona una visión general del estado de certificación de control.
-
-*Figura 6. Informe Resumen de estado de certificación de control*
-
-![Informe de resumen de estado de certificación de control (con acceso a detalles)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_fcm_reports1.jpg)
-
-Se puede acceder al informe sobre cuestiones y acciones de FCM desde el panel de control de FCM y proporciona una lista de problemas y acciones correspondientes para que el usuario de FCM pueda ayudar en el proceso de certificación.
-
-*Figura 7. Informe sobre cuestiones y acciones de la FCM*
-
-![Informe de resumen de estado de certificación de control (con acceso a detalles)](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_fcm_reports2.jpg)
-
-Se puede acceder al Informe de resumen de SOX (FCM - Informe de certificación de control de proceso) desde el panel de control de FCM y es un resumen del estado de certificación de control y proceso por trimestre.
-
-El informe se puede filtrar por entidad empresarial, número de trimestres que se van a visualizar (máximo 5) y estado de control de claves (sí/no).
-
-El informe se divide en tres secciones:
-
-- Estado de certificación de proceso
-- Control dentro de cada estado de certificación de proceso
-- Certificaciones previas por trimestre
-
-*Figura 8. Informe de resumen de SOX (FCM - Informe de certificación de control de proceso)*
-
-![Informe de resumen de SOX](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_fcm_reports3.jpg)
-
-Se accede al informe de resumen certificación de control por proceso desde un campo de la vista de tareas de proceso. Este informe proporciona al usuario información adicional sobre el estado de los controles clave que dan soporte al proceso.
-
-Este informe permite al usuario pulsar en el registro de objeto de control específico.
-
-*Figura 9. Informe de resumen de certificación de control por proceso*
-
-![Resumen de certificación de control por proceso](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_fcm_reports4.jpg)
-
-#### Mejoras en IBM OpenPages Regulatory Compliance Management
-
-`Características nuevas › Nuevas características en la versión 8.2.0.2 › Mejoras en las soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=enhancements-openpages-regulatory-compliance-management)
-
-IBM OpenPages® Regulatory Compliance Management (RCM) incluye numerosas mejoras que siguen basándose en la estrategia y la dirección que se introdujo en 8.2.0.
-
-##### Mejoras en el canal de información de Thomson Reuters
-
-- **Creación de mandato**
-
-  Cuando se importan datos de Thomson Reuters Regulatory Intelligence, ahora se crean mandatos en la biblioteca reguladora.
-
-  ![Se abre un mandato en una vista de tareas y se visualizan los detalles de mandato](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8202_rcm_tr1.jpg)
-
-  El mandato de Thomson Reuters asocia los submandatos de Thomson Reuters que tienen una relación de hijo con el mandato.
-
-  ![Se muestran los submandatos del mandato.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8202_rcm_tr2.jpg)
-
-  A continuación, OpenPages extrae las categorizaciones de los submandatos y las traslada a los detalles del mandato. Las categorizaciones incluyen: Sector, Temas, Emisor, Geografía y Tipo de contenido.
-
-  ![Se muestran los detalles de mandato](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8202_rcm_tr3.jpg)
-
-- **Anotación**
-
-  Los submandatos muestran ahora la versión en línea roja del último cambio regulador en el texto de submandato.
-
-  La anotación se visualiza en el campo texto de submandato en línea roja. Puede utilizar una ayuda contextual para revisar los cambios.
-
-  ![Se muestran los detalles de mandato](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8202_rcm_tr4.jpg)
-
-##### Mejoras en el canal de información de Wolters Kluwer
-
-Los nuevos campos de datos mejoran los eventos reguladores de Wolters Kluwer NIL (Insurance content).
-
-Los nuevos campos son específicos del canal de información de NIL y no aparecen en los canales de información de eventos reguladores de banca y valores. El canal de información de NIL está determinado por `Regulator = InSource`. El contenido de NIL se visualiza automáticamente en una vista específica del seguro tras la ingesta.
-
-![El objeto Wolters Kluwer se visualiza con los detalles en las Clasificaciones de seguros](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8202_rcm_wk1.jpg)
-
-### Software soportado
-
-`Características nuevas › Nuevas características en la versión 8.2.0.2` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8202-supported-software)
-
-IBM OpenPages® 8.2.0.2 da soporte a nuevas versiones de algún software:
-
-- Ahora se da soporte a Microsoft Windows Server 2019 Standard Edition .
-
-  Si utiliza Microsoft Windows Server 2019, también necesita actualizar el software que utiliza IBM OpenPages, como por ejemplo Db2®, Oracley IBM® Installation Manager (IIM). Revise [Entornos soportados](https://www.ibm.com/support/pages/node/713069).
-- Ahora se da soporte al Red Hat® Enterprise Linux® (RHEL) Server 8.x .
-
-  Si utiliza Linux 8.x, también debe actualizar el software utilizado por IBM OpenPages, como por ejemplo Db2, Oracley IBM Installation Manager (IIM). Revise los [entornos soportados](https://www.ibm.com/support/pages/node/713069).
-- Oracle Instant Client ahora está soportado para Oracle 19c.
-
-Para obtener más información, consulte [Entornos soportados](https://www.ibm.com/support/pages/node/713069).
-
-## Nuevas características en la versión 8.2.0.1
-
-`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-new-in-version-8201)
-
-Las nuevas características de IBM OpenPages® 8.2.0.1 incluyen las mejoras siguientes.
-
-### Mejoras de la plataforma
-
-`Características nuevas › Nuevas características en la versión 8.2.0.1` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8201-platform-enhancements)
-
-Las mejoras en la funcionalidad se incluyen en esta versión de IBM OpenPages®.
-
-#### IBM OpenPages for IBM Cloud Pak for Data
-
-`Características nuevas › Nuevas características en la versión 8.2.0.1 › Mejoras de la plataforma` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=enhancements-openpages-cloud-pak-data)
-
-IBM OpenPages® for IBM Cloud Pak for Data 8.2 es una plataforma integrada de gobierno, riesgo y conformidad que las empresas pueden utilizar como herramienta para ayudar a gestionar los riesgos y los retos normativos en toda la empresa.
-
-Proporciona un conjunto de servicios básicos y componentes funcionales que abarcan los dominios de riesgo y cumplimiento, que incluyen el riesgo operativo, la gestión de políticas, la gestión de controles financieros, el gobierno de TI, la auditoría interna, el gobierno de riesgo de modelo, la gestión de conformidad con la normativa, la gestión de riesgos de terceros y la gestión de la continuidad de negocio.
-
-IBM OpenPages for IBM Cloud Pak for Data proporciona un conjunto de herramientas potente, altamente escalable y dinámico que ayuda a capacitar a los gestores con transparencia de la información y la capacidad de identificar, gestionar, supervisar e informar sobre iniciativas de riesgo y conformidad a escala de toda la empresa.
-
-#### IBM Watson Language Translator
-
-`Características nuevas › Nuevas características en la versión 8.2.0.1 › Mejoras de la plataforma` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=enhancements-watson-language-translator)
-
-Utilice IBM Watson® Language Translator para traducir valores en campos de texto a otros idiomas.
-
-> **Importante:** Si utiliza IBM Watson Language Translator en OpenPages® versión 9.0.0.2 o posterior, considere la posibilidad de cambiar a NeuralSeek como servicio de traducción de idiomas porque el servicio IBM Watson Language Translator ha quedado en desuso.
-
-Los iconos y la funcionalidad para IBM Watson Language Translator son diferentes en función de si el punto de acceso es para usuarios o administradores.
-
-Los usuarios pueden trabajar con texto traducido utilizando los iconos ![Watson Icono Conversor](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/wlt_user_icon.jpg) y ![Watson Language Translator en](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/wlt_user_icon_on.jpg) en las vistas de tareas.
-
-Un usuario, por ejemplo, inicia sesión con un entorno local que está asociado con el francés y ve un cambio regulador que se ha emitido originalmente en inglés.
-
-![El cambio regulador se muestra en francés con el texto original en inglés](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/op_nfg_8201_wlt_1.jpg)
-
-Puede hacer clic en ![Watson Icono Conversor](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/wlt_user_icon.jpg) para traducir el texto en inglés al francés. Conmute entre los idiomas pulsando **Ver original** y **Ver traducción**. Pulse el icono Información para ver una puntuación de confianza.
-
-![El texto de cambio normativo se ha traducido al francés](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/op_nfg_8201_wlt_2.jpg)
-
-Los administradores pueden trabajar con texto traducido utilizando el icono ![Icono de traducción automática](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/wlt_adm_icon.jpg) en las pantallas siguientes:
-
-- Texto de la aplicación
-- Texto de objeto
-- Campos
-- Configuración del panel de control (administradores)
-- View Designer
-- GRC Workflow Designer
-
-Un administrador, por ejemplo, inicia la sesión con un entorno local que está asociado con el inglés y abre el Diseñador de flujos de trabajo GRC.
-
-Pulse ![Icono de traducción automática](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/wlt_adm_icon.jpg) para convertir el texto de la etiqueta de la etapa que está escrito en inglés a otros idiomas.
-
-![Etapa de flujo de trabajo con texto de etiqueta de etapa traducido a otros idiomas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/op_nfg_8201_wlt_3.jpg)
-
-Se debe configurar un IBM Watson Language Translator en IBM® Cloud. La integración con IBM Watson Language Translator debe configurarse en OpenPages.
-
-#### Encuesta Net Promoter Score (NPS)
-
-`Características nuevas › Nuevas características en la versión 8.2.0.1 › Mejoras de la plataforma` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=enhancements-net-promoter-score-nps-survey)
-
-Ahora es posible que los usuarios envíen comentarios sobre OpenPages® a IBM® utilizando una encuesta de Net Promoter Score .
-
-Los comentarios de los usuarios ayudan a IBM a mejorar OpenPages.
-
-Si se habilita una encuesta de Net Promoter Score , se presentan a los usuarios dos formas de completar una encuesta:
-
-- Un botón de comentarios de NPS
-- Un formulario de encuesta de NPS después de iniciar sesión
-
-Un botón de comentarios de NPS siempre se visualiza en la página de inicio para los usuarios que son elegibles para recibir una encuesta. Los usuarios pueden proporcionar comentarios en cualquier momento y con la frecuencia que deseen.
-
-*Figura 1. Botón de comentarios de NPS en la página de inicio*
-
-![Botón de comentarios](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/op_nfg_8201_nps_2.jpg)
-
-Se visualiza un formulario de encuesta de NPS en el inicio de sesión en los usuarios que cumplen las condiciones siguientes:
-
-- El usuario debe ser elegible para recibir la encuesta, tal como se define en **Usuarios o grupos incluidos** y **Usuarios o grupos excluidos**.
-- El usuario debe cumplir los requisitos de frecuencia de Medallia:
-
-  - El usuario recibió una encuesta por última vez hace al menos 90 días. Esto impide que la encuesta se presente con demasiada frecuencia. Se presenta independientemente de si el usuario haya proporcionado comentarios o haya rechazado proporcionarlos en la última encuesta.
-  - El usuario debe haber iniciado sesión hace al menos 30 días. Esto evita que la encuesta se presente a los nuevos usuarios.
-
-*Figura 2. Formulario de encuesta de NPS visualizado después de iniciar sesión*
-
-![Formulario de encuesta de NPS](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/op_nfg_8201_nps_1.jpg)
-
-La encuesta se visualiza en el idioma del entorno local que el usuario ha seleccionado. Si se cambia el entorno local, cambia el idioma de la encuesta. Los usuarios responden a las preguntas, añaden capturas de pantalla (opcional) y pulsan **Enviar**.
-
-#### Abrir archivos de Microsoft Office directamente desde OpenPages
-
-`Características nuevas › Nuevas características en la versión 8.2.0.1 › Mejoras de la plataforma` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=enhancements-opening-microsoft-office-files-directly-from-openpages)
-
-Ahora es posible abrir y editar archivos de Microsoft Office directamente desde OpenPages®.
-
-Si esta característica está habilitada está controlada por el nuevo valor: **Aplicaciones** > **Común** > **Configuración** > **Inhabilitar la apertura de archivos con el escritorio de MS Office**. Esta opción está habilitada de forma predeterminada.
-
-La funcionalidad de esta característica es similar a la edición en línea. Los usuarios pueden abrir archivos de Microsoft Office directamente desde OpenPages. Cada vez que un usuario pulsa guardar dentro de un archivo que se abre de este modo, el archivo se guarda en el repositorio de archivos de OpenPages. Sin embargo, otros usuarios no pueden ver los cambios hasta que se ha incorporado el archivo.
-
-Si está habilitado, los usuarios pueden abrir y editar archivos de Microsoft Office desde los siguientes puntos de acceso en la interfaz de usuario centrada en tareas:
-
-- En una vista de tareas para un tipo de objeto, donde la vista de tareas contiene un campo de relación de cuadrícula para el tipo de objeto Archivo.
-- En una vista de tareas para el tipo de objeto Archivo.
-
-La característica está disponible:
-
-- Cuando SSL está habilitado en el servidor de aplicaciones.
-- Sólo en clientes Microsoft Windows. No está disponible en los sistemas operativos Mac.
-- Sólo si Microsoft Office 2016 o Microsoft 365 se instalan localmente para los usuarios.
-- Solo para archivos de Word, Excel y PowerPoint con las siguientes extensiones: .doc, .docx, .xls, .xlsx, ppt, pptx.
-
-El ejemplo siguiente muestra los nuevos iconos ![icono de vista](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/tfui_view_file_icon.jpg) (Ver) y ![Icono Editar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/tfui_edit_file_icon.jpg) (Editar). Se visualiza una vista de tareas para un control y se adjunta un documento de Word al control. El documento de Word se puede abrir, ver y modificar en Microsoft Word dirigido desde el control. Cada vez que un usuario pulsa Guardar, el archivo se guarda en el repositorio de archivos de OpenPages . El usuario debe incorporar el archivo. Entonces, la última versión del documento está disponible para que otros usuarios la vean y la editen.
-
-![Vista de tareas para controles con nuevos botones para ver y editar](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/op_nfg_8201_msoffice_365.jpg)
-
-#### Mejoras en la interfaz de usuario centrada en tareas
-
-`Características nuevas › Nuevas características en la versión 8.2.0.1 › Mejoras de la plataforma` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=pe-enhancements-task-focused-ui-1)
-
-La interfaz de usuario centrada en tareas incluye numerosas prestaciones y características nuevas.
-
-##### Tareas de administrador migradas desde la interfaz de usuario estándar
-
-Ahora se puede acceder a las siguientes tareas en el menú Administración en el Interfaz de usuario centrada en las tareas bajo **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución**:
-
-- **Objetos** con acceso a campos y grupos de campos
-- **Perfiles**
-
-Ahora se puede acceder a las siguientes tareas en el menú Administración en el Interfaz de usuario centrada en las tareas bajo **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Usuarios y seguridad**:
-
-- **Dominios y grupos**
-- **Plantillas de funciones**
-- **Reglas de seguridad**
-
-Las tareas siguen estando disponibles en la interfaz de usuario estándar.
-
-### Mejoras en las soluciones
-
-`Características nuevas › Nuevas características en la versión 8.2.0.1` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8201-solutions-enhancements)
-
-Las soluciones de IBM OpenPages® se han mejorado para hacerlas más completas y fáciles de utilizar.
-
-#### Mejoras en IBM OpenPages Regulatory Compliance Management
-
-`Características nuevas › Nuevas características en la versión 8.2.0.1 › Mejoras en las soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=se-enhancements-openpages-regulatory-compliance-management)
-
-IBM OpenPages® Regulatory Compliance Management (RCM) incluye numerosas mejoras que siguen basándose en la estrategia y la dirección que se introdujo en 8.2.0.
-
-##### Nuevos tipos de objeto
-
-Se han añadido los tipos de objeto siguientes:
-
-- Reg-Track Evento normativo
-- Reg-Track Serie de eventos reguladores
-
-##### Reg-Track Conector
-
-IBM OpenPages Regulatory Compliance Management ahora incluye un conector para Reg-Track.
-
-El objeto de evento regulador de Reg-Track permite la ingesta directa de canales de información de eventos reguladores de Reg-Track en RCM y la generación automatizada de flujos de trabajo asignados a los usuarios basándose en los puntos de datos proporcionados. Esta automatización ayuda a asignar tareas a los usuarios de forma eficiente, lo que les permite responder de forma eficaz y prepararse para el cambio regulador.
-
-- **Correlación de taxonomías**
-
-  Los usuarios pueden asociar su propia taxonomía a la taxonomía Reg-Track que se utiliza para eventos reguladores.
-
-  Los usuarios pueden rellenar campos en un registro de evento regulador que sean más coherentes con otros valores que se utilizan en IBM OpenPages. Los puntos de datos convertidos están disponibles para su uso de la misma forma que los puntos de datos existentes en el registro de evento regulador como, por ejemplo, para establecer condiciones dentro del motor de reglas o en un flujo de trabajo.
-
-- **Reg-Track Motor de reglas**
-
-  El motor de reglas de IBM OpenPages ayuda a los usuarios a manejar la afluencia diaria de sucesos normativos, a direccionarlos automáticamente a los usuarios adecuados de su organización e iniciar los flujos de trabajo necesarios.
-
-  Los datos de los canales de información de Reg-Track se cargan en OpenPagesy, a continuación, pasan a través del motor de reglas. Un evento regulador puede activar varias reglas si se cumple más de una de las condiciones de una regla.
-
-  Los usuarios pueden acceder al motor de reglas a través de un enlace en la página **Eventos reguladores Reg-Track**.
-
-Para obtener información sobre cómo configurar el conector Reg-Track , consulte la publicación *IBM OpenPages Guía del administrador*.
-
-##### Flujos de trabajo de ejemplo para el conector Reg-Track
-
-Los siguientes flujos de trabajo están disponibles con el conector Reg-Track :
-
-- Activar cambio - Regulador
-
-  Este flujo de trabajo crea un registro de cambio regulador y asocia el registro a un evento regulador de Reg-Track cuando se cumplen las condiciones de una regla del motor de reglas que indica que el evento regulador de Reg-Track aborda un cambio regulador, como una regla propuesta o final publicada en el registro federal. El flujo de trabajo también llena determinados campos en el registro de cambio regulador creado, incluida la categorización del registro de cambio regulador como **Cambio regulador**. Este flujo de trabajo permite la asociación de varios registros de cambios reguladores a un evento regulador de Reg-Track para que varios usuarios puedan analizar el impacto del evento regulador de Reg-Track en sus áreas particulares de responsabilidad dentro de la organización.
-- Activar cambio - Exploración de horizonte
-
-  Este flujo de trabajo crea un registro de cambio regulador y asocia el registro a un evento regulador de Reg-Track cuando se cumplen las condiciones de una regla del motor de reglas que indica que el evento regulador de Reg-Track aborda un problema que no es un cambio regulador, como una acción de voz o de imposición publicada por un regulador. El flujo de trabajo también rellena determinados campos del registro de cambio regulador creado, incluida la categorización del registro de cambio regulador como **Exploración de horizonte**. Este flujo de trabajo permite la asociación de varios registros de cambios reguladores a un evento regulador de Reg-Track para que varios usuarios puedan analizar el impacto del evento regulador de Reg-Track en sus áreas particulares de responsabilidad dentro de la organización.
-- Reg-Track Flujo de trabajo de revisión de cambio regulador
-
-  Cuando se crea un registro de cambio regulador, se inicia este flujo de trabajo. El flujo de trabajo guía al usuario a través del proceso de un evento regulador de Reg-Track. El usuario determina la aplicabilidad del evento regulador de Reg-Track asociado con el registro de cambio regulador y determina el impacto del evento regulador de Reg-Track. El usuario también puede crear y asignar tareas reguladoras a los usuarios dentro de RCM para las acciones que se deben lleva a cabo para responder al evento regulador de Reg-Track. Cuando las tareas reguladoras se asignan a los usuarios, este flujo de trabajo no se puede cerrar hasta que se han completado todas las tareas reguladoras relacionadas.
-- Enviar notificación por correo electrónico
-
-  Este flujo de trabajo se puede utilizar para enviar notificaciones de correo a los usuarios que se nombran dentro de una regla que se crea en el motor de reglas.
-
-##### Reglas de ejemplo para el proceso de eventos reguladores de Reg-Track
-
-Las reglas siguientes están disponibles con el conector Reg-Track:
-
-- **Change Management – US Federal (Gestión de cambios - Nivel federal de EE.UU)**
-
-  Esta regla crea un objeto de cambio regulador si el evento regulador entrante es un cambio regulador federal de EE.UU.
-
-  *Figura 1. Regla Change Management – US Federal (Gestión de cambios - Nivel federal de EE.UU)*
-
-  ![Se muestran el nombre y las condiciones de la regla Change Management-US Federal.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/op_nfg_8201_rcm_rt_rule_usfed.jpg)
-
-- **Change Management – Global (Gestión de cambios - Nivel global)**
-
-  Esta regla crea un objeto de cambio regulador si el evento regulador entrante es un cambio regulador global.
-
-  *Figura 2. Regla Change Management – Global (Gestión de cambios - Nivel global)*
-
-  ![Se muestran el nombre y las condiciones de la regla Gestión de cambios-Global.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/op_nfg_8201_rcm_rt_rule_global.jpg)
-
-- **Horizon Scanning – Change Management Notices (Exploración de horizonte - Avisos de gestión de cambios)**
-
-  Esta regla envía una notificación por correo electrónico si el suceso de regulación de Reg-Track entrante es cualquier tipo de cambio regulador.
-
-  *Figura 3. Regla Horizon Scanning – Change Management Notices (Exploración de horizonte - Avisos de gestión de cambios)*
-
-  ![Se muestran el nombre, las condiciones y la acción de destino de la regla Exploración de horizonte-Avisos de gestión de cambios.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/op_nfg_8201_rcm_rt_rule_hscan.jpg)
-
-- **Exploración de horizonte - Materiales secundarios**
-
-  Esta regla crea un objeto de cambio regulador con `type: horizon scanning` si el evento regulador de Reg-Track entrante no es un cambio regulador.
-
-  *Figura 4. Regla Horizon Scanning – Secondary Materials (Exploración de horizonte - Materiales secundarios)*
-
-  ![Se muestran el nombre, las condiciones y la acción de destino de la regla Exploración de horizonte-Materiales secundarios.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/op_nfg_8201_rcm_rt_rule_hscan-sec.jpg)
-
-#### Mejoras en OpenPages Gestión de riesgos de terceros
-
-`Características nuevas › Nuevas características en la versión 8.2.0.1 › Mejoras en las soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=se-enhancements-openpages-third-party-risk-management)
-
-OpenPages® Third Party Risk Management (TPRM) ahora incluye un conector para Security Ratings de SecurityScorecard.
-
-##### SecurityScorecard Conector
-
-El conector SecurityScorecard permite a los usuarios ingerir las calificaciones de seguridad en objetos de proveedor en OpenPages.
-
-Una vez que se han ingerido las calificaciones de seguridad, los usuarios pueden verlas en los proveedores, como se muestra en el ejemplo siguiente.
-
-*Figura 1. Ejemplo de proveedor con calificaciones de seguridad*
-
-![Objeto de proveedor que muestra las evaluaciones que se han ingerido desde SecurityScorecard](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8201_securityscorecard_vendor.jpg)
-
-##### Trabajo de Planificador
-
-Los administradores configuran y planifican el canal de información de SecurityScorecard utilizando el nuevo trabajo administrativo de tarjeta de puntuación de seguridad en el Planificador.
-
-##### Campos de proveedores
-
-Se han añadido los campos siguientes a los proveedores:
-
-- Grado de seguridad de la aplicación, puntuación y puntuación del sector
-- Grado medio del sector
-- Puntuación media del sector
-- Grado de puntuación de Cubit, puntuación y puntuación del sector
-- Grado de estado de DNS, puntuación y puntuación del sector
-- Grado de seguridad de punto final, puntuación y puntuación del sector
-- Grado de Hacker Chatter, puntuación y puntuación del sector
-- Grado de reputación de IP, puntuación y puntuación del sector
-- Sector industrial
-- Grado de filtración de información, puntuación y puntuación del sector
-- Grado de seguridad de red, puntuación y puntuación del sector
-- Grado general
-- Puntuación global
-- Grado de cadencia de parcheo, puntuación y puntuación del sector
-- Grado de ingeniería social, puntuación e industria del sector
-- Enlace de tarjeta de puntuación de proveedor
-- URL de proveedor
-
-##### Panel de control
-
-El nuevo panel de control del proveedor de TPRM con tarjeta de puntuación de proveedor proporciona una visión general de alto nivel de las diferentes actividades de gestión de riesgos de terceros en su organización. Un gestor de riesgos de terceros puede utilizar el panel de control para gestionar tareas y mantenerse informado de las actividades del programa de riesgo de terceros. Los paneles siguientes se incluyen en el panel de control:
-
-- El panel Grado general crítico de terceros muestra y cuenta el grado general de tarjeta de puntuación de seguridad de los proveedores críticos del usuario.
-- El panel Deficiencia de puntuación general de SSC (< 72) identifica los proveedores que tienen una puntuación de la tarjeta de puntuación de seguridad inferior a 72.
-
-*Figura 2. Panel de control del proveedor de TPRM con tarjeta de puntuación de seguridad*
-
-![Panel de control que muestra el nuevo panel para la tarjeta de puntuación de seguridad](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8201_securityscorecard_dashboard.jpg)
-
-### Mejoras de administración y capacidad de servicio
-
-`Características nuevas › Nuevas características en la versión 8.2.0.1` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8201-administration-serviceability-enhancements)
-
-Se han realizado mejoras para ayudarle a administrar, mantener y dar soporte a IBM OpenPages®.
-
-### Software soportado
-
-`Características nuevas › Nuevas características en la versión 8.2.0.1` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=8201-supported-software)
-
-IBM OpenPages® 8.2.0.1 da soporte a nuevas versiones de algún software:
-
-- IBM® Db2® 11.5.4 (y futuros releases de 11.5.x.x ) ahora está soportado.
-
-Para obtener más información, consulte [Entornos soportados](https://www.ibm.com/support/pages/node/713069).
-
-## Características nuevas de la versión 8.2.0
-
-`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-new-in-version-820)
-
-Las nuevas características de IBM OpenPages® 8.2.0 incluyen las mejoras siguientes.
-
-IBM OpenPages 8.1 ha sido el último release que ha dado soporte a la integración con IBM® Business Process Manager. Se recomienda a las organizaciones realizar la transición a GRC Workflow, que forma parte de IBM OpenPages. Para obtener información sobre cómo configurar GRC Workflow, consulte la publicación *IBM OpenPages Guía del administrador*.
-
-### Mejoras de la plataforma
-
-`Características nuevas › Características nuevas de la versión 8.2.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=820-platform-enhancements)
-
-Las mejoras en la funcionalidad se incluyen en esta versión de IBM OpenPages®.
-
-#### Cálculos de GRC
-
-`Características nuevas › Características nuevas de la versión 8.2.0 › Mejoras de la plataforma` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=enhancements-grc-calculations)
-
-GRC Calculations, junto con GRC Workflow y la interfaz de usuario centrada en tareas, ofrecen una plataforma potente y completa para adaptar IBM OpenPages® a sus requisitos empresariales y para desplegarlo y actualizarlo fácilmente en un entorno ágil.
-
-El objetivo de un cálculo es establecer un valor para uno o más campos de salida en un objeto, basándose en los valores de uno o más campos. Solo se pueden establecer campos en el tipo de objeto para el cálculo. Los campos en tipos de objetos relacionados no se pueden establecer. Los cálculos se ejecutan cuando se crea un objeto, se actualizan los campos de entrada del cálculo o se realizan asociaciones de objetos. También los puede ejecutar manualmente un administrador.
-
-Para calcular un valor para un campo de salida, un cálculo puede acceder a valores de los siguientes orígenes:
-
-- Campos de un objeto en sí mismo
-- Campos en objetos directamente relacionados
-- Campos en objetos indirectamente relacionados
-- Campos en objetos de preferencia
-- Valores de claves de registro
-
-El acceso a la información entre tipos de objetos le permite tener una vista más amplia de los datos agregados. Por ejemplo, puede crear cálculos que definan la puntuación de riesgo para entidades empresariales basándose en riesgos inherentes, clasificaciones de eficiencia de control, indicadores clave de riesgo (KRI), resultados de prueba, así como riesgos calculados de entidades de negocio subyacentes.
-
-Se accede a los Cálculos GRC en el menú Administración haciendo clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Cálculos** .
-
-La lista de cálculos permite a los usuarios crear, ver, habilitar, inhabilitar y ejecutar cálculos.
-
-*Figura 1. Lista de cálculos*
-
-![La lista de cálculos muestra los cálculos de ejemplo que forman parte de OpenPages.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8200_calculations_1.jpg)
-
-Una definición de cálculo contiene el tipo de objeto, el indicador habilitado, la aplicabilidad y las operaciones.
-
-*Figura 2. Definición de cálculo*
-
-![El cálculo de evento de pérdida muestra el tipo de objeto, Habilitado, Aplicabilidad y operaciones.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8200_calculations_2.jpg)
-
-##### Cálculos de ejemplo
-
-IBM OpenPages se entrega con un conjunto de cálculos de ejemplo que puede utilizar como entregado o como base para sus propios cálculos.
-
-##### Activadores
-
-Para las organizaciones que utilizan actualmente desencadenantes en IBM OpenPages, la funcionalidad de desencadenantes se puede pasar a GRC Workflow y GRC Calculations. En comparación con los desencadenantes, las nuevas características son más rápidas y fáciles de desplegar y actualizar.
-
-Los activadores que funcionan actualmente en el entorno siguen funcionando. Sin embargo, su organización debe realizar un plan para activar la transición y aprovechar la funcionalidad que se basa en las características GRC Workflow y GRC Calculations .
-
-#### Planificador
-
-`Características nuevas › Características nuevas de la versión 8.2.0 › Mejoras de la plataforma` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=enhancements-scheduler)
-
-Los administradores pueden utilizar el Planificador para gestionar trabajos administrativos.
-
-El Planificador da soporte a los siguientes tipos de trabajos:
-
-- Trabajos personalizados
-
-  Los trabajos personalizados se definen, inician y visualizan en el Planificador.
-- Trabajos de inicio de flujo de trabajo
-
-  Los trabajos de inicio de flujo de trabajo se inician y visualizan en el Planificador. Aparecen automáticamente en el Planificador para los flujos de trabajo definidos con un inicio planificado.
-- Ascent trabajos
-
-  Los trabajos administrativos de Ascent se inician y visualizan en el Planificador. Aparecen automáticamente en el Planificador si se utiliza el canal de información Ascent . El trabajo define la configuración y la planificación para el canal de información de Ascent .
-
-Los trabajos se pueden definir para que se ejecuten en los siguientes tipos de planificaciones:
-
-- Recurrente: diaria, semanal, mensual o trimestral
-- Fecha/hora especificada: una fecha y hora específicas
-- Expresión cron: una planificación avanzada que se puede establecer con una frecuencia de hasta 60 minutos
-
-La Programador está disponible en el menú Administración haciendo clic en **Abrir el menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** > **Configuración de la solución** > **Programador**. La lista muestra todos los trabajos establecidos a través del Planificador.
-
-*Figura 1. Planificador*
-
-![El elemento de menú Planificaciones se resalta y se visualiza una lista de planificaciones.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8200_scheduler_1.jpg)
-
-Cuando un usuario pulsa un trabajo de la lista, se visualiza información detallada para el trabajo.
-
-*Figura 2. Información de trabajo*
-
-![Un trabajo muestra el nombre, la información de ejecución y la información de planificación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8200_scheduler_2.jpg)
-
-Pulse **Ejecuciones** para ver las instancias cuando se ejecuta la planificación.
-
-*Figura 3. Información de ejecución de trabajo*
-
-![La pestaña Ejecuciones muestra las instancias de la planificación que se han ejecutado](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8200_scheduler_3.jpg)
-
-Seleccione una entrada para ver información de registro relacionada con cada planificación ejecutada.
-
-*Figura 4. Información de registro de trabajo*
-
-![Se muestra información de registro sobre la ejecución de un trabajo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8200_scheduler_4.jpg)
-
-##### Trabajos personalizados
-
-Los administradores pueden crear trabajos personalizados pulsando **Nuevo trabajo** en el Planificador. Debe proporcionarse un nombre de clase Java™ . La configuración personalizada y una planificación son opcionales.
-
-La clase Java que implementa el trabajo personalizado debe derivar de la clase OpenPages® `com.ibm.openpages.api.scheduler.AbstractScheduledProcess`y alterar temporalmente el método `execute` . El método `execute` tiene acceso al trabajo y a toda la configuración definida a través de la interfaz de usuario.
-
-##### Trabajos de inicio de flujo de trabajo
-
-Utilizando el Diseñador de flujos de trabajo GRC, los usuarios que definen flujos de trabajo pueden establecer la iniciación de un flujo de trabajo de acuerdo con una planificación. Al pulsar **Editar** en el campo **Inicio planificado** dentro del panel Propiedades del flujo de trabajo, un usuario puede establecer la planificación para iniciar un flujo de trabajo.
-
-*Figura 5. Definición del inicio planificado en GRC Workflow Designer*
-
-![El flujo de trabajo Iniciar flujo de trabajo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8200_scheduler_6.jpg)
-
-Después de establecer la planificación, se añade automáticamente un trabajo correspondiente a la lista en el Planificador. El nombre de trabajo es un valor concatenado del nombre de flujo de trabajo, el tipo de objeto y `- Scheduled Start`.
-
-Cuando el Planificador ejecuta un trabajo de inicio de flujo de trabajo basándose en su planificación, se comprueban los criterios de aplicabilidad del flujo de trabajo. Se inician los flujos de trabajo para objetos que cumplen los criterios. Los usuarios pueden utilizar campos de fecha dentro de los objetos para refinar los criterios de aplicabilidad. En el ejemplo siguiente, estableciendo **Fecha de revisión siguiente** igual a la expresión `[$TODAY$]`, los flujos de trabajo inician cuando el campo Fecha de revisión siguiente de un registro es igual a la fecha en que se ejecuta la planificación.
-
-*Figura 6. Definición de la aplicabilidad en GRC Workflow Designer*
-
-![El panel de aplicabilidad del flujo de trabajo muestra que la fecha de revisión siguiente debe ser igual a la fecha de hoy para que se inicie el flujo de trabajo](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8200_scheduler_8.jpg)
-
-##### Trabajos de Ascent y canales de información normativos
-
-El contenido normativo del proveedor de datos Ascent está disponible para su ingestión en OpenPages a partir del release 8.2 . La configuración y planificación para este proveedor de canales de información está disponible a través del trabajo administrativo Ascent en el Planificador.
-
-La configuración de los canales de información de Thomson Reuters y Wolters Kluwer permanece en el objeto de evento regulador en 8.2. La información de registro para estos canales de información está disponible para su visualización en el Planificador para los trabajos Canal de información de TRRI y Canal de información de Wolters Kluwer .
-
-#### Visualización del esquema de solución
-
-`Características nuevas › Características nuevas de la versión 8.2.0 › Mejoras de la plataforma` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=enhancements-solution-schema-visualization)
-
-Los administradores pueden utilizar la nueva visualización de esquema de solución para ver el modelo de objeto OpenPages® .
-
-OpenPages se entrega con modelos de objetos listos para usar para el modelo de objeto global y uno para cada solución de OpenPages.
-
-Puede crear nuevas visualizaciones de esquemas de soluciones para satisfacer sus necesidades. Por ejemplo, puede crear una visualización de esquema de solución de gestión de sucesos de pérdida o de gestión de problemas.
-
-Una visualización de esquema de soluciones proporciona acceso a las relaciones y los tipos de objeto. También puede acceder a lo siguiente:
-
-- Grupos de campos (compartidos con otros objetos o no)
-- Campos
-- Filtros públicos
-- Perfiles
-- vistas de tarea
-- Flujos de trabajo
-
-*Figura 1. El modelo de objeto de solución de BCM*
-
-![La visualización muestra las relaciones entre los tipos de objeto de BCM](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8200_object_model_visualization.jpg)
-
-#### Mejoras en la interfaz de usuario centrada en tareas
-
-`Características nuevas › Características nuevas de la versión 8.2.0 › Mejoras de la plataforma` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=pe-enhancements-task-focused-ui-2)
-
-La interfaz de usuario centrada en tareas incluye numerosas prestaciones y características nuevas.
-
-##### IBM watsonx Assistant
-
-IBM watsonx Assistant™ es un bot de chat que puede aparecer en la interfaz de usuario centrada en tareas. Ofrece soporte de 24 horas a las preguntas comunes que los usuarios tienen dentro de OpenPages®. Proporciona respuestas de texto interactivas, búsqueda de lenguaje natural y enlaces directos a páginas específicas de OpenPages, por ejemplo, a una vista de creación en la que un usuario puede entrar un problema o un evento de pérdida. Es necesaria una suscripción al servicio IBM watsonx Assistant Plus.
-
-Cuando se configura IBM watsonx Assistant , el icono ![Icono Iniciar conversación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/start_chat_icon.jpg) se muestra en todas las páginas de la IU centrada en tareas.
-
-*Figura 1. El icono Iniciar conversación*
-
-![Se muestra un panel de control. El botón Iniciar conversación se muestra en el panel de control.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8200_tfui_watson_assistant_1.jpg)
-
-Pulse ![Icono Iniciar conversación](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/start_chat_icon.jpg) para empezar a interactuar con IBM watsonx Assistant.
-
-*Figura 2. Interacción con IBM watsonx Assistant*
-
-![Se abre un panel que contiene una conversación. Un usuario pregunta cómo crear un problema. El bot de conversación responde y proporciona un enlace para crear un nuevo problema.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8200_tfui_watson_assistant_2.jpg)
-
-##### IBM Watson Insights
-
-La integración de Natural Language Classifier se muestra ahora en la IU centrada en tareas como IBM Watson® Insights. IBM Watson Insights agiliza la experiencia del usuario y mejora la calidad de los datos. Solo aparece si hay información en la vista que sea pertinente a las sugerencias. Anteriormente, se mostraba incluso si ninguna información de la vista era pertinente para las sugerencias.
-
-En el ejemplo siguiente, la correlación de objetos de Natural Language Classifier se ha configurado para correlacionar problemas con controles. Cuando el usuario crea un nuevo problema, aparece un enlace si el NLC puede sugerir una correlación de control basada en el contenido de la descripción. El enlace no aparece si la descripción no genera una correlación.
-
-*Figura 3. Enlace de sugerencia*
-
-![Se muestra una vista de tarea. Un usuario escribe una descripción para un problema nuevo. En la vista se muestra un recuadro denominado Sugerencias de control ISO.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8200_tfui_watson_moments_1.jpg)
-
-Se abre el panel lateral de IBM Watson Insights y el usuario puede seleccionar un control.
-
-*Figura 4. IBM Watson Insights*
-
-![Se visualiza un panel lateral denominado Correlación de control. El panel lista los controles. Cada control tiene una puntuación de relevancia.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8200_tfui_watson_moments_2.jpg)
-
-El usuario selecciona un Control, que luego se añade como Control en el Problema.
-
-*Figura 5. Se acepta la sugerencia*
-
-![La vista se actualiza para visualizar el control que el usuario ha seleccionado en el panel Correlación de controles.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8200_tfui_watson_moments_3.jpg)
-
-##### Diagramas de Gantt
-
-Utilice un diagrama de Gantt cuando desee ver el estado de asignación de proyectos o tareas a lo largo del tiempo. Los diagramas de Gantt se utilizan normalmente para ver el trabajo asignado a un equipo o a una persona individual.
-
-*Figura 6. Diagrama de Gantt*
-
-![Gráfico de Gantt con el que se muestran los planes listados por auditor/actividad y las fechas de inicio y finalización previstas](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/tfui_gantt1.jpg)
-
-##### Nuevos métodos de agregación en gráficos
-
-Puede crear gráficos utilizando los siguientes métodos de agregación:
-
-- `average`
-- `max`
-- `min`
-- `sum`
-
-##### Registro de auditoría (historial de cambios)
-
-La nueva pestaña **Actividad** de las vistas de tarea permite a los usuarios ver el historial de cambios. Las actividades se pueden filtrar para mostrar los cambios realizados en valores de campo, asociaciones de objetos y campos de flujo de trabajo.
-
-*Figura 7. Pestaña Actividad en una vista de tarea*
-
-![Se visualiza una vista de tarea para cuentas por cobrar con la pestaña Actividad seleccionada. La pestaña muestra una cuadrícula de tipos de actividad.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8200_tfui_activity_tab.jpg)
-
-##### Panel de control basado en la búsqueda global
-
-Los paneles de control definidos por los administradores ahora pueden contener un panel de búsqueda basado en la búsqueda global. Un panel de búsqueda puede ser para todos los tipos de objetos seleccionados.
-
-Cuando un usuario especifica texto en un panel de búsqueda, la búsqueda global analiza la entrada y muestra los resultados coincidentes. Se pueden devolver hasta 25 objetos en un panel de búsqueda. Si un usuario pulsa un objeto en la lista de resultados del panel de búsqueda, el objeto se abre en una pestaña nueva. El usuario también puede marcar un objeto como favorito.
-
-En el ejemplo siguiente, se configuran tres paneles de búsqueda: todos los tipos de objeto (titulado Búsqueda global), Planes de continuidad de negocio y Políticas. El panel Favoritos muestra los objetos marcados como favoritos.
-
-*Figura 8. Paneles de búsqueda en la página de inicio*
-
-![Panel de instrumentos que muestra los paneles de búsqueda para todos los objetos y tipos de objeto específicos](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_8200_tfui_global_search.jpg)
-
-##### Cambios en el aspecto (Carbon v10)
-
-El aspecto general de la interfaz de usuario centrada en tareas ha cambiado debido a una actualización en la infraestructura subyacente.
-
-##### Menú de administrador renombrado y reestructurado
-
-El menú que aparece al hacer clic en **Abrir menú Administración ![menú Administración](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/settings_menu_icon_task_focused_ui.jpg)** se denominaba anteriormente menú Configuración.
-
-Las tareas en el menú del administrador se organizan en las categorías siguientes:
-
-- Configuración de soluciones
-- Usuarios y seguridad
-- Cognos® Analytics
-- Configuración de sistemas
-- Watson Integrations
-- Periodos de elaboración de informes
-- Fastmap
-- Otros
-
-##### Tareas de administrador migradas desde la interfaz de usuario estándar
-
-Ahora se puede acceder a la siguiente tarea de administrador en el menú Administrador de la IU centrada en tareas:
-
-- **Monedas**
-- **Seguridad personalizada**
-- **Habilitar/Inhabilitar modo de administración del sistema (SAM)**
-- **Almacén de claves de cifrado**
-- **Natural Language Classifier**
-- **Restablecimientos de objeto**
-- **Generación de entorno de elaboración de informes**
-- **Esquema de elaboración de informes**
-- **Periodos de elaboración de informes**
-- **Restablecimientos de objeto**
-- **Usuarios**
-- **Configuración LDAP de usuario**
-- **Archivos del sistema**
-
-Las tareas siguen estando disponibles en la interfaz de usuario estándar.
-
-#### Mejoras en GRC Workflow
-
-`Características nuevas › Características nuevas de la versión 8.2.0 › Mejoras de la plataforma` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=enhancements-grc-workflow)
-
-GRC Workflow incluye numerosas prestaciones y características nuevas.
-
-##### Inicio planificado
-
-Los flujos de trabajo se pueden definir para que se ejecuten en una planificación, por ejemplo, cada noche a medianoche.
-
-Utilizando el Diseñador de flujos de trabajo GRC, el nuevo campo **Inicio planificado** del panel Propiedades de flujo de trabajo contiene información sobre la planificación.
-
-Los flujos de trabajo definidos con una planificación se muestran automáticamente como trabajos de inicio de flujo de trabajo en el Planificador.
-
-##### Flujos de trabajo de ejemplo
-
-Se ha entregado un nuevo flujo de trabajo de ejemplo, incluyendo las evaluaciones de incidencias y cuestionarios. Para obtener más información, consulte la publicación *IBM OpenPages Guía de soluciones*.
-
-#### Nueva página de inicio de sesión
-
-`Características nuevas › Características nuevas de la versión 8.2.0 › Mejoras de la plataforma` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=enhancements-new-login-page)
-
-Se muestra una nueva página de inicio de sesión para la IU centrada en tareas y la IU estándar.
-
-*Figura 1. Nueva página de inicio de sesión de OpenPages*
-
-![Pantalla de inicio de sesión de OpenPages](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_820_login.jpg)
-
-##### Política de uso aceptable añadida a la página de inicio de sesión
-
-Una política de uso aceptable puede contener un enlace, por ejemplo, a un sitio de intranet con más información sobre un uso aceptable.
-
-El enlace también lo utiliza el elemento de menú **Uso aceptable** en el menú Ayuda de la IU centrada en tareas y la IU estándar.
-
-### Mejoras en las soluciones
-
-`Características nuevas › Características nuevas de la versión 8.2.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=820-solutions-enhancements)
-
-Las soluciones de IBM OpenPages® se han mejorado para hacerlas más completas y fáciles de utilizar.
-
-#### IBM OpenPages Business Continuity Management
-
-`Características nuevas › Características nuevas de la versión 8.2.0 › Mejoras en las soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=enhancements-openpages-business-continuity-management)
-
-La nueva solución IBM OpenPages® Business Continuity Management (BCM) la utiliza una organización, o grupo, para mantener o reanudar un nivel predeterminado de operaciones durante o después de un suceso disruptivo. Se identifican todos los riesgos que pueden afectar potencialmente al negocio durante o después de un suceso.
-
-Mediante BCM, las organizaciones pueden crear una infraestructura para identificar activos y procesos críticos y elaborar planes de continuidad de negocio de nivel empresarial.
-
-BCM ayuda a las organizaciones a:
-
-- Centralizar los datos de la continuidad de negocio
-- Realizar análisis del impacto empresarial para determinar el grado de importancia de personas, procesos y activos
-- Desarrollar planes de continuidad de negocio, incluyendo, pero sin limitarse a, el nivel de preparación para la recuperación tras desastre, planes de comunicación, listas de comprobación de equipos, preparación para emergencias, logística de empleados y listas de comprobación de proveedores
-- Identificar planes y partes interesadas relevantes utilizando sucesos desencadenantes
-- Ejecutar flujos de trabajo para automatizar procesos críticos
-- Probar la eficacia del plan de continuidad de negocio e identificar y mitigar los riesgos clave
-- Visualizar las actividades de gestión y planificación clave con un panel de control fácil de utilizar
-
-BCM tiene cálculos incorporados para ayudar a las organizaciones a determinar la gravedad de los procesos para sus negocios y a generar niveles de impacto con umbrales aceptables. Los flujos de trabajo incorporados previamente permiten a las organizaciones redactar borradores, revisar, aprobar y publicar planes con desencadenantes para la caducidad y el archivado. Estos planes se pueden correlacionar con los análisis de impacto empresarial, políticas, procedimientos, procesos, ubicaciones, sucesos, problemas y pruebas del cliente.
-
-##### Eche un vistazo a BCM
-
-Este vídeo proporciona una visión general de BCM:
-
-[Este vídeo proporciona una descripción general de BCM.](https://video.ibm.com/embed/channel/25817967/video/op-overview-bus-continuity)
-
-##### Perfiles de usuario
-
-BCM incluye dos perfiles:
-
-- Perfil de OpenPages BCM Master
-- Perfil de usuario final de BCM OpenPages
-
-El perfil de OpenPages BCM Master incluye los campos y la configuración necesarios para BCM.
-
-Este perfil incluye:
-
-- Pestaña Mi trabajo, pestaña Panel de control, y todas las pestañas de la página de inicio
-- Campos dependientes y listas de selección dependientes
-- Vistas Detalle, Contexto, Carpeta, Visión general, Lista filtrada y Lista
-
-El perfil de usuario final de BCM de OpenPages tiene acceso de sólo lectura y está pensado para los empleados que necesitan ver planes de continuidad de negocio.
-
-##### Paneles de control
-
-BCM incluye dos paneles de control:
-
-- Panel de control OpenPages BCM Master
-- Panel de control Usuario final de BCM OpenPages
-
-El panel de control OpenPages BCM Master proporciona una visión general de alto nivel de las distintas actividades de continuidad de negocio de su organización. Un gestor de continuidad de negocio puede utilizar el panel de control para gestionar tareas y mantenerse informado de las actividades del programa de continuidad de negocio.
-
-El panel de control OpenPages del usuario final de BCM está pensado para que lo utilicen los empleados que necesitan ver planes de continuidad de negocio. El usuario final puede buscar planes aplicables y marcar documentos específicos como favoritos.
-
-##### Flujos de trabajo de ejemplo
-
-BCM incluye los siguientes flujos de trabajo de ejemplo:
-
-- **Proceso de revisión y aprobación del plan de continuidad de negocio**
-
-  Este flujo de trabajo permite al usuario iniciar el proceso de revisión y aprobación para un plan de continuidad de negocio (Plan BC) nuevo o publicado.
-
-  Para un nuevo Plan BC, el flujo de trabajo guía el proceso a través del progreso, en etapas de revisión y aprobación. El autor, el revisor y el aprobador son campos necesarios para avanzar en el flujo de trabajo. Una vez finalizado el proceso, el flujo de trabajo establece la siguiente fecha de revisión en 365 días y el estado a publicado.
-
-  Para un Plan BC publicado, el usuario tiene dos opciones:
-
-  - Renovar el plan BC actual sin realizar cambios en la versión publicada
-
-    Si se selecciona esta opción, el revisor necesita un comentario y el flujo de trabajo establece la siguiente fecha de revisión en 365 días. El flujo de trabajo hace que el proceso requiera solo una aprobación.
-  - Revisar el plan BC publicado
-
-    Si se selecciona esta opción, el flujo de trabajo "bloquea" el plan BC actual, hace una copia del plan y establece el estado del plan copiado en borrador.
-
-    La versión borrador copiada del plan pasa por el proceso de revisión y aprobación del flujo de trabajo. Tras la finalización, el flujo de trabajo establece el estado del plan en "publicado", incrementa el número de versión y establece la siguiente fecha de revisión en 365 días. El estado del plan publicado anteriormente se establece en archivado.
-
-  > **Nota:** Las siguientes asociaciones hijo que estaban presentes en el anterior ("bloqueado") El Plan BC también aparece en la nueva versión del Plan BC: BCTest Plan, Teams y Business Impact Analysis (BIA). Todas las asociaciones padre, con la excepción de Sucesos BC, se conservan para el nuevo plan BC.
-
-  *Figura 1. Flujo de trabajo Proceso de revisión y aprobación del plan de continuidad de negocio*
-
-  ![El Diseñador de vistas muestra las etapas del flujo de trabajo: Inicio, En curso, En revisión, Aprobación y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_bcm_workflow1.jpg)
-
-- **Análisis del impacto empresarial para determinar procesos críticos**
-
-  Este flujo de trabajo mueve el análisis del impacto empresarial (BIA) a través de un proceso de revisión y aprobación. Se necesita un cálculo en el objeto BIA para moverlo a la fase de aprobación. Después de la aprobación, dos de los valores resultantes del cálculo, Nivel de impacto e Interrupción máxima aceptable, se guardan en el padre de proceso del objeto BIA.
-
-  *Figura 2. Flujo de trabajo Análisis del impacto empresarial para determinar procesos críticos*
-
-  ![El Diseñador de vistas muestra las etapas del flujo de trabajo: Inicio, En curso, En revisión, Aprobación y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_bcm_workflow2.jpg)
-
-- **Elaboración de informes de resultados de pruebas de continuidad de negocio**
-
-  Este flujo de trabajo permite al usuario mover los resultados de prueba de documentos a través de un proceso de revisión y aprobación.
-
-  *Figura 3. Flujo de trabajo Elaboración de informes de resultados de pruebas de continuidad de negocio*
-
-  ![El Diseñador de vistas muestra las etapas del flujo de trabajo: Inicio, Resultados de documento, Problemas de documento y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_bcm_workflow3.jpg)
-
-##### Informes de Cognos
-
-BCM incluye un informe de Cognos predefinido. El informe se encuentra en el objeto Planes de continuidad de negocio y el enlace al mismo se denomina `Print BC Plan Details`. El enlace genera un informe de Cognos con los detalles del objeto Plan de continuidad de negocio en formato PDF.
-
-##### Cálculo del objeto Análisis del impacto empresarial
-
-Se define un cálculo sobre el objeto Análisis del impacto empresarial. Asigna una puntuación del impacto, un nivel de impacto y una interrupción máxima aceptable sugeridas para un proceso.
-
-Un usuario completa un análisis de impacto empresarial para determinar la importancia de un proceso o de un activo o recurso. El usuario proporciona un requisito contractual/regulador, un impacto financiero y un impacto de reputación. Cada una de esas respuestas tiene una puntuación ponderada previamente asignada. Basándose en las respuestas elegidas, el cálculo suma las tres puntuaciones ponderadas para generar una puntuación del impacto. Una puntuación de impacto tiene un rango de 0 a 15. En función de este rango, se asigna un nivel de impacto. Por último, basándose en el nivel de impacto, el cálculo genera una interrupción máxima aceptable (medida en días).
-
-El siguiente ejemplo muestra los resultados del cálculo de los campos Puntuación de impacto, Nivel de impacto y Interrupción máxima aceptable, dada la información proporcionada por el usuario.
-
-*Figura 4. Resultados de cálculo*
-
-![Una vista de tareas muestra un cálculo que ha proporcionado una medida del impacto, un nivel de impacto y una interrupción máxima aceptable.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_calc1.jpg)
-
-El cálculo se puede cambiar para que cumpla sus requisitos. Para más información sobre el Cálculos de GRC característica, ver [Cálculos de GRC](#cálculos-de-grc).
-
-#### Mejoras en IBM OpenPages Internal Audit Management
-
-`Características nuevas › Características nuevas de la versión 8.2.0 › Mejoras en las soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=enhancements-openpages-internal-audit-management)
-
-IBM OpenPages® Internal Audit Management ahora incluye un panel de control maestro en la IU centrada en tareas que proporciona una visión general de alto nivel de diversas actividades de auditoría interna. El usuario puede utilizar el panel de control para gestionar tareas que son aplicables a su función. Pueden acceder a un diagrama de Gantt para la planificación de auditoría, realizar un seguimiento de tareas, buscar objetos y marcar objetos específicos como favoritos para su fácil recuperación.
-
-*Figura 1. Panel de control maestro de IAM*
-
-![El panel de control de maestro de IAM muestra paneles para Mis favoritos, Auditorías por tipo, Auditoría por estado, Mis tareas, Entidades auditables por tipo, etc.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_820_iam_dashboard.jpg)
-
-#### Mejoras en IBM OpenPages Model Risk Governance
-
-`Características nuevas › Características nuevas de la versión 8.2.0 › Mejoras en las soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=enhancements-openpages-model-risk-governance)
-
-IBM OpenPages® Model Risk Governance (MRG) ahora incluye una integración lista para usar con IBM Watson® OpenScale.
-
-##### IBM Watson OpenScale Integración
-
-IBM Watson OpenScale es una herramienta que supervisa y mide los resultados de los modelos de IA en todo su ciclo de vida y realiza validaciones continuas de los modelos de IA. Las organizaciones pueden incluir modelos de inteligencia artificial en su inventario de modelos y enviar los resultados de la supervisión de rendimiento directamente a OpenPages.
-
-Se han actualizado los perfiles MRG y se han añadido nuevos campos, un flujo de trabajo y un filtro público para dar soporte a la integración entre OpenPages e IBM Watson OpenScale.
-
-##### Tutorial
-
-Este vídeo proporciona una visión general de cómo se integra OpenPages con IBM Watson OpenScale:
-
-[Este vídeo proporciona una descripción general de la integración entre MRG y OpenScale.](https://video.ibm.com/embed/channel/25817967/video/op-integrate-model-risk)
-
-##### Campos
-
-MRG incluye los siguientes campos nuevos:
-
-- Grupo de campos MRG-Model
-
-  - Modelo de aprendizaje automático
-  - Supervisado con Watson OpenScale
-- Grupo de campos MRG-Metric-Shared
-
-  - Tipo de métrica
-  - Categoría OpenScale
-  - Descripción de OpenScale
-  - Medida de OpenScale
-  - Valor de métrica de OpenScale
-
-##### Flujo de trabajo de ejemplo
-
-MRG incluye un nuevo flujo de trabajo denominado Información del último valor de la métrica de actualización de OpenScale. Actualiza los campos Información de último valor de métrica en objetos de métrica para modelos de IBM Watson OpenScale con valores del objeto de valor de métrica más reciente que IBM Watson OpenScale ha enviado a OpenPages. El flujo de trabajo actualiza los siguientes campos en el objeto de métrica:
-
-- Estado de vulneración
-- Estado de recopilación
-- Valor
-- Fecha del valor
-
-##### Filtro público
-
-MRG incluye un nuevo filtro público para el objeto Modelo que IBM Watson OpenScale utiliza para localizar modelos en OpenPages que tienen el campo Supervisado con Watson OpenScale establecido en Sí.
-
-##### Perfiles de usuario
-
-Los perfiles de MRG existentes se han actualizado para incluir los nuevos campos:
-
-- OpenPages MRG Master
-- MRG Model Owner (Propietario de modelo de MRG)
-- MRG Model Validation (Validación de modelo de MRG)
-
-#### Mejoras en IBM OpenPages Policy Management
-
-`Características nuevas › Características nuevas de la versión 8.2.0 › Mejoras en las soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=enhancements-openpages-policy-management)
-
-IBM OpenPages® Policy Management (PCM) incluye numerosas mejoras en perfiles, paneles de control y flujos de trabajo.
-
-##### Perfiles de usuario
-
-PCM incluye un nuevo perfil, OpenPages Perfil de usuario final de PCM.
-
-El perfil de usuario final de PCM de OpenPages tiene acceso de sólo lectura y está pensado para los empleados que necesitan ver políticas y procedimientos.
-
-##### Paneles de control
-
-PCM incluye dos nuevos paneles de control:
-
-- Panel de control de OpenPages PCM Master
-- Panel de control de OpenPages Usuario final de PCM
-
-El panel de control OpenPages PCM Master proporciona una visión general de alto nivel de las diversas actividades de gestión de políticas de la organización. Un gestor de políticas puede utilizar el panel de control para visualizar datos relevantes como el estado de las políticas. También pueden realizar un seguimiento de tareas, marcar documentos específicos como favoritos y crear un diagrama de Gantt para ayudar en la planificación de políticas.
-
-El panel de control OpenPages del usuario final de PCM está pensado para que lo utilicen los empleados que necesitan ver políticas y procedimientos que son relevantes para sus roles. El usuario final puede buscar documentos aplicables y marcar algunos específicos como favoritos.
-
-##### Flujo de trabajo
-
-El nuevo flujo de trabajo Revisión de política se ha diseñado para hacer avanzar un objeto de política a través de un proceso de revisión y aprobación de política. Cada acción crea un objeto Comentario de revisión de política (PRC) antes de las fases de revisión (SME, ejecutiva y final) y se asocia con la política en revisión. El PRC captura los comentarios y las aprobaciones para cada revisor. La revisión ejecutiva es opcional, dependiendo de si los cambios de política son sustanciales.
-
-*Figura 1. Flujo de trabajo de revisión de política*
-
-![El Editor de flujos de trabajo muestra las etapas del flujo de trabajo: Inicio, En curso, En revisión, Approval1 y Fin.](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_pcm_workflow1.jpg)
-
-##### Cambios en el objeto de interacción reguladora
-
-PCM incluye los cambios siguientes en el objeto de interacción reguladora:
-
-- Categoría de RI tiene una nueva etiqueta: Componente RI
-- Solicitud de RI tiene una etiqueta nueva: Subcomponente RI
-- RegTask tiene los padres nuevos siguientes: Interacción con la autoridad reguladora, Componente RI y Subcomponente RI.
-- Los tipos de objeto de Interacción con el regulador, Componente RI y Subcomponente RI tienen los siguientes padres nuevos: Mandato, Submandato, Requisito, Política, Procedimiento y Control
-
-Para obtener más información, consulte [Objetos de interacción normativa](#objetos-de-interacción-con-la-autoridad-reguladora).
-
-#### Mejoras en IBM OpenPages Regulatory Compliance Management
-
-`Características nuevas › Características nuevas de la versión 8.2.0 › Mejoras en las soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=se-enhancements-openpages-regulatory-compliance-management-1)
-
-IBM OpenPages® Regulatory Compliance Management (RCM) incluye numerosas mejoras que siguen basándose en la estrategia y la dirección que se introdujo en 8.1.0.
-
-##### Ascent Conector
-
-`Características nuevas › Características nuevas de la versión 8.2.0 › Mejoras en las soluciones › Mejoras en IBM OpenPages Regulatory Compliance Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=management-ascent-connector)
-
-IBM OpenPages® Regulatory Compliance Management ahora incluye un conector para Ascent Reg Tech (Ascent).
-
-El conector Ascent permite a los usuarios ingerir contenido de la biblioteca de Ascent directamente en RCM como objetos de mandato, submandato y requisito.
-
-El contenido de Ascent se clasifica de la forma siguiente:
-
-**Tabla 1. Ascent categorización de contenido**
-
-| Contenido de Ascent categorizado como ... | Se ingiere como... |
-| --- | --- |
-| Sección | Mandato |
-| Regla | Submandato |
-| tarea | Requisito |
-
-Utilizando la Normativa B como ejemplo, se ingiere 12 CFR 1002 en RCM como un Mandato, cada sección de Normativa B (es decir, 12 CFR 1002.4) se ingiere como un Submandato y la Tarea es el texto analizado del Submandato. Los Submandatos se asocian a sus objetos Mandato padre como parte del proceso de ingesta, por ejemplo, 12 CFR 1002 se asocia automáticamente a 12 CFR 1002.4. Los requisitos están asociados a su submandato padre y a su mandato abuelo. Los campos proporcionados por Ascent para estos registros incluyen el título, el detalle de tarea, el texto de submandato, el emisor, el tipo de documento, la indicación de ruta, el organismo emisor, la fecha efectiva, el sector afectado, la jurisdicción, el tipo de documento y un enlace al documento. A medida que la autoridad reguladora actualiza/añade contenido, Ascent proporciona actualizaciones a través del proceso de ingestión a dichos objetos de biblioteca reguladora.
-
-##### Thomson Reuters API
-
-`Características nuevas › Características nuevas de la versión 8.2.0 › Mejoras en las soluciones › Mejoras en IBM OpenPages Regulatory Compliance Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=management-thomson-reuters-api)
-
-IBM OpenPages® Regulatory Compliance Management incluye una nueva API de Thomson Reuters (TR) que permite la visualización del texto regulador que se mantiene en los libros de reglas TR.
-
-Cuando se abre el submandato TR, se llama automáticamente a la API, con lo que se produce el texto regulador del submandato. Para facilitar la visualización de todo el texto de la normativa, se ha añadido una vista de "ayuda contextual" que puede abrirse en el panel de la derecha. La "ayuda contextual" proporciona la capacidad de desplazar el texto regulador y el objeto Submandato independientemente para ayudarle con la revisión y la correlación.
-
-*Figura 1. Ejemplo de cómo se visualiza el texto regulador para un submandato*
-
-![Submandato de Thomson Reuters donde el texto de TR se visualiza en un panel contextual](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_820_rcm_tr_api.jpg)
-
-##### Objetos de Interacción con la autoridad reguladora
-
-`Características nuevas › Características nuevas de la versión 8.2.0 › Mejoras en las soluciones › Mejoras en IBM OpenPages Regulatory Compliance Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=management-regulatory-interaction-objects)
-
-IBM OpenPages® Regulatory Compliance Management ahora incluye los objetos de interacción con la autoridad reguladora (RI).
-
-La Interacción con la autoridad reguladora proporciona la posibilidad de gestionar las interacciones, la comunicación, el trabajo interno, la revisión y las aprobaciones que están asociadas a los reguladores externos como, por ejemplo, consultas, envíos, presentaciones, exámenes y reuniones. Para las interacciones complejas, como por ejemplo los exámenes, puede utilizar los objetos Componente RI y Subcomponente RI para partir la interacción en componentes más pequeños o para rastrear las consultas de seguimiento procedentes de la entidad reguladora. Las tareas individuales relacionadas con la gestión y la respuesta a la interacción con la entidad reguladora se pueden asignar a los usuarios a través de los objetos hijo de las tareas reguladoras. Se crearon varias asociaciones entre RI y mandato, submandato, requisito, política, procedimiento y control. Además, se pueden añadir tareas reguladoras. El objeto Comentario de Revisión de Cumplimiento se añadió para aportar algunas de las funcionalidades para la auditoría y/o la revisión de políticas.
-
-*Figura 1. El modelo de objeto de Interacción con la autoridad reguladora*
-
-![El modelo de objeto de Interacción reguladora muestra cómo se relacionan los tipos de objeto RI con otros tipos de objeto](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_820_rcm_ri_objects.jpg)
-
-##### Flujo de trabajo de interacción con la autoridad reguladora
-
-`Características nuevas › Características nuevas de la versión 8.2.0 › Mejoras en las soluciones › Mejoras en IBM OpenPages Regulatory Compliance Management` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=management-regulatory-interaction-workflow)
-
-IBM OpenPages® Regulatory Compliance Management incluye un nuevo flujo de trabajo de interacción normativa.
-
-El flujo de trabajo de interacción con la autoridad reguladora está diseñado para hacer avanzar una interacción con la autoridad reguladora a través de la ingesta de una disposición final de una consulta reguladoras. El flujo de trabajo de interacción con la entidad reguladora se inicia manualmente una vez que se crea el objeto de interacción con la entidad reguladora (RI). Después de la creación y en función de la entrada, el flujo de trabajo de RI puede recorrer cuatro rutas. Las cuatro vías de acceso ayudan al usuario a prepararse para 1) Reunión, 2) Examen, 3) Respuesta a una consulta, o 4) Otros. Las etapas del flujo de trabajo incluyen: 1. La captura de los detalles relevantes de la interacción con la entidad reguladora, 2. La identificación de propietario basada en la autoridad reguladora identificada, 3. El tipo de solicitud determinará qué ruta recorrerá el flujo de trabajo, 4. Pasos de preparación basados en la trayectoria recorrida, 5. Ejecución de la respuesta y 6. Disposición final.
-
-*Figura 1. Flujo de trabajo Interacción reguladora*
-
-![El flujo de trabajo de RI muestra las etapas que puede atravesar un objeto de RI](https://www.ibm.com/docs/es/SSFUEU_9.0.0/op_grc_new_features/c_op_nfg_820_rcm_ri_workflow.jpg)
-
-#### IBM OpenPages Third Party Risk Management
-
-`Características nuevas › Características nuevas de la versión 8.2.0 › Mejoras en las soluciones` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=se-openpages-third-party-risk-management)
-
-OpenPages® Third Party Risk Management se ha renombrado como IBM OpenPages Third Party Risk Management.
-
-### Software soportado
-
-`Características nuevas › Características nuevas de la versión 8.2.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=820-supported-software)
-
-IBM OpenPages® 8.2.0 requiere nuevas versiones de algún software:
-
-- IBM OpenPages ahora utiliza IBM® WebSphere® Liberty. IBM WebSphere Application Server Network Deployment (también denominado WebSpheretradicional) ya no está soportado.
-- Red Hat Enterprise Linux® (RHEL) Server 6.6 ya no está soportado.
-- Microsoft Windows Server 2012 Standard Edition y Microsoft Windows Server 2012 R2 Standard Edition ya no están soportados.
-- AIX® ya no está soportado.
-- Oracle 12.1.0.2 ya no está soportado.
-- IBM Db2® 11.5.0 (y futuros releases de 11.5.x.x ) ahora está soportado. Ahora la versión 11.1.4.4 es la versión mínima soportada.
-- IBM Java™ SDK/JRE 8.0.6.5 (o fixpacks posteriores) ahora está soportado.
-- Cognos® Analytics 11.1.3 (y releases continuos 11.1.x posteriores) es ahora la versión mínima soportada. Cognos Analytics 11.0.x ya no está soportado.
-- La integración de IBM Business Process Manager con IBM OpenPages ya no está soportada.
-- Microsoft Edge Chromium ahora está soportado por IBM OpenPages.
-
-  > **Nota:** Las versiones actuales de IBM Cognos Analytics 11.1.x no dan soporte a Microsoft Edge Chromium. Para obtener la información más reciente, consulte el informe [Entornos de software soportados](https://www.ibm.com/support/pages/node/735235) para Cognos .
-
-Para obtener más información, consulte [Entornos soportados](https://www.ibm.com/support/pages/node/713069).
-
-### Mejoras de administración y capacidad de servicio
-
-`Características nuevas › Características nuevas de la versión 8.2.0` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=820-administration-serviceability-enhancements)
-
-Se han realizado varias mejoras para ayudarle a administrar, mantener y dar soporte IBM OpenPages®.
-
-- Mejoras de rendimiento para filtros avanzados que incluyen campos de selector de varios actores en los criterios de filtro.
-- Mejoras de rendimiento para reglas de seguridad que incluyen campos de selector de varios actores en los criterios de filtro.
-- Para Oracle, cuando realiza una instalación o actualización nueva, el servidor de instalación comprueba los objetos que son necesarios para OpenPages. Si falta acceso público en un objeto, el proceso de instalación otorga acceso automáticamente al usuario de la base de datos `openpages`.
-- Ahora puede instalar y ejecutar las siguientes herramientas y programas de utilidad en un sistema remoto:
-
-  - ObjectManager
-  - Actualizar algoritmo de cifrado de contraseñas (UPEA)
-  - `chng-sys-password.sh|.cmd`
-  - `RpsRpf.sh|.cmd`
-  - Gestor de notificaciones
-
 ## Avisos
 
-`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.0.0?topic=features-notices)
+`Características nuevas` · [origen](https://www.ibm.com/docs/es/openpages/9.1.x?topic=features-notices)
 
 Esta información se ha desarrollado para productos y servicios que se ofrecen en Estados Unidos.
 
